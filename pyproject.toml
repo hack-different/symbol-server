@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "symbol-server"
+version = "0.1.0"
+description = "Symbol Server for Apple Binaries"
+authors = ["Rick Mark <rickmark@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
+pre-commit = "^2.17.0"
+PyYAML = "^6.0"
+clang = "^14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
