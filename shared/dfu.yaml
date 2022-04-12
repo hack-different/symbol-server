@@ -1,0 +1,30 @@
+---
+enums:
+  boot_target:
+    BOOT_UNKOWN: 0x00
+    BOOT_HALT: 0x01
+    BOOT_IBOOT: 0x02
+    BOOT_DARWIN: 0x03
+    BOOT_DARWIN_RESTORE: 0x04
+    BOOT_DIAGS: 0x05
+    BOOT_TSYS: 0x06
+    BOOT_SECUREROM: 0x07
+    BOOT_MONITOR: 0x08
+    BOOT_DALI: 0x09
+  memory_region_type_t:
+    kMemoryRegion_StorageProcessor: 0x00
+    kMemoryRegion_ConsistentDebug: 0x01
+    kMemoryRegion_SleepToken: 0x02
+    kMemoryRegion_DramConfig: 0x03
+    kMemoryRegion_Panic: 0x04
+    kMemoryRegion_Display: 0x05
+    kMemoryRegion_Heap: 0x06
+    kMemoryRegion_Stacks: 0x07
+    kMemoryRegion_PageTables: 0x08
+    kMemoryRegion_iBoot: 0x09
+    kMemoryRegion_Kernel: 0x0A
+    kMemoryRegion_Monitor: 0x0B
+    kMemoryRegion_SecureProcessor: 0x0C
+    kMemoryRegion_AOP: 0x0D
+    kMemoryRegion_Reconfig: 0x0E
+    kMemoryRegion_NumberOfRegions: 0x0F

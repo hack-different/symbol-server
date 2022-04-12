@@ -1,3 +1,5 @@
+imports:
+- dfu
 symbols:
  rom:
     0x03E8: read_control_register_data
