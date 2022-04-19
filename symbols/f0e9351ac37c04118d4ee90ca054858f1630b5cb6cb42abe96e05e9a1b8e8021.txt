@@ -1,0 +1,145 @@
+ffffff7f84777ff0 S _DrizzlePlatformSupportVersionNumber
+ffffff7f84777fb0 S _DrizzlePlatformSupportVersionString
+ffffff7f84777dfd t _OSKextGetCurrentIdentifier
+ffffff7f84777e1f t _OSKextGetCurrentLoadTag
+ffffff7f84777e0e t _OSKextGetCurrentVersionString
+ffffff7f84777c3e T _ShouldDrizzleLoadOnThisHardware
+ffffff7f847777b9 t __GLOBAL__D_a
+ffffff7f84777686 t __GLOBAL__sub_I_DrizzleDevice.cpp
+ffffff7f8477c3c8 b gDMIMemoryMap
+ffffff7f8477c2a0 S DrizzleDevice::gMetaClass
+ffffff7f84778038 S DrizzleDevice::superClass
+ffffff7f84776c26 T DrizzleDevice::probe(IOService*, int*)
+ffffff7f84776a94 T DrizzleDevice::MetaClass::MetaClass()
+ffffff7f84776b54 T DrizzleDevice::MetaClass::MetaClass()
+ffffff7f84777640 t DrizzleDevice::MetaClass::~MetaClass()
+ffffff7f84776ac6 t DrizzleDevice::MetaClass::~MetaClass()
+ffffff7f84778030 S DrizzleDevice::metaClass
+ffffff7f84776af0 T DrizzleDevice::DrizzleDevice(OSMetaClass const*)
+ffffff7f84776bc6 T DrizzleDevice::DrizzleDevice()
+ffffff7f84776ad0 T DrizzleDevice::DrizzleDevice(OSMetaClass const*)
+ffffff7f84776bf6 T DrizzleDevice::DrizzleDevice()
+ffffff7f84776b24 T DrizzleDevice::~DrizzleDevice()
+ffffff7f84776b1a T DrizzleDevice::~DrizzleDevice()
+ffffff7f84776b10 T DrizzleDevice::~DrizzleDevice()
+ffffff7f8477c2f0 S DrizzleHDADevice::gMetaClass
+ffffff7f847792f8 S DrizzleHDADevice::superClass
+ffffff7f84776dd8 T DrizzleHDADevice::MetaClass::MetaClass()
+ffffff7f84776e98 T DrizzleHDADevice::MetaClass::MetaClass()
+ffffff7f84777654 t DrizzleHDADevice::MetaClass::~MetaClass()
+ffffff7f84776e0a t DrizzleHDADevice::MetaClass::~MetaClass()
+ffffff7f847792f0 S DrizzleHDADevice::metaClass
+ffffff7f84776e34 T DrizzleHDADevice::DrizzleHDADevice(OSMetaClass const*)
+ffffff7f84776f0a T DrizzleHDADevice::DrizzleHDADevice()
+ffffff7f84776e14 T DrizzleHDADevice::DrizzleHDADevice(OSMetaClass const*)
+ffffff7f84776f3a T DrizzleHDADevice::DrizzleHDADevice()
+ffffff7f84776e68 T DrizzleHDADevice::~DrizzleHDADevice()
+ffffff7f84776e5e T DrizzleHDADevice::~DrizzleHDADevice()
+ffffff7f84776e54 T DrizzleHDADevice::~DrizzleHDADevice()
+ffffff7f8477c318 S DrizzleSMCDevice::gMetaClass
+ffffff7f84779c58 S DrizzleSMCDevice::superClass
+ffffff7f84776f6a T DrizzleSMCDevice::MetaClass::MetaClass()
+ffffff7f8477702a T DrizzleSMCDevice::MetaClass::MetaClass()
+ffffff7f8477765e t DrizzleSMCDevice::MetaClass::~MetaClass()
+ffffff7f84776f9c t DrizzleSMCDevice::MetaClass::~MetaClass()
+ffffff7f84779c50 S DrizzleSMCDevice::metaClass
+ffffff7f84776fc6 T DrizzleSMCDevice::DrizzleSMCDevice(OSMetaClass const*)
+ffffff7f8477709c T DrizzleSMCDevice::DrizzleSMCDevice()
+ffffff7f84776fa6 T DrizzleSMCDevice::DrizzleSMCDevice(OSMetaClass const*)
+ffffff7f847770cc T DrizzleSMCDevice::DrizzleSMCDevice()
+ffffff7f84776ffa T DrizzleSMCDevice::~DrizzleSMCDevice()
+ffffff7f84776ff0 T DrizzleSMCDevice::~DrizzleSMCDevice()
+ffffff7f84776fe6 T DrizzleSMCDevice::~DrizzleSMCDevice()
+ffffff7f8477c2c8 S DrizzleBluetoothDevice::gMetaClass
+ffffff7f84778998 S DrizzleBluetoothDevice::superClass
+ffffff7f84776c46 T DrizzleBluetoothDevice::MetaClass::MetaClass()
+ffffff7f84776d06 T DrizzleBluetoothDevice::MetaClass::MetaClass()
+ffffff7f8477764a t DrizzleBluetoothDevice::MetaClass::~MetaClass()
+ffffff7f84776c78 t DrizzleBluetoothDevice::MetaClass::~MetaClass()
+ffffff7f84778990 S DrizzleBluetoothDevice::metaClass
+ffffff7f84776ca2 T DrizzleBluetoothDevice::DrizzleBluetoothDevice(OSMetaClass const*)
+ffffff7f84776d78 T DrizzleBluetoothDevice::DrizzleBluetoothDevice()
+ffffff7f84776c82 T DrizzleBluetoothDevice::DrizzleBluetoothDevice(OSMetaClass const*)
+ffffff7f84776da8 T DrizzleBluetoothDevice::DrizzleBluetoothDevice()
+ffffff7f84776cd6 T DrizzleBluetoothDevice::~DrizzleBluetoothDevice()
+ffffff7f84776ccc T DrizzleBluetoothDevice::~DrizzleBluetoothDevice()
+ffffff7f84776cc2 T DrizzleBluetoothDevice::~DrizzleBluetoothDevice()
+ffffff7f8477c340 S DrizzlePlatformPluginDevice::gMetaClass
+ffffff7f8477a5b8 S DrizzlePlatformPluginDevice::superClass
+ffffff7f847770fc T DrizzlePlatformPluginDevice::MetaClass::MetaClass()
+ffffff7f847771bc T DrizzlePlatformPluginDevice::MetaClass::MetaClass()
+ffffff7f84777668 t DrizzlePlatformPluginDevice::MetaClass::~MetaClass()
+ffffff7f8477712e t DrizzlePlatformPluginDevice::MetaClass::~MetaClass()
+ffffff7f8477a5b0 S DrizzlePlatformPluginDevice::metaClass
+ffffff7f84777158 T DrizzlePlatformPluginDevice::DrizzlePlatformPluginDevice(OSMetaClass const*)
+ffffff7f8477722e T DrizzlePlatformPluginDevice::DrizzlePlatformPluginDevice()
+ffffff7f84777138 T DrizzlePlatformPluginDevice::DrizzlePlatformPluginDevice(OSMetaClass const*)
+ffffff7f8477725e T DrizzlePlatformPluginDevice::DrizzlePlatformPluginDevice()
+ffffff7f8477718c T DrizzlePlatformPluginDevice::~DrizzlePlatformPluginDevice()
+ffffff7f84777182 T DrizzlePlatformPluginDevice::~DrizzlePlatformPluginDevice()
+ffffff7f84777178 T DrizzlePlatformPluginDevice::~DrizzlePlatformPluginDevice()
+ffffff7f8477c390 S DrizzleAppleACPIPlatformExpertDevice::gMetaClass
+ffffff7f8477b878 S DrizzleAppleACPIPlatformExpertDevice::superClass
+ffffff7f84777812 T DrizzleAppleACPIPlatformExpertDevice::parseSMBIOS()
+ffffff7f84777614 T DrizzleAppleACPIPlatformExpertDevice::probe(IOService*, int*)
+ffffff7f84777482 T DrizzleAppleACPIPlatformExpertDevice::MetaClass::MetaClass()
+ffffff7f84777542 T DrizzleAppleACPIPlatformExpertDevice::MetaClass::MetaClass()
+ffffff7f8477767c t DrizzleAppleACPIPlatformExpertDevice::MetaClass::~MetaClass()
+ffffff7f847774b4 t DrizzleAppleACPIPlatformExpertDevice::MetaClass::~MetaClass()
+ffffff7f8477b870 S DrizzleAppleACPIPlatformExpertDevice::metaClass
+ffffff7f847774de T DrizzleAppleACPIPlatformExpertDevice::DrizzleAppleACPIPlatformExpertDevice(OSMetaClass const*)
+ffffff7f847775b4 T DrizzleAppleACPIPlatformExpertDevice::DrizzleAppleACPIPlatformExpertDevice()
+ffffff7f847774be T DrizzleAppleACPIPlatformExpertDevice::DrizzleAppleACPIPlatformExpertDevice(OSMetaClass const*)
+ffffff7f847775e4 T DrizzleAppleACPIPlatformExpertDevice::DrizzleAppleACPIPlatformExpertDevice()
+ffffff7f84777512 T DrizzleAppleACPIPlatformExpertDevice::~DrizzleAppleACPIPlatformExpertDevice()
+ffffff7f84777508 T DrizzleAppleACPIPlatformExpertDevice::~DrizzleAppleACPIPlatformExpertDevice()
+ffffff7f847774fe T DrizzleAppleACPIPlatformExpertDevice::~DrizzleAppleACPIPlatformExpertDevice()
+ffffff7f8477c368 S DrizzleAppleIntel8254XEthernetDevice::gMetaClass
+ffffff7f8477af18 S DrizzleAppleIntel8254XEthernetDevice::superClass
+ffffff7f84777420 T DrizzleAppleIntel8254XEthernetDevice::probe(IOService*, int*)
+ffffff7f8477728e T DrizzleAppleIntel8254XEthernetDevice::MetaClass::MetaClass()
+ffffff7f8477734e T DrizzleAppleIntel8254XEthernetDevice::MetaClass::MetaClass()
+ffffff7f84777672 t DrizzleAppleIntel8254XEthernetDevice::MetaClass::~MetaClass()
+ffffff7f847772c0 t DrizzleAppleIntel8254XEthernetDevice::MetaClass::~MetaClass()
+ffffff7f8477af10 S DrizzleAppleIntel8254XEthernetDevice::metaClass
+ffffff7f847772ea T DrizzleAppleIntel8254XEthernetDevice::DrizzleAppleIntel8254XEthernetDevice(OSMetaClass const*)
+ffffff7f847773c0 T DrizzleAppleIntel8254XEthernetDevice::DrizzleAppleIntel8254XEthernetDevice()
+ffffff7f847772ca T DrizzleAppleIntel8254XEthernetDevice::DrizzleAppleIntel8254XEthernetDevice(OSMetaClass const*)
+ffffff7f847773f0 T DrizzleAppleIntel8254XEthernetDevice::DrizzleAppleIntel8254XEthernetDevice()
+ffffff7f8477731e T DrizzleAppleIntel8254XEthernetDevice::~DrizzleAppleIntel8254XEthernetDevice()
+ffffff7f84777314 T DrizzleAppleIntel8254XEthernetDevice::~DrizzleAppleIntel8254XEthernetDevice()
+ffffff7f8477730a T DrizzleAppleIntel8254XEthernetDevice::~DrizzleAppleIntel8254XEthernetDevice()
+ffffff7f84776b46 T DrizzleDevice::getMetaClass() const
+ffffff7f84776b86 T DrizzleDevice::MetaClass::alloc() const
+ffffff7f84776e8a T DrizzleHDADevice::getMetaClass() const
+ffffff7f84776eca T DrizzleHDADevice::MetaClass::alloc() const
+ffffff7f8477701c T DrizzleSMCDevice::getMetaClass() const
+ffffff7f8477705c T DrizzleSMCDevice::MetaClass::alloc() const
+ffffff7f84776cf8 T DrizzleBluetoothDevice::getMetaClass() const
+ffffff7f84776d38 T DrizzleBluetoothDevice::MetaClass::alloc() const
+ffffff7f847771ae T DrizzlePlatformPluginDevice::getMetaClass() const
+ffffff7f847771ee T DrizzlePlatformPluginDevice::MetaClass::alloc() const
+ffffff7f84777534 T DrizzleAppleACPIPlatformExpertDevice::getMetaClass() const
+ffffff7f84777574 T DrizzleAppleACPIPlatformExpertDevice::MetaClass::alloc() const
+ffffff7f84777340 T DrizzleAppleIntel8254XEthernetDevice::getMetaClass() const
+ffffff7f84777380 T DrizzleAppleIntel8254XEthernetDevice::MetaClass::alloc() const
+ffffff7f84778040 S vtable for DrizzleDevice
+ffffff7f84779300 S vtable for DrizzleHDADevice
+ffffff7f84779c60 S vtable for DrizzleSMCDevice
+ffffff7f847789a0 S vtable for DrizzleBluetoothDevice
+ffffff7f8477a5c0 S vtable for DrizzlePlatformPluginDevice
+ffffff7f8477b880 S vtable for DrizzleAppleACPIPlatformExpertDevice
+ffffff7f8477af20 S vtable for DrizzleAppleIntel8254XEthernetDevice
+ffffff7f847788a8 S vtable for DrizzleDevice::MetaClass
+ffffff7f84779b68 S vtable for DrizzleHDADevice::MetaClass
+ffffff7f8477a4c8 S vtable for DrizzleSMCDevice::MetaClass
+ffffff7f84779208 S vtable for DrizzleBluetoothDevice::MetaClass
+ffffff7f8477ae28 S vtable for DrizzlePlatformPluginDevice::MetaClass
+ffffff7f8477c0f0 S vtable for DrizzleAppleACPIPlatformExpertDevice::MetaClass
+ffffff7f8477b788 S vtable for DrizzleAppleIntel8254XEthernetDevice::MetaClass
+ffffff7f8477c3c0 s __antimain
+ffffff7f8477c29c d __kext_apple_cc
+ffffff7f8477c3b8 s __realmain
+ffffff7f84777de3 t __start
+ffffff7f84777e2f t __stop
+ffffff7f8477c1d8 D _kmod_info

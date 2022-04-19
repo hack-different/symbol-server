@@ -1,0 +1,351 @@
+                 U _IOFree
+                 U _IOLockAlloc
+                 U _IOLockLock
+                 U _IOLockUnlock
+                 U _IOMalloc
+0000000000001cef t _OSKextGetCurrentIdentifier
+0000000000001d11 t _OSKextGetCurrentLoadTag
+0000000000001d00 t _OSKextGetCurrentVersionString
+0000000000000a9d t __GLOBAL__D_a
+0000000000000a6a t __GLOBAL__sub_I_AppleIntelCPUPowerManagementDriver.cpp
+                 U OSMetaClass::_RESERVEDOSMetaClass0()
+                 U OSMetaClass::_RESERVEDOSMetaClass1()
+                 U OSMetaClass::_RESERVEDOSMetaClass2()
+                 U OSMetaClass::_RESERVEDOSMetaClass3()
+                 U OSMetaClass::_RESERVEDOSMetaClass4()
+                 U OSMetaClass::_RESERVEDOSMetaClass5()
+                 U OSMetaClass::_RESERVEDOSMetaClass6()
+                 U OSMetaClass::_RESERVEDOSMetaClass7()
+                 U OSMetaClass::OSMetaClass(char const*, OSMetaClass const*, unsigned int)
+                 U OSMetaClass::~OSMetaClass()
+                 U IORegistryEntry::detachAbove(IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::setProperty(OSString const*, OSObject*)
+                 U IORegistryEntry::setProperty(OSSymbol const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, void*, unsigned int)
+                 U IORegistryEntry::setProperty(char const*, char const*)
+                 U IORegistryEntry::setProperty(char const*, bool)
+                 U IORegistryEntry::setProperty(char const*, unsigned long long, unsigned int)
+                 U IORegistryEntry::attachToChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::childFromPath(char const*, IORegistryPlane const*, char*, int*)
+                 U IORegistryEntry::setProperties(OSObject*)
+                 U IORegistryEntry::attachToParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::removeProperty(OSString const*)
+                 U IORegistryEntry::removeProperty(OSSymbol const*)
+                 U IORegistryEntry::removeProperty(char const*)
+                 U IORegistryEntry::detachFromChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::detachFromParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::setPropertyTable(OSDictionary*)
+                 U IORegistryEntry::runPropertyAction(int (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*)
+                 U IORegistryEntry::_RESERVEDIORegistryEntry0()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry1()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry2()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry3()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry4()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry5()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry6()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry7()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry8()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry9()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry10()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry11()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry12()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry13()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry14()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry15()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry16()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry17()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry18()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry19()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry20()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry21()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry22()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry23()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry24()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry25()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry26()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry27()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry28()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry29()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry30()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry31()
+                 U IORegistryEntry::setName(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setName(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::detachAll(IORegistryPlane const*)
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase3()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase4()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase5()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase6()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase7()
+0000000000002ac0 S AppleIntelCPUPowerManagementDriver::gMetaClass
+0000000000002028 S AppleIntelCPUPowerManagementDriver::superClass
+0000000000000a5a T AppleIntelCPUPowerManagementDriver::free()
+0000000000000a54 T AppleIntelCPUPowerManagementDriver::stop(IOService*)
+0000000000000a4a T AppleIntelCPUPowerManagementDriver::probe(IOService*, int*)
+00000000000009f6 T AppleIntelCPUPowerManagementDriver::start(IOService*)
+0000000000000864 T AppleIntelCPUPowerManagementDriver::MetaClass::MetaClass()
+0000000000000924 T AppleIntelCPUPowerManagementDriver::MetaClass::MetaClass()
+0000000000000a60 t AppleIntelCPUPowerManagementDriver::MetaClass::~MetaClass()
+0000000000000896 t AppleIntelCPUPowerManagementDriver::MetaClass::~MetaClass()
+0000000000002020 S AppleIntelCPUPowerManagementDriver::metaClass
+00000000000008c0 T AppleIntelCPUPowerManagementDriver::AppleIntelCPUPowerManagementDriver(OSMetaClass const*)
+0000000000000996 T AppleIntelCPUPowerManagementDriver::AppleIntelCPUPowerManagementDriver()
+00000000000008a0 T AppleIntelCPUPowerManagementDriver::AppleIntelCPUPowerManagementDriver(OSMetaClass const*)
+00000000000009c6 T AppleIntelCPUPowerManagementDriver::AppleIntelCPUPowerManagementDriver()
+00000000000008f4 T AppleIntelCPUPowerManagementDriver::~AppleIntelCPUPowerManagementDriver()
+00000000000008ea T AppleIntelCPUPowerManagementDriver::~AppleIntelCPUPowerManagementDriver()
+00000000000008e0 T AppleIntelCPUPowerManagementDriver::~AppleIntelCPUPowerManagementDriver()
+                 U OSObject::_RESERVEDOSObject0()
+                 U OSObject::_RESERVEDOSObject1()
+                 U OSObject::_RESERVEDOSObject2()
+                 U OSObject::_RESERVEDOSObject3()
+                 U OSObject::_RESERVEDOSObject4()
+                 U OSObject::_RESERVEDOSObject5()
+                 U OSObject::_RESERVEDOSObject6()
+                 U OSObject::_RESERVEDOSObject7()
+                 U OSObject::_RESERVEDOSObject8()
+                 U OSObject::_RESERVEDOSObject9()
+                 U OSObject::_RESERVEDOSObject10()
+                 U OSObject::_RESERVEDOSObject11()
+                 U OSObject::_RESERVEDOSObject12()
+                 U OSObject::_RESERVEDOSObject13()
+                 U OSObject::_RESERVEDOSObject14()
+                 U OSObject::_RESERVEDOSObject15()
+                 U OSObject::init()
+                 U OSObject::operator delete(void*, unsigned long)
+                 U OSObject::operator new(unsigned long)
+                 U IOService::adjustBusy(int)
+                 U IOService::gMetaClass
+                 U IOService::handleOpen(IOService*, unsigned int, void*)
+                 U IOService::joinPMtree(IOService*)
+                 U IOService::handleClose(IOService*, unsigned int)
+                 U IOService::didTerminate(IOService*, unsigned int, bool*)
+                 U IOService::getBusyState()
+                 U IOService::getResources()
+                 U IOService::requestProbe(unsigned int)
+                 U IOService::tellChangeUp(unsigned long)
+                 U IOService::updateReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::addPowerChild(IOService*)
+                 U IOService::askChangeDown(unsigned long)
+                 U IOService::matchLocation(IOService*)
+                 U IOService::messageClient(unsigned int, OSObject*, void*, unsigned long)
+                 U IOService::newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**)
+                 U IOService::newUserClient(task*, void*, unsigned int, IOUserClient**)
+                 U IOService::setPowerState(unsigned long, IOService*)
+                 U IOService::willTerminate(IOService*, unsigned int)
+                 U IOService::activityTickle(unsigned long, unsigned long)
+                 U IOService::applyToClients(void (*)(IOService*, void*), void*)
+                 U IOService::causeInterrupt(int)
+                 U IOService::messageClients(unsigned int, void*, unsigned long)
+                 U IOService::tellChangeDown(unsigned long)
+                 U IOService::compareProperty(OSDictionary*, OSString const*)
+                 U IOService::compareProperty(OSDictionary*, char const*)
+                 U IOService::configureReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::enableInterrupt(int)
+                 U IOService::errnoFromReturn(int)
+                 U IOService::getDeviceMemory()
+                 U IOService::nextIdleTimeout(unsigned long long, unsigned long long, unsigned int)
+                 U IOService::powerChangeDone(unsigned long)
+                 U IOService::registerService(unsigned int)
+                 U IOService::setDeviceMemory(OSArray*)
+                 U IOService::terminateClient(IOService*, unsigned int)
+                 U IOService::allowPowerChange(unsigned long)
+                 U IOService::applyToProviders(void (*)(IOService*, void*), void*)
+                 U IOService::disableInterrupt(int)
+                 U IOService::getInterruptType(int, int*)
+                 U IOService::registerInterest(OSSymbol const*, int (*)(void*, void*, unsigned int, IOService*, void*, unsigned long), void*, void*)
+                 U IOService::removePowerChild(IOPowerConnection*)
+                 U IOService::requestTerminate(IOService*, unsigned int)
+                 U IOService::stringFromReturn(int)
+                 U IOService::tellNoChangeDown(unsigned long)
+                 U IOService::addNeededResource(char const*)
+                 U IOService::applyToInterested(OSSymbol const*, void (*)(OSObject*, void*), void*)
+                 U IOService::cancelPowerChange(unsigned long)
+                 U IOService::compareProperties(OSDictionary*, OSCollection*)
+                 U IOService::getAggressiveness(unsigned long, unsigned long*)
+                 U IOService::registerInterrupt(int, OSObject*, void (*)(OSObject*, void*, IOService*, int), void*)
+                 U IOService::setAggressiveness(unsigned long, unsigned long)
+                 U IOService::lockForArbitration(bool)
+                 U IOService::matchPropertyTable(OSDictionary*)
+                 U IOService::matchPropertyTable(OSDictionary*, int*)
+                 U IOService::setIdleTimerPeriod(unsigned long)
+                 U IOService::systemWillShutdown(unsigned int)
+                 U IOService::_RESERVEDIOService2()
+                 U IOService::_RESERVEDIOService3()
+                 U IOService::_RESERVEDIOService4()
+                 U IOService::_RESERVEDIOService5()
+                 U IOService::_RESERVEDIOService6()
+                 U IOService::_RESERVEDIOService7()
+                 U IOService::_RESERVEDIOService8()
+                 U IOService::_RESERVEDIOService9()
+                 U IOService::registerPowerDriver(IOService*, IOPMPowerState*, unsigned long)
+                 U IOService::unregisterInterrupt(int)
+                 U IOService::_RESERVEDIOService10()
+                 U IOService::_RESERVEDIOService11()
+                 U IOService::_RESERVEDIOService12()
+                 U IOService::_RESERVEDIOService13()
+                 U IOService::_RESERVEDIOService14()
+                 U IOService::_RESERVEDIOService15()
+                 U IOService::_RESERVEDIOService16()
+                 U IOService::_RESERVEDIOService17()
+                 U IOService::_RESERVEDIOService18()
+                 U IOService::_RESERVEDIOService19()
+                 U IOService::_RESERVEDIOService20()
+                 U IOService::_RESERVEDIOService21()
+                 U IOService::_RESERVEDIOService22()
+                 U IOService::_RESERVEDIOService23()
+                 U IOService::_RESERVEDIOService24()
+                 U IOService::_RESERVEDIOService25()
+                 U IOService::_RESERVEDIOService26()
+                 U IOService::_RESERVEDIOService27()
+                 U IOService::_RESERVEDIOService28()
+                 U IOService::_RESERVEDIOService29()
+                 U IOService::_RESERVEDIOService30()
+                 U IOService::_RESERVEDIOService31()
+                 U IOService::_RESERVEDIOService32()
+                 U IOService::_RESERVEDIOService33()
+                 U IOService::_RESERVEDIOService34()
+                 U IOService::_RESERVEDIOService35()
+                 U IOService::_RESERVEDIOService36()
+                 U IOService::_RESERVEDIOService37()
+                 U IOService::_RESERVEDIOService38()
+                 U IOService::_RESERVEDIOService39()
+                 U IOService::_RESERVEDIOService40()
+                 U IOService::_RESERVEDIOService41()
+                 U IOService::_RESERVEDIOService42()
+                 U IOService::_RESERVEDIOService43()
+                 U IOService::_RESERVEDIOService44()
+                 U IOService::_RESERVEDIOService45()
+                 U IOService::_RESERVEDIOService46()
+                 U IOService::_RESERVEDIOService47()
+                 U IOService::callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*)
+                 U IOService::callPlatformFunction(char const*, bool, void*, void*, void*, void*)
+                 U IOService::getDeviceMemoryCount()
+                 U IOService::unlockForArbitration()
+                 U IOService::powerStateDidChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::copyClientWithCategory(OSSymbol const*)
+                 U IOService::powerStateWillChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::acknowledgeNotification(void*, unsigned int)
+                 U IOService::requestPowerDomainState(unsigned long, IOPowerConnection*, unsigned long)
+                 U IOService::getDeviceMemoryWithIndex(unsigned int)
+                 U IOService::mapDeviceMemoryWithIndex(unsigned int, unsigned int)
+                 U IOService::powerStateForDomainState(unsigned long)
+                 U IOService::maxCapabilityForDomainState(unsigned long)
+                 U IOService::initialPowerStateForDomainState(unsigned long)
+                 U IOService::init(OSDictionary*)
+                 U IOService::init(IORegistryEntry*, IORegistryPlane const*)
+                 U IOService::open(IOService*, unsigned int, void*)
+                 U IOService::close(IOService*, unsigned int)
+                 U IOService::PMinit()
+                 U IOService::PMstop()
+                 U IOService::attach(IOService*)
+                 U IOService::detach(IOService*)
+                 U IOService::message(unsigned int, IOService*, void*)
+                 U IOService::finalize(unsigned int)
+                 U IOService::terminate(unsigned int)
+                 U IOService::IOService(OSMetaClass const*)
+                 U IOService::~IOService()
+                 U OSMetaClass::getMetaClass() const
+                 U OSMetaClass::taggedRetain(void const*) const
+                 U OSMetaClass::taggedRelease(void const*) const
+                 U OSMetaClass::taggedRelease(void const*, int) const
+                 U OSMetaClass::getRetainCount() const
+                 U OSMetaClass::instanceConstructed() const
+                 U OSMetaClass::retain() const
+                 U OSMetaClass::release(int) const
+                 U OSMetaClass::release() const
+                 U OSMetaClass::serialize(OSSerialize*) const
+                 U IORegistryEntry::compareName(OSString*, OSString**) const
+                 U IORegistryEntry::getLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::getProperty(OSString const*) const
+                 U IORegistryEntry::getProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(OSSymbol const*) const
+                 U IORegistryEntry::getProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(char const*) const
+                 U IORegistryEntry::getProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::compareNames(OSObject*, OSString**) const
+                 U IORegistryEntry::copyLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::copyProperty(OSString const*) const
+                 U IORegistryEntry::copyProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(char const*) const
+                 U IORegistryEntry::copyProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToParents(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToChildren(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getChildIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::getPathComponent(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::getParentIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::dictionaryWithProperties() const
+                 U IORegistryEntry::getName(IORegistryPlane const*) const
+                 U IORegistryEntry::getPath(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::inPlane(IORegistryPlane const*) const
+                 U IORegistryEntry::isChild(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U IORegistryEntry::copyName(IORegistryPlane const*) const
+                 U IORegistryEntry::getDepth(IORegistryPlane const*) const
+                 U IORegistryEntry::isParent(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U OSMetaClassBase::isEqualTo(OSMetaClassBase const*) const
+0000000000000916 T AppleIntelCPUPowerManagementDriver::getMetaClass() const
+0000000000000956 T AppleIntelCPUPowerManagementDriver::MetaClass::alloc() const
+                 U OSObject::taggedRetain(void const*) const
+                 U OSObject::taggedRelease(void const*) const
+                 U OSObject::taggedRelease(void const*, int) const
+                 U OSObject::getRetainCount() const
+                 U OSObject::retain() const
+                 U OSObject::release(int) const
+                 U OSObject::release() const
+                 U OSObject::serialize(OSSerialize*) const
+                 U IOService::getProvider() const
+                 U IOService::getWorkLoop() const
+                 U IOService::handleIsOpen(IOService const*) const
+                 U IOService::getClientIterator() const
+                 U IOService::getProviderIterator() const
+                 U IOService::serializeProperties(OSSerialize*) const
+                 U IOService::getOpenClientIterator() const
+                 U IOService::getOpenProviderIterator() const
+                 U IOService::isOpen(IOService const*) const
+                 U IOService::getState() const
+                 U IOService::getClient() const
+0000000000002030 S vtable for AppleIntelCPUPowerManagementDriver
+                 U vtable for IOService
+0000000000002898 S vtable for AppleIntelCPUPowerManagementDriver::MetaClass
+0000000000002af8 s __antimain
+0000000000002abc d __kext_apple_cc
+0000000000002af0 s __realmain
+0000000000001cd5 t __start
+0000000000001d21 t __stop
+                 U _cdevsw_add
+0000000000002b38 b _context
+                 U _copyin
+                 U _copyout
+                 U _devfs_make_node
+                 U _enodev
+                 U _enodev_strat
+00000000000029f8 D _kmod_info
+                 U _pmCPUControl
+0000000000002984 D _pmDev
+0000000000002988 d _pmcdevsw
+0000000000002b00 b _pmdevInited
+0000000000002980 D _pmdevMajor
+0000000000002b08 b _pmdev_lock
+0000000000002ae8 S _pmdevb
+0000000000000c03 t _pmdevclose
+0000000000000c0b t _pmdevioctl
+0000000000000bc7 t _pmdevopen
+0000000000000ab0 T _pmdevregister
+0000000000002b10 b _pmioctl
+0000000000001c3c t _pmioctlIn
+0000000000001c75 t _pmioctlInOut
+0000000000001c04 t _pmioctlOut
+                 U _printf
+                 U _proc_suser
+0000000000002b18 b _pstate_table
+0000000000002b20 b _pstate_table2
+0000000000002b30 b _ring_table
+0000000000002b28 b _stepper

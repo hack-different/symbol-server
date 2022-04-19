@@ -1,0 +1,607 @@
+                 U _IOFree
+                 U _IOMalloc
+                 U _IONVMeDebugAssert
+                 U _IOSimpleLockAlloc
+                 U _IOSimpleLockFree
+                 U _IOSimpleLockLock
+                 U _IOSimpleLockUnlock
+00000000000064b0 t _OSKextGetCurrentIdentifier
+00000000000064d2 t _OSKextGetCurrentLoadTag
+00000000000064c1 t _OSKextGetCurrentVersionString
+                 U _PE_parse_boot_argn
+000000000000129f t __GLOBAL__D_a
+0000000000006485 t __GLOBAL__D_a
+000000000000126c t __GLOBAL__sub_I_AppleNVMePassThrough.cpp
+0000000000006452 t __GLOBAL__sub_I_AppleNVMePassThroughUC.cpp
+                 U IOPCIDevice::extendedConfigRead32(unsigned long long)
+                 U IOPCIDevice::extendedConfigWrite32(unsigned long long, unsigned int)
+                 U IOPCIDevice::metaClass
+                 U OSMetaClass::_RESERVEDOSMetaClass0()
+                 U OSMetaClass::_RESERVEDOSMetaClass1()
+                 U OSMetaClass::_RESERVEDOSMetaClass2()
+                 U OSMetaClass::_RESERVEDOSMetaClass3()
+                 U OSMetaClass::_RESERVEDOSMetaClass4()
+                 U OSMetaClass::_RESERVEDOSMetaClass5()
+                 U OSMetaClass::_RESERVEDOSMetaClass6()
+                 U OSMetaClass::_RESERVEDOSMetaClass7()
+                 U OSMetaClass::OSMetaClass(char const*, OSMetaClass const*, unsigned int)
+                 U OSMetaClass::~OSMetaClass()
+                 U IOUserClient::clientDied()
+                 U IOUserClient::gMetaClass
+                 U IOUserClient::getService()
+                 U IOUserClient::initWithTask(task*, void*, unsigned int, OSDictionary*)
+                 U IOUserClient::connectClient(IOUserClient*)
+                 U IOUserClient::clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**)
+                 U IOUserClient::exportObjectToClient(task*, OSObject*, OSObject**)
+                 U IOUserClient::_RESERVEDIOUserClient0()
+                 U IOUserClient::_RESERVEDIOUserClient1()
+                 U IOUserClient::_RESERVEDIOUserClient2()
+                 U IOUserClient::_RESERVEDIOUserClient3()
+                 U IOUserClient::_RESERVEDIOUserClient4()
+                 U IOUserClient::_RESERVEDIOUserClient5()
+                 U IOUserClient::_RESERVEDIOUserClient6()
+                 U IOUserClient::_RESERVEDIOUserClient7()
+                 U IOUserClient::_RESERVEDIOUserClient8()
+                 U IOUserClient::_RESERVEDIOUserClient9()
+                 U IOUserClient::_RESERVEDIOUserClient10()
+                 U IOUserClient::_RESERVEDIOUserClient11()
+                 U IOUserClient::_RESERVEDIOUserClient12()
+                 U IOUserClient::_RESERVEDIOUserClient13()
+                 U IOUserClient::_RESERVEDIOUserClient14()
+                 U IOUserClient::_RESERVEDIOUserClient15()
+                 U IOUserClient::getExternalTrapForIndex(unsigned int)
+                 U IOUserClient::getNotificationSemaphore(unsigned int, semaphore**)
+                 U IOUserClient::getTargetAndTrapForIndex(IOService**, unsigned int)
+                 U IOUserClient::registerNotificationPort(ipc_port*, unsigned int, unsigned int)
+                 U IOUserClient::registerNotificationPort(ipc_port*, unsigned int, unsigned long long)
+                 U IOUserClient::getExternalMethodForIndex(unsigned int)
+                 U IOUserClient::getTargetAndMethodForIndex(IOService**, unsigned int)
+                 U IOUserClient::getExternalAsyncMethodForIndex(unsigned int)
+                 U IOUserClient::getAsyncTargetAndMethodForIndex(IOService**, unsigned int)
+                 U IOUserClient::init(OSDictionary*)
+                 U IOUserClient::init()
+                 U IOUserClient::IOUserClient(OSMetaClass const*)
+                 U IOUserClient::~IOUserClient()
+                 U IORegistryEntry::detachAbove(IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::setProperty(OSString const*, OSObject*)
+                 U IORegistryEntry::setProperty(OSSymbol const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, void*, unsigned int)
+                 U IORegistryEntry::setProperty(char const*, char const*)
+                 U IORegistryEntry::setProperty(char const*, bool)
+                 U IORegistryEntry::setProperty(char const*, unsigned long long, unsigned int)
+                 U IORegistryEntry::attachToChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::childFromPath(char const*, IORegistryPlane const*, char*, int*)
+                 U IORegistryEntry::setProperties(OSObject*)
+                 U IORegistryEntry::attachToParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::removeProperty(OSString const*)
+                 U IORegistryEntry::removeProperty(OSSymbol const*)
+                 U IORegistryEntry::removeProperty(char const*)
+                 U IORegistryEntry::detachFromChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::detachFromParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::setPropertyTable(OSDictionary*)
+                 U IORegistryEntry::runPropertyAction(int (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*)
+                 U IORegistryEntry::_RESERVEDIORegistryEntry0()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry1()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry2()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry3()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry4()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry5()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry6()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry7()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry8()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry9()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry10()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry11()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry12()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry13()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry14()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry15()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry16()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry17()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry18()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry19()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry20()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry21()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry22()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry23()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry24()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry25()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry26()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry27()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry28()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry29()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry30()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry31()
+                 U IORegistryEntry::setName(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setName(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::detachAll(IORegistryPlane const*)
+                 U IORegistryEntry::metaClass
+                 U OSMetaClassBase::safeMetaCast(OSMetaClassBase const*, OSMetaClass const*)
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase3()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase4()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase5()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase6()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase7()
+                 U AppleNVMeRequest::BuildCommandAbort(unsigned short, unsigned short)
+                 U AppleNVMeRequest::BuildCommandFlush(unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandUnmap(unsigned int, unsigned long long, unsigned int)
+                 U AppleNVMeRequest::BuildCommandTunnel(unsigned char, unsigned long long, unsigned long long, unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetTime(unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandCreateCQ(unsigned long long, unsigned short, unsigned short, unsigned short)
+                 U AppleNVMeRequest::BuildCommandCreateSQ(unsigned long long, unsigned short, unsigned short, unsigned short, unsigned char)
+                 U AppleNVMeRequest::BuildCommandDeleteCQ(unsigned short)
+                 U AppleNVMeRequest::BuildCommandDeleteSQ(unsigned short)
+                 U AppleNVMeRequest::BuildCommandIdentify(bool, unsigned int)
+                 U AppleNVMeRequest::GenerateIOVMSegments(unsigned long long, unsigned long long)
+                 U AppleNVMeRequest::BuildCommandFormatNVM(unsigned int)
+                 U AppleNVMeRequest::BuildCommandFreezeSQs(bool, bool)
+                 U AppleNVMeRequest::BuildCommandNeuralize()
+                 U AppleNVMeRequest::BuildCommandDeallocate(unsigned int, unsigned char)
+                 U AppleNVMeRequest::BuildCommandGetLogPage(unsigned char, unsigned short)
+                 U AppleNVMeRequest::BuildCommandReadStruct(NVMeRWCommand*)
+                 U AppleNVMeRequest::BuildCommandBonfireTest(unsigned int)
+                 U AppleNVMeRequest::BuildCommandGetFEParams(unsigned char)
+                 U AppleNVMeRequest::BuildCommandGetFeatures(unsigned char)
+                 U AppleNVMeRequest::BuildCommandSecureErase()
+                 U AppleNVMeRequest::BuildCommandSetFEParams(unsigned char)
+                 U AppleNVMeRequest::BuildCommandWriteStruct(NVMeRWCommand*)
+                 U AppleNVMeRequest::BuildCommandReadDebugLog(unsigned short, bool, unsigned short, unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandReprioritize(unsigned int, unsigned long long, unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetNumQueues(unsigned short, unsigned short)
+                 U AppleNVMeRequest::BuildCommandSetHostFWSize(unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetThrottling(unsigned char, unsigned char)
+                 U AppleNVMeRequest::BuildCommandWriteDebugLog(unsigned short, bool, unsigned short, unsigned int, unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandReadDebugLogV2(unsigned short, bool, unsigned short, unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandScheduleBGTask()
+                 U AppleNVMeRequest::BuildCommandSetArbitration(unsigned char, unsigned char, unsigned char, unsigned char)
+                 U AppleNVMeRequest::BuildCommandWriteDebugLogV2(unsigned short, bool, unsigned short, unsigned int, unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandCreateNamespaces(unsigned int)
+                 U AppleNVMeRequest::BuildCommandDebugServiceRead(unsigned int)
+                 U AppleNVMeRequest::BuildCommandFirmwareActivate(unsigned char, unsigned char)
+                 U AppleNVMeRequest::BuildCommandSetErrorRecovery(unsigned short)
+                 U AppleNVMeRequest::BuildCommandSetTempThreshold(unsigned short)
+                 U AppleNVMeRequest::BuildCommandAsyncEventRequest()
+                 U AppleNVMeRequest::BuildCommandDebugServiceWrite(unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetFeaturesCommon(unsigned char)
+                 U AppleNVMeRequest::BuildCommandSetWriteAtomicity(bool)
+                 U AppleNVMeRequest::BuildCommandDeleteFirmwareSlot(unsigned char)
+                 U AppleNVMeRequest::BuildCommandPrepareForShutdown()
+                 U AppleNVMeRequest::BuildCommandSetPowerManagement(unsigned char)
+                 U AppleNVMeRequest::BuildCommandSetAsyncEventConfig(unsigned short)
+                 U AppleNVMeRequest::BuildCommandSetPowerBudgetIndex(unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetSWProgressMarker(unsigned char)
+                 U AppleNVMeRequest::BuildCommandFirmwareImageDownload(unsigned int, unsigned int)
+                 U AppleNVMeRequest::BuildCommandIdentifyStorageDevice(unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetVolatileWriteCache(bool)
+                 U AppleNVMeRequest::BuildCommandSetInterruptCoalescing(unsigned char, unsigned char)
+                 U AppleNVMeRequest::BuildCommandSetAbruptShutdownTimeout(unsigned int)
+                 U AppleNVMeRequest::BuildCommandSetInterruptVectorConfig(unsigned short, bool)
+                 U IONVMeController::ShutdownNVMe(bool, bool)
+                 U IONVMeController::SetQueueFrozen(bool)
+                 U IONVMeController::SaveDeviceState()
+                 U IONVMeController::AbortAllRequests(int)
+                 U IONVMeController::RestoreDeviceState()
+                 U IONVMeController::ModifyRequestTimeout(int)
+                 U IONVMeController::ProcessSyncNVMeRequest(AppleNVMeRequest*)
+                 U IONVMeController::CreateBlockStorageDevice(unsigned int)
+                 U IONVMeController::metaClass
+                 U AppleS1XController::metaClass
+                 U AppleS3XController::metaClass
+                 U IOMemoryDescriptor::withAddressRange(unsigned long long, unsigned long long, unsigned int, task*)
+                 U IOMemoryDescriptor::getPhysicalAddress()
+                 U IOMemoryDescriptor::createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long)
+                 U AppleANS2Controller::metaClass
+                 U AppleNVMeController::GetPRTCCounter()
+                 U AppleNVMeController::ReturnLPSRCount()
+                 U AppleNVMeController::ReadLoggerBuffer(IOMemoryDescriptor*, unsigned int, unsigned int, unsigned int, unsigned int*)
+                 U AppleNVMeController::GetSelfRefreshTimer()
+                 U AppleNVMeController::SetSelfRefreshTimer(unsigned int)
+                 U AppleNVMeController::metaClass
+0000000000009000 S AppleNVMePassThrough::gMetaClass
+00000000000070f8 S AppleNVMePassThrough::superClass
+00000000000011e2 T AppleNVMePassThrough::free()
+0000000000000ff6 T AppleNVMePassThrough::init(OSDictionary*)
+00000000000011b2 T AppleNVMePassThrough::start(IOService*)
+0000000000000e64 T AppleNVMePassThrough::MetaClass::MetaClass()
+0000000000000f24 T AppleNVMePassThrough::MetaClass::MetaClass()
+0000000000001262 t AppleNVMePassThrough::MetaClass::~MetaClass()
+0000000000000e96 t AppleNVMePassThrough::MetaClass::~MetaClass()
+00000000000070f0 S AppleNVMePassThrough::metaClass
+0000000000000ec0 T AppleNVMePassThrough::AppleNVMePassThrough(OSMetaClass const*)
+0000000000000f96 T AppleNVMePassThrough::AppleNVMePassThrough()
+0000000000000ea0 T AppleNVMePassThrough::AppleNVMePassThrough(OSMetaClass const*)
+0000000000000fc6 T AppleNVMePassThrough::AppleNVMePassThrough()
+0000000000000ef4 T AppleNVMePassThrough::~AppleNVMePassThrough()
+0000000000000eea T AppleNVMePassThrough::~AppleNVMePassThrough()
+0000000000000ee0 T AppleNVMePassThrough::~AppleNVMePassThrough()
+                 U AppleS3ELabController::ConfigDDRScratchRegisters()
+                 U AppleS3ELabController::metaClass
+0000000000002d3e T AppleNVMePassThroughUC::Deallocate(OSObject*, void*, IOExternalMethodArguments*)
+00000000000020bc T AppleNVMePassThroughUC::GetFeature(OSObject*, void*, IOExternalMethodArguments*)
+000000000000229e T AppleNVMePassThroughUC::GetLogPage(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001994 T AppleNVMePassThroughUC::InitDriver(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004470 T AppleNVMePassThroughUC::PerformBFH(OSObject*, void*, IOExternalMethodArguments*)
+000000000000196c T AppleNVMePassThroughUC::RestorePCI(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004cdc T AppleNVMePassThroughUC::ScheduleBG(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004dda T AppleNVMePassThroughUC::SetFeature(OSObject*, void*, IOExternalMethodArguments*)
+0000000000009028 S AppleNVMePassThroughUC::gMetaClass
+0000000000007a58 S AppleNVMePassThroughUC::superClass
+0000000000004018 T AppleNVMePassThroughUC::BonfireTest(OSObject*, void*, IOExternalMethodArguments*)
+00000000000035e6 T AppleNVMePassThroughUC::GetFEParams(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004d3a T AppleNVMePassThroughUC::GetNANDInfo(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004c32 T AppleNVMePassThroughUC::SecureErase(OSObject*, void*, IOExternalMethodArguments*)
+00000000000034be T AppleNVMePassThroughUC::SetFEParams(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005b54 T AppleNVMePassThroughUC::clientClose()
+000000000000370e T AppleNVMePassThroughUC::ConfigRead32(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003076 T AppleNVMePassThroughUC::ReadDebugLog(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002f16 T AppleNVMePassThroughUC::Reprioritize(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001ed4 T AppleNVMePassThroughUC::SetNumQueues(OSObject*, void*, IOExternalMethodArguments*)
+00000000000033de T AppleNVMePassThroughUC::SetTimestamp(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005aee T AppleNVMePassThroughUC::didTerminate(IOService*, unsigned int, bool*)
+0000000000004e4e T AppleNVMePassThroughUC::initWithTask(task*, void*, unsigned int)
+000000000000382c T AppleNVMePassThroughUC::ConfigWrite32(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004d04 T AppleNVMePassThroughUC::GetDeviceType(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003a78 T AppleNVMePassThroughUC::GetDriverData(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003fea T AppleNVMePassThroughUC::SetHostFWSize(OSObject*, void*, IOExternalMethodArguments*)
+00000000000041e2 T AppleNVMePassThroughUC::SetScratchpad(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001f08 T AppleNVMePassThroughUC::SetThrottling(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003222 T AppleNVMePassThroughUC::WriteDebugLog(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005adc T AppleNVMePassThroughUC::willTerminate(IOService*, unsigned int)
+0000000000005bea T AppleNVMePassThroughUC::ExecuteRequest(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*)
+00000000000017f4 T AppleNVMePassThroughUC::InitController(OSObject*, void*, IOExternalMethodArguments*)
+00000000000057c6 T AppleNVMePassThroughUC::InitFirstFound(IOExternalMethodArguments*)
+0000000000001722 T AppleNVMePassThroughUC::ReadRegister32(OSObject*, void*, IOExternalMethodArguments*)
+000000000000178c T AppleNVMePassThroughUC::ReadRegister64(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001d34 T AppleNVMePassThroughUC::SetArbitration(OSObject*, void*, IOExternalMethodArguments*)
+00000000000019f6 T AppleNVMePassThroughUC::SetQueueFrozen(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004d22 T AppleNVMePassThroughUC::SetRequestType(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005d16 T AppleNVMePassThroughUC::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)
+0000000000001442 T AppleNVMePassThroughUC::AllocNVMeBuffer(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003946 T AppleNVMePassThroughUC::GetDriverParams(OSObject*, void*, IOExternalMethodArguments*)
+00000000000039d4 T AppleNVMePassThroughUC::SetDriverParams(OSObject*, void*, IOExternalMethodArguments*)
+000000000000175e T AppleNVMePassThroughUC::WriteRegister32(OSObject*, void*, IOExternalMethodArguments*)
+00000000000017c6 T AppleNVMePassThroughUC::WriteRegister64(OSObject*, void*, IOExternalMethodArguments*)
+00000000000019dc T AppleNVMePassThroughUC::AbortAllRequests(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003ccc T AppleNVMePassThroughUC::CreateNamespaces(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003016 T AppleNVMePassThroughUC::DebugServiceRead(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001b94 T AppleNVMePassThroughUC::FirmwareActivate(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001c16 T AppleNVMePassThroughUC::FirmwareDownload(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003e3c T AppleNVMePassThroughUC::ReadLoggerBuffer(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001e6e T AppleNVMePassThroughUC::SetErrorRecovery(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001fb8 T AppleNVMePassThroughUC::SetIntCoalescing(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001e3e T AppleNVMePassThroughUC::SetTempThreshold(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002f66 T AppleNVMePassThroughUC::AsyncEventRequest(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003044 T AppleNVMePassThroughUC::DebugServiceWrite(OSObject*, void*, IOExternalMethodArguments*)
+00000000000021c4 T AppleNVMePassThroughUC::IdentifyNamespace(OSObject*, void*, IOExternalMethodArguments*)
+00000000000052cc T AppleNVMePassThroughUC::InitWithPCIDevice(IOExternalMethodArguments*)
+000000000000166c T AppleNVMePassThroughUC::ReleaseNVMeBuffer(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002026 T AppleNVMePassThroughUC::SetWriteAtomicity(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002f98 T AppleNVMePassThroughUC::DeleteFirmwareSlot(OSObject*, void*, IOExternalMethodArguments*)
+00000000000020ec T AppleNVMePassThroughUC::IdentifyController(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004bb0 T AppleNVMePassThroughUC::PrepareForShutdown(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001fec T AppleNVMePassThroughUC::SetIntVectorConfig(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001dc0 T AppleNVMePassThroughUC::SetPowerManagement(OSObject*, void*, IOExternalMethodArguments*)
+000000000000180e T AppleNVMePassThroughUC::ShutdownController(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005f8c T AppleNVMePassThroughUC::CreateRequestBuffer(AppleNVMeRequest*, unsigned long long, unsigned long long, unsigned int)
+00000000000061bc T AppleNVMePassThroughUC::GetLogicalBlockSize(OSObject*)
+0000000000004f32 T AppleNVMePassThroughUC::InitWithBlockDevice(IOExternalMethodArguments*)
+000000000000205c T AppleNVMePassThroughUC::SetAsyncEventConfig(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002ae8 T AppleNVMePassThroughUC::SetEncryptionParams(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004e1e T AppleNVMePassThroughUC::SetPowerBudgetIndex(OSObject*, void*, IOExternalMethodArguments*)
+000000000000208c T AppleNVMePassThroughUC::SetSWProgressMarker(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003ca0 T AppleNVMePassThroughUC::CheckWriteProtection(OSObject*, void*, IOExternalMethodArguments*)
+00000000000055c4 T AppleNVMePassThroughUC::InitWithSerialNumber(IOExternalMethodArguments*)
+0000000000006166 T AppleNVMePassThroughUC::ReleaseRequestBuffer(AppleNVMeRequest*, unsigned long long)
+000000000000624a T AppleNVMePassThroughUC::GetBlockStorageDevice()
+000000000000637e T AppleNVMePassThroughUC::GetDeviceTypeInternal()
+0000000000004104 T AppleNVMePassThroughUC::IdentifyStorageDevice(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001e9e T AppleNVMePassThroughUC::SetVolatileWriteCache(OSObject*, void*, IOExternalMethodArguments*)
+000000000000440a T AppleNVMePassThroughUC::SetScratchpadRegisters(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003c28 T AppleNVMePassThroughUC::CreateBlockStorageDevice(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001f8a T AppleNVMePassThroughUC::SetAbruptShutdownTimeout(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003c68 T AppleNVMePassThroughUC::DestroyBlockStorageDevice(OSObject*, void*, IOExternalMethodArguments*)
+00000000000061da T AppleNVMePassThroughUC::UserCommandToKernelCommand(PassThroughRWCommand const*, NVMeRWCommand*)
+0000000000002408 T AppleNVMePassThroughUC::Read(OSObject*, void*, IOExternalMethodArguments*)
+0000000000005b68 T AppleNVMePassThroughUC::free()
+0000000000005a6a T AppleNVMePassThroughUC::stop(IOService*)
+0000000000001d00 T AppleNVMePassThroughUC::Abort(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002e82 T AppleNVMePassThroughUC::Flush(OSObject*, void*, IOExternalMethodArguments*)
+0000000000003d9e T AppleNVMePassThroughUC::Unmap(OSObject*, void*, IOExternalMethodArguments*)
+0000000000002778 T AppleNVMePassThroughUC::Write(OSObject*, void*, IOExternalMethodArguments*)
+000000000000598c T AppleNVMePassThroughUC::start(IOService*)
+0000000000004698 T AppleNVMePassThroughUC::Tunnel(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001944 T AppleNVMePassThroughUC::SavePCI(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001ad8 T AppleNVMePassThroughUC::CreateCQ(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001a18 T AppleNVMePassThroughUC::CreateSQ(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001b64 T AppleNVMePassThroughUC::DeleteCQ(OSObject*, void*, IOExternalMethodArguments*)
+0000000000001aa8 T AppleNVMePassThroughUC::DeleteSQ(OSObject*, void*, IOExternalMethodArguments*)
+00000000000084c0 S AppleNVMePassThroughUC::gMethods
+00000000000023da T AppleNVMePassThroughUC::FormatNVM(OSObject*, void*, IOExternalMethodArguments*)
+0000000000004d9a T AppleNVMePassThroughUC::FreezeSQs(OSObject*, void*, IOExternalMethodArguments*)
+00000000000012b0 T AppleNVMePassThroughUC::MetaClass::MetaClass()
+0000000000001370 T AppleNVMePassThroughUC::MetaClass::MetaClass()
+0000000000006448 t AppleNVMePassThroughUC::MetaClass::~MetaClass()
+00000000000012e2 t AppleNVMePassThroughUC::MetaClass::~MetaClass()
+0000000000004cb4 T AppleNVMePassThroughUC::Neuralize(OSObject*, void*, IOExternalMethodArguments*)
+0000000000007a50 S AppleNVMePassThroughUC::metaClass
+0000000000005ac2 T AppleNVMePassThroughUC::terminate(unsigned int)
+000000000000130c T AppleNVMePassThroughUC::AppleNVMePassThroughUC(OSMetaClass const*)
+00000000000013e2 T AppleNVMePassThroughUC::AppleNVMePassThroughUC()
+00000000000012ec T AppleNVMePassThroughUC::AppleNVMePassThroughUC(OSMetaClass const*)
+0000000000001412 T AppleNVMePassThroughUC::AppleNVMePassThroughUC()
+0000000000001340 T AppleNVMePassThroughUC::~AppleNVMePassThroughUC()
+0000000000001336 T AppleNVMePassThroughUC::~AppleNVMePassThroughUC()
+000000000000132c T AppleNVMePassThroughUC::~AppleNVMePassThroughUC()
+                 U IOBufferMemoryDescriptor::inTaskWithPhysicalMask(task*, unsigned int, unsigned long long, unsigned long long)
+                 U IONVMeBlockStorageDevice::SetEncryptionParams(unsigned char*, unsigned char)
+                 U IONVMeBlockStorageDevice::metaClass
+                 U OSData::metaClass
+                 U OSObject::_RESERVEDOSObject0()
+                 U OSObject::_RESERVEDOSObject1()
+                 U OSObject::_RESERVEDOSObject2()
+                 U OSObject::_RESERVEDOSObject3()
+                 U OSObject::_RESERVEDOSObject4()
+                 U OSObject::_RESERVEDOSObject5()
+                 U OSObject::_RESERVEDOSObject6()
+                 U OSObject::_RESERVEDOSObject7()
+                 U OSObject::_RESERVEDOSObject8()
+                 U OSObject::_RESERVEDOSObject9()
+                 U OSObject::_RESERVEDOSObject10()
+                 U OSObject::_RESERVEDOSObject11()
+                 U OSObject::_RESERVEDOSObject12()
+                 U OSObject::_RESERVEDOSObject13()
+                 U OSObject::_RESERVEDOSObject14()
+                 U OSObject::_RESERVEDOSObject15()
+                 U OSObject::init()
+                 U OSObject::operator delete(void*, unsigned long)
+                 U OSObject::operator new(unsigned long)
+                 U OSString::withCString(char const*)
+                 U OSString::withCStringNoCopy(char const*)
+                 U OSSymbol::withCString(char const*)
+                 U IOService::adjustBusy(int)
+                 U IOService::gMetaClass
+                 U IOService::handleOpen(IOService*, unsigned int, void*)
+                 U IOService::joinPMtree(IOService*)
+                 U IOService::getPlatform()
+                 U IOService::handleClose(IOService*, unsigned int)
+                 U IOService::didTerminate(IOService*, unsigned int, bool*)
+                 U IOService::getBusyState()
+                 U IOService::getResources()
+                 U IOService::requestProbe(unsigned int)
+                 U IOService::tellChangeUp(unsigned long)
+                 U IOService::updateReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::addPowerChild(IOService*)
+                 U IOService::askChangeDown(unsigned long)
+                 U IOService::matchLocation(IOService*)
+                 U IOService::messageClient(unsigned int, OSObject*, void*, unsigned long)
+                 U IOService::newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**)
+                 U IOService::newUserClient(task*, void*, unsigned int, IOUserClient**)
+                 U IOService::setPowerState(unsigned long, IOService*)
+                 U IOService::willTerminate(IOService*, unsigned int)
+                 U IOService::activityTickle(unsigned long, unsigned long)
+                 U IOService::applyToClients(void (*)(IOService*, void*), void*)
+                 U IOService::causeInterrupt(int)
+                 U IOService::messageClients(unsigned int, void*, unsigned long)
+                 U IOService::tellChangeDown(unsigned long)
+                 U IOService::compareProperty(OSDictionary*, OSString const*)
+                 U IOService::compareProperty(OSDictionary*, char const*)
+                 U IOService::configureReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::enableInterrupt(int)
+                 U IOService::errnoFromReturn(int)
+                 U IOService::getDeviceMemory()
+                 U IOService::nextIdleTimeout(unsigned long long, unsigned long long, unsigned int)
+                 U IOService::powerChangeDone(unsigned long)
+                 U IOService::registerService(unsigned int)
+                 U IOService::serviceMatching(char const*, OSDictionary*)
+                 U IOService::setDeviceMemory(OSArray*)
+                 U IOService::terminateClient(IOService*, unsigned int)
+                 U IOService::allowPowerChange(unsigned long)
+                 U IOService::applyToProviders(void (*)(IOService*, void*), void*)
+                 U IOService::disableInterrupt(int)
+                 U IOService::getInterruptType(int, int*)
+                 U IOService::propertyMatching(OSSymbol const*, OSObject const*, OSDictionary*)
+                 U IOService::registerInterest(OSSymbol const*, int (*)(void*, void*, unsigned int, IOService*, void*, unsigned long), void*, void*)
+                 U IOService::removePowerChild(IOPowerConnection*)
+                 U IOService::requestTerminate(IOService*, unsigned int)
+                 U IOService::stringFromReturn(int)
+                 U IOService::tellNoChangeDown(unsigned long)
+                 U IOService::addNeededResource(char const*)
+                 U IOService::applyToInterested(OSSymbol const*, void (*)(OSObject*, void*), void*)
+                 U IOService::cancelPowerChange(unsigned long)
+                 U IOService::compareProperties(OSDictionary*, OSCollection*)
+                 U IOService::getAggressiveness(unsigned long, unsigned long*)
+                 U IOService::registerInterrupt(int, OSObject*, void (*)(OSObject*, void*, IOService*, int), void*)
+                 U IOService::setAggressiveness(unsigned long, unsigned long)
+                 U IOService::lockForArbitration(bool)
+                 U IOService::matchPropertyTable(OSDictionary*)
+                 U IOService::matchPropertyTable(OSDictionary*, int*)
+                 U IOService::setIdleTimerPeriod(unsigned long)
+                 U IOService::systemWillShutdown(unsigned int)
+                 U IOService::_RESERVEDIOService2()
+                 U IOService::_RESERVEDIOService3()
+                 U IOService::_RESERVEDIOService4()
+                 U IOService::_RESERVEDIOService5()
+                 U IOService::_RESERVEDIOService6()
+                 U IOService::_RESERVEDIOService7()
+                 U IOService::_RESERVEDIOService8()
+                 U IOService::_RESERVEDIOService9()
+                 U IOService::getMatchingServices(OSDictionary*)
+                 U IOService::registerPowerDriver(IOService*, IOPMPowerState*, unsigned long)
+                 U IOService::unregisterInterrupt(int)
+                 U IOService::_RESERVEDIOService10()
+                 U IOService::_RESERVEDIOService11()
+                 U IOService::_RESERVEDIOService12()
+                 U IOService::_RESERVEDIOService13()
+                 U IOService::_RESERVEDIOService14()
+                 U IOService::_RESERVEDIOService15()
+                 U IOService::_RESERVEDIOService16()
+                 U IOService::_RESERVEDIOService17()
+                 U IOService::_RESERVEDIOService18()
+                 U IOService::_RESERVEDIOService19()
+                 U IOService::_RESERVEDIOService20()
+                 U IOService::_RESERVEDIOService21()
+                 U IOService::_RESERVEDIOService22()
+                 U IOService::_RESERVEDIOService23()
+                 U IOService::_RESERVEDIOService24()
+                 U IOService::_RESERVEDIOService25()
+                 U IOService::_RESERVEDIOService26()
+                 U IOService::_RESERVEDIOService27()
+                 U IOService::_RESERVEDIOService28()
+                 U IOService::_RESERVEDIOService29()
+                 U IOService::_RESERVEDIOService30()
+                 U IOService::_RESERVEDIOService31()
+                 U IOService::_RESERVEDIOService32()
+                 U IOService::_RESERVEDIOService33()
+                 U IOService::_RESERVEDIOService34()
+                 U IOService::_RESERVEDIOService35()
+                 U IOService::_RESERVEDIOService36()
+                 U IOService::_RESERVEDIOService37()
+                 U IOService::_RESERVEDIOService38()
+                 U IOService::_RESERVEDIOService39()
+                 U IOService::_RESERVEDIOService40()
+                 U IOService::_RESERVEDIOService41()
+                 U IOService::_RESERVEDIOService42()
+                 U IOService::_RESERVEDIOService43()
+                 U IOService::_RESERVEDIOService44()
+                 U IOService::_RESERVEDIOService45()
+                 U IOService::_RESERVEDIOService46()
+                 U IOService::_RESERVEDIOService47()
+                 U IOService::callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*)
+                 U IOService::callPlatformFunction(char const*, bool, void*, void*, void*, void*)
+                 U IOService::getDeviceMemoryCount()
+                 U IOService::unlockForArbitration()
+                 U IOService::powerStateDidChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::copyClientWithCategory(OSSymbol const*)
+                 U IOService::powerStateWillChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::acknowledgeNotification(void*, unsigned int)
+                 U IOService::requestPowerDomainState(unsigned long, IOPowerConnection*, unsigned long)
+                 U IOService::getDeviceMemoryWithIndex(unsigned int)
+                 U IOService::mapDeviceMemoryWithIndex(unsigned int, unsigned int)
+                 U IOService::powerStateForDomainState(unsigned long)
+                 U IOService::maxCapabilityForDomainState(unsigned long)
+                 U IOService::initialPowerStateForDomainState(unsigned long)
+                 U IOService::init(IORegistryEntry*, IORegistryPlane const*)
+                 U IOService::open(IOService*, unsigned int, void*)
+                 U IOService::stop(IOService*)
+                 U IOService::close(IOService*, unsigned int)
+                 U IOService::probe(IOService*, int*)
+                 U IOService::PMinit()
+                 U IOService::PMstop()
+                 U IOService::attach(IOService*)
+                 U IOService::detach(IOService*)
+                 U IOService::message(unsigned int, IOService*, void*)
+                 U IOService::finalize(unsigned int)
+                 U IOService::terminate(unsigned int)
+                 U IOService::IOService(OSMetaClass const*)
+                 U IOService::~IOService()
+                 U OSMetaClass::getMetaClass() const
+                 U OSMetaClass::taggedRetain(void const*) const
+                 U OSMetaClass::taggedRelease(void const*) const
+                 U OSMetaClass::taggedRelease(void const*, int) const
+                 U OSMetaClass::getRetainCount() const
+                 U OSMetaClass::instanceConstructed() const
+                 U OSMetaClass::retain() const
+                 U OSMetaClass::release(int) const
+                 U OSMetaClass::release() const
+                 U OSMetaClass::serialize(OSSerialize*) const
+                 U IORegistryEntry::compareName(OSString*, OSString**) const
+                 U IORegistryEntry::getLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::getProperty(OSString const*) const
+                 U IORegistryEntry::getProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(OSSymbol const*) const
+                 U IORegistryEntry::getProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(char const*) const
+                 U IORegistryEntry::getProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::compareNames(OSObject*, OSString**) const
+                 U IORegistryEntry::copyLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::copyProperty(OSString const*) const
+                 U IORegistryEntry::copyProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(char const*) const
+                 U IORegistryEntry::copyProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToParents(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToChildren(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getChildIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::getPathComponent(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::getParentIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::dictionaryWithProperties() const
+                 U IORegistryEntry::getName(IORegistryPlane const*) const
+                 U IORegistryEntry::getPath(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::inPlane(IORegistryPlane const*) const
+                 U IORegistryEntry::isChild(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U IORegistryEntry::copyName(IORegistryPlane const*) const
+                 U IORegistryEntry::getDepth(IORegistryPlane const*) const
+                 U IORegistryEntry::isParent(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U OSMetaClassBase::isEqualTo(OSMetaClassBase const*) const
+0000000000000f16 T AppleNVMePassThrough::getMetaClass() const
+0000000000000f56 T AppleNVMePassThrough::MetaClass::alloc() const
+0000000000001362 T AppleNVMePassThroughUC::getMetaClass() const
+00000000000013a2 T AppleNVMePassThroughUC::MetaClass::alloc() const
+                 U OSObject::taggedRetain(void const*) const
+                 U OSObject::taggedRelease(void const*) const
+                 U OSObject::taggedRelease(void const*, int) const
+                 U OSObject::getRetainCount() const
+                 U OSObject::retain() const
+                 U OSObject::release(int) const
+                 U OSObject::release() const
+                 U OSObject::serialize(OSSerialize*) const
+                 U IOService::getProvider() const
+                 U IOService::getWorkLoop() const
+                 U IOService::handleIsOpen(IOService const*) const
+                 U IOService::getClientIterator() const
+                 U IOService::getProviderIterator() const
+                 U IOService::serializeProperties(OSSerialize*) const
+                 U IOService::getOpenClientIterator() const
+                 U IOService::getOpenProviderIterator() const
+                 U IOService::isOpen(IOService const*) const
+                 U IOService::getState() const
+                 U IOService::getClient() const
+                 U vtable for IOUserClient
+0000000000007100 S vtable for AppleNVMePassThrough
+0000000000007a60 S vtable for AppleNVMePassThroughUC
+                 U vtable for IOService
+0000000000007968 S vtable for AppleNVMePassThrough::MetaClass
+00000000000083d8 S vtable for AppleNVMePassThroughUC::MetaClass
+0000000000009058 s __antimain
+0000000000008ffc d __kext_apple_cc
+0000000000009050 s __realmain
+0000000000006496 t __start
+00000000000064e2 t __stop
+                 U _absolutetime_to_nanoseconds
+                 U _bzero
+                 U _copyin
+                 U _copyout
+                 U _gAssertOnCSTSTimeout
+                 U _gIOServicePlane
+                 U _gLPSRTimeoutMS
+                 U _gNVMeEnableEncryptionSupport
+                 U _gNVMeIgnoreInitErrors
+                 U _gNVMeInitTimeoutMS
+                 U _gNVMeKeyLens
+                 U _gNVMePCIOnlyMode
+                 U _gNVMeShutdownTimeoutMS
+                 U _gRequestTimeoutMS
+                 U _kernel_task
+0000000000008f38 D _kmod_info
+                 U _mach_absolute_time
+                 U _strncmp
+                 U _sysctl__debug_children
+0000000000008da8 D _sysctl__debug_nvme_csts_poll_timeout_assert
+0000000000008d58 D _sysctl__debug_nvme_enable_encryption
+0000000000008d08 D _sysctl__debug_nvme_ignore_init_errors
+0000000000008e48 D _sysctl__debug_nvme_init_timeout_ms
+0000000000008ee8 D _sysctl__debug_nvme_lpsr_timeout_ms
+0000000000008cb8 D _sysctl__debug_nvme_pcionly
+0000000000008df8 D _sysctl__debug_nvme_request_timeout_ms
+0000000000008e98 D _sysctl__debug_nvme_shutdown_timeout_ms
+                 U _sysctl_handle_int
+                 U _sysctl_register_oid
+                 U _sysctl_unregister_oid

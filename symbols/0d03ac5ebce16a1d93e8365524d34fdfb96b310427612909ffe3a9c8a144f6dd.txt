@@ -1,0 +1,922 @@
+00000000000062fb t __GLOBAL__D_a
+0000000000009569 t __GLOBAL__D_a
+00000000000062c8 t __GLOBAL__sub_I_cavs_kext_client.cpp
+0000000000009536 t __GLOBAL__sub_I_cavs_kext_service.cpp
+000000000000614d t cavs_kernel_map_buffer(IOMemoryDescriptor*, unsigned char**, IOMemoryMap**, bool)
+                 U OSMetaClass::_RESERVEDOSMetaClass0()
+                 U OSMetaClass::_RESERVEDOSMetaClass1()
+                 U OSMetaClass::_RESERVEDOSMetaClass2()
+                 U OSMetaClass::_RESERVEDOSMetaClass3()
+                 U OSMetaClass::_RESERVEDOSMetaClass4()
+                 U OSMetaClass::_RESERVEDOSMetaClass5()
+                 U OSMetaClass::_RESERVEDOSMetaClass6()
+                 U OSMetaClass::_RESERVEDOSMetaClass7()
+                 U OSMetaClass::OSMetaClass(char const*, OSMetaClass const*, unsigned int)
+                 U OSMetaClass::~OSMetaClass()
+                 U IOUserClient::clientDied()
+                 U IOUserClient::gMetaClass
+                 U IOUserClient::getService()
+                 U IOUserClient::initWithTask(task*, void*, unsigned int, OSDictionary*)
+                 U IOUserClient::connectClient(IOUserClient*)
+                 U IOUserClient::clientHasPrivilege(void*, char const*)
+                 U IOUserClient::clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**)
+                 U IOUserClient::exportObjectToClient(task*, OSObject*, OSObject**)
+                 U IOUserClient::_RESERVEDIOUserClient0()
+                 U IOUserClient::_RESERVEDIOUserClient1()
+                 U IOUserClient::_RESERVEDIOUserClient2()
+                 U IOUserClient::_RESERVEDIOUserClient3()
+                 U IOUserClient::_RESERVEDIOUserClient4()
+                 U IOUserClient::_RESERVEDIOUserClient5()
+                 U IOUserClient::_RESERVEDIOUserClient6()
+                 U IOUserClient::_RESERVEDIOUserClient7()
+                 U IOUserClient::_RESERVEDIOUserClient8()
+                 U IOUserClient::_RESERVEDIOUserClient9()
+                 U IOUserClient::_RESERVEDIOUserClient10()
+                 U IOUserClient::_RESERVEDIOUserClient11()
+                 U IOUserClient::_RESERVEDIOUserClient12()
+                 U IOUserClient::_RESERVEDIOUserClient13()
+                 U IOUserClient::_RESERVEDIOUserClient14()
+                 U IOUserClient::_RESERVEDIOUserClient15()
+                 U IOUserClient::getExternalTrapForIndex(unsigned int)
+                 U IOUserClient::getNotificationSemaphore(unsigned int, semaphore**)
+                 U IOUserClient::getTargetAndTrapForIndex(IOService**, unsigned int)
+                 U IOUserClient::registerNotificationPort(ipc_port*, unsigned int, unsigned int)
+                 U IOUserClient::registerNotificationPort(ipc_port*, unsigned int, unsigned long long)
+                 U IOUserClient::getExternalMethodForIndex(unsigned int)
+                 U IOUserClient::getTargetAndMethodForIndex(IOService**, unsigned int)
+                 U IOUserClient::getExternalAsyncMethodForIndex(unsigned int)
+                 U IOUserClient::getAsyncTargetAndMethodForIndex(IOService**, unsigned int)
+                 U IOUserClient::free()
+                 U IOUserClient::init(OSDictionary*)
+                 U IOUserClient::init()
+                 U IOUserClient::IOUserClient(OSMetaClass const*)
+                 U IOUserClient::~IOUserClient()
+                 U IORegistryEntry::detachAbove(IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setLocation(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::setProperty(OSString const*, OSObject*)
+                 U IORegistryEntry::setProperty(OSSymbol const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, OSObject*)
+                 U IORegistryEntry::setProperty(char const*, void*, unsigned int)
+                 U IORegistryEntry::setProperty(char const*, char const*)
+                 U IORegistryEntry::setProperty(char const*, bool)
+                 U IORegistryEntry::setProperty(char const*, unsigned long long, unsigned int)
+                 U IORegistryEntry::attachToChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::childFromPath(char const*, IORegistryPlane const*, char*, int*)
+                 U IORegistryEntry::setProperties(OSObject*)
+                 U IORegistryEntry::attachToParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::removeProperty(OSString const*)
+                 U IORegistryEntry::removeProperty(OSSymbol const*)
+                 U IORegistryEntry::removeProperty(char const*)
+                 U IORegistryEntry::detachFromChild(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::detachFromParent(IORegistryEntry*, IORegistryPlane const*)
+                 U IORegistryEntry::setPropertyTable(OSDictionary*)
+                 U IORegistryEntry::runPropertyAction(int (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*)
+                 U IORegistryEntry::_RESERVEDIORegistryEntry0()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry1()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry2()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry3()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry4()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry5()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry6()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry7()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry8()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry9()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry10()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry11()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry12()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry13()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry14()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry15()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry16()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry17()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry18()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry19()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry20()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry21()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry22()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry23()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry24()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry25()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry26()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry27()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry28()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry29()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry30()
+                 U IORegistryEntry::_RESERVEDIORegistryEntry31()
+                 U IORegistryEntry::setName(OSSymbol const*, IORegistryPlane const*)
+                 U IORegistryEntry::setName(char const*, IORegistryPlane const*)
+                 U IORegistryEntry::detachAll(IORegistryPlane const*)
+                 U OSMetaClassBase::safeMetaCast(OSMetaClassBase const*, OSMetaClass const*)
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase3()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase4()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase5()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase6()
+                 U OSMetaClassBase::_RESERVEDOSMetaClassBase7()
+0000000000020198 S IOFIPSCipherService::gMetaClass
+000000000000f1f0 S IOFIPSCipherService::superClass
+00000000000094c8 T IOFIPSCipherService::stop(IOService*)
+0000000000009396 T IOFIPSCipherService::start(IOService*)
+0000000000009204 T IOFIPSCipherService::MetaClass::MetaClass()
+00000000000092c4 T IOFIPSCipherService::MetaClass::MetaClass()
+000000000000952c t IOFIPSCipherService::MetaClass::~MetaClass()
+0000000000009236 t IOFIPSCipherService::MetaClass::~MetaClass()
+000000000000f1e8 S IOFIPSCipherService::metaClass
+0000000000009260 T IOFIPSCipherService::IOFIPSCipherService(OSMetaClass const*)
+0000000000009336 T IOFIPSCipherService::IOFIPSCipherService()
+0000000000009240 T IOFIPSCipherService::IOFIPSCipherService(OSMetaClass const*)
+0000000000009366 T IOFIPSCipherService::IOFIPSCipherService()
+0000000000009294 T IOFIPSCipherService::~IOFIPSCipherService()
+000000000000928a T IOFIPSCipherService::~IOFIPSCipherService()
+0000000000009280 T IOFIPSCipherService::~IOFIPSCipherService()
+0000000000020170 S IOFIPSCipherUserClient::gMetaClass
+000000000000e780 S IOFIPSCipherUserClient::superClass
+0000000000005e9a T IOFIPSCipherUserClient::clientClose()
+0000000000005c92 T IOFIPSCipherUserClient::initWithTask(task*, void*, unsigned int)
+0000000000005eae T IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)
+0000000000005dcc T IOFIPSCipherUserClient::start(IOService*)
+0000000000005b00 T IOFIPSCipherUserClient::MetaClass::MetaClass()
+0000000000005bc0 T IOFIPSCipherUserClient::MetaClass::MetaClass()
+00000000000062be t IOFIPSCipherUserClient::MetaClass::~MetaClass()
+0000000000005b32 t IOFIPSCipherUserClient::MetaClass::~MetaClass()
+000000000000e778 S IOFIPSCipherUserClient::metaClass
+0000000000005b5c T IOFIPSCipherUserClient::IOFIPSCipherUserClient(OSMetaClass const*)
+0000000000005c32 T IOFIPSCipherUserClient::IOFIPSCipherUserClient()
+0000000000005b3c T IOFIPSCipherUserClient::IOFIPSCipherUserClient(OSMetaClass const*)
+0000000000005c62 T IOFIPSCipherUserClient::IOFIPSCipherUserClient()
+0000000000005b90 T IOFIPSCipherUserClient::~IOFIPSCipherUserClient()
+0000000000005b86 T IOFIPSCipherUserClient::~IOFIPSCipherUserClient()
+0000000000005b7c T IOFIPSCipherUserClient::~IOFIPSCipherUserClient()
+                 U OSObject::_RESERVEDOSObject0()
+                 U OSObject::_RESERVEDOSObject1()
+                 U OSObject::_RESERVEDOSObject2()
+                 U OSObject::_RESERVEDOSObject3()
+                 U OSObject::_RESERVEDOSObject4()
+                 U OSObject::_RESERVEDOSObject5()
+                 U OSObject::_RESERVEDOSObject6()
+                 U OSObject::_RESERVEDOSObject7()
+                 U OSObject::_RESERVEDOSObject8()
+                 U OSObject::_RESERVEDOSObject9()
+                 U OSObject::_RESERVEDOSObject10()
+                 U OSObject::_RESERVEDOSObject11()
+                 U OSObject::_RESERVEDOSObject12()
+                 U OSObject::_RESERVEDOSObject13()
+                 U OSObject::_RESERVEDOSObject14()
+                 U OSObject::_RESERVEDOSObject15()
+                 U OSObject::init()
+                 U OSObject::operator delete(void*, unsigned long)
+                 U OSObject::operator new(unsigned long)
+                 U OSSymbol::withCStringNoCopy(char const*)
+                 U IOService::adjustBusy(int)
+                 U IOService::gMetaClass
+                 U IOService::handleOpen(IOService*, unsigned int, void*)
+                 U IOService::joinPMtree(IOService*)
+                 U IOService::handleClose(IOService*, unsigned int)
+                 U IOService::didTerminate(IOService*, unsigned int, bool*)
+                 U IOService::getBusyState()
+                 U IOService::getResources()
+                 U IOService::requestProbe(unsigned int)
+                 U IOService::tellChangeUp(unsigned long)
+                 U IOService::updateReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::addPowerChild(IOService*)
+                 U IOService::askChangeDown(unsigned long)
+                 U IOService::matchLocation(IOService*)
+                 U IOService::messageClient(unsigned int, OSObject*, void*, unsigned long)
+                 U IOService::newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**)
+                 U IOService::newUserClient(task*, void*, unsigned int, IOUserClient**)
+                 U IOService::setPowerState(unsigned long, IOService*)
+                 U IOService::willTerminate(IOService*, unsigned int)
+                 U IOService::activityTickle(unsigned long, unsigned long)
+                 U IOService::applyToClients(void (*)(IOService*, void*), void*)
+                 U IOService::causeInterrupt(int)
+                 U IOService::messageClients(unsigned int, void*, unsigned long)
+                 U IOService::tellChangeDown(unsigned long)
+                 U IOService::compareProperty(OSDictionary*, OSString const*)
+                 U IOService::compareProperty(OSDictionary*, char const*)
+                 U IOService::configureReport(IOReportChannelList*, unsigned int, void*, void*)
+                 U IOService::enableInterrupt(int)
+                 U IOService::errnoFromReturn(int)
+                 U IOService::getDeviceMemory()
+                 U IOService::nextIdleTimeout(unsigned long long, unsigned long long, unsigned int)
+                 U IOService::powerChangeDone(unsigned long)
+                 U IOService::registerService(unsigned int)
+                 U IOService::setDeviceMemory(OSArray*)
+                 U IOService::terminateClient(IOService*, unsigned int)
+                 U IOService::allowPowerChange(unsigned long)
+                 U IOService::applyToProviders(void (*)(IOService*, void*), void*)
+                 U IOService::disableInterrupt(int)
+                 U IOService::getInterruptType(int, int*)
+                 U IOService::registerInterest(OSSymbol const*, int (*)(void*, void*, unsigned int, IOService*, void*, unsigned long), void*, void*)
+                 U IOService::removePowerChild(IOPowerConnection*)
+                 U IOService::requestTerminate(IOService*, unsigned int)
+                 U IOService::stringFromReturn(int)
+                 U IOService::tellNoChangeDown(unsigned long)
+                 U IOService::addNeededResource(char const*)
+                 U IOService::applyToInterested(OSSymbol const*, void (*)(OSObject*, void*), void*)
+                 U IOService::cancelPowerChange(unsigned long)
+                 U IOService::compareProperties(OSDictionary*, OSCollection*)
+                 U IOService::getAggressiveness(unsigned long, unsigned long*)
+                 U IOService::registerInterrupt(int, OSObject*, void (*)(OSObject*, void*, IOService*, int), void*)
+                 U IOService::setAggressiveness(unsigned long, unsigned long)
+                 U IOService::lockForArbitration(bool)
+                 U IOService::matchPropertyTable(OSDictionary*)
+                 U IOService::matchPropertyTable(OSDictionary*, int*)
+                 U IOService::setIdleTimerPeriod(unsigned long)
+                 U IOService::systemWillShutdown(unsigned int)
+                 U IOService::_RESERVEDIOService2()
+                 U IOService::_RESERVEDIOService3()
+                 U IOService::_RESERVEDIOService4()
+                 U IOService::_RESERVEDIOService5()
+                 U IOService::_RESERVEDIOService6()
+                 U IOService::_RESERVEDIOService7()
+                 U IOService::_RESERVEDIOService8()
+                 U IOService::_RESERVEDIOService9()
+                 U IOService::registerPowerDriver(IOService*, IOPMPowerState*, unsigned long)
+                 U IOService::unregisterInterrupt(int)
+                 U IOService::_RESERVEDIOService10()
+                 U IOService::_RESERVEDIOService11()
+                 U IOService::_RESERVEDIOService12()
+                 U IOService::_RESERVEDIOService13()
+                 U IOService::_RESERVEDIOService14()
+                 U IOService::_RESERVEDIOService15()
+                 U IOService::_RESERVEDIOService16()
+                 U IOService::_RESERVEDIOService17()
+                 U IOService::_RESERVEDIOService18()
+                 U IOService::_RESERVEDIOService19()
+                 U IOService::_RESERVEDIOService20()
+                 U IOService::_RESERVEDIOService21()
+                 U IOService::_RESERVEDIOService22()
+                 U IOService::_RESERVEDIOService23()
+                 U IOService::_RESERVEDIOService24()
+                 U IOService::_RESERVEDIOService25()
+                 U IOService::_RESERVEDIOService26()
+                 U IOService::_RESERVEDIOService27()
+                 U IOService::_RESERVEDIOService28()
+                 U IOService::_RESERVEDIOService29()
+                 U IOService::_RESERVEDIOService30()
+                 U IOService::_RESERVEDIOService31()
+                 U IOService::_RESERVEDIOService32()
+                 U IOService::_RESERVEDIOService33()
+                 U IOService::_RESERVEDIOService34()
+                 U IOService::_RESERVEDIOService35()
+                 U IOService::_RESERVEDIOService36()
+                 U IOService::_RESERVEDIOService37()
+                 U IOService::_RESERVEDIOService38()
+                 U IOService::_RESERVEDIOService39()
+                 U IOService::_RESERVEDIOService40()
+                 U IOService::_RESERVEDIOService41()
+                 U IOService::_RESERVEDIOService42()
+                 U IOService::_RESERVEDIOService43()
+                 U IOService::_RESERVEDIOService44()
+                 U IOService::_RESERVEDIOService45()
+                 U IOService::_RESERVEDIOService46()
+                 U IOService::_RESERVEDIOService47()
+                 U IOService::callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*)
+                 U IOService::callPlatformFunction(char const*, bool, void*, void*, void*, void*)
+                 U IOService::getDeviceMemoryCount()
+                 U IOService::unlockForArbitration()
+                 U IOService::powerStateDidChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::copyClientWithCategory(OSSymbol const*)
+                 U IOService::powerStateWillChangeTo(unsigned long, unsigned long, IOService*)
+                 U IOService::acknowledgeNotification(void*, unsigned int)
+                 U IOService::requestPowerDomainState(unsigned long, IOPowerConnection*, unsigned long)
+                 U IOService::getDeviceMemoryWithIndex(unsigned int)
+                 U IOService::mapDeviceMemoryWithIndex(unsigned int, unsigned int)
+                 U IOService::powerStateForDomainState(unsigned long)
+                 U IOService::maxCapabilityForDomainState(unsigned long)
+                 U IOService::initialPowerStateForDomainState(unsigned long)
+                 U IOService::free()
+                 U IOService::init(OSDictionary*)
+                 U IOService::init(IORegistryEntry*, IORegistryPlane const*)
+                 U IOService::open(IOService*, unsigned int, void*)
+                 U IOService::stop(IOService*)
+                 U IOService::close(IOService*, unsigned int)
+                 U IOService::probe(IOService*, int*)
+                 U IOService::PMinit()
+                 U IOService::PMstop()
+                 U IOService::attach(IOService*)
+                 U IOService::detach(IOService*)
+                 U IOService::message(unsigned int, IOService*, void*)
+                 U IOService::finalize(unsigned int)
+                 U IOService::terminate(unsigned int)
+                 U IOService::IOService(OSMetaClass const*)
+                 U IOService::~IOService()
+                 U OSMetaClass::getMetaClass() const
+                 U OSMetaClass::taggedRetain(void const*) const
+                 U OSMetaClass::taggedRelease(void const*) const
+                 U OSMetaClass::taggedRelease(void const*, int) const
+                 U OSMetaClass::getRetainCount() const
+                 U OSMetaClass::instanceConstructed() const
+                 U OSMetaClass::retain() const
+                 U OSMetaClass::release(int) const
+                 U OSMetaClass::release() const
+                 U OSMetaClass::serialize(OSSerialize*) const
+                 U IORegistryEntry::compareName(OSString*, OSString**) const
+                 U IORegistryEntry::getLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::getProperty(OSString const*) const
+                 U IORegistryEntry::getProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(OSSymbol const*) const
+                 U IORegistryEntry::getProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getProperty(char const*) const
+                 U IORegistryEntry::getProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::compareNames(OSObject*, OSString**) const
+                 U IORegistryEntry::copyLocation(IORegistryPlane const*) const
+                 U IORegistryEntry::copyProperty(OSString const*) const
+                 U IORegistryEntry::copyProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*) const
+                 U IORegistryEntry::copyProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::copyProperty(char const*) const
+                 U IORegistryEntry::copyProperty(char const*, IORegistryPlane const*, unsigned int) const
+                 U IORegistryEntry::getChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToParents(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyChildEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::applyToChildren(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+                 U IORegistryEntry::copyParentEntry(IORegistryPlane const*) const
+                 U IORegistryEntry::getChildIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::getPathComponent(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::getParentIterator(IORegistryPlane const*) const
+                 U IORegistryEntry::dictionaryWithProperties() const
+                 U IORegistryEntry::getName(IORegistryPlane const*) const
+                 U IORegistryEntry::getPath(char*, int*, IORegistryPlane const*) const
+                 U IORegistryEntry::inPlane(IORegistryPlane const*) const
+                 U IORegistryEntry::isChild(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U IORegistryEntry::copyName(IORegistryPlane const*) const
+                 U IORegistryEntry::getDepth(IORegistryPlane const*) const
+                 U IORegistryEntry::isParent(IORegistryEntry*, IORegistryPlane const*, bool) const
+                 U OSMetaClassBase::isEqualTo(OSMetaClassBase const*) const
+00000000000092b6 T IOFIPSCipherService::getMetaClass() const
+00000000000092f6 T IOFIPSCipherService::MetaClass::alloc() const
+0000000000005bb2 T IOFIPSCipherUserClient::getMetaClass() const
+0000000000005bf2 T IOFIPSCipherUserClient::MetaClass::alloc() const
+                 U OSObject::taggedRetain(void const*) const
+                 U OSObject::taggedRelease(void const*) const
+                 U OSObject::taggedRelease(void const*, int) const
+                 U OSObject::getRetainCount() const
+                 U OSObject::retain() const
+                 U OSObject::release(int) const
+                 U OSObject::release() const
+                 U OSObject::serialize(OSSerialize*) const
+                 U IOService::getProvider() const
+                 U IOService::getWorkLoop() const
+                 U IOService::handleIsOpen(IOService const*) const
+                 U IOService::getClientIterator() const
+                 U IOService::getProviderIterator() const
+                 U IOService::serializeProperties(OSSerialize*) const
+                 U IOService::getOpenClientIterator() const
+                 U IOService::getOpenProviderIterator() const
+                 U IOService::isOpen(IOService const*) const
+                 U IOService::getState() const
+                 U IOService::getClient() const
+                 U vtable for IOUserClient
+000000000000f1f8 S vtable for IOFIPSCipherService
+000000000000e788 S vtable for IOFIPSCipherUserClient
+                 U vtable for IOService
+000000000000fa60 S vtable for IOFIPSCipherService::MetaClass
+000000000000f100 S vtable for IOFIPSCipherUserClient::MetaClass
+000000000000d740 s cavs_kernel_map_buffer(IOMemoryDescriptor*, unsigned char**, IOMemoryMap**, bool)::_os_log_fmt
+000000000000d760 s cavs_kernel_map_buffer(IOMemoryDescriptor*, unsigned char**, IOMemoryMap**, bool)::_os_log_fmt
+000000000000d770 s cavs_kernel_map_buffer(IOMemoryDescriptor*, unsigned char**, IOMemoryMap**, bool)::_os_log_fmt
+000000000000ddd0 s IOFIPSCipherService::stop(IOService*)::_os_log_fmt
+000000000000dd80 s IOFIPSCipherService::start(IOService*)::_os_log_fmt
+000000000000dd90 s IOFIPSCipherService::start(IOService*)::_os_log_fmt
+000000000000ddc0 s IOFIPSCipherService::start(IOService*)::_os_log_fmt
+000000000000d5c0 s IOFIPSCipherUserClient::initWithTask(task*, void*, unsigned int)::_os_log_fmt
+000000000000d5e0 s IOFIPSCipherUserClient::initWithTask(task*, void*, unsigned int)::_os_log_fmt
+000000000000d600 s IOFIPSCipherUserClient::initWithTask(task*, void*, unsigned int)::_os_log_fmt
+000000000000d6a0 s IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt
+000000000000d6c0 s IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt
+000000000000d6e0 s IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt
+000000000000d700 s IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt
+000000000000d720 s IOFIPSCipherUserClient::externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt
+000000000000d630 s IOFIPSCipherUserClient::start(IOService*)::_os_log_fmt
+000000000000d660 s IOFIPSCipherUserClient::start(IOService*)::_os_log_fmt
+                 U ___memcpy_chk
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+00000000000201c8 s __antimain
+000000000000fb50 d __ccdh_gp_rfc3526group14
+                 U __os_log_default
+                 U __os_log_internal
+00000000000201c0 s __realmain
+0000000000009ec3 t __start
+0000000000009edd t __stop
+000000000000276b T _cavs_aes_is_to_string
+000000000000ce60 s _cavs_aes_is_to_string._os_log_fmt
+00000000000026fe T _cavs_arch_to_string
+000000000000ce50 s _cavs_arch_to_string._os_log_fmt
+0000000000002923 T _cavs_cipher_curve_to_string
+000000000000cea0 s _cavs_cipher_curve_to_string._os_log_fmt
+0000000000002849 T _cavs_cipher_enc_to_string
+000000000000ce80 s _cavs_cipher_enc_to_string._os_log_fmt
+00000000000028b6 T _cavs_cipher_mode_to_string
+000000000000ce90 s _cavs_cipher_mode_to_string._os_log_fmt
+000000000000159c T _cavs_digest_to_output
+0000000000002990 T _cavs_digest_to_string
+000000000000ceb0 s _cavs_digest_to_string._os_log_fmt
+0000000000006ec0 T _cavs_find_ccmode
+000000000000d930 s _cavs_find_ccmode._os_log_fmt
+000000000000d950 s _cavs_find_ccmode._os_log_fmt.2
+0000000000028530 b _cavs_find_ccmode.static_CBC
+0000000000028658 b _cavs_find_ccmode.static_CCM
+0000000000028558 b _cavs_find_ccmode.static_CFB
+0000000000028580 b _cavs_find_ccmode.static_CFB8
+00000000000285a8 b _cavs_find_ccmode.static_CTR
+0000000000028608 b _cavs_find_ccmode.static_GCM
+00000000000285e0 b _cavs_find_ccmode.static_OFB
+000000000000155c T _cavs_find_digest_by_len
+0000000000001390 T _cavs_find_digest_info
+000000000000cb90 s _cavs_find_digest_info._os_log_fmt
+000000000000157e T _cavs_find_digest_info_by_len
+000000000000547a T _cavs_generic_cavs_request
+000000000000d420 s _cavs_generic_cavs_request._os_log_fmt
+0000000000020528 b _cavs_generic_out_buf
+0000000000020520 b _cavs_generic_out_len
+000000000000d480 s _cavs_generic_parse_request._os_log_fmt
+000000000000d4a0 s _cavs_generic_parse_request._os_log_fmt.4
+000000000000d4c0 s _cavs_generic_parse_request._os_log_fmt.6
+000000000000d4e0 s _cavs_generic_parse_request._os_log_fmt.8
+0000000000020530 b _cavs_generic_request
+00000000000051c9 T _cavs_io_deserialize
+000000000000d3b0 s _cavs_io_deserialize._os_log_fmt
+0000000000002ee9 t _cavs_io_deserialize_cavs_op_aes_kw
+0000000000008752 t _cavs_io_deserialize_cavs_op_cipher
+0000000000009776 t _cavs_io_deserialize_cavs_op_digest
+00000000000033ea t _cavs_io_deserialize_cavs_op_drbg
+000000000000791d t _cavs_io_deserialize_cavs_op_ec25519
+0000000000001f36 t _cavs_io_deserialize_cavs_op_ec_func
+00000000000089b3 t _cavs_io_deserialize_cavs_op_ec_key_gen
+0000000000000c41 t _cavs_io_deserialize_cavs_op_ec_pkv
+000000000000849c t _cavs_io_deserialize_cavs_op_ec_sig_gen
+0000000000009dea t _cavs_io_deserialize_cavs_op_ec_sig_gen_comp
+0000000000006b3f t _cavs_io_deserialize_cavs_op_ec_sig_verify
+0000000000006534 t _cavs_io_deserialize_cavs_op_ec_val_init
+0000000000000f58 t _cavs_io_deserialize_cavs_op_ec_val_resp
+0000000000002c7c t _cavs_io_deserialize_cavs_op_hkdf
+000000000000363b t _cavs_io_deserialize_cavs_op_hmac
+00000000000053c5 t _cavs_io_deserialize_cavs_op_post
+0000000000001355 t _cavs_io_deserialize_cavs_op_rsa_key_gen
+00000000000091aa t _cavs_io_deserialize_cavs_op_rsa_sig_gen
+0000000000005a7d t _cavs_io_deserialize_cavs_op_rsa_verify
+00000000000050ea T _cavs_io_read_buffer
+0000000000005037 T _cavs_io_read_cavs_aes_is
+0000000000004fa3 T _cavs_io_read_cavs_cipher_curve
+0000000000004fc8 T _cavs_io_read_cavs_cipher_enc
+0000000000004fed T _cavs_io_read_cavs_cipher_mode
+0000000000004f59 T _cavs_io_read_cavs_digest
+0000000000005012 T _cavs_io_read_cavs_sha_is
+0000000000004f7e T _cavs_io_read_cavs_target
+0000000000004f34 T _cavs_io_read_cavs_vector
+0000000000005123 T _cavs_io_read_header
+000000000000505c T _cavs_io_read_uint32_t
+0000000000005264 T _cavs_io_register
+0000000000002f4f t _cavs_io_register_CAVS_VECTOR_AES_KW_DEC
+0000000000002e4e t _cavs_io_register_CAVS_VECTOR_AES_KW_ENC
+0000000000008818 t _cavs_io_register_CAVS_VECTOR_CIPHER_DEC
+0000000000008651 t _cavs_io_register_CAVS_VECTOR_CIPHER_ENC
+00000000000096e2 t _cavs_io_register_CAVS_VECTOR_DIGEST
+00000000000032bf t _cavs_io_register_CAVS_VECTOR_DRBG
+00000000000079c4 t _cavs_io_register_CAVS_VECTOR_EC25519_GENERATE_KEY
+0000000000007857 t _cavs_io_register_CAVS_VECTOR_EC25519_GENERATE_SHARED
+00000000000079e1 t _cavs_io_register_CAVS_VECTOR_EC25519_VERIFY_KEY
+00000000000079a7 t _cavs_io_register_CAVS_VECTOR_EC25519_VERIFY_SHARED
+0000000000001ea6 t _cavs_io_register_CAVS_VECTOR_EC_FUNC
+000000000000893a t _cavs_io_register_CAVS_VECTOR_EC_KEY_GEN
+0000000000000bb1 t _cavs_io_register_CAVS_VECTOR_EC_PKV
+0000000000008413 t _cavs_io_register_CAVS_VECTOR_EC_SIG_GEN
+0000000000009d3d t _cavs_io_register_CAVS_VECTOR_EC_SIG_GEN_COMP
+0000000000006a6e t _cavs_io_register_CAVS_VECTOR_EC_SIG_VERIFY
+0000000000006492 t _cavs_io_register_CAVS_VECTOR_EC_VAL_INIT
+0000000000000e92 t _cavs_io_register_CAVS_VECTOR_EC_VAL_RESP
+0000000000002bc4 t _cavs_io_register_CAVS_VECTOR_HKDF
+00000000000035a0 t _cavs_io_register_CAVS_VECTOR_HMAC
+00000000000034d6 t _cavs_io_register_CAVS_VECTOR_HMAC_DRBG
+0000000000008852 t _cavs_io_register_CAVS_VECTOR_MONTECARLO_DEC_INIT
+00000000000088c6 t _cavs_io_register_CAVS_VECTOR_MONTECARLO_DEC_OP
+0000000000008835 t _cavs_io_register_CAVS_VECTOR_MONTECARLO_ENC_INIT
+00000000000088a9 t _cavs_io_register_CAVS_VECTOR_MONTECARLO_ENC_OP
+0000000000008900 t _cavs_io_register_CAVS_VECTOR_MONTECARLO_FINISH
+0000000000005358 t _cavs_io_register_CAVS_VECTOR_POST
+00000000000012e8 t _cavs_io_register_CAVS_VECTOR_RSA_KEY_GEN
+000000000000911a t _cavs_io_register_CAVS_VECTOR_RSA_SIG_GEN
+00000000000059c5 t _cavs_io_register_CAVS_VECTOR_RSA_VERIFY
+000000000000888c t _cavs_io_register_CAVS_VECTOR_XTS_DEC_INIT
+000000000000886f t _cavs_io_register_CAVS_VECTOR_XTS_ENC_INIT
+000000000000891d t _cavs_io_register_CAVS_VECTOR_XTS_FINISH
+00000000000088e3 t _cavs_io_register_CAVS_VECTOR_XTS_OP
+0000000000005141 T _cavs_io_serialize
+000000000000d390 s _cavs_io_serialize._os_log_fmt
+0000000000002e6b t _cavs_io_serialize_cavs_op_aes_kw
+000000000000866e t _cavs_io_serialize_cavs_op_cipher
+00000000000096ff t _cavs_io_serialize_cavs_op_digest
+00000000000032dc t _cavs_io_serialize_cavs_op_drbg
+0000000000007874 t _cavs_io_serialize_cavs_op_ec25519
+0000000000001ec3 t _cavs_io_serialize_cavs_op_ec_func
+0000000000008957 t _cavs_io_serialize_cavs_op_ec_key_gen
+0000000000000bce t _cavs_io_serialize_cavs_op_ec_pkv
+0000000000008430 t _cavs_io_serialize_cavs_op_ec_sig_gen
+0000000000009d5a t _cavs_io_serialize_cavs_op_ec_sig_gen_comp
+0000000000006a8b t _cavs_io_serialize_cavs_op_ec_sig_verify
+00000000000064af t _cavs_io_serialize_cavs_op_ec_val_init
+0000000000000eaf t _cavs_io_serialize_cavs_op_ec_val_resp
+0000000000002be1 t _cavs_io_serialize_cavs_op_hkdf
+00000000000035bd t _cavs_io_serialize_cavs_op_hmac
+0000000000005375 t _cavs_io_serialize_cavs_op_post
+0000000000001305 t _cavs_io_serialize_cavs_op_rsa_key_gen
+0000000000009137 t _cavs_io_serialize_cavs_op_rsa_sig_gen
+00000000000059e2 t _cavs_io_serialize_cavs_op_rsa_verify
+00000000000202c0 b _cavs_io_serializers
+0000000000005136 T _cavs_io_sizeof_header
+000000000000506a T _cavs_io_write_buffer
+000000000000d370 s _cavs_io_write_buffer._os_log_fmt
+0000000000005020 T _cavs_io_write_cavs_aes_is
+0000000000004f8c T _cavs_io_write_cavs_cipher_curve
+0000000000004fb1 T _cavs_io_write_cavs_cipher_enc
+0000000000004fd6 T _cavs_io_write_cavs_cipher_mode
+0000000000004f42 T _cavs_io_write_cavs_digest
+0000000000004ffb T _cavs_io_write_cavs_sha_is
+0000000000004f67 T _cavs_io_write_cavs_target
+0000000000004f1d T _cavs_io_write_cavs_vector
+0000000000005109 T _cavs_io_write_header
+0000000000005045 T _cavs_io_write_uint32_t
+0000000000002318 T _cavs_key_to_aes_is
+000000000000cdd0 s _cavs_key_to_aes_is._os_log_fmt
+00000000000024fe T _cavs_key_to_sha_is
+000000000000ce00 s _cavs_key_to_sha_is._os_log_fmt
+0000000000000a91 T _cavs_op
+000000000000ca80 s _cavs_op._os_log_fmt
+000000000000cf00 s _cavs_op_aes_kw_call._os_log_fmt
+000000000000cf20 s _cavs_op_aes_kw_call._os_log_fmt.2
+0000000000002d14 t _cavs_op_aes_kw_request
+00000000000085ae t _cavs_op_cipher_request
+0000000000009590 t _cavs_op_digest_request
+000000000000dde0 s _cavs_op_digest_request._os_log_fmt
+000000000000de10 s _cavs_op_digest_request._os_log_fmt.2
+000000000000de30 s _cavs_op_digest_request._os_log_fmt.4
+00000000000031e5 t _cavs_op_drbg_request
+000000000000cf80 s _cavs_op_drbg_request._os_log_fmt
+0000000000000b28 t _cavs_op_ec25519_generate_key_request
+000000000000caa0 s _cavs_op_ec25519_generate_key_request._os_log_fmt
+0000000000001708 t _cavs_op_ec25519_generate_shared_request
+000000000000cbe0 s _cavs_op_ec25519_generate_shared_request._os_log_fmt
+000000000000cc00 s _cavs_op_ec25519_generate_shared_request._os_log_fmt.2
+000000000000cc20 s _cavs_op_ec25519_generate_shared_request._os_log_fmt.4
+000000000000763a t _cavs_op_ec25519_verify_key_request
+000000000000d980 s _cavs_op_ec25519_verify_key_request._os_log_fmt
+000000000000d9a0 s _cavs_op_ec25519_verify_key_request._os_log_fmt.2
+000000000000d9c0 s _cavs_op_ec25519_verify_key_request._os_log_fmt.4
+0000000000005737 t _cavs_op_ec25519_verify_shared_request
+000000000000d500 s _cavs_op_ec25519_verify_shared_request._os_log_fmt
+000000000000d520 s _cavs_op_ec25519_verify_shared_request._os_log_fmt.2
+000000000000d540 s _cavs_op_ec25519_verify_shared_request._os_log_fmt.4
+000000000000d560 s _cavs_op_ec25519_verify_shared_request._os_log_fmt.5
+000000000000d580 s _cavs_op_ec25519_verify_shared_request._os_log_fmt.6
+000000000000d5a0 s _cavs_op_ec25519_verify_shared_request._os_log_fmt.7
+0000000000001fa6 t _cavs_op_ec_func_request
+0000000000008a0f t _cavs_op_ec_key_gen_request
+000000000000dc00 s _cavs_op_ec_key_gen_request._os_log_fmt
+000000000000dc30 s _cavs_op_ec_key_gen_request._os_log_fmt.2
+0000000000000cb1 t _cavs_op_ec_pkv_request
+000000000000cac0 s _cavs_op_ec_pkv_request._os_log_fmt
+0000000000009e76 t _cavs_op_ec_sig_gen_comp_request
+0000000000008508 t _cavs_op_ec_sig_gen_request
+000000000000dbf4 s _cavs_op_ec_sig_gen_request._os_log_fmt
+0000000000006beb t _cavs_op_ec_sig_verify_request
+000000000000d8b0 s _cavs_op_ec_sig_verify_request._os_log_fmt
+00000000000065b4 t _cavs_op_ec_val_init_request
+0000000000000ff8 t _cavs_op_ec_val_resp_request
+0000000000010040 S _cavs_op_handlers
+0000000000002b1a t _cavs_op_hkdf_request
+000000000000cee0 s _cavs_op_hkdf_request._os_log_fmt
+0000000000001837 t _cavs_op_hmac_drbg_request
+000000000000cc40 s _cavs_op_hmac_drbg_request._os_log_fmt
+000000000000cc80 s _cavs_op_hmac_drbg_request._os_log_fmt.2
+0000000000003509 t _cavs_op_hmac_request
+000000000000cfa0 s _cavs_op_hmac_request._os_log_fmt
+00000000000068d8 t _cavs_op_montecarlo_finish_request
+0000000000006648 t _cavs_op_montecarlo_init_request
+000000000000d800 s _cavs_op_montecarlo_init_request._os_log_fmt
+000000000000d820 s _cavs_op_montecarlo_init_request._os_log_fmt.2
+000000000000d850 s _cavs_op_montecarlo_init_request._os_log_fmt.4
+0000000000006824 t _cavs_op_montecarlo_op_request
+000000000000d870 s _cavs_op_montecarlo_op_request._os_log_fmt
+0000000000005296 t _cavs_op_post_request
+000000000000d3d0 s _cavs_op_post_request._os_log_fmt
+0000000000000a7e T _cavs_op_register
+0000000000002e38 t _cavs_op_register_CAVS_VECTOR_AES_KW_DEC
+0000000000002cfe t _cavs_op_register_CAVS_VECTOR_AES_KW_ENC
+000000000000863b t _cavs_op_register_CAVS_VECTOR_CIPHER_DEC
+0000000000008598 t _cavs_op_register_CAVS_VECTOR_CIPHER_ENC
+000000000000957a t _cavs_op_register_CAVS_VECTOR_DIGEST
+00000000000031cf t _cavs_op_register_CAVS_VECTOR_DRBG
+0000000000000b12 t _cavs_op_register_CAVS_VECTOR_EC25519_GENERATE_KEY
+00000000000016f2 t _cavs_op_register_CAVS_VECTOR_EC25519_GENERATE_SHARED
+0000000000007624 t _cavs_op_register_CAVS_VECTOR_EC25519_VERIFY_KEY
+0000000000005721 t _cavs_op_register_CAVS_VECTOR_EC25519_VERIFY_SHARED
+0000000000001f90 t _cavs_op_register_CAVS_VECTOR_EC_FUNC
+00000000000089f9 t _cavs_op_register_CAVS_VECTOR_EC_KEY_GEN
+0000000000000c9b t _cavs_op_register_CAVS_VECTOR_EC_PKV
+00000000000084f2 t _cavs_op_register_CAVS_VECTOR_EC_SIG_GEN
+0000000000009e60 t _cavs_op_register_CAVS_VECTOR_EC_SIG_GEN_COMP
+0000000000006bd5 t _cavs_op_register_CAVS_VECTOR_EC_SIG_VERIFY
+000000000000659e t _cavs_op_register_CAVS_VECTOR_EC_VAL_INIT
+0000000000000fe2 t _cavs_op_register_CAVS_VECTOR_EC_VAL_RESP
+0000000000002b04 t _cavs_op_register_CAVS_VECTOR_HKDF
+00000000000034f3 t _cavs_op_register_CAVS_VECTOR_HMAC
+0000000000001821 t _cavs_op_register_CAVS_VECTOR_HMAC_DRBG
+00000000000067f8 t _cavs_op_register_CAVS_VECTOR_MONTECARLO_DEC_INIT
+00000000000068ac t _cavs_op_register_CAVS_VECTOR_MONTECARLO_DEC_OP
+0000000000006632 t _cavs_op_register_CAVS_VECTOR_MONTECARLO_ENC_INIT
+000000000000680e t _cavs_op_register_CAVS_VECTOR_MONTECARLO_ENC_OP
+00000000000068c2 t _cavs_op_register_CAVS_VECTOR_MONTECARLO_FINISH
+0000000000005280 t _cavs_op_register_CAVS_VECTOR_POST
+0000000000001072 t _cavs_op_register_CAVS_VECTOR_RSA_KEY_GEN
+000000000000906a t _cavs_op_register_CAVS_VECTOR_RSA_SIG_GEN
+0000000000005955 t _cavs_op_register_CAVS_VECTOR_RSA_VERIFY
+0000000000006925 t _cavs_op_register_CAVS_VECTOR_XTS_DEC_INIT
+000000000000690f t _cavs_op_register_CAVS_VECTOR_XTS_ENC_INIT
+0000000000006951 t _cavs_op_register_CAVS_VECTOR_XTS_FINISH
+000000000000693b t _cavs_op_register_CAVS_VECTOR_XTS_OP
+0000000000001088 t _cavs_op_rsa_key_gen_request
+000000000000cae0 s _cavs_op_rsa_key_gen_request._os_log_fmt
+000000000000cb00 s _cavs_op_rsa_key_gen_request._os_log_fmt.2
+000000000000cb30 s _cavs_op_rsa_key_gen_request._os_log_fmt.4
+000000000000cb50 s _cavs_op_rsa_key_gen_request._os_log_fmt.6
+000000000000cb70 s _cavs_op_rsa_key_gen_request._os_log_fmt.8
+0000000000009080 t _cavs_op_rsa_sig_gen_request
+000000000000dd60 s _cavs_op_rsa_sig_gen_request._os_log_fmt
+000000000000596b t _cavs_op_rsa_verify_request
+0000000000018170 S _cavs_op_scratch_extra
+0000000000010170 S _cavs_op_scratch_output
+00000000000053ff t _cavs_op_trace_writer
+000000000000d3f0 s _cavs_op_trace_writer._os_log_fmt
+000000000000566d T _cavs_remote_write_buffer
+000000000000d440 s _cavs_remote_write_buffer._os_log_fmt
+00000000000022d1 T _cavs_right_justify_buffer
+00000000000027da T _cavs_sha_is_to_string
+000000000000ce70 s _cavs_sha_is_to_string._os_log_fmt
+0000000000002691 T _cavs_target_to_string
+000000000000ce40 s _cavs_target_to_string._os_log_fmt
+00000000000082a3 T _cavs_vector_aes_kw_crypt
+000000000000dbd0 s _cavs_vector_aes_kw_crypt._os_log_fmt
+00000000000036a4 T _cavs_vector_cipher
+000000000000cfc0 s _cavs_vector_cipher._os_log_fmt
+000000000000cfd0 s _cavs_vector_cipher._os_log_fmt.2
+000000000000cfe6 s _cavs_vector_cipher._os_log_fmt.4
+000000000000d000 s _cavs_vector_cipher._os_log_fmt.6
+000000000000d020 s _cavs_vector_cipher._os_log_fmt.8
+000000000000d050 s _cavs_vector_cipher_oneshot._os_log_fmt
+000000000000d0b0 s _cavs_vector_cipher_oneshot._os_log_fmt.11
+00000000000009e4 T _cavs_vector_digest
+000000000000ca60 s _cavs_vector_digest._os_log_fmt
+0000000000008cd5 T _cavs_vector_drbg
+000000000000dca0 s _cavs_vector_drbg._os_log_fmt
+000000000000dd40 s _cavs_vector_drbg._os_log_fmt.10
+000000000000dcc0 s _cavs_vector_drbg._os_log_fmt.2
+000000000000dce0 s _cavs_vector_drbg._os_log_fmt.4
+000000000000dd00 s _cavs_vector_drbg._os_log_fmt.6
+000000000000dd20 s _cavs_vector_drbg._os_log_fmt.8
+0000000000004422 T _cavs_vector_ec25519_gen_shared
+0000000000004870 T _cavs_vector_ec25519_generate_key
+000000000000d210 s _cavs_vector_ec25519_generate_key._os_log_fmt
+00000000000045be T _cavs_vector_ec25519_verify
+0000000000004794 T _cavs_vector_ec25519_verify_key
+0000000000007cbd T _cavs_vector_ec_compute_primes
+000000000000da70 s _cavs_vector_ec_compute_primes._os_log_fmt
+000000000000daa0 s _cavs_vector_ec_compute_primes._os_log_fmt.3
+000000000000dae0 s _cavs_vector_ec_compute_primes._os_log_fmt.5
+000000000000db00 s _cavs_vector_ec_compute_primes._os_log_fmt.7
+0000000000007c83 T _cavs_vector_ec_compute_priv
+0000000000002057 T _cavs_vector_ec_func
+000000000000cd90 s _cavs_vector_ec_func._os_log_fmt
+0000000000007c6d T _cavs_vector_ec_generate_priv
+0000000000007bf1 T _cavs_vector_ec_get_digest
+000000000000da50 s _cavs_vector_ec_get_digest._os_log_fmt
+0000000000007b3e T _cavs_vector_ec_get_key_len
+000000000000da30 s _cavs_vector_ec_get_key_len._os_log_fmt
+0000000000007bcf T _cavs_vector_ec_get_prime_len
+0000000000007fe5 T _cavs_vector_ec_key_gen
+000000000000db20 s _cavs_vector_ec_key_gen._os_log_fmt
+000000000000db50 s _cavs_vector_ec_key_gen._os_log_fmt.2
+000000000000db70 s _cavs_vector_ec_key_gen._os_log_fmt.4
+000000000000db90 s _cavs_vector_ec_key_gen._os_log_fmt.6
+00000000000079fe T _cavs_vector_ec_pkv
+000000000000da00 s _cavs_vector_ec_pkv._os_log_fmt
+0000000000003e3b T _cavs_vector_ec_sig_gen
+000000000000d0d0 s _cavs_vector_ec_sig_gen._os_log_fmt
+000000000000d1a0 s _cavs_vector_ec_sig_gen._os_log_fmt.10
+000000000000d1c0 s _cavs_vector_ec_sig_gen._os_log_fmt.12
+000000000000d1f0 s _cavs_vector_ec_sig_gen._os_log_fmt.14
+000000000000d100 s _cavs_vector_ec_sig_gen._os_log_fmt.2
+000000000000d130 s _cavs_vector_ec_sig_gen._os_log_fmt.4
+000000000000d150 s _cavs_vector_ec_sig_gen._os_log_fmt.6
+000000000000d170 s _cavs_vector_ec_sig_gen._os_log_fmt.8
+0000000000004936 T _cavs_vector_ec_sig_gen_comp
+000000000000d230 s _cavs_vector_ec_sig_gen_comp._os_log_fmt
+000000000000d300 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.10
+000000000000d320 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.12
+000000000000d350 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.14
+000000000000d260 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.2
+000000000000d290 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.4
+000000000000d2b0 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.6
+000000000000d2d0 s _cavs_vector_ec_sig_gen_comp._os_log_fmt.8
+00000000000097d8 T _cavs_vector_ec_sig_verify
+000000000000de50 s _cavs_vector_ec_sig_verify._os_log_fmt
+000000000000de80 s _cavs_vector_ec_sig_verify._os_log_fmt.2
+000000000000dea0 s _cavs_vector_ec_sig_verify._os_log_fmt.4
+000000000000dee0 s _cavs_vector_ec_sig_verify._os_log_fmt.6
+000000000000df00 s _cavs_vector_ec_sig_verify._os_log_fmt.8
+0000000000001d81 T _cavs_vector_ec_val_init
+000000000000cd70 s _cavs_vector_ec_val_init._os_log_fmt
+00000000000015ba T _cavs_vector_ec_val_resp
+000000000000cbc0 s _cavs_vector_ec_val_resp._os_log_fmt
+0000000000006ca4 T _cavs_vector_hkdf
+000000000000d8d0 s _cavs_vector_hkdf._os_log_fmt
+000000000000d8f0 s _cavs_vector_hkdf._os_log_fmt.2
+0000000000003129 T _cavs_vector_hmac
+000000000000cf60 s _cavs_vector_hmac._os_log_fmt
+0000000000000d40 T _cavs_vector_hmac_drbg
+00000000000201d0 b _cavs_vector_mc
+0000000000008bc8 t _cavs_vector_mc_init_cbc
+000000000000dc70 s _cavs_vector_mc_init_cbc._os_log_fmt
+0000000000002aa1 t _cavs_vector_mc_init_cfb
+00000000000077f4 t _cavs_vector_mc_init_cfb8
+0000000000006e51 t _cavs_vector_mc_init_ecb
+0000000000006a0b t _cavs_vector_mc_init_ofb
+0000000000001a96 t _cavs_vector_mc_init_xts
+000000000000ccd0 s _cavs_vector_mc_init_xts._os_log_fmt
+0000000000001bee T _cavs_vector_mc_register
+0000000000008b20 t _cavs_vector_mc_registerCAVS_CIPHER_MODE_CBC
+00000000000029fd t _cavs_vector_mc_registerCAVS_CIPHER_MODE_CFB
+0000000000007750 t _cavs_vector_mc_registerCAVS_CIPHER_MODE_CFB8
+0000000000006dad t _cavs_vector_mc_registerCAVS_CIPHER_MODE_ECB
+0000000000006967 t _cavs_vector_mc_registerCAVS_CIPHER_MODE_OFB
+00000000000019f9 t _cavs_vector_mc_registerCAVS_CIPHER_MODE_XTS
+0000000000008b44 t _cavs_vector_mc_sizeof_cbc
+000000000000dc50 s _cavs_vector_mc_sizeof_cbc._os_log_fmt
+0000000000002a21 t _cavs_vector_mc_sizeof_cfb
+000000000000cec0 s _cavs_vector_mc_sizeof_cfb._os_log_fmt
+0000000000007774 t _cavs_vector_mc_sizeof_cfb8
+000000000000d9e0 s _cavs_vector_mc_sizeof_cfb8._os_log_fmt
+0000000000006dd1 t _cavs_vector_mc_sizeof_ecb
+000000000000d910 s _cavs_vector_mc_sizeof_ecb._os_log_fmt
+000000000000698b t _cavs_vector_mc_sizeof_ofb
+000000000000d890 s _cavs_vector_mc_sizeof_ofb._os_log_fmt
+0000000000001a1d t _cavs_vector_mc_sizeof_xts
+000000000000ccb0 s _cavs_vector_mc_sizeof_xts._os_log_fmt
+0000000000008ca0 t _cavs_vector_mc_update_cbc
+0000000000002aec t _cavs_vector_mc_update_cfb
+000000000000783f t _cavs_vector_mc_update_cfb8
+0000000000006e96 t _cavs_vector_mc_update_ecb
+0000000000006a56 t _cavs_vector_mc_update_ofb
+0000000000001b67 t _cavs_vector_mc_update_xts
+000000000000cd00 s _cavs_vector_mc_update_xts._os_log_fmt
+0000000000001c0f T _cavs_vector_montecarlo_init
+000000000000cd30 s _cavs_vector_montecarlo_init._os_log_fmt
+000000000000cd50 s _cavs_vector_montecarlo_init._os_log_fmt.2
+0000000000001d5d T _cavs_vector_montecarlo_op
+000000000000630c T _cavs_vector_rsa_key_gen
+000000000000d790 s _cavs_vector_rsa_key_gen._os_log_fmt
+000000000000d7c0 s _cavs_vector_rsa_key_gen._os_log_fmt.2
+0000000000009b0d T _cavs_vector_rsa_sig_gen
+000000000000df30 s _cavs_vector_rsa_sig_gen._os_log_fmt
+000000000000df60 s _cavs_vector_rsa_sig_gen._os_log_fmt.2
+000000000000df80 s _cavs_vector_rsa_sig_gen._os_log_fmt.4
+0000000000002f6c T _cavs_vector_rsa_verify
+000000000000cf40 s _cavs_vector_rsa_verify._os_log_fmt
+0000000000002624 T _cavs_vector_to_string
+000000000000ce30 s _cavs_vector_to_string._os_log_fmt
+                 U _cc_clear
+                 U _ccaes_intel_cbc_decrypt_aesni_mode
+                 U _ccaes_intel_cbc_decrypt_opt_mode
+                 U _ccaes_intel_cbc_encrypt_aesni_mode
+                 U _ccaes_intel_cbc_encrypt_opt_mode
+                 U _ccaes_intel_ecb_decrypt_aesni_mode
+                 U _ccaes_intel_ecb_decrypt_opt_mode
+                 U _ccaes_intel_ecb_encrypt_aesni_mode
+                 U _ccaes_intel_ecb_encrypt_opt_mode
+                 U _ccaes_intel_xts_decrypt_aesni_mode
+                 U _ccaes_intel_xts_decrypt_opt_mode
+                 U _ccaes_intel_xts_encrypt_aesni_mode
+                 U _ccaes_intel_xts_encrypt_opt_mode
+                 U _ccaes_vng_ccm_decrypt
+                 U _ccaes_vng_ccm_encrypt
+                 U _ccaes_vng_ctr_crypt
+                 U _ccaes_vng_gcm_decrypt
+                 U _ccaes_vng_gcm_encrypt
+                 U _cccbc_one_shot
+0000000000003ad4 t _ccccm_one_shot
+0000000000003daa t _cccfb8_one_shot
+0000000000003d19 t _cccfb_one_shot
+                 U _cccurve25519
+                 U _ccder_decode_rsa_priv
+                 U _ccder_decode_rsa_priv_n
+                 U _ccder_decode_seqii
+                 U _ccder_encode_rsa_priv
+                 U _ccder_encode_rsa_priv_size
+                 U _ccdes3_cbc_decrypt_mode
+                 U _ccdes3_cbc_encrypt_mode
+                 U _ccdes3_cfb8_decrypt_mode
+                 U _ccdes3_cfb8_encrypt_mode
+                 U _ccdes3_cfb_decrypt_mode
+                 U _ccdes3_cfb_encrypt_mode
+                 U _ccdes3_ctr_crypt_mode
+                 U _ccdes3_ecb_decrypt_mode
+                 U _ccdes3_ecb_encrypt_mode
+                 U _ccdes3_ofb_crypt_mode
+0000000000004929 T _ccdh_gp_rfc3526group14
+                 U _ccdigest
+                 U _ccdrbg_factory_nistctr
+                 U _ccdrbg_factory_nisthmac
+                 U _ccec_compute_key
+                 U _ccec_generate_key
+                 U _ccec_generate_key_fips
+                 U _ccec_get_cp
+                 U _ccec_get_fullkey_components
+                 U _ccec_make_priv
+                 U _ccec_make_pub
+                 U _ccec_sign
+                 U _ccec_signature_r_s_size
+                 U _ccec_validate_pub
+                 U _ccec_verify
+                 U _ccec_verify_composite
+0000000000003bf8 t _ccecb_one_shot
+                 U _cced25519_make_key_pair
+                 U _cced25519_make_pub
+                 U _ccgcm_one_shot
+                 U _cchkdf
+                 U _cchmac
+                 U _ccmode_ccm_cbcmac
+                 U _ccmode_ccm_finalize
+                 U _ccmode_ccm_init
+                 U _ccmode_ccm_reset
+                 U _ccmode_ccm_set_iv
+                 U _ccmode_ctr_init
+                 U _ccmode_ctr_setctr
+                 U _ccmode_factory_cbc_decrypt
+                 U _ccmode_factory_cbc_encrypt
+                 U _ccmode_factory_cfb8_decrypt
+                 U _ccmode_factory_cfb8_encrypt
+                 U _ccmode_factory_cfb_decrypt
+                 U _ccmode_factory_cfb_encrypt
+                 U _ccmode_factory_ctr_crypt
+                 U _ccmode_factory_ofb_crypt
+                 U _ccmode_gcm_aad
+                 U _ccmode_gcm_finalize
+                 U _ccmode_gcm_init
+                 U _ccmode_gcm_reset
+                 U _ccmode_gcm_set_iv
+                 U _ccn_bitlen
+                 U _ccn_read_uint
+                 U _ccn_write_uint
+                 U _ccn_write_uint_size
+0000000000003c88 t _ccofb_one_shot
+                 U _ccrng
+                 U _ccrng_ecfips_test_init
+                 U _ccrsa_dump_full_key
+                 U _ccrsa_generate_fips186_key_trace
+                 U _ccrsa_init_pub
+                 U _ccrsa_sign_pkcs1v15
+                 U _ccrsa_verify_pkcs1v15
+                 U _ccsha1_vng_intel_AVX1_di
+                 U _ccsha1_vng_intel_AVX2_di
+                 U _ccsha1_vng_intel_SupplementalSSE3_di
+                 U _ccsha224_vng_intel_AVX1_di
+                 U _ccsha224_vng_intel_AVX2_di
+                 U _ccsha224_vng_intel_SupplementalSSE3_di
+                 U _ccsha256_di
+                 U _ccsha256_vng_intel_AVX1_di
+                 U _ccsha256_vng_intel_AVX2_di
+                 U _ccsha256_vng_intel_SupplementalSSE3_di
+                 U _ccsha384_di
+                 U _ccsha384_ltc_di
+                 U _ccsha384_vng_intel_AVX1_di
+                 U _ccsha384_vng_intel_AVX2_di
+                 U _ccsha384_vng_intel_SupplementalSSE3_di
+                 U _ccsha512_di
+                 U _ccsha512_ltc_di
+                 U _ccsha512_vng_intel_AVX1_di
+                 U _ccsha512_vng_intel_AVX2_di
+                 U _ccsha512_vng_intel_SupplementalSSE3_di
+                 U _ccwrap_auth_decrypt
+                 U _ccwrap_auth_encrypt
+                 U _ccwrap_unwrapped_size
+                 U _ccwrap_wrapped_size
+                 U _cczp_mod
+                 U _cpuid_features
+                 U _cpuid_info
+                 U _fipspost_post
+                 U _fipspost_trace_vtable
+                 U _gIOUserClientClassKey
+000000000000ff78 D _kmod_info
+                 U _memcmp
+                 U _memcpy
+                 U _memmove
+                 U _memset
+0000000000002182 T _print_preamble
+000000000000cdb0 s _print_preamble._os_log_fmt
+000000000000cdbe s _print_preamble._os_log_fmt.2
+000000000000fb48 d _print_preamble.skip_path
+                 U _strlen
+                 U _strncmp
+0000000000002255 t _strnstr_kernel
