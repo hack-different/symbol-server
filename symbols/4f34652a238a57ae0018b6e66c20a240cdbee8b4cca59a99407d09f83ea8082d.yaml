@@ -2,9 +2,12 @@ imports:
 - dfu
 symbols:
  rom:
-    0x03E8: read_control_register_data
+    0x03E8:
+        name: read_control_register_data
+        type: function
+        prototype:
     0x03F0: write_control_register_data
-    0x03F8: read_aux_register_data
+    0x03F8: read_aux_register_datais 
     0x0400: write_aux_register_data
     0x0408: write_domain_register_data
     0x0410: write_tlb0
