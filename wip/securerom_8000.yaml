@@ -1,1064 +1,1366 @@
+mappings:
+  dfu:
+    base_address: 0x100000000
 symbols:
   dfu:
-    0x1000114bc:
+    0x114BC:
       name: DERDecodeItem
-    0x1000114c4:
+      type: function
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: der
+        - type: DERDecodedInfo *
+          name: decoded
+    0x114C4:
       name: DERDecodeItemPartialBufferGetLength
-    0x1000117c4:
+      type: function
+    0x117C4:
       name: DERDecodeSeqContentInit
-    0x100011750:
+      type: function
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: content
+        - type: DERSequence *
+          name: derSeq
+    0x11750:
       name: DERDecodeSeqInit
-    0x1000117e4:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: der
+        - type: DERTag *
+          name: tag
+        - type: DERSequence *
+          name: derSeq
+    0x117e4:
       name: DERDecodeSeqNext
-    0x100011c90:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERSequence *
+          name: derSeq
+        - type: DERDecodedInfo *
+          name: decoded
+    0x11c90:
       name: DERImg4Decode
-    0x100011bdc:
+    0x11bdc:
       name: DERImg4DecodeContentFindItemWithTag
-    0x100011fd4:
+    0x11fd4:
       name: DERImg4DecodeFindProperty
-    0x100011dc8:
+    0x11dc8:
       name: DERImg4DecodeManifest
-    0x1000120ac:
+    0x120ac:
       name: DERImg4DecodeParseManifestProperties
-    0x100011d60:
+    0x11d60:
       name: DERImg4DecodePayload
-    0x100011ee0:
+    0x11ee0:
       name: DERImg4DecodeProperty
-    0x100011e68:
+    0x11e68:
       name: DERImg4DecodeRestoreInfo
-    0x100011c20:
+    0x11c20:
       name: DERImg4DecodeTagCompare
-    0x100014380:
+    0x14380:
       name: DERMemcmp
-    0x100011a64:
+      prototype:
+        return: int
+        parameters:
+        - type: void *
+          const: true
+          name: ptr1
+        - type: void *
+          const: true
+          name: ptr2
+        - type: size_t
+          name: num
+    0x11a64:
       name: DEROidCompare
-    0x1000115ec:
+      prototype:
+        return: bool
+        parameters:
+        - type: DERItem *
+          const: true
+          name: oid1
+        - type: DERItem *
+          const: true
+          name: oid2
+    0x115ec:
       name: DERParseBitString
-    0x100011634:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: contents
+        - type: DERItem *
+          name: bitStringBytes
+        - type: DERByte *
+          name: numUnusedBits
+    0x11634:
       name: DERParseBoolean
-    0x100011674:
+      type: function
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: contents
+        - type: bool *
+          name: value
+    0x11674:
       name: DERParseInteger
-    0x1000116c0:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem
+          const: true
+          name: contents
+        - type: uint32_t *
+          name: value
+    0x116c0:
       name: DERParseInteger64
-    0x100011854:
+      type: function
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: contents
+        - type: uint64_t *
+          name: value
+    0x11854:
       name: DERParseSequence
-    0x1000118dc:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: const DERItem *
+          name: der
+        - type: DERShort
+          name: numItems
+        - type: const DERItemSpec *
+          name: itemSpecs
+        - type: void *
+          name: dest
+        - type: DERSize
+          name: sizeToZero
+    0x118dc:
       name: DERParseSequenceContent
-    0x10000702c:
+      prototype:
+        return: DERReturn
+        parameters:
+        - type: DERItem *
+          const: true
+          name: content
+        - type: DERShort
+          name: numItems
+        - type: DERItemSpec *
+          const: true
+          name: itemSpecs
+        - type: void *
+          name: dest
+        - type: DERSize
+          name: sizeToZero
+    0x702c:
       name: HEAP_PANIC
-    0x100014ea0:
+      prototype:
+        static: true
+        return: void
+        parameters:
+        - type: char const *
+          name: func
+        - type: void *
+          const: true
+          name: block
+        - type: char *
+          const: true
+          name: reason
+    0x14ea0:
       name: Img4DecodeComputeDigest
-    0x100011b5c:
+    0x11b5c:
       name: Img4DecodeCopyManifestDigest
-    0x1000126b4:
+    0x126b4:
       name: Img4DecodeEvaluateCertificateProperties
-    0x1000128f0:
+    0x128f0:
       name: Img4DecodeEvaluateDictionaryProperties
-    0x100011b1c:
+    0x11b1c:
       name: Img4DecodeEvaluateTrust
-    0x100012ac4:
+    0x12ac4:
       name: Img4DecodeEvaluateTrustWithCallbacks
-    0x100012420:
+    0x12420:
       name: Img4DecodeGetDataFromSection
-    0x100012190:
+    0x12190:
       name: Img4DecodeGetPayload
-    0x1000121f8:
+    0x121f8:
       name: Img4DecodeGetPayloadKeybag
-    0x1000121c8:
+    0x121c8:
       name: Img4DecodeGetPayloadType
-    0x1000125d4:
+    0x125d4:
       name: Img4DecodeGetPropertyBoolean
-    0x100012640:
+    0x12640:
       name: Img4DecodeGetPropertyData
-    0x1000124a8:
+    0x124a8:
       name: Img4DecodeGetPropertyFromSection
-    0x100012568:
+    0x12568:
       name: Img4DecodeGetPropertyInteger64
-    0x100012a04:
+    0x12a04:
       name: Img4DecodeInit
-    0x1000122ec:
+    0x122ec:
       name: Img4DecodeManifestExists
-    0x1000123c4:
+    0x123c4:
       name: Img4DecodeSectionExists
-    0x10000fe28:
+    0xfe28:
       name: NEGATIVE_ONE_GADGET
-    0x100010098:
+    0x10098:
       name: NEGATIVE_ONE_GADGET2
-    0x1000100a0:
+    0x100a0:
       name: NEGATIVE_ONE_GADGET3
-    0x10000041c:
+    0x41c:
       name: RET_GADGET
-    0x100001d38:
+    0x1d38:
       name: RET_GADGET2
-    0x1000066a8:
+    0x66a8:
       name: RET_GADGET3
-    0x100011b18:
+    0x11b18:
       name: RET_GADGET4
-    0x10000d9c0:
+    0xd9c0:
       name: UNUSED_boot_handoff_trampoline
-    0x1000137f0:
+    0x137f0:
       name: _AccelerateCrypto_AES_decrypt
-    0x1000004d4:
+    0x4d4:
       name: __main
-    0x10000124c:
+    0x124c:
       name: _aic_unmask_int_internal
-    0x1000007f8:
+      prototype:
+        return: void
+        parameters:
+        - type: uint32_t
+          name: vector
+    0x7f8:
       name: _akf_recv_mbox_nonempty_int_handler
-    0x100000858:
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: void *
+            name: arg
+    0x858:
       name: _akf_send_mbox_empty_int_handler
-    0x1000019a0:
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: void *
+            name: arg
+    0x19a0:
       name: _apcie_config_read
-    0x100001a2c:
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: void *
+            name: priv
+          - type: void *
+            name: dest
+          - type: uint32_t
+            name: bdfo
+          - type: int
+            name: size
+    0x1a2c:
       name: _apcie_config_write
-    0x10000193c:
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: void *
+            name: priv
+          - type: void *
+            name: dest
+          - type: uint32_t
+            name: bdfo
+          - type: int
+            name: size
+    0x193c:
       name: _apcie_init
-    0x1000004cc:
+      prototype:
+        return: void
+    0x4cc:
       name: _arch_spin
-    0x10000cb40:
+      prototype:
+        return: void
+    0xcb40:
       name: _arch_task_context_switch
-    0x100000424:
+      type: function
+      parameters:
+        - type: arch_task *
+          name: old
+        - type: arch_task *
+          name: new
+    0x424:
       name: _arm_clean_dcache
-    0x100000420:
+      type: function
+      prototype:
+        return: void
+    0x420:
       name: _arm_clean_invalidate_dcache
-    0x10000042c:
+      type: function
+      prototype:
+        return: void
+    0x42c:
       name: _arm_clean_invalidate_dcache_line
-    0x10000048c:
+      type: function
+      prototype:
+        return: void
+    0x48c:
       name: _arm_disable_async_aborts
-    0x100000434:
+    0x434:
       name: _arm_drain_write_buffer
-    0x100000498:
+    0x498:
       name: _arm_enable_async_aborts
-    0x10000ca5c:
+    0xca5c:
       name: _arm_fiq
-    0x10000d8f4:
+    0xd8f4:
       name: _arm_fp_init
-    0x100000428:
+    0x428:
       name: _arm_invalidate_dcache
-    0x100000418:
+    0x418:
       name: _arm_invalidate_dcache_line
-    0x100000408:
+    0x408:
       name: _arm_invalidate_icache
-    0x10000d940:
+    0xd940:
       name: _arm_irq
-    0x100000438:
+    0x438:
       name: _arm_memory_barrier
-    0x10000c968:
+    0xc968:
       name: _arm_mmu_init
-    0x1000003b0:
+      prototype:
+        return: void
+        parameters:
+        - type: bool
+          name: resuem
+    0x3b0:
       name: _arm_read_cpacr
-    0x100000368:
+      type: function
+      prototype:
+        return: uint32_t
+    0x368:
       name: _arm_read_sctlr
-    0x10000d924:
+      type: function
+      prototype:
+        return: uint64_t
+    0xd924:
       name: _arm_serror_exception
-    0x10000d90c:
+    0xd90c:
       name: _arm_synchronous_exception
-    0x100000440:
+    0x440:
       name: _arm_vtop
-    0x1000003e8:
+    0x3e8:
       name: _arm_write_cntp_tval
-    0x10000038c:
+    0x38c:
       name: _arm_write_mair
-    0x100000380:
+    0x380:
       name: _arm_write_scr
-    0x100000370:
+    0x370:
       name: _arm_write_sctlr
-    0x100000398:
+    0x398:
       name: _arm_write_tcr
-    0x1000003a4:
+    0x3a4:
       name: _arm_write_ttbr0
-    0x100011020:
+    0x11020:
       name: _bcopy
-    0x100003f84:
+    0x3f84:
       name: _boot_check_panic
-    0x1000111e0:
+    0x111e0:
       name: _bzero
-    0x10000b4c0:
+    0xb4c0:
       name: _callout_dequeue
-    0x10000b4fc:
+    0xb4fc:
       name: _callout_reset_deadline
-    0x100013c40:
+    0x13c40:
       name: _ccaes_arm_decrypt_key
-    0x100013b70:
+    0x13b70:
       name: _ccaes_arm_decrypt_key128
-    0x100013b90:
+    0x13b90:
       name: _ccaes_arm_decrypt_key192
-    0x100013bb0:
+    0x13bb0:
       name: _ccaes_arm_decrypt_key256
-    0x100013bd0:
+    0x13bd0:
       name: _ccaes_arm_encrypt_key
-    0x100013b00:
+    0x13b00:
       name: _ccaes_arm_encrypt_key128
-    0x100013b10:
+    0x13b10:
       name: _ccaes_arm_encrypt_key192
-    0x100013b20:
+    0x13b20:
       name: _ccaes_arm_encrypt_key256
-    0x1000134f0:
+    0x134f0:
       name: _ccaes_cfb_decrypt_vng_vector
-    0x100014124:
+    0x14124:
       name: _ccn_add_asm
-    0x10001455c:
+    0x1455c:
       name: _ccn_sub_asm
-    0x100014610:
+    0x14610:
       name: _ccn_write_uint_size
-    0x10000d788:
+    0xd788:
       name: _dispatch64
-    0x100010554:
+    0x10554:
       name: _do_printf
-    0x10000d100:
+    0xd100:
       name: _el3_sp0_fiq_vector
-    0x10000d080:
+    0xd080:
       name: _el3_sp0_irq_vector
-    0x10000d180:
+    0xd180:
       name: _el3_sp0_serror_vector
-    0x10000d000:
+    0xd000:
       name: _el3_sp0_synchronous_vector
-    0x10000d300:
+    0xd300:
       name: _el3_sp3_fiq_vector
-    0x10000d280:
+    0xd280:
       name: _el3_sp3_irq_vector
-    0x10000d380:
+    0xd380:
       name: _el3_sp3_serror_vector
-    0x10000d200:
+    0xd200:
       name: _el3_sp3_synchronous_vector
-    0x10000d700:
+    0xd700:
       name: _elx_32_fiq_vector
-    0x10000d680:
+    0xd680:
       name: _elx_32_irq_vector
-    0x10000d780:
+    0xd780:
       name: _elx_32_serror_vector
-    0x10000d600:
+    0xd600:
       name: _elx_32_synchronous_vector
-    0x10000d500:
+    0xd500:
       name: _elx_64_fiq_vector
-    0x10000d480:
+    0xd480:
       name: _elx_64_irq_vector
-    0x10000d580:
+    0xd580:
       name: _elx_64_serror_vector
-    0x10000d400:
+    0xd400:
       name: _elx_64_synchronous_vector
-    0x10000287c:
+    0x287c:
       name: _flash_spi_init
-    0x10000294c:
+    0x294c:
       name: _flash_spi_read_range
-    0x100002a0c:
+    0x2a0c:
       name: _flash_spi_setup_bus
-    0x100002a2c:
+    0x2a2c:
       name: _flash_spi_wait_busy
-    0x1000071c0:
+    0x71c0:
       name: _image4_get_partial
-    0x10000746c:
+    0x746c:
       name: _image4_process_superblock
-    0x10000b890:
+    0xb890:
       name: _irq_enter_critical_section
-    0x10000b8dc:
+    0xb8dc:
       name: _irq_exit_critical_section
-    0x100006b6c:
+    0x6b6c:
       name: _malloc
-    0x100006e04:
+    0x6e04:
       name: _memalign
-    0x100011318:
+    0x11318:
       name: _memcmp
-    0x100011030:
+    0x11030:
       name: _memcpy
-    0x100011260:
+    0x11260:
       name: _memset
-    0x10000b628:
+    0xb628:
       name: _panic
-    0x100003b44:
+    0x3b44:
       name: _pci_create_host_bridge
-    0x100003b40:
+    0x3b40:
       name: _pci_init
-    0x100011ae4:
+    0x11ae4:
       name: _platform_get_chip_id
-    0x100008b08:
+    0x8b08:
       name: _platform_get_spi_frequency
-    0x100008804:
+    0x8804:
       name: _platform_init
-    0x100008ee4:
+    0x8ee4:
       name: _platform_map_host_to_pci_addr
-    0x10000879c:
+    0x879c:
       name: _platform_mmu_setup
-    0x100010fa0:
+    0x10fa0:
       name: _putchar
-    0x100010d80:
+    0x10d80:
       name: _snprintf
-    0x100004e4c:
+    0x4e4c:
       name: _spi_flush_rx_fifo
-    0x100004e28:
+    0x4e28:
       name: _spi_flush_tx_fifo
-    0x100004fb0:
+    0x4fb0:
       name: _spi_init
-    0x100005068:
+    0x5068:
       name: _spi_interrupt
-    0x100004e70:
+    0x4e70:
       name: _spi_read_etc
-    0x100004c98:
+    0x4c98:
       name: _spi_write_etc
-    0x10000b76c:
+    0xb76c:
       name: _stack_chk_fail
-    0x100011414:
+    0x11414:
       name: _strlcpy
-    0x100011474:
+    0x11474:
       name: _strlen
-    0x100001da0:
+    0x1DA0:
       name: adfe_set_ui_layer
-    0x10000f5d0:
+    0xF5D0:
       name: adler32_vec
-    0x10000daa0:
+    0xDAA0:
       name: aes_crypto_cmd
-    0x100013b2c:
+    0x13b2c:
       name: aes_dkey_expansion
-    0x100013cac:
+    0x13cac:
       name: aes_get_ccaes_cbc_decrypt_mode
-    0x100013cb8:
+    0x13cb8:
       name: aes_get_ccaes_cbc_encrypt_mode
-    0x100013cc4:
+    0x13cc4:
       name: aes_get_ccaes_ecb_decrypt_mode
-    0x100013cd0:
+    0x13cd0:
       name: aes_get_ccaes_ecb_encrypt_mode
-    0x100000f68:
+    0xf68:
       name: aes_hw_crypto_cmd
-    0x100013910:
+    0x13910:
       name: aes_key_expansion
-    0x100000974:
+    0x974:
       name: akf_recv_mbox
-    0x100000a74:
+    0xa74:
       name: akf_send_mbox
-    0x1000008b8:
+    0x8b8:
       name: akf_start
-    0x100002534:
+    0x2534:
       name: akf_start_sep
-    0x100000b70:
+    0xb70:
       name: akf_stop
-    0x10000ef14:
+    0xef14:
       name: alloc_ep0_device_io_request
-    0x100002140:
+    0x2140:
       name: alloc_tt_page
-    0x10000190c:
+    0x190c:
       name: apcie_disable_all
-    0x1000017b8:
+    0x17b8:
       name: apcie_disable_link
-    0x10000a4d8:
+    0xa4d8:
       name: apcie_disable_link_hardware
-    0x10000a370:
+    0xa370:
       name: apcie_disable_root_complex
-    0x10000140c:
+    0x140c:
       name: apcie_enable_link
-    0x10000a450:
+    0xa450:
       name: apcie_enable_link_hardware
-    0x10000a014:
+    0xa014:
       name: apcie_enable_root_complex
-    0x100001ab8:
+    0x1ab8:
       name: apcie_get_port_bridge
-    0x10000a000:
+    0xa000:
       name: apcie_set_s3e_mode
-    0x10000cadc:
+    0xcadc:
       name: arch_cpu_init
-    0x10000cb38:
+    0xcb38:
       name: arch_cpu_init_posttasks
-    0x10000cb30:
+    0xcb30:
       name: arch_cpu_quiesce
-    0x10000d958:
+    0xd958:
       name: arch_task_create
-    0x10000d998:
+    0xd998:
       name: arch_task_trampoline
-    0x10000c654:
+    0xc654:
       name: arm_mmu_map_range
-    0x10000caa0:
+    0xcaa0:
       name: arm_no_wfe_spin
-    0x1000003c4:
+    0x3c4:
       name: arm_read_cntp_ctl
-    0x1000003dc:
+    0x3dc:
       name: arm_read_cntpct
-    0x1000003d0:
+    0x3d0:
       name: arm_write_cntp_ctl
-    0x100001cf0:
+    0x1cf0:
       name: ausb_setup_widgets
-    0x10000fb78:
+    0xfb78:
       name: blockdev_read_hook
-    0x10000fab0:
+    0xfab0:
       name: blockdev_set_buffer_alignement
-    0x10000f9a8:
+    0xf9a8:
       name: blockdev_write_block_protected
-    0x10000fe30:
+    0xfe30:
       name: blockdev_write_hook
-    0x100009000:
+    0x9000:
       name: boot_handoff_trampoline
-    0x100010fd8:
+    0x10fd8:
       name: calloc
-    0x10000b568:
+    0xb568:
       name: callout_deadline
-    0x10000b534:
+    0xb534:
       name: callout_dequeue
-    0x10000b3e8:
+    0xb3e8:
       name: callout_enqueue
-    0x10000f54c:
+    0xf54c:
       name: cbuf_create
-    0x100001d84:
+    0x1d84:
       name: ccc_disable_custom_errors
-    0x100001d3c:
+    0x1d3c:
       name: ccc_enable_custom_errors
-    0x10000dbe8:
+    0xdbe8:
       name: cccbc_one_shot
-    0x100013cdc:
+    0x13cdc:
       name: ccdigest
-    0x100013fc4:
+    0x13fc4:
       name: ccdigest_init
-    0x10001400c:
+    0x1400c:
       name: ccdigest_update
-    0x10000dcec:
+    0xdcec:
       name: ccecb_one_shot
-    0x100008210:
+    0x8210:
       name: checkBoolean
-    0x1000081a0:
+    0x81a0:
       name: checkInteger64
-    0x10000a54c:
+    0xa54c:
       name: chipid_clear_production_mode
-    0x10000a598:
+    0xa598:
       name: chipid_get_board_id
-    0x10000a5c8:
+    0xa5c8:
       name: chipid_get_chip_id
-    0x10000a5d0:
+    0xa5d0:
       name: chipid_get_chip_revision
-    0x10000a700:
+    0xa700:
       name: chipid_get_chip_revision2
-    0x10000a51c:
+    0xa51c:
       name: chipid_get_current_production_mode
-    0x10000a5f4:
+    0xa5f4:
       name: chipid_get_ecid_id
-    0x10000a5b0:
+    0xa5b0:
       name: chipid_get_minimum_epoch
-    0x10000a6b8:
+    0xa6b8:
       name: chipid_get_pcie_refpll_vco_v2i_i_set
-    0x10000a6d0:
+    0xa6d0:
       name: chipid_get_pcie_refpll_vco_v2i_pi_set
-    0x10000a6e8:
+    0xa6e8:
       name: chipid_get_pcie_rx_ldo
-    0x10000a688:
+    0xa688:
       name: chipid_get_pcie_txpll_vco_v2i_i_set
-    0x10000a6a0:
+    0xa6a0:
       name: chipid_get_pcie_txpll_vco_v2i_pi_set
-    0x10000a534:
+    0xa534:
       name: chipid_get_raw_production_mode
-    0x10000a568:
+    0xa568:
       name: chipid_get_secure_mode
-    0x10000a580:
+    0xa580:
       name: chipid_get_security_domain
-    0x10000a61c:
+    0xa61c:
       name: chipid_set_fuse_lock
-    0x10000b2b8:
+    0xb2b8:
       name: clock_gate
-    0x10000b0a4:
+    0xb0a4:
       name: clock_get_frequency
-    0x10000b318:
+    0xb318:
       name: clock_set_device_reset
-    0x10000b354:
+    0xb354:
       name: clock_update_range
-    0x10000b228:
+    0xb228:
       name: clocks_get_frequencies_range
-    0x10000a824:
+    0xa824:
       name: clocks_init
-    0x10000b058:
+    0xb058:
       name: clocks_quiesce
-    0x10000ab3c:
+    0xab3c:
       name: clocks_quiesce_internal
-    0x10000a82c:
+    0xa82c:
       name: clocks_set_default
-    0x10000b05c:
+    0xb05c:
       name: clocks_set_performance
-    0x10000fadc:
+    0xfadc:
       name: construct_blockdev
-    0x100000ee4:
+    0xee4:
       name: create_key_command
-    0x100001fe4:
+    0x1fe4:
       name: dart_map_page_range
-    0x100002178:
+    0x2178:
       name: dart_unmap_page_range
-    0x10000b5f4:
+    0xb5f4:
       name: debug_init
-    0x10000b624:
+    0xb624:
       name: debug_putchar
-    0x10000c298:
+    0xc298:
       name: deep_idle_timeout
-    0x100007300:
+    0x7300:
       name: der_expect
-    0x1000073a8:
+    0x73a8:
       name: der_expect_ia5string
-    0x10000733c:
+    0x733c:
       name: der_restrict
-    0x10000f3e8:
+    0xf3e8:
       name: dfu_data_received
-    0x10000f4dc:
+    0xf4dc:
       name: dfu_handle_bus_reset
-    0x10000f1b0:
+    0xf1b0:
       name: dfu_handle_interface_received
-    0x100006688:
+    0x6688:
       name: enqueue_finished_request
-    0x10000b7d4:
+    0xb7d4:
       name: enter_critical_section
-    0x10000c098:
+    0xc098:
       name: event_init
-    0x10000c0ac:
+    0xc0ac:
       name: event_signal
-    0x10000c0f8:
+    0xc0f8:
       name: event_unsignal
-    0x10000c100:
+    0xc100:
       name: event_wait
-    0x10000c1f0:
+    0xc1f0:
       name: event_wait_callback
-    0x10000c140:
+    0xc140:
       name: event_wait_timeout
-    0x10000b838:
+    0xb838:
       name: exit_critical_section
-    0x10000de40:
+    0xde40:
       name: flash_nor_init
-    0x10000dda8:
+    0xdda8:
       name: flash_nor_register
-    0x100010df8:
+    0x10df8:
       name: flock
-    0x100001f7c:
+    0x1f7c:
       name: flush_tlb
-    0x100005e88:
+    0x5e88:
       name: flush_tx_fifo
-    0x100006c84:
+    0x6c84:
       name: free
-    0x10000f084:
+    0xf084:
       name: getDFUImage
-    0x1000100a8:
+    0x100a8:
       name: get_bounce_buf
-    0x10000301c:
+    0x301c:
       name: get_nvme_controller
-    0x10000b19c:
+    0xb19c:
       name: get_spare
-    0x10000230c:
+    0x230c:
       name: gpio_configure
-    0x100002448:
+    0x2448:
       name: gpio_configure_pupdn
-    0x10000249c:
+    0x249c:
       name: gpio_init_pinconfig
-    0x1000021f8:
+    0x21f8:
       name: gpio_read
-    0x1000022b8:
+    0x22b8:
       name: gpio_safe_reconfigure
-    0x100002248:
+    0x2248:
       name: gpio_write
-    0x10000f074:
+    0xf074:
       name: handle_test_mode_request
-    0x10000de5c:
+    0xde5c:
       name: hash_calculate
-    0x100011b40:
+    0x11b40:
       name: hash_calculate2
-    0x100007044:
+    0x7044:
       name: heap_add_chunk
-    0x10000bb70:
+    0xbb70:
       name: idle_task_routine
-    0x10000de58:
+    0xde58:
       name: image4_hash_init
-    0x1000075d0:
+    0x75d0:
       name: image4_load
-    0x100007d38:
+    0x7d38:
       name: image4_validate_property_callback_interposer
-    0x10000f8dc:
+    0xf8dc:
       name: image_create_from_memory
-    0x10000f928:
+    0xf928:
       name: image_free
-    0x10000f7f8:
+    0xf7f8:
       name: image_load
-    0x10000f768:
+      prototype:
+        return: int
+        parameters:
+          - type: image_info *
+            name: image
+          - type: u_int32_t *
+            const: true
+            name: types
+          - type: u_int32_t
+            name: count
+          - type: u_int32_t *
+            name: actual
+          - type: void * *
+            name: load_address
+          - type: size_t *
+            name: load_size
+    0xf768:
       name: image_search_bdev
-    0x10000825c:
+    0x825c:
       name: img4_property_read_from_image4
-    0x100012c4c:
+    0x12c4c:
       name: img4_verify_signature_with_chain
-    0x10000be08:
+    0xbe08:
       name: insert_run_q_tail
-    0x1000012a0:
+    0x12a0:
       name: install_int_handler
-    0x100001174:
+    0x1174:
       name: interrupt_init
-    0x1000011b4:
+    0x11b4:
       name: interrupt_mask_all
-    0x100011ae0:
+    0x11ae0:
       name: j_chipid_get_minimum_epoch
-    0x10000b314:
+    0xb314:
       name: j_nullsub_11
-    0x100008c9c:
+    0x8c9c:
       name: j_nullsub_9
-    0x100000c98:
+    0xc98:
       name: key_size
-    0x10000c068:
+    0xc068:
       name: list_remove_head
-    0x100010538:
+    0x10538:
       name: log2_int
-    0x100010f18:
+    0x10f18:
       name: longlong_to_hexstring
-    0x100010e30:
+    0x10e30:
       name: longlong_to_string
-    0x10000f948:
+    0xf948:
       name: lookup_blockdev
-    0x1000007bc:
+    0x7bc:
       name: lookup_image_in_bdev
-    0x1000011e0:
+    0x11e0:
       name: mask_int
-    0x10000b920:
+    0xb920:
       name: mem_static_find_virtual
-    0x10000b998:
+    0xb998:
       name: mem_static_map_physical
-    0x10000a808:
+    0xa808:
       name: miu_init
-    0x10000a790:
+    0xa790:
       name: miu_initialize_internal_ram
-    0x10000dde0:
+    0xdde0:
       name: nor_blockdev_read_block
-    0x100008404:
+    0x8404:
       name: nullsub_7
-    0x10000b310:
+    0xb310:
       name: nullsub_8
-    0x1000037ac:
+    0x37ac:
       name: nvme_bdev_create
-    0x100003ae8:
+    0x3ae8:
       name: nvme_bdev_for_blockdev
-    0x100003958:
+    0x3958:
       name: nvme_bdev_identify_and_create
-    0x1000039b0:
+    0x39b0:
       name: nvme_bdev_read
-    0x100003a4c:
+    0x3a4c:
       name: nvme_bdev_write
-    0x100003720:
+    0x3720:
       name: nvme_blockdev_init_boot
-    0x1000030e8:
+    0x30e8:
       name: nvme_bookkeeping_free
-    0x100003644:
+    0x3644:
       name: nvme_get_max_transfer_blocks
-    0x10000332c:
+    0x332c:
       name: nvme_identify_namespace
-    0x100002b7c:
+    0x2b7c:
       name: nvme_init
-    0x1000030a8:
+    0x30a8:
       name: nvme_quiesce
-    0x100003138:
+    0x3138:
       name: nvme_quiesce_all
-    0x10000305c:
+    0x305c:
       name: nvme_quiesce_pci
-    0x10000365c:
+    0x365c:
       name: nvme_set_enable
-    0x100002b38:
+    0x2b38:
       name: nvme_sq_add_cmd
-    0x100002afc:
+    0x2afc:
       name: nvme_sq_init_cmd
-    0x100003480:
+    0x3480:
       name: nvme_wait_for_cmd
-    0x1000040d8:
+    0x40d8:
       name: pci_bridge_assign_secondary_bus
-    0x100003eac:
+    0x3eac:
       name: pci_bridge_config_read32
-    0x100004490:
+    0x4490:
       name: pci_bridge_expand_memory_space
-    0x100003bd8:
+    0x3bd8:
       name: pci_bridge_probe
-    0x1000041a8:
+    0x41a8:
       name: pci_bridge_serr_enable
-    0x10000432c:
+    0x432c:
       name: pci_bus_master_enable
-    0x100004094:
+    0x4094:
       name: pci_config_read16
-    0x100003ee8:
+    0x3ee8:
       name: pci_config_read32
-    0x100003f00:
+    0x3f00:
       name: pci_config_read8
-    0x1000041ec:
+    0x41ec:
       name: pci_config_write16
-    0x100003f44:
+    0x3f44:
       name: pci_config_write32
-    0x100004168:
+    0x4168:
       name: pci_config_write8
-    0x100004740:
+    0x4740:
       name: pci_enable_pcie_aspm
-    0x100004830:
+    0x4830:
       name: pci_enable_pcie_l1ss
-    0x100004654:
+    0x4654:
       name: pci_enable_pcie_ltr
-    0x10000457c:
+    0x457c:
       name: pci_find_extended_capability
-    0x10000422c:
+    0x422c:
       name: pci_free
-    0x100004370:
+    0x4370:
       name: pci_get_bar_size
-    0x1000042d8:
+    0x42d8:
       name: pci_get_class_code
-    0x100008e90:
+    0x8e90:
       name: pci_init
-    0x1000042e0:
+    0x42e0:
       name: pci_is_bridge
-    0x10000437c:
+    0x437c:
       name: pci_map_bar
-    0x1000042e8:
+    0x42e8:
       name: pci_memory_space_enable
-    0x1000045ec:
+    0x45ec:
       name: pci_set_powerstate
-    0x1000086ac:
+    0x86ac:
       name: platform_bootprep
-    0x1000100cc:
+    0x100cc:
       name: platform_cache_operation
-    0x1000082c8:
+    0x82c8:
       name: platform_consume_nonce
-    0x100011b00:
+    0x11b00:
       name: platform_deep_idle
-    0x100008c4c:
+    0x8c4c:
       name: platform_demote_production
-    0x100008778:
+    0x8778:
       name: platform_disable_keys
-    0x100008408:
+    0x8408:
       name: platform_early_init
-    0x1000088fc:
+    0x88fc:
       name: platform_enable_boot_interface
-    0x100008a08:
+    0x8a08:
       name: platform_get_apcie_lane_cfg
-    0x100008820:
+    0x8820:
       name: platform_get_board_id
-    0x100008840:
+    0x8840:
       name: platform_get_boot_device
-    0x100008ca0:
+    0x8ca0:
       name: platform_get_boot_manifest_hash
-    0x100008c50:
+    0x8c50:
       name: platform_get_boot_trampoline
-    0x100011ae8:
+    0x11ae8:
       name: platform_get_chip_revision
-    0x100011ab0:
+    0x11ab0:
       name: platform_get_current_production_mode
-    0x100011aec:
+    0x11aec:
       name: platform_get_ecid_id
-    0x100011af0:
+    0x11af0:
       name: platform_get_entropy
-    0x100008b5c:
+    0x08b5c:
       name: platform_get_force_dfu
-    0x1000101c8:
+    0x101c8:
       name: platform_get_fuse_modes
-    0x1000101f8:
+    0x101f8:
       name: platform_get_iboot_flags
-    0x100008838:
+    0x8838:
       name: platform_get_lock_fuses_required
-    0x100008e40:
+    0x8e40:
       name: platform_get_mix_n_match_status
-    0x100008a78:
+    0x8a78:
       name: platform_get_nonce
-    0x100008e80:
+    0x8e80:
       name: platform_get_pcie_l1ss_ltr_threshold
-    0x100008e88:
+    0x8e88:
       name: platform_get_pcie_l1ss_t_common_mode
-    0x100008a58:
+    0x8a58:
       name: platform_get_pcie_link_width
-    0x100011ab4:
+    0x11ab4:
       name: platform_get_raw_production_mode
-    0x100008b7c:
+    0x8b7c:
       name: platform_get_request_dfu1
-    0x100008b9c:
+    0x8b9c:
       name: platform_get_request_dfu2
-    0x100011abc:
+    0x11abc:
       name: platform_get_secure_mode
-    0x100011ab8:
+    0x11ab8:
       name: platform_get_security_domain
-    0x100010234:
+    0x10234:
       name: platform_get_security_epoch
-    0x100008b04:
+    0x8b04:
       name: platform_get_sep_nonce
-    0x100008b48:
+    0x8b48:
       name: platform_get_usb_cable_connected
-    0x100011b10:
+    0x11b10:
       name: platform_get_usb_device_version
-    0x100011b04:
+    0x11b04:
       name: platform_get_usb_manufacturer_string
-    0x100010398:
+    0x10398:
       name: platform_get_usb_more_other_string
-    0x100010238:
+    0x10238:
       name: platform_get_usb_product_id
-    0x10001025c:
+    0x1025c:
       name: platform_get_usb_product_string
-    0x100010268:
+    0x10268:
       name: platform_get_usb_serial_number_string
-    0x100011af4:
+    0x11af4:
       name: platform_get_usb_vendor_id
-    0x100008650:
+    0x8650:
       name: platform_init_hwpins
-    0x100008668:
+    0x8668:
       name: platform_init_internal_mem
-    0x100008638:
+    0x8638:
       name: platform_init_setup_clocks
-    0x100001314:
+    0x1314:
       name: platform_irq
-    0x100008c14:
+    0x8c14:
       name: platform_keys_disabled
-    0x100008eec:
+    0x8eec:
       name: platform_map_pci_to_host_addr
-    0x1000101c4:
+    0x1c4:
       name: platform_memory_barrier
-    0x10000a820:
+    0xa820:
       name: platform_power_spin
-    0x100008680:
+    0x8680:
       name: platform_quiesce_hardware
-    0x10000b300:
+    0xb300:
       name: platform_reset
-    0x100008d50:
+    0x8d50:
       name: platform_set_boot_manifest_hash
-    0x100008b4c:
+    0x8b4c:
       name: platform_set_dfu_status
-    0x100008e58:
+    0x8e58:
       name: platform_set_mix_n_match_prevention_status
-    0x100011afc:
+    0x11afc:
       name: platform_spin
-    0x1000004bc:
+    0x4bc:
       name: platform_spin2
-    0x100008bbc:
+    0x8bbc:
       name: platform_translate_key_selector
-    0x10000b390:
+    0xb390:
       name: prepare_and_jump
-    0x100000dfc:
+    0xdfc:
       name: push_command_data
-    0x100000e9c:
+    0xe9c:
       name: push_command_flag
-    0x100000d68:
+    0xd68:
       name: push_command_iv
-    0x100000cd0:
+    0xCD0:
       name: push_command_key
-    0x100000c58:
+    0xC58:
       name: push_commands
-    0x100010f5c:
+    0x10F5C:
       name: puts
-    0x100001f28:
+    0x1F28:
       name: rADPGPSRCFMT
-    0x10000830c:
+    0x830C:
       name: random_get_bytes
-    0x10000f990:
+    0xF990:
       name: register_blockdev
-    0x100006c44:
+    0x6c44:
       name: required_size
-    0x100006a88:
+    0x6a88:
       name: scavenge_endpoint_finished_list
-    0x10000c484:
+    0xc484:
       name: security_allow_memory
-    0x10000c420:
+    0xc420:
       name: security_allow_modes
-    0x10000c5d0:
+    0xc5d0:
       name: security_consolidate_environment
-    0x10000c4f0:
+    0xc4f0:
       name: security_get_effective_production_status
-    0x10000c590:
+    0xc590:
       name: security_get_lock_fuses
-    0x10000c5bc:
+    0xc5bc:
       name: security_get_mix_n_match_prevention_status
-    0x10000c324:
+    0xc324:
       name: security_init
-    0x10000c3d8:
+    0xc3d8:
       name: security_protect_memory
-    0x10000c518:
+    0xc518:
       name: security_set_boot_manifest
-    0x10000c578:
+    0xc578:
       name: security_set_lock_fuses
-    0x10000c554:
+    0xc554:
       name: security_set_mix_n_match_prevention_status
-    0x10000c5a4:
+    0xc5a4:
       name: security_set_option_boot_manifest_hash_valid
-    0x10000a66c:
+    0x0a66c:
       name: security_set_option_mix_n_match_prevention_status
-    0x10000c4cc:
+    0xc4cc:
       name: security_set_production_override
-    0x10000c460:
+    0xc460:
       name: security_set_untrusted
-    0x100002800:
+    0x2800:
       name: sep_client_get_nonce
-    0x1000025b4:
+    0x25b4:
       name: sep_client_main
-    0x10000274c:
+    0x274c:
       name: sep_client_reader
-    0x100005e10:
+    0x5e10:
       name: set_global_in_nak
-    0x10000aefc:
+    0xaefc:
       name: set_pll
-    0x100012230:
+    0x12230:
       name: sha1_calculate
-    0x100012c2c:
+    0x12c2c:
       name: sha1_digest
-    0x100014a48:
+    0x14a48:
       name: sha1_get_ccsha1_ccdigest_info
-    0x10000532c:
+    0x532c:
       name: spi_gpio_configure
-    0x1000052c0:
+    0x52c0:
       name: spi_gpio_read
-    0x1000052ec:
+    0x52ec:
       name: spi_gpio_write
-    0x10000c2f0:
+    0xc2f0:
       name: spin
-    0x100004a90:
+    0x4a90:
       name: spiregs
-    0x10000f048:
+    0xf048:
       name: standard_device_request_callback
-    0x100000000:
+    0x0:
       name: start
-    0x100011350:
+    0x11350:
       name: strcmp
-    0x100011380:
+    0x11380:
       name: strlcat
-    0x100011490:
+    0x11490:
       name: strnlen
-    0x100010530:
+    0x0530:
       name: swap32
-    0x1000059a0:
+    0x59a0:
       name: synopsys_otg_abort_endpoint
-    0x100005604:
+    0x5604:
       name: synopsys_otg_activate_endpoint
-    0x100005380:
+    0x5380:
       name: synopsys_otg_controller_init
-    0x100005b5c:
+    0x5b5c:
       name: synopsys_otg_deactivate_endpoint
-    0x100005c68:
+    0x5c68:
       name: synopsys_otg_disable_in_endpoint
-    0x100005774:
+    0x5774:
       name: synopsys_otg_do_endpoint_io
-    0x10000595c:
+    0x595c:
       name: synopsys_otg_do_test_mode
-    0x1000055c8:
+    0x55c8:
       name: synopsys_otg_get_connection_speed
-    0x10000665c:
+    0x665c:
       name: synopsys_otg_go_on_bus
-    0x1000066ac:
+    0x66ac:
       name: synopsys_otg_init
-    0x1000062c0:
+    0x62c0:
       name: synopsys_otg_int_handler
-    0x1000058f8:
+    0x58f8:
       name: synopsys_otg_is_endpoint_stalled
-    0x1000058a0:
+    0x58a0:
       name: synopsys_otg_reset_endpoint_data_toggle
-    0x100005584:
+    0x5584:
       name: synopsys_otg_set_address
-    0x100005814:
+    0x5814:
       name: synopsys_otg_stall_endpoint
-    0x10000538c:
+    0x538c:
       name: synopsys_otg_start
-    0x1000060d4:
+    0x60d4:
       name: synopsys_otg_start_controller
-    0x100005ee8:
+    0x5ee8:
       name: synopsys_otg_start_endpoint_in
-    0x100005fe8:
+    0x5fe8:
       name: synopsys_otg_start_endpoint_out
-    0x100006ae8:
+    0x6ae8:
       name: synopsys_otg_start_ep0_out
-    0x10000546c:
+    0x546c:
       name: synopsys_otg_stop
-    0x100006718:
+    0x6718:
       name: synopsys_otg_task
-    0x10000b784:
+    0xb784:
       name: sys_init
-    0x10000c2ac:
+    0xc2ac:
       name: system_time
-    0x10000bf6c:
+    0xbf6c:
       name: task_block
-    0x10000bc64:
+    0xbc64:
       name: task_create
-    0x10000ba44:
+    0xba44:
       name: task_create_etc
-    0x10000be88:
+    0xbe88:
       name: task_exit
-    0x10000bc58:
+    0xbc58:
       name: task_get_current_task
-    0x10000b9d0:
+    0xb9d0:
       name: task_init
-    0x10000bfbc:
+    0xbfbc:
       name: task_sleep
-    0x10000c008:
+    0xc008:
       name: task_sleep_callback
-    0x10000be44:
+    0xbe44:
       name: task_start
-    0x10000bcd8:
+    0xbcd8:
       name: task_yield
-    0x10000c2c0:
+    0xc2c0:
       name: time_has_elapsed
-    0x10000c9f0:
+    0xc9f0:
       name: timer_deadline_enter
-    0x10000ca58:
+    0xca58:
       name: timer_get_ticks
-    0x10000c9cc:
+    0xc9cc:
       name: timer_init
-    0x10000c9e8:
+    0xc9e8:
       name: timer_stop_all
-    0x10000ca94:
+    0xCA94:
       name: timer_usecs_to_ticks
-    0x100001230:
+    0x1230:
       name: unmask_int
-    0x10000e2d8:
+    0xE2D8:
       name: usb_alloc_string_descriptor
-    0x10000e1c0:
+    0xE1C0:
       name: usb_controller_abort_endpoint
-    0x10000e1f4:
+    0xE1F4:
       name: usb_controller_deactivate_endpoint
-    0x10000e18c:
+    0xE18C:
       name: usb_controller_do_test_mode
-    0x10000dfec:
+    0xDFEC:
       name: usb_controller_free
-    0x10000dfbc:
+    0xDFBC:
       name: usb_controller_init
-    0x10000e158:
+    0xE158:
       name: usb_controller_is_endpoint_stalled
-    0x10000df80:
+    0xDF80:
       name: usb_controller_register
-    0x10000e124:
+    0xE124:
       name: usb_controller_stall_endpoint
-    0x10000e020:
+    0xE020:
       name: usb_controller_start
-    0x10000e054:
+    0xE054:
       name: usb_controller_stop
-    0x10000ef80:
+    0xEF80:
       name: usb_core_abort_endpoint
-    0x10000ee48:
+    0xEE48:
       name: usb_core_complete_endpoint_io
-    0x10000ef84:
+    0xEF84:
       name: usb_core_deactivate_endpoint
-    0x10000ee78:
+    0xEE78:
       name: usb_core_do_transfer
-    0x10000ed08:
+    0xED08:
       name: usb_core_event_handler
-    0x10000e730:
+    0xE730:
       name: usb_core_handle_usb_control_receive
-    0x10000e228:
+    0xE228:
       name: usb_core_init
-    0x10000e708:
+      prototype:
+        return: int
+        parameters:
+          - type: char *
+            const: true
+            name: config_desc_string
+    0xE708:
       name: usb_core_register_interface
-    0x10000ecd4:
+      prototype:
+        return: void
+        parameters:
+          - type: usb_interface_instance *
+            name: interface
+    0xECD4:
       name: usb_core_send_zlp
-    0x10000e3a4:
+      prototype:
+        return: void
+    0xE3A4:
       name: usb_core_start
-    0x10000efa8:
+      prototype:
+        return: int
+    0xEFA8:
       name: usb_core_stop
-    0x10000e354:
+      prototype:
+        return: void
+    0xE354:
       name: usb_create_string_descriptor
-    0x10000f500:
+      prototype:
+        static: true
+        return: int
+        parameters:
+          - type: char *
+            const: true
+            name: str
+    0xF500:
       name: usb_dfu_exit
-    0x10000f0d8:
+      prototype:
+        return: void
+    0xF0D8:
       name: usb_dfu_init
-    0x10000df64:
+      prototype:
+        return: int
+    0xDF64:
       name: usb_free
-    0x10000df10:
+      prototype:
+        static: true
+        return: void
+    0xdf10:
       name: usb_init
-    0x10000de98:
+      prototype:
+        return: int
+    0xde98:
       name: usb_init_with_controller
-    0x10000df24:
+      prototype:
+        return: int
+        parameters:
+          - type: usb_controller_functions *
+            name: controller_funcs
+    0xdf24:
       name: usb_quiesce
-    0x100001b98:
+      prototype:
+        return: void
+    0x1b98:
       name: usbphy_enable_pullup
-    0x100001c74:
+      prototype:
+        return: void
+    0x1c74:
       name: usbphy_is_cable_connected
-    0x100001bc8:
+      prototype:
+        return: bool
+    0x1bc8:
       name: usbphy_power_down
-    0x100001acc:
+      prototype:
+        return: void
+    0x1acc:
       name: usbphy_power_up
-    0x100013374:
+      prototype:
+        return: void
+    0x13374:
       name: verify_chain_signatures
-    0x100010da4:
+      prototype:
+        return: int
+        parameters:
+          - type: DERItem *
+            name: issuerPublicKey
+          - type: DERSignedCertCrl *
+            name: signedRevocationList
+    0x10da4:
       name: vsnprintf
-    0x100000f28:
+      prototype:
+        return: int
+        parameters:
+          - type: char *
+            name: str
+          - type: size_t
+            name: size
+          - type: char *
+            const: true
+            name: fmt
+          - type: va_list
+            name: values
+    0xf28:
       name: wait_for_command_flag
-    0x10000bedc:
+      prototype:
+        return: void
+    0xbedc:
       name: wait_queue_wake_all
-    0x10000c018:
+      prototype:
+        return: int
+        parameters:
+          - type: task_wait_queue *
+            name: queues
+    0xc018:
       name: wait_queue_wake_one
-    0x1000013c4:
+      return: int
+      parameters:
+        - type: task_wait_queue *
+          name: queues
+    0x13c4:
       name: wdt_chip_reset
+      prototype:
+        return: void
