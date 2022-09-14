@@ -335,6 +335,8 @@ symbols:
       name: _arm_invalidate_icache
     0xd940:
       name: _arm_irq
+      prototype:
+        return: void
     0x438:
       name: _arm_memory_barrier
     0xc968:
@@ -378,6 +380,13 @@ symbols:
       name: _boot_check_panic
     0x111e0:
       name: _bzero
+      prototype:
+        return: void
+        parameters:
+          - type: void *
+            name: ptr
+          - type: size_t
+            name: len
     0xb4c0:
       name: _callout_dequeue
     0xb4fc:
@@ -532,6 +541,18 @@ symbols:
       name: akf_send_mbox
     0x8b8:
       name: akf_start
+      prototype:
+        return: i32
+        parameters:
+          - type: KFWRAPPER_TYPE_T
+            const: true
+            name: kfw_type
+          - type: addr_t
+            const: true
+            name: firmware_address
+          - type: u64
+            const: true
+            name: firmware_size
     0x2534:
       name: akf_start_sep
     0xb70:
@@ -640,12 +661,20 @@ symbols:
       name: chipid_get_pcie_refpll_vco_v2i_pi_set
     0xa6e8:
       name: chipid_get_pcie_rx_ldo
+      prototype:
+        return: u32
     0xa688:
       name: chipid_get_pcie_txpll_vco_v2i_i_set
+      prototype:
+        return: u32
     0xa6a0:
       name: chipid_get_pcie_txpll_vco_v2i_pi_set
+      prototype:
+        return: u32
     0xa534:
       name: chipid_get_raw_production_mode
+      prototype:
+        return: bool
     0xa568:
       name: chipid_get_secure_mode
     0xa580:
@@ -664,10 +693,17 @@ symbols:
       name: clocks_get_frequencies_range
     0xa824:
       name: clocks_init
+      prototype:
+        return: int
     0xb058:
       name: clocks_quiesce
+      prototype:
+        return: void
     0xab3c:
       name: clocks_quiesce_internal
+      prototype:
+        static: true
+        return: void
     0xa82c:
       name: clocks_set_default
     0xb05c:
@@ -682,16 +718,45 @@ symbols:
       name: dart_unmap_page_range
     0xb5f4:
       name: debug_init
+      prototype:
+        return: void
     0xb624:
       name: debug_putchar
+      prototype:
+        return: void
+        parameters:
+          - type: char
+            name: c
     0xc298:
       name: deep_idle_timeout
     0x7300:
       name: der_expect
+      prototype:
+        static: true
+        return: int
+        parameters:
+          - type: DERItem *
+            const: true
+            name: bounds
+          - type: DERTag
+            name: tag
+          - type: DERDecodedInfo *
+            name: info
+          - type: bool
+            name: partial
     0x73a8:
       name: der_expect_ia5string
     0x733c:
       name: der_restrict
+      prototype:
+        return: int
+        static: true
+        parameters:
+          - type: DERItem *
+            name: bounds
+          - type: DERItem *
+            name: item
+            const: true
     0xf3e8:
       name: dfu_data_received
     0xf4dc:
@@ -744,6 +809,11 @@ symbols:
       name: gpio_init_pinconfig
     0x21f8:
       name: gpio_read
+      prototype:
+        return: u32
+        parameters:
+          - type: gpio_t
+            name: gpio
     0x22b8:
       name: gpio_safe_reconfigure
     0x2248:
@@ -762,12 +832,33 @@ symbols:
       name: image4_hash_init
     0x75d0:
       name: image4_load
+      prototype:
+        return: int
+        parameters:
+          - type: image_info *
+            name: image_info
+          - type: u32 *
+            name: types
+            const: true
+          - type: u32
+            name: count
+          - type: u32 *
+            name: actual
+          - type: void * *
+            name: load_address
+          - type: size_t *
+            name: load_length
     0x7d38:
       name: image4_validate_property_callback_interposer
     0xf8dc:
       name: image_create_from_memory
     0xf928:
       name: image_free
+      prototype:
+        return: void
+        parameters:
+          - type: image_info *
+            name: image
     0xf7f8:
       name: image_load
       prototype:
@@ -1170,6 +1261,8 @@ symbols:
       name: synopsys_otg_task
     0xb784:
       name: sys_init
+      prototype:
+        return: void
     0xc2ac:
       name: system_time
     0xbf6c:
@@ -1208,6 +1301,13 @@ symbols:
       name: unmask_int
     0xE2D8:
       name: usb_alloc_string_descriptor
+      prototype:
+        return: usb_string_descriptor *
+        static: true
+        parameters:
+          - type: char *
+            name: str
+            const: true
     0xE1C0:
       name: usb_controller_abort_endpoint
     0xE1F4:
@@ -1218,28 +1318,95 @@ symbols:
       name: usb_controller_free
     0xDFBC:
       name: usb_controller_init
+      prototype:
+        return: void
     0xE158:
       name: usb_controller_is_endpoint_stalled
+      prototype:
+        return: bool
+        parameters:
+          - type: u32
+            name: endpoint
     0xDF80:
       name: usb_controller_register
+      prototype:
+        return: int
+        parameters:
+          - type: usb_controller_functions *
+            const: true
+            name: controller_functions
     0xE124:
       name: usb_controller_stall_endpoint
+      prototype:
+        return: int
+        parameters:
+          - type: u_int32_t
+            name: endpoint
+          - type: bool
+            name: stall
     0xE020:
       name: usb_controller_start
+      prototype:
+        return: int
     0xE054:
       name: usb_controller_stop
+      prototype:
+        return: int
     0xEF80:
       name: usb_core_abort_endpoint
+      prototype:
+        return: int
     0xEE48:
       name: usb_core_complete_endpoint_io
+      prototype:
+        return: void
+        parameters:
+          - type: usb_device_io_request *
+            name: io_request
     0xEF84:
       name: usb_core_deactivate_endpoint
+      prototype:
+        return: void
+        parameters:
+          - type: u32
+            name: endpoint
     0xEE78:
       name: usb_core_do_transfer
+      prototype:
+        return: void
+        parameters:
+          - type: int
+            name: endpoint
+          - type: u8 *
+            name: buffer
+          - type: int
+            name: length
+          - type: function
+            name: callback
+            return: void
+            parameters:
+              - type: usb_device_io_request *
+                name: request
     0xED08:
       name: usb_core_event_handler
+      prototype:
+        return: void
+        parameters:
+          - type: int
+            name: event
     0xE730:
       name: usb_core_handle_usb_control_receive
+      prototype:
+        return: void
+        parameters:
+          - type: u8 *
+            name: endpoint0_receive_buffer
+          - type: bool
+            name: is_setup
+          - type: int
+            name: receive_length
+          - type: bool *
+            name: receive_phase
     0xE228:
       name: usb_core_init
       prototype:
