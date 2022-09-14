@@ -1195,12 +1195,36 @@ symbols:
       name: sha1_get_ccsha1_ccdigest_info
     0x532c:
       name: spi_gpio_configure
+      prototype:
+        return: void
+        parameters:
+          - type: int
+            name: port
+          - type: u32
+            name: config
     0x52c0:
       name: spi_gpio_read
+      prototype:
+        return: u32
+        parameters:
+          - type: int
+            name: port
     0x52ec:
       name: spi_gpio_write
+      prototype:
+        return: void
+        parameters:
+          - type: int
+            name: port
+          - type: u32
+            name: value
     0xc2f0:
       name: spin
+      prototype:
+        return: void
+        parameters:
+          - type: utime_t
+            name: usecs
     0x4a90:
       name: spiregs
     0xf048:
@@ -1209,12 +1233,45 @@ symbols:
       name: start
     0x11350:
       name: strcmp
+      prototype:
+        return: bool
+        parameters:
+          - type: char *
+            const: true
+            name: a
+          - type: char *
+            const: true
+            name: b
     0x11380:
       name: strlcat
+      description: The strlcat() function appends the NUL-terminated string src to the end of dst. It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result
+      prototype:
+        return: size_t
+        parameters:
+          - type: char *
+            const: true
+            name: destination
+          - type: char *
+            const: true
+            name: source
+          - type: size_t
+            name: size
     0x11490:
       name: strnlen
+      prototype:
+        return: size_t
+        parameters:
+          - type: char const*
+            name: source
+          - type: size_t
+            name: count
     0x0530:
       name: swap32
+      prototype:
+        return: u32
+        parameters:
+          - type: u32
+            name: input
     0x59a0:
       name: synopsys_otg_abort_endpoint
     0x5604:
@@ -1229,76 +1286,253 @@ symbols:
       name: synopsys_otg_do_endpoint_io
     0x595c:
       name: synopsys_otg_do_test_mode
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: u32
+            name: sel
     0x55c8:
       name: synopsys_otg_get_connection_speed
+      prototype:
+        return: int
+        static: true
     0x665c:
       name: synopsys_otg_go_on_bus
+      prototype:
+        return: void
+        static: true
     0x66ac:
       name: synopsys_otg_init
+      prototype:
+        return: int
+        static: true
     0x62c0:
       name: synopsys_otg_int_handler
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: void *
+            name: arg
     0x58f8:
       name: synopsys_otg_is_endpoint_stalled
+      prototype:
+        return: bool
+        static: true
+        parameters:
+          - type: u32
+            name: desired_address
     0x58a0:
       name: synopsys_otg_reset_endpoint_data_toggle
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: u32
+            name: desired_address
     0x5584:
       name: synopsys_otg_set_address
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: u32
+            name: desired_address
     0x5814:
       name: synopsys_otg_stall_endpoint
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: u32
+            name: endpoint
+          - type: bool
+            name: stall
     0x538c:
       name: synopsys_otg_start
+      prototype:
+        static: true
+        return: int
     0x60d4:
       name: synopsys_otg_start_controller
+      prototype:
+        static: true
+        return: void
     0x5ee8:
       name: synopsys_otg_start_endpoint_in
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: u32
+            name: endpoint
     0x5fe8:
       name: synopsys_otg_start_endpoint_out
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: u32
+            name: endpoint
     0x6ae8:
       name: synopsys_otg_start_ep0_out
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: bool
+            name: data_phase
     0x546c:
       name: synopsys_otg_stop
     0x6718:
       name: synopsys_otg_task
+      prototype:
+        static: true
+        return: int
+        parameters:
+          - type: void *
+            name: arg
     0xb784:
       name: sys_init
       prototype:
         return: void
     0xc2ac:
       name: system_time
+      prototype:
+        return: utime_t
     0xbf6c:
       name: task_block
+      prototype:
+        return: void
+        parameters:
+          - type: task_wait_queue_t *
+            name: queue
     0xbc64:
       name: task_create
+      prototype:
+        return: task_t *
+        parameters:
+          - type: char *
+            name: name
+            const: true
+          - type: task_routine
+            name: routine
+          - type: void *
+            name: user_data
+          - type: size_t
+            name: stack_size
     0xba44:
       name: task_create_etc
+      prototype:
+        return: task_t *
+        static: true
+        parameters:
+          - type: task_t *
+            name: task
+          - type: char *
+            name: name
+            const: true
+          - type: task_routine
+            name: routine
+          - type: void *
+            name: user_data
+          - type: void *
+            name: initial_stack
+          - type: size_t
+            name: stack_length
     0xbe88:
       name: task_exit
+      prototype:
+        return: void
+        parameters:
+          - type: int
+            name: return_code
     0xbc58:
       name: task_get_current_task
+      prototype:
+        return: task_t *
     0xb9d0:
       name: task_init
+      prototype:
+        return: void
     0xbfbc:
       name: task_sleep
+      prototype:
+        return: void
+        static: true
+        parameters:
+          - type: utime_t
+            name: delay
     0xc008:
       name: task_sleep_callback
+      prototype:
+        static: true
+        return: void
+        parameters:
+          - type: callout_t *
+            name: callout
+          - type: void *
+            name: task
     0xbe44:
       name: task_start
+      prototype:
+        return: void
+        parameters:
+          - type: task_t *
+            name: task
     0xbcd8:
       name: task_yield
+      prototype:
+        return: void
     0xc2c0:
       name: time_has_elapsed
+      prototype:
+        return: bool
+        parameters:
+          - type: utime_t
+            name: start_time
+          - type: utime_t
+            name: timeout
     0xc9f0:
       name: timer_deadline_enter
+      prototype:
+        return: void
+        parameters:
+          - type: u64
+            name: deadline
+          - type: function
+            name: func
+            return: void
     0xca58:
       name: timer_get_ticks
+      prototype:
+        return: u64
     0xc9cc:
       name: timer_init
+      prototype:
+        return: int
+        parameters:
+          - type: u32
+            name: timer
     0xc9e8:
       name: timer_stop_all
+      prototype:
+        return: void
     0xCA94:
       name: timer_usecs_to_ticks
+      prototype:
+        return: u64
+        parameters:
+          - type: utime_t
+            name: microseconds
     0x1230:
       name: unmask_int
+      prototype:
+        return: void
+        parameters:
+          - type: u32
+            name: vector
     0xE2D8:
       name: usb_alloc_string_descriptor
       prototype:
@@ -1310,12 +1544,29 @@ symbols:
             const: true
     0xE1C0:
       name: usb_controller_abort_endpoint
+      prototype:
+        return: void
+        parameters:
+          - type: u32
+            name: endpoint
     0xE1F4:
       name: usb_controller_deactivate_endpoint
+      prototype:
+        return: void
+        parameters:
+          - type: u32
+            name: endpoint
     0xE18C:
       name: usb_controller_do_test_mode
+      prototype:
+        return: void
+        parameters:
+          - type: u32
+            name: selector
     0xDFEC:
       name: usb_controller_free
+      prototype:
+        return: void
     0xDFBC:
       name: usb_controller_init
       prototype:
