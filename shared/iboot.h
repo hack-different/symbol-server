@@ -5,14 +5,14 @@
    the type library 'SecureROM'
 */
 
-#define __int8 char
+#define __int8 signed char
 #define __uint8 unsigned char
 #define __int16 short
 #define __uint16 unsigned short
 #define __int32 int
 #define __uint32 unsigned int
-#define __int64 long long
-#define __uint64 unsigned long long
+#define __int64 long
+#define __uint64 unsigned long
 
 typedef __int8 int8_t;
 typedef __uint8 uint8_t;
@@ -24,13 +24,14 @@ typedef __int64 int64_t;
 typedef __uint64 uint64_t;
 
 typedef long __signed;
-typedef long long intptr_t;
-typedef unsigned long long uintptr_t;
+typedef long intptr_t;
+typedef void* addr_t;
+typedef unsigned long uintptr_t;
 typedef unsigned long size_t;
 typedef long ssize_t;
 typedef long time_t;
 
-typedef signed __int8 SInt8;
+typedef __int8 SInt8;
 typedef unsigned char UInt8;
 typedef signed short SInt16;
 typedef unsigned short UInt16;
@@ -705,7 +706,7 @@ union __attribute__((aligned(8))) __n64
   unsigned __int64 n64_u64[1];
   unsigned __int32 n64_u32[2];
   unsigned __int16 n64_u16[4];
-  unsigned __int8 n64_u8[8];
+  __int8 n64_u8[8];
   __int64 n64_i64[1];
   __int32 n64_i32[2];
   __int16 n64_i16[4];
@@ -720,7 +721,7 @@ union __attribute__((aligned(8))) __n128
   unsigned __int64 n128_u64[2];
   unsigned __int32 n128_u32[4];
   unsigned __int16 n128_u16[8];
-  unsigned __int8 n128_u8[16];
+  __int8 n128_u8[16];
   __int64 n128_i64[2];
   __int32 n128_i32[4];
   __int16 n128_i16[8];
@@ -835,11 +836,11 @@ void arm_write_sctlr(uint64_t sctlr);
 void arm_write_scr(uint64_t scr);
 uint64_t arm_read_l2_cramconfig();
 void arm_write_mair(uint64_t mair);
-void arm_write_tcr(uint64_t tcr)
+void arm_write_tcr(uint64_t tcr);
 void arm_write_ttbr0(uint64_t ttbr0);
 uint64_t arm_read_cpacr();
 void arm_write_cpacr(uint64_t cpacr);
-uint64_t arm_read_cntp_ctl()
+uint64_t arm_read_cntp_ctl();
 void arm_write_cntp_ctl(uint64_t cntp_ctl);
 uint64_t arm_read_cntpct();
 void arm_write_cntp_tval(uint64_t cntp_tval);
@@ -853,7 +854,7 @@ void arm_invalidate_dcache() {}
 void arm_clean_invalidate_dcache_line(void* address);
 void arm_drain_write_buffer() {}
 void arm_memory_barrier();
-arm_vtop
+void arm_vtop();
 void arm_disable_async_aborts();
 void arm_enable_async_aborts();
 void arch_disable_ints();
