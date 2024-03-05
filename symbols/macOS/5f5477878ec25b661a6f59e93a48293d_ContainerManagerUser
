@@ -1,8 +1,0 @@
-/System/Library/PrivateFrameworks/ContainerManagerUser.framework/Versions/A/ContainerManagerUser [arm64e, 0.040015 seconds]:
-    E31A25D6-4B28-3462-A341-A6C5FCC4A301 /System/Library/PrivateFrameworks/ContainerManagerUser.framework/Versions/A/ContainerManagerUser [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001f7396000 (  0x4000) __TEXT SEGMENT
-            0x00000001f7396000 (  0x3fa8) MACH_HEADER
-            0x00000001f7399fa8 (    0x58) __TEXT __const
-                0x00000001f7399fa8 (    0x50) ContainerManagerUserVersionString [PEXT, NameNList, MangledNameNList, NList] 
-                0x00000001f7399ff8 (     0x8) ContainerManagerUserVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

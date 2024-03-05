@@ -1,0 +1,42 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libcupsimage.2.dylib [arm64e, 0.037242 seconds]:
+    5C135A62-4F01-3902-9E7A-9600132CA4B6 /usr/lib/libcupsimage.2.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022075a000 (  0x1000) __TEXT SEGMENT
+            0x000000022075a000 (   0xbdc) MACH_HEADER
+            0x000000022075abdc (   0x2d8) __TEXT __text
+                0x000000022075abdc (     0x4) cupsRasterInterpretPPD [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075abe0 (     0x4) cupsRasterClose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075abe4 (     0x4) cupsRasterErrorString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075abe8 (     0x4) cupsRasterInitPWGHeader [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075abec (    0x34) cupsRasterOpen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075ac20 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x000000022075ac8c (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x000000022075acf8 (     0x4) cupsRasterOpenIO [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075acfc (    0x80) cupsRasterReadHeader [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075ad7c (    0x54) cupsRasterReadHeader2 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075add0 (     0x4) cupsRasterReadPixels [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075add4 (    0x80) cupsRasterWriteHeader [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075ae54 (    0x5c) cupsRasterWriteHeader2 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075aeb0 (     0x4) cupsRasterWritePixels [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022075aeb4 (    0xe0) __TEXT __auth_stubs
+                0x000000022075aeb4 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075aec4 (    0x10) DYLD-STUB$$_cupsRasterDelete [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075aed4 (    0x10) DYLD-STUB$$_cupsRasterErrorString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075aee4 (    0x10) DYLD-STUB$$_cupsRasterInitPWGHeader [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075aef4 (    0x10) DYLD-STUB$$_cupsRasterInterpretPPD [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af04 (    0x10) DYLD-STUB$$_cupsRasterNew [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af14 (    0x10) DYLD-STUB$$_cupsRasterReadHeader [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af24 (    0x10) DYLD-STUB$$_cupsRasterReadPixels [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af34 (    0x10) DYLD-STUB$$_cupsRasterWriteHeader [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af44 (    0x10) DYLD-STUB$$_cupsRasterWritePixels [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af54 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af64 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af74 (    0x10) DYLD-STUB$$read [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022075af84 (    0x10) DYLD-STUB$$write [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022075af94 (    0x6c) __TEXT __unwind_info
+        0x0000000238281198 (    0x70) __AUTH_CONST SEGMENT
+            0x0000000238281198 (    0x70) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/ProximityReaderStub.framework/Versions/A/ProximityReaderStub [arm64e, 0.026030 seconds]:
+    EC02B20B-BF02-3BC3-A514-71351609D74C /System/Library/PrivateFrameworks/ProximityReaderStub.framework/Versions/A/ProximityReaderStub [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c441000 (  0x4000) __TEXT SEGMENT
+            0x000000020c441000 (  0x3fb8) MACH_HEADER
+            0x000000020c444fb8 (    0x48) __TEXT __const
+                0x000000020c444fb8 (    0x40) ProximityReaderStubVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c444ff8 (     0x8) ProximityReaderStubVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

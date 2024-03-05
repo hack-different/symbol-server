@@ -1,0 +1,22 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/Versions/A/DiskSpaceDiagnostics [arm64e, 0.108013 seconds]:
+    330D0CCE-80B4-3E68-83BC-45BB3A2B9B60 /System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/Versions/A/DiskSpaceDiagnostics [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fa74d000 (  0x3ffa) __TEXT SEGMENT
+            0x00000001fa74d000 (  0x3ee8) MACH_HEADER
+            0x00000001fa750ee8 (    0x50) __TEXT __const
+                0x00000001fa750ee8 (    0x48) DiskSpaceDiagnosticsVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa750f30 (     0x8) DiskSpaceDiagnosticsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001fa750f38 (    0xc2) __TEXT __cstring
+        0x000000022e12eb20 (    0x28) __DATA_CONST SEGMENT
+            0x000000022e12eb20 (    0x20) __DATA_CONST __const
+                0x000000022e12eb20 (     0x8) kDSFilesystemMetadataSnapshotErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e12eb28 (     0x8) kDSFilesystemMetadataSnapshotServiceName [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e12eb30 (     0x8) kDSFilesystemMetadataSnapshotOptionMountPointsAllowListArrayKey [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e12eb38 (     0x8) kDSFilesystemMetadataSnapshotOptionShouldHashVolumeListingsKey [EXT, NameNList, MangledNameNList, NList] 
+            0x000000022e12eb40 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000236faf970 (    0x80) __AUTH_CONST SEGMENT
+            0x0000000236faf970 (    0x80) __AUTH_CONST __cfstring
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

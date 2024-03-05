@@ -1,8 +1,0 @@
-/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices [arm64e, 0.046731 seconds]:
-    E40AAC97-AA36-318D-BA10-B02649592F08 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x0000000197cd7000 (  0x1000) __TEXT SEGMENT
-            0x0000000197cd7000 (   0xfb0) MACH_HEADER
-            0x0000000197cd7fb0 (    0x50) __TEXT __const
-                0x0000000197cd7fb0 (    0x48) ApplicationServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
-                0x0000000197cd7ff8 (     0x8) ApplicationServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,82 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/TVLibrary.framework/Versions/A/TVLibrary [arm64e, 0.026176 seconds]:
+    3237506D-2217-34BD-BD17-049DAD32C65F /System/Library/PrivateFrameworks/TVLibrary.framework/Versions/A/TVLibrary [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000213bef000 (  0x4000) __TEXT SEGMENT
+            0x0000000213bef000 (  0x3404) MACH_HEADER
+            0x0000000213bf2404 (   0x474) __TEXT __text
+                0x0000000213bf2404 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf24a4 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf24e0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf24e8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf24f0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf24f8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2500 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2508 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2510 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2518 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2520 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2528 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2530 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2598 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2628 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf26b8 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf2748 (    0xac) (null) [FUNC, FunctionStarts] 
+                0x0000000213bf27f4 (    0x84) (null) [FUNC, FunctionStarts] 
+            0x0000000213bf2878 (    0x90) __TEXT __auth_stubs
+                0x0000000213bf2878 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf2888 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf2898 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28a8 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28b8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28c8 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28d8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28e8 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213bf28f8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000213bf2908 (   0x10c) __TEXT __objc_methlist
+            0x0000000213bf2a18 (    0x18) __TEXT __const
+                0x0000000213bf2a18 (    0x18) TVLibraryVersionString [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000213bf2a30 (    0xfb) __TEXT __cstring
+            0x0000000213bf2b2c (    0x1c) __TEXT __gcc_except_tab
+            0x0000000213bf2b48 (    0x70) __TEXT __unwind_info
+            0x0000000213bf2bb8 (    0x87) __TEXT __objc_classname
+            0x0000000213bf2c3f (   0x2d2) __TEXT __objc_methname
+            0x0000000213bf2f11 (    0x28) __TEXT __objc_methtype
+            0x0000000213bf2f40 (    0xc0) __TEXT __objc_stubs
+        0x0000000237eef740 (   0x320) __DATA_CONST SEGMENT
+            0x0000000237eef740 (     0x8) __DATA_CONST __got
+            0x0000000237eef748 (    0x48) __DATA_CONST __const
+                0x0000000237eef768 (     0x8) TVPlaybackEngineWillStartPlaybackNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237eef770 (     0x8) TVPlaybackEngineDidStopPlaybackNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237eef778 (     0x8) TVPlaybackEngineDidFinishPlaybackNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237eef780 (     0x8) TVPlaybackEngineDidReportPlaybackToUTSNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237eef788 (     0x8) TVPlaybackEngineVideoDidCrossPostPlayBoundaryNotification [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000237eef790 (    0x28) __DATA_CONST __objc_classlist
+            0x0000000237eef7b8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237eef7c0 (   0x220) __DATA_CONST __objc_const
+            0x0000000237eef9e0 (    0x80) __DATA_CONST __objc_selrefs
+        0x0000000237eefa60 (   0x2a8) __AUTH_CONST SEGMENT
+            0x0000000237eefa60 (   0x1b0) __AUTH_CONST __objc_const
+            0x0000000237eefc10 (    0xa0) __AUTH_CONST __cfstring
+            0x0000000237eefcb0 (    0x58) __AUTH_CONST __auth_got
+        0x0000000232e82660 (   0x190) __AUTH SEGMENT
+            0x0000000232e82660 (   0x190) __AUTH __objc_data
+                0x0000000232e82660 (    0x28) OBJC_METACLASS_$_TVLibraryInterfaceGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e82688 (    0x28) OBJC_CLASS_$_TVLibraryInterfaceGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e826b0 (    0x28) OBJC_METACLASS_$_TVLibraryActivityButtonController [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e826d8 (    0x28) OBJC_CLASS_$_TVLibraryActivityButtonController [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e82700 (    0x28) OBJC_METACLASS_$_TVLibraryViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e82728 (    0x28) OBJC_CLASS_$_TVLibraryViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e82750 (    0x28) OBJC_METACLASS_$_TVPlaybackEngineProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e82778 (    0x28) OBJC_CLASS_$_TVPlaybackEngineProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e827a0 (    0x28) OBJC_METACLASS_$_TVDownloadManagerProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e827c8 (    0x28) OBJC_CLASS_$_TVDownloadManagerProvider [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002316fb778 (    0x38) __DATA SEGMENT
+            0x00000002316fb778 (     0x8) __DATA __objc_classrefs
+            0x00000002316fb780 (    0x14) __DATA __objc_ivar
+            0x00000002316fb798 (     0x8) __DATA __data
+                0x00000002316fb798 (     0x8) TVLibraryVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002316fb7a0 (    0x10) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

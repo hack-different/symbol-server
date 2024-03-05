@@ -1,0 +1,127 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libcodedirectory.dylib [arm64e, 0.034922 seconds]:
+    CD6DFAA6-7A66-3B3E-9111-3F2CCA71EECD /usr/lib/libcodedirectory.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000220509000 (  0x3ffc) __TEXT SEGMENT
+            0x0000000220509000 (  0x10f0) MACH_HEADER
+            0x000000022050a0f0 (  0x2280) __TEXT __text
+                0x000000022050a0f0 (    0x10) libcd_log_os_log [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a100 (    0x10) libcd_log_stderr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a110 (     0x4) libcd_log_none [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a114 (    0xb0) libcd_set_log_writer [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a1c4 (    0x10) __libcd_set_log_writer_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a1d4 (    0x88) libcd_create [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a25c (    0x94) libcd_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a2f0 (    0x54) libcd_reset_write_method [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a344 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000022050a354 (    0x50) libcd_reset_read_method [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a3a4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000022050a3b4 (     0x8) libcd_set_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a3bc (    0x2c) libcd_set_signing_id [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a3e8 (    0x2c) libcd_set_team_id [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a414 (     0x8) libcd_set_platform_identifier [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a41c (     0xc) libcd_set_exec_seg [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a428 (    0xc0) libcd_set_hash_types [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a4e8 (    0x80) _libcd_get_hash_info [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a568 (    0x90) libcd_set_hash_types_for_platform_version [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a5f8 (    0x20) libcd_set_page_size [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a618 (    0x48) libcd_set_input_fd [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a660 (    0xd4) _libcd_read_page_fd [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a734 (    0x4c) libcd_set_input_mem [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a780 (    0x74) _libcd_read_page_mem [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a7f4 (    0x4c) libcd_set_input_func [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a840 (    0x1c) libcd_get_input_func_ctx [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a85c (    0x48) libcd_set_output_fd [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a8a4 (    0x90) _libcd_write_fd [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a934 (    0x5c) libcd_set_output_mem [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050a990 (    0x8c) _libcd_write_mem [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aa1c (    0x58) libcd_set_output_func [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aa74 (    0x3c) _libcd_write_with_func [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aab0 (     0x8) libcd_set_output_offset [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aab8 (    0x1c) libcd_get_output_func_ctx [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aad4 (     0x8) libcd_set_disable_parallelization [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aadc (    0x54) libcd_set_input_block [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ab30 (    0x24) _libcd_read_page_with_block [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ab54 (    0x54) libcd_set_output_block [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050aba8 (    0x50) _libcd_write_with_block [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050abf8 (    0x18) libcd_set_signature_generator_block [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ac10 (    0x50) libcd_add_raw_blob_no_copy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ac60 (    0x60) libcd_add_sslot_data_no_copy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050acc0 (     0xc) libcd_add_signature_space [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050accc (    0x18) libcd_set_signature_generator [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ace4 (    0x84) libcd_set_linkage [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ad68 (    0xc8) _libcd_err_log [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ae30 (    0x44) libcd_set_linkage_application_type [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ae74 (    0xc4) libcd_cd_size [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050af38 (    0x98) libcd_superblob_size [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050afd0 (   0x408) libcd_serialize_as_type [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050b3d8 (   0x668) _libcd_serialize_cd [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ba40 (     0xc) libcd_serialize [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050ba4c (    0x88) libcd_get_cdhash_for_type [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bad4 (   0x248) libcd_is_blob_a_linker_signature [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bd1c (    0x2c) ___libcd_get_log_queue_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bd48 (    0x10) ___libcd_err_log_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bd58 (    0x50) ___libcd_serialize_cd_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bda8 (   0x1d0) _libcd_hash_page [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bf78 (    0x10) __copy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bf88 (     0xc) __destroy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050bf94 (   0x384) _libcd_validate_codedirectory [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050c318 (    0x2c) _libcd_read_page_fd.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022050c344 (    0x2c) libcd_serialize_as_type.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022050c370 (   0x180) __TEXT __auth_stubs
+                0x000000022050c370 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c380 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c390 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3a0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3b0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3c0 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3d0 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3e0 (    0x10) DYLD-STUB$$ccdigest_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c3f0 (    0x10) DYLD-STUB$$ccdigest_update [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c400 (    0x10) DYLD-STUB$$dispatch_apply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c410 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c420 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c430 (    0x10) DYLD-STUB$$dispatch_sync [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c440 (    0x10) DYLD-STUB$$fputs [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c450 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c460 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c470 (    0x10) DYLD-STUB$$memchr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c480 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c490 (    0x10) DYLD-STUB$$pread [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c4a0 (    0x10) DYLD-STUB$$pwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c4b0 (    0x10) DYLD-STUB$$realloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c4c0 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c4d0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022050c4e0 (    0x10) DYLD-STUB$$vasprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022050c4f0 (    0x9c) __TEXT __const
+                0x000000022050c508 (     0x8) _cs_page_bytes [NameNList, MangledNameNList, NList] 
+                0x000000022050c510 (     0x8) _cs_page_shift [NameNList, MangledNameNList, NList] 
+                0x000000022050c518 (    0x18) cs_hash_sha1 [NameNList, MangledNameNList, NList] 
+                0x000000022050c530 (    0x18) cs_hash_sha256 [NameNList, MangledNameNList, NList] 
+                0x000000022050c548 (    0x18) cs_hash_sha256_truncate [NameNList, MangledNameNList, NList] 
+                0x000000022050c560 (    0x2c) cs_hash_sha384 [NameNList, MangledNameNList, NList] 
+            0x000000022050c58c (   0x94b) __TEXT __cstring
+            0x000000022050ced8 (   0x124) __TEXT __unwind_info
+        0x000000022e7fda10 (    0xa0) __DATA_CONST SEGMENT
+            0x000000022e7fda10 (    0x20) __DATA_CONST __got
+            0x000000022e7fda30 (    0x80) __DATA_CONST __const
+                0x000000022e7fda30 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+                0x000000022e7fda50 (    0x20) __block_descriptor_tmp.15 [NameNList, MangledNameNList, NList] 
+                0x000000022e7fda70 (    0x40) __block_descriptor_tmp.24 [NameNList, MangledNameNList, NList] 
+        0x0000000238272350 (   0x148) __AUTH_CONST SEGMENT
+            0x0000000238272350 (    0x80) __AUTH_CONST __const
+                0x0000000238272350 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238272370 (    0x30) _known_hash_types [NameNList, MangledNameNList, NList] 
+                0x00000002382723a0 (    0x30) __block_descriptor_tmp.27 [NameNList, MangledNameNList, NList] 
+            0x00000002382723d0 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000002382723d8 (    0xc0) __AUTH_CONST __auth_got
+        0x00000002332f77b8 (     0x8) __AUTH SEGMENT
+            0x00000002332f77b8 (     0x8) __AUTH __data
+                0x00000002332f77b8 (     0x8) _configured_log_writer [NameNList, MangledNameNList, NList] 
+        0x0000000231a0e010 (    0x10) __DATA SEGMENT
+            0x0000000231a0e010 (    0x10) __DATA __bss
+                0x0000000231a0e010 (     0x8) _libcd_get_log_queue.once [NameNList, MangledNameNList, NList] 
+                0x0000000231a0e018 (     0x8) _libcd_get_log_queue.log_queue [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/PortraitCore.framework/Versions/A/PortraitCore [arm64e, 0.026570 seconds]:
+    386F24BF-2CE0-3BD1-8EBA-B1D7CEA0CEC8 /System/Library/PrivateFrameworks/PortraitCore.framework/Versions/A/PortraitCore [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020bad8000 (  0x4000) __TEXT SEGMENT
+            0x000000020bad8000 (  0x3fc8) MACH_HEADER
+            0x000000020badbfc8 (    0x38) __TEXT __const
+                0x000000020badbfc8 (    0x30) PortraitCoreVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020badbff8 (     0x8) PortraitCoreVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

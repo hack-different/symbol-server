@@ -1,0 +1,59 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/VideoToolboxParavirtualizationSupport.framework/Versions/A/VideoToolboxParavirtualizationSupport [arm64e, 0.140995 seconds]:
+    8FC9980E-62C4-35D7-8E8D-7CA24E3287FC /System/Library/PrivateFrameworks/VideoToolboxParavirtualizationSupport.framework/Versions/A/VideoToolboxParavirtualizationSupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021780d000 (  0x4000) __TEXT SEGMENT
+            0x000000021780d000 (  0x361c) MACH_HEADER
+            0x000000021781061c (   0x704) __TEXT __text
+                0x000000021781061c (    0x94) VTParavirtualizationGuestSupportSetUpWithHandlers [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002178106b0 (   0x144) (null) [FUNC, FunctionStarts] 
+                0x00000002178107f4 (   0x198) (null) [FUNC, FunctionStarts] 
+                0x000000021781098c (    0xb8) (null) [FUNC, FunctionStarts] 
+                0x0000000217810a44 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x0000000217810aa4 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000217810af4 (    0x2c) VTParavirtualizationGuestSupportRegisterGuestUUID [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000217810b20 (    0x2c) VTParavirtualizationGuestSupportDeregisterGuestUUID [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000217810b4c (   0x1d4) VTParavirtualizationGuestSupportSendRawMessageToHost [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000217810d20 (   0x1a0) __TEXT __auth_stubs
+                0x0000000217810d20 (    0x10) DYLD-STUB$$CFAllocatorAllocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d30 (    0x10) DYLD-STUB$$CFAllocatorDeallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d40 (    0x10) DYLD-STUB$$CFAllocatorReallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d50 (    0x10) DYLD-STUB$$IOConnectCallScalarMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d60 (    0x10) DYLD-STUB$$IOConnectCallStructMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d70 (    0x10) DYLD-STUB$$IOConnectSetNotificationPort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d80 (    0x10) DYLD-STUB$$IODataQueueAllocateNotificationPort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810d90 (    0x10) DYLD-STUB$$IODataQueueDequeue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810da0 (    0x10) DYLD-STUB$$IOObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810db0 (    0x10) DYLD-STUB$$IOServiceGetMatchingService [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810dc0 (    0x10) DYLD-STUB$$IOServiceMatching [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810dd0 (    0x10) DYLD-STUB$$IOServiceOpen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810de0 (    0x10) DYLD-STUB$$IOSurfaceGetID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810df0 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e00 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e10 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e20 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e30 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e40 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e50 (    0x10) DYLD-STUB$$dispatch_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e60 (    0x10) DYLD-STUB$$dispatch_source_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e70 (    0x10) DYLD-STUB$$dispatch_source_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e80 (    0x10) DYLD-STUB$$mach_msg [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810e90 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810ea0 (    0x10) DYLD-STUB$$os_unfair_lock_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000217810eb0 (    0x10) DYLD-STUB$$os_unfair_lock_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000217810ec0 (    0x68) __TEXT __const
+                0x0000000217810ec0 (    0x50) VideoToolboxParavirtualizationSupportVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000217810f10 (    0x18) VideoToolboxParavirtualizationSupportVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000217810f28 (    0x68) __TEXT __cstring
+            0x0000000217810f90 (    0x70) __TEXT __unwind_info
+        0x000000022e7e7418 (    0x58) __DATA_CONST SEGMENT
+            0x000000022e7e7418 (    0x38) __DATA_CONST __got
+            0x000000022e7e7450 (    0x20) __DATA_CONST __const
+        0x0000000238069fd8 (   0x120) __AUTH_CONST SEGMENT
+            0x0000000238069fd8 (    0x50) __AUTH_CONST __const
+            0x000000023806a028 (    0xd0) __AUTH_CONST __auth_got
+        0x00000002318bf3d0 (    0x60) __DATA SEGMENT
+            0x00000002318bf3d0 (    0x60) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

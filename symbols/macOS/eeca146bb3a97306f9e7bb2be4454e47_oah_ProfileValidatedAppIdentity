@@ -1,0 +1,147 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/ProfileValidatedAppIdentity.framework/Versions/A/ProfileValidatedAppIdentity [arm64e, 0.362229 seconds]:
+    125EA20E-C4E2-347C-BBAA-A5520F229E83 /System/Library/PrivateFrameworks/ProfileValidatedAppIdentity.framework/Versions/A/ProfileValidatedAppIdentity [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c287000 (  0x4000) __TEXT SEGMENT
+            0x000000020c287000 (  0x253c) MACH_HEADER
+            0x000000020c28953c (  0x1024) __TEXT __text
+                0x000000020c28953c (     0x8) +[PVAppIdentityDigest supportsSecureCoding] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289544 (   0x178) -[PVAppIdentityDigest initWithVersion:data0:data1:data2:data3:data4:data5:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c2896bc (   0x10c) -[PVAppIdentityDigest initWithError:version:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c2897c8 (    0x80) +[PVAppIdentityDigest digestWithErrorCode:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289848 (    0x10) +[PVAppIdentityDigest digestWithTimeoutError] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289858 (    0xe8) -[PVAppIdentityDigest encodeWithCoder:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289940 (   0x214) -[PVAppIdentityDigest initWithCoder:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289b54 (   0x240) -[PVAppIdentityDigest asDictionary] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289d94 (     0x8) -[PVAppIdentityDigest getError] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289d9c (    0x8c) -[PVAppIdentityDigest .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c289e28 (   0x274) PVAppIdentity_GenerateDigestWithCompletion [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a09c (   0x114) __PVAppIdentity_GenerateDigestWithCompletion_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a1b0 (    0x48) __PVAppIdentity_GenerateDigestWithCompletion_block_invoke.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a1f8 (    0x50) __copy_helper_block_e8_32s40s48b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a248 (    0x44) __destroy_helper_block_e8_32s40s48s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a28c (    0xd8) __PVAppIdentity_GenerateDigestWithCompletion_block_invoke.11 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a364 (    0x48) __PVAppIdentity_GenerateDigestWithCompletion_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a3ac (    0x54) _PVAppIdentityLogSystem [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a400 (    0x48) ___PVAppIdentityLogSystem_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a448 (     0x8) +[NSError(ProfileValidatedAppIdentity) pvai_errorWithCode:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a450 (    0x1c) +[NSError(ProfileValidatedAppIdentity) pvai_errorWithCode:userInfo:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c28a46c (    0xf4) +[NSError(ProfileValidatedAppIdentity) pvai_wrappedError:error:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020c28a560 (   0x100) __TEXT __auth_stubs
+                0x000000020c28a560 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a570 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a580 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a590 (    0x10) DYLD-STUB$$dispatch_get_global_queue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5a0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5b0 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5c0 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5d0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5e0 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a5f0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a600 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a610 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a620 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a630 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a640 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c28a650 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020c28a660 (    0xbc) __TEXT __objc_methlist
+                0x000000020c28a660 (    0x30) _OBJC_$_CLASS_METHODS_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x000000020c28a690 (    0x60) _OBJC_$_INSTANCE_METHODS_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x000000020c28a6f0 (    0x2c) _OBJC_$_CLASS_METHODS_NSError(ProfileValidatedAppIdentity) [NameNList, MangledNameNList, NList] 
+            0x000000020c28a720 (    0x50) __TEXT __const
+                0x000000020c28a720 (    0x40) ProfileValidatedAppIdentityVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28a760 (    0x10) ProfileValidatedAppIdentityVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020c28a770 (    0xd7) __TEXT __cstring
+            0x000000020c28a848 (    0xa4) __TEXT __unwind_info
+            0x000000020c28a8ec (    0x67) __TEXT __objc_classname
+            0x000000020c28a954 (   0x2e1) __TEXT __objc_methname
+            0x000000020c28ac35 (   0x109) __TEXT __objc_methtype
+            0x000000020c28ad40 (   0x2c0) __TEXT __objc_stubs
+                0x000000020c28ad40 (    0x20) objc_msgSend$base64EncodedStringWithOptions: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ad60 (    0x20) objc_msgSend$code [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ad80 (    0x20) objc_msgSend$decodeObjectOfClass:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ada0 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28adc0 (    0x20) objc_msgSend$digestWithErrorCode: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ade0 (    0x20) objc_msgSend$domain [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ae00 (    0x20) objc_msgSend$encodeObject:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ae20 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ae40 (    0x20) objc_msgSend$generateDigest:ppqAppId:withReply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ae60 (    0x20) objc_msgSend$initWithError:version: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28ae80 (    0x20) objc_msgSend$initWithServiceName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28aea0 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28aec0 (    0x20) objc_msgSend$invalidate [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28aee0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28af00 (    0x20) objc_msgSend$numberWithInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28af20 (    0x20) objc_msgSend$pvai_errorWithCode: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28af40 (    0x20) objc_msgSend$pvai_errorWithCode:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28af60 (    0x20) objc_msgSend$pvai_wrappedError:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28af80 (    0x20) objc_msgSend$remoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28afa0 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28afc0 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c28afe0 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237ad95e0 (   0x368) __DATA_CONST SEGMENT
+            0x0000000237ad95e0 (    0x18) __DATA_CONST __got
+            0x0000000237ad95f8 (    0x28) __DATA_CONST __const
+                0x0000000237ad95f8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9618 (     0x8) PVAppIdentityErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000237ad9620 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237ad9628 (     0x8) __DATA_CONST __objc_catlist
+            0x0000000237ad9630 (    0x18) __DATA_CONST __objc_protolist
+                0x0000000237ad9630 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9638 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSSecureCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9640 (     0x8) _OBJC_LABEL_PROTOCOL_$_PVAppIdentityServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237ad9648 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237ad9650 (   0x200) __DATA_CONST __objc_const
+                0x0000000237ad9650 (    0x38) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9688 (    0x10) _OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9698 (    0x18) _OBJC_$_PROTOCOL_REFS_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad96b0 (    0x20) _OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad96d0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad96d8 (    0x18) _OBJC_$_CLASS_PROP_LIST_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237ad96f0 (    0x18) _OBJC_CLASS_PROTOCOLS_$_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9708 (    0x18) _OBJC_$_CLASS_PROP_LIST_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9720 (   0x108) _OBJC_$_INSTANCE_VARIABLES_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9828 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_PVAppIdentityServiceProtocol [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9848 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_PVAppIdentityServiceProtocol [NameNList, MangledNameNList, NList] 
+            0x0000000237ad9850 (    0xf8) __DATA_CONST __objc_selrefs
+        0x0000000237ad9948 (   0x378) __AUTH_CONST SEGMENT
+            0x0000000237ad9948 (    0x30) __AUTH_CONST __objc_intobj
+            0x0000000237ad9978 (   0x140) __AUTH_CONST __cfstring
+            0x0000000237ad9ab8 (    0xd0) __AUTH_CONST __objc_const
+                0x0000000237ad9ab8 (    0x48) _OBJC_METACLASS_RO_$_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9b00 (    0x48) _OBJC_CLASS_RO_$_PVAppIdentityDigest [NameNList, MangledNameNList, NList] 
+                0x0000000237ad9b48 (    0x40) _OBJC_$_CATEGORY_NSError_$_ProfileValidatedAppIdentity [NameNList, MangledNameNList, NList] 
+            0x0000000237ad9b88 (    0xb0) __AUTH_CONST __const
+                0x0000000237ad9b88 (    0x30) __block_descriptor_56_e8_32s40s48bs_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9bb8 (    0x30) __block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9be8 (    0x30) __block_descriptor_56_e8_32s40s48bs_e29_v16?0"PVAppIdentityDigest"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ad9c18 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x0000000237ad9c38 (    0x88) __AUTH_CONST __auth_got
+        0x0000000232abf928 (    0x50) __AUTH SEGMENT
+            0x0000000232abf928 (    0x50) __AUTH __objc_data
+                0x0000000232abf928 (    0x28) OBJC_CLASS_$_PVAppIdentityDigest [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232abf950 (    0x28) OBJC_METACLASS_$_PVAppIdentityDigest [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002314e20c0 (   0x1a0) __DATA SEGMENT
+            0x00000002314e20c0 (     0x8) __DATA __objc_protorefs
+                0x00000002314e20c0 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_PVAppIdentityServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002314e20c8 (    0x40) __DATA __objc_classrefs
+            0x00000002314e2108 (     0x8) __DATA __objc_superrefs
+            0x00000002314e2110 (    0x20) __DATA __objc_ivar
+                0x00000002314e2110 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.version [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2114 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data0 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2118 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data1 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e211c (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data2 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2120 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data3 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2124 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data4 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2128 (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.data5 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e212c (     0x4) OBJC_IVAR_$_PVAppIdentityDigest.error [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002314e2130 (   0x120) __DATA __data
+                0x00000002314e2130 (    0x60) _OBJC_PROTOCOL_$_NSCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e2190 (    0x60) _OBJC_PROTOCOL_$_NSSecureCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e21f0 (    0x60) _OBJC_PROTOCOL_$_PVAppIdentityServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002314e2250 (    0x10) __DATA __bss
+                0x00000002314e2250 (     0x8) _PVAppIdentityLogSystem.log [NameNList, MangledNameNList, NList] 
+                0x00000002314e2258 (     0x8) _PVAppIdentityLogSystem.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

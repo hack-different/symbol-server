@@ -1,0 +1,91 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/FaceTimeNotification.framework/Versions/A/FaceTimeNotification [arm64e, 0.045801 seconds]:
+    F5D15F72-A553-3F78-9A4D-3B00C655E48C /System/Library/PrivateFrameworks/FaceTimeNotification.framework/Versions/A/FaceTimeNotification [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fb3a5000 (  0x1ff5) __TEXT SEGMENT
+            0x00000001fb3a5000 (  0x1664) MACH_HEADER
+            0x00000001fb3a6664 (   0x64c) __TEXT __text
+                0x00000001fb3a6664 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6680 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a66b4 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a66d0 (    0xa8) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6778 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6798 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6854 (    0xa8) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a68fc (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6920 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a69dc (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6a0c (    0x38) __swift_project_value_buffer [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb3a6a44 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6a74 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6a7c (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6aac (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6af0 (     0xc) __swift_memcpy16_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb3a6afc (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6b30 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6b78 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6bb4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6bc4 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001fb3a6c4c (    0x64) __swift_allocate_value_buffer [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fb3a6cb0 (    0xc0) __TEXT __auth_stubs
+                0x00000001fb3a6cb0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6cc0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6cd0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6ce0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6cf0 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d00 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d10 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d20 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d30 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d40 (    0x10) DYLD-STUB$$swift_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d50 (    0x10) DYLD-STUB$$swift_slowAlloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6d60 (    0x10) DYLD-STUB$$swift_task_switch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fb3a6d70 (    0xb4) __TEXT __const
+                0x00000001fb3a6d70 (    0x48) FaceTimeNotificationVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6db8 (    0x6a) FaceTimeNotificationVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6e22 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001fb3a6e30 (    0x44) __TEXT __cstring
+            0x00000001fb3a6e74 (    0x28) __TEXT __constg_swiftt
+            0x00000001fb3a6e9c (     0x9) __TEXT __swift5_typeref
+                0x00000001fb3a6e9c (     0x6) symbolic _____ 20FaceTimeNotification0C20ServiceConfiguartionV [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb3a6ea2 (     0x3) symbolic SS [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001fb3a6ea5 (     0xc) __TEXT __swift5_reflstr
+            0x00000001fb3a6eb4 (    0x1c) __TEXT __swift5_fieldmd
+            0x00000001fb3a6ed0 (     0x4) __TEXT __swift5_proto
+            0x00000001fb3a6ed4 (     0x4) __TEXT __swift5_types
+            0x00000001fb3a6ed8 (    0xa0) __TEXT __unwind_info
+            0x00000001fb3a6f78 (    0x68) __TEXT __eh_frame
+            0x00000001fb3a6fe0 (    0x15) __TEXT __objc_methname
+        0x000000022e131110 (    0xa8) __DATA_CONST SEGMENT
+            0x000000022e131110 (    0x98) __DATA_CONST __const
+                0x000000022e131110 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131118 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131120 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131128 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131130 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131138 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131140 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131148 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131150 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131158 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131160 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131168 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131170 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131178 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131180 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131188 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131190 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e131198 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e1311a0 (     0x8) _swift_FORCE_LOAD_$_swiftIntents_$_FaceTimeNotification [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e1311a8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e1311b0 (     0x8) __DATA_CONST __objc_selrefs
+        0x0000000237048340 (   0x108) __AUTH_CONST SEGMENT
+            0x0000000237048340 (    0xa8) __AUTH_CONST __const
+            0x00000002370483e8 (    0x60) __AUTH_CONST __auth_got
+        0x0000000230fe9128 (    0x38) __DATA SEGMENT
+            0x0000000230fe9128 (     0x8) __DATA __objc_classrefs
+            0x0000000230fe9130 (    0x18) __DATA __data
+            0x0000000230fe9148 (    0x18) __DATA __common
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

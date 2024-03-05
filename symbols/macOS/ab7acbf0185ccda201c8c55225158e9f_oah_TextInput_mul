@@ -1,0 +1,113 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/TextInput/TextInput_mul.bundle/Versions/A/TextInput_mul [arm64e, 0.024747 seconds]:
+    7100A253-D763-3E8C-8570-2956212D5F34 /System/Library/TextInput/TextInput_mul.bundle/Versions/A/TextInput_mul [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021fecb000 (  0x4000) __TEXT SEGMENT
+            0x000000021fecb000 (  0x2304) MACH_HEADER
+            0x000000021fecd304 (  0x1188) __TEXT __text
+                0x000000021fecd304 (     0x8) -[TIKeyboardFeatureSpecialization_ain shouldConvertEagerly] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd30c (    0xb4) -[TIKeyboardFeatureSpecialization_ain internalStringToExternal:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd3c0 (    0x84) -[TIKeyboardFeatureSpecialization_ain wordCharacters] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd444 (   0x36c) -[TIKeyboardFeatureSpecialization_ain findPrefixMatchesFor:fromIndex:usingCompositionMap:matchesInputAsPrefix:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd7b0 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x000000021fecd7dc (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x000000021fecd808 (     0x8) -[TIKeyboardFeatureSpecialization_bo doesComposeText] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd810 (     0x8) -[TIKeyboardFeatureSpecialization_bo shouldAddModifierSymbolsToWordCharacters] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecd818 (   0x538) -[TIKeyboardFeatureSpecialization_bo internalStringToExternal:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fecdd50 (   0x484) -[TIKeyboardFeatureSpecialization_bo externalStringToInternal:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fece1d4 (    0x34) KB::LikelihoodInfo::~LikelihoodInfo() [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fece208 (   0x170) -[TIKeyboardInputManager_ain deleteComposedTextFromIndex:count:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fece378 (    0x9c) std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:v160006]<std::nullptr_t>(char const*) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021fece414 (    0x78) _GLOBAL__sub_I_TIKeyboardInputManager_ain.mm [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021fece48c (   0x140) __TEXT __auth_stubs
+                0x000000021fece48c (    0x10) DYLD-STUB$$TIInputManager::set_input(KB::String const&) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece49c (    0x10) DYLD-STUB$$KB::utf8_string(NSString*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4ac (    0x10) DYLD-STUB$$KB::String::~String() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4bc (    0x10) DYLD-STUB$$KB::ns_string(KB::String const&) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4cc (    0x10) DYLD-STUB$$TIInputManager::input_string() const [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4dc (    0x10) DYLD-STUB$$operator delete(void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4ec (    0x10) DYLD-STUB$$operator new(unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece4fc (    0x10) DYLD-STUB$$__cxa_atexit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece50c (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece51c (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece52c (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece53c (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece54c (    0x10) DYLD-STUB$$objc_autoreleasePoolPop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece55c (    0x10) DYLD-STUB$$objc_autoreleasePoolPush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece56c (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece57c (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece58c (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece59c (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece5ac (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021fece5bc (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021fece5cc (     0x4) __TEXT __init_offsets
+            0x000000021fece5d0 (    0x84) __TEXT __objc_methlist
+                0x000000021fece5d0 (    0x38) _OBJC_$_INSTANCE_METHODS_TIKeyboardFeatureSpecialization_ain [NameNList, MangledNameNList, NList] 
+                0x000000021fece608 (    0x38) _OBJC_$_INSTANCE_METHODS_TIKeyboardFeatureSpecialization_bo [NameNList, MangledNameNList, NList] 
+                0x000000021fece640 (    0x14) _OBJC_$_INSTANCE_METHODS_TIKeyboardInputManager_ain [NameNList, MangledNameNList, NList] 
+            0x000000021fece654 (   0x26a) __TEXT __ustring
+            0x000000021fece8be (    0x13) __TEXT __cstring
+            0x000000021fece8d4 (    0x68) __TEXT __unwind_info
+            0x000000021fece93c (    0x62) __TEXT __objc_classname
+            0x000000021fece99e (   0x2fd) __TEXT __objc_methname
+            0x000000021fecec9b (    0x3e) __TEXT __objc_methtype
+            0x000000021fecece0 (   0x320) __TEXT __objc_stubs
+                0x000000021fecece0 (    0x20) objc_msgSend$_stringByReplacingCharacter:withCharacter: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feced00 (    0x20) objc_msgSend$_stringWithUnichar: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feced20 (    0x20) objc_msgSend$addCharactersInString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feced40 (    0x20) objc_msgSend$appendString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feced60 (    0x20) objc_msgSend$characterAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feced80 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feceda0 (    0x20) objc_msgSend$externalStringToInternal:byConvertingEagerly: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecedc0 (    0x20) objc_msgSend$initWithBaseCharacterSet: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecede0 (    0x20) objc_msgSend$initWithObjectsAndKeys: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecee00 (    0x20) objc_msgSend$insertObject:atIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecee20 (    0x20) objc_msgSend$internalStringToExternal: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecee40 (    0x20) objc_msgSend$itemWithKey:value: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecee60 (    0x20) objc_msgSend$key [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecee80 (    0x20) objc_msgSend$keyboardFeatureSpecialization [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feceea0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feceec0 (    0x20) objc_msgSend$mutableCopy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021feceee0 (    0x20) objc_msgSend$nonstopPunctuationCharacters [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecef00 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecef20 (    0x20) objc_msgSend$objectForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecef40 (    0x20) objc_msgSend$removeCharactersInString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecef60 (    0x20) objc_msgSend$replaceCharactersInRange:withString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecef80 (    0x20) objc_msgSend$setString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecefa0 (    0x20) objc_msgSend$string [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecefc0 (    0x20) objc_msgSend$substringToIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021fecefe0 (    0x20) objc_msgSend$substringWithRange: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238234f10 (   0x218) __DATA_CONST SEGMENT
+            0x0000000238234f10 (    0x20) __DATA_CONST __got
+            0x0000000238234f30 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238234f48 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238234f50 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238234f50 (    0x48) _OBJC_METACLASS_RO_$_TIKeyboardFeatureSpecialization_ain [NameNList, MangledNameNList, NList] 
+                0x0000000238234f98 (    0x48) _OBJC_METACLASS_RO_$_TIKeyboardFeatureSpecialization_bo [NameNList, MangledNameNList, NList] 
+                0x0000000238234fe0 (    0x48) _OBJC_METACLASS_RO_$_TIKeyboardInputManager_ain [NameNList, MangledNameNList, NList] 
+            0x0000000238235028 (   0x100) __DATA_CONST __objc_selrefs
+        0x0000000238235128 (  0x1240) __AUTH_CONST SEGMENT
+            0x0000000238235128 (  0x10c0) __AUTH_CONST __cfstring
+            0x00000002382361e8 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002382361e8 (    0x48) _OBJC_CLASS_RO_$_TIKeyboardFeatureSpecialization_ain [NameNList, MangledNameNList, NList] 
+                0x0000000238236230 (    0x48) _OBJC_CLASS_RO_$_TIKeyboardFeatureSpecialization_bo [NameNList, MangledNameNList, NList] 
+                0x0000000238236278 (    0x48) _OBJC_CLASS_RO_$_TIKeyboardInputManager_ain [NameNList, MangledNameNList, NList] 
+            0x00000002382362c0 (    0xa8) __AUTH_CONST __auth_got
+        0x00000002332f2518 (    0xf0) __AUTH SEGMENT
+            0x00000002332f2518 (    0xf0) __AUTH __objc_data
+                0x00000002332f2518 (    0x28) OBJC_CLASS_$_TIKeyboardFeatureSpecialization_ain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f2540 (    0x28) OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_ain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f2568 (    0x28) OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_bo [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f2590 (    0x28) OBJC_CLASS_$_TIKeyboardFeatureSpecialization_bo [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f25b8 (    0x28) OBJC_METACLASS_$_TIKeyboardInputManager_ain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f25e0 (    0x28) OBJC_CLASS_$_TIKeyboardInputManager_ain [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231a01650 (    0x68) __DATA SEGMENT
+            0x0000000231a01650 (    0x28) __DATA __objc_classrefs
+            0x0000000231a01678 (     0x8) __DATA __objc_superrefs
+            0x0000000231a01680 (    0x38) __DATA __bss
+                0x0000000231a01680 (     0x8) -[TIKeyboardFeatureSpecialization_bo internalStringToExternal:]::gFullToSubscriptMap [NameNList, MangledNameNList, NList] 
+                0x0000000231a01688 (     0x8) -[TIKeyboardFeatureSpecialization_bo externalStringToInternal:]::gSubscriptToFullMap [NameNList, MangledNameNList, NList] 
+                0x0000000231a01690 (    0x28) KB::k_invalid_likelihood_value [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

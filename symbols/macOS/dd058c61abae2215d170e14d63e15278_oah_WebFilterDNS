@@ -1,0 +1,54 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/WebFilterDNS.framework/Versions/A/WebFilterDNS [arm64e, 0.327227 seconds]:
+    B3A8D9B3-CEC3-3379-B7E3-71EF083EAE69 /System/Library/PrivateFrameworks/WebFilterDNS.framework/Versions/A/WebFilterDNS [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e6561000 (  0x3ffc) __TEXT SEGMENT
+            0x00000001e6561000 (  0x334c) MACH_HEADER
+            0x00000001e656434c (   0x9e4) __TEXT __text
+                0x00000001e656434c (    0x64) _WCFMachPort [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e65643b0 (    0x6c) _rpcCall_NameResolvesToAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e656441c (    0x54) _rpcCall_NameResolvesToName [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564470 (    0x4c) _rpcCall_LookupNameForAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e65644bc (    0xc8) WCFConnectionNew [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564584 (    0x10) __WCFConnectionNew_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564594 (    0x3c) WCFConnectionDealloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e65645d0 (    0x8c) _WCFIsConnectionValid [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e656465c (     0x4) WCFIsServerRunning [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564660 (    0x90) WCFNameResolvesToAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e65646f0 (    0x60) WCFNameResolvesToName [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564750 (    0x84) WCFLookupNameForAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e65647d4 (   0x198) NameResolvesToAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e656496c (   0x194) NameResolvesToName [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6564b00 (   0x230) LookupNameForAddr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001e6564d30 (   0x120) __TEXT __auth_stubs
+                0x00000001e6564d30 (    0x10) DYLD-STUB$$__memcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d40 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d50 (    0x10) DYLD-STUB$$bootstrap_look_up [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d60 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d70 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d80 (    0x10) DYLD-STUB$$mach_error_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564d90 (    0x10) DYLD-STUB$$mach_msg [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564da0 (    0x10) DYLD-STUB$$mach_msg_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564db0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564dc0 (    0x10) DYLD-STUB$$mig_dealloc_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564dd0 (    0x10) DYLD-STUB$$mig_get_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564de0 (    0x10) DYLD-STUB$$mig_put_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564df0 (    0x10) DYLD-STUB$$mig_strncpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564e00 (    0x10) DYLD-STUB$$mig_strncpy_zerofill [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564e10 (    0x10) DYLD-STUB$$notify_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564e20 (    0x10) DYLD-STUB$$notify_register_dispatch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564e30 (    0x10) DYLD-STUB$$syslog$DARWIN_EXTSN [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6564e40 (    0x10) DYLD-STUB$$voucher_mach_msg_set [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e6564e50 (    0x10) __TEXT __const
+            0x00000001e6564e60 (   0x12c) __TEXT __cstring
+            0x00000001e6564f8c (    0x70) __TEXT __unwind_info
+        0x000000022dfec738 (    0x48) __DATA_CONST SEGMENT
+            0x000000022dfec738 (    0x28) __DATA_CONST __got
+            0x000000022dfec760 (    0x20) __DATA_CONST __const
+                0x000000022dfec760 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+        0x00000002363ecba8 (    0xa0) __AUTH_CONST SEGMENT
+            0x00000002363ecba8 (    0x10) __AUTH_CONST __auth_ptr
+            0x00000002363ecbb8 (    0x90) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

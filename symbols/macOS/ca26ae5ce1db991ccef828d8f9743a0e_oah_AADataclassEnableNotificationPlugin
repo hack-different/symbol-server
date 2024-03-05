@@ -1,0 +1,169 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Accounts/Notification/AADataclassEnableNotificationPlugin.bundle/Contents/MacOS/AADataclassEnableNotificationPlugin [arm64e, 0.025366 seconds]:
+    4A87DC32-1757-3AEF-BDFF-F046B7892A4C /System/Library/Accounts/Notification/AADataclassEnableNotificationPlugin.bundle/Contents/MacOS/AADataclassEnableNotificationPlugin [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e638e000 (  0xc000) __TEXT SEGMENT
+            0x00000001e638e000 (  0x48ac) MACH_HEADER
+            0x00000001e63928ac (  0x49bc) __TEXT __text
+                0x00000001e63928ac (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e639291c (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e639298c (   0x268) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392bf4 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392c7c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392c84 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392c8c (   0x138) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392dc4 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392e34 (   0x160) (null) [FUNC, FunctionStarts] 
+                0x00000001e6392f94 (    0x7c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393010 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393058 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393094 (    0xe8) (null) [FUNC, FunctionStarts] 
+                0x00000001e639317c (   0x168) (null) [FUNC, FunctionStarts] 
+                0x00000001e63932e4 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000001e639333c (   0x160) (null) [FUNC, FunctionStarts] 
+                0x00000001e639349c (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000001e63934fc (    0x90) (null) [FUNC, FunctionStarts] 
+                0x00000001e639358c (    0x68) (null) [FUNC, FunctionStarts] 
+                0x00000001e63935f4 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393640 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e639364c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393658 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x00000001e63936f8 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001e639373c (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393790 (   0x178) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393908 (    0x84) (null) [FUNC, FunctionStarts] 
+                0x00000001e639398c (    0xf8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393a84 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393b78 (   0x118) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393c90 (   0x238) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393ec8 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001e6393f84 (   0x10c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394090 (   0x10c) (null) [FUNC, FunctionStarts] 
+                0x00000001e639419c (   0x3d0) (null) [FUNC, FunctionStarts] 
+                0x00000001e639456c (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e63945c0 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394600 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394670 (    0x7c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63946ec (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394740 (   0x1d8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394918 (    0x84) (null) [FUNC, FunctionStarts] 
+                0x00000001e639499c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e63949a4 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e63949b0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e63949b8 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63949d4 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63949f0 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394a60 (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394b2c (   0x308) (null) [FUNC, FunctionStarts] 
+                0x00000001e6394e34 (   0x560) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395394 (   0x2ac) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395640 (   0x15c) (null) [FUNC, FunctionStarts] 
+                0x00000001e639579c (   0x15c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63958f8 (   0x28c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395b84 (   0x170) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395cf4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395d04 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395d0c (    0xfc) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395e08 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395e58 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001e6395e98 (   0x4a4) (null) [FUNC, FunctionStarts] 
+                0x00000001e639633c (   0x15c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396498 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000001e63964f8 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396548 (   0x378) (null) [FUNC, FunctionStarts] 
+                0x00000001e63968c0 (   0x25c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396b1c (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396b68 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396bb4 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396bbc (    0xf8) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396cb4 (    0x98) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396d4c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396d58 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396d70 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396d8c (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396da8 (    0x84) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396e2c (    0x78) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396ea4 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396f44 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396f70 (    0x8c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6396ffc (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6397058 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63970b4 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001e6397110 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001e639716c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001e63971b0 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001e639720c (    0x5c) (null) [FUNC, FunctionStarts] 
+            0x00000001e6397268 (   0x1c0) __TEXT __auth_stubs
+                0x00000001e6397268 (    0x10) DYLD-STUB$$CFPreferencesGetAppBooleanValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397278 (    0x10) DYLD-STUB$$MGCopyAnswer [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397288 (    0x10) DYLD-STUB$$_AALogSystem [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397298 (    0x10) DYLD-STUB$$_ACLogSystem [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972a8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972b8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972c8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972d8 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972e8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63972f8 (    0x10) DYLD-STUB$$_os_feature_enabled_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397308 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397318 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397328 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397338 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397348 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397358 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397368 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397378 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397388 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397398 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973a8 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973b8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973c8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973d8 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973e8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63973f8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397408 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6397418 (    0x10) DYLD-STUB$$os_transaction_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e6397428 (   0x274) __TEXT __objc_methlist
+            0x00000001e63976a0 (    0x10) __TEXT __const
+            0x00000001e63976b0 (   0x51a) __TEXT __cstring
+            0x00000001e6397bca (   0x68a) __TEXT __oslogstring
+            0x00000001e6398254 (    0x30) __TEXT __gcc_except_tab
+            0x00000001e6398284 (   0x14c) __TEXT __unwind_info
+            0x00000001e63983d0 (    0x9a) __TEXT __objc_classname
+            0x00000001e639846a (   0xd9e) __TEXT __objc_methname
+            0x00000001e6399208 (   0x253) __TEXT __objc_methtype
+            0x00000001e6399460 (   0xba0) __TEXT __objc_stubs
+        0x00000002363d4b50 (   0xaa0) __DATA_CONST SEGMENT
+            0x00000002363d4b50 (   0x138) __DATA_CONST __got
+            0x00000002363d4c88 (    0x30) __DATA_CONST __const
+                0x00000002363d4ca8 (     0x8) AADataclassesKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002363d4cb0 (     0x8) AADataclassActionsKey [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002363d4cb8 (    0x20) __DATA_CONST __objc_classlist
+            0x00000002363d4cd8 (    0x18) __DATA_CONST __objc_catlist
+            0x00000002363d4cf0 (    0x10) __DATA_CONST __objc_protolist
+            0x00000002363d4d00 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002363d4d08 (   0x570) __DATA_CONST __objc_const
+            0x00000002363d5278 (   0x378) __DATA_CONST __objc_selrefs
+        0x00000002363d55f0 (   0xa28) __AUTH_CONST SEGMENT
+            0x00000002363d55f0 (   0x228) __AUTH_CONST __objc_const
+            0x00000002363d5818 (   0x1f0) __AUTH_CONST __const
+            0x00000002363d5a08 (   0x520) __AUTH_CONST __cfstring
+            0x00000002363d5f28 (    0xf0) __AUTH_CONST __auth_got
+        0x000000023219b910 (   0x140) __AUTH SEGMENT
+            0x000000023219b910 (   0x140) __AUTH __objc_data
+                0x000000023219b910 (    0x28) OBJC_METACLASS_$_AADataclassEnableNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b938 (    0x28) OBJC_CLASS_$_AADataclassEnableNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b960 (    0x28) OBJC_METACLASS_$_AADeviceModelHelper [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b988 (    0x28) OBJC_CLASS_$_AADeviceModelHelper [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b9b0 (    0x28) OBJC_CLASS_$_AACloudPolicyRestrictions [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b9d8 (    0x28) OBJC_METACLASS_$_AACloudPolicyRestrictions [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219ba00 (    0x28) OBJC_CLASS_$_AADataclassManager [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219ba28 (    0x28) OBJC_METACLASS_$_AADataclassManager [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002308868d0 (   0x198) __DATA SEGMENT
+            0x00000002308868d0 (    0x78) __DATA __objc_classrefs
+            0x0000000230886948 (     0x8) __DATA __objc_superrefs
+            0x0000000230886950 (     0x4) __DATA __objc_ivar
+            0x0000000230886958 (    0xc0) __DATA __data
+            0x0000000230886a18 (    0x50) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

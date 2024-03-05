@@ -1,0 +1,106 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Frameworks/LoopKitGeneratedKernels.framework/Versions/A/LoopKitGeneratedKernels [arm64e, 0.031829 seconds]:
+    96D2C6A2-AE35-388B-8116-D211CC949033 /System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Frameworks/LoopKitGeneratedKernels.framework/Versions/A/LoopKitGeneratedKernels [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fabdb000 (0x1d3fe8) __TEXT SEGMENT
+            0x00000001fabdb000 (  0x36b0) MACH_HEADER
+            0x00000001fabde6b0 ( 0x20810) __TEXT __text
+                0x00000001fabde6b0 (     0x8) foo() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabde6b8 (     0x8) halide_malloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabde6c0 (     0x8) halide_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabde6c8 (     0x8) halide_error_buffer_argument_is_null [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabde6d0 (   0x9c8) anod_v3_drop3_r608_nomask_97 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf098 (    0x24) anod_v3_drop3_r608_nomask_97_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf0bc (     0xc) anod_v3_drop3_r608_nomask_97_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf0c8 (   0x164) anod_v3_drop3_r608_nomask_97_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf22c (    0x1c) anod_v3_drop3_r608_nomask_97_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf248 (     0xc) anod_v3_drop3_r608_nomask_97_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf254 (   0x120) anod_v3_drop3_r608_nomask_97_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf374 (    0x1c) anod_v3_drop3_r608_nomask_97_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf390 (     0xc) anod_v3_drop3_r608_nomask_97_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf39c (    0xf0) anod_v3_drop3_r608_nomask_169_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf48c (    0x18) anod_v3_drop3_r608_nomask_169_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf4a4 (     0xc) anod_v3_drop3_r608_nomask_169_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf4b0 (   0x3e8) anod_v3_drop3_r608_nomask_169 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf898 (    0x20) anod_v3_drop3_r608_nomask_169_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf8b8 (     0xc) anod_v3_drop3_r608_nomask_169_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf8c4 (    0xdc) anod_v3_drop3_r608_nomask_169_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf9a0 (    0x18) anod_v3_drop3_r608_nomask_169_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf9b8 (     0xc) anod_v3_drop3_r608_nomask_169_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdf9c4 (   0x408) anod_v3_drop3_r608_nomask_204 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdfdcc (    0x38) anod_v3_drop3_r608_nomask_204_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdfe04 (     0xc) anod_v3_drop3_r608_nomask_204_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdfe10 (   0x16c) anod_v3_drop3_r608_nomask_204_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdff7c (    0x28) anod_v3_drop3_r608_nomask_204_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdffa4 (     0xc) anod_v3_drop3_r608_nomask_204_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabdffb0 (   0x1dc) anod_v3_drop3_r608_nomask_204_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe018c (    0x28) anod_v3_drop3_r608_nomask_204_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe01b4 (     0xc) anod_v3_drop3_r608_nomask_204_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe01c0 (   0x10c) anod_v3_drop3_r608_nomask_285_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe02cc (    0x1c) anod_v3_drop3_r608_nomask_285_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe02e8 (     0xc) anod_v3_drop3_r608_nomask_285_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe02f4 (   0x164) anod_v3_drop3_r608_nomask_285_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0458 (    0x1c) anod_v3_drop3_r608_nomask_285_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0474 (     0xc) anod_v3_drop3_r608_nomask_285_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0480 (   0x414) anod_v3_drop3_r608_nomask_285 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0894 (    0x24) anod_v3_drop3_r608_nomask_285_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe08b8 (     0xc) anod_v3_drop3_r608_nomask_285_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe08c4 (    0x2c) halide_default_malloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe08f0 (     0x8) halide_default_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe08f8 (    0x18) halide_set_custom_malloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0910 (    0x18) halide_set_custom_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0928 (    0x18) halide_set_custom_named_malloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0940 (    0x28) halide_named_malloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0968 (   0x354) halide_iterate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe0cbc (   0x35c) halide_iterate_sb [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe1018 (    0x50) Blizzard-d15_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe1068 (    0x18) Blizzard-d15_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe1080 (     0xc) Blizzard-d15_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabe108c (  0x9d58) Blizzard-d15 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeade4 (    0x20) Blizzard-d15_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeae04 (     0xc) Blizzard-d15_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeae10 (    0xc8) Blizzard-d15_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaed8 (    0x18) Blizzard-d15_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaef0 (     0xc) Blizzard-d15_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaefc (    0x50) D16_7mhekcmhqs_68348_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaf4c (    0x18) D16_7mhekcmhqs_68348_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaf64 (     0xc) D16_7mhekcmhqs_68348_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeaf70 (    0xc8) D16_7mhekcmhqs_68348_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeb038 (    0x18) D16_7mhekcmhqs_68348_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeb050 (     0xc) D16_7mhekcmhqs_68348_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabeb05c (  0x9a7c) Flashcow-d15 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4ad8 (    0x20) Flashcow-d15_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4af8 (     0xc) Flashcow-d15_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4b04 (    0x50) Flashcow-d15_dim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4b54 (    0x18) Flashcow-d15_dim_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4b6c (     0xc) Flashcow-d15_dim_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4b78 (    0xc8) Flashcow-d15_shape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4c40 (    0x18) Flashcow-d15_shape_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4c58 (     0xc) Flashcow-d15_shape_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabf4c64 (  0xa230) D16_7mhekcmhqs_68348 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabfee94 (    0x20) D16_7mhekcmhqs_68348_argv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fabfeeb4 (     0xc) D16_7mhekcmhqs_68348_metadata [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fabfeec0 (    0x40) __TEXT __auth_stubs
+                0x00000001fabfeec0 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fabfeed0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fabfeee0 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fabfeef0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fabfef00 (0x1b0015) __TEXT __const
+                0x00000001fabfef00 (    0x50) LoopKitGeneratedKernelsVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fabfef50 (0x1affc5) LoopKitGeneratedKernelsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001fadaef18 (    0x64) __TEXT __unwind_info
+            0x00000001fadaef80 (    0x68) __TEXT __eh_frame
+        0x000000022e12eb50 (  0x2478) __DATA_CONST SEGMENT
+            0x000000022e12eb50 (  0x2470) __DATA_CONST __const
+            0x000000022e130fc0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023700ce90 (    0x20) __AUTH_CONST SEGMENT
+            0x000000023700ce90 (    0x20) __AUTH_CONST __auth_got
+        0x0000000230fe2738 (    0x30) __DATA SEGMENT
+            0x0000000230fe2738 (    0x18) __DATA __got_weak
+            0x0000000230fe2750 (    0x18) __DATA __data
+                0x0000000230fe2750 (     0x8) Halide::Runtime::Internal::custom_malloc [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fe2758 (     0x8) Halide::Runtime::Internal::custom_free [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fe2760 (     0x8) Halide::Runtime::Internal::custom_named_malloc [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

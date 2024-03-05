@@ -1,0 +1,146 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/MetricsFramework.framework/Versions/A/MetricsFramework [arm64e, 0.024958 seconds]:
+    AA368D0D-7FA9-3B1C-AE3A-5A54C0FD34BF /System/Library/PrivateFrameworks/MetricsFramework.framework/Versions/A/MetricsFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000207d48000 (  0x4000) __TEXT SEGMENT
+            0x0000000207d48000 (  0x1adc) MACH_HEADER
+            0x0000000207d49adc (  0x1d14) __TEXT __text
+                0x0000000207d49adc (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49af4 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49b3c (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49b68 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49bac (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49bc0 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49bec (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49bf4 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49c48 (    0x50) __swift_destroy_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d49c98 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49ca0 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49cf8 (     0xc) __swift_memcpy1_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d49d04 (     0x4) __swift_noop_void_return [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d49d08 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49d98 (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49e64 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49e78 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49e8c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49e94 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49e98 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49ea4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49eb4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49eb8 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49f0c (    0x84) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49f90 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000207d49f94 (   0x15c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4a0f0 (   0x6a8) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4a798 (   0x1ac) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4a944 (   0x47c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4adc0 (   0x364) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b124 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b178 (    0x38) __swift_project_value_buffer [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d4b1b0 (    0xd4) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b284 (   0x134) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b3b8 (    0x98) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b450 (    0x9c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b4ec (    0xec) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b5d8 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b620 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b630 (    0x50) __swift_destroy_boxed_opaque_existential_0 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d4b680 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b6dc (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d4b720 (     0x4) _swift_stdlib_malloc_size [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207d4b724 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x0000000207d4b78c (    0x64) __swift_allocate_value_buffer [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000207d4b7f0 (   0x330) __TEXT __auth_stubs
+                0x0000000207d4b7f0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b800 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b810 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b820 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b830 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b840 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b850 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b860 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b870 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b880 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b890 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8a0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8b0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8c0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8d0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8e0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b8f0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b900 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b910 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b920 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b930 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b940 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b950 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b960 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b970 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b980 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b990 (    0x10) DYLD-STUB$$malloc_size [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9a0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9b0 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9c0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9d0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9e0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4b9f0 (    0x10) DYLD-STUB$$swift_allocError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba00 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba10 (    0x10) DYLD-STUB$$swift_arrayDestroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba20 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba30 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba40 (    0x10) DYLD-STUB$$swift_errorRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba50 (    0x10) DYLD-STUB$$swift_getObjectType [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba60 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba70 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba80 (    0x10) DYLD-STUB$$swift_isUniquelyReferenced_nonNull_native [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4ba90 (    0x10) DYLD-STUB$$swift_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4baa0 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bab0 (    0x10) DYLD-STUB$$swift_slowAlloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bac0 (    0x10) DYLD-STUB$$swift_slowDealloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bad0 (    0x10) DYLD-STUB$$swift_task_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bae0 (    0x10) DYLD-STUB$$swift_task_dealloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4baf0 (    0x10) DYLD-STUB$$swift_task_switch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bb00 (    0x10) DYLD-STUB$$swift_unknownObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bb10 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000207d4bb20 (   0x122) __TEXT __const
+                0x0000000207d4bb20 (    0x38) MetricsFrameworkVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bb58 (    0xe8) MetricsFrameworkVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bc40 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000207d4bc44 (    0x4c) __TEXT __constg_swiftt
+            0x0000000207d4bc90 (    0x21) __TEXT __swift5_typeref
+                0x0000000207d4bc90 (     0x6) symbolic _____ 16MetricsFramework8Features33_F733C46ACB880FD6035A8A34757A313ALLO [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bc96 (     0x8) associated conformance 16MetricsFramework8Features33_F733C46ACB880FD6035A8A34757A313ALLOSHAASQ [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bc9e (     0x6) symbolic _____ 16MetricsFramework0A6WorkerV [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207d4bca4 (     0xd) symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000207d4bcc0 (    0x3b) __TEXT __swift5_reflstr
+            0x0000000207d4bcfc (    0x38) __TEXT __swift5_fieldmd
+            0x0000000207d4bd40 (    0xe7) __TEXT __cstring
+            0x0000000207d4be28 (     0xc) __TEXT __swift5_proto
+            0x0000000207d4be34 (     0x8) __TEXT __swift5_types
+            0x0000000207d4be3c (    0xd0) __TEXT __unwind_info
+            0x0000000207d4bf10 (    0xf0) __TEXT __eh_frame
+        0x000000022e7c32a8 (    0xc8) __DATA_CONST SEGMENT
+            0x000000022e7c32a8 (    0x68) __DATA_CONST __got
+            0x000000022e7c3310 (    0x58) __DATA_CONST __const
+                0x000000022e7c3310 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3318 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3320 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3328 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3330 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3338 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3340 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3348 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3350 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3358 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3360 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_MetricsFramework [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e7c3368 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000237799930 (   0x2a8) __AUTH_CONST SEGMENT
+            0x0000000237799930 (   0x110) __AUTH_CONST __const
+            0x0000000237799a40 (   0x198) __AUTH_CONST __auth_got
+        0x000000023127ba50 (   0x1e8) __DATA SEGMENT
+            0x000000023127ba50 (    0x48) __DATA __data
+            0x000000023127baa0 (   0x180) __DATA __bss
+            0x000000023127bc20 (    0x18) __DATA __common
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

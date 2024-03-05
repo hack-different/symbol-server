@@ -1,0 +1,165 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/VisualPairing.framework/Versions/A/VisualPairing [arm64e, 0.437385 seconds]:
+    FC03AC7F-9CA9-3D80-A02E-5F9CD3BC795C /System/Library/PrivateFrameworks/VisualPairing.framework/Versions/A/VisualPairing [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021856b000 ( 0x20000) __TEXT SEGMENT
+            0x000000021856b000 (  0x37e4) MACH_HEADER
+            0x000000021856e7e4 (  0x1924) __TEXT __text
+                0x000000021856e7e4 (   0x12c) CRCCodec::AppendEncodedCRC(char*, int, CRCCodec::tGeneratorPoly) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856e910 (   0x1bc) startEmbed [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856eacc (    0xa0) endEmbed [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856eb6c (   0x864) doGenWMAtScaleH [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f3d0 (    0x7c) TailbiteConvCode924::~TailbiteConvCode924() [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f44c (     0x4) -[VPScannerView start] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f450 (     0x4) -[VPScannerView stop] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f454 (    0x10) -[VPScannerView autoFocusRangeRestriction] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f464 (    0x10) -[VPScannerView setAutoFocusRangeRestriction:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f474 (    0x10) -[VPScannerView focusMode] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f484 (    0x10) -[VPScannerView setFocusMode:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f494 (    0x10) -[VPScannerView scannedCodeHandler] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4a4 (     0xc) -[VPScannerView setScannedCodeHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4b0 (    0x10) -[VPScannerView viewFinderDiameter] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4c0 (    0x10) -[VPScannerView fillLayerBoundsWithVideo] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4d0 (    0x10) -[VPScannerView setFillLayerBoundsWithVideo:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4e0 (    0x14) -[VPScannerView .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f4f4 (   0x458) VPCreateWatermarkPixelBuffers [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f94c (    0x8c) -[VPPresenterView layout] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856f9d8 (    0x64) -[VPPresenterView viewDidEndLiveResize] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fa3c (   0x118) -[VPPresenterView setVerificationCode:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fb54 (   0x2ec) -[VPPresenterView start] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fe40 (     0x8) __24-[VPPresenterView start]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fe48 (     0x8) __copy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fe50 (     0x8) __destroy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856fe58 (   0x11c) -[VPPresenterView stop] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021856ff74 (    0xe0) -[VPPresenterView _watermarkStep] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000218570054 (    0x10) -[VPPresenterView flags] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000218570064 (    0x10) -[VPPresenterView setFlags:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000218570074 (    0x10) -[VPPresenterView verificationCode] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000218570084 (    0x84) -[VPPresenterView .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000218570108 (   0x260) __TEXT __auth_stubs
+                0x0000000218570108 (    0x10) DYLD-STUB$$CFArrayAppendValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570118 (    0x10) DYLD-STUB$$CFArrayCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570128 (    0x10) DYLD-STUB$$CFDictionaryCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570138 (    0x10) DYLD-STUB$$CFDictionarySetInt64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570148 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570158 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570168 (    0x10) DYLD-STUB$$CUDispatchTimerSet [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570178 (    0x10) DYLD-STUB$$CUMainQueue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570188 (    0x10) DYLD-STUB$$CVPixelBufferGetBaseAddress [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570198 (    0x10) DYLD-STUB$$CVPixelBufferGetBytesPerRow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701a8 (    0x10) DYLD-STUB$$CVPixelBufferLockBaseAddress [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701b8 (    0x10) DYLD-STUB$$CVPixelBufferPoolCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701c8 (    0x10) DYLD-STUB$$CVPixelBufferPoolCreatePixelBuffer [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701d8 (    0x10) DYLD-STUB$$CVPixelBufferUnlockBaseAddress [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701e8 (    0x10) DYLD-STUB$$IsAppleInternalBuild [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185701f8 (    0x10) DYLD-STUB$$LogPrintF [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570208 (    0x10) DYLD-STUB$$_LogCategory_Initialize [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570218 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570228 (    0x10) DYLD-STUB$$operator delete[](void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570238 (    0x10) DYLD-STUB$$operator delete(void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570248 (    0x10) DYLD-STUB$$operator new[](unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570258 (    0x10) DYLD-STUB$$operator new(unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570268 (    0x10) DYLD-STUB$$__maskrune [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570278 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570288 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570298 (    0x10) DYLD-STUB$$dispatch_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702a8 (    0x10) DYLD-STUB$$dispatch_source_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702b8 (    0x10) DYLD-STUB$$dispatch_source_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702c8 (    0x10) DYLD-STUB$$dispatch_source_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702d8 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702e8 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002185702f8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570308 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570318 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570328 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570338 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570348 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000218570358 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000218570368 (   0x118) __TEXT __objc_methlist
+                0x0000000218570368 (    0x98) _OBJC_$_INSTANCE_METHODS_VPScannerView [NameNList, MangledNameNList, NList] 
+                0x0000000218570400 (    0x80) _OBJC_$_INSTANCE_METHODS_VPPresenterView [NameNList, MangledNameNList, NList] 
+            0x0000000218570480 ( 0x1a2a0) __TEXT __const
+                0x00000002185704cc (     0xc) CRCCodec::kCRCGenPoly_12Bit_0 [NameNList, MangledNameNList, NList] 
+                0x00000002185704d8 (    0x18) CRCCodec::kCRCGenPoly_24Bit_0 [NameNList, MangledNameNList, NList] 
+                0x00000002185704f0 (    0x2c) CRCCodec::kCRCGenPoly_32Bit_0 [NameNList, MangledNameNList, NList] 
+                0x000000021857051c (    0x88) EmbedKE::kDefaultCompressedKEKey [NameNList, MangledNameNList, NList] 
+                0x00000002185705a4 (    0x64) EmbedKE::kFixedPatternV10 [NameNList, MangledNameNList, NList] 
+                0x0000000218570608 ( 0x10000) EmbedKE::kGridTile128x128 [NameNList, MangledNameNList, NList] 
+                0x0000000218580608 (  0x8000) EmbedKE::kBitLUT [NameNList, MangledNameNList, NList] 
+                0x0000000218588608 (    0x40) EmbedKE::kBumpShapes [NameNList, MangledNameNList, NList] 
+                0x0000000218588648 (     0x4) kHCImageMaxFrames [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858864c (     0x4) kHCImagePayloadBytes [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000218588650 (  0x1000) GF256::m_LowMulTable [NameNList, MangledNameNList, NList] 
+                0x0000000218589650 (  0x10d0) GF256::m_HighMulTable [NameNList, MangledNameNList, NList] 
+            0x000000021858a720 (    0xbf) __TEXT __cstring
+            0x000000021858a7e0 (    0x58) __TEXT __gcc_except_tab
+                0x000000021858a7e0 (    0x14) GCC_except_table1 [NameNList, MangledNameNList, NList] 
+                0x000000021858a7f4 (    0x44) GCC_except_table3 [NameNList, MangledNameNList, NList] 
+            0x000000021858a838 (    0xb0) __TEXT __unwind_info
+            0x000000021858a8e8 (    0x25) __TEXT __objc_classname
+            0x000000021858a90e (   0x3be) __TEXT __objc_methname
+            0x000000021858accc (    0xcc) __TEXT __objc_methtype
+            0x000000021858ada0 (   0x260) __TEXT __objc_stubs
+                0x000000021858ada0 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858adc0 (    0x20) objc_msgSend$_watermarkStep [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ade0 (    0x20) objc_msgSend$addSublayer: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ae00 (    0x20) objc_msgSend$begin [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ae20 (    0x20) objc_msgSend$bounds [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ae40 (    0x20) objc_msgSend$commit [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ae60 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858ae80 (    0x20) objc_msgSend$filterWithType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858aea0 (    0x20) objc_msgSend$layer [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858aec0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858aee0 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858af00 (    0x20) objc_msgSend$pause [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858af20 (    0x20) objc_msgSend$removeFromSuperlayer [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858af40 (    0x20) objc_msgSend$setCompositingFilter: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858af60 (    0x20) objc_msgSend$setContents: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858af80 (    0x20) objc_msgSend$setContentsDither: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858afa0 (    0x20) objc_msgSend$setDisableActions: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858afc0 (    0x20) objc_msgSend$setFrame: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021858afe0 (    0x20) objc_msgSend$start [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002380abf58 (   0x480) __DATA_CONST SEGMENT
+            0x00000002380abf58 (    0x70) __DATA_CONST __got
+            0x00000002380abfc8 (    0x18) __DATA_CONST __const
+            0x00000002380abfe0 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002380abff0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002380abff8 (   0x2c0) __DATA_CONST __objc_const
+                0x00000002380abff8 (    0x48) _OBJC_METACLASS_RO_$_VPScannerView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac040 (    0xa8) _OBJC_$_INSTANCE_VARIABLES_VPScannerView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac0e8 (    0x58) _OBJC_$_PROP_LIST_VPScannerView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac140 (    0x48) _OBJC_METACLASS_RO_$_VPPresenterView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac188 (   0x108) _OBJC_$_INSTANCE_VARIABLES_VPPresenterView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac290 (    0x28) _OBJC_$_PROP_LIST_VPPresenterView [NameNList, MangledNameNList, NList] 
+            0x00000002380ac2b8 (   0x120) __DATA_CONST __objc_selrefs
+        0x00000002380ac3d8 (   0x228) __AUTH_CONST SEGMENT
+            0x00000002380ac3d8 (    0x30) __AUTH_CONST __const
+                0x00000002380ac3d8 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002380ac408 (    0x90) __AUTH_CONST __objc_const
+                0x00000002380ac408 (    0x48) _OBJC_CLASS_RO_$_VPScannerView [NameNList, MangledNameNList, NList] 
+                0x00000002380ac450 (    0x48) _OBJC_CLASS_RO_$_VPPresenterView [NameNList, MangledNameNList, NList] 
+            0x00000002380ac498 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000002380ac4a0 (    0x20) __AUTH_CONST __cfstring
+            0x00000002380ac4c0 (   0x140) __AUTH_CONST __auth_got
+        0x000000023317b928 (    0xa0) __AUTH SEGMENT
+            0x000000023317b928 (    0xa0) __AUTH __objc_data
+                0x000000023317b928 (    0x28) OBJC_METACLASS_$_VPScannerView [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023317b950 (    0x28) OBJC_CLASS_$_VPScannerView [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023317b978 (    0x28) OBJC_CLASS_$_VPPresenterView [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023317b9a0 (    0x28) OBJC_METACLASS_$_VPPresenterView [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002318ea410 (    0xd0) __DATA SEGMENT
+            0x00000002318ea410 (    0x20) __DATA __objc_classrefs
+            0x00000002318ea430 (     0x8) __DATA __objc_superrefs
+            0x00000002318ea438 (    0x34) __DATA __objc_ivar
+                0x00000002318ea438 (     0x4) OBJC_IVAR_$_VPScannerView._autoFocusRangeRestriction [NameNList, MangledNameNList, NList] 
+                0x00000002318ea43c (     0x4) OBJC_IVAR_$_VPScannerView._focusMode [NameNList, MangledNameNList, NList] 
+                0x00000002318ea440 (     0x4) OBJC_IVAR_$_VPScannerView._scannedCodeHandler [NameNList, MangledNameNList, NList] 
+                0x00000002318ea444 (     0x4) OBJC_IVAR_$_VPScannerView._viewFinderDiameter [NameNList, MangledNameNList, NList] 
+                0x00000002318ea448 (     0x4) OBJC_IVAR_$_VPScannerView._fillLayerBoundsWithVideo [NameNList, MangledNameNList, NList] 
+                0x00000002318ea44c (     0x4) OBJC_IVAR_$_VPPresenterView._flags [NameNList, MangledNameNList, NList] 
+                0x00000002318ea450 (    0x1c) _MergedGlobals [NameNList, MangledNameNList, NList] 
+            0x00000002318ea470 (    0x70) __DATA __data
+                0x00000002318ea470 (    0x70) gLogCategory_PV [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

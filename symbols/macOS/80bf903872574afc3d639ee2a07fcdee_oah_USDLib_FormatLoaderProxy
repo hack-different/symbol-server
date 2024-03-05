@@ -1,0 +1,16 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/USDLib_FormatLoaderProxy.framework/Versions/A/USDLib_FormatLoaderProxy [arm64e, 0.026684 seconds]:
+    EE0FB498-E34C-3A98-93D4-0B157E214FDA /System/Library/PrivateFrameworks/USDLib_FormatLoaderProxy.framework/Versions/A/USDLib_FormatLoaderProxy [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021680e000 (  0x4000) __TEXT SEGMENT
+            0x000000021680e000 (  0x3fd6) MACH_HEADER
+            0x0000000216811fd6 (    0x2a) __TEXT __const
+                0x0000000216811fd6 (    0x2a) USDLib_FormatLoaderProxyVersionString [EXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7e6d88 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7e6d88 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000002318b9378 (     0x8) __DATA SEGMENT
+            0x00000002318b9378 (     0x8) __DATA __data
+                0x00000002318b9378 (     0x8) USDLib_FormatLoaderProxyVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

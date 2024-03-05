@@ -1,0 +1,14 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/Message.framework/Versions/B/Message [arm64e, 0.029250 seconds]:
+    B7E3871F-6015-377F-9775-670FE7300CBE /System/Library/Frameworks/Message.framework/Versions/B/Message [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001ef0ba000 (  0x4000) __TEXT SEGMENT
+            0x00000001ef0ba000 (  0x3fc8) MACH_HEADER
+            0x00000001ef0bdfc8 (    0x38) __TEXT __const
+                0x00000001ef0bdfc8 (    0x30) MessageVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001ef0bdff8 (     0x8) MessageVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000022e0ee5e8 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e0ee5e8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,33 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/usr/lib/swift/libswiftSafariServices.dylib [arm64e, 0.024368 seconds]:
+    4BDC87EE-775B-33E3-9505-1425D621E4B8 /System/iOSSupport/usr/lib/swift/libswiftSafariServices.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8e5000 (  0x1000) __TEXT SEGMENT
+            0x000000022d8e5000 (   0xffe) MACH_HEADER
+            0x000000022d8e5ffe (     0x2) __TEXT __const
+                0x000000022d8e5ffe (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e8574b8 (    0x88) __DATA_CONST SEGMENT
+            0x000000022e8574b8 (    0x80) __DATA_CONST __const
+                0x000000022e8574b8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574c0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574c8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574d0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574d8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574e0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574e8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574f0 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574f8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857500 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857508 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857510 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857518 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857520 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857528 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857530 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_SafariServices [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e857538 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000231e874c1 (     0x1) __DATA SEGMENT
+            0x0000000231e874c1 (     0x1) __DATA __common
+                0x0000000231e874c1 (     0x1) _swift_FORCE_LOAD_$_swiftSafariServices [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

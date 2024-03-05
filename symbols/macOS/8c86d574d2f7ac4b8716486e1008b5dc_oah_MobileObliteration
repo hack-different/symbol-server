@@ -1,0 +1,158 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/MobileObliteration.framework/Versions/A/MobileObliteration [arm64e, 0.095580 seconds]:
+    A86D56AD-BDA6-3878-AB68-D4183AB676C8 /System/Library/PrivateFrameworks/MobileObliteration.framework/Versions/A/MobileObliteration [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000207f1a000 (  0x4000) __TEXT SEGMENT
+            0x0000000207f1a000 (  0x2d5c) MACH_HEADER
+            0x0000000207f1cd5c (   0x7cc) __TEXT __text
+                0x0000000207f1cd5c (   0x35c) Mobile_Obliterate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d0b8 (     0x8) Mobile_Obliterate_IsSupported [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d0c0 (    0xa0) +[MOXPCClient sharedInstance] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d160 (    0x40) __29+[MOXPCClient sharedInstance]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d1a0 (    0x88) -[MOXPCClient createMOServerConnection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d228 (   0x1c8) -[MOXPCClient mobileObliterate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d3f0 (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d400 (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d408 (    0x10) __32-[MOXPCClient mobileObliterate:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d418 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d428 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d434 (    0x6c) __32-[MOXPCClient mobileObliterate:]_block_invoke.50 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d4a0 (    0x48) __copy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207f1d4e8 (    0x40) __destroy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000207f1d528 (   0x1a0) __TEXT __auth_stubs
+                0x0000000207f1d528 (    0x10) DYLD-STUB$$CFDictionaryAddValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d538 (    0x10) DYLD-STUB$$CFDictionaryContainsKey [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d548 (    0x10) DYLD-STUB$$CFDictionaryCreateMutableCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d558 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d568 (    0x10) DYLD-STUB$$CFDictionaryGetValueIfPresent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d578 (    0x10) DYLD-STUB$$CFDictionaryRemoveValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d588 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d598 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5a8 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5b8 (    0x10) DYLD-STUB$$CFStringCreateWithCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5c8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5d8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5e8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d5f8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d608 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d618 (    0x10) DYLD-STUB$$getpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d628 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d638 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d648 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d658 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d668 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d678 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d688 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d698 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d6a8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d6b8 (    0x10) DYLD-STUB$$proc_pidinfo [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000207f1d6c8 (    0x38) __TEXT __objc_methlist
+                0x0000000207f1d6c8 (    0x18) _OBJC_$_CLASS_METHODS_MOXPCClient [NameNList, MangledNameNList, NList] 
+                0x0000000207f1d6e0 (    0x20) _OBJC_$_INSTANCE_METHODS_MOXPCClient [NameNList, MangledNameNList, NList] 
+            0x0000000207f1d700 (   0x2d8) __TEXT __cstring
+            0x0000000207f1d9d8 (    0x40) __TEXT __const
+                0x0000000207f1d9d8 (     0x4) kObliterationCompletedOK [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9dc (     0x4) kObliterationCompletedWithWarning [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9e0 (     0x4) kObliterationFailedOSValid [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9e4 (     0x4) kObliterationFailedOSBroken [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9e8 (     0x4) kMobileObliterationSuccess [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9ec (     0x4) kMobileObliterationError [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9f0 (     0x4) kMobileObliterationDeviceLockedError [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9f4 (     0x4) kMobileObliterationInvalidSecretError [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9f8 (     0x4) kMobileObliterationRebootError [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1d9fc (    0x1c) kMobileObliterationInternalError [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000207f1da18 (    0x24) __TEXT __gcc_except_tab
+                0x0000000207f1da18 (    0x24) GCC_except_table3 [NameNList, MangledNameNList, NList] 
+            0x0000000207f1da3c (    0x84) __TEXT __unwind_info
+            0x0000000207f1dac0 (    0x24) __TEXT __objc_classname
+            0x0000000207f1dae4 (   0x266) __TEXT __objc_methname
+            0x0000000207f1dd4a (    0xf3) __TEXT __objc_methtype
+            0x0000000207f1de40 (   0x1c0) __TEXT __objc_stubs
+                0x0000000207f1de40 (    0x20) objc_msgSend$code [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1de60 (    0x20) objc_msgSend$createMOServerConnection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1de80 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dea0 (    0x20) objc_msgSend$initWithMachServiceName:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dec0 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dee0 (    0x20) objc_msgSend$invalidate [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1df00 (    0x20) objc_msgSend$mobileObliterate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1df20 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1df40 (    0x20) objc_msgSend$obliterateWithOptions:andCallback: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1df60 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1df80 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dfa0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dfc0 (    0x20) objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000207f1dfe0 (    0x20) objc_msgSend$userInfo [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002377b9068 (   0x4d8) __DATA_CONST SEGMENT
+            0x00000002377b9068 (    0x20) __DATA_CONST __got
+            0x00000002377b9088 (   0x110) __DATA_CONST __const
+                0x00000002377b9088 (     0x8) MOBILE_OBLITERATION_LOCAL_SERVICE_NAME [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9090 (     0x8) MOBILE_OBLITERATION_REMOTE_SERVICE_NAME [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9098 (     0x8) kObliterationTypeKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90a0 (     0x8) kObliterateDataPartition [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90a8 (     0x8) kObliterationTypeBrickOnly [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90b0 (     0x8) kObliterationTypeWipeAndBrick [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90b8 (     0x8) kObliterationTypeMarkStart [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90c0 (     0x8) kObliterateMarkAndReboot [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90c8 (     0x8) kObliterationTypeSafeWipe [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90d0 (     0x8) kObliterationTypeMarkerCreate [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90d8 (     0x8) kDisplayProgressBarKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90e0 (     0x8) kSkipDataObliteration [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90e8 (     0x8) kObliterationMessageKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90f0 (     0x8) kObliterationExclusionPathsKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b90f8 (     0x8) kObliterationIgnoreMissingPathKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9100 (     0x8) kObliterationDelayAfterReplyKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9108 (     0x8) kObliterationManagedDeviceWipeKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9110 (     0x8) kObliterationPreservedVolumeGroupUUID [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9118 (     0x8) kObliterationOptionsFilePathKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9120 (     0x8) kObliterationBrickIncludesFirmwareKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9128 (     0x8) kObliterationPreservedItemsDictKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9130 (     0x8) kObliterationCallingProcessName [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9138 (     0x8) kIgnoreInternalKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9140 (     0x8) kObliterationReturnDictKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9148 (     0x8) kObliterationResultStringKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9150 (     0x8) kObliterationResultStateKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9158 (     0x8) kCommandResultsKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9160 (     0x8) kIPCStatusKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9168 (     0x8) kIPCStatusComplete [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9170 (     0x8) kIPCStatusError [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9178 (    0x20) __block_descriptor_40_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002377b9198 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002377b91a0 (    0x10) __DATA_CONST __objc_protolist
+                0x00000002377b91a0 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b91a8 (     0x8) _OBJC_LABEL_PROTOCOL_$_MOXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002377b91b0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002377b91b8 (   0x318) __DATA_CONST __objc_const
+                0x00000002377b91b8 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002377b9388 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002377b93a8 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002377b93f0 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002377b9490 (    0x18) _OBJC_$_PROTOCOL_REFS_MOXPCProtocol [NameNList, MangledNameNList, NList] 
+                0x00000002377b94a8 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_MOXPCProtocol [NameNList, MangledNameNList, NList] 
+                0x00000002377b94c8 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_MOXPCProtocol [NameNList, MangledNameNList, NList] 
+            0x00000002377b94d0 (    0x70) __DATA_CONST __objc_selrefs
+        0x00000002377b9540 (   0x590) __AUTH_CONST SEGMENT
+            0x00000002377b9540 (   0x3c0) __AUTH_CONST __cfstring
+            0x00000002377b9900 (    0x60) __AUTH_CONST __const
+                0x00000002377b9900 (    0x30) __block_descriptor_40_e8_32r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377b9930 (    0x30) __block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002377b9960 (    0x90) __AUTH_CONST __objc_const
+                0x00000002377b9960 (    0x48) _OBJC_METACLASS_RO_$_MOXPCClient [NameNList, MangledNameNList, NList] 
+                0x00000002377b99a8 (    0x48) _OBJC_CLASS_RO_$_MOXPCClient [NameNList, MangledNameNList, NList] 
+            0x00000002377b99f0 (    0xe0) __AUTH_CONST __auth_got
+        0x000000023292ec30 (    0x50) __AUTH SEGMENT
+            0x000000023292ec30 (    0x50) __AUTH __objc_data
+                0x000000023292ec30 (    0x28) OBJC_METACLASS_$_MOXPCClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023292ec58 (    0x28) OBJC_CLASS_$_MOXPCClient [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023127da48 (    0xf8) __DATA SEGMENT
+            0x000000023127da48 (     0x8) __DATA __objc_protorefs
+                0x000000023127da48 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_MOXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023127da50 (    0x20) __DATA __objc_classrefs
+            0x000000023127da70 (    0xc0) __DATA __data
+                0x000000023127da70 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023127dad0 (    0x60) _OBJC_PROTOCOL_$_MOXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023127db30 (    0x10) __DATA __bss
+                0x000000023127db30 (     0x8) sharedInstance.service [NameNList, MangledNameNList, NList] 
+                0x000000023127db38 (     0x8) sharedInstance.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

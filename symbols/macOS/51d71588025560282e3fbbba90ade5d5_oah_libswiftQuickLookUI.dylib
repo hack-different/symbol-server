@@ -1,0 +1,118 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftQuickLookUI.dylib [arm64e, 0.030941 seconds]:
+    3A71D9B3-F447-33AC-A079-34B828F5338E /usr/lib/swift/libswiftQuickLookUI.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221577000 (  0x4000) __TEXT SEGMENT
+            0x0000000221577000 (  0x2df4) MACH_HEADER
+            0x0000000221579df4 (   0xd2c) __TEXT __text
+                0x0000000221579df4 (    0x44) QLPreviewReply.stringEncoding.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221579e38 (    0x44) key path getter for QLPreviewReply.stringEncoding : QLPreviewReply [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221579e7c (   0x104) key path setter for QLPreviewReply.stringEncoding : QLPreviewReply [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221579f80 (    0x80) QLPreviewReply.stringEncoding.setter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a000 (    0xd8) QLPreviewReply.stringEncoding.modify [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a0d8 (   0x10c) QLPreviewReply.stringEncoding.modify [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a1e4 (   0x12c) QLPreviewReply.init(contextSize:isBitmap:drawUsing:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a310 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x000000022157a348 (    0xa8) partial apply for closure #1 in QLPreviewReply.init(contextSize:isBitmap:drawUsing:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a3f0 (    0x9c) thunk for @escaping @callee_guaranteed (@guaranteed CGContextRef, @guaranteed QLPreviewReply, @unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@unowned Bool) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a48c (    0x10) block_copy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a49c (     0x8) block_destroy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a4a4 (   0x118) QLPreviewReply.init(forPDFWithPageSize:createDocumentUsing:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a5bc (    0xa4) partial apply for closure #1 in QLPreviewReply.init(forPDFWithPageSize:createDocumentUsing:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a660 (    0x88) thunk for @escaping @callee_guaranteed (@guaranteed QLPreviewReply, @unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@owned PDFDocument?) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a6e8 (   0x174) QLPreviewReply.init(dataOfContentType:contentSize:createDataUsing:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a85c (    0xa8) partial apply for closure #1 in QLPreviewReply.init(dataOfContentType:contentSize:createDataUsing:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a904 (    0xbc) thunk for @escaping @callee_guaranteed (@guaranteed QLPreviewReply, @unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@owned Data?) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157a9c0 (    0x58) type metadata accessor for CGContextRef [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157aa18 (    0x14) outlined consume of Data? [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157aa2c (    0x58) outlined consume of Data._Representation [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157aa84 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157aac8 (    0x40) type metadata accessor for NSError [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157ab08 (     0x4) block_copy_helper.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157ab0c (     0x4) block_copy_helper.10 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157ab10 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000022157ab14 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000022157ab18 (     0x4) block_destroy_helper.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022157ab1c (     0x4) block_destroy_helper.11 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022157ab20 (   0x1b0) __TEXT __auth_stubs
+                0x000000022157ab20 (    0x10) DYLD-STUB$$Data._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab30 (    0x10) DYLD-STUB$$UTType._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab40 (    0x10) DYLD-STUB$$type metadata accessor for UTType [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab50 (    0x10) DYLD-STUB$$String.Encoding.init(rawValue:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab60 (    0x10) DYLD-STUB$$String.Encoding.rawValue.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab70 (    0x10) DYLD-STUB$$type metadata accessor for String.Encoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab80 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ab90 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157aba0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157abb0 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157abc0 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157abd0 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157abe0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157abf0 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac00 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac10 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac20 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac30 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac40 (    0x10) DYLD-STUB$$swift_deallocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac50 (    0x10) DYLD-STUB$$swift_dynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac60 (    0x10) DYLD-STUB$$swift_errorRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac70 (    0x10) DYLD-STUB$$swift_getForeignTypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac80 (    0x10) DYLD-STUB$$swift_getObjCClassFromMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157ac90 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157aca0 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157acb0 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022157acc0 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022157acd0 (    0x3e) __TEXT __const
+                0x000000022157ad0c (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022157ad0e (    0x8c) __TEXT __swift5_typeref
+                0x000000022157ad0e (    0x28) symbolic _____So14QLPreviewReplyC______pIegggzo_ So12CGContextRefa s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022157ad36 (    0x34) symbolic So14QLPreviewReplyCSo11PDFDocumentC______pIeggozo_ s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022157ad6a (    0x28) symbolic So14QLPreviewReplyC___________pIeggozo_ 10Foundation4DataV s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022157ad92 (     0x8) symbolic ______p s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022157ad9c (    0x30) __TEXT __swift5_capture
+            0x000000022157add0 (    0x85) __TEXT __cstring
+            0x000000022157ae58 (    0x3c) __TEXT __constg_swiftt
+                0x000000022157ae58 (     0xc) module descriptor  [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022157ae64 (    0x30) nominal type descriptor for CGContextRef [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022157ae94 (     0x4) __TEXT __swift5_types
+            0x000000022157ae98 (    0xb4) __TEXT __unwind_info
+            0x000000022157af4c (    0xb4) __TEXT __objc_methname
+        0x000000022e844fc0 (    0xb8) __DATA_CONST SEGMENT
+            0x000000022e844fc0 (     0x8) __DATA_CONST __got
+            0x000000022e844fc8 (    0x80) __DATA_CONST __const
+                0x000000022e844fc8 (    0x10) property descriptor for QLPreviewReply.stringEncoding [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844fd8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844fe0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844fe8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844ff0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844ff8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845000 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845008 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845010 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845018 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845020 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845028 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845030 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845038 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845040 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_QuickLookUI [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e845048 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e845050 (    0x28) __DATA_CONST __objc_selrefs
+        0x000000023831b490 (   0x210) __AUTH_CONST SEGMENT
+            0x000000023831b490 (   0x130) __AUTH_CONST __const
+                0x000000023831b4c0 (    0x50) block_descriptor [NameNList, MangledNameNList, NList] 
+                0x000000023831b510 (    0x58) block_descriptor.6 [NameNList, MangledNameNList, NList] 
+                0x000000023831b568 (    0x28) block_descriptor.12 [NameNList, MangledNameNList, NList] 
+                0x000000023831b590 (    0x30) full type metadata for CGContextRef [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023831b5c0 (     0x8) __AUTH_CONST __auth_ptr
+            0x000000023831b5c8 (    0xd8) __AUTH_CONST __auth_got
+        0x0000000231b66e78 (    0x21) __DATA SEGMENT
+            0x0000000231b66e78 (     0x8) __DATA __objc_classrefs
+            0x0000000231b66e80 (    0x18) __DATA __data
+                0x0000000231b66e80 (     0x8) lazy cache variable for type metadata for CGContextRef [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b66e88 (     0x8) demangling cache variable for type metadata for Error [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b66e90 (     0x8) lazy cache variable for type metadata for NSError [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231b66e98 (     0x1) __DATA __common
+                0x0000000231b66e98 (     0x1) _swift_FORCE_LOAD_$_swiftQuickLookUI [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

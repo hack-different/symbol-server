@@ -1,0 +1,33 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libDECHanyu.dylib [arm64e, 0.023188 seconds]:
+    BE0C9250-D8E2-343D-A620-468C98BD2187 /usr/lib/i18n/libDECHanyu.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff53000 (  0x3ff8) __TEXT SEGMENT
+            0x000000021ff53000 (  0x3970) MACH_HEADER
+            0x000000021ff56970 (   0x5d0) __TEXT __text
+                0x000000021ff56970 (    0x60) _citrus_DECHanyu_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff569d0 (    0x10) _citrus_DECHanyu_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff569e0 (   0x104) _citrus_DECHanyu_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56ae4 (    0x84) _citrus_DECHanyu_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56b68 (    0x68) _citrus_DECHanyu_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56bd0 (    0x18) _citrus_DECHanyu_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56be8 (     0xc) _citrus_DECHanyu_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56bf4 (    0x28) _citrus_DECHanyu_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56c1c (    0x30) _citrus_DECHanyu_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56c4c (   0x1e8) _citrus_DECHanyu_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff56e34 (   0x10c) _citrus_DECHanyu_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff56f40 (    0x40) __TEXT __auth_stubs
+                0x000000021ff56f40 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff56f50 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff56f60 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff56f70 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff56f80 (    0x10) __TEXT __const
+            0x000000021ff56f90 (    0x68) __TEXT __unwind_info
+        0x0000000238249a60 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000238249a60 (    0x20) __AUTH_CONST __auth_got
+        0x00000002332f3a10 (    0x58) __AUTH SEGMENT
+            0x00000002332f3a10 (    0x58) __AUTH __data
+                0x00000002332f3a10 (    0x58) _citrus_DECHanyu_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

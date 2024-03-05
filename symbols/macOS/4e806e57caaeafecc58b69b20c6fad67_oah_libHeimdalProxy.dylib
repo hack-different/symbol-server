@@ -1,0 +1,9 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/Kerberos.framework/Versions/A/Libraries/libHeimdalProxy.dylib [arm64e, 0.097070 seconds]:
+    0C29CD83-FA3B-3B87-B15F-AAF24A87A2C0 /System/Library/Frameworks/Kerberos.framework/Versions/A/Libraries/libHeimdalProxy.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001980af000 (  0x1000) __TEXT SEGMENT
+            0x00000001980af000 (  0x1000) MACH_HEADER
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

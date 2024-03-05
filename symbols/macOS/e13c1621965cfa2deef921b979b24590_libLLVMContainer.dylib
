@@ -1,8 +1,0 @@
-/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libLLVMContainer.dylib [arm64e, 0.093921 seconds]:
-    EDB2AAE3-76F6-30A0-8456-3D4232CA15DF /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libLLVMContainer.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001e8fba000 (  0x4000) __TEXT SEGMENT
-            0x00000001e8fba000 (  0x3fb0) MACH_HEADER
-            0x00000001e8fbdfb0 (     0x8) __TEXT __text
-                0x00000001e8fbdfb0 (     0x8) __cxa_atexit [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
-            0x00000001e8fbdfb8 (    0x48) __TEXT __unwind_info
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

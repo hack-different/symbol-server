@@ -1,0 +1,9 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libruby.2.6.dylib [arm64e, 0.026506 seconds]:
+    E388FCEC-AF56-3A9B-9D6F-39B65F20AFF5 /usr/lib/libruby.2.6.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022125c000 (  0x4000) __TEXT SEGMENT
+            0x000000022125c000 (  0x4000) MACH_HEADER
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

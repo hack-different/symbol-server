@@ -1,0 +1,161 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/SwiftCertificate.framework/Versions/A/SwiftCertificate [arm64e, 0.025712 seconds]:
+    05FA64F0-8601-3797-AB34-5B96CB8F9DFF /System/Library/PrivateFrameworks/SwiftCertificate.framework/Versions/A/SwiftCertificate [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002132e4000 (  0x2ff8) __TEXT SEGMENT
+            0x00000002132e4000 (   0xdcc) MACH_HEADER
+            0x00000002132e4dcc (  0x16e4) __TEXT __text
+                0x00000002132e4dcc (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4e24 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4e84 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4ec8 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4f14 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4f84 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000002132e4fd4 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5038 (   0x114) (null) [FUNC, FunctionStarts] 
+                0x00000002132e514c (    0xf0) (null) [FUNC, FunctionStarts] 
+                0x00000002132e523c (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5290 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000002132e52e8 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e530c (    0x68) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5374 (    0x78) (null) [FUNC, FunctionStarts] 
+                0x00000002132e53ec (    0xf8) (null) [FUNC, FunctionStarts] 
+                0x00000002132e54e4 (   0x114) (null) [FUNC, FunctionStarts] 
+                0x00000002132e55f8 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5624 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5650 (    0xb0) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5700 (   0x180) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5880 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5894 (   0x13c) (null) [FUNC, FunctionStarts] 
+                0x00000002132e59d0 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000002132e59f8 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5a38 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5a90 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5af0 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5b34 (   0x158) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5c8c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5cd0 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5d00 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5d30 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5d38 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5d68 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5db0 (   0x134) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5ee4 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5efc (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5f20 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5f44 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5f6c (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5f90 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5fb4 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e5fec (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6024 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e605c (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6094 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e60cc (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6104 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6128 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6140 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6164 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000002132e618c (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002132e61a0 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002132e61b4 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002132e61c8 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6210 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6214 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6218 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002132e621c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6220 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6264 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002132e627c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002132e62c0 (    0x94) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6354 (     0xc) __swift_memcpy8_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002132e6360 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000002132e63b8 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6410 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6464 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002132e647c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002132e6480 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x00000002132e64a0 (    0x10) (null) [FUNC, FunctionStarts] 
+            0x00000002132e64b0 (   0x200) __TEXT __auth_stubs
+                0x00000002132e64b0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e64c0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e64d0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e64e0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e64f0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6500 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6510 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6520 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6530 (    0x10) DYLD-STUB$$SecCertificateCopyCommonName [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6540 (    0x10) DYLD-STUB$$SecCertificateCopyData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6550 (    0x10) DYLD-STUB$$SecCertificateCopyEmailAddresses [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6560 (    0x10) DYLD-STUB$$SecCertificateCopyKey [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6570 (    0x10) DYLD-STUB$$SecCertificateCopySerialNumberData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6580 (    0x10) DYLD-STUB$$SecCertificateCopySubjectSummary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6590 (    0x10) DYLD-STUB$$SecCertificateCreateWithData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65a0 (    0x10) DYLD-STUB$$SecKeyCopyExternalRepresentation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65b0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65c0 (    0x10) DYLD-STUB$$_swift_stdlib_reportUnimplementedInitializer [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65d0 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65e0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e65f0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6600 (    0x10) DYLD-STUB$$swift_allocError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6610 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6620 (    0x10) DYLD-STUB$$swift_beginAccess [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6630 (    0x10) DYLD-STUB$$swift_deallocClassInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6640 (    0x10) DYLD-STUB$$swift_deallocPartialClassInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6650 (    0x10) DYLD-STUB$$swift_getForeignTypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6660 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6670 (    0x10) DYLD-STUB$$swift_lookUpClassMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6680 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e6690 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002132e66a0 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002132e66b0 (   0x1a8) __TEXT __const
+                0x00000002132e6810 (     0x8) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6818 (    0x38) SwiftCertificateVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6850 (     0x8) SwiftCertificateVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002132e6860 (    0xc3) __TEXT __cstring
+            0x00000002132e6924 (   0x1d4) __TEXT __constg_swiftt
+            0x00000002132e6af8 (    0x32) __TEXT __swift5_typeref
+                0x00000002132e6af8 (     0x6) symbolic _____ 16SwiftCertificate0B0C [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6afe (     0x6) symbolic _____ So17SecCertificateRefa [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6b04 (     0x6) symbolic _____ 10Foundation4DataV [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6b0a (     0x6) symbolic _____ 16SwiftCertificate15DigitalIdentityC [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6b10 (     0x6) symbolic _____ So9SecKeyRefa [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6b16 (     0x6) symbolic _____ 16SwiftCertificate0aB5ErrorO [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002132e6b1c (     0xe) symbolic _____5error_t So10CFErrorRefa [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002132e6b30 (    0xdc) __TEXT __swift5_reflstr
+            0x00000002132e6c0c (    0x9c) __TEXT __swift5_fieldmd
+            0x00000002132e6ca8 (    0x18) __TEXT __swift5_types
+            0x00000002132e6cc0 (     0x4) __TEXT __swift5_proto
+            0x00000002132e6cc4 (   0x130) __TEXT __unwind_info
+            0x00000002132e6df8 (   0x200) __TEXT __eh_frame
+        0x00000002350f8430 (   0x230) __DATA_CONST SEGMENT
+            0x00000002350f8430 (    0x20) __DATA_CONST __got
+            0x00000002350f8450 (    0x68) __DATA_CONST __const
+                0x00000002350f8480 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f8488 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f8490 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f8498 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f84a0 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f84a8 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002350f84b0 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_SwiftCertificate [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002350f84b8 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002350f84c8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002350f84d0 (   0x190) __DATA_CONST __objc_const
+                0x00000002350f84d0 (    0x48) _METACLASS_DATA__TtC16SwiftCertificate11Certificate [NameNList, MangledNameNList, NList] 
+                0x00000002350f8518 (    0x48) _IVARS__TtC16SwiftCertificate11Certificate [NameNList, MangledNameNList, NList] 
+                0x00000002350f8560 (    0x48) _DATA__TtC16SwiftCertificate11Certificate [NameNList, MangledNameNList, NList] 
+                0x00000002350f85a8 (    0x48) _METACLASS_DATA__TtC16SwiftCertificate15DigitalIdentity [NameNList, MangledNameNList, NList] 
+                0x00000002350f85f0 (    0x28) _IVARS__TtC16SwiftCertificate15DigitalIdentity [NameNList, MangledNameNList, NList] 
+                0x00000002350f8618 (    0x48) _DATA__TtC16SwiftCertificate15DigitalIdentity [NameNList, MangledNameNList, NList] 
+        0x0000000237de8908 (   0x258) __AUTH_CONST SEGMENT
+            0x0000000237de8908 (   0x158) __AUTH_CONST __const
+            0x0000000237de8a60 (   0x100) __AUTH_CONST __auth_got
+        0x0000000232e6c3b0 (   0x258) __AUTH SEGMENT
+            0x0000000232e6c3b0 (   0x258) __AUTH __data
+        0x00000002316a6900 (    0xa0) __DATA SEGMENT
+            0x00000002316a6900 (    0x20) __DATA __data
+            0x00000002316a6920 (    0x80) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

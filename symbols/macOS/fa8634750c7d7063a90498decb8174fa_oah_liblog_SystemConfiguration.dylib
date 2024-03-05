@@ -1,0 +1,85 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/log/liblog_SystemConfiguration.dylib [arm64e, 0.157161 seconds]:
+    004EB045-5A52-3CAD-9ECD-313FB0AC4BEE /usr/lib/log/liblog_SystemConfiguration.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002214b5000 (  0x4000) __TEXT SEGMENT
+            0x00000002214b5000 (  0x15b4) MACH_HEADER
+            0x00000002214b65b4 (  0x1d44) __TEXT __text
+                0x00000002214b65b4 (    0xa8) OSLogCopyFormattedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b665c (   0x10c) OSStateCreateStringWithData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b6768 (   0x908) _SC_OSStateCopyFormattedString_dnsinfo [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b7070 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000002214b708c (   0x344) _SC_OSStateCopyFormattedString_nwi [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b73d0 (   0x4cc) _dns_resolver_log [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b789c (   0x2ac) __SCNetworkReachability_flags_string [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b7b48 (   0x34c) _nwi_state_log [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b7e94 (   0x464) _nwi_ifstate_log [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002214b82f8 (   0x260) __TEXT __auth_stubs
+                0x00000002214b82f8 (    0x10) DYLD-STUB$$CFDataCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8308 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8318 (    0x10) DYLD-STUB$$CFStringAppend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8328 (    0x10) DYLD-STUB$$CFStringAppendFormat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8338 (    0x10) DYLD-STUB$$CFStringCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8348 (    0x10) DYLD-STUB$$_SC_LOG_DEFAULT [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8358 (    0x10) DYLD-STUB$$_SC_sockaddr_to_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8368 (    0x10) DYLD-STUB$$_SC_syslog_os_log_mapping [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8378 (    0x10) DYLD-STUB$$__SC_log_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8388 (    0x10) DYLD-STUB$$__SC_log_send2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8398 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83a8 (    0x10) DYLD-STUB$$__strlcat_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83b8 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83c8 (    0x10) DYLD-STUB$$_os_log_send_and_compose_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83d8 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83e8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b83f8 (    0x10) DYLD-STUB$$inet_ntop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8408 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8418 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8428 (    0x10) DYLD-STUB$$nwi_ifstate_get_flags [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8438 (    0x10) DYLD-STUB$$nwi_ifstate_get_generation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8448 (    0x10) DYLD-STUB$$nwi_ifstate_get_ifname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8458 (    0x10) DYLD-STUB$$nwi_ifstate_get_reachability_flags [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8468 (    0x10) DYLD-STUB$$nwi_ifstate_get_signature [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8478 (    0x10) DYLD-STUB$$nwi_ifstate_get_vpn_server [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8488 (    0x10) DYLD-STUB$$nwi_state_get_generation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8498 (    0x10) DYLD-STUB$$nwi_state_get_interface_names [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84a8 (    0x10) DYLD-STUB$$nwi_state_get_reachability_flags [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84b8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84c8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84d8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84e8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b84f8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8508 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8518 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8528 (    0x10) DYLD-STUB$$strlcat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8538 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b8548 (    0x10) DYLD-STUB$$strrchr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002214b8558 (    0x48) __TEXT __const
+                0x00000002214b8558 (    0x40) SystemConfigurationVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8598 (     0x8) SystemConfigurationVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002214b85a0 (   0x857) __TEXT __cstring
+            0x00000002214b8df7 (    0x82) __TEXT __oslogstring
+            0x00000002214b8e7c (    0x74) __TEXT __unwind_info
+            0x00000002214b8ef0 (    0x4b) __TEXT __objc_methname
+            0x00000002214b8f40 (    0xc0) __TEXT __objc_stubs
+                0x00000002214b8f40 (    0x20) objc_msgSend$appendFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8f60 (    0x20) objc_msgSend$appendString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8f80 (    0x20) objc_msgSend$initWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8fa0 (    0x20) objc_msgSend$initWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8fc0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b8fe0 (    0x20) objc_msgSend$string [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e842160 (    0x70) __DATA_CONST SEGMENT
+            0x000000022e842160 (    0x10) __DATA_CONST __got
+            0x000000022e842170 (    0x28) __DATA_CONST __const
+            0x000000022e842198 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e8421a0 (    0x30) __DATA_CONST __objc_selrefs
+        0x0000000238304cb8 (   0x800) __AUTH_CONST SEGMENT
+            0x0000000238304cb8 (    0x20) __AUTH_CONST __const
+                0x0000000238304cb8 (    0x20) OSStateCreateStringWithData.formatters [NameNList, MangledNameNList, NList] 
+            0x0000000238304cd8 (   0x6a0) __AUTH_CONST __cfstring
+            0x0000000238305378 (     0x8) __AUTH_CONST __auth_ptr
+            0x0000000238305380 (   0x138) __AUTH_CONST __auth_got
+        0x0000000231b61a68 (    0x18) __DATA SEGMENT
+            0x0000000231b61a68 (    0x18) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

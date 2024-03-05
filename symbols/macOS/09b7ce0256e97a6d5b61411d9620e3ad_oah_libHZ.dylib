@@ -1,0 +1,51 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libHZ.dylib [arm64e, 0.026774 seconds]:
+    E429DB7E-EC75-383B-8953-C916FACF8FED /usr/lib/i18n/libHZ.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff67000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ff67000 (  0x3238) MACH_HEADER
+            0x000000021ff6a238 (   0xc28) __TEXT __text
+                0x000000021ff6a238 (    0xc8) _citrus_HZ_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a300 (    0x44) _citrus_HZ_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a344 (    0x14) _citrus_HZ_stdenc_init_state [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a358 (    0xe0) _citrus_HZ_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a438 (    0x5c) _citrus_HZ_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a494 (    0x58) _citrus_HZ_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a4ec (     0x8) _citrus_HZ_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a4f4 (    0x80) _citrus_HZ_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a574 (    0x5c) _citrus_HZ_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a5d0 (    0x30) _citrus_HZ_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a600 (    0xa4) _citrus_HZ_encoding_module_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a6a4 (   0x104) _citrus_HZ_parse_escape [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a7a8 (    0x38) _citrus_HZ_parse_char [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a7e0 (   0x184) _citrus_HZ_parse_graphic [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6a964 (   0x2b0) _citrus_HZ_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff6ac14 (   0x24c) _citrus_HZ_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff6ae60 (    0xa0) __TEXT __auth_stubs
+                0x000000021ff6ae60 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6ae70 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6ae80 (    0x10) DYLD-STUB$$_citrus_bcs_strncasecmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6ae90 (    0x10) DYLD-STUB$$_citrus_prop_parse_variable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aea0 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aeb0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aec0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aed0 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aee0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff6aef0 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff6af00 (    0x4c) __TEXT __const
+                0x000000021ff6af10 (    0x3c) ranges [NameNList, MangledNameNList, NList] 
+            0x000000021ff6af4c (    0x22) __TEXT __cstring
+            0x000000021ff6af70 (    0x84) __TEXT __unwind_info
+        0x000000022e7f0c78 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7f0c78 (     0x8) __DATA_CONST __got
+        0x0000000238249b00 (    0xf8) __AUTH_CONST SEGMENT
+            0x0000000238249b00 (    0xa8) __AUTH_CONST __const
+                0x0000000238249b00 (    0x48) root_hints [NameNList, MangledNameNList, NList] 
+                0x0000000238249b48 (    0x60) escape_hints [NameNList, MangledNameNList, NList] 
+            0x0000000238249ba8 (    0x50) __AUTH_CONST __auth_got
+        0x00000002332f3bc8 (    0x58) __AUTH SEGMENT
+            0x00000002332f3bc8 (    0x58) __AUTH __data
+                0x00000002332f3bc8 (    0x58) _citrus_HZ_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

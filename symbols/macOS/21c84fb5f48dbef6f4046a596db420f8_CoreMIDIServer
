@@ -1,8 +1,0 @@
-/System/Library/Frameworks/CoreMIDIServer.framework/Versions/A/CoreMIDIServer [arm64e, 0.023296 seconds]:
-    E2248C28-3C74-355B-912D-E8B71964507C /System/Library/Frameworks/CoreMIDIServer.framework/Versions/A/CoreMIDIServer [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001ed411000 (  0x4000) __TEXT SEGMENT
-            0x00000001ed411000 (  0x3fb4) MACH_HEADER
-            0x00000001ed414fb4 (     0x4) __TEXT __text
-                0x00000001ed414fb4 (     0x4) EmptyLegacyFramework [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
-            0x00000001ed414fb8 (    0x48) __TEXT __unwind_info
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,9 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/usr/lib/swift/libswiftMediaPlayer.dylib [arm64e, 0.024358 seconds]:
+    3D8D7155-4DB2-36AD-8B1D-F3D56856E0BE /System/iOSSupport/usr/lib/swift/libswiftMediaPlayer.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8dd000 (  0x1000) __TEXT SEGMENT
+            0x000000022d8dd000 (  0x1000) MACH_HEADER
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

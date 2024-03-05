@@ -1,0 +1,156 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/Frameworks/iAd.framework/Versions/A/iAd [arm64e, 0.102234 seconds]:
+    8802A997-9216-38B2-BF08-A75F071DE895 /System/iOSSupport/System/Library/Frameworks/iAd.framework/Versions/A/iAd [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001cf288000 (  0x3000) __TEXT SEGMENT
+            0x00000001cf288000 (  0x1b08) MACH_HEADER
+            0x00000001cf289b08 (   0x688) __TEXT __text
+                0x00000001cf289b08 (    0x30) +[ADClient sharedClient] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289b38 (    0x10) ADClampedBannerSize [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289b48 (    0x14) -[ADBannerView setDelegate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289b5c (    0x10) -[ADBannerView isBannerLoaded] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289b6c (    0x34) -[ADBannerView delegate] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289ba0 (     0xc) -[ADInterstitialAd setDelegate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bac (     0x4) -[ADInterstitialAd cancelAction] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bb0 (     0x8) -[ADInterstitialAd presentInView:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bb8 (     0x4) -[ADInterstitialAd presentFromViewController:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bbc (    0x2c) -[ADInterstitialAd delegate] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289be8 (     0x8) -[ADInterstitialAd isLoaded] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bf0 (     0x8) -[ADInterstitialAd isActionInProgress] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289bf8 (     0x8) -[ADInterstitialAd .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289c00 (    0x1c) -[ADInterstitialAdPresentationViewController initForInterstitialAd:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289c1c (     0x8) -[ADInterstitialAdPresentationViewController shouldTestVisibilityAtPoint:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289c24 (   0x104) -[ADClient requestAttributionDetailsWithBlock:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289d28 (   0x1e8) __47-[ADClient requestAttributionDetailsWithBlock:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f10 (     0x4) -[ADClient addClientToSegments:replaceExisting:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f14 (     0x4) +[AVPlayerViewController(AdLibAdditions) preparePrerollAds] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f18 (    0x1c) -[AVPlayerViewController(AdLibAdditions) playPrerollAdWithCompletionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f34 (     0x4) -[AVPlayerViewController(AdLibAdditions) cancelPreroll] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f38 (    0x10) +[ADBannerView sizeFromBannerContentSizeIdentifier:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f48 (    0x1c) -[ADBannerView initWithAdType:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f64 (     0x4) -[ADBannerView cancelBannerViewAction] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f68 (    0x10) -[ADBannerView adType] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f78 (    0x10) -[ADBannerView isBannerViewActionInProgress] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f88 (    0x10) -[ADBannerView advertisingSection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289f98 (     0xc) -[ADBannerView setAdvertisingSection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289fa4 (    0x10) -[ADBannerView requiredContentSizeIdentifiers] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289fb4 (     0xc) -[ADBannerView setRequiredContentSizeIdentifiers:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289fc0 (    0x10) -[ADBannerView currentContentSizeIdentifier] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289fd0 (     0xc) -[ADBannerView setCurrentContentSizeIdentifier:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf289fdc (    0x78) -[ADBannerView .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a054 (     0x4) +[UIViewController(AdLibAdditions) prepareInterstitialAds] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a058 (     0x8) -[UIViewController(AdLibAdditions) requestInterstitialAdPresentation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a060 (    0x1c) -[ADClient(Private) determineAppInstallationAttributionWithCompletionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a07c (    0x20) -[ADClient(Private) lookupAdConversionDetails:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a09c (    0x2c) -[ADClient(Private) segmentDataForSignedInUserWithBlock:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a0c8 (    0x48) __47-[ADClient requestAttributionDetailsWithBlock:]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cf28a110 (    0x80) __47-[ADClient requestAttributionDetailsWithBlock:]_block_invoke.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001cf28a190 (   0x170) __TEXT __auth_stubs
+                0x00000001cf28a190 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1a0 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1b0 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1c0 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1d0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1e0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a1f0 (    0x10) DYLD-STUB$$objc_destroyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a200 (    0x10) DYLD-STUB$$objc_loadWeakRetained [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a210 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a220 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a230 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a240 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a250 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a260 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a270 (    0x10) DYLD-STUB$$objc_release_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a280 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a290 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2a0 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2b0 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2c0 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2d0 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2e0 (    0x10) DYLD-STUB$$objc_storeWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001cf28a2f0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001cf28a300 (   0x214) __TEXT __objc_methlist
+                0x00000001cf28a300 (    0x68) _OBJC_$_INSTANCE_METHODS_ADInterstitialAd [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a368 (    0x20) _OBJC_$_INSTANCE_METHODS_ADInterstitialAdPresentationViewController [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a388 (    0x18) _OBJC_$_CLASS_METHODS_ADClient(Private) [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a3a0 (    0x48) _OBJC_$_INSTANCE_METHODS_ADClient(Private) [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a3e8 (    0x18) _OBJC_$_CLASS_METHODS_AVPlayerViewController(AdLibAdditions) [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a400 (    0x20) _OBJC_$_INSTANCE_METHODS_AVPlayerViewController(AdLibAdditions) [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a420 (    0x18) _OBJC_$_CLASS_METHODS_ADBannerView [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a438 (    0xb0) _OBJC_$_INSTANCE_METHODS_ADBannerView [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a4e8 (    0x18) _OBJC_$_CLASS_METHODS_UIViewController(AdLibAdditions) [NameNList, MangledNameNList, NList] 
+                0x00000001cf28a500 (    0x14) _OBJC_$_INSTANCE_METHODS_UIViewController(AdLibAdditions) [NameNList, MangledNameNList, NList] 
+            0x00000001cf28a518 (     0x8) __TEXT __const
+            0x00000001cf28a520 (   0x101) __TEXT __cstring
+            0x00000001cf28a621 (    0xa6) __TEXT __oslogstring
+            0x00000001cf28a6c8 (    0x94) __TEXT __unwind_info
+            0x00000001cf28a75c (    0x6f) __TEXT __objc_classname
+            0x00000001cf28a7cc (   0x6bb) __TEXT __objc_methname
+            0x00000001cf28ae87 (    0x97) __TEXT __objc_methtype
+            0x00000001cf28af20 (    0xe0) __TEXT __objc_stubs
+                0x00000001cf28af20 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28af40 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28af60 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28af80 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28afa0 (    0x20) objc_msgSend$mainBundle [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28afc0 (    0x20) objc_msgSend$requestAttributionDetailsWithBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cf28afe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001dfd87048 (   0x4e8) __DATA_CONST SEGMENT
+            0x00000001dfd87048 (    0x28) __DATA_CONST __got
+            0x00000001dfd87070 (    0x58) __DATA_CONST __const
+                0x00000001dfd87070 (     0x8) ADClientErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd87078 (    0x28) __block_descriptor_40_e8_32bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd870a0 (     0x8) ADBannerContentSizeIdentifierPortrait [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd870a8 (     0x8) ADBannerContentSizeIdentifierLandscape [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd870b0 (     0x8) ADBannerContentSizeIdentifier320x50 [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd870b8 (     0x8) ADBannerContentSizeIdentifier480x32 [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001dfd870c0 (     0x8) ADErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001dfd870c8 (    0x20) __DATA_CONST __objc_classlist
+            0x00000001dfd870e8 (    0x10) __DATA_CONST __objc_catlist
+            0x00000001dfd870f8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001dfd87100 (   0x2f8) __DATA_CONST __objc_const
+                0x00000001dfd87100 (    0x48) _OBJC_METACLASS_RO_$_ADInterstitialAd [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87148 (    0x68) _OBJC_$_INSTANCE_VARIABLES_ADInterstitialAd [NameNList, MangledNameNList, NList] 
+                0x00000001dfd871b0 (    0x38) _OBJC_$_PROP_LIST_ADInterstitialAd [NameNList, MangledNameNList, NList] 
+                0x00000001dfd871e8 (    0x48) _OBJC_METACLASS_RO_$_ADInterstitialAdPresentationViewController [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87230 (    0xe8) _OBJC_$_INSTANCE_VARIABLES_ADBannerView [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87318 (    0xe0) _OBJC_$_PROP_LIST_ADBannerView [NameNList, MangledNameNList, NList] 
+            0x00000001dfd873f8 (   0x138) __DATA_CONST __objc_selrefs
+        0x00000001dfd87530 (   0x410) __AUTH_CONST SEGMENT
+            0x00000001dfd87530 (   0x230) __AUTH_CONST __objc_const
+                0x00000001dfd87530 (    0x48) _OBJC_CLASS_RO_$_ADInterstitialAd [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87578 (    0x48) _OBJC_CLASS_RO_$_ADInterstitialAdPresentationViewController [NameNList, MangledNameNList, NList] 
+                0x00000001dfd875c0 (    0x48) _OBJC_METACLASS_RO_$_ADClient [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87608 (    0x48) _OBJC_CLASS_RO_$_ADClient [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87650 (    0x40) _OBJC_$_CATEGORY_AVPlayerViewController_$_AdLibAdditions [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87690 (    0x48) _OBJC_METACLASS_RO_$_ADBannerView [NameNList, MangledNameNList, NList] 
+                0x00000001dfd876d8 (    0x48) _OBJC_CLASS_RO_$_ADBannerView [NameNList, MangledNameNList, NList] 
+                0x00000001dfd87720 (    0x40) _OBJC_$_CATEGORY_UIViewController_$_AdLibAdditions [NameNList, MangledNameNList, NList] 
+            0x00000001dfd87760 (   0x120) __AUTH_CONST __cfstring
+            0x00000001dfd87880 (    0xc0) __AUTH_CONST __auth_got
+        0x00000001d826b5a8 (   0x140) __AUTH SEGMENT
+            0x00000001d826b5a8 (   0x140) __AUTH __objc_data
+                0x00000001d826b5a8 (    0x28) OBJC_METACLASS_$_ADInterstitialAd [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b5d0 (    0x28) OBJC_CLASS_$_ADInterstitialAd [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b5f8 (    0x28) OBJC_METACLASS_$_ADInterstitialAdPresentationViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b620 (    0x28) OBJC_CLASS_$_ADInterstitialAdPresentationViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b648 (    0x28) OBJC_CLASS_$_ADClient [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b670 (    0x28) OBJC_METACLASS_$_ADClient [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b698 (    0x28) OBJC_METACLASS_$_ADBannerView [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d826b6c0 (    0x28) OBJC_CLASS_$_ADBannerView [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d6aebc60 (    0x50) __DATA SEGMENT
+            0x00000001d6aebc60 (    0x28) __DATA __objc_classrefs
+            0x00000001d6aebc88 (    0x28) __DATA __objc_ivar
+                0x00000001d6aebc88 (     0x4) OBJC_IVAR_$_ADInterstitialAd._loaded [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebc8c (     0x4) OBJC_IVAR_$_ADInterstitialAd._actionInProgress [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebc90 (     0x4) OBJC_IVAR_$_ADInterstitialAd._delegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebc94 (     0x4) OBJC_IVAR_$_ADBannerView._adType [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebc98 (     0x4) OBJC_IVAR_$_ADBannerView._delegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebc9c (     0x4) OBJC_IVAR_$_ADBannerView._bannerLoaded [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebca0 (     0x4) OBJC_IVAR_$_ADBannerView._bannerViewActionInProgress [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebca4 (     0x4) OBJC_IVAR_$_ADBannerView._advertisingSection [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebca8 (     0x4) OBJC_IVAR_$_ADBannerView._requiredContentSizeIdentifiers [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6aebcac (     0x4) OBJC_IVAR_$_ADBannerView._currentContentSizeIdentifier [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

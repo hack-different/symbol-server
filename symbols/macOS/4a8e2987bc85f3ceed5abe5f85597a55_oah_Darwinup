@@ -1,0 +1,176 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/Darwinup.framework/Versions/A/Darwinup [arm64e, 0.386038 seconds]:
+    84246097-7C3B-3A25-AE92-6ECDD15CBA77 /System/Library/PrivateFrameworks/Darwinup.framework/Versions/A/Darwinup [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fa2b6000 (  0x8000) __TEXT SEGMENT
+            0x00000001fa2b6000 (   0xde4) MACH_HEADER
+            0x00000001fa2b6de4 (  0x488c) __TEXT __text
+                0x00000001fa2b6de4 (   0x28c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7070 (   0x2b4) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7324 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7390 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7398 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b73a0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b73a8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b73b0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b73b8 (    0x74) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b742c (    0x94) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b74c0 (    0x94) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7554 (   0x15c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b76b0 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b76e4 (   0x16c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7850 (    0xd8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7928 (   0x154) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7a7c (   0x10c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7b88 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7b90 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7b98 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7ba0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7ba8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bb0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bb8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bc0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bc8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bd0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7bd8 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c28 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c60 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c70 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c78 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c80 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b7c8c (   0x4b8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b8144 (   0x20c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b8350 (  0x19d8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b9d28 (   0x148) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2b9e70 (   0x3d0) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2ba240 (   0x340) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2ba580 (   0x124) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2ba6a4 (   0x22c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2ba8d0 (   0x1c8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2baa98 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bab38 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bab50 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2babac (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2babe0 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bac14 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bac84 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bacc0 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bacfc (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bad08 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bad10 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bad18 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bad88 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bad94 (    0xc0) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bae54 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2baeb0 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2baf0c (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2baf24 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2baf5c (   0x214) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb170 (   0x200) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb370 (   0x1b0) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb520 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb528 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb530 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001fa2bb53c (   0x134) _DUMakeError [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fa2bb670 (   0x3d0) __TEXT __auth_stubs
+                0x00000001fa2bb670 (    0x10) DYLD-STUB$$NSStringFromClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb680 (    0x10) DYLD-STUB$$_NSIsNSArray [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb690 (    0x10) DYLD-STUB$$_NSIsNSDate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6a0 (    0x10) DYLD-STUB$$_NSIsNSDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6b0 (    0x10) DYLD-STUB$$_NSIsNSNumber [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6c0 (    0x10) DYLD-STUB$$_NSIsNSString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6d0 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6e0 (    0x10) DYLD-STUB$$std::logic_error::logic_error(char const*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb6f0 (    0x10) DYLD-STUB$$std::bad_array_new_length::bad_array_new_length() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb700 (    0x10) DYLD-STUB$$std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::append(char const*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb710 (    0x10) DYLD-STUB$$operator delete(void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb720 (    0x10) DYLD-STUB$$operator new(unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb730 (    0x10) DYLD-STUB$$__cxa_allocate_exception [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb740 (    0x10) DYLD-STUB$$__cxa_free_exception [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb750 (    0x10) DYLD-STUB$$__cxa_throw [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb760 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb770 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb780 (    0x10) DYLD-STUB$$dispatch_async_and_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb790 (    0x10) DYLD-STUB$$dispatch_queue_attr_make_with_autorelease_frequency [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7a0 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7b0 (    0x10) DYLD-STUB$$dispatch_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7c0 (    0x10) DYLD-STUB$$dispatch_source_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7d0 (    0x10) DYLD-STUB$$dispatch_source_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7e0 (    0x10) DYLD-STUB$$dispatch_source_set_cancel_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb7f0 (    0x10) DYLD-STUB$$dispatch_source_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb800 (    0x10) DYLD-STUB$$getprogname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb810 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb820 (    0x10) DYLD-STUB$$memset [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb830 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb840 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb850 (    0x10) DYLD-STUB$$objc_autoreleasePoolPop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb860 (    0x10) DYLD-STUB$$objc_autoreleasePoolPush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb870 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb880 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb890 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8a0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8b0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8c0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8d0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8e0 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb8f0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb900 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb910 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb920 (    0x10) DYLD-STUB$$object_getClassName [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb930 (    0x10) DYLD-STUB$$posix_spawn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb940 (    0x10) DYLD-STUB$$posix_spawn_file_actions_adddup2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb950 (    0x10) DYLD-STUB$$posix_spawn_file_actions_addinherit_np [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb960 (    0x10) DYLD-STUB$$posix_spawn_file_actions_addopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb970 (    0x10) DYLD-STUB$$posix_spawn_file_actions_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb980 (    0x10) DYLD-STUB$$posix_spawn_file_actions_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb990 (    0x10) DYLD-STUB$$posix_spawnattr_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9a0 (    0x10) DYLD-STUB$$posix_spawnattr_getflags [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9b0 (    0x10) DYLD-STUB$$posix_spawnattr_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9c0 (    0x10) DYLD-STUB$$posix_spawnattr_setflags [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9d0 (    0x10) DYLD-STUB$$sel_getName [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9e0 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bb9f0 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bba00 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bba10 (    0x10) DYLD-STUB$$waitpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bba20 (    0x10) DYLD-STUB$$xpc_bool_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa2bba30 (    0x10) DYLD-STUB$$xpc_copy_entitlement_for_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fa2bba40 (   0x264) __TEXT __objc_methlist
+            0x00000001fa2bbca8 (    0x40) __TEXT __const
+            0x00000001fa2bbce8 (   0x5dd) __TEXT __cstring
+            0x00000001fa2bc2c8 (   0x860) __TEXT __gcc_except_tab
+            0x00000001fa2bcb28 (   0x1ec) __TEXT __unwind_info
+            0x00000001fa2bcd14 (    0x46) __TEXT __objc_classname
+            0x00000001fa2bcd5a (   0xa44) __TEXT __objc_methname
+            0x00000001fa2bd79e (   0x102) __TEXT __objc_methtype
+            0x00000001fa2bd8a0 (   0x760) __TEXT __objc_stubs
+        0x0000000236f20b68 (   0x798) __DATA_CONST SEGMENT
+            0x0000000236f20b68 (    0x70) __DATA_CONST __got
+            0x0000000236f20bd8 (    0x20) __DATA_CONST __const
+                0x0000000236f20bd8 (    0x18) DURootsDidChangeDarwinNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000236f20bf0 (     0x8) DUErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000236f20bf8 (    0x20) __DATA_CONST __objc_classlist
+            0x0000000236f20c18 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236f20c20 (   0x440) __DATA_CONST __objc_const
+            0x0000000236f21060 (   0x2a0) __DATA_CONST __objc_selrefs
+        0x0000000236f21300 (   0xaf8) __AUTH_CONST SEGMENT
+            0x0000000236f21300 (   0x6c0) __AUTH_CONST __cfstring
+            0x0000000236f219c0 (   0x1b0) __AUTH_CONST __objc_const
+            0x0000000236f21b70 (    0x90) __AUTH_CONST __const
+            0x0000000236f21c00 (   0x1f8) __AUTH_CONST __auth_got
+        0x000000023257b4b8 (   0x140) __AUTH SEGMENT
+            0x000000023257b4b8 (   0x140) __AUTH __objc_data
+                0x000000023257b4b8 (    0x28) OBJC_CLASS_$_DURoot [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b4e0 (    0x28) OBJC_METACLASS_$_DURoot [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b508 (    0x28) OBJC_CLASS_$_DUSession [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b530 (    0x28) OBJC_CLASS_$_DUSessionSummary [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b558 (    0x28) OBJC_METACLASS_$_DUSession [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b580 (    0x28) OBJC_METACLASS_$_DUSessionSummary [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b5a8 (    0x28) OBJC_CLASS_$_DUModification [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257b5d0 (    0x28) OBJC_METACLASS_$_DUModification [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230fc9988 (    0xf0) __DATA SEGMENT
+            0x0000000230fc9988 (    0x80) __DATA __objc_classrefs
+            0x0000000230fc9a08 (    0x20) __DATA __objc_superrefs
+            0x0000000230fc9a28 (    0x50) __DATA __objc_ivar
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

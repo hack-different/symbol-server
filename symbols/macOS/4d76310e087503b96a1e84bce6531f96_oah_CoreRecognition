@@ -1,0 +1,148 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/CoreRecognition.axbundle/Contents/MacOS/CoreRecognition [arm64e, 0.126229 seconds]:
+    CC85DC79-D660-366D-B518-7C8C0625DA44 /System/iOSSupport/System/Library/AccessibilityBundles/CoreRecognition.axbundle/Contents/MacOS/CoreRecognition [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223197000 (  0x3000) __TEXT SEGMENT
+            0x0000000223197000 (  0x13a4) MACH_HEADER
+            0x00000002231983a4 (   0xd34) __TEXT __text
+                0x00000002231983a4 (     0xc) +[CRCameraReaderAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231983b0 (     0xc) +[CRCameraReaderAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231983bc (   0x154) +[CRCameraReaderAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198510 (   0x3ec) -[CRCameraReaderAccessibility sendDidFindTarget:frameTime:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231988fc (    0x80) __59-[CRCameraReaderAccessibility sendDidFindTarget:frameTime:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319897c (    0x4c) -[CRCameraReaderAccessibility loadView] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231989c8 (    0x70) -[CRCameraReaderAccessibility startSession] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198a38 (    0xe0) -[CRCameraReaderAccessibility _accessibilityLoadAccessibilityInformation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198b18 (   0x114) -[CRCameraReaderAccessibility _accessibilityCameraView] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198c2c (    0x40) __55-[CRCameraReaderAccessibility _accessibilityCameraView]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198c6c (   0x2bc) -[CRCameraReaderAccessibility sendDidRecognizeNewObjects:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198f28 (     0x8) +[AXCoreRecognitionGlue accessibilityBundles] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198f30 (    0x28) +[AXCoreRecognitionGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198f58 (    0x64) __54+[AXCoreRecognitionGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198fbc (     0x8) __54+[AXCoreRecognitionGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223198fc4 (    0x60) __54+[AXCoreRecognitionGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223199024 (    0x14) __54+[AXCoreRecognitionGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223199038 (    0xa0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231990d8 (   0x1d0) __TEXT __auth_stubs
+                0x00000002231990d8 (    0x10) DYLD-STUB$$AXPerformSafeBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231990e8 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231990f8 (    0x10) DYLD-STUB$$CGPointFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199108 (    0x10) DYLD-STUB$$CGRectContainsPoint [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199118 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199128 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199138 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199148 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199158 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199168 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199178 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199188 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199198 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991a8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991b8 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991c8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991d8 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991e8 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231991f8 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199208 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199218 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199228 (    0x10) DYLD-STUB$$objc_release_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199238 (    0x10) DYLD-STUB$$objc_release_x25 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199248 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199258 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199268 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199278 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199288 (    0x10) DYLD-STUB$$objc_retain_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223199298 (    0x10) DYLD-STUB$$objc_retain_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231992a8 (    0xa0) __TEXT __objc_methlist
+                0x00000002231992a8 (    0x30) _OBJC_$_CLASS_METHODS_CRCameraReaderAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231992d8 (    0x50) _OBJC_$_INSTANCE_METHODS_CRCameraReaderAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223199328 (    0x20) _OBJC_$_CLASS_METHODS_AXCoreRecognitionGlue [NameNList, MangledNameNList, NList] 
+            0x0000000223199348 (    0x18) __TEXT __const
+            0x0000000223199360 (    0x18) __TEXT __gcc_except_tab
+                0x0000000223199360 (    0x18) GCC_except_table3 [NameNList, MangledNameNList, NList] 
+            0x0000000223199378 (   0x261) __TEXT __cstring
+            0x00000002231995dc (    0x98) __TEXT __unwind_info
+            0x0000000223199674 (    0x64) __TEXT __objc_classname
+            0x00000002231996d8 (   0x46c) __TEXT __objc_methname
+            0x0000000223199b44 (    0x38) __TEXT __objc_methtype
+            0x0000000223199b80 (   0x480) __TEXT __objc_stubs
+                0x0000000223199b80 (    0x20) objc_msgSend$CGPointValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ba0 (    0x20) objc_msgSend$CGRectValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199bc0 (    0x20) objc_msgSend$_accessibilityCameraView [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199be0 (    0x20) objc_msgSend$_accessibilityFindSubviewDescendant: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199c00 (    0x20) objc_msgSend$_accessibilityLoadAccessibilityInformation [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199c20 (    0x20) objc_msgSend$_accessibilitySetRetainedValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199c40 (    0x20) objc_msgSend$_accessibilityValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199c60 (    0x20) objc_msgSend$_setAccessibilityServesAsFirstElement: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199c80 (    0x20) objc_msgSend$accessibilityHint [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ca0 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199cc0 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ce0 (    0x20) objc_msgSend$bounds [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199d00 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199d20 (    0x20) objc_msgSend$convertCameraPoint:toLayer: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199d40 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199d60 (    0x20) objc_msgSend$dictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199d80 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199da0 (    0x20) objc_msgSend$layer [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199dc0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199de0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199e00 (    0x20) objc_msgSend$objectForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199e20 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199e40 (    0x20) objc_msgSend$safeUIViewForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199e60 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199e80 (    0x20) objc_msgSend$setAccessibilityHint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ea0 (    0x20) objc_msgSend$setAccessibilityIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ec0 (    0x20) objc_msgSend$setAccessibilityLabel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199ee0 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199f00 (    0x20) objc_msgSend$setIsAccessibilityElement: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199f20 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199f40 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199f60 (    0x20) objc_msgSend$setValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199f80 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199fa0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199fc0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223199fe0 (    0x20) objc_msgSend$valueWithCGPoint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383fea48 (   0x338) __DATA_CONST SEGMENT
+            0x00000002383fea48 (    0x28) __DATA_CONST __got
+            0x00000002383fea70 (    0xb0) __DATA_CONST __const
+                0x00000002383fea70 (    0x28) __block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383fea98 (    0x28) __block_descriptor_40_e8_32s_e16_B16?0"UIView"8ls32l8 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383feac0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383feae0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383feb00 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383feb20 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002383feb38 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383feb40 (    0xd8) __DATA_CONST __objc_const
+                0x00000002383feb40 (    0x48) _OBJC_METACLASS_RO_$___CRCameraReaderAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383feb88 (    0x48) _OBJC_CLASS_RO_$___CRCameraReaderAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383febd0 (    0x48) _OBJC_CLASS_RO_$_AXCoreRecognitionGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383fec18 (   0x168) __DATA_CONST __objc_selrefs
+        0x00000002383fed80 (   0x5f0) __AUTH_CONST SEGMENT
+            0x00000002383fed80 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002383fed80 (    0x48) _OBJC_METACLASS_RO_$_CRCameraReaderAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383fedc8 (    0x48) _OBJC_CLASS_RO_$_CRCameraReaderAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383fee10 (    0x48) _OBJC_METACLASS_RO_$_AXCoreRecognitionGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383fee58 (   0x3a0) __AUTH_CONST __cfstring
+            0x00000002383ff1f8 (    0x80) __AUTH_CONST __const
+                0x00000002383ff1f8 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383ff218 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x00000002383ff238 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x00000002383ff258 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002383ff278 (    0xf8) __AUTH_CONST __auth_got
+        0x0000000233626c00 (    0xf0) __AUTH SEGMENT
+            0x0000000233626c00 (    0xf0) __AUTH __objc_data
+                0x0000000233626c00 (    0x28) OBJC_METACLASS_$___CRCameraReaderAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626c28 (    0x28) OBJC_CLASS_$___CRCameraReaderAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626c50 (    0x28) OBJC_CLASS_$_CRCameraReaderAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626c78 (    0x28) OBJC_METACLASS_$_CRCameraReaderAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626ca0 (    0x28) OBJC_METACLASS_$_AXCoreRecognitionGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626cc8 (    0x28) OBJC_CLASS_$_AXCoreRecognitionGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba98d0 (    0x58) __DATA SEGMENT
+            0x0000000231ba98d0 (    0x40) __DATA __objc_classrefs
+            0x0000000231ba9910 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba9918 (    0x10) __DATA __bss
+                0x0000000231ba9918 (     0x8) sendDidFindTarget:frameTime:.counter [NameNList, MangledNameNList, NList] 
+                0x0000000231ba9920 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

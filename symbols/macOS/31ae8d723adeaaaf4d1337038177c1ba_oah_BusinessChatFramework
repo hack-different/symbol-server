@@ -1,0 +1,89 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/BusinessChatFramework.axbundle/Contents/MacOS/BusinessChatFramework [arm64e, 0.029999 seconds]:
+    0EA3AD52-6A0B-37FE-B636-E0F7DA429CEE /System/iOSSupport/System/Library/AccessibilityBundles/BusinessChatFramework.axbundle/Contents/MacOS/BusinessChatFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223108000 (  0x2000) __TEXT SEGMENT
+            0x0000000223108000 (  0x17f0) MACH_HEADER
+            0x00000002231097f0 (   0x238) __TEXT __text
+                0x00000002231097f0 (    0x94) +[AXBusinessChatFrameworkGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223109884 (     0x8) __60+[AXBusinessChatFrameworkGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310988c (    0x60) __60+[AXBusinessChatFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231098ec (    0x14) __60+[AXBusinessChatFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223109900 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231099b0 (     0xc) +[BCChatButtonAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231099bc (     0xc) +[BCChatButtonAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231099c8 (     0x4) +[BCChatButtonAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231099cc (     0x8) -[BCChatButtonAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231099d4 (    0x48) -[BCChatButtonAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223109a1c (     0xc) -[BCChatButtonAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000223109a28 (    0xb0) __TEXT __auth_stubs
+                0x0000000223109a28 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a38 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a48 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a58 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a68 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a78 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a88 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109a98 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109aa8 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109ab8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223109ac8 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223109ad8 (    0x74) __TEXT __objc_methlist
+                0x0000000223109ad8 (    0x18) _OBJC_$_CLASS_METHODS_AXBusinessChatFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x0000000223109af0 (    0x30) _OBJC_$_CLASS_METHODS_BCChatButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223109b20 (    0x2c) _OBJC_$_INSTANCE_METHODS_BCChatButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x0000000223109b4c (    0xb7) __TEXT __cstring
+            0x0000000223109c04 (    0x70) __TEXT __unwind_info
+            0x0000000223109c74 (    0x65) __TEXT __objc_classname
+            0x0000000223109cda (   0x1d1) __TEXT __objc_methname
+            0x0000000223109eab (    0x33) __TEXT __objc_methtype
+            0x0000000223109ee0 (   0x120) __TEXT __objc_stubs
+                0x0000000223109ee0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109f00 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109f20 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109f40 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109f60 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109f80 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109fa0 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109fc0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223109fe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383cc178 (   0x1c0) __DATA_CONST SEGMENT
+            0x00000002383cc178 (     0x8) __DATA_CONST __got
+            0x00000002383cc180 (    0x40) __DATA_CONST __const
+                0x00000002383cc180 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383cc1a0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383cc1c0 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002383cc1d8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383cc1e0 (    0xd8) __DATA_CONST __objc_const
+                0x00000002383cc1e0 (    0x48) _OBJC_CLASS_RO_$_AXBusinessChatFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383cc228 (    0x48) _OBJC_METACLASS_RO_$___BCChatButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383cc270 (    0x48) _OBJC_CLASS_RO_$___BCChatButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002383cc2b8 (    0x80) __DATA_CONST __objc_selrefs
+        0x00000002383cc338 (   0x278) __AUTH_CONST SEGMENT
+            0x00000002383cc338 (    0x60) __AUTH_CONST __const
+                0x00000002383cc338 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383cc358 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x00000002383cc378 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002383cc398 (    0xe0) __AUTH_CONST __cfstring
+            0x00000002383cc478 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002383cc478 (    0x48) _OBJC_METACLASS_RO_$_AXBusinessChatFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383cc4c0 (    0x48) _OBJC_METACLASS_RO_$_BCChatButtonAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383cc508 (    0x48) _OBJC_CLASS_RO_$_BCChatButtonAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002383cc550 (    0x60) __AUTH_CONST __auth_got
+        0x0000000233619aa0 (    0xf0) __AUTH SEGMENT
+            0x0000000233619aa0 (    0xf0) __AUTH __objc_data
+                0x0000000233619aa0 (    0x28) OBJC_CLASS_$_AXBusinessChatFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619ac8 (    0x28) OBJC_METACLASS_$_AXBusinessChatFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619af0 (    0x28) OBJC_METACLASS_$___BCChatButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619b18 (    0x28) OBJC_CLASS_$___BCChatButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619b40 (    0x28) OBJC_CLASS_$_BCChatButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619b68 (    0x28) OBJC_METACLASS_$_BCChatButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba8888 (    0x38) __DATA SEGMENT
+            0x0000000231ba8888 (    0x20) __DATA __objc_classrefs
+            0x0000000231ba88a8 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba88b0 (    0x10) __DATA __bss
+                0x0000000231ba88b0 (     0x8) _Failover [NameNList, MangledNameNList, NList] 
+                0x0000000231ba88b8 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

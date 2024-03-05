@@ -1,0 +1,116 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/SafariSharedUI.axbundle/Contents/MacOS/SafariSharedUI [arm64e, 0.109613 seconds]:
+    EEBF883D-917A-3116-AA6D-82CA290F0D1C /System/iOSSupport/System/Library/AccessibilityBundles/SafariSharedUI.axbundle/Contents/MacOS/SafariSharedUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223392000 (  0x3000) __TEXT SEGMENT
+            0x0000000223392000 (  0x1ec0) MACH_HEADER
+            0x0000000223393ec0 (   0x708) __TEXT __text
+                0x0000000223393ec0 (    0x28) +[AXSafariSharedUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393ee8 (    0x64) __53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393f4c (     0x8) __53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393f54 (    0x60) __53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393fb4 (    0x14) __53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393fc8 (     0xc) +[WBSFluidProgressControllerAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393fd4 (     0xc) +[WBSFluidProgressControllerAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223393fe0 (    0xc0) +[WBSFluidProgressControllerAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233940a0 (    0xc8) -[WBSFluidProgressControllerAccessibility _sendUpdateFluidProgressToObservers:progressState:source:updateAnimationPhase:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223394168 (    0xa8) -[WBSFluidProgressControllerAccessibility finishFluidProgressWithProgressStateSource:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223394210 (    0xa8) -[WBSFluidProgressControllerAccessibility _updateFluidProgressWithProgressStateSource:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233942b8 (   0x1e0) -[WBSFluidProgressControllerAccessibility _axHandleProgressUpdate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223394498 (    0x44) -[WBSFluidProgressControllerAccessibility _sendUpdateFluidProgressToObservers:progressState:source:updateAnimationPhase:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233944dc (    0x44) -[WBSFluidProgressControllerAccessibility finishFluidProgressWithProgressStateSource:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223394520 (    0xa8) -[WBSFluidProgressControllerAccessibility _updateFluidProgressWithProgressStateSource:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002233945c8 (   0x170) __TEXT __auth_stubs
+                0x00000002233945c8 (    0x10) DYLD-STUB$$AXLogAppAccessibility [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233945d8 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233945e8 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233945f8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394608 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394618 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394628 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394638 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394648 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394658 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394668 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394678 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394688 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394698 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946a8 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946b8 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946c8 (    0x10) DYLD-STUB$$objc_release_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946d8 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946e8 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233946f8 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394708 (    0x10) DYLD-STUB$$objc_retain_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394718 (    0x10) DYLD-STUB$$objc_retain_x4 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223394728 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223394738 (    0x80) __TEXT __objc_methlist
+                0x0000000223394738 (    0x18) _OBJC_$_CLASS_METHODS_AXSafariSharedUIGlue [NameNList, MangledNameNList, NList] 
+                0x0000000223394750 (    0x30) _OBJC_$_CLASS_METHODS_WBSFluidProgressControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223394780 (    0x38) _OBJC_$_INSTANCE_METHODS_WBSFluidProgressControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x00000002233947b8 (   0x152) __TEXT __cstring
+            0x000000022339490a (    0x9f) __TEXT __oslogstring
+            0x00000002233949ac (    0x80) __TEXT __unwind_info
+            0x0000000223394a2c (    0x7a) __TEXT __objc_classname
+            0x0000000223394aa6 (   0x2fd) __TEXT __objc_methname
+            0x0000000223394da3 (    0x37) __TEXT __objc_methtype
+            0x0000000223394de0 (   0x220) __TEXT __objc_stubs
+                0x0000000223394de0 (    0x20) objc_msgSend$_axHandleProgressUpdate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394e00 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394e20 (    0x20) objc_msgSend$estimatedProgress [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394e40 (    0x20) objc_msgSend$fluidProgressValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394e60 (    0x20) objc_msgSend$hasCompletedLoad [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394e80 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394ea0 (    0x20) objc_msgSend$loadURL [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394ec0 (    0x20) objc_msgSend$numberWithBool: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394ee0 (    0x20) objc_msgSend$numberWithDouble: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394f00 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394f20 (    0x20) objc_msgSend$progressState [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394f40 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394f60 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394f80 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394fa0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394fc0 (    0x20) objc_msgSend$updateFluidProgressValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223394fe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002384a5a18 (   0x228) __DATA_CONST SEGMENT
+            0x00000002384a5a18 (    0x10) __DATA_CONST __got
+            0x00000002384a5a28 (    0x60) __DATA_CONST __const
+                0x00000002384a5a28 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002384a5a48 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002384a5a68 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002384a5a88 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002384a5aa0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002384a5aa8 (    0xd8) __DATA_CONST __objc_const
+                0x00000002384a5aa8 (    0x48) _OBJC_CLASS_RO_$_AXSafariSharedUIGlue [NameNList, MangledNameNList, NList] 
+                0x00000002384a5af0 (    0x48) _OBJC_METACLASS_RO_$___WBSFluidProgressControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384a5b38 (    0x48) _OBJC_CLASS_RO_$___WBSFluidProgressControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002384a5b80 (    0xc0) __DATA_CONST __objc_selrefs
+        0x00000002384a5c40 (   0x350) __AUTH_CONST SEGMENT
+            0x00000002384a5c40 (    0x80) __AUTH_CONST __const
+                0x00000002384a5c40 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002384a5c60 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x00000002384a5c80 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x00000002384a5ca0 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002384a5cc0 (   0x120) __AUTH_CONST __cfstring
+            0x00000002384a5de0 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002384a5de0 (    0x48) _OBJC_METACLASS_RO_$_AXSafariSharedUIGlue [NameNList, MangledNameNList, NList] 
+                0x00000002384a5e28 (    0x48) _OBJC_METACLASS_RO_$_WBSFluidProgressControllerAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384a5e70 (    0x48) _OBJC_CLASS_RO_$_WBSFluidProgressControllerAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002384a5eb8 (    0x18) __AUTH_CONST __objc_intobj
+            0x00000002384a5ed0 (    0xc0) __AUTH_CONST __auth_got
+        0x0000000233650500 (    0xf0) __AUTH SEGMENT
+            0x0000000233650500 (    0xf0) __AUTH __objc_data
+                0x0000000233650500 (    0x28) OBJC_METACLASS_$_AXSafariSharedUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233650528 (    0x28) OBJC_CLASS_$_AXSafariSharedUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233650550 (    0x28) OBJC_METACLASS_$___WBSFluidProgressControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233650578 (    0x28) OBJC_CLASS_$___WBSFluidProgressControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336505a0 (    0x28) OBJC_CLASS_$_WBSFluidProgressControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336505c8 (    0x28) OBJC_METACLASS_$_WBSFluidProgressControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bad380 (    0x30) __DATA SEGMENT
+            0x0000000231bad380 (    0x20) __DATA __objc_classrefs
+            0x0000000231bad3a0 (     0x8) __DATA __objc_superrefs
+            0x0000000231bad3a8 (     0x8) __DATA __bss
+                0x0000000231bad3a8 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

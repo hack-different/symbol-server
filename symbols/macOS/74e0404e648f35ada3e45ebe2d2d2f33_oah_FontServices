@@ -1,0 +1,22 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/FontServices.framework/Versions/A/FontServices [arm64e, 0.023530 seconds]:
+    AD775AF3-44D6-3BBA-9443-17BA8B0963FA /System/Library/PrivateFrameworks/FontServices.framework/Versions/A/FontServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fbcd5000 (   0xffc) __TEXT SEGMENT
+            0x00000001fbcd5000 (   0xf50) MACH_HEADER
+            0x00000001fbcd5f50 (     0x8) __TEXT __text
+                0x00000001fbcd5f50 (     0x8) FSGetMaxSupportedFontAssetCompatibilityVersion [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fbcd5f58 (    0x40) __TEXT __const
+                0x00000001fbcd5f58 (    0x38) FontServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fbcd5f90 (     0x8) FontServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001fbcd5f98 (    0x1c) __TEXT __cstring
+            0x00000001fbcd5fb4 (    0x48) __TEXT __unwind_info
+        0x000000022e131718 (    0x10) __DATA_CONST SEGMENT
+            0x000000022e131718 (     0x8) __DATA_CONST __const
+                0x000000022e131718 (     0x8) kFSFontAssetType [EXT, NameNList, MangledNameNList, NList] 
+            0x000000022e131720 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000237071a20 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000237071a20 (    0x20) __AUTH_CONST __cfstring
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/HWAdapter.framework/Versions/A/HWAdapter [arm64e, 0.042410 seconds]:
+    41D8158B-30E9-3806-A83D-B969747BBC42 /System/Library/PrivateFrameworks/HWAdapter.framework/Versions/A/HWAdapter [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020160c000 (  0x4000) __TEXT SEGMENT
+            0x000000020160c000 (  0x3fc8) MACH_HEADER
+            0x000000020160ffc8 (    0x38) __TEXT __const
+                0x000000020160ffc8 (    0x30) HWAdapterVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020160fff8 (     0x8) HWAdapterVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/AvatarKitContent.framework/Versions/A/AvatarKitContent [arm64e, 0.026026 seconds]:
+    BA7B18D0-AD3D-327D-8A63-033BCE1E9C87 /System/Library/PrivateFrameworks/AvatarKitContent.framework/Versions/A/AvatarKitContent [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f5234000 (  0x4000) __TEXT SEGMENT
+            0x00000001f5234000 (  0x3fc0) MACH_HEADER
+            0x00000001f5237fc0 (    0x40) __TEXT __const
+                0x00000001f5237fc0 (    0x38) AvatarKitContentVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5237ff8 (     0x8) AvatarKitContentVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

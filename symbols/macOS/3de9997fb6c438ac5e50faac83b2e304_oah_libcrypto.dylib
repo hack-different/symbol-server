@@ -1,0 +1,63 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libcrypto.dylib [arm64e, 0.039584 seconds]:
+    E2FE0EBD-DDD7-3756-8A45-3A951C43B76E /usr/lib/libcrypto.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022074e000 (  0x4000) __TEXT SEGMENT
+            0x000000022074e000 (  0x34bc) MACH_HEADER
+            0x00000002207514bc (   0x518) __TEXT __text
+                0x00000002207514bc (   0x22c) __report_load [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002207516e8 (   0x1bc) ____report_load_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002207518a4 (    0x3c) __copy_helper_block_e8_32s40s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002207518e0 (    0x3c) __destroy_helper_block_e8_32s40s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022075191c (    0x34) __report_load.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220751950 (    0x84) __report_load.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002207519d4 (   0x110) __TEXT __auth_stubs
+                0x00000002207519d4 (    0x10) DYLD-STUB$$AnalyticsSendEventLazy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002207519e4 (    0x10) DYLD-STUB$$_NSGetExecutablePath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002207519f4 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a04 (    0x10) DYLD-STUB$$_os_log_fault_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a14 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a24 (    0x10) DYLD-STUB$$dyld_program_sdk_at_least [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a34 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a44 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a54 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a64 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a74 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a84 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751a94 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751aa4 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751ab4 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751ac4 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220751ad4 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000220751ae4 (     0x4) __TEXT __init_offsets
+            0x0000000220751ae8 (    0x40) __TEXT __const
+                0x0000000220751ae8 (    0x30) libcryptoVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751b18 (    0x10) libcryptoVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000220751b28 (   0x336) __TEXT __cstring
+            0x0000000220751e5e (     0xb) __TEXT __oslogstring
+            0x0000000220751e6c (    0x60) __TEXT __unwind_info
+            0x0000000220751ecc (    0x74) __TEXT __objc_methname
+            0x0000000220751f40 (    0xc0) __TEXT __objc_stubs
+                0x0000000220751f40 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751f60 (    0x20) objc_msgSend$infoDictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751f80 (    0x20) objc_msgSend$mainBundle [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751fa0 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751fc0 (    0x20) objc_msgSend$processInfo [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220751fe0 (    0x20) objc_msgSend$processName [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e8224a0 (    0xa0) __DATA_CONST SEGMENT
+            0x000000022e8224a0 (    0x18) __DATA_CONST __got
+            0x000000022e8224b8 (    0x50) __DATA_CONST __const
+            0x000000022e822508 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e822510 (    0x30) __DATA_CONST __objc_selrefs
+        0x0000000238280a68 (   0x1e0) __AUTH_CONST SEGMENT
+            0x0000000238280a68 (   0x120) __AUTH_CONST __cfstring
+            0x0000000238280b88 (    0x30) __AUTH_CONST __const
+                0x0000000238280b88 (    0x30) __block_descriptor_48_e8_32s40s_e19_"NSDictionary"8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238280bb8 (    0x90) __AUTH_CONST __auth_got
+        0x0000000231a1cba8 (    0x58) __DATA SEGMENT
+            0x0000000231a1cba8 (    0x18) __DATA __objc_classrefs
+            0x0000000231a1cbc0 (    0x40) __DATA __crash_info
+                0x0000000231a1cbc0 (    0x40) gCRAnnotations [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,67 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libcryptex_trampoline.dylib [arm64e, 0.031904 seconds]:
+    DAA6ABAD-1D6F-32D8-8F7B-C28E94E3D597 /usr/lib/libcryptex_trampoline.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022053d000 (  0x4000) __TEXT SEGMENT
+            0x000000022053d000 (  0x2e80) MACH_HEADER
+            0x000000022053fe80 (   0x780) __TEXT __text
+                0x000000022053fe80 (    0x64) cryptex_trampoline_upgrade_wait_options_create [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022053fee4 (    0x40) cryptex_trampoline_upgrade_wait_options_destroy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022053ff24 (    0xa8) cryptex_trampoline_upgrade_wait_options_set_cryptex_name [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022053ffcc (   0x2f4) cryptex_trampoline_upgrade_wait [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002205402c0 (    0x30) __cryptex_trampoline_osl_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002205402f0 (    0x30) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220540320 (    0x28) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220540348 (    0x78) sysctl_upgrade_is_ongoing [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002205403c0 (    0xe0) cryptex_trampoline_upgrade_wait_options_create.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002205404a0 (    0xb0) cryptex_trampoline_upgrade_wait_options_set_cryptex_name.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220540550 (    0xb0) cryptex_trampoline_upgrade_wait.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000220540600 (   0x110) __TEXT __auth_stubs
+                0x0000000220540600 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540610 (    0x10) DYLD-STUB$$__os_temporary_resource_shortage [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540620 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540630 (    0x10) DYLD-STUB$$_dispatch_is_multithreaded [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540640 (    0x10) DYLD-STUB$$_os_crash_msg [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540650 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540660 (    0x10) DYLD-STUB$$_os_log_send_and_compose_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540670 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540680 (    0x10) DYLD-STUB$$cryptex_trampoline_upgrade_interface_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540690 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406a0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406b0 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406c0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406d0 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406e0 (    0x10) DYLD-STUB$$strerror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002205406f0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220540700 (    0x10) DYLD-STUB$$sysctlbyname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000220540710 (    0x58) __TEXT __const
+                0x0000000220540710 (    0x40) libcryptex_trampolineVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220540750 (     0x8) libcryptex_trampolineVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220540758 (     0x8) __darwin_builder_version [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000220540760 (     0x8) __darwin_builder_build [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000220540768 (   0x225) __TEXT __cstring
+            0x000000022054098d (   0x104) __TEXT __oslogstring
+            0x0000000220540a91 (   0x4f9) __TEXT __info_plist
+                0x0000000220540a91 (   0x4f9) __darwin_info_plist [NameNList, MangledNameNList, NList] 
+            0x0000000220540f8c (    0x74) __TEXT __unwind_info
+        0x000000022e7fdab0 (    0x30) __DATA_CONST SEGMENT
+            0x000000022e7fdab0 (    0x10) __DATA_CONST __got
+            0x000000022e7fdac0 (    0x20) __DATA_CONST __const
+                0x000000022e7fdac0 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+        0x0000000238274a78 (    0xa8) __AUTH_CONST SEGMENT
+            0x0000000238274a78 (    0x20) __AUTH_CONST __const
+                0x0000000238274a78 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x0000000238274a98 (    0x88) __AUTH_CONST __auth_got
+        0x0000000231a0e2d8 (    0x38) __DATA SEGMENT
+            0x0000000231a0e2d8 (    0x28) __DATA __data
+                0x0000000231a0e2d8 (     0x8) __darwin_build_inc_version [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231a0e2e0 (     0x8) __darwin_version_string [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231a0e2e8 (     0x8) __darwin_variant [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231a0e2f0 (     0x8) __darwin_version_string_heywhat [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231a0e2f8 (     0x8) __darwin_debug_binary [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231a0e300 (    0x10) __DATA __bss
+                0x0000000231a0e300 (     0x8) cryptex_trampoline_osl.trampoline_log [NameNList, MangledNameNList, NList] 
+                0x0000000231a0e308 (     0x8) cryptex_trampoline_osl.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,40 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libVIQR.dylib [arm64e, 0.026543 seconds]:
+    444855B7-3417-395D-807E-873B5D1A4043 /usr/lib/i18n/libVIQR.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff8f000 (  0x4000) __TEXT SEGMENT
+            0x000000021ff8f000 (  0x362c) MACH_HEADER
+            0x000000021ff9262c (   0x720) __TEXT __text
+                0x000000021ff9262c (   0x1e8) _citrus_VIQR_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92814 (    0x48) _citrus_VIQR_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9285c (    0x90) _citrus_VIQR_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff928ec (    0x2c) _citrus_VIQR_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92918 (    0x48) _citrus_VIQR_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92960 (     0x8) _citrus_VIQR_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92968 (    0x24) _citrus_VIQR_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9298c (    0x28) _citrus_VIQR_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff929b4 (    0x30) _citrus_VIQR_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff929e4 (    0x4c) mnemonic_destroy [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92a30 (   0x1a8) _citrus_VIQR_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff92bd8 (   0x174) _citrus_VIQR_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff92d4c (    0x70) __TEXT __auth_stubs
+                0x000000021ff92d4c (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92d5c (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92d6c (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92d7c (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92d8c (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92d9c (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff92dac (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff92dbc (   0x1ce) __TEXT __cstring
+            0x000000021ff92f8c (    0x74) __TEXT __unwind_info
+        0x000000022e7f0da0 (   0x800) __DATA_CONST SEGMENT
+            0x000000022e7f0da0 (   0x800) __DATA_CONST __const
+                0x000000022e7f0da0 (   0x800) mnemonic_rfc1456 [NameNList, MangledNameNList, NList] 
+        0x0000000238249d50 (    0x38) __AUTH_CONST SEGMENT
+            0x0000000238249d50 (    0x38) __AUTH_CONST __auth_got
+        0x00000002332f3ee0 (    0x58) __AUTH SEGMENT
+            0x00000002332f3ee0 (    0x58) __AUTH __data
+                0x00000002332f3ee0 (    0x58) _citrus_VIQR_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

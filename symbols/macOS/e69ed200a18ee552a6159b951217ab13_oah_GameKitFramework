@@ -1,0 +1,78 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/GameKitFramework.axbundle/Contents/MacOS/GameKitFramework [arm64e, 0.027789 seconds]:
+    D39C74B1-99F8-3BB0-9838-518CFDE85A50 /System/iOSSupport/System/Library/AccessibilityBundles/GameKitFramework.axbundle/Contents/MacOS/GameKitFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002231e5000 (  0x2000) __TEXT SEGMENT
+            0x00000002231e5000 (  0x174c) MACH_HEADER
+            0x00000002231e674c (   0x344) __TEXT __text
+                0x00000002231e674c (    0x98) AXGameCenterUIFrameworkLocString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e67e4 (    0x84) __AXGameCenterUIFrameworkLocString_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e6868 (    0x28) +[AXGameKitFrameworkGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e6890 (    0x64) __55+[AXGameKitFrameworkGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e68f4 (   0x144) __55+[AXGameKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e6a38 (    0x54) __55+[AXGameKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231e6a8c (     0x4) __55+[AXGameKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231e6a90 (    0xb0) __TEXT __auth_stubs
+                0x00000002231e6a90 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6aa0 (    0x10) DYLD-STUB$$AXSystemGetAccessibilityBundlesDirectoryPath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6ab0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6ac0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6ad0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6ae0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6af0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6b00 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6b10 (    0x10) DYLD-STUB$$objc_release_x9 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6b20 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231e6b30 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231e6b40 (    0x14) __TEXT __objc_methlist
+                0x00000002231e6b40 (    0x14) _OBJC_$_CLASS_METHODS_AXGameKitFrameworkGlue [NameNList, MangledNameNList, NList] 
+            0x00000002231e6b54 (   0x153) __TEXT __cstring
+            0x00000002231e6ca8 (    0x68) __TEXT __unwind_info
+            0x00000002231e6d10 (    0x17) __TEXT __objc_classname
+            0x00000002231e6d28 (   0x18b) __TEXT __objc_methname
+            0x00000002231e6eb3 (     0x8) __TEXT __objc_methtype
+            0x00000002231e6ec0 (   0x140) __TEXT __objc_stubs
+                0x00000002231e6ec0 (    0x20) objc_msgSend$bundleWithPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6ee0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6f00 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6f20 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6f40 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6f60 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6f80 (    0x20) objc_msgSend$stringByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6fa0 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6fc0 (    0x20) objc_msgSend$validateClass:hasClassMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231e6fe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238415638 (   0x110) __DATA_CONST SEGMENT
+            0x0000000238415638 (    0x60) __DATA_CONST __const
+                0x0000000238415638 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238415658 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238415678 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238415698 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002384156a0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002384156a8 (    0x48) __DATA_CONST __objc_const
+                0x00000002384156a8 (    0x48) _OBJC_CLASS_RO_$_AXGameKitFrameworkGlue [NameNList, MangledNameNList, NList] 
+            0x00000002384156f0 (    0x58) __DATA_CONST __objc_selrefs
+        0x0000000238415748 (   0x368) __AUTH_CONST SEGMENT
+            0x0000000238415748 (    0xa0) __AUTH_CONST __const
+                0x0000000238415748 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238415768 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238415788 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x00000002384157a8 (    0x20) __block_literal_global.255 [NameNList, MangledNameNList, NList] 
+                0x00000002384157c8 (    0x20) __block_literal_global.264 [NameNList, MangledNameNList, NList] 
+            0x00000002384157e8 (   0x220) __AUTH_CONST __cfstring
+            0x0000000238415a08 (    0x48) __AUTH_CONST __objc_const
+                0x0000000238415a08 (    0x48) _OBJC_METACLASS_RO_$_AXGameKitFrameworkGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238415a50 (    0x60) __AUTH_CONST __auth_got
+        0x000000023362c5b0 (    0x50) __AUTH SEGMENT
+            0x000000023362c5b0 (    0x50) __AUTH __objc_data
+                0x000000023362c5b0 (    0x28) OBJC_METACLASS_$_AXGameKitFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c5d8 (    0x28) OBJC_CLASS_$_AXGameKitFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231baa160 (    0x28) __DATA SEGMENT
+            0x0000000231baa160 (    0x10) __DATA __objc_classrefs
+            0x0000000231baa170 (    0x18) __DATA __bss
+                0x0000000231baa170 (     0x8) AXGameCenterUIFrameworkLocString.bundle [NameNList, MangledNameNList, NList] 
+                0x0000000231baa178 (     0x8) AXGameCenterUIFrameworkLocString.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000231baa180 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

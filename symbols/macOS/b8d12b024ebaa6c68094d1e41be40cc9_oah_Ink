@@ -1,0 +1,47 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink [arm64e, 0.212231 seconds]:
+    EDD75795-73FD-3406-A8B8-428CD2AE8B7F /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000019c1c2000 (  0x4000) __TEXT SEGMENT
+            0x000000019c1c2000 (  0x3e84) MACH_HEADER
+            0x000000019c1c5e84 (   0x104) __TEXT __text
+                0x000000019c1c5e84 (    0x38) InkTextGetTypeID [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5ebc (    0x38) InkStrokeGetTypeID [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5ef4 (     0xc) InkUserWritingMode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f00 (     0x4) InkSetApplicationWritingMode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f04 (     0x4) InkSetApplicationRecognitionMode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f08 (     0x4) InkSetPhraseTerminationMode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f0c (     0x8) InkIsPhraseInProgress [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f14 (     0x4) InkSetDrawingMode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f18 (     0x4) InkAddStrokeToCurrentPhrase [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f1c (     0x4) InkTerminateCurrentPhrase [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f20 (     0x8) InkTextAlternatesCount [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f28 (     0x8) InkTextCreateCFString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f30 (     0x8) InkTextKeyModifiers [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f38 (     0x8) InkTextCopy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f40 (    0x14) InkTextBounds [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f54 (     0x4) InkTextDraw [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f58 (     0x8) InkTextFlatten [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f60 (     0x8) InkTextCreateFromCFData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f68 (     0x8) InkTextGetStrokeCount [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f70 (     0x8) InkTextGetStroke [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f78 (     0x8) InkStrokeGetPointCount [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019c1c5f80 (     0x8) InkStrokeGetPoints [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000019c1c5f88 (    0x10) __TEXT __auth_stubs
+                0x000000019c1c5f88 (    0x10) DYLD-STUB$$_CFRuntimeRegisterClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000019c1c5f98 (    0x18) __TEXT __cstring
+            0x000000019c1c5fb0 (    0x50) __TEXT __unwind_info
+        0x00000001d3b0d0c8 (    0xc8) __DATA_CONST SEGMENT
+            0x00000001d3b0d0c8 (     0x8) __DATA_CONST __got
+            0x00000001d3b0d0d0 (    0xc0) __DATA_CONST __const
+                0x00000001d3b0d0d0 (    0x60) __InkTextRef [NameNList, MangledNameNList, NList] 
+                0x00000001d3b0d130 (    0x60) __InkStrokeRef [NameNList, MangledNameNList, NList] 
+        0x00000001dce82028 (     0x8) __AUTH_CONST SEGMENT
+            0x00000001dce82028 (     0x8) __AUTH_CONST __auth_got
+        0x00000001d5f3f818 (    0x10) __DATA SEGMENT
+            0x00000001d5f3f818 (    0x10) __DATA __bss
+                0x00000001d5f3f818 (     0x8) gInkTextCFTypeID [NameNList, MangledNameNList, NList] 
+                0x00000001d5f3f820 (     0x8) gInkStrokeCFTypeID [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

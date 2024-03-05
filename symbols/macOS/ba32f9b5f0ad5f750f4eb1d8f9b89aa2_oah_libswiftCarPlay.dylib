@@ -1,0 +1,35 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/usr/lib/swift/libswiftCarPlay.dylib [arm64e, 0.026188 seconds]:
+    65ECE580-1B17-3798-9603-A5BEE4787555 /System/iOSSupport/usr/lib/swift/libswiftCarPlay.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8ca000 (  0x1000) __TEXT SEGMENT
+            0x000000022d8ca000 (   0xffe) MACH_HEADER
+            0x000000022d8caffe (     0x2) __TEXT __const
+                0x000000022d8caffe (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e8571c0 (    0x98) __DATA_CONST SEGMENT
+            0x000000022e8571c0 (    0x90) __DATA_CONST __const
+                0x000000022e8571c0 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571c8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571d0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571d8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571e0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571e8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571f0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8571f8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857200 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857208 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857210 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857218 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857220 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857228 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857230 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857238 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857240 (     0x8) _swift_FORCE_LOAD_$_swiftMapKit_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857248 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_CarPlay [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e857250 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000231e86a42 (     0x1) __DATA SEGMENT
+            0x0000000231e86a42 (     0x1) __DATA __common
+                0x0000000231e86a42 (     0x1) _swift_FORCE_LOAD_$_swiftCarPlay [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,8 +1,0 @@
-/System/Library/PrivateFrameworks/FoundInAppsPlugins.framework/Versions/A/FoundInAppsPlugins [arm64e, 0.034023 seconds]:
-    682885DB-A67C-31C3-998A-F6AAF96DD65B /System/Library/PrivateFrameworks/FoundInAppsPlugins.framework/Versions/A/FoundInAppsPlugins [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x0000000195d1b000 (  0x1000) __TEXT SEGMENT
-            0x0000000195d1b000 (   0xfb8) MACH_HEADER
-            0x0000000195d1bfb8 (    0x48) __TEXT __const
-                0x0000000195d1bfb8 (    0x40) FoundInAppsPluginsVersionString [EXT, NameNList, MangledNameNList, NList] 
-                0x0000000195d1bff8 (     0x8) FoundInAppsPluginsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

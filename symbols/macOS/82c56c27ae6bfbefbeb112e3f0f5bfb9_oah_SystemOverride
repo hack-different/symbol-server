@@ -1,0 +1,78 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/SystemOverride.framework/Versions/A/SystemOverride [arm64e, 0.025290 seconds]:
+    6C515E6D-C2BB-3219-A218-CEEFCE3BABEB /System/Library/PrivateFrameworks/SystemOverride.framework/Versions/A/SystemOverride [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000213a9d000 (  0x4000) __TEXT SEGMENT
+            0x0000000213a9d000 (  0x327c) MACH_HEADER
+            0x0000000213aa027c (   0x69c) __TEXT __text
+                0x0000000213aa027c (    0xcc) +[SystemOverride getSystemOverrideForKey:mountPoint:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa0348 (    0x94) assert_valid_key [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa03dc (    0x7c) get_system_overrides [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa0458 (    0x80) +[SystemOverride getSystemOverrideForKey:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa04d8 (    0xd0) +[SystemOverride setSystemOverrideValue:forKey:mountPoint:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa05a8 (    0x9c) set_system_overrides [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa0644 (    0x88) +[SystemOverride setSystemOverrideValue:forKey:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa06cc (    0x88) +[SystemOverride validSystemOverrideKeys] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa0754 (   0x168) +[SystemOverride resetSystemOverridesForMountPoint:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000213aa08bc (    0x5c) +[SystemOverride resetSystemOverrides] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000213aa0918 (    0x70) __TEXT __auth_stubs
+                0x0000000213aa0918 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0928 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0938 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0948 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0958 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0968 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0978 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000213aa0988 (    0x5c) __TEXT __objc_methlist
+                0x0000000213aa0988 (    0x5c) _OBJC_$_CLASS_METHODS_SystemOverride [NameNList, MangledNameNList, NList] 
+            0x0000000213aa09e8 (    0x50) __TEXT __const
+                0x0000000213aa09e8 (    0x48) SystemOverrideVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0a30 (     0x8) SystemOverrideVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000213aa0a38 (    0xb0) __TEXT __cstring
+            0x0000000213aa0ae8 (    0x68) __TEXT __unwind_info
+            0x0000000213aa0b50 (     0xf) __TEXT __objc_classname
+            0x0000000213aa0b60 (   0x214) __TEXT __objc_methname
+            0x0000000213aa0d74 (    0x48) __TEXT __objc_methtype
+            0x0000000213aa0dc0 (   0x240) __TEXT __objc_stubs
+                0x0000000213aa0dc0 (    0x20) objc_msgSend$arrayWithObjects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0de0 (    0x20) objc_msgSend$boolValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0e00 (    0x20) objc_msgSend$containsObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0e20 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0e40 (    0x20) objc_msgSend$dictionaryWithContentsOfURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0e60 (    0x20) objc_msgSend$fileURLWithPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0e80 (    0x20) objc_msgSend$fileURLWithPath:isDirectory:relativeToURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0ea0 (    0x20) objc_msgSend$getSystemOverrideForKey:mountPoint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0ec0 (    0x20) objc_msgSend$numberWithBool: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0ee0 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0f00 (    0x20) objc_msgSend$path [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0f20 (    0x20) objc_msgSend$raise:format: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0f40 (    0x20) objc_msgSend$resetSystemOverridesForMountPoint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0f60 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0f80 (    0x20) objc_msgSend$setSystemOverrideValue:forKey:mountPoint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0fa0 (    0x20) objc_msgSend$setValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0fc0 (    0x20) objc_msgSend$validSystemOverrideKeys [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000213aa0fe0 (    0x20) objc_msgSend$writeToFile:atomically: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237ebb310 (   0x128) __DATA_CONST SEGMENT
+            0x0000000237ebb310 (    0x18) __DATA_CONST __got
+            0x0000000237ebb328 (    0x10) __DATA_CONST __const
+                0x0000000237ebb328 (     0x8) kSOLegacyCameraPluginsWithoutSWCameraIndication [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237ebb330 (     0x8) kSOSuppressSWCameraIndicationOnExternalDisplays [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000237ebb338 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237ebb340 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237ebb348 (    0x48) __DATA_CONST __objc_const
+                0x0000000237ebb348 (    0x48) _OBJC_CLASS_RO_$_SystemOverride [NameNList, MangledNameNList, NList] 
+            0x0000000237ebb390 (    0xa8) __DATA_CONST __objc_selrefs
+        0x0000000237ebb438 (   0x128) __AUTH_CONST SEGMENT
+            0x0000000237ebb438 (    0xa0) __AUTH_CONST __cfstring
+            0x0000000237ebb4d8 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237ebb4d8 (    0x48) _OBJC_METACLASS_RO_$_SystemOverride [NameNList, MangledNameNList, NList] 
+            0x0000000237ebb520 (    0x40) __AUTH_CONST __auth_got
+        0x0000000232e7dcd8 (    0x50) __AUTH SEGMENT
+            0x0000000232e7dcd8 (    0x50) __AUTH __objc_data
+                0x0000000232e7dcd8 (    0x28) OBJC_METACLASS_$_SystemOverride [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232e7dd00 (    0x28) OBJC_CLASS_$_SystemOverride [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002316f25d8 (    0x30) __DATA SEGMENT
+            0x00000002316f25d8 (    0x30) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

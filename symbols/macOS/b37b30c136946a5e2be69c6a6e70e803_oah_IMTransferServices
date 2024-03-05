@@ -1,0 +1,150 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/IMTransferServices.framework/Versions/A/IMTransferServices [arm64e, 0.170841 seconds]:
+    C4943374-D849-3A17-BD43-3F1F4ED6545F /System/Library/PrivateFrameworks/IMTransferServices.framework/Versions/A/IMTransferServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c92e6000 (  0x9000) __TEXT SEGMENT
+            0x00000001c92e6000 (  0x1de8) MACH_HEADER
+            0x00000001c92e7de8 (  0x4d30) __TEXT __text
+                0x00000001c92e7de8 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e7e2c (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e7e54 (    0x98) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e7eec (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e7f58 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e7fc0 (   0x3a0) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e8360 (   0x10c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e846c (   0x2d0) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e873c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e8780 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e87a8 (   0x7a8) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e8f50 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e8f60 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e8f6c (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9028 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9038 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9044 (   0x19c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e91e0 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9230 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9274 (   0x4f4) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9768 (    0xd0) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9838 (    0xa4) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e98dc (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9918 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e9950 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92e997c (   0x708) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea084 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea140 (   0x19c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea2dc (   0x374) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea650 (    0xf0) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea740 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea7fc (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea83c (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ea878 (   0x2a8) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eab20 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eab70 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eab74 (   0x314) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eae88 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eaed8 (   0x128) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb000 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb014 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb03c (   0x464) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb4a0 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb4f0 (   0x128) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb618 (   0x310) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb928 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb994 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb9a8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb9b8 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001c92eb9c4 (   0x418) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ebddc (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ebe2c (   0x128) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ebf54 (   0x3e0) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ec334 (   0x378) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ec6ac (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ec6fc (   0x128) (null) [FUNC, FunctionStarts] 
+                0x00000001c92ec824 (   0x2f4) (null) [FUNC, FunctionStarts] 
+            0x00000001c92ecb18 (   0x300) __TEXT __auth_stubs
+                0x00000001c92ecb18 (    0x10) DYLD-STUB$$IMGetXPCBoolFromDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb28 (    0x10) DYLD-STUB$$IMGetXPCCodableFromDictionaryWithStandardAllowlist [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb38 (    0x10) DYLD-STUB$$IMGetXPCDataFromDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb48 (    0x10) DYLD-STUB$$IMGetXPCIntFromDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb58 (    0x10) DYLD-STUB$$IMGetXPCKeyedCodableFromDictionaryWithSecureCoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb68 (    0x10) DYLD-STUB$$IMGetXPCStringFromDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb78 (    0x10) DYLD-STUB$$IMInsertBoolsToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb88 (    0x10) DYLD-STUB$$IMInsertDatasToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecb98 (    0x10) DYLD-STUB$$IMInsertDictionariesToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecba8 (    0x10) DYLD-STUB$$IMInsertKeyedCodableObjectsToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecbb8 (    0x10) DYLD-STUB$$IMInsertNSStringsToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecbc8 (    0x10) DYLD-STUB$$IMInsertStringsToXPCDictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecbd8 (    0x10) DYLD-STUB$$IMOSLoggingEnabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecbe8 (    0x10) DYLD-STUB$$IMReportAutoBugCapture [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecbf8 (    0x10) DYLD-STUB$$IMWeakLinkClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc08 (    0x10) DYLD-STUB$$IMXPCConfigureConnection [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc18 (    0x10) DYLD-STUB$$IMXPCCreateConnectionForServiceWithQueue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc28 (    0x10) DYLD-STUB$$OSLogHandleForIMFoundationCategory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc38 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc48 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc58 (    0x10) DYLD-STUB$$_IMWillLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc68 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc78 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc88 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecc98 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecca8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92eccb8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92eccc8 (    0x10) DYLD-STUB$$im_primary_queue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92eccd8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecce8 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92eccf8 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd08 (    0x10) DYLD-STUB$$objc_begin_catch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd18 (    0x10) DYLD-STUB$$objc_end_catch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd28 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd38 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd48 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd58 (    0x10) DYLD-STUB$$sandbox_extension_issue_file [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd68 (    0x10) DYLD-STUB$$xpc_connection_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd78 (    0x10) DYLD-STUB$$xpc_connection_get_pid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd88 (    0x10) DYLD-STUB$$xpc_connection_send_message [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecd98 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecda8 (    0x10) DYLD-STUB$$xpc_copy_description [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecdb8 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecdc8 (    0x10) DYLD-STUB$$xpc_dictionary_get_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecdd8 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecde8 (    0x10) DYLD-STUB$$xpc_dictionary_set_uint64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ecdf8 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c92ece08 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c92ece18 (   0x13c) __TEXT __objc_methlist
+            0x00000001c92ecf58 (    0x58) __TEXT __const
+            0x00000001c92ecfb0 (   0x598) __TEXT __gcc_except_tab
+            0x00000001c92ed548 (   0x40b) __TEXT __cstring
+            0x00000001c92ed953 (   0x77c) __TEXT __oslogstring
+            0x00000001c92ee0d0 (   0x1d8) __TEXT __unwind_info
+            0x00000001c92ee2a8 (    0x45) __TEXT __objc_classname
+            0x00000001c92ee2ee (   0x76b) __TEXT __objc_methname
+            0x00000001c92eea59 (   0x1a2) __TEXT __objc_methtype
+            0x00000001c92eec00 (   0x400) __TEXT __objc_stubs
+        0x00000001df97b190 (   0x240) __DATA_CONST SEGMENT
+            0x00000001df97b190 (    0x48) __DATA_CONST __got
+            0x00000001df97b1d8 (    0x48) __DATA_CONST __const
+                0x00000001df97b218 (     0x8) IMTransferServicesErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001df97b220 (    0x10) __DATA_CONST __objc_classlist
+            0x00000001df97b230 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001df97b238 (    0x28) __DATA_CONST __objc_const
+            0x00000001df97b260 (   0x170) __DATA_CONST __objc_selrefs
+        0x00000001df97b3d0 (   0x570) __AUTH_CONST SEGMENT
+            0x00000001df97b3d0 (   0x180) __AUTH_CONST __const
+            0x00000001df97b550 (   0x140) __AUTH_CONST __cfstring
+            0x00000001df97b690 (   0x120) __AUTH_CONST __objc_const
+            0x00000001df97b7b0 (   0x190) __AUTH_CONST __auth_got
+        0x00000001d7e6e5d8 (    0xa0) __AUTH SEGMENT
+            0x00000001d7e6e5d8 (    0xa0) __AUTH __objc_data
+                0x00000001d7e6e5d8 (    0x28) OBJC_CLASS_$_IMTransferServicesCompressionController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d7e6e600 (    0x28) OBJC_CLASS_$_IMTransferServicesController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d7e6e628 (    0x28) OBJC_METACLASS_$_IMTransferServicesCompressionController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d7e6e650 (    0x28) OBJC_METACLASS_$_IMTransferServicesController [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d69945f0 (    0x68) __DATA SEGMENT
+            0x00000001d69945f0 (    0x40) __DATA __objc_classrefs
+            0x00000001d6994630 (     0x4) __DATA __objc_ivar
+                0x00000001d6994630 (     0x4) OBJC_IVAR_$_IMTransferServicesCompressionController._blockMap [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001d6994638 (    0x20) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

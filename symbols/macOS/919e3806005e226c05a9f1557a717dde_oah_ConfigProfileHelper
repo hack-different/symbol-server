@@ -1,0 +1,139 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/ConfigProfileHelper.framework/Versions/A/ConfigProfileHelper [arm64e, 0.029089 seconds]:
+    30FB6FEF-3865-3978-BDE5-368A4C55D287 /System/Library/PrivateFrameworks/ConfigProfileHelper.framework/Versions/A/ConfigProfileHelper [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e60a7000 (  0x4000) __TEXT SEGMENT
+            0x00000001e60a7000 (  0x23f4) MACH_HEADER
+            0x00000001e60a93f4 (  0x1394) __TEXT __text
+                0x00000001e60a93f4 (   0x370) CPValidateProvisioningDictionariesExtViaBridge [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9764 (    0x30) __ourlog_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9794 (    0x1c) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a97b0 (    0x14) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a97c4 (    0x14) OUTLINED_FUNCTION_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a97d8 (   0x4fc) XSCHelperAgentPerformCommandAsync [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9cd4 (    0x5c) __XSCHelperAgentPerformCommandAsync_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9d30 (    0x60) __copy_helper_block_8_32b40r48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9d90 (    0x50) __destroy_helper_block_8_32b40r48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9de0 (     0x4) __XSCHelperAgentPerformCommandAsync_block_invoke.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9de4 (    0xa8) XSCHelperAgentSerializeRequest [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60a9e8c (   0x240) __XSCHelperAgentPerformCommandAsync_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa0cc (   0x108) XSCHelperAgentDeserializeReply [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa1d4 (    0x50) __copy_helper_block_8_32r40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa224 (    0x44) __destroy_helper_block_8_32r40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa268 (    0x68) __XSCHelperAgentPerformCommandAsync_block_invoke.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa2d0 (    0x10) __copy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa2e0 (     0xc) __destroy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa2ec (     0x8) __XSCHelperAgentPerformCommandAsync_block_invoke.8 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa2f4 (    0x3c) __XSCHelperAgentPerformCommandAsync_block_invoke_2.10 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa330 (   0x138) XSCHelperAgentPerformCommand [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa468 (    0x20) __XSCHelperAgentPerformCommand_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa488 (    0x80) CPValidateProvisioningDictionariesExtViaBridge.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa508 (    0x78) CPValidateProvisioningDictionariesExtViaBridge.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa580 (    0x68) CPValidateProvisioningDictionariesExtViaBridge.cold.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa5e8 (    0x98) CPValidateProvisioningDictionariesExtViaBridge.cold.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa680 (    0xa0) CPValidateProvisioningDictionariesExtViaBridge.cold.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e60aa720 (    0x68) CPValidateProvisioningDictionariesExtViaBridge.cold.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001e60aa788 (   0x3d0) __TEXT __auth_stubs
+                0x00000001e60aa788 (    0x10) DYLD-STUB$$AuthorizationMakeExternalForm [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa798 (    0x10) DYLD-STUB$$CFDataCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7a8 (    0x10) DYLD-STUB$$CFDataGetBytePtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7b8 (    0x10) DYLD-STUB$$CFDataGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7c8 (    0x10) DYLD-STUB$$CFDictionaryCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7d8 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7e8 (    0x10) DYLD-STUB$$CFErrorCopyDescription [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa7f8 (    0x10) DYLD-STUB$$CFErrorCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa808 (    0x10) DYLD-STUB$$CFNumberGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa818 (    0x10) DYLD-STUB$$CFPropertyListCreateData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa828 (    0x10) DYLD-STUB$$CFPropertyListCreateWithData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa838 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa848 (    0x10) DYLD-STUB$$CFStringCreateWithCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa858 (    0x10) DYLD-STUB$$CFStringGetCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa868 (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa878 (    0x10) DYLD-STUB$$CFStringGetMaximumSizeForEncoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa888 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa898 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8a8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8b8 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8c8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8d8 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8e8 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa8f8 (    0x10) DYLD-STUB$$dispatch_group_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa908 (    0x10) DYLD-STUB$$dispatch_group_enter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa918 (    0x10) DYLD-STUB$$dispatch_group_leave [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa928 (    0x10) DYLD-STUB$$dispatch_group_notify [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa938 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa948 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa958 (    0x10) DYLD-STUB$$dispatch_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa968 (    0x10) DYLD-STUB$$dispatch_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa978 (    0x10) DYLD-STUB$$dispatch_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa988 (    0x10) DYLD-STUB$$dispatch_semaphore_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa998 (    0x10) DYLD-STUB$$dispatch_semaphore_signal [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9a8 (    0x10) DYLD-STUB$$dispatch_semaphore_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9b8 (    0x10) DYLD-STUB$$dispatch_source_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9c8 (    0x10) DYLD-STUB$$dispatch_source_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9d8 (    0x10) DYLD-STUB$$dispatch_source_set_cancel_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9e8 (    0x10) DYLD-STUB$$dispatch_source_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aa9f8 (    0x10) DYLD-STUB$$dispatch_source_set_timer [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa08 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa18 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa28 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa38 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa48 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa58 (    0x10) DYLD-STUB$$xpc_connection_cancel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa68 (    0x10) DYLD-STUB$$xpc_connection_create_mach_service [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa78 (    0x10) DYLD-STUB$$xpc_connection_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa88 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaa98 (    0x10) DYLD-STUB$$xpc_connection_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaaa8 (    0x10) DYLD-STUB$$xpc_data_get_bytes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaab8 (    0x10) DYLD-STUB$$xpc_data_get_length [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaac8 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaad8 (    0x10) DYLD-STUB$$xpc_dictionary_get_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaae8 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaaf8 (    0x10) DYLD-STUB$$xpc_dictionary_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aab08 (    0x10) DYLD-STUB$$xpc_dictionary_set_data [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aab18 (    0x10) DYLD-STUB$$xpc_dictionary_set_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aab28 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aab38 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e60aab48 (    0x10) DYLD-STUB$$xpc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e60aab58 (   0x21c) __TEXT __cstring
+            0x00000001e60aad74 (    0xd9) __TEXT __oslogstring
+            0x00000001e60aae50 (    0x20) __TEXT __const
+            0x00000001e60aae70 (    0x98) __TEXT __unwind_info
+            0x00000001e60aaf08 (    0x53) __TEXT __objc_methname
+            0x00000001e60aaf60 (    0xa0) __TEXT __objc_stubs
+                0x00000001e60aaf60 (    0x20) objc_msgSend$boolValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e60aaf80 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e60aafa0 (    0x20) objc_msgSend$dictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e60aafc0 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e60aafe0 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022dfec598 (   0x118) __DATA_CONST SEGMENT
+            0x000000022dfec598 (    0x60) __DATA_CONST __got
+            0x000000022dfec5f8 (    0x88) __DATA_CONST __const
+                0x000000022dfec5f8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022dfec618 (     0x8) XSCHelperAgentErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022dfec620 (    0x20) __block_descriptor_tmp.4 [NameNList, MangledNameNList, NList] 
+                0x000000022dfec640 (    0x20) __block_descriptor_tmp.9 [NameNList, MangledNameNList, NList] 
+                0x000000022dfec660 (    0x20) __block_descriptor_tmp.11 [NameNList, MangledNameNList, NList] 
+            0x000000022dfec680 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022dfec688 (    0x28) __DATA_CONST __objc_selrefs
+        0x000000023638a600 (   0x410) __AUTH_CONST SEGMENT
+            0x000000023638a600 (   0x120) __AUTH_CONST __cfstring
+            0x000000023638a720 (   0x100) __AUTH_CONST __const
+                0x000000023638a720 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023638a740 (    0x30) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+                0x000000023638a770 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023638a790 (    0x30) __block_descriptor_tmp.5 [NameNList, MangledNameNList, NList] 
+                0x000000023638a7c0 (    0x30) __block_descriptor_tmp.7 [NameNList, MangledNameNList, NList] 
+                0x000000023638a7f0 (    0x30) __block_descriptor_tmp.15 [NameNList, MangledNameNList, NList] 
+            0x000000023638a820 (   0x1f0) __AUTH_CONST __auth_got
+        0x0000000230877920 (    0x28) __DATA SEGMENT
+            0x0000000230877920 (     0x8) __DATA __objc_classrefs
+            0x0000000230877928 (    0x10) __DATA __data
+                0x0000000230877928 (     0x8) CPValidateProvisioningDictionariesKeySuccess [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000230877930 (     0x8) CPValidateProvisioningDictionariesKeyVerifiedUsingUPP [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000230877938 (    0x10) __DATA __bss
+                0x0000000230877938 (     0x8) ourlog.gLog [NameNList, MangledNameNList, NList] 
+                0x0000000230877940 (     0x8) ourlog.gOnce [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

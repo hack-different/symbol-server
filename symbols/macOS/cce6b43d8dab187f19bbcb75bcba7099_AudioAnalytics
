@@ -1,8 +1,0 @@
-/System/Library/PrivateFrameworks/AudioAnalytics.framework/Versions/A/AudioAnalytics [arm64e, 0.028697 seconds]:
-    6995170B-8226-35C2-A660-861524283E93 /System/Library/PrivateFrameworks/AudioAnalytics.framework/Versions/A/AudioAnalytics [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001f4e8f000 (  0x4000) __TEXT SEGMENT
-            0x00000001f4e8f000 (  0x3fc0) MACH_HEADER
-            0x00000001f4e92fc0 (    0x40) __TEXT __const
-                0x00000001f4e92fc0 (    0x38) AudioAnalyticsVersionString [EXT, NameNList, MangledNameNList, NList] 
-                0x00000001f4e92ff8 (     0x8) AudioAnalyticsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

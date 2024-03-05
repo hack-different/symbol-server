@@ -1,0 +1,13 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF [arm64e, 0.096263 seconds]:
+    10ED075A-B9A5-3C63-91AE-165BE169EAF9 /System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001a3fdd000 (  0x1000) __TEXT SEGMENT
+            0x00000001a3fdd000 (  0x1000) MACH_HEADER
+        0x00000001d3b21ea8 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3b21ea8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000001d6078e68 (     0x8) __DATA SEGMENT
+            0x00000001d6078e68 (     0x8) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

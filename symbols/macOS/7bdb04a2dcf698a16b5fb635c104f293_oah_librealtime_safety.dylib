@@ -1,0 +1,53 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/librealtime_safety.dylib [arm64e, 0.763191 seconds]:
+    EC582FE3-EB40-323B-A7D5-8CF0F3E021F0 /usr/lib/librealtime_safety.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221258000 (  0x4000) __TEXT SEGMENT
+            0x0000000221258000 (  0x368c) MACH_HEADER
+            0x000000022125b68c (   0x6d4) __TEXT __text
+                0x000000022125b68c (    0x74) realtime_runtime_check_crash [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125b700 (    0x54) per_thread_key [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125b754 (    0xb0) realtime_runtime_check_start [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125b804 (    0xc8) realtime_runtime_check_stop [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125b8cc (    0xd4) realtime_runtime_check_push_authorization [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125b9a0 (    0xf0) realtime_runtime_check_pop_authorization [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125ba90 (    0x64) realtime_runtime_checker_get_current_thread_storage [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125baf4 (    0xc8) realtime_runtime_check_register_checker [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125bbbc (   0x168) __realtime_runtime_check_register_checker_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125bd24 (    0x2c) create_thread_key [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022125bd50 (    0x10) __realtime_assert_rtn [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022125bd60 (    0xc0) __TEXT __auth_stubs
+                0x000000022125bd60 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bd70 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bd80 (    0x10) DYLD-STUB$$_os_crash [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bd90 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bda0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bdb0 (    0x10) DYLD-STUB$$dispatch_once_f [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bdc0 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bdd0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bde0 (    0x10) DYLD-STUB$$pthread_getspecific [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125bdf0 (    0x10) DYLD-STUB$$pthread_key_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125be00 (    0x10) DYLD-STUB$$pthread_setspecific [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022125be10 (    0x10) DYLD-STUB$$vsnprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022125be20 (    0xa3) __TEXT __cstring
+            0x000000022125bec3 (    0xc6) __TEXT __oslogstring
+            0x000000022125bf8c (    0x74) __TEXT __unwind_info
+        0x000000022e825d08 (    0x28) __DATA_CONST SEGMENT
+            0x000000022e825d08 (     0x8) __DATA_CONST __got
+            0x000000022e825d10 (    0x20) __DATA_CONST __const
+                0x000000022e825d10 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+        0x00000002382f3f80 (    0x80) __AUTH_CONST SEGMENT
+            0x00000002382f3f80 (    0x20) __AUTH_CONST __const
+                0x00000002382f3f80 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000002382f3fa0 (    0x60) __AUTH_CONST __auth_got
+        0x0000000231b500c0 (    0x50) __DATA SEGMENT
+            0x0000000231b500c0 (    0x50) __DATA __bss
+                0x0000000231b500c0 (    0x20) checkers [NameNList, MangledNameNList, NList] 
+                0x0000000231b500e0 (    0x10) root_node [NameNList, MangledNameNList, NList] 
+                0x0000000231b500f0 (     0x8) realtime_runtime_check_register_checker.realtime_runtime_check_disabled [NameNList, MangledNameNList, NList] 
+                0x0000000231b500f8 (     0x8) realtime_runtime_check_register_checker.once [NameNList, MangledNameNList, NList] 
+                0x0000000231b50100 (     0x8) per_thread_key.once [NameNList, MangledNameNList, NList] 
+                0x0000000231b50108 (     0x8) per_thread_key.key [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

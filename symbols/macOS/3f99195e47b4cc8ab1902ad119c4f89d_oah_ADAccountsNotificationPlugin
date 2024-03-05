@@ -1,0 +1,60 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Accounts/Notification/ADAccountsNotificationPlugin.bundle/Contents/MacOS/ADAccountsNotificationPlugin [arm64e, 0.369751 seconds]:
+    0B980041-DEDB-3ABD-ABD3-AC9635CA20C9 /System/Library/Accounts/Notification/ADAccountsNotificationPlugin.bundle/Contents/MacOS/ADAccountsNotificationPlugin [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e646c000 (  0x4000) __TEXT SEGMENT
+            0x00000001e646c000 (  0x2e44) MACH_HEADER
+            0x00000001e646ee44 (   0x6fc) __TEXT __text
+                0x00000001e646ee44 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e646eeb4 (   0x31c) (null) [FUNC, FunctionStarts] 
+                0x00000001e646f1d0 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001e646f20c (   0x124) (null) [FUNC, FunctionStarts] 
+                0x00000001e646f330 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x00000001e646f36c (   0x198) (null) [FUNC, FunctionStarts] 
+                0x00000001e646f504 (    0x3c) (null) [FUNC, FunctionStarts] 
+            0x00000001e646f540 (    0xa0) __TEXT __auth_stubs
+                0x00000001e646f540 (    0x10) DYLD-STUB$$CFNotificationCenterGetDarwinNotifyCenter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f550 (    0x10) DYLD-STUB$$CFNotificationCenterPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f560 (    0x10) DYLD-STUB$$_ADLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f570 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f580 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f590 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f5a0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f5b0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f5c0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e646f5d0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e646f5e0 (    0x38) __TEXT __objc_methlist
+            0x00000001e646f618 (    0x48) __TEXT __const
+                0x00000001e646f618 (    0x40) ADAccountsNotificationPluginVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001e646f658 (     0x8) ADAccountsNotificationPluginVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001e646f660 (   0x1dd) __TEXT __cstring
+            0x00000001e646f840 (    0x6c) __TEXT __unwind_info
+            0x00000001e646f8ac (    0x43) __TEXT __objc_classname
+            0x00000001e646f8f0 (   0x36c) __TEXT __objc_methname
+            0x00000001e646fc5c (   0x204) __TEXT __objc_methtype
+            0x00000001e646fe60 (   0x1a0) __TEXT __objc_stubs
+        0x00000002363df2a0 (   0x568) __DATA_CONST SEGMENT
+            0x00000002363df2a0 (    0x10) __DATA_CONST __got
+            0x00000002363df2b0 (    0x20) __DATA_CONST __const
+            0x00000002363df2d0 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002363df2d8 (    0x10) __DATA_CONST __objc_protolist
+            0x00000002363df2e8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002363df2f0 (   0x4a0) __DATA_CONST __objc_const
+            0x00000002363df790 (    0x78) __DATA_CONST __objc_selrefs
+        0x00000002363df808 (   0x260) __AUTH_CONST SEGMENT
+            0x00000002363df808 (   0x160) __AUTH_CONST __cfstring
+            0x00000002363df968 (    0x60) __AUTH_CONST __const
+            0x00000002363df9c8 (    0x48) __AUTH_CONST __objc_const
+            0x00000002363dfa10 (    0x58) __AUTH_CONST __auth_got
+        0x000000023219dc78 (    0x50) __AUTH SEGMENT
+            0x000000023219dc78 (    0x50) __AUTH __objc_data
+                0x000000023219dc78 (    0x28) OBJC_CLASS_$_ADAccountsNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219dca0 (    0x28) OBJC_METACLASS_$_ADAccountsNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023088ad40 (    0xe0) __DATA SEGMENT
+            0x000000023088ad40 (    0x10) __DATA __objc_classrefs
+            0x000000023088ad50 (     0x8) __DATA __objc_superrefs
+            0x000000023088ad58 (    0xc0) __DATA __data
+            0x000000023088ae18 (     0x8) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

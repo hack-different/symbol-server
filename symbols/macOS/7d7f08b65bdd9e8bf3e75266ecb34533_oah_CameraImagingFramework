@@ -1,0 +1,18 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/CameraImagingFramework.framework/Versions/A/CameraImagingFramework [arm64e, 0.025473 seconds]:
+    0CB3808C-794E-3343-95DA-ED22E32A1232 /System/Library/PrivateFrameworks/CameraImagingFramework.framework/Versions/A/CameraImagingFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f6311000 (   0xffc) __TEXT SEGMENT
+            0x00000001f6311000 (   0xfa0) MACH_HEADER
+            0x00000001f6311fa0 (    0x5c) __TEXT __const
+                0x00000001f6311fa0 (    0x50) CameraImagingFrameworkVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f6311ff0 (     0x8) CameraImagingFrameworkVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f6311ff8 (     0x4) CameraImagingVersionString [EXT, NameNList, MangledNameNList, NList] 
+        0x000000022e11c228 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e11c228 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000230f76270 (     0x8) __DATA SEGMENT
+            0x0000000230f76270 (     0x8) __DATA __data
+                0x0000000230f76270 (     0x8) CameraImagingVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

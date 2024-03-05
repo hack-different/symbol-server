@@ -1,0 +1,118 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/PrivateSearchProtocols.framework/Versions/A/PrivateSearchProtocols [arm64e, 0.040317 seconds]:
+    B6DBF6C4-D914-3FCC-8486-D7436924154B /System/Library/PrivateFrameworks/PrivateSearchProtocols.framework/Versions/A/PrivateSearchProtocols [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c0a8000 (  0x3ffc) __TEXT SEGMENT
+            0x000000020c0a8000 (  0x2fb4) MACH_HEADER
+            0x000000020c0aafb4 (   0x8cc) __TEXT __text
+                0x000000020c0aafb4 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020c0aafe8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0aafec (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab020 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab054 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab058 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab05c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab064 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab068 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0b4 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0bc (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0c4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0d4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0d8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0e0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0e4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0e8 (     0xc) __swift_memcpy16_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c0ab0f4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0f8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab0fc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab100 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab110 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab114 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab144 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab148 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab178 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab17c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab1c0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab1c4 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab1f8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab1fc (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab244 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab248 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab284 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab294 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab2d0 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab310 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab380 (     0xc) __swift_memcpy32_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c0ab38c (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab3d4 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab41c (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab45c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab46c (    0x30) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab49c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab4a4 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab4d4 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab524 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab564 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab5ac (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab5e8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab5f8 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab62c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab670 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab6c8 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab758 (    0x14) __swift_memcpy48_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c0ab76c (    0x60) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab7cc (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab814 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab860 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab870 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab874 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab878 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020c0ab87c (     0x4) (null) [FUNC, FunctionStarts] 
+            0x000000020c0ab880 (    0x30) __TEXT __auth_stubs
+                0x000000020c0ab880 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c0ab890 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c0ab8a0 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020c0ab8b0 (   0x1c2) __TEXT __const
+                0x000000020c0ab8b0 (    0x40) PrivateSearchProtocolsVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0ab8f0 (    0xa0) PrivateSearchProtocolsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0ab990 (    0xe2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020c0aba74 (   0x1d8) __TEXT __constg_swiftt
+            0x000000020c0abc4c (   0x186) __TEXT __swift5_typeref
+                0x000000020c0abc4c (     0x6) symbolic _____ 22PrivateSearchProtocols10DocumentIDV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc52 (     0x4) symbolic SS [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc56 (     0x6) symbolic _____ 22PrivateSearchProtocols15DocumentVersionV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc5c (     0x6) symbolic _____ 22PrivateSearchProtocols11DocumentKeyV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc62 (     0x6) symbolic _____ 22PrivateSearchProtocols08DocumentB5IndexV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc68 (     0xa) symbolic Say_____G s5UInt8V [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc72 (     0x4) symbolic Si [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc76 (     0x6) symbolic _____ 22PrivateSearchProtocols07StorageB6ResultV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abc7c (    0x2a) symbolic $s22PrivateSearchProtocols11CallContextP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abca6 (    0x2c) symbolic $s22PrivateSearchProtocols0aB11IndexWriterP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abcd2 (    0x2c) symbolic $s22PrivateSearchProtocols0aB11IndexReaderP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abcfe (    0x26) symbolic $s22PrivateSearchProtocols0aB5IndexP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abd24 (     0x2) symbolic x [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abd26 (    0x2c) symbolic $s22PrivateSearchProtocols0aB11StoreWriterP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abd52 (    0x2c) symbolic $s22PrivateSearchProtocols0aB11StoreReaderP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abd7e (    0x26) symbolic $s22PrivateSearchProtocols0aB5StoreP [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c0abda4 (    0x2e) symbolic $s22PrivateSearchProtocols16UserSecretReaderP [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020c0abde0 (    0x63) __TEXT __swift5_reflstr
+            0x000000020c0abe44 (   0x13c) __TEXT __swift5_fieldmd
+            0x000000020c0abf80 (    0x20) __TEXT __swift5_protos
+            0x000000020c0abfa0 (    0x14) __TEXT __swift5_types
+            0x000000020c0abfb4 (    0x48) __TEXT __unwind_info
+        0x000000022e7c3d88 (    0x40) __DATA_CONST SEGMENT
+            0x000000022e7c3d88 (    0x38) __DATA_CONST __const
+                0x000000022e7c3d88 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3d90 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3d98 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3da0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3da8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3db0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c3db8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_PrivateSearchProtocols [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e7c3dc0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000237a98b40 (   0x2a8) __AUTH_CONST SEGMENT
+            0x0000000237a98b40 (   0x290) __AUTH_CONST __const
+            0x0000000237a98dd0 (    0x18) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

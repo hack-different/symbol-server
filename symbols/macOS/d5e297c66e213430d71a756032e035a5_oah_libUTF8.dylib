@@ -1,0 +1,40 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libUTF8.dylib [arm64e, 0.028413 seconds]:
+    EC6339BB-6F06-387E-B0E5-48BD8F3D6EFC /usr/lib/i18n/libUTF8.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff83000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ff83000 (  0x3668) MACH_HEADER
+            0x000000021ff86668 (   0x738) __TEXT __text
+                0x000000021ff86668 (    0x60) _citrus_UTF8_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff866c8 (    0x10) _citrus_UTF8_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff866d8 (    0x9c) _citrus_UTF8_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86774 (    0x2c) _citrus_UTF8_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff867a0 (    0x68) _citrus_UTF8_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86808 (    0x14) _citrus_UTF8_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8681c (     0xc) _citrus_UTF8_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86828 (    0x28) _citrus_UTF8_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86850 (   0x154) _citrus_UTF8_stdenc_mbtocsn [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff869a4 (   0x104) _citrus_UTF8_stdenc_cstombn [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86aa8 (    0x30) _citrus_UTF8_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86ad8 (   0x194) _citrus_UTF8_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86c6c (    0xdc) _citrus_UTF8_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86d48 (    0x2c) _citrus_UTF8_stdenc_mbtocsn.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff86d74 (    0x2c) _citrus_UTF8_stdenc_cstombn.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff86da0 (    0x40) __TEXT __auth_stubs
+                0x000000021ff86da0 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff86db0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff86dc0 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff86dd0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff86de0 (   0x130) __TEXT __const
+                0x000000021ff86df0 (   0x100) _UTF8_count_array [NameNList, MangledNameNList, NList] 
+                0x000000021ff86ef0 (    0x20) _UTF8_range [NameNList, MangledNameNList, NList] 
+            0x000000021ff86f10 (    0x65) __TEXT __cstring
+            0x000000021ff86f78 (    0x7c) __TEXT __unwind_info
+        0x0000000238249d08 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000238249d08 (    0x20) __AUTH_CONST __auth_got
+        0x00000002332f3e30 (    0x58) __AUTH SEGMENT
+            0x00000002332f3e30 (    0x58) __AUTH __data
+                0x00000002332f3e30 (    0x58) _citrus_UTF8_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

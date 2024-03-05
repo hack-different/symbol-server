@@ -1,0 +1,94 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/iAdFramework.axbundle/Contents/MacOS/iAdFramework [arm64e, 0.025783 seconds]:
+    F39E76B9-DB8A-314F-A92B-E8CC0EA59E98 /System/iOSSupport/System/Library/AccessibilityBundles/iAdFramework.axbundle/Contents/MacOS/iAdFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223621000 (  0x2000) __TEXT SEGMENT
+            0x0000000223621000 (  0x1768) MACH_HEADER
+            0x0000000223622768 (   0x298) __TEXT __text
+                0x0000000223622768 (    0x94) +[AXAdLibGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236227fc (    0x60) __44+[AXAdLibGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022362285c (    0x14) __44+[AXAdLibGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223622870 (     0xc) +[ADBannerViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022362287c (     0xc) +[ADBannerViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223622888 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223622938 (     0x8) __44+[AXAdLibGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223622940 (     0x4) +[ADBannerViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223622944 (    0x74) -[ADBannerViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236229b8 (    0x48) -[ADBannerViewAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000223622a00 (    0xe0) __TEXT __auth_stubs
+                0x0000000223622a00 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a10 (    0x10) DYLD-STUB$$AXSafeClassFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a20 (    0x10) DYLD-STUB$$_AXSAutomationEnabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a30 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a40 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a50 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a60 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a70 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a80 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622a90 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622aa0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622ab0 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622ac0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223622ad0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223622ae0 (    0x68) __TEXT __objc_methlist
+                0x0000000223622ae0 (    0x18) _OBJC_$_CLASS_METHODS_AXAdLibGlue [NameNList, MangledNameNList, NList] 
+                0x0000000223622af8 (    0x30) _OBJC_$_CLASS_METHODS_ADBannerViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223622b28 (    0x20) _OBJC_$_INSTANCE_METHODS_ADBannerViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x0000000223622b48 (    0x78) __TEXT __cstring
+            0x0000000223622bc0 (    0x68) __TEXT __unwind_info
+            0x0000000223622c28 (    0x55) __TEXT __objc_classname
+            0x0000000223622c7e (   0x1ed) __TEXT __objc_methname
+            0x0000000223622e6b (    0x33) __TEXT __objc_methtype
+            0x0000000223622ea0 (   0x160) __TEXT __objc_stubs
+                0x0000000223622ea0 (    0x20) objc_msgSend$accessibilityUserDefinedLabel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622ec0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622ee0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622f00 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622f20 (    0x20) objc_msgSend$isMemberOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622f40 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622f60 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622f80 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622fa0 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622fc0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223622fe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002385152a0 (   0x1c8) __DATA_CONST SEGMENT
+            0x00000002385152a0 (     0x8) __DATA_CONST __got
+            0x00000002385152a8 (    0x40) __DATA_CONST __const
+                0x00000002385152a8 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002385152c8 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002385152e8 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238515300 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238515308 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238515308 (    0x48) _OBJC_CLASS_RO_$_AXAdLibGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238515350 (    0x48) _OBJC_METACLASS_RO_$___ADBannerViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238515398 (    0x48) _OBJC_CLASS_RO_$___ADBannerViewAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002385153e0 (    0x88) __DATA_CONST __objc_selrefs
+        0x0000000238515468 (   0x250) __AUTH_CONST SEGMENT
+            0x0000000238515468 (    0xa0) __AUTH_CONST __cfstring
+            0x0000000238515508 (    0x60) __AUTH_CONST __const
+                0x0000000238515508 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238515528 (    0x20) __block_literal_global.221 [NameNList, MangledNameNList, NList] 
+                0x0000000238515548 (    0x20) __block_literal_global.227 [NameNList, MangledNameNList, NList] 
+            0x0000000238515568 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000238515568 (    0x48) _OBJC_METACLASS_RO_$_AXAdLibGlue [NameNList, MangledNameNList, NList] 
+                0x00000002385155b0 (    0x48) _OBJC_METACLASS_RO_$_ADBannerViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002385155f8 (    0x48) _OBJC_CLASS_RO_$_ADBannerViewAccessibility [NameNList, MangledNameNList, NList] 
+            0x0000000238515640 (    0x78) __AUTH_CONST __auth_got
+        0x0000000233667360 (    0xf0) __AUTH SEGMENT
+            0x0000000233667360 (    0xf0) __AUTH __objc_data
+                0x0000000233667360 (    0x28) OBJC_CLASS_$_AXAdLibGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233667388 (    0x28) OBJC_METACLASS_$_AXAdLibGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336673b0 (    0x28) OBJC_METACLASS_$___ADBannerViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336673d8 (    0x28) OBJC_CLASS_$___ADBannerViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233667400 (    0x28) OBJC_CLASS_$_ADBannerViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233667428 (    0x28) OBJC_METACLASS_$_ADBannerViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bb05d8 (    0x38) __DATA SEGMENT
+            0x0000000231bb05d8 (    0x20) __DATA __objc_classrefs
+            0x0000000231bb05f8 (     0x8) __DATA __objc_superrefs
+            0x0000000231bb0600 (     0x8) __DATA __common
+                0x0000000231bb0600 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000231bb0608 (     0x8) __DATA __bss
+                0x0000000231bb0608 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,85 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/com.apple.CloudDocsUI.CloudSharing-AppExtension.axbundle/Contents/MacOS/com.apple.CloudDocsUI.CloudSharing-AppExtension [arm64e, 0.121681 seconds]:
+    04F2F9D7-CA5C-3532-BC1C-911AF90A0D2D /System/iOSSupport/System/Library/AccessibilityBundles/com.apple.CloudDocsUI.CloudSharing-AppExtension.axbundle/Contents/MacOS/com.apple.CloudDocsUI.CloudSharing-AppExtension [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223615000 (  0x2000) __TEXT SEGMENT
+            0x0000000223615000 (  0x187c) MACH_HEADER
+            0x000000022361687c (   0x1c4) __TEXT __text
+                0x000000022361687c (    0x28) +[AXCloudSharingExtensionGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236168a4 (    0x64) __60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616908 (     0x8) __60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616910 (    0x60) __60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616970 (    0x14) __60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616984 (     0xc) +[BRShareSettingsButtonAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616990 (     0xc) +[BRShareSettingsButtonAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022361699c (    0x80) +[BRShareSettingsButtonAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616a1c (     0xc) -[BRShareSettingsButtonAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616a28 (     0x8) -[BRShareSettingsButtonAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223616a30 (    0x10) -[BRShareSettingsButtonAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000223616a40 (    0x80) __TEXT __auth_stubs
+                0x0000000223616a40 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616a50 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616a60 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616a70 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616a80 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616a90 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616aa0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223616ab0 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223616ac0 (    0x74) __TEXT __objc_methlist
+                0x0000000223616ac0 (    0x18) _OBJC_$_CLASS_METHODS_AXCloudSharingExtensionGlue [NameNList, MangledNameNList, NList] 
+                0x0000000223616ad8 (    0x30) _OBJC_$_CLASS_METHODS_BRShareSettingsButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223616b08 (    0x2c) _OBJC_$_INSTANCE_METHODS_BRShareSettingsButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x0000000223616b34 (    0xc8) __TEXT __cstring
+            0x0000000223616bfc (    0x68) __TEXT __unwind_info
+            0x0000000223616c64 (    0x77) __TEXT __objc_classname
+            0x0000000223616cdc (   0x1f1) __TEXT __objc_methname
+            0x0000000223616ecd (    0x33) __TEXT __objc_methtype
+            0x0000000223616f00 (   0x100) __TEXT __objc_stubs
+                0x0000000223616f00 (    0x20) objc_msgSend$_accessibilityStringForLabelKeyValues: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616f20 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616f40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616f60 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616f80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616fa0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616fc0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223616fe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238511eb8 (   0x1d8) __DATA_CONST SEGMENT
+            0x0000000238511eb8 (     0x8) __DATA_CONST __got
+            0x0000000238511ec0 (    0x60) __DATA_CONST __const
+                0x0000000238511ec0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238511ee0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238511f00 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238511f20 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238511f38 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238511f40 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238511f40 (    0x48) _OBJC_CLASS_RO_$_AXCloudSharingExtensionGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238511f88 (    0x48) _OBJC_METACLASS_RO_$___BRShareSettingsButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238511fd0 (    0x48) _OBJC_CLASS_RO_$___BRShareSettingsButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x0000000238512018 (    0x78) __DATA_CONST __objc_selrefs
+        0x0000000238512090 (   0x260) __AUTH_CONST SEGMENT
+            0x0000000238512090 (    0x80) __AUTH_CONST __const
+                0x0000000238512090 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002385120b0 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x00000002385120d0 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x00000002385120f0 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x0000000238512110 (    0xc0) __AUTH_CONST __cfstring
+            0x00000002385121d0 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002385121d0 (    0x48) _OBJC_METACLASS_RO_$_AXCloudSharingExtensionGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238512218 (    0x48) _OBJC_METACLASS_RO_$_BRShareSettingsButtonAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238512260 (    0x48) _OBJC_CLASS_RO_$_BRShareSettingsButtonAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002385122a8 (    0x48) __AUTH_CONST __auth_got
+        0x00000002336667d0 (    0xf0) __AUTH SEGMENT
+            0x00000002336667d0 (    0xf0) __AUTH __objc_data
+                0x00000002336667d0 (    0x28) OBJC_METACLASS_$_AXCloudSharingExtensionGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336667f8 (    0x28) OBJC_CLASS_$_AXCloudSharingExtensionGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233666820 (    0x28) OBJC_METACLASS_$___BRShareSettingsButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233666848 (    0x28) OBJC_CLASS_$___BRShareSettingsButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233666870 (    0x28) OBJC_CLASS_$_BRShareSettingsButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233666898 (    0x28) OBJC_METACLASS_$_BRShareSettingsButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bb0490 (    0x18) __DATA SEGMENT
+            0x0000000231bb0490 (    0x10) __DATA __objc_classrefs
+            0x0000000231bb04a0 (     0x8) __DATA __bss
+                0x0000000231bb04a0 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

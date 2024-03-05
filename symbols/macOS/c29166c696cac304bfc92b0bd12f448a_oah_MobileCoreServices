@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework/Versions/A/MobileCoreServices [arm64e, 0.030871 seconds]:
+    9430D777-7349-39ED-A78A-9FD82C89C470 /System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework/Versions/A/MobileCoreServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c4477000 (  0x1000) __TEXT SEGMENT
+            0x00000001c4477000 (   0xfb8) MACH_HEADER
+            0x00000001c4477fb8 (    0x48) __TEXT __const
+                0x00000001c4477fb8 (    0x40) MobileCoreServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001c4477ff8 (     0x8) MobileCoreServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

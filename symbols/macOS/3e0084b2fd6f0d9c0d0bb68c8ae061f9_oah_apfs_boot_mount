@@ -1,0 +1,80 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/apfs_boot_mount.framework/Versions/A/apfs_boot_mount [arm64e, 0.026700 seconds]:
+    7D99193C-A370-342E-A666-F5A177B8806E /System/Library/PrivateFrameworks/apfs_boot_mount.framework/Versions/A/apfs_boot_mount [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021b30a000 (  0x4000) __TEXT SEGMENT
+            0x000000021b30a000 (  0x286c) MACH_HEADER
+            0x000000021b30c86c (   0xddc) __TEXT __text
+                0x000000021b30c86c (    0x4c) log_debug [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30c8b8 (    0x4c) log_info [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30c904 (    0x4c) log_warn [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30c950 (    0x4c) log_err [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30c99c (    0x90) abm_get_device_node [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30ca2c (   0x2e4) get_apfs_node [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30cd10 (    0xe4) abm_get_device_path [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30cdf4 (   0x3f4) node_found_callback [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d1e8 (    0xc0) get_parent_gpt_slice [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d2a8 (   0x168) log_unknown_dev_node [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d410 (   0x164) registry_entry_dev_node [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d574 (    0x14) abm_get_isc_device_node [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d588 (    0x14) abm_get_recovery_device_node [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d59c (    0x14) abm_get_isc_device_path [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d5b0 (    0x14) abm_get_recovery_device_path [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d5c4 (    0x2c) abm_get_device_path.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d5f0 (    0x2c) node_found_callback.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021b30d61c (    0x2c) node_found_callback.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021b30d648 (   0x260) __TEXT __auth_stubs
+                0x000000021b30d648 (    0x10) DYLD-STUB$$CFArrayGetCount [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d658 (    0x10) DYLD-STUB$$CFArrayGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d668 (    0x10) DYLD-STUB$$CFArrayGetValueAtIndex [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d678 (    0x10) DYLD-STUB$$CFGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d688 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d698 (    0x10) DYLD-STUB$$CFRunLoopAddSource [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6a8 (    0x10) DYLD-STUB$$CFRunLoopGetCurrent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6b8 (    0x10) DYLD-STUB$$CFRunLoopRemoveSource [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6c8 (    0x10) DYLD-STUB$$CFRunLoopRunInMode [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6d8 (    0x10) DYLD-STUB$$CFRunLoopStop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6e8 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d6f8 (    0x10) DYLD-STUB$$CFStringCreateMutableCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d708 (    0x10) DYLD-STUB$$CFStringGetCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d718 (    0x10) DYLD-STUB$$CFStringGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d728 (    0x10) DYLD-STUB$$CFStringInsert [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d738 (    0x10) DYLD-STUB$$IOIteratorNext [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d748 (    0x10) DYLD-STUB$$IOMasterPort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d758 (    0x10) DYLD-STUB$$IONotificationPortCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d768 (    0x10) DYLD-STUB$$IONotificationPortDestroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d778 (    0x10) DYLD-STUB$$IONotificationPortGetRunLoopSource [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d788 (    0x10) DYLD-STUB$$IOObjectConformsTo [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d798 (    0x10) DYLD-STUB$$IOObjectGetClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7a8 (    0x10) DYLD-STUB$$IOObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7b8 (    0x10) DYLD-STUB$$IORegistryEntryCreateCFProperty [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7c8 (    0x10) DYLD-STUB$$IORegistryEntryGetName [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7d8 (    0x10) DYLD-STUB$$IORegistryEntryGetParentEntry [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7e8 (    0x10) DYLD-STUB$$IORegistryEntryGetRegistryEntryID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d7f8 (    0x10) DYLD-STUB$$IOServiceAddMatchingNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d808 (    0x10) DYLD-STUB$$IOServiceGetBusyStateAndTime [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d818 (    0x10) DYLD-STUB$$IOServiceMatching [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d828 (    0x10) DYLD-STUB$$IOServiceWaitQuiet [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d838 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d848 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d858 (    0x10) DYLD-STUB$$mach_port_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d868 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d878 (    0x10) DYLD-STUB$$uuid_parse [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d888 (    0x10) DYLD-STUB$$uuid_unparse_upper [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021b30d898 (    0x10) DYLD-STUB$$vfprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021b30d8a8 (    0x38) __TEXT __const
+                0x000000021b30d8a8 (    0x30) apfs_boot_mountVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021b30d8d8 (     0x8) apfs_boot_mountVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000021b30d8e0 (   0x6a6) __TEXT __cstring
+            0x000000021b30df88 (    0x78) __TEXT __unwind_info
+        0x000000022e7e9af8 (    0x28) __DATA_CONST SEGMENT
+            0x000000022e7e9af8 (    0x28) __DATA_CONST __got
+        0x0000000238176b70 (   0x250) __AUTH_CONST SEGMENT
+            0x0000000238176b70 (   0x120) __AUTH_CONST __cfstring
+            0x0000000238176c90 (   0x130) __AUTH_CONST __auth_got
+        0x0000000231995fd8 (     0x4) __DATA SEGMENT
+            0x0000000231995fd8 (     0x4) __DATA __data
+                0x0000000231995fd8 (     0x4) apfs_log_level [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

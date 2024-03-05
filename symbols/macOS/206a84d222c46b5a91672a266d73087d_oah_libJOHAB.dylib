@@ -1,0 +1,32 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libJOHAB.dylib [arm64e, 0.029181 seconds]:
+    47203954-113B-3633-AB78-A84517800A84 /usr/lib/i18n/libJOHAB.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff6f000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ff6f000 (  0x39d4) MACH_HEADER
+            0x000000021ff729d4 (   0x57c) __TEXT __text
+                0x000000021ff729d4 (    0x60) _citrus_JOHAB_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72a34 (    0x10) _citrus_JOHAB_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72a44 (   0x18c) _citrus_JOHAB_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72bd0 (    0x6c) _citrus_JOHAB_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72c3c (    0x68) _citrus_JOHAB_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72ca4 (    0x18) _citrus_JOHAB_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72cbc (     0xc) _citrus_JOHAB_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72cc8 (    0x28) _citrus_JOHAB_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72cf0 (    0x30) _citrus_JOHAB_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72d20 (   0x14c) _citrus_JOHAB_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff72e6c (    0xe4) _citrus_JOHAB_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff72f50 (    0x30) __TEXT __auth_stubs
+                0x000000021ff72f50 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff72f60 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff72f70 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff72f80 (    0x10) __TEXT __const
+            0x000000021ff72f90 (    0x64) __TEXT __unwind_info
+        0x0000000238249c50 (    0x18) __AUTH_CONST SEGMENT
+            0x0000000238249c50 (    0x18) __AUTH_CONST __auth_got
+        0x00000002332f3c78 (    0x58) __AUTH SEGMENT
+            0x00000002332f3c78 (    0x58) __AUTH __data
+                0x00000002332f3c78 (    0x58) _citrus_JOHAB_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

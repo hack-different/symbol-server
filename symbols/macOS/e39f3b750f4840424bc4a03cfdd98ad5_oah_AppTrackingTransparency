@@ -1,0 +1,121 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/AppTrackingTransparency.framework/Versions/A/AppTrackingTransparency [arm64e, 0.574117 seconds]:
+    1DEA8ABD-9522-39BA-BC8F-EF227380E0B8 /System/Library/Frameworks/AppTrackingTransparency.framework/Versions/A/AppTrackingTransparency [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001ecc6d000 (  0x3000) __TEXT SEGMENT
+            0x00000001ecc6d000 (  0x1b88) MACH_HEADER
+            0x00000001ecc6eb88 (   0xa28) __TEXT __text
+                0x00000001ecc6eb88 (     0xc) +[ATTrackingEnforcementManager shouldEnforceTrackingWithReasonCode:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6eb94 (    0x44) +[ATTrackingManager _applicationHasDisqualifyingEntitlement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ebd8 (    0x80) __60+[ATTrackingManager _applicationHasDisqualifyingEntitlement]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ec58 (     0x8) +[ATTrackingManager _restrictionProfileInstalled] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ec60 (    0x94) +[ATTrackingManager _userAllowedToChangeSettings] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ecf4 (    0x60) +[ATTrackingManager _isCrossAppTrackingAllowed] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ed54 (   0x114) +[ATTrackingManager _sendRequestTrackingAnalytic:prompted:deniedReason:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ee68 (   0x114) +[ATTrackingManager _sendTrackingStatusAnalytic:prompted:deniedReason:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6ef7c (    0x88) +[ATTrackingManager _trackingAuthorizationStatus] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f004 (   0x270) +[ATTrackingManager trackingAuthorizationStatus] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f274 (    0x1c) __48+[ATTrackingManager trackingAuthorizationStatus]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f290 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f2a0 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f2ac (    0x5c) +[ATTrackingManager applicationStateActive] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f308 (    0xc0) __43+[ATTrackingManager applicationStateActive]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f3c8 (    0x70) +[ATTrackingManager isApplicationExtension] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ecc6f438 (   0x178) +[ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001ecc6f5b0 (   0x190) __TEXT __auth_stubs
+                0x00000001ecc6f5b0 (    0x10) DYLD-STUB$$AnalyticsSendEvent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f5c0 (    0x10) DYLD-STUB$$CFAbsoluteTimeGetCurrent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f5d0 (    0x10) DYLD-STUB$$CFAllocatorGetDefault [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f5e0 (    0x10) DYLD-STUB$$CFBooleanGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f5f0 (    0x10) DYLD-STUB$$CFPreferencesGetAppBooleanValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f600 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f610 (    0x10) DYLD-STUB$$NSClassFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f620 (    0x10) DYLD-STUB$$NSSelectorFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f630 (    0x10) DYLD-STUB$$SecTaskCopyValueForEntitlement [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f640 (    0x10) DYLD-STUB$$SecTaskCreateFromSelf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f650 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f660 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f670 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f680 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f690 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6a0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6b0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6c0 (    0x10) DYLD-STUB$$objc_opt_respondsToSelector [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6d0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6e0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f6f0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f700 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f710 (    0x10) DYLD-STUB$$objc_sync_enter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f720 (    0x10) DYLD-STUB$$objc_sync_exit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f730 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001ecc6f740 (    0xa4) __TEXT __objc_methlist
+                0x00000001ecc6f740 (    0x18) _OBJC_$_CLASS_METHODS_ATTrackingEnforcementManager [NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f758 (    0x8c) _OBJC_$_CLASS_METHODS_ATTrackingManager [NameNList, MangledNameNList, NList] 
+            0x00000001ecc6f7e8 (    0x58) __TEXT __const
+                0x00000001ecc6f7e8 (    0x40) AppTrackingTransparencyVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f828 (    0x18) AppTrackingTransparencyVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001ecc6f840 (    0x34) __TEXT __gcc_except_tab
+                0x00000001ecc6f840 (    0x14) GCC_except_table7 [NameNList, MangledNameNList, NList] 
+                0x00000001ecc6f854 (    0x20) GCC_except_table8 [NameNList, MangledNameNList, NList] 
+            0x00000001ecc6f874 (   0x13a) __TEXT __cstring
+            0x00000001ecc6f9ae (   0x181) __TEXT __oslogstring
+            0x00000001ecc6fb30 (    0x9c) __TEXT __unwind_info
+            0x00000001ecc6fbcc (    0x2f) __TEXT __objc_classname
+            0x00000001ecc6fbfc (   0x228) __TEXT __objc_methname
+            0x00000001ecc6fe24 (    0x39) __TEXT __objc_methtype
+            0x00000001ecc6fe60 (   0x1a0) __TEXT __objc_stubs
+                0x00000001ecc6fe60 (    0x20) objc_msgSend$_applicationHasDisqualifyingEntitlement [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6fe80 (    0x20) objc_msgSend$_restrictionProfileInstalled [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6fea0 (    0x20) objc_msgSend$_sendRequestTrackingAnalytic:prompted:deniedReason: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6fec0 (    0x20) objc_msgSend$_trackingAuthorizationStatus [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6fee0 (    0x20) objc_msgSend$_userAllowedToChangeSettings [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ff00 (    0x20) objc_msgSend$bundlePath [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ff20 (    0x20) objc_msgSend$dictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ff40 (    0x20) objc_msgSend$hasSuffix: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ff60 (    0x20) objc_msgSend$mainBundle [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ff80 (    0x20) objc_msgSend$numberWithBool: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ffa0 (    0x20) objc_msgSend$numberWithUnsignedInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ffc0 (    0x20) objc_msgSend$performSelector: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ecc6ffe0 (    0x20) objc_msgSend$setValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002365ecec8 (   0x198) __DATA_CONST SEGMENT
+            0x00000002365ecec8 (    0x18) __DATA_CONST __got
+            0x00000002365ecee0 (    0x20) __DATA_CONST __const
+                0x00000002365ecee0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002365ecf00 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002365ecf10 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002365ecf18 (    0xa8) __DATA_CONST __objc_const
+                0x00000002365ecf18 (    0x48) _OBJC_CLASS_RO_$_ATTrackingEnforcementManager [NameNList, MangledNameNList, NList] 
+                0x00000002365ecf60 (    0x18) _OBJC_$_CLASS_PROP_LIST_ATTrackingManager [NameNList, MangledNameNList, NList] 
+                0x00000002365ecf78 (    0x48) _OBJC_CLASS_RO_$_ATTrackingManager [NameNList, MangledNameNList, NList] 
+            0x00000002365ecfc0 (    0xa0) __DATA_CONST __objc_selrefs
+        0x00000002365ed060 (   0x358) __AUTH_CONST SEGMENT
+            0x00000002365ed060 (    0x90) __AUTH_CONST __objc_const
+                0x00000002365ed060 (    0x48) _OBJC_METACLASS_RO_$_ATTrackingEnforcementManager [NameNList, MangledNameNList, NList] 
+                0x00000002365ed0a8 (    0x48) _OBJC_METACLASS_RO_$_ATTrackingManager [NameNList, MangledNameNList, NList] 
+            0x00000002365ed0f0 (   0x180) __AUTH_CONST __cfstring
+            0x00000002365ed270 (    0x70) __AUTH_CONST __const
+                0x00000002365ed270 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002365ed290 (    0x30) __block_descriptor_48_e8_32r_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002365ed2c0 (    0x20) __block_literal_global.34 [NameNList, MangledNameNList, NList] 
+            0x00000002365ed2e0 (    0xd8) __AUTH_CONST __auth_got
+        0x00000002321ec408 (    0xa0) __AUTH SEGMENT
+            0x00000002321ec408 (    0xa0) __AUTH __objc_data
+                0x00000002321ec408 (    0x28) OBJC_METACLASS_$_ATTrackingEnforcementManager [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321ec430 (    0x28) OBJC_CLASS_$_ATTrackingEnforcementManager [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321ec458 (    0x28) OBJC_METACLASS_$_ATTrackingManager [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321ec480 (    0x28) OBJC_CLASS_$_ATTrackingManager [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002308e1188 (    0x60) __DATA SEGMENT
+            0x00000002308e1188 (    0x18) __DATA __objc_classrefs
+            0x00000002308e11a0 (    0x48) __DATA __bss
+                0x00000002308e11a0 (     0x8) _applicationHasDisqualifyingEntitlement.isDimSumApp [NameNList, MangledNameNList, NList] 
+                0x00000002308e11a8 (     0x8) _applicationHasDisqualifyingEntitlement.once [NameNList, MangledNameNList, NList] 
+                0x00000002308e11b0 (     0x8) kRateLimitCounter [NameNList, MangledNameNList, NList] 
+                0x00000002308e11b8 (     0x8) _lastTrackingAuthTimestamp [NameNList, MangledNameNList, NList] 
+                0x00000002308e11c0 (     0x8) _lastAuthorizationStatus [NameNList, MangledNameNList, NList] 
+                0x00000002308e11c8 (     0x8) trackingAuthorizationStatus.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000002308e11d0 (     0x8) applicationStateActive.application [NameNList, MangledNameNList, NList] 
+                0x00000002308e11d8 (     0x8) applicationStateActive.applicationStateSelector [NameNList, MangledNameNList, NList] 
+                0x00000002308e11e0 (     0x8) applicationStateActive.once [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

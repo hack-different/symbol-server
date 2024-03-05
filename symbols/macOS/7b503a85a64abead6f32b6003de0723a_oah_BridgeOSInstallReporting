@@ -1,0 +1,173 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/BridgeOSInstallReporting.framework/Versions/A/BridgeOSInstallReporting [arm64e, 0.027468 seconds]:
+    F550B8AD-ED27-3072-8380-886A581E51DB /System/Library/PrivateFrameworks/BridgeOSInstallReporting.framework/Versions/A/BridgeOSInstallReporting [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f5be2000 (  0x4000) __TEXT SEGMENT
+            0x00000001f5be2000 (  0x1b94) MACH_HEADER
+            0x00000001f5be3b94 (  0x16cc) __TEXT __text
+                0x00000001f5be3b94 (    0x54) BOSLogObject [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3be8 (    0x48) __BOSLogObject_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3c30 (    0x54) standardErrorDateFormatter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3c84 (    0x58) __standardErrorDateFormatter_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3cdc (    0x4c) BOSShouldLogToStderr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3d28 (    0x30) __BOSShouldLogToStderr_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3d58 (    0x44) BOSShouldLogToInstallLog [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3d9c (    0x30) __BOSShouldLogToInstallLog_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3dcc (    0xd8) BOSLogSerial [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3ea4 (    0xd8) __BOSLogSerial_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3f7c (    0x60) __BOSLogSerial_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be3fdc (    0x6c) -[BOSReporterServiceController init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4048 (   0x314) -[BOSReporterServiceController startReportingLogsWithStartDate:sessionUUID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be435c (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be436c (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4374 (    0x10) __76-[BOSReporterServiceController startReportingLogsWithStartDate:sessionUUID:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4384 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4394 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be43a0 (   0x314) -[BOSReporterServiceController armReporterWithStartDate:sessionUUID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be46b4 (    0x10) __69-[BOSReporterServiceController armReporterWithStartDate:sessionUUID:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be46c4 (   0x2d8) -[BOSReporterServiceController startReportingLogsFromNVRAMStateWithErrorCheck:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be499c (    0x10) __79-[BOSReporterServiceController startReportingLogsFromNVRAMStateWithErrorCheck:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be49ac (    0xac) -[BOSReporterServiceController _connectToService] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4a58 (   0x1b4) __49-[BOSReporterServiceController _connectToService]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4c0c (   0x1b4) __49-[BOSReporterServiceController _connectToService]_block_invoke.24 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4dc0 (    0x60) -[BOSReporterServiceController _synchronousService] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4e20 (   0x1dc) __51-[BOSReporterServiceController _synchronousService]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be4ffc (     0xc) -[BOSReporterServiceController serviceConnection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be5008 (     0x8) -[BOSReporterServiceController setServiceConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be5010 (     0xc) -[BOSReporterServiceController .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be501c (    0x20) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be503c (    0x1c) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be5058 (    0x5c) -[BOSReporterServiceController startReportingLogsWithStartDate:sessionUUID:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be50b4 (    0x5c) -[BOSReporterServiceController armReporterWithStartDate:sessionUUID:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be5110 (    0x5c) -[BOSReporterServiceController startReportingLogsFromNVRAMStateWithErrorCheck:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be516c (    0x44) __49-[BOSReporterServiceController _connectToService]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be51b0 (    0x44) __49-[BOSReporterServiceController _connectToService]_block_invoke.24.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f5be51f4 (    0x6c) __51-[BOSReporterServiceController _synchronousService]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001f5be5260 (   0x210) __TEXT __auth_stubs
+                0x00000001f5be5260 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5270 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5280 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5290 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52a0 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52b0 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52c0 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52d0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52e0 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be52f0 (    0x10) DYLD-STUB$$dprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5300 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5310 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5320 (    0x10) DYLD-STUB$$getpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5330 (    0x10) DYLD-STUB$$getprogname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5340 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5350 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5360 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5370 (    0x10) DYLD-STUB$$objc_getProperty [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5380 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5390 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53a0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53b0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53c0 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53d0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53e0 (    0x10) DYLD-STUB$$objc_setProperty_atomic [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be53f0 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5400 (    0x10) DYLD-STUB$$open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5410 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5420 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5430 (    0x10) DYLD-STUB$$strnstr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5440 (    0x10) DYLD-STUB$$sysctlbyname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5450 (    0x10) DYLD-STUB$$syslog$DARWIN_EXTSN [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5460 (    0x10) DYLD-STUB$$vasprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001f5be5470 (    0x74) __TEXT __objc_methlist
+                0x00000001f5be5470 (    0x74) _OBJC_$_INSTANCE_METHODS_BOSReporterServiceController [NameNList, MangledNameNList, NList] 
+            0x00000001f5be54e8 (    0x68) __TEXT __const
+                0x00000001f5be54e8 (    0x48) BridgeOSInstallReportingVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5530 (    0x20) BridgeOSInstallReportingVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001f5be5550 (   0x1d0) __TEXT __cstring
+            0x00000001f5be5720 (   0x140) __TEXT __gcc_except_tab
+                0x00000001f5be5720 (    0x6c) GCC_except_table1 [NameNList, MangledNameNList, NList] 
+                0x00000001f5be578c (    0x6c) GCC_except_table7 [NameNList, MangledNameNList, NList] 
+                0x00000001f5be57f8 (    0x68) GCC_except_table9 [NameNList, MangledNameNList, NList] 
+            0x00000001f5be5860 (    0xcf) __TEXT __oslogstring
+            0x00000001f5be5930 (    0xc0) __TEXT __unwind_info
+            0x00000001f5be59f0 (    0x3b) __TEXT __objc_classname
+            0x00000001f5be5a2c (   0x2d6) __TEXT __objc_methname
+            0x00000001f5be5d02 (    0xb9) __TEXT __objc_methtype
+            0x00000001f5be5dc0 (   0x240) __TEXT __objc_stubs
+                0x00000001f5be5dc0 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5de0 (    0x20) objc_msgSend$_connectToService [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5e00 (    0x20) objc_msgSend$_synchronousService [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5e20 (    0x20) objc_msgSend$armReporterWithStartDate:sessionUUID:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5e40 (    0x20) objc_msgSend$date [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5e60 (    0x20) objc_msgSend$initWithMachServiceName:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5e80 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5ea0 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5ec0 (    0x20) objc_msgSend$serviceConnection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5ee0 (    0x20) objc_msgSend$setDateFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5f00 (    0x20) objc_msgSend$setInterruptionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5f20 (    0x20) objc_msgSend$setInvalidationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5f40 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5f60 (    0x20) objc_msgSend$startReportingLogsFromNVRAMStateWithErrorCheck:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5f80 (    0x20) objc_msgSend$startReportingLogsWithStartDate:sessionUUID:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5fa0 (    0x20) objc_msgSend$stringFromDate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5fc0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f5be5fe0 (    0x20) objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000236c8dac8 (   0x240) __DATA_CONST SEGMENT
+            0x0000000236c8dac8 (    0x18) __DATA_CONST __got
+            0x0000000236c8dae0 (    0x60) __DATA_CONST __const
+                0x0000000236c8dae0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236c8db00 (    0x20) __block_descriptor_40_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236c8db20 (    0x20) __block_descriptor_32_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236c8db40 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000236c8db48 (     0x8) __DATA_CONST __objc_protolist
+                0x0000000236c8db48 (     0x8) _OBJC_LABEL_PROTOCOL_$_BOSReporterServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236c8db50 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236c8db58 (    0xf0) __DATA_CONST __objc_const
+                0x0000000236c8db58 (    0x50) _OBJC_$_PROTOCOL_INSTANCE_METHODS_BOSReporterServiceProtocol [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dba8 (    0x18) _OBJC_$_PROTOCOL_METHOD_TYPES_BOSReporterServiceProtocol [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dbc0 (    0x48) _OBJC_METACLASS_RO_$_BOSReporterServiceController [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dc08 (    0x28) _OBJC_$_INSTANCE_VARIABLES_BOSReporterServiceController [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dc30 (    0x18) _OBJC_$_PROP_LIST_BOSReporterServiceController [NameNList, MangledNameNList, NList] 
+            0x0000000236c8dc48 (    0xc0) __DATA_CONST __objc_selrefs
+        0x0000000236c8dd08 (   0x370) __AUTH_CONST SEGMENT
+            0x0000000236c8dd08 (   0x130) __AUTH_CONST __const
+                0x0000000236c8dd08 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dd28 (    0x20) __block_literal_global.4 [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dd48 (    0x20) __block_literal_global.7 [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dd68 (    0x20) __block_literal_global.10 [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dd88 (    0x20) __block_literal_global.13 [NameNList, MangledNameNList, NList] 
+                0x0000000236c8dda8 (    0x30) __block_descriptor_40_e8_32r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236c8ddd8 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000236c8ddf8 (    0x20) __block_literal_global.26 [NameNList, MangledNameNList, NList] 
+                0x0000000236c8de18 (    0x20) __block_literal_global.31 [NameNList, MangledNameNList, NList] 
+            0x0000000236c8de38 (    0xe0) __AUTH_CONST __cfstring
+            0x0000000236c8df18 (    0x48) __AUTH_CONST __objc_const
+                0x0000000236c8df18 (    0x48) _OBJC_CLASS_RO_$_BOSReporterServiceController [NameNList, MangledNameNList, NList] 
+            0x0000000236c8df60 (   0x118) __AUTH_CONST __auth_got
+        0x000000023246b9e8 (    0x50) __AUTH SEGMENT
+            0x000000023246b9e8 (    0x50) __AUTH __objc_data
+                0x000000023246b9e8 (    0x28) OBJC_CLASS_$_BOSReporterServiceController [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023246ba10 (    0x28) OBJC_METACLASS_$_BOSReporterServiceController [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230f5b728 (    0xf8) __DATA SEGMENT
+            0x0000000230f5b728 (     0x8) __DATA __objc_protorefs
+                0x0000000230f5b728 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_BOSReporterServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230f5b730 (    0x28) __DATA __objc_classrefs
+            0x0000000230f5b758 (     0x8) __DATA __objc_superrefs
+            0x0000000230f5b760 (     0x4) __DATA __objc_ivar
+                0x0000000230f5b760 (     0x4) OBJC_IVAR_$_BOSReporterServiceController._serviceConnection [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230f5b768 (    0x68) __DATA __data
+                0x0000000230f5b768 (     0x8) BOSLogSerial.serial_fd [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b770 (    0x60) _OBJC_PROTOCOL_$_BOSReporterServiceProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230f5b7d0 (    0x50) __DATA __bss
+                0x0000000230f5b7d0 (     0x8) BOSLogObject.logObj [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b7d8 (     0x8) BOSLogObject.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b7e0 (     0x8) standardErrorDateFormatter.dateFormatter [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b7e8 (     0x8) standardErrorDateFormatter.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b7f0 (     0x8) BOSShouldLogToStderr.enable [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b7f8 (     0x8) BOSShouldLogToStderr.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b800 (     0x8) BOSShouldLogToInstallLog.enable [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b808 (     0x8) BOSShouldLogToInstallLog.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b810 (     0x8) BOSLogSerial.serialLogQueue [NameNList, MangledNameNList, NList] 
+                0x0000000230f5b818 (     0x8) BOSLogSerial.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

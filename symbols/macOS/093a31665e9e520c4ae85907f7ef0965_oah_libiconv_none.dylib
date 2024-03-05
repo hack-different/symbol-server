@@ -1,0 +1,24 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libiconv_none.dylib [arm64e, 0.026256 seconds]:
+    AF71F91A-7C5B-3C19-8A0E-B2A6FA376718 /usr/lib/i18n/libiconv_none.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff97000 (  0x4000) __TEXT SEGMENT
+            0x000000021ff97000 (  0x3eb8) MACH_HEADER
+            0x000000021ff9aeb8 (    0xe4) __TEXT __text
+                0x000000021ff9aeb8 (     0xc) _citrus_iconv_none_iconv_init_shared [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9aec4 (     0x4) _citrus_iconv_none_iconv_uninit_shared [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9aec8 (     0xc) _citrus_iconv_none_iconv_init_context [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9aed4 (     0x4) _citrus_iconv_none_iconv_uninit_context [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9aed8 (    0xa4) _citrus_iconv_none_iconv_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9af7c (    0x20) _citrus_iconv_none_iconv_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff9af9c (    0x10) __TEXT __auth_stubs
+                0x000000021ff9af9c (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff9afac (    0x54) __TEXT __unwind_info
+        0x0000000238249da8 (     0x8) __AUTH_CONST SEGMENT
+            0x0000000238249da8 (     0x8) __AUTH_CONST __auth_got
+        0x00000002332f3f90 (    0x28) __AUTH SEGMENT
+            0x00000002332f3f90 (    0x28) __AUTH __data
+                0x00000002332f3f90 (    0x28) _citrus_iconv_none_iconv_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

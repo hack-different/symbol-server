@@ -1,8 +1,0 @@
-/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa [arm64e, 0.128098 seconds]:
-    3BD5A4A6-916A-3D74-ACB3-881336092211 /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x000000019a16a000 (  0x4000) __TEXT SEGMENT
-            0x000000019a16a000 (  0x3fd0) MACH_HEADER
-            0x000000019a16dfd0 (    0x30) __TEXT __const
-                0x000000019a16dfd0 (    0x28) CocoaVersionString [EXT, NameNList, MangledNameNList, NList] 
-                0x000000019a16dff8 (     0x8) CocoaVersionNumber [EXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

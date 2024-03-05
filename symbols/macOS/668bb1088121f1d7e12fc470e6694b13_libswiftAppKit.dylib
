@@ -1,8 +1,0 @@
-/usr/lib/swift/libswiftAppKit.dylib [arm64e, 0.032301 seconds]:
-    D01AB36C-3A46-3D1D-9748-7F8093F1F719 /usr/lib/swift/libswiftAppKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001b493e000 (  0x1000) __TEXT SEGMENT
-            0x00000001b493e000 (   0xfc8) MACH_HEADER
-            0x00000001b493efc8 (    0x38) __TEXT __const
-                0x00000001b493efc8 (    0x30) AppKitVersionString [PEXT, NameNList, MangledNameNList, NList] 
-                0x00000001b493eff8 (     0x8) AppKitVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,34 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libAXSpeechManager.dylib [arm64e, 0.105400 seconds]:
+    80864C3A-D891-3123-BF1C-A2C79CA1B9F2 /usr/lib/libAXSpeechManager.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ffbe000 (   0xffd) __TEXT SEGMENT
+            0x000000021ffbe000 (   0xf40) MACH_HEADER
+            0x000000021ffbef40 (    0x24) __TEXT __text
+                0x000000021ffbef40 (     0xc) AXSpeechTransformText [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbef4c (     0x4) AXSpeechTransformTextWithLanguageAndVoiceIdentifier [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbef50 (     0xc) AXSpeechTransformTextWithLanguage [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbef5c (     0x4) AXSpeechLanguageCanonicalFormToGeneralLanguage [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbef60 (     0x4) isSpeakableEmojiString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ffbef64 (    0x40) __TEXT __auth_stubs
+                0x000000021ffbef64 (    0x10) DYLD-STUB$$TTSLanguageCanonicalFormToGeneralLanguage [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbef74 (    0x10) DYLD-STUB$$TTSSpeechTransformTextWithLanguage [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbef84 (    0x10) DYLD-STUB$$TTSSpeechTransformTextWithLanguageAndVoiceIdentifier [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbef94 (    0x10) DYLD-STUB$$TTSisSpeakableEmojiString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ffbefa4 (    0x48) __TEXT __unwind_info
+            0x000000021ffbefec (    0x11) __TEXT __objc_classname
+        0x000000023824adf0 (    0xa0) __DATA_CONST SEGMENT
+            0x000000023824adf0 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023824adf8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023824ae00 (    0x90) __DATA_CONST __objc_const
+                0x000000023824ae00 (    0x48) _OBJC_METACLASS_RO_$_AXEmojiUtilities [NameNList, MangledNameNList, NList] 
+                0x000000023824ae48 (    0x48) _OBJC_CLASS_RO_$_AXEmojiUtilities [NameNList, MangledNameNList, NList] 
+        0x000000023824ae90 (    0x20) __AUTH_CONST SEGMENT
+            0x000000023824ae90 (    0x20) __AUTH_CONST __auth_got
+        0x00000002332f4180 (    0x50) __AUTH SEGMENT
+            0x00000002332f4180 (    0x50) __AUTH __objc_data
+                0x00000002332f4180 (    0x28) OBJC_METACLASS_$_AXEmojiUtilities [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f41a8 (    0x28) OBJC_CLASS_$_AXEmojiUtilities [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

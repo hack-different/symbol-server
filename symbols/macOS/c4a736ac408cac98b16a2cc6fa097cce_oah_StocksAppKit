@@ -1,0 +1,12 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/PrivateFrameworks/StocksAppKit.framework/Versions/A/StocksAppKit [arm64e, 0.028548 seconds]:
+    B01D7E71-8154-3863-84C7-AD9B0E0758CF /System/iOSSupport/System/Library/PrivateFrameworks/StocksAppKit.framework/Versions/A/StocksAppKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022a0d5000 (  0x1000) __TEXT SEGMENT
+            0x000000022a0d5000 (   0xfc8) MACH_HEADER
+            0x000000022a0d5fc8 (    0x38) __TEXT __const
+                0x000000022a0d5fc8 (    0x30) StocksAppKitVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022a0d5ff8 (     0x8) StocksAppKitVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

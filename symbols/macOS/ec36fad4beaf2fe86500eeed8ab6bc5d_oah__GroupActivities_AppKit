@@ -1,0 +1,36 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/Frameworks/_GroupActivities_AppKit.framework/Versions/A/_GroupActivities_AppKit [arm64e, 0.026646 seconds]:
+    D1C4D479-03AD-32FF-9EBF-17E95A03696D /System/iOSSupport/System/Library/Frameworks/_GroupActivities_AppKit.framework/Versions/A/_GroupActivities_AppKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000224e81000 (   0xffa) __TEXT SEGMENT
+            0x0000000224e81000 (   0xfb0) MACH_HEADER
+            0x0000000224e81fb0 (    0x4a) __TEXT __const
+                0x0000000224e81fb0 (    0x40) _GroupActivities_AppKitVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000224e81ff0 (     0x8) _GroupActivities_AppKitVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000224e81ff8 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e854d08 (    0xa8) __DATA_CONST SEGMENT
+            0x000000022e854d08 (    0xa0) __DATA_CONST __const
+                0x000000022e854d08 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d10 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d18 (     0x8) _swift_FORCE_LOAD_$_swiftos_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d20 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d28 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d30 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d38 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d40 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d48 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d50 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d58 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d60 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d68 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d70 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d78 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d80 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d88 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d90 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854d98 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854da0 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$__GroupActivities_AppKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e854da8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

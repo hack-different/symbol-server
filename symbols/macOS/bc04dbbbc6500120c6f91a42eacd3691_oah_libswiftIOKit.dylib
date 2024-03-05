@@ -1,0 +1,75 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftIOKit.dylib [arm64e, 0.029485 seconds]:
+    0C1A32F8-D4CC-390B-AA7C-B94B091E2F62 /usr/lib/swift/libswiftIOKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001a5355000 (  0x1000) __TEXT SEGMENT
+            0x00000001a5355000 (   0xd44) MACH_HEADER
+            0x00000001a5355d44 (   0x26c) __TEXT __text
+                0x00000001a5355d44 (     0xc) kIOReturnError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d50 (     0xc) kIOReturnNoMemory.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d5c (     0xc) kIOReturnNoResources.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d68 (     0xc) kIOReturnIPCError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d74 (     0xc) kIOReturnNoDevice.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d80 (     0xc) kIOReturnNotPrivileged.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d8c (     0xc) kIOReturnBadArgument.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355d98 (     0xc) kIOReturnLockedRead.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355da4 (     0xc) kIOReturnLockedWrite.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355db0 (     0xc) kIOReturnExclusiveAccess.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355dbc (     0xc) kIOReturnBadMessageID.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355dc8 (     0xc) kIOReturnUnsupported.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355dd4 (     0xc) kIOReturnVMError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355de0 (     0xc) kIOReturnInternalError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355dec (     0xc) kIOReturnIOError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355df8 (     0xc) kIOReturnCannotLock.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e04 (     0xc) kIOReturnNotOpen.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e10 (     0xc) kIOReturnNotReadable.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e1c (     0xc) kIOReturnNotWritable.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e28 (     0xc) kIOReturnNotAligned.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e34 (     0xc) kIOReturnBadMedia.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e40 (     0xc) kIOReturnStillOpen.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e4c (     0xc) kIOReturnRLDError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e58 (     0xc) kIOReturnDMAError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e64 (     0xc) kIOReturnBusy.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e70 (     0xc) kIOReturnTimeout.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e7c (     0xc) kIOReturnOffline.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e88 (     0xc) kIOReturnNotReady.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355e94 (     0xc) kIOReturnNotAttached.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355ea0 (     0xc) kIOReturnNoChannels.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355eac (     0xc) kIOReturnNoSpace.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355eb8 (     0xc) kIOReturnPortExists.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355ec4 (     0xc) kIOReturnCannotWire.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355ed0 (     0xc) kIOReturnNoInterrupt.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355edc (     0xc) kIOReturnNoFrames.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355ee8 (     0xc) kIOReturnMessageTooLarge.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355ef4 (     0xc) kIOReturnNotPermitted.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f00 (     0xc) kIOReturnNoPower.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f0c (     0xc) kIOReturnNoMedia.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f18 (     0xc) kIOReturnUnformattedMedia.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f24 (     0xc) kIOReturnUnsupportedMode.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f30 (     0xc) kIOReturnUnderrun.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f3c (     0xc) kIOReturnOverrun.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f48 (     0xc) kIOReturnDeviceError.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f54 (     0xc) kIOReturnNoCompletion.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f60 (     0xc) kIOReturnAborted.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f6c (     0xc) kIOReturnNoBandwidth.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f78 (     0xc) kIOReturnNotResponding.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f84 (     0xc) kIOReturnIsoTooOld.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f90 (     0xc) kIOReturnIsoTooNew.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355f9c (     0xc) kIOReturnNotFound.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001a5355fa8 (     0x8) kIOReturnInvalid.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001a5355fb0 (     0x8) __TEXT __const
+                0x00000001a5355fb6 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001a5355fb8 (    0x48) __TEXT __unwind_info
+        0x00000001d3b26738 (    0x28) __DATA_CONST SEGMENT
+            0x00000001d3b26738 (    0x20) __DATA_CONST __const
+                0x00000001d3b26738 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_IOKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b26740 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_IOKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b26748 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_IOKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b26750 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_IOKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3b26758 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000001d60aded1 (     0x1) __DATA SEGMENT
+            0x00000001d60aded1 (     0x1) __DATA __common
+                0x00000001d60aded1 (     0x1) _swift_FORCE_LOAD_$_swiftIOKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

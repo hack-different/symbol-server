@@ -1,0 +1,33 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libEUC.dylib [arm64e, 0.024335 seconds]:
+    2E5A73D7-15BB-3C22-8B59-B8D59A1440DB /usr/lib/i18n/libEUC.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff5b000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ff5b000 (  0x3958) MACH_HEADER
+            0x000000021ff5e958 (   0x5e8) __TEXT __text
+                0x000000021ff5e958 (   0x17c) _citrus_EUC_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ead4 (    0x10) _citrus_EUC_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5eae4 (    0xb0) _citrus_EUC_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5eb94 (    0x3c) _citrus_EUC_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ebd0 (    0x58) _citrus_EUC_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ec28 (     0xc) _citrus_EUC_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ec34 (     0xc) _citrus_EUC_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ec40 (    0x28) _citrus_EUC_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ec68 (    0x30) _citrus_EUC_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ec98 (   0x16c) _citrus_EUC_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ee04 (   0x13c) _citrus_EUC_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff5ef40 (    0x40) __TEXT __auth_stubs
+                0x000000021ff5ef40 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5ef50 (    0x10) DYLD-STUB$$_citrus_bcs_strtol [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5ef60 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5ef70 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff5ef80 (    0x10) __TEXT __const
+            0x000000021ff5ef90 (    0x64) __TEXT __unwind_info
+        0x0000000238249aa0 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000238249aa0 (    0x20) __AUTH_CONST __auth_got
+        0x00000002332f3ac0 (    0x58) __AUTH SEGMENT
+            0x00000002332f3ac0 (    0x58) __AUTH __data
+                0x00000002332f3ac0 (    0x58) _citrus_EUC_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,112 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftQuartzCore.dylib [arm64e, 0.029081 seconds]:
+    98FA8E1E-9D8B-3E27-83AE-0321FFDE03A8 /usr/lib/swift/libswiftQuartzCore.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b493f000 (  0x1ff6) __TEXT SEGMENT
+            0x00000001b493f000 (  0x13b4) MACH_HEADER
+            0x00000001b49403b4 (   0x7cc) __TEXT __text
+                0x00000001b49403b4 (    0x14) type metadata accessor for CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49403c8 (    0x14) CAFrameRateRange.init(minimum:maximum:preferred:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49403dc (    0x28) CAFrameRateRange.preferred.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940404 (    0x20) key path getter for CAFrameRateRange.preferred : CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940424 (    0x1c) key path setter for CAFrameRateRange.preferred : CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940440 (    0x18) CAFrameRateRange.preferred.setter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940458 (    0x40) CAFrameRateRange.preferred.modify [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940498 (    0x20) CAFrameRateRange.preferred.modify [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49404b8 (    0x18) static CAFrameRateRange.== infix(_:_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49404d0 (    0x28) protocol witness for static Equatable.== infix(_:_:) in conformance CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49404f8 (    0x14) __swift_memcpy12_4 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b494050c (     0x4) __swift_noop_void_return [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940510 (    0x20) getEnumTagSinglePayload for CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940530 (    0x2c) storeEnumTagSinglePayload for CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b494055c (    0x14) type metadata accessor for CAFrameRateRange [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940570 (    0x34) initializeBufferWithCopyOfBuffer for CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49405a4 (    0x24) __swift_memcpy128_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49405c8 (    0x20) getEnumTagSinglePayload for CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b49405e8 (    0x4c) storeEnumTagSinglePayload for CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940634 (    0x48) type metadata accessor for CAFrameRateRange [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b494067c (    0x94) CATransform3D._bridgeToObjectiveC() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940710 (     0x4) static CATransform3D._forceBridgeFromObjectiveC(_:result:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940714 (     0x4) static CATransform3D._conditionallyBridgeFromObjectiveC(_:result:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940718 (    0x50) static CATransform3D._unconditionallyBridgeFromObjectiveC(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940768 (    0xa0) protocol witness for _ObjectiveCBridgeable._bridgeToObjectiveC() in conformance CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940808 (     0x4) protocol witness for static _ObjectiveCBridgeable._forceBridgeFromObjectiveC(_:result:) in conformance CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b494080c (     0x4) protocol witness for static _ObjectiveCBridgeable._conditionallyBridgeFromObjectiveC(_:result:) in conformance CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940810 (    0x50) protocol witness for static _ObjectiveCBridgeable._unconditionallyBridgeFromObjectiveC(_:) in conformance CATransform3D [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940860 (    0xf4) specialized static CATransform3D._forceBridgeFromObjectiveC(_:result:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940954 (    0xf8) specialized static CATransform3D._conditionallyBridgeFromObjectiveC(_:result:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b4940a4c (   0x134) specialized static CATransform3D._unconditionallyBridgeFromObjectiveC(_:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001b4940b80 (    0x90) __TEXT __auth_stubs
+                0x00000001b4940b80 (    0x10) DYLD-STUB$$_stdlib_isOSVersionAtLeastOrVariantVersionAtLeast(_:_:_:_:_:_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940b90 (    0x10) DYLD-STUB$$CAFrameRateRangeIsEqualToRange [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940ba0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940bb0 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940bc0 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940bd0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940be0 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940bf0 (    0x10) DYLD-STUB$$swift_getForeignTypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b4940c00 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001b4940c10 (    0xac) __TEXT __const
+                0x00000001b4940c20 (    0x50) protocol conformance descriptor for CAFrameRateRange [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940c70 (     0x4) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940c74 (    0x48) protocol conformance descriptor for CATransform3D [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940cbc (    0x4c) __TEXT __constg_swiftt
+                0x00000001b4940cbc (     0xc) module descriptor  [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940cc8 (    0x20) nominal type descriptor for CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940ce8 (    0x20) nominal type descriptor for CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940d08 (    0x3e) __TEXT __swift5_typeref
+                0x00000001b4940d08 (     0x6) symbolic _____ So16CAFrameRateRangeV [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d0e (     0x4) symbolic Sf [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d12 (     0x6) symbolic _____ So13CATransform3DV [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d18 (     0x6) symbolic _____ 12CoreGraphics7CGFloatV [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d1e (     0xc) symbolic So7NSValueC [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d2a (    0x1c) symbolic $ss21_ObjectiveCBridgeableP [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940d48 (    0x28) __TEXT __swift5_builtin
+                0x00000001b4940d48 (    0x14) reflection metadata builtin descriptor CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940d5c (    0x14) reflection metadata builtin descriptor CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940d70 (    0x6c) __TEXT __swift5_reflstr
+            0x00000001b4940ddc (   0x104) __TEXT __swift5_fieldmd
+                0x00000001b4940ddc (    0x34) reflection metadata field descriptor CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4940e10 (    0xd0) reflection metadata field descriptor CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940ee0 (     0x8) __TEXT __swift5_proto
+            0x00000001b4940ee8 (     0x8) __TEXT __swift5_types
+            0x00000001b4940ef0 (    0x21) __TEXT __cstring
+            0x00000001b4940f14 (    0x18) __TEXT __swift5_assocty
+                0x00000001b4940f14 (    0x18) reflection metadata associated type descriptor CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b4940f2c (    0x90) __TEXT __unwind_info
+            0x00000001b4940fbc (    0x3a) __TEXT __objc_methname
+        0x00000001d3b58378 (    0x88) __DATA_CONST SEGMENT
+            0x00000001d3b58378 (     0x8) __DATA_CONST __got
+            0x00000001d3b58380 (    0x58) __DATA_CONST __const
+                0x00000001d3b58380 (    0x10) property descriptor for CAFrameRateRange.preferred [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b58390 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b58398 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583a0 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583a8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583b0 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583b8 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583c0 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583c8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b583d0 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_QuartzCore [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3b583d8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3b583e0 (    0x20) __DATA_CONST __objc_selrefs
+        0x00000001de8b2250 (   0x1d8) __AUTH_CONST SEGMENT
+            0x00000001de8b2250 (   0x190) __AUTH_CONST __const
+                0x00000001de8b2260 (    0x58) value witness table for CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001de8b22b8 (    0x30) full type metadata for CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001de8b22e8 (    0x58) value witness table for CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001de8b2340 (    0xa0) full type metadata for CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001de8b23e0 (    0x48) __AUTH_CONST __auth_got
+        0x00000001d65be880 (   0x121) __DATA SEGMENT
+            0x00000001d65be880 (     0x8) __DATA __objc_classrefs
+            0x00000001d65be888 (    0x10) __DATA __data
+                0x00000001d65be888 (     0x8) lazy cache variable for type metadata for CAFrameRateRange [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d65be890 (     0x8) lazy cache variable for type metadata for CATransform3D [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d65be8a0 (   0x100) __DATA __bss
+                0x00000001d65be8a0 (    0x80) metadata instantiation cache for protocol conformance descriptor for CAFrameRateRange [NameNList, MangledNameNList, NList] 
+                0x00000001d65be920 (    0x80) metadata instantiation cache for protocol conformance descriptor for CATransform3D [NameNList, MangledNameNList, NList] 
+            0x00000001d65be9a0 (     0x1) __DATA __common
+                0x00000001d65be9a0 (     0x1) _swift_FORCE_LOAD_$_swiftQuartzCore [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

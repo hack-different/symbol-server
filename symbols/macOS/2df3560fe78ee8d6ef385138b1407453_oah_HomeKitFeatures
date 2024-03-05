@@ -1,0 +1,14 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/HomeKitFeatures.framework/Versions/A/HomeKitFeatures [arm64e, 0.036236 seconds]:
+    7752CF54-A1E1-333A-B9F0-717F0FB779D3 /System/Library/PrivateFrameworks/HomeKitFeatures.framework/Versions/A/HomeKitFeatures [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020418f000 (  0x1000) __TEXT SEGMENT
+            0x000000020418f000 (   0xfb4) MACH_HEADER
+            0x000000020418ffb4 (     0x4) __TEXT __text
+                0x000000020418ffb4 (     0x4) HomeKitFeatures_DummyAnchorSymbol [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020418ffb8 (    0x48) __TEXT __unwind_info
+        0x000000022e7bd1a8 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7bd1a8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

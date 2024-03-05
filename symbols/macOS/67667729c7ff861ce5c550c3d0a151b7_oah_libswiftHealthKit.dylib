@@ -1,0 +1,11 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftHealthKit.dylib [arm64e, 0.810258 seconds]:
+    6A06AAA9-4D71-3D3E-B94C-E9A6A3DA75AB /usr/lib/swift/libswiftHealthKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221549000 (  0x1000) __TEXT SEGMENT
+            0x0000000221549000 (  0x1000) MACH_HEADER
+        0x000000022e844968 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e844968 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

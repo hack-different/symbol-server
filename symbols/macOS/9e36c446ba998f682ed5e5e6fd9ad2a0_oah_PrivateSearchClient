@@ -1,0 +1,75 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/PrivateSearchClient.framework/Versions/A/PrivateSearchClient [arm64e, 0.151735 seconds]:
+    BBF5AC72-9665-3A24-A4EC-D3E3A8576AD2 /System/Library/PrivateFrameworks/PrivateSearchClient.framework/Versions/A/PrivateSearchClient [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c068000 (  0x4000) __TEXT SEGMENT
+            0x000000020c068000 (  0x3754) MACH_HEADER
+            0x000000020c06b754 (   0x5dc) __TEXT __text
+                0x000000020c06b754 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x000000020c06b7f4 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x000000020c06b85c (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c06b8a0 (   0x19c) (null) [FUNC, FunctionStarts] 
+                0x000000020c06ba3c (    0x44) __swift_project_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c06ba80 (    0x64) __swift_allocate_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c06bae4 (   0x1c0) (null) [FUNC, FunctionStarts] 
+                0x000000020c06bca4 (    0x50) __swift_destroy_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c06bcf4 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020c06bcfc (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020c06bd0c (    0x24) (null) [FUNC, FunctionStarts] 
+            0x000000020c06bd30 (   0x130) __TEXT __auth_stubs
+                0x000000020c06bd30 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd40 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd50 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd60 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd70 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd80 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bd90 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bda0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bdb0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bdc0 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bdd0 (    0x10) DYLD-STUB$$swift_allocBox [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bde0 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06bdf0 (    0x10) DYLD-STUB$$swift_beginAccess [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be00 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be10 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be20 (    0x10) DYLD-STUB$$swift_deallocClassInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be30 (    0x10) DYLD-STUB$$swift_endAccess [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be40 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c06be50 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020c06be60 (    0x88) __TEXT __const
+                0x000000020c06be60 (    0x40) PrivateSearchClientVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c06bea0 (    0x46) PrivateSearchClientVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c06bee6 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020c06bee8 (     0xc) __TEXT __swift5_typeref
+                0x000000020c06bee8 (     0x6) symbolic ypSg [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c06beee (     0x6) symbolic _____ 19PrivateSearchClient0aB7FactoryC [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020c06bf00 (    0x30) __TEXT __cstring
+            0x000000020c06bf30 (    0x48) __TEXT __constg_swiftt
+            0x000000020c06bf78 (    0x10) __TEXT __swift5_fieldmd
+            0x000000020c06bf88 (     0x4) __TEXT __swift5_types
+            0x000000020c06bf8c (    0x74) __TEXT __unwind_info
+        0x0000000234c9cd80 (   0x100) __DATA_CONST SEGMENT
+            0x0000000234c9cd80 (    0x20) __DATA_CONST __got
+            0x0000000234c9cda0 (    0x40) __DATA_CONST __const
+                0x0000000234c9cda0 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cda8 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdb0 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdb8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdc0 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdc8 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdd0 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234c9cdd8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_PrivateSearchClient [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000234c9cde0 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000234c9cde8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000234c9cdf0 (    0x90) __DATA_CONST __objc_const
+                0x0000000234c9cdf0 (    0x48) _METACLASS_DATA__TtC19PrivateSearchClient20PrivateSearchFactory [NameNList, MangledNameNList, NList] 
+                0x0000000234c9ce38 (    0x48) _DATA__TtC19PrivateSearchClient20PrivateSearchFactory [NameNList, MangledNameNList, NList] 
+        0x0000000237a97388 (    0x98) __AUTH_CONST SEGMENT
+            0x0000000237a97388 (    0x98) __AUTH_CONST __auth_got
+        0x0000000232ab8390 (    0x98) __AUTH SEGMENT
+            0x0000000232ab8390 (    0x98) __AUTH __data
+        0x00000002314d1f50 (     0x8) __DATA SEGMENT
+            0x00000002314d1f50 (     0x8) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

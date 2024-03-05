@@ -1,0 +1,238 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/TipsNextServices.framework/Versions/A/TipsNextServices [arm64e, 0.040672 seconds]:
+    3DA5E9C7-1CAC-3B77-973C-371106B23EA0 /System/Library/PrivateFrameworks/TipsNextServices.framework/Versions/A/TipsNextServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021571e000 (  0x6000) __TEXT SEGMENT
+            0x000000021571e000 (  0x1f1c) MACH_HEADER
+            0x000000021571ff1c (  0x308c) __TEXT __text
+                0x000000021571ff1c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x000000021571ff28 (    0xa8) (null) [FUNC, FunctionStarts] 
+                0x000000021571ffd0 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x00000002157200c4 (    0x98) (null) [FUNC, FunctionStarts] 
+                0x000000021572015c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000021572016c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215720170 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x0000000215720198 (   0x230) (null) [FUNC, FunctionStarts] 
+                0x00000002157203c8 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x00000002157204bc (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215720520 (   0x10c) (null) [FUNC, FunctionStarts] 
+                0x000000021572062c (   0x36c) (null) [FUNC, FunctionStarts] 
+                0x0000000215720998 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x00000002157209b8 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002157209e8 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000002157209f4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002157209f8 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215720a04 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000215720a28 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000215720a40 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x0000000215720a84 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000215720af0 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x0000000215720b10 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000215720b20 (    0x78) (null) [FUNC, FunctionStarts] 
+                0x0000000215720b98 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000215720be8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000215720bf8 (    0xe4) (null) [FUNC, FunctionStarts] 
+                0x0000000215720cdc (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000215720cf4 (    0xd0) (null) [FUNC, FunctionStarts] 
+                0x0000000215720dc4 (    0xc0) (null) [FUNC, FunctionStarts] 
+                0x0000000215720e84 (    0x9c) (null) [FUNC, FunctionStarts] 
+                0x0000000215720f20 (    0xe0) (null) [FUNC, FunctionStarts] 
+                0x0000000215721000 (   0x19c) (null) [FUNC, FunctionStarts] 
+                0x000000021572119c (   0x17c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721318 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000021572134c (    0x34) (null) [FUNC, FunctionStarts] 
+                0x0000000215721380 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002157213a4 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002157213c8 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000002157213fc (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000215721444 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721500 (    0xc0) (null) [FUNC, FunctionStarts] 
+                0x00000002157215c0 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x00000002157215e8 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x00000002157216a4 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x0000000215721744 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x000000021572176c (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000002157217cc (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721898 (    0xc4) (null) [FUNC, FunctionStarts] 
+                0x000000021572195c (    0x38) (null) [FUNC, FunctionStarts] 
+                0x0000000215721994 (    0xa0) (null) [FUNC, FunctionStarts] 
+                0x0000000215721a34 (    0xc0) (null) [FUNC, FunctionStarts] 
+                0x0000000215721af4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215721af8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215721afc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b00 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b18 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b28 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b44 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b50 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b5c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b68 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x0000000215721b88 (    0xfc) (null) [FUNC, FunctionStarts] 
+                0x0000000215721c84 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721cf0 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721d3c (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000215721d7c (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721db8 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000215721df8 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x0000000215721e60 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000215721e74 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000215721ebc (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000215721efc (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000215721f3c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000215721f4c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215721f50 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x0000000215721f9c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000215721fa4 (    0x94) (null) [FUNC, FunctionStarts] 
+                0x0000000215722038 (   0x100) (null) [FUNC, FunctionStarts] 
+                0x0000000215722138 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x000000021572218c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215722198 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002157221c8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002157221cc (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000002157221d8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002157221dc (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722228 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000021572222c (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722278 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x00000002157222c8 (    0x74) (null) [FUNC, FunctionStarts] 
+                0x000000021572233c (    0xc8) (null) [FUNC, FunctionStarts] 
+                0x0000000215722404 (   0x160) (null) [FUNC, FunctionStarts] 
+                0x0000000215722564 (   0x170) (null) [FUNC, FunctionStarts] 
+                0x00000002157226d4 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722740 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x00000002157227ac (    0x20) (null) [FUNC, FunctionStarts] 
+                0x00000002157227cc (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000002157227fc (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000215722808 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000021572280c (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000215722820 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000215722844 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x000000021572287c (    0x48) (null) [FUNC, FunctionStarts] 
+                0x00000002157228c4 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722928 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000021572293c (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000215722960 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000215722974 (    0x9c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722a10 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000215722a34 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x0000000215722a94 (    0x78) (null) [FUNC, FunctionStarts] 
+                0x0000000215722b0c (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000215722b5c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000215722b60 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000215722b84 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000215722b9c (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722c08 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722c6c (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722cd0 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722d34 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722d98 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000215722dfc (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000215722e10 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000215722e58 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000215722e6c (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722eb8 (    0x8c) (null) [FUNC, FunctionStarts] 
+                0x0000000215722f44 (    0x64) (null) [FUNC, FunctionStarts] 
+            0x0000000215722fa8 (   0x3c0) __TEXT __auth_stubs
+                0x0000000215722fa8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215722fb8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215722fc8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215722fd8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215722fe8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215722ff8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723008 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723018 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723028 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723038 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723048 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723058 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723068 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723078 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723088 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723098 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230a8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230b8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230c8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230d8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230e8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157230f8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723108 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723118 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723128 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723138 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723148 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723158 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723168 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723178 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723188 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723198 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231a8 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231b8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231c8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231d8 (    0x10) DYLD-STUB$$swift_allocError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231e8 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157231f8 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723208 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723218 (    0x10) DYLD-STUB$$swift_deallocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723228 (    0x10) DYLD-STUB$$swift_defaultActor_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723238 (    0x10) DYLD-STUB$$swift_defaultActor_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723248 (    0x10) DYLD-STUB$$swift_dynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723258 (    0x10) DYLD-STUB$$swift_errorRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723268 (    0x10) DYLD-STUB$$swift_getEnumTagSinglePayloadGeneric [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723278 (    0x10) DYLD-STUB$$swift_getSingletonMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723288 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723298 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232a8 (    0x10) DYLD-STUB$$swift_initStructMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232b8 (    0x10) DYLD-STUB$$swift_lookUpClassMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232c8 (    0x10) DYLD-STUB$$swift_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232d8 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232e8 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002157232f8 (    0x10) DYLD-STUB$$swift_slowAlloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723308 (    0x10) DYLD-STUB$$swift_storeEnumTagSinglePayloadGeneric [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723318 (    0x10) DYLD-STUB$$swift_task_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723328 (    0x10) DYLD-STUB$$swift_task_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723338 (    0x10) DYLD-STUB$$swift_task_dealloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723348 (    0x10) DYLD-STUB$$swift_task_switch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000215723358 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000215723368 (    0x44) __TEXT __objc_methlist
+            0x00000002157233b0 (   0x274) __TEXT __const
+            0x0000000215723624 (   0x110) __TEXT __constg_swiftt
+            0x0000000215723734 (    0xda) __TEXT __swift5_typeref
+            0x0000000215723810 (    0x9c) __TEXT __swift5_fieldmd
+            0x00000002157238ac (    0x18) __TEXT __swift5_types
+            0x00000002157238d0 (   0x10e) __TEXT __cstring
+            0x00000002157239de (    0x36) __TEXT __swift5_reflstr
+            0x0000000215723a14 (    0x1c) __TEXT __swift5_proto
+            0x0000000215723a30 (    0x3c) __TEXT __swift5_capture
+            0x0000000215723a6c (    0x18) __TEXT __swift5_assocty
+            0x0000000215723a84 (   0x1d0) __TEXT __unwind_info
+            0x0000000215723c58 (   0x2e0) __TEXT __eh_frame
+            0x0000000215723f38 (     0xe) __TEXT __objc_classname
+            0x0000000215723f46 (    0x7c) __TEXT __objc_methname
+            0x0000000215723fc2 (    0x12) __TEXT __objc_methtype
+            0x0000000215723fe0 (    0x20) __TEXT __objc_stubs
+        0x00000002351b9880 (   0x2b0) __DATA_CONST SEGMENT
+            0x00000002351b9880 (    0x68) __DATA_CONST __got
+            0x00000002351b98e8 (    0x48) __DATA_CONST __const
+            0x00000002351b9930 (    0x20) __DATA_CONST __objc_classlist
+            0x00000002351b9950 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002351b9958 (   0x1b8) __DATA_CONST __objc_const
+            0x00000002351b9b10 (    0x20) __DATA_CONST __objc_selrefs
+        0x00000002351b9b30 (   0x460) __AUTH_CONST SEGMENT
+            0x00000002351b9b30 (    0x90) __AUTH_CONST __objc_const
+            0x00000002351b9bc0 (   0x1e0) __AUTH_CONST __const
+            0x00000002351b9da0 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000002351b9da8 (   0x1e8) __AUTH_CONST __auth_got
+        0x0000000232ed76e0 (   0x2e8) __AUTH SEGMENT
+            0x0000000232ed76e0 (   0x100) __AUTH __objc_data
+                0x0000000232ed76e0 (    0x28) OBJC_METACLASS_$_TipEventProxy [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232ed7708 (    0x88) OBJC_CLASS_$_TipEventProxy [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232ed7790 (    0x50) OBJC_CLASS_$__TtC16TipsNextServices18TipEventProxySwift [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000232ed77e0 (   0x1e8) __AUTH __data
+                0x0000000232ed7880 (   0x148) OBJC_METACLASS_$__TtC16TipsNextServices18TipEventProxySwift [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002318abee0 (   0x4b0) __DATA SEGMENT
+            0x00000002318abee0 (     0x8) __DATA __objc_classrefs
+            0x00000002318abee8 (   0x128) __DATA __data
+            0x00000002318ac010 (   0x380) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

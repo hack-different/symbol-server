@@ -1,0 +1,107 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/ARKit.axbundle/Contents/MacOS/ARKit [arm64e, 0.023657 seconds]:
+    B9408EDD-C6E8-3B19-810A-BD7F8238F5A5 /System/iOSSupport/System/Library/AccessibilityBundles/ARKit.axbundle/Contents/MacOS/ARKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002230b1000 (  0x2000) __TEXT SEGMENT
+            0x00000002230b1000 (  0x12a0) MACH_HEADER
+            0x00000002230b22a0 (   0x4c8) __TEXT __text
+                0x00000002230b22a0 (    0x94) +[AXARKitGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2334 (     0x8) __44+[AXARKitGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b233c (    0x60) __44+[AXARKitGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b239c (    0x14) __44+[AXARKitGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b23b0 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2460 (     0xc) +[ARCoachingOverlayViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b246c (     0xc) +[ARCoachingOverlayViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2478 (    0xec) +[ARCoachingOverlayViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2564 (     0xc) -[ARCoachingOverlayViewAccessibility _axIsActive] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2570 (    0x54) -[ARCoachingOverlayViewAccessibility _axCoachingText] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b25c4 (    0x5c) -[ARCoachingOverlayViewAccessibility _axAnnounceCoachingText] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2620 (    0x7c) -[ARCoachingOverlayViewAccessibility setActive:animated:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b269c (    0xc4) -[ARCoachingOverlayViewAccessibility crossFadeCoachingMessage:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002230b2760 (     0x8) __63-[ARCoachingOverlayViewAccessibility crossFadeCoachingMessage:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002230b2768 (    0xf0) __TEXT __auth_stubs
+                0x00000002230b2768 (    0x10) DYLD-STUB$$AXPerformBlockOnMainThreadAfterDelay [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2778 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2788 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2798 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27a8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27b8 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27c8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27d8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27e8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b27f8 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2808 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2818 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2828 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2838 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002230b2848 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002230b2858 (    0x8c) __TEXT __objc_methlist
+                0x00000002230b2858 (    0x18) _OBJC_$_CLASS_METHODS_AXARKitGlue [NameNList, MangledNameNList, NList] 
+                0x00000002230b2870 (    0x30) _OBJC_$_CLASS_METHODS_ARCoachingOverlayViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002230b28a0 (    0x44) _OBJC_$_INSTANCE_METHODS_ARCoachingOverlayViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x00000002230b28e4 (   0x101) __TEXT __cstring
+            0x00000002230b29e8 (    0x10) __TEXT __const
+            0x00000002230b29f8 (    0x78) __TEXT __unwind_info
+            0x00000002230b2a70 (    0x67) __TEXT __objc_classname
+            0x00000002230b2ad8 (   0x29e) __TEXT __objc_methname
+            0x00000002230b2d76 (    0x44) __TEXT __objc_methtype
+            0x00000002230b2dc0 (   0x240) __TEXT __objc_stubs
+                0x00000002230b2dc0 (    0x20) objc_msgSend$_axAnnounceCoachingText [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2de0 (    0x20) objc_msgSend$_axCoachingText [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2e00 (    0x20) objc_msgSend$_axIsActive [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2e20 (    0x20) objc_msgSend$accessibilityLabel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2e40 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2e60 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2e80 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2ea0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2ec0 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2ee0 (    0x20) objc_msgSend$safeBoolForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2f00 (    0x20) objc_msgSend$safeIntegerForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2f20 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2f40 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2f60 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2f80 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2fa0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2fc0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002230b2fe0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383b3f70 (   0x230) __DATA_CONST SEGMENT
+            0x00000002383b3f70 (    0x10) __DATA_CONST __got
+            0x00000002383b3f80 (    0x68) __DATA_CONST __const
+                0x00000002383b3f80 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383b3fa0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383b3fc0 (    0x28) __block_descriptor_40_e8_32s_e5_v8?0ls32l8 [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383b3fe8 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002383b4000 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383b4008 (    0xd8) __DATA_CONST __objc_const
+                0x00000002383b4008 (    0x48) _OBJC_CLASS_RO_$_AXARKitGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383b4050 (    0x48) _OBJC_METACLASS_RO_$___ARCoachingOverlayViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383b4098 (    0x48) _OBJC_CLASS_RO_$___ARCoachingOverlayViewAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002383b40e0 (    0xc0) __DATA_CONST __objc_selrefs
+        0x00000002383b41a0 (   0x318) __AUTH_CONST SEGMENT
+            0x00000002383b41a0 (    0x60) __AUTH_CONST __const
+                0x00000002383b41a0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383b41c0 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x00000002383b41e0 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002383b4200 (   0x160) __AUTH_CONST __cfstring
+            0x00000002383b4360 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002383b4360 (    0x48) _OBJC_METACLASS_RO_$_AXARKitGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383b43a8 (    0x48) _OBJC_METACLASS_RO_$_ARCoachingOverlayViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383b43f0 (    0x48) _OBJC_CLASS_RO_$_ARCoachingOverlayViewAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002383b4438 (    0x80) __AUTH_CONST __auth_got
+        0x0000000233614320 (    0xf0) __AUTH SEGMENT
+            0x0000000233614320 (    0xf0) __AUTH __objc_data
+                0x0000000233614320 (    0x28) OBJC_CLASS_$_AXARKitGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233614348 (    0x28) OBJC_METACLASS_$_AXARKitGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233614370 (    0x28) OBJC_METACLASS_$___ARCoachingOverlayViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233614398 (    0x28) OBJC_CLASS_$___ARCoachingOverlayViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336143c0 (    0x28) OBJC_CLASS_$_ARCoachingOverlayViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336143e8 (    0x28) OBJC_METACLASS_$_ARCoachingOverlayViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba7bc8 (    0x38) __DATA SEGMENT
+            0x0000000231ba7bc8 (    0x20) __DATA __objc_classrefs
+            0x0000000231ba7be8 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba7bf0 (    0x10) __DATA __bss
+                0x0000000231ba7bf0 (     0x8) _Failover [NameNList, MangledNameNList, NList] 
+                0x0000000231ba7bf8 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

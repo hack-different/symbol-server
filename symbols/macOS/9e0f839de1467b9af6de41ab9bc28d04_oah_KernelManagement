@@ -1,0 +1,210 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/KernelManagement.framework/Versions/A/KernelManagement [arm64e, 0.154345 seconds]:
+    36F982BD-59D2-3480-BAC0-28B069400832 /System/Library/Frameworks/KernelManagement.framework/Versions/A/KernelManagement [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000197ccf000 (  0x8000) __TEXT SEGMENT
+            0x0000000197ccf000 (  0x3704) MACH_HEADER
+            0x0000000197cd2704 (  0x2d84) __TEXT __text
+                0x0000000197cd2704 (     0xc) -[KernelManagementClient .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2710 (   0x1dc) -[KernelManagementClient unloadExtensionsWithIdentifiers:withClassNames:options:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd28ec (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd28fc (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2904 (    0xf0) __91-[KernelManagementClient unloadExtensionsWithIdentifiers:withClassNames:options:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd29f4 (    0xf0) __91-[KernelManagementClient unloadExtensionsWithIdentifiers:withClassNames:options:withError:]_block_invoke.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2ae4 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2af0 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2b00 (   0x21c) -[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2d1c (    0xf0) __134-[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2e0c (   0x100) __134-[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withError:]_block_invoke.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f0c (    0x14) -[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:options:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f20 (    0x10) -[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withNoAuth:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f30 (    0x14) -[KernelManagementClient loadExtensionsWithPaths:withIdentifiers:withNoAuth:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f44 (    0x14) -[KernelManagementClient loadExtensionsWithPaths:withNoAuth:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f58 (    0x14) -[KernelManagementClient loadExtensionsWithPaths:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2f6c (    0x38) -[KernelManagementClient init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2fa4 (    0x54) +[KernelManagementClient sharedClient] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd2ff8 (    0x40) __38+[KernelManagementClient sharedClient]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3038 (    0x8c) -[KernelManagementClient(Internal) initWithConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd30c4 (   0x348) -[KernelManagementClient(Internal) connection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd340c (    0xd4) __46-[KernelManagementClient(Internal) connection]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd34e0 (    0xd4) __46-[KernelManagementClient(Internal) connection]_block_invoke.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd35b4 (     0x8) __destroy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd35bc (     0x8) __copy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd35c4 (   0x200) -[KernelManagementClient(Private) rebuildAuxiliaryKernelCollectionWithInterface:rebootRequired:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd37c4 (    0x10) __Block_byref_object_copy_.44 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd37d4 (     0x8) __Block_byref_object_dispose_.45 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd37dc (    0x10) __106-[KernelManagementClient(Private) rebuildAuxiliaryKernelCollectionWithInterface:rebootRequired:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd37ec (    0x20) __106-[KernelManagementClient(Private) rebuildAuxiliaryKernelCollectionWithInterface:rebootRequired:withError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd380c (    0x44) __destroy_helper_block_e8_32r40r [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3850 (    0x50) __copy_helper_block_e8_32r40r [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd38a0 (    0x9c) -[KernelManagementClient(Private) pathOfLoadableKernelCollectionOfType:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd393c (   0x210) -[KernelManagementClient(Private) migrateAuxKCForVolumeGroupUUID:withMigrationSuccess:withRebootRequired:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3b4c (    0xe8) __116-[KernelManagementClient(Private) migrateAuxKCForVolumeGroupUUID:withMigrationSuccess:withRebootRequired:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3c34 (   0x110) __116-[KernelManagementClient(Private) migrateAuxKCForVolumeGroupUUID:withMigrationSuccess:withRebootRequired:withError:]_block_invoke.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3d44 (   0x1b0) -[KernelManagementClient(Private) triggerAuxKCCleanup:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3ef4 (    0x10) __65-[KernelManagementClient(Private) triggerAuxKCCleanup:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3f04 (    0x10) __65-[KernelManagementClient(Private) triggerAuxKCCleanup:withError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd3f14 (   0x1b0) -[KernelManagementClient(Private) triggerPanicMedicInRecoveryWithPath:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd40c4 (    0x10) __81-[KernelManagementClient(Private) triggerPanicMedicInRecoveryWithPath:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd40d4 (    0x10) __81-[KernelManagementClient(Private) triggerPanicMedicInRecoveryWithPath:withError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd40e4 (   0x234) -[KernelManagementClient(Private) getCollectionPathWithCollection:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4318 (    0x10) __77-[KernelManagementClient(Private) getCollectionPathWithCollection:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4328 (    0x90) __77-[KernelManagementClient(Private) getCollectionPathWithCollection:withError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd43b8 (   0x20c) -[KernelManagementClient(Private) dumpStateWithError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd45c4 (    0x10) __54-[KernelManagementClient(Private) dumpStateWithError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd45d4 (    0x90) __54-[KernelManagementClient(Private) dumpStateWithError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4664 (   0x188) -[KernelManagementClient(Private) clearAllStagedExtensions:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd47ec (    0x10) __60-[KernelManagementClient(Private) clearAllStagedExtensions:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd47fc (    0x10) __60-[KernelManagementClient(Private) clearAllStagedExtensions:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd480c (    0xe8) -[KernelManagementClient(Private) daemonIsReachable] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd48f4 (   0x188) -[KernelManagementClient(Private) checkAllFilesets:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4a7c (    0x10) __52-[KernelManagementClient(Private) checkAllFilesets:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4a8c (    0x10) __52-[KernelManagementClient(Private) checkAllFilesets:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4a9c (   0x234) -[KernelManagementClient(Private) pathOfExtensionWithIdentifier:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4cd0 (    0x10) __75-[KernelManagementClient(Private) pathOfExtensionWithIdentifier:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4ce0 (    0x90) __75-[KernelManagementClient(Private) pathOfExtensionWithIdentifier:withError:]_block_invoke.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4d70 (    0x80) OSKextErrorFromKMError [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4df0 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x0000000197cd4e04 (   0x1d4) KMLoadExtensionsWithPaths [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd4fd8 (   0x1d4) KMLoadExtensionsWithIdentifiers [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd51ac (   0x190) KMUnloadExtensionsWithIdentifiers [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000197cd533c (   0x14c) KMExtensionPathForBundleIdentifier [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000197cd5488 (   0x160) __TEXT __auth_stubs
+                0x0000000197cd5488 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5498 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54a8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54b8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54c8 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54d8 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54e8 (    0x10) DYLD-STUB$$bootstrap_look_up2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd54f8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5508 (    0x10) DYLD-STUB$$mach_port_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5518 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5528 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5538 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5548 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5558 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5568 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5578 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5588 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5598 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd55a8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd55b8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd55c8 (    0x10) DYLD-STUB$$os_unfair_lock_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000197cd55d8 (    0x10) DYLD-STUB$$os_unfair_lock_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000197cd55e8 (   0x128) __TEXT __objc_methlist
+                0x0000000197cd55e8 (    0x18) _OBJC_$_CLASS_METHODS_KernelManagementClient(Internal|Private) [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5600 (   0x110) _OBJC_$_INSTANCE_METHODS_KernelManagementClient(Internal|Private) [NameNList, MangledNameNList, NList] 
+            0x0000000197cd5710 (    0x60) __TEXT __const
+                0x0000000197cd5728 (    0x40) KernelManagementVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd5768 (     0x8) KernelManagementVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000197cd5770 (    0xec) __TEXT __gcc_except_tab
+                0x0000000197cd5770 (    0x18) GCC_except_table1 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5788 (    0x18) GCC_except_table8 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd57a0 (    0x18) GCC_except_table25 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd57b8 (    0x18) GCC_except_table33 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd57d0 (    0x14) GCC_except_table36 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd57e4 (    0x14) GCC_except_table39 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd57f8 (    0x18) GCC_except_table42 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5810 (    0x14) GCC_except_table45 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5824 (    0x10) GCC_except_table48 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5834 (    0x10) GCC_except_table52 [NameNList, MangledNameNList, NList] 
+                0x0000000197cd5844 (    0x18) GCC_except_table55 [NameNList, MangledNameNList, NList] 
+            0x0000000197cd585c (   0x118) __TEXT __cstring
+            0x0000000197cd5974 (   0x292) __TEXT __oslogstring
+            0x0000000197cd5c08 (   0x174) __TEXT __unwind_info
+            0x0000000197cd5d7c (    0x67) __TEXT __objc_classname
+            0x0000000197cd5de4 (   0x931) __TEXT __objc_methname
+            0x0000000197cd6715 (   0x468) __TEXT __objc_methtype
+            0x0000000197cd6b80 (   0x480) __TEXT __objc_stubs
+                0x0000000197cd6b80 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ba0 (    0x20) objc_msgSend$checkAllFilesetsWithReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6bc0 (    0x20) objc_msgSend$clearAllStagedExtensionsWithReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6be0 (    0x20) objc_msgSend$code [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6c00 (    0x20) objc_msgSend$connection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6c20 (    0x20) objc_msgSend$description [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6c40 (    0x20) objc_msgSend$domain [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6c60 (    0x20) objc_msgSend$dumpStateWithReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6c80 (    0x20) objc_msgSend$getCollectionPathWithCollection:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ca0 (    0x20) objc_msgSend$initWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6cc0 (    0x20) objc_msgSend$initWithMachServiceName:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ce0 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6d00 (    0x20) objc_msgSend$isEqualTo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6d20 (    0x20) objc_msgSend$loadExtensionsWithPaths:withIdentifiers:withNoAuth:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6d40 (    0x20) objc_msgSend$loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:options:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6d60 (    0x20) objc_msgSend$loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6d80 (    0x20) objc_msgSend$loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6da0 (    0x20) objc_msgSend$loadExtensionsWithPaths:withIdentifiers:withPersonalityNames:withNoAuth:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6dc0 (    0x20) objc_msgSend$localizedDescription [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6de0 (    0x20) objc_msgSend$migrateAuxKCForVolumeGroupUUID:withMigrationSuccess:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6e00 (    0x20) objc_msgSend$pathOfExtensionWithIdentifier:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6e20 (    0x20) objc_msgSend$pathOfExtensionWithIdentifier:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6e40 (    0x20) objc_msgSend$rebuildAuxiliaryKernelCollectionWithInterface:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6e60 (    0x20) objc_msgSend$remoteObjectInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6e80 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ea0 (    0x20) objc_msgSend$setInterface:forSelector:argumentIndex:ofReply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ec0 (    0x20) objc_msgSend$setInterruptionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6ee0 (    0x20) objc_msgSend$setInvalidationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6f00 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6f20 (    0x20) objc_msgSend$sharedClient [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6f40 (    0x20) objc_msgSend$stringByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6f60 (    0x20) objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6f80 (    0x20) objc_msgSend$triggerAuxKCCleanup:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6fa0 (    0x20) objc_msgSend$triggerPanicMedicInRecoveryWithPath:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6fc0 (    0x20) objc_msgSend$unloadExtensionsWithIdentifiers:withClassNames:options:withError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000197cd6fe0 (    0x20) objc_msgSend$unloadExtensionsWithIdentifiers:withClassNames:options:withReplyBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001dc968510 (   0x470) __DATA_CONST SEGMENT
+            0x00000001dc968510 (    0x30) __DATA_CONST __got
+            0x00000001dc968540 (    0x28) __DATA_CONST __const
+                0x00000001dc968540 (    0x20) __block_descriptor_32_e5_v8?0l [NameNList, MangledNameNList, NList] 
+                0x00000001dc968560 (     0x8) OSKernelManagementErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001dc968568 (     0x8) __DATA_CONST __objc_classlist
+            0x00000001dc968570 (    0x10) __DATA_CONST __objc_protolist
+                0x00000001dc968570 (     0x8) _OBJC_LABEL_PROTOCOL_$_KernelManagementClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001dc968578 (     0x8) _OBJC_LABEL_PROTOCOL_$_KernelManagementReplyProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001dc968580 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001dc968588 (   0x250) __DATA_CONST __objc_const
+                0x00000001dc9685a0 (    0x28) _OBJC_$_INSTANCE_VARIABLES_KernelManagementClient [NameNList, MangledNameNList, NList] 
+                0x00000001dc9685c8 (   0x170) _OBJC_$_PROTOCOL_INSTANCE_METHODS_KernelManagementClientProtocol [NameNList, MangledNameNList, NList] 
+                0x00000001dc968738 (    0x78) _OBJC_$_PROTOCOL_METHOD_TYPES_KernelManagementClientProtocol [NameNList, MangledNameNList, NList] 
+                0x00000001dc9687b0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_KernelManagementReplyProtocol [NameNList, MangledNameNList, NList] 
+                0x00000001dc9687d0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_KernelManagementReplyProtocol [NameNList, MangledNameNList, NList] 
+            0x00000001dc9687d8 (   0x198) __DATA_CONST __objc_selrefs
+            0x00000001dc968970 (    0x10) __DATA_CONST __objc_arraydata
+                0x00000001dc968970 (     0x8) _unnamed_array_storage [NameNList, MangledNameNList, NList] 
+                0x00000001dc968978 (     0x8) _unnamed_array_storage.21 [NameNList, MangledNameNList, NList] 
+        0x00000001dc968980 (   0x338) __AUTH_CONST SEGMENT
+            0x00000001dc968980 (    0xe0) __AUTH_CONST __const
+                0x00000001dc968980 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001dc9689a0 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [NameNList, MangledNameNList, NList] 
+                0x00000001dc9689d0 (    0x30) __block_descriptor_40_e8_32r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001dc968a00 (    0x30) __block_descriptor_48_e8_32r40r_e30_v24?0"NSString"8"NSError"16l [NameNList, MangledNameNList, NList] 
+                0x00000001dc968a30 (    0x30) __block_descriptor_48_e8_32r40r_e20_v20?0B8"NSError"12l [NameNList, MangledNameNList, NList] 
+            0x00000001dc968a60 (    0xe0) __AUTH_CONST __cfstring
+            0x00000001dc968b40 (    0x90) __AUTH_CONST __objc_const
+                0x00000001dc968b40 (    0x48) _OBJC_METACLASS_RO_$_KernelManagementClient [NameNList, MangledNameNList, NList] 
+                0x00000001dc968b88 (    0x48) _OBJC_CLASS_RO_$_KernelManagementClient [NameNList, MangledNameNList, NList] 
+            0x00000001dc968bd0 (    0x28) __AUTH_CONST __objc_dictobj
+            0x00000001dc968bf8 (    0xc0) __AUTH_CONST __auth_got
+        0x00000001d7446890 (    0x50) __AUTH SEGMENT
+            0x00000001d7446890 (    0x50) __AUTH __objc_data
+                0x00000001d7446890 (    0x28) OBJC_METACLASS_$_KernelManagementClient [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d74468b8 (    0x28) OBJC_CLASS_$_KernelManagementClient [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d5eb2798 (   0x11c) __DATA SEGMENT
+            0x00000001d5eb2798 (    0x10) __DATA __objc_protorefs
+                0x00000001d5eb2798 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_KernelManagementClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5eb27a0 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_KernelManagementReplyProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d5eb27a8 (    0x20) __DATA __objc_classrefs
+            0x00000001d5eb27c8 (    0x10) __DATA __objc_superrefs
+            0x00000001d5eb27d8 (     0x4) __DATA __objc_ivar
+                0x00000001d5eb27d8 (     0x4) OBJC_IVAR_$_KernelManagementClient._xpcConn [NameNList, MangledNameNList, NList] 
+            0x00000001d5eb27e0 (    0xc0) __DATA __data
+                0x00000001d5eb27e0 (    0x60) _OBJC_PROTOCOL_$_KernelManagementClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5eb2840 (    0x60) _OBJC_PROTOCOL_$_KernelManagementReplyProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d5eb28a0 (    0x14) __DATA __bss
+                0x00000001d5eb28a0 (     0x8) sharedClient.init [NameNList, MangledNameNList, NList] 
+                0x00000001d5eb28a8 (     0x8) sharedClient.client [NameNList, MangledNameNList, NList] 
+                0x00000001d5eb28b0 (     0x4) ul [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

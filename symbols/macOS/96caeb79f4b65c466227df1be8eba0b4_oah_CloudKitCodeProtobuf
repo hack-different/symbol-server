@@ -1,0 +1,13 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/CloudKitCodeProtobuf.framework/Versions/A/CloudKitCodeProtobuf [arm64e, 0.028292 seconds]:
+    CBC357FD-E49D-356C-BCF1-269B88345EE5 /System/Library/PrivateFrameworks/CloudKitCodeProtobuf.framework/Versions/A/CloudKitCodeProtobuf [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f67b9000 (  0x1000) __TEXT SEGMENT
+            0x00000001f67b9000 (   0xfb0) MACH_HEADER
+            0x00000001f67b9fb0 (    0x50) __TEXT __const
+        0x000000022e11c230 (    0x40) __DATA_CONST SEGMENT
+            0x000000022e11c230 (    0x38) __DATA_CONST __const
+            0x000000022e11c268 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

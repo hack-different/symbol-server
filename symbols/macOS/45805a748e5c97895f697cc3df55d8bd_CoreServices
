@@ -1,8 +1,0 @@
-/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices [arm64e, 0.029292 seconds]:
-    042F955F-1A4C-3E47-B736-F8E5EB7EFB0E /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001942db000 (  0x1000) __TEXT SEGMENT
-            0x00000001942db000 (   0xfc0) MACH_HEADER
-            0x00000001942dbfc0 (    0x40) __TEXT __const
-                0x00000001942dbfc0 (    0x38) CoreServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
-                0x00000001942dbff8 (     0x8) CoreServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

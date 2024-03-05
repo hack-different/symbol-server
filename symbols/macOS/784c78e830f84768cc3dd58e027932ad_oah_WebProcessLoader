@@ -1,0 +1,92 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/WebProcessLoader.axbundle/Versions/A/WebProcessLoader [arm64e, 0.024761 seconds]:
+    D470A96A-40E8-3200-88E4-BEDA1CE44457 /System/iOSSupport/System/Library/AccessibilityBundles/WebProcessLoader.axbundle/Versions/A/WebProcessLoader [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022360a000 (  0x2000) __TEXT SEGMENT
+            0x000000022360a000 (  0x1444) MACH_HEADER
+            0x000000022360b444 (   0x68c) __TEXT __text
+                0x000000022360b444 (    0x44) +[AXWebProcessLoader _axUpdated:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b488 (    0xd8) __33+[AXWebProcessLoader _axUpdated:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b560 (   0x100) __33+[AXWebProcessLoader _axUpdated:]_block_invoke.212 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b660 (    0x70) +[AXWebProcessLoader _registerForAccessibility] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b6d0 (    0x88) +[AXWebProcessLoader initialize] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b758 (    0xd8) __32+[AXWebProcessLoader initialize]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b830 (    0x28) +[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b858 (   0x17c) __55+[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b9d4 (    0x24) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360b9f8 (    0x20) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360ba18 (    0x5c) __33+[AXWebProcessLoader _axUpdated:]_block_invoke.212.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360ba74 (    0x5c) __55+[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022360bad0 (   0x140) __TEXT __auth_stubs
+                0x000000022360bad0 (    0x10) DYLD-STUB$$AXAccessibilityBundlesDirectory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bae0 (    0x10) DYLD-STUB$$AXAccessibilityMacCatalystBundlesDirectory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360baf0 (    0x10) DYLD-STUB$$AXLogCommon [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb00 (    0x10) DYLD-STUB$$_AXSApplicationAccessibilityEnabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb10 (    0x10) DYLD-STUB$$_CFMZEnabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb20 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb30 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb40 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb50 (    0x10) DYLD-STUB$$dispatch_after [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb60 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb70 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb80 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bb90 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bba0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bbb0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bbc0 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bbd0 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bbe0 (    0x10) DYLD-STUB$$objc_retain_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bbf0 (    0x10) DYLD-STUB$$objc_unsafeClaimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360bc00 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022360bc10 (    0x38) __TEXT __objc_methlist
+                0x000000022360bc10 (    0x38) _OBJC_$_CLASS_METHODS_AXWebProcessLoader [NameNList, MangledNameNList, NList] 
+            0x000000022360bc48 (     0x8) __TEXT __const
+            0x000000022360bc50 (    0x49) __TEXT __cstring
+            0x000000022360bc99 (    0x9e) __TEXT __oslogstring
+            0x000000022360bd38 (    0x78) __TEXT __unwind_info
+            0x000000022360bdb0 (    0x14) __TEXT __objc_classname
+            0x000000022360bdc4 (    0xe9) __TEXT __objc_methname
+            0x000000022360bead (    0x13) __TEXT __objc_methtype
+            0x000000022360bec0 (   0x140) __TEXT __objc_stubs
+                0x000000022360bec0 (    0x20) objc_msgSend$_accessibilityLoadWebCoreAXBundle [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bee0 (    0x20) objc_msgSend$_axUpdated: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bf00 (    0x20) objc_msgSend$_registerForAccessibility [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bf20 (    0x20) objc_msgSend$addObserver:selector:name:object: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bf40 (    0x20) objc_msgSend$bundleWithPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bf60 (    0x20) objc_msgSend$defaultCenter [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bf80 (    0x20) objc_msgSend$loadAndReturnError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bfa0 (    0x20) objc_msgSend$principalClass [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bfc0 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360bfe0 (    0x20) objc_msgSend$stringByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023850f3c0 (   0x110) __DATA_CONST SEGMENT
+            0x000000023850f3c0 (    0x20) __DATA_CONST __got
+            0x000000023850f3e0 (    0x40) __DATA_CONST __const
+                0x000000023850f3e0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023850f400 (    0x20) __block_descriptor_40_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023850f420 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023850f428 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023850f430 (    0x48) __DATA_CONST __objc_const
+                0x000000023850f430 (    0x48) _OBJC_CLASS_RO_$_AXWebProcessLoader [NameNList, MangledNameNList, NList] 
+            0x000000023850f478 (    0x58) __DATA_CONST __objc_selrefs
+        0x000000023850f4d0 (   0x1b0) __AUTH_CONST SEGMENT
+            0x000000023850f4d0 (    0x60) __AUTH_CONST __const
+                0x000000023850f4d0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023850f4f0 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x000000023850f510 (    0x20) __block_literal_global.223 [NameNList, MangledNameNList, NList] 
+            0x000000023850f530 (    0x60) __AUTH_CONST __cfstring
+            0x000000023850f590 (    0x48) __AUTH_CONST __objc_const
+                0x000000023850f590 (    0x48) _OBJC_METACLASS_RO_$_AXWebProcessLoader [NameNList, MangledNameNList, NList] 
+            0x000000023850f5d8 (    0xa8) __AUTH_CONST __auth_got
+        0x0000000233665d80 (    0x50) __AUTH SEGMENT
+            0x0000000233665d80 (    0x50) __AUTH __objc_data
+                0x0000000233665d80 (    0x28) OBJC_METACLASS_$_AXWebProcessLoader [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233665da8 (    0x28) OBJC_CLASS_$_AXWebProcessLoader [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bb0370 (    0x28) __DATA SEGMENT
+            0x0000000231bb0370 (    0x10) __DATA __objc_classrefs
+            0x0000000231bb0380 (    0x18) __DATA __bss
+                0x0000000231bb0380 (     0x8) kAXMHarmonicAmplitude_block_invoke.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000231bb0388 (     0x8) initialize.onceToken [NameNList, MangledNameNList, NList] 
+                0x0000000231bb0390 (     0x8) _accessibilityLoadWebCoreAXBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

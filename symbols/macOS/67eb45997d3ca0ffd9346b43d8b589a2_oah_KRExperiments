@@ -1,0 +1,80 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/KRExperiments.framework/Versions/A/KRExperiments [arm64e, 0.098697 seconds]:
+    4613299A-C682-3FAD-80D5-549C59FF5967 /System/Library/PrivateFrameworks/KRExperiments.framework/Versions/A/KRExperiments [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000205b5b000 (  0x4000) __TEXT SEGMENT
+            0x0000000205b5b000 (  0x2b84) MACH_HEADER
+            0x0000000205b5db84 (   0xb6c) __TEXT __text
+                0x0000000205b5db84 (     0xc) KRExperimentsInit [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5db90 (   0xaac) KRExperimentsUpdateExperimentState [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e63c (     0xc) KRExperimentsHandleUpdate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e648 (    0x1c) KRExperimentsUpdateExperimentState.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e664 (    0x1c) KRExperimentsUpdateExperimentState.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e680 (    0x1c) KRExperimentsUpdateExperimentState.cold.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e69c (    0x1c) KRExperimentsUpdateExperimentState.cold.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e6b8 (    0x1c) KRExperimentsUpdateExperimentState.cold.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000205b5e6d4 (    0x1c) KRExperimentsUpdateExperimentState.cold.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000205b5e6f0 (   0x120) __TEXT __auth_stubs
+                0x0000000205b5e6f0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e700 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e710 (    0x10) DYLD-STUB$$_os_assert_log [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e720 (    0x10) DYLD-STUB$$_os_crash [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e730 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e740 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e750 (    0x10) DYLD-STUB$$memorystatus_control [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e760 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e770 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e780 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e790 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7a0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7b0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7c0 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7d0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7e0 (    0x10) DYLD-STUB$$strerror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e7f0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e800 (    0x10) DYLD-STUB$$sysctlbyname [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000205b5e810 (    0x40) __TEXT __const
+                0x0000000205b5e810 (    0x38) KRExperimentsVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5e848 (     0x8) KRExperimentsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000205b5e850 (    0xc4) __TEXT __cstring
+            0x0000000205b5e914 (   0x157) __TEXT __oslogstring
+            0x0000000205b5ea6c (    0x5c) __TEXT __unwind_info
+            0x0000000205b5eac8 (   0x215) __TEXT __objc_methname
+            0x0000000205b5ece0 (   0x320) __TEXT __objc_stubs
+                0x0000000205b5ece0 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ed00 (    0x20) objc_msgSend$booleanValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ed20 (    0x20) objc_msgSend$cStringUsingEncoding: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ed40 (    0x20) objc_msgSend$clientWithIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ed60 (    0x20) objc_msgSend$componentsJoinedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ed80 (    0x20) objc_msgSend$componentsSeparatedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5eda0 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5edc0 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ede0 (    0x20) objc_msgSend$experimentIdentifiersWithNamespaceName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ee00 (    0x20) objc_msgSend$factor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ee20 (    0x20) objc_msgSend$factorLevelsWithNamespaceName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ee40 (    0x20) objc_msgSend$hasFactor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ee60 (    0x20) objc_msgSend$hasLevel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ee80 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5eea0 (    0x20) objc_msgSend$level [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5eec0 (    0x20) objc_msgSend$levelOneOfCase [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5eee0 (    0x20) objc_msgSend$longValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ef00 (    0x20) objc_msgSend$name [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ef20 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ef40 (    0x20) objc_msgSend$objectForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ef60 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5ef80 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5efa0 (    0x20) objc_msgSend$stringValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5efc0 (    0x20) objc_msgSend$subarrayWithRange: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000205b5efe0 (    0x20) objc_msgSend$trialIdentifiersWithNamespaceName:experimentId:deploymentId:treatmentId: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7c0810 (    0xd8) __DATA_CONST SEGMENT
+            0x000000022e7c0810 (     0x8) __DATA_CONST __got
+            0x000000022e7c0818 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7c0820 (    0xc8) __DATA_CONST __objc_selrefs
+        0x00000002376671a0 (   0x198) __AUTH_CONST SEGMENT
+            0x00000002376671a0 (   0x100) __AUTH_CONST __cfstring
+            0x00000002376672a0 (    0x98) __AUTH_CONST __auth_got
+        0x00000002311c5e80 (    0x10) __DATA SEGMENT
+            0x00000002311c5e80 (    0x10) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

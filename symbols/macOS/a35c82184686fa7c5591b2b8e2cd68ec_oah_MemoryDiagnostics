@@ -1,0 +1,118 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/MemoryDiagnostics.framework/Versions/A/MemoryDiagnostics [arm64e, 0.040641 seconds]:
+    ED88557A-E6C9-33FD-A5E4-99616BC26446 /System/Library/PrivateFrameworks/MemoryDiagnostics.framework/Versions/A/MemoryDiagnostics [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000207b14000 (  0x4000) __TEXT SEGMENT
+            0x0000000207b14000 (  0x182c) MACH_HEADER
+            0x0000000207b1582c (  0x1dac) __TEXT __text
+                0x0000000207b1582c (   0x38c) memgraph_from_task_save_immediate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207b15bb8 (   0x2d4) (null) [FUNC, FunctionStarts] 
+                0x0000000207b15e8c (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000207b15edc (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000207b15f24 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000207b15f78 (    0x78) (null) [FUNC, FunctionStarts] 
+                0x0000000207b15ff0 (    0xe8) (null) [FUNC, FunctionStarts] 
+                0x0000000207b160d8 (   0x530) ReportMemoryExceptionFromTask [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207b16608 (   0x270) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16878 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x0000000207b168d4 (   0x110) (null) [FUNC, FunctionStarts] 
+                0x0000000207b169e4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000207b169f4 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000207b169fc (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16a4c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16a90 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16aa0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16aa8 (    0xac) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16b54 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16b64 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16b70 (   0x238) RMECheckEntitlement [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000207b16da8 (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16e74 (   0x134) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16fa8 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000207b16ff0 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x0000000207b1702c (   0x26c) (null) [FUNC, FunctionStarts] 
+                0x0000000207b17298 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x0000000207b172dc (    0x74) (null) [FUNC, FunctionStarts] 
+                0x0000000207b17350 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x0000000207b173b8 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000207b17408 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000207b17448 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x0000000207b174a0 (   0x138) (null) [FUNC, FunctionStarts] 
+            0x0000000207b175d8 (   0x340) __TEXT __auth_stubs
+                0x0000000207b175d8 (    0x10) DYLD-STUB$$CFBooleanGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b175e8 (    0x10) DYLD-STUB$$CFBooleanGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b175f8 (    0x10) DYLD-STUB$$CFGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17608 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17618 (    0x10) DYLD-STUB$$SMJobIsEnabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17628 (    0x10) DYLD-STUB$$SecTaskCopyValueForEntitlement [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17638 (    0x10) DYLD-STUB$$SecTaskCreateWithAuditToken [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17648 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17658 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17668 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17678 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17688 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17698 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176a8 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176b8 (    0x10) DYLD-STUB$$dispatch_after [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176c8 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176d8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176e8 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b176f8 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17708 (    0x10) DYLD-STUB$$mach_absolute_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17718 (    0x10) DYLD-STUB$$mach_port_get_refs [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17728 (    0x10) DYLD-STUB$$mach_port_kernel_object [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17738 (    0x10) DYLD-STUB$$mach_port_mod_refs [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17748 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17758 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17768 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17778 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17788 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17798 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177a8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177b8 (    0x10) DYLD-STUB$$objc_retainBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177c8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177d8 (    0x10) DYLD-STUB$$pid_for_task [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177e8 (    0x10) DYLD-STUB$$proc_pidpath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b177f8 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17808 (    0x10) DYLD-STUB$$task_map_corpse_info_64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17818 (    0x10) DYLD-STUB$$vm_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17828 (    0x10) DYLD-STUB$$xpc_connection_create_mach_service [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17838 (    0x10) DYLD-STUB$$xpc_connection_get_audit_token [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17848 (    0x10) DYLD-STUB$$xpc_connection_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17858 (    0x10) DYLD-STUB$$xpc_connection_send_message [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17868 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17878 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply_sync [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17888 (    0x10) DYLD-STUB$$xpc_connection_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17898 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178a8 (    0x10) DYLD-STUB$$xpc_dictionary_get_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178b8 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178c8 (    0x10) DYLD-STUB$$xpc_dictionary_set_bool [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178d8 (    0x10) DYLD-STUB$$xpc_dictionary_set_fd [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178e8 (    0x10) DYLD-STUB$$xpc_dictionary_set_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b178f8 (    0x10) DYLD-STUB$$xpc_dictionary_set_mach_send [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000207b17908 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000207b17918 (    0x78) __TEXT __const
+            0x0000000207b17990 (    0x74) __TEXT __gcc_except_tab
+            0x0000000207b17a04 (   0x18a) __TEXT __oslogstring
+            0x0000000207b17b8e (   0x1fd) __TEXT __cstring
+            0x0000000207b17d8c (    0xd8) __TEXT __unwind_info
+            0x0000000207b17e64 (    0x98) __TEXT __objc_methname
+            0x0000000207b17f00 (   0x100) __TEXT __objc_stubs
+        0x000000022e7c31c8 (    0xe0) __DATA_CONST SEGMENT
+            0x000000022e7c31c8 (    0x58) __DATA_CONST __got
+            0x000000022e7c3220 (    0x40) __DATA_CONST __const
+            0x000000022e7c3260 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7c3268 (    0x40) __DATA_CONST __objc_selrefs
+        0x0000000237785360 (   0x450) __AUTH_CONST SEGMENT
+            0x0000000237785360 (   0x1e0) __AUTH_CONST __const
+            0x0000000237785540 (    0xc0) __AUTH_CONST __cfstring
+            0x0000000237785600 (   0x1b0) __AUTH_CONST __auth_got
+        0x0000000231275350 (    0x48) __DATA SEGMENT
+            0x0000000231275350 (    0x18) __DATA __objc_classrefs
+            0x0000000231275368 (    0x10) __DATA __data
+                0x0000000231275368 (     0x8) MREBundleStringForUnbundledProcess [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000231275370 (     0x8) MREErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000231275378 (    0x20) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

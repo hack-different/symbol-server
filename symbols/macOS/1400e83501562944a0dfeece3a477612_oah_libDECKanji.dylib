@@ -1,0 +1,34 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/i18n/libDECKanji.dylib [arm64e, 0.023675 seconds]:
+    411D694C-BD87-31B0-A9F3-5DB6EA20CCA3 /usr/lib/i18n/libDECKanji.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff57000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ff57000 (  0x3af4) MACH_HEADER
+            0x000000021ff5aaf4 (   0x43c) __TEXT __text
+                0x000000021ff5aaf4 (    0x60) _citrus_DECKanji_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ab54 (    0x10) _citrus_DECKanji_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ab64 (    0xd4) _citrus_DECKanji_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ac38 (    0x6c) _citrus_DECKanji_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5aca4 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000021ff5acb8 (    0x68) _citrus_DECKanji_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ad20 (    0x18) _citrus_DECKanji_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ad38 (     0xc) _citrus_DECKanji_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ad44 (    0x28) _citrus_DECKanji_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ad6c (    0x30) _citrus_DECKanji_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ad9c (    0xe8) _citrus_DECKanji_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff5ae84 (    0xac) _citrus_DECKanji_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff5af30 (    0x40) __TEXT __auth_stubs
+                0x000000021ff5af30 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5af40 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5af50 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff5af60 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff5af70 (    0x10) __TEXT __const
+            0x000000021ff5af80 (    0x74) __TEXT __unwind_info
+        0x0000000238249a80 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000238249a80 (    0x20) __AUTH_CONST __auth_got
+        0x00000002332f3a68 (    0x58) __AUTH SEGMENT
+            0x00000002332f3a68 (    0x58) __AUTH __data
+                0x00000002332f3a68 (    0x58) _citrus_DECKanji_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

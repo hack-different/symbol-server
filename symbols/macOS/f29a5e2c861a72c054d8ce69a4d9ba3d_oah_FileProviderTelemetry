@@ -1,0 +1,193 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/FileProviderTelemetry.framework/Versions/A/FileProviderTelemetry [arm64e, 0.026727 seconds]:
+    413A418C-9239-33D3-8A1F-611C8C15AB79 /System/Library/PrivateFrameworks/FileProviderTelemetry.framework/Versions/A/FileProviderTelemetry [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fb61b000 (  0x4000) __TEXT SEGMENT
+            0x00000001fb61b000 (   0xef4) MACH_HEADER
+            0x00000001fb61bef4 (  0x1ed4) __TEXT __text
+                0x00000001fb61bef4 (   0x144) +[FPRTCReportingSessionManager sessionInfo] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c038 (    0xa0) -[FPRTCReportingSessionManager init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c0d8 (    0x54) +[FPRTCReportingSessionManager defaultManager] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c12c (    0x40) __46+[FPRTCReportingSessionManager defaultManager]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c16c (    0x8c) -[FPRTCReportingSessionManager sessionForProviderID:version:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c1f8 (    0x8c) -[FPRTCReportingSessionManager sessionForDomainID:providerVersion:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c284 (   0x1b0) -[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c434 (   0x158) __117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c58c (    0x64) __copy_helper_block_e8_32s40s48s56s64s72s80s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c5f0 (    0x64) __destroy_helper_block_e8_32s40s48s56s64s72s80s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c654 (   0x140) -[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c794 (   0x190) __83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c924 (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c934 (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61c93c (   0x3e0) __83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.10 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cd1c (    0x94) __83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.11 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cdb0 (    0x48) __copy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cdf8 (    0x40) __destroy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61ce38 (    0x60) __copy_helper_block_e8_32s40s48s56s64r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61ce98 (    0x58) __destroy_helper_block_e8_32s40s48s56s64r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cef0 (    0x54) __copy_helper_block_e8_32s40s48s56s64s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cf44 (    0x54) __destroy_helper_block_e8_32s40s48s56s64s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61cf98 (   0x174) -[FPRTCReportingSessionManager postReportWithCategory:type:payload:error:decoratedPayload:session:observer:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d10c (    0xc4) -[FPRTCReportingSessionManager flushMessagesWithCompletion:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d1d0 (     0x4) __60-[FPRTCReportingSessionManager flushMessagesWithCompletion:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d1d4 (    0x14) __60-[FPRTCReportingSessionManager flushMessagesWithCompletion:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d1e8 (    0x10) __copy_helper_block_e8_32b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d1f8 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d200 (    0x44) -[FPRTCReportingSessionManager .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d244 (    0x78) -[FPRTCReportingSession truncateProviderVersion:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d2bc (   0x148) -[FPRTCReportingSession initWithProviderID:version:manager:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d404 (   0x2cc) -[FPRTCReportingSession postReportWithCategory:type:payload:error:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d6d0 (     0x8) -[FPRTCReportingSession flushMessagesWithCompletion:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d6d8 (   0x194) -[FPRTCReportingSession flushMessagesSynchronouslyWithError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d86c (    0x5c) __61-[FPRTCReportingSession flushMessagesSynchronouslyWithError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d8c8 (    0x50) -[FPRTCReportingSession description] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d918 (     0xc) -[FPRTCReportingSession setObserver:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61d924 (   0x120) -[FPRTCReportingSession setModifyDecoratedPayloadHook:forCategory:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61da44 (    0xdc) -[FPRTCReportingSession executeModifyDecoratedPayloadHook:type:payload:error:decoratedPayload:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61db20 (    0x68) -[FPRTCReportingSession .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61db88 (    0x18) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61dba0 (    0x20) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61dbc0 (    0x90) __117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61dc50 (    0x80) __117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61dcd0 (    0x80) __83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.11.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fb61dd50 (    0x78) -[FPRTCReportingSession initWithProviderID:version:manager:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fb61ddc8 (   0x220) __TEXT __auth_stubs
+                0x00000001fb61ddc8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ddd8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dde8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ddf8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de08 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de18 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de28 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de38 (    0x10) DYLD-STUB$$dispatch_group_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de48 (    0x10) DYLD-STUB$$dispatch_group_enter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de58 (    0x10) DYLD-STUB$$dispatch_group_leave [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de68 (    0x10) DYLD-STUB$$dispatch_group_notify [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de78 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de88 (    0x10) DYLD-STUB$$dispatch_queue_attr_make_with_autorelease_frequency [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61de98 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dea8 (    0x10) DYLD-STUB$$dispatch_semaphore_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61deb8 (    0x10) DYLD-STUB$$dispatch_semaphore_signal [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dec8 (    0x10) DYLD-STUB$$dispatch_semaphore_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ded8 (    0x10) DYLD-STUB$$dispatch_sync [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dee8 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61def8 (    0x10) DYLD-STUB$$fp_current_or_default_log [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df08 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df18 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df28 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df38 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df48 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df58 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df68 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df78 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df88 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61df98 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dfa8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dfb8 (    0x10) DYLD-STUB$$objc_retainBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dfc8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fb61dfd8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fb61dfe8 (   0x108) __TEXT __objc_methlist
+                0x00000001fb61dfe8 (    0x20) _OBJC_$_CLASS_METHODS_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+                0x00000001fb61e008 (    0x80) _OBJC_$_INSTANCE_METHODS_FPRTCReportingSession [NameNList, MangledNameNList, NList] 
+                0x00000001fb61e088 (    0x68) _OBJC_$_INSTANCE_METHODS_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+            0x00000001fb61e0f0 (    0x10) __TEXT __const
+            0x00000001fb61e100 (    0x30) __TEXT __gcc_except_tab
+                0x00000001fb61e100 (    0x14) GCC_except_table11 [NameNList, MangledNameNList, NList] 
+                0x00000001fb61e114 (    0x1c) GCC_except_table33 [NameNList, MangledNameNList, NList] 
+            0x00000001fb61e130 (   0x10c) __TEXT __cstring
+            0x00000001fb61e23c (    0xc4) __TEXT __oslogstring
+            0x00000001fb61e300 (    0xdc) __TEXT __unwind_info
+            0x00000001fb61e3dc (    0x37) __TEXT __objc_classname
+            0x00000001fb61e414 (   0x5c1) __TEXT __objc_methname
+            0x00000001fb61e9d5 (   0x188) __TEXT __objc_methtype
+            0x00000001fb61eb60 (   0x4a0) __TEXT __objc_stubs
+                0x00000001fb61eb60 (    0x20) objc_msgSend$code [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eb80 (    0x20) objc_msgSend$componentsSeparatedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eba0 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ebc0 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ebe0 (    0x20) objc_msgSend$description [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ec00 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ec20 (    0x20) objc_msgSend$domain [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ec40 (    0x20) objc_msgSend$executeModifyDecoratedPayloadHook:type:payload:error:decoratedPayload: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ec60 (    0x20) objc_msgSend$firstObject [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ec80 (    0x20) objc_msgSend$flushMessagesWithCompletion: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eca0 (    0x20) objc_msgSend$fp_errorWithPOSIXCode: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ecc0 (    0x20) objc_msgSend$fp_prettyDescription [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ece0 (    0x20) objc_msgSend$fp_toProviderID [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ed00 (    0x20) objc_msgSend$initWithObjectsAndKeys: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ed20 (    0x20) objc_msgSend$initWithProviderID:version:manager: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ed40 (    0x20) objc_msgSend$initWithSessionInfo:userInfo:frameworksToCheck: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ed60 (    0x20) objc_msgSend$mutableCopy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ed80 (    0x20) objc_msgSend$numberWithInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eda0 (    0x20) objc_msgSend$numberWithUnsignedInt: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61edc0 (    0x20) objc_msgSend$numberWithUnsignedInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ede0 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ee00 (    0x20) objc_msgSend$objectForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ee20 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ee40 (    0x20) objc_msgSend$postReportWithCategory:type:payload:error:decoratedPayload:session:observer: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ee60 (    0x20) objc_msgSend$postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ee80 (    0x20) objc_msgSend$reportSentOnSession:category:type:payload:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eea0 (    0x20) objc_msgSend$sendMessageWithCategory:type:payload:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eec0 (    0x20) objc_msgSend$sendOneMessageWithSessionInfo:userInfo:category:type:payload:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61eee0 (    0x20) objc_msgSend$sessionForProviderID:version: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ef00 (    0x20) objc_msgSend$sessionInfo [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ef20 (    0x20) objc_msgSend$setObject:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ef40 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ef60 (    0x20) objc_msgSend$startConfigurationWithCompletionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61ef80 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61efa0 (    0x20) objc_msgSend$truncateProviderVersion: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61efc0 (    0x20) objc_msgSend$underlyingErrors [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fb61efe0 (    0x20) objc_msgSend$unsignedIntValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237049c48 (   0x368) __DATA_CONST SEGMENT
+            0x0000000237049c48 (    0x70) __DATA_CONST __got
+            0x0000000237049cb8 (    0x20) __DATA_CONST __const
+                0x0000000237049cb8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237049cd8 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000237049ce8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237049cf0 (   0x150) __DATA_CONST __objc_const
+                0x0000000237049cf0 (    0x18) _OBJC_$_CLASS_PROP_LIST_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+                0x0000000237049d08 (    0x48) _OBJC_$_INSTANCE_VARIABLES_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+                0x0000000237049d50 (    0x48) _OBJC_METACLASS_RO_$_FPRTCReportingSession [NameNList, MangledNameNList, NList] 
+                0x0000000237049d98 (    0xa8) _OBJC_$_INSTANCE_VARIABLES_FPRTCReportingSession [NameNList, MangledNameNList, NList] 
+            0x0000000237049e40 (   0x170) __DATA_CONST __objc_selrefs
+        0x0000000237049fb0 (   0x4d8) __AUTH_CONST SEGMENT
+            0x0000000237049fb0 (    0x30) __AUTH_CONST __objc_intobj
+            0x0000000237049fe0 (   0x180) __AUTH_CONST __cfstring
+            0x000000023704a160 (   0x130) __AUTH_CONST __const
+                0x000000023704a160 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023704a180 (    0x30) __block_descriptor_104_e8_32s40s48s56s64s72s80s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023704a1b0 (    0x30) __block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023704a1e0 (    0x30) __block_descriptor_80_e8_32s40s48s56s64r_e17_v16?0"NSArray"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023704a210 (    0x30) __block_descriptor_80_e8_32s40s48s56s64s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023704a240 (    0x20) __block_literal_global.21 [NameNList, MangledNameNList, NList] 
+                0x000000023704a260 (    0x30) __block_descriptor_40_e8_32bs_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023704a290 (    0xd8) __AUTH_CONST __objc_const
+                0x000000023704a290 (    0x48) _OBJC_METACLASS_RO_$_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+                0x000000023704a2d8 (    0x48) _OBJC_CLASS_RO_$_FPRTCReportingSessionManager [NameNList, MangledNameNList, NList] 
+                0x000000023704a320 (    0x48) _OBJC_CLASS_RO_$_FPRTCReportingSession [NameNList, MangledNameNList, NList] 
+            0x000000023704a368 (   0x120) __AUTH_CONST __auth_got
+        0x0000000232608bd0 (    0xa0) __AUTH SEGMENT
+            0x0000000232608bd0 (    0xa0) __AUTH __objc_data
+                0x0000000232608bd0 (    0x28) OBJC_CLASS_$_FPRTCReportingSessionManager [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232608bf8 (    0x28) OBJC_CLASS_$_FPRTCReportingSession [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232608c20 (    0x28) OBJC_METACLASS_$_FPRTCReportingSessionManager [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232608c48 (    0x28) OBJC_METACLASS_$_FPRTCReportingSession [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230fee398 (    0x80) __DATA SEGMENT
+            0x0000000230fee398 (    0x40) __DATA __objc_classrefs
+            0x0000000230fee3d8 (    0x10) __DATA __objc_superrefs
+            0x0000000230fee3e8 (    0x1c) __DATA __objc_ivar
+                0x0000000230fee3e8 (     0x4) OBJC_IVAR_$_FPRTCReportingSessionManager._queue [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee3ec (     0x4) OBJC_IVAR_$_FPRTCReportingSessionManager._group [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee3f0 (     0x4) OBJC_IVAR_$_FPRTCReportingSession._providerID [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee3f4 (     0x4) OBJC_IVAR_$_FPRTCReportingSession._providerVersion [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee3f8 (     0x4) OBJC_IVAR_$_FPRTCReportingSession._backingManager [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee3fc (     0x4) OBJC_IVAR_$_FPRTCReportingSession._observer [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fee400 (     0x4) OBJC_IVAR_$_FPRTCReportingSession._categoryHooks [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230fee404 (     0x4) __DATA __data
+                0x0000000230fee404 (     0x4) nextSessionID.sessionId [NameNList, MangledNameNList, NList] 
+            0x0000000230fee408 (    0x10) __DATA __bss
+                0x0000000230fee408 (     0x8) defaultManager.defaultManager [NameNList, MangledNameNList, NList] 
+                0x0000000230fee410 (     0x8) defaultManager.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,8 +1,0 @@
-/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit [arm64e, 0.055580 seconds]:
-    318A8F08-72F5-3012-8169-90B1131C49CE /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001c5019000 (  0x1000) __TEXT SEGMENT
-            0x00000001c5019000 (   0xfd0) MACH_HEADER
-            0x00000001c5019fd0 (    0x30) __TEXT __const
-                0x00000001c5019fd0 (    0x28) UIKitVersionString [PEXT, NameNList, MangledNameNList, NList] 
-                0x00000001c5019ff8 (     0x8) UIKitVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

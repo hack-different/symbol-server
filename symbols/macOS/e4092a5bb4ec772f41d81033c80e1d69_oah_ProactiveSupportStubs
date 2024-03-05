@@ -1,0 +1,103 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/Versions/A/ProactiveSupportStubs [arm64e, 0.075345 seconds]:
+    D98284DE-0ED3-3F3C-A780-DF0072569428 /System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/Versions/A/ProactiveSupportStubs [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c20b000 (  0x4000) __TEXT SEGMENT
+            0x000000020c20b000 (  0x2c6c) MACH_HEADER
+            0x000000020c20dc6c (   0xc4c) __TEXT __text
+                0x000000020c20dc6c (    0x70) +[_PASDeviceStateStub setCurrentOsBuild:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20dcdc (    0x60) +[_PASDeviceStateStub setDeviceFormattedForProtection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20dd3c (   0x194) +[_PASDeviceStateStub setLockStateAKS:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20ded0 (    0xbc) +[_PASDeviceStateStub setClassCLocked:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20df8c (   0x184) +[_PASDeviceStateStub setLockState:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e110 (    0xa4) +[_PASDeviceStateStub stopMockingSystem] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e1b4 (    0xfc) +[_PASDeviceStateStub startMockingSystem] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e2b0 (    0xa4) registerOnceForFirstUnlock [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e354 (    0xc4) unregisterForAKSEvents [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e418 (   0x10c) registerForAKSEvents [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e524 (    0x8c) unregisterForLockStateChanges [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e5b0 (   0x108) registerForLockStateChanges [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e6b8 (    0xfc) currentOsBuild [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e7b4 (    0x54) lockState [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e808 (    0x54) formattedForContentProtection [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c20e85c (    0x5c) unlockedSinceBoot [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020c20e8b8 (    0xc0) __TEXT __auth_stubs
+                0x000000020c20e8b8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e8c8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e8d8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e8e8 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e8f8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e908 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e918 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e928 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e938 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e948 (    0x10) DYLD-STUB$$objc_retainBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e958 (    0x10) DYLD-STUB$$objc_sync_enter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c20e968 (    0x10) DYLD-STUB$$objc_sync_exit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020c20e978 (    0x5c) __TEXT __objc_methlist
+                0x000000020c20e978 (    0x5c) _OBJC_$_CLASS_METHODS__PASDeviceStateStub [NameNList, MangledNameNList, NList] 
+            0x000000020c20e9d8 (    0x68) __TEXT __const
+                0x000000020c20e9d8 (    0x48) ProactiveSupportStubsVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ea20 (    0x20) ProactiveSupportStubsVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000020c20ea40 (   0x118) __TEXT __gcc_except_tab
+                0x000000020c20ea40 (    0x28) GCC_except_table2 [NameNList, MangledNameNList, NList] 
+                0x000000020c20ea68 (    0x24) GCC_except_table4 [NameNList, MangledNameNList, NList] 
+                0x000000020c20ea8c (    0x14) GCC_except_table5 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eaa0 (    0x28) GCC_except_table6 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eac8 (    0x14) GCC_except_table7 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eadc (    0x14) GCC_except_table8 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eaf0 (    0x28) GCC_except_table9 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eb18 (    0x10) GCC_except_table10 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eb28 (    0x1c) GCC_except_table11 [NameNList, MangledNameNList, NList] 
+                0x000000020c20eb44 (    0x14) GCC_except_table12 [NameNList, MangledNameNList, NList] 
+            0x000000020c20eb58 (    0x57) __TEXT __cstring
+            0x000000020c20ebb0 (    0xe0) __TEXT __unwind_info
+            0x000000020c20ec90 (    0x14) __TEXT __objc_classname
+            0x000000020c20eca4 (   0x1b0) __TEXT __objc_methname
+            0x000000020c20ee54 (    0x29) __TEXT __objc_methtype
+            0x000000020c20ee80 (   0x180) __TEXT __objc_stubs
+                0x000000020c20ee80 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20eea0 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20eec0 (    0x20) objc_msgSend$currentHandler [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20eee0 (    0x20) objc_msgSend$handleFailureInFunction:file:lineNumber:description: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ef00 (    0x20) objc_msgSend$integerValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ef20 (    0x20) objc_msgSend$numberWithInt: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ef40 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ef60 (    0x20) objc_msgSend$removeObjectForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20ef80 (    0x20) objc_msgSend$setDefaultSystemCallbacks [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20efa0 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20efc0 (    0x20) objc_msgSend$setSystemCallbacks: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c20efe0 (    0x20) objc_msgSend$stringWithUTF8String: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237ad93f0 (    0xf8) __DATA_CONST SEGMENT
+            0x0000000237ad93f0 (     0x8) __DATA_CONST __got
+            0x0000000237ad93f8 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237ad9400 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237ad9408 (    0x48) __DATA_CONST __objc_const
+                0x0000000237ad9408 (    0x48) _OBJC_CLASS_RO_$__PASDeviceStateStub [NameNList, MangledNameNList, NList] 
+            0x0000000237ad9450 (    0x98) __DATA_CONST __objc_selrefs
+        0x0000000237ad94e8 (    0xf8) __AUTH_CONST SEGMENT
+            0x0000000237ad94e8 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237ad94e8 (    0x48) _OBJC_METACLASS_RO_$__PASDeviceStateStub [NameNList, MangledNameNList, NList] 
+            0x0000000237ad9530 (    0x40) __AUTH_CONST __cfstring
+            0x0000000237ad9570 (    0x70) __AUTH_CONST __auth_got
+        0x0000000232abe8b8 (    0x98) __AUTH SEGMENT
+            0x0000000232abe8b8 (    0x50) __AUTH __objc_data
+                0x0000000232abe8b8 (    0x28) OBJC_CLASS_$__PASDeviceStateStub [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232abe8e0 (    0x28) OBJC_METACLASS_$__PASDeviceStateStub [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000232abe908 (    0x48) __AUTH __data
+                0x0000000232abe908 (    0x48) kMockSystemCallbacks [NameNList, MangledNameNList, NList] 
+        0x00000002314d98a8 (    0x60) __DATA SEGMENT
+            0x00000002314d98a8 (    0x30) __DATA __objc_classrefs
+            0x00000002314d98d8 (     0x8) __DATA __data
+                0x00000002314d98d8 (     0x8) _tokenCounter [NameNList, MangledNameNList, NList] 
+            0x00000002314d98e0 (    0x28) __DATA __bss
+                0x00000002314d98e0 (     0x8) _callbackMap [NameNList, MangledNameNList, NList] 
+                0x00000002314d98e8 (     0x8) _callbackMapAKS [NameNList, MangledNameNList, NList] 
+                0x00000002314d98f0 (     0x8) _firstUnlockCallback [NameNList, MangledNameNList, NList] 
+                0x00000002314d98f8 (     0x4) _lockState [NameNList, MangledNameNList, NList] 
+                0x00000002314d98fc (     0x1) _classCLocked [NameNList, MangledNameNList, NList] 
+                0x00000002314d98fd (     0x3) _deviceFormattedForProtection [NameNList, MangledNameNList, NList] 
+                0x00000002314d9900 (     0x8) _currentOsBuild [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

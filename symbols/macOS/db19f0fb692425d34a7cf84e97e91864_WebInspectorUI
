@@ -1,5 +1,0 @@
-/System/Library/PrivateFrameworks/WebInspectorUI.framework/Versions/A/WebInspectorUI [arm64e, 0.732909 seconds]:
-    524F3A41-0FDB-30CB-A775-3AADB4EB1AB4 /System/Library/PrivateFrameworks/WebInspectorUI.framework/Versions/A/WebInspectorUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001a5950000 (  0x4000) __TEXT SEGMENT
-            0x00000001a5950000 (  0x4000) MACH_HEADER
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

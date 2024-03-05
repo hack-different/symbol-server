@@ -1,0 +1,110 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/Frameworks/AppClip.framework/Versions/A/AppClip [arm64e, 0.677404 seconds]:
+    385BE470-F17B-3DC9-AB07-5CE275DC90E2 /System/iOSSupport/System/Library/Frameworks/AppClip.framework/Versions/A/AppClip [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002236d2000 (  0x2000) __TEXT SEGMENT
+            0x00000002236d2000 (  0x13ac) MACH_HEADER
+            0x00000002236d33ac (   0x51c) __TEXT __text
+                0x00000002236d33ac (    0x78) -[APActivationPayload initWithURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d3424 (    0x8c) -[APActivationPayload confirmAcquiredInRegion:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d34b0 (     0x8) +[APActivationPayload supportsSecureCoding] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d34b8 (    0x18) -[APActivationPayload encodeWithCoder:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d34d0 (    0x94) -[APActivationPayload initWithCoder:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d3564 (    0x50) -[APActivationPayload copyWithZone:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d35b4 (     0x8) -[APActivationPayload URL] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d35bc (     0xc) -[APActivationPayload .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d35c8 (    0xd4) -[NSUserActivity(AppClip_Private) appClipActivationPayload] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d369c (    0xec) -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d3788 (    0x18) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d37a0 (    0x70) -[NSUserActivity(AppClip_Private) appClipActivationPayload].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d3810 (    0x70) -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002236d3880 (    0x48) -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:].cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002236d38c8 (   0x130) __TEXT __auth_stubs
+                0x00000002236d38c8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d38d8 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d38e8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d38f8 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3908 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3918 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3928 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3938 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3948 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3958 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3968 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3978 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3988 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d3998 (    0x10) DYLD-STUB$$objc_retain_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d39a8 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d39b8 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d39c8 (    0x10) DYLD-STUB$$objc_retain_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d39d8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002236d39e8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002236d39f8 (    0x98) __TEXT __objc_methlist
+                0x00000002236d39f8 (    0x18) _OBJC_$_CLASS_METHODS_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x00000002236d3a10 (    0x60) _OBJC_$_INSTANCE_METHODS_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x00000002236d3a70 (    0x20) _OBJC_$_INSTANCE_METHODS_NSUserActivity(AppClip_Private) [NameNList, MangledNameNList, NList] 
+            0x00000002236d3a90 (    0x5b) __TEXT __cstring
+            0x00000002236d3aeb (    0xa9) __TEXT __oslogstring
+            0x00000002236d3b94 (    0x70) __TEXT __unwind_info
+            0x00000002236d3c04 (    0x48) __TEXT __objc_classname
+            0x00000002236d3c4c (   0x1ea) __TEXT __objc_methname
+            0x00000002236d3e36 (    0x83) __TEXT __objc_methtype
+            0x00000002236d3ec0 (   0x140) __TEXT __objc_stubs
+                0x00000002236d3ec0 (    0x20) objc_msgSend$_payloadForIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3ee0 (    0x20) objc_msgSend$_setPayload:object:identifier:dirty: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3f00 (    0x20) objc_msgSend$allocWithZone: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3f20 (    0x20) objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3f40 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3f60 (    0x20) objc_msgSend$decodeObjectOfClass:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3f80 (    0x20) objc_msgSend$encodeObject:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3fa0 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3fc0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002236d3fe0 (    0x20) objc_msgSend$unarchivedObjectOfClass:fromData:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002385377a8 (   0x228) __DATA_CONST SEGMENT
+            0x00000002385377a8 (    0x10) __DATA_CONST __got
+            0x00000002385377b8 (     0x8) __DATA_CONST __const
+                0x00000002385377b8 (     0x8) APActivationPayloadErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002385377c0 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002385377c8 (     0x8) __DATA_CONST __objc_catlist
+            0x00000002385377d0 (    0x18) __DATA_CONST __objc_protolist
+                0x00000002385377d0 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002385377d8 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSSecureCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002385377e0 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002385377e8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002385377f0 (   0x140) __DATA_CONST __objc_const
+                0x00000002385377f0 (    0x38) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537828 (    0x10) _OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537838 (    0x18) _OBJC_$_PROTOCOL_REFS_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537850 (    0x20) _OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537870 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537878 (    0x18) _OBJC_$_CLASS_PROP_LIST_NSSecureCoding [NameNList, MangledNameNList, NList] 
+                0x0000000238537890 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000002385378b0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000002385378b8 (    0x20) _OBJC_CLASS_PROTOCOLS_$_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x00000002385378d8 (    0x18) _OBJC_$_CLASS_PROP_LIST_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x00000002385378f0 (    0x28) _OBJC_$_INSTANCE_VARIABLES_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x0000000238537918 (    0x18) _OBJC_$_PROP_LIST_APActivationPayload [NameNList, MangledNameNList, NList] 
+            0x0000000238537930 (    0xa0) __DATA_CONST __objc_selrefs
+        0x00000002385379d0 (   0x1d0) __AUTH_CONST SEGMENT
+            0x00000002385379d0 (    0x60) __AUTH_CONST __cfstring
+            0x0000000238537a30 (    0xd0) __AUTH_CONST __objc_const
+                0x0000000238537a30 (    0x48) _OBJC_METACLASS_RO_$_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x0000000238537a78 (    0x48) _OBJC_CLASS_RO_$_APActivationPayload [NameNList, MangledNameNList, NList] 
+                0x0000000238537ac0 (    0x40) _OBJC_$_CATEGORY_NSUserActivity_$_AppClip_Private [NameNList, MangledNameNList, NList] 
+            0x0000000238537b00 (    0xa0) __AUTH_CONST __auth_got
+        0x0000000233669118 (    0x50) __AUTH SEGMENT
+            0x0000000233669118 (    0x50) __AUTH __objc_data
+                0x0000000233669118 (    0x28) OBJC_CLASS_$_APActivationPayload [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233669140 (    0x28) OBJC_METACLASS_$_APActivationPayload [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bb2af8 (   0x158) __DATA SEGMENT
+            0x0000000231bb2af8 (    0x28) __DATA __objc_classrefs
+            0x0000000231bb2b20 (     0x8) __DATA __objc_superrefs
+            0x0000000231bb2b28 (     0x4) __DATA __objc_ivar
+                0x0000000231bb2b28 (     0x4) OBJC_IVAR_$_APActivationPayload._URL [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231bb2b30 (   0x120) __DATA __data
+                0x0000000231bb2b30 (    0x60) _OBJC_PROTOCOL_$_NSCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231bb2b90 (    0x60) _OBJC_PROTOCOL_$_NSSecureCoding [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231bb2bf0 (    0x60) _OBJC_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

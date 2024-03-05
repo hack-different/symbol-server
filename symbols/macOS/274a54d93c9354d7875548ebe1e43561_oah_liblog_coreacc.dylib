@@ -1,0 +1,95 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/log/liblog_coreacc.dylib [arm64e, 0.232774 seconds]:
+    9E5674C0-E572-3B67-8EF6-743B951FF243 /usr/lib/log/liblog_coreacc.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002214b9000 (  0x4000) __TEXT SEGMENT
+            0x00000002214b9000 (  0x16ec) MACH_HEADER
+            0x00000002214ba6ec (  0x154c) __TEXT __text
+                0x00000002214ba6ec (   0x118) convertNSDataToNSString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214ba804 (    0x8c) trimBidirectionalUnicodeCharacters [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214ba890 (    0xb0) removeBidirectionalUnicodeCharacters [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214ba940 (   0x1d8) convertNSStringToNSData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bab18 (   0x14c) classImplementsMethodsInProtocol [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bac64 (    0x78) isNSObjectNull [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bacdc (    0x5c) NSObjectIfNotNull [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bad38 (    0x18) isNSObjectEqual [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bad50 (    0xa8) readJSONFile [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214badf8 (    0xd8) writeJSONFile [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214baed0 (   0x15c) base64EncodeArray [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bb02c (   0x164) base64DecodeArray [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214bb190 (   0xaa8) OSLogCopyFormattedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002214bbc38 (   0x130) __TEXT __auth_stubs
+                0x00000002214bbc38 (    0x10) DYLD-STUB$$NSStringFromClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc48 (    0x10) DYLD-STUB$$NSStringFromSelector [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc58 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc68 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc78 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc88 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbc98 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbca8 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbcb8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbcc8 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbcd8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbce8 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbcf8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd08 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd18 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd28 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd38 (    0x10) DYLD-STUB$$protocol_copyMethodDescriptionList [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd48 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214bbd58 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002214bbd68 (     0xa) __TEXT __ustring
+            0x00000002214bbd72 (   0xb54) __TEXT __cstring
+            0x00000002214bc8c8 (    0x84) __TEXT __unwind_info
+            0x00000002214bc94c (   0x294) __TEXT __objc_methname
+            0x00000002214bcbe0 (   0x420) __TEXT __objc_stubs
+                0x00000002214bcbe0 (    0x20) objc_msgSend$JSONObjectWithData:options:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcc00 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcc20 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcc40 (    0x20) objc_msgSend$appendFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcc60 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcc80 (    0x20) objc_msgSend$base64EncodedStringWithOptions: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcca0 (    0x20) objc_msgSend$boolValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bccc0 (    0x20) objc_msgSend$bytes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcce0 (    0x20) objc_msgSend$characterSetWithCharactersInString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcd00 (    0x20) objc_msgSend$componentsJoinedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcd20 (    0x20) objc_msgSend$componentsSeparatedByCharactersInSet: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcd40 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcd60 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcd80 (    0x20) objc_msgSend$dataWithBytes:length: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcda0 (    0x20) objc_msgSend$dataWithContentsOfFile: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcdc0 (    0x20) objc_msgSend$dataWithJSONObject:options:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcde0 (    0x20) objc_msgSend$hexadecimalCharacterSet [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bce00 (    0x20) objc_msgSend$initWithBase64EncodedString:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bce20 (    0x20) objc_msgSend$initWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bce40 (    0x20) objc_msgSend$instancesRespondToSelector: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bce60 (    0x20) objc_msgSend$intValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bce80 (    0x20) objc_msgSend$invertedSet [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcea0 (    0x20) objc_msgSend$isEqual: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcec0 (    0x20) objc_msgSend$isValidJSONObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcee0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcf00 (    0x20) objc_msgSend$null [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcf20 (    0x20) objc_msgSend$set [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcf40 (    0x20) objc_msgSend$setWithSet: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcf60 (    0x20) objc_msgSend$stringByTrimmingCharactersInSet: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcf80 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcfa0 (    0x20) objc_msgSend$stringWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcfc0 (    0x20) objc_msgSend$unsignedIntegerValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214bcfe0 (    0x20) objc_msgSend$writeToFile:atomically: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e8421d0 (   0x4f8) __DATA_CONST SEGMENT
+            0x000000022e8421d0 (    0x10) __DATA_CONST __got
+            0x000000022e8421e0 (   0x3d8) __DATA_CONST __const
+            0x000000022e8425b8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e8425c0 (   0x108) __DATA_CONST __objc_selrefs
+        0x00000002383054b8 (   0xfe0) __AUTH_CONST SEGMENT
+            0x00000002383054b8 (   0xf40) __AUTH_CONST __cfstring
+            0x00000002383063f8 (    0xa0) __AUTH_CONST __auth_got
+        0x0000000231b61a80 (   0x1c8) __DATA SEGMENT
+            0x0000000231b61a80 (    0x58) __DATA __objc_classrefs
+            0x0000000231b61ad8 (   0x170) __DATA __data
+                0x0000000231b61ad8 (    0x60) kACCConnection_Type_Strings [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b61b38 (    0x88) kACCEndpoint_TransportType_Strings [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b61bc0 (    0x88) kACCEndpoint_Protocol_Strings [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

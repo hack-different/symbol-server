@@ -1,7 +1,0 @@
-/System/Library/Frameworks/PassKit.framework/Versions/A/PassKit [arm64e, 0.027862 seconds]:
-    C2CE4605-4520-320C-9401-1830400FF183 /System/Library/Frameworks/PassKit.framework/Versions/A/PassKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001c41ac000 (  0x4000) __TEXT SEGMENT
-            0x00000001c41ac000 (  0x4000) MACH_HEADER
-        0x00000001d3b73040 (     0x8) __DATA_CONST SEGMENT
-            0x00000001d3b73040 (     0x8) __DATA_CONST __objc_imageinfo
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

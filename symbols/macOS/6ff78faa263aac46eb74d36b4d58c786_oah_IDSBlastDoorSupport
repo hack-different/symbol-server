@@ -1,0 +1,224 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/IDSBlastDoorSupport.framework/Versions/A/IDSBlastDoorSupport [arm64e, 0.176529 seconds]:
+    1FBE995C-3C51-3F35-8611-A27EE7BA0222 /System/Library/PrivateFrameworks/IDSBlastDoorSupport.framework/Versions/A/IDSBlastDoorSupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020438c000 (  0x8000) __TEXT SEGMENT
+            0x000000020438c000 (  0x40d4) MACH_HEADER
+            0x00000002043900d4 (  0x3324) __TEXT __text
+                0x00000002043900d4 (    0x94) -[IDSBlastDoorInterface init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204390168 (    0x88) -[IDSBlastDoorInterface unpackPayloadDictionary:resultHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002043901f0 (    0xa4) -[IDSBlastDoorInterface unpackClientMessage:context:resultHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204390294 (     0x8) -[IDSBlastDoorInterface interface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020439029c (     0xc) -[IDSBlastDoorInterface setInterface:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002043902a8 (     0xc) -[IDSBlastDoorInterface .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002043902b4 (   0x1e0) (null) [FUNC, FunctionStarts] 
+                0x0000000204390494 (   0x724) (null) [FUNC, FunctionStarts] 
+                0x0000000204390bb8 (    0xb0) (null) [FUNC, FunctionStarts] 
+                0x0000000204390c68 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x0000000204390cd8 (   0x8ec) (null) [FUNC, FunctionStarts] 
+                0x00000002043915c4 (   0x1c4) (null) [FUNC, FunctionStarts] 
+                0x0000000204391788 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x000000020439187c (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000002043918b0 (   0x2c8) (null) [FUNC, FunctionStarts] 
+                0x0000000204391b78 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000204391b9c (    0x34) (null) [FUNC, FunctionStarts] 
+                0x0000000204391bd0 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000204391be0 (    0x78) (null) [FUNC, FunctionStarts] 
+                0x0000000204391c58 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204391c9c (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000204391cf0 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x0000000204391d4c (    0x38) (null) [FUNC, FunctionStarts] 
+                0x0000000204391d84 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000204391dd8 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x0000000204391e30 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000204391e84 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000204391ed8 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000204391ee0 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000204391f34 (    0x3c) (null) [FUNC, FunctionStarts] 
+                0x0000000204391f70 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x0000000204391fb8 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x0000000204392014 (    0x48) __swift_instantiateConcreteTypeFromMangledNameAbstract [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020439205c (    0x24) (null) [FUNC, FunctionStarts] 
+                0x0000000204392080 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x0000000204392098 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000002043920cc (    0x34) (null) [FUNC, FunctionStarts] 
+                0x0000000204392100 (    0xe4) (null) [FUNC, FunctionStarts] 
+                0x00000002043921e4 (   0x794) (null) [FUNC, FunctionStarts] 
+                0x0000000204392978 (   0x99c) (null) [FUNC, FunctionStarts] 
+                0x0000000204393314 (    0x38) (null) [FUNC, FunctionStarts] 
+                0x000000020439334c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000204393354 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x00000002043933b8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933bc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933c0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933c4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933c8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933cc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933d0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933d4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933d8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933dc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933e0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933e4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933e8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933ec (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933f0 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000002043933f4 (     0x4) (null) [FUNC, FunctionStarts] 
+            0x00000002043933f8 (   0x400) __TEXT __auth_stubs
+                0x00000002043933f8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393408 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393418 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393428 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393438 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393448 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393458 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393468 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393478 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393488 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393498 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934a8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934b8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934c8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934d8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934e8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043934f8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393508 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393518 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393528 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393538 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393548 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393558 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393568 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393578 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393588 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393598 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935a8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935b8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935c8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935d8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935e8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043935f8 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393608 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393618 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393628 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393638 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393648 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393658 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393668 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393678 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393688 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393698 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936a8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936b8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936c8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936d8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936e8 (    0x10) DYLD-STUB$$swift_allocError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043936f8 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393708 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393718 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393728 (    0x10) DYLD-STUB$$swift_deallocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393738 (    0x10) DYLD-STUB$$swift_dynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393748 (    0x10) DYLD-STUB$$swift_errorRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393758 (    0x10) DYLD-STUB$$swift_errorRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393768 (    0x10) DYLD-STUB$$swift_getEnumCaseMultiPayload [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393778 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393788 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204393798 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContextInMetadataState2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043937a8 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043937b8 (    0x10) DYLD-STUB$$swift_lookUpClassMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043937c8 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043937d8 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002043937e8 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002043937f8 (    0x88) __TEXT __objc_methlist
+                0x00000002043937f8 (    0x50) _OBJC_$_INSTANCE_METHODS_IDSBlastDoorInterface [NameNList, MangledNameNList, NList] 
+                0x0000000204393848 (    0x38) _OBJC_$_INSTANCE_METHODS_IDSBlastDoorInterfaceInternal [NameNList, MangledNameNList, NList] 
+            0x0000000204393880 (    0x9a) __TEXT __const
+                0x0000000204393880 (    0x38) IDSBlastDoorSupportVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002043938b8 (    0x60) IDSBlastDoorSupportVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393918 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000204393920 (   0x215) __TEXT __cstring
+            0x0000000204393b36 (    0xe4) __TEXT __swift5_typeref
+                0x0000000204393b36 (    0x10) symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b46 (     0xa) symbolic SDySSypG [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b50 (    0x1e) symbolic So8NSObjectCSg______pSgIeggg_ s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b6e (     0xa) symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b78 (     0xe) symbolic So8NSObjectC [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b86 (     0x6) symbolic _____ 19IDSBlastDoorSupport0aB9InterfaceC [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b8c (     0x6) symbolic _____ 9BlastDoor0aB7ServiceC [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393b92 (    0x24) symbolic So8NSObjectCSgSo7NSErrorCSgIeyByy_ [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393bb6 (    0x14) symbolic _____y___________pG s6ResultO 9BlastDoor13IDSInvitationV s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393bca (    0x14) symbolic _____y___________pG s6ResultO 9BlastDoor016IDSClientMessageA0V s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393bde (    0x14) symbolic _____y___________pG s6ResultO 9BlastDoor18IDSCommandResponseV s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393bf2 (    0x14) symbolic _____y___________pG s6ResultO 9BlastDoor27IDSCommandWebTunnelResponseV s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393c06 (    0x14) symbolic _____y___________pG s6ResultO 9BlastDoor14APSUserPayloadV s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000204393c1c (    0xc0) __TEXT __swift5_capture
+            0x0000000204393cdc (    0x58) __TEXT __constg_swiftt
+            0x0000000204393d34 (     0x3) __TEXT __swift5_reflstr
+            0x0000000204393d38 (    0x1c) __TEXT __swift5_fieldmd
+            0x0000000204393d54 (     0x4) __TEXT __swift5_types
+            0x0000000204393d58 (    0xdc) __TEXT __unwind_info
+            0x0000000204393e34 (    0x18) __TEXT __objc_classname
+            0x0000000204393e4c (    0xed) __TEXT __objc_methname
+            0x0000000204393f39 (    0x5d) __TEXT __objc_methtype
+            0x0000000204393fa0 (    0x60) __TEXT __objc_stubs
+                0x0000000204393fa0 (    0x20) objc_msgSend$interface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393fc0 (    0x20) objc_msgSend$unpackClientMessage:context:resultHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204393fe0 (    0x20) objc_msgSend$unpackPayloadDictionary:resultHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023486fe00 (   0x2f8) __DATA_CONST SEGMENT
+            0x000000023486fe00 (    0xf0) __DATA_CONST __got
+            0x000000023486fef0 (    0xb8) __DATA_CONST __const
+                0x000000023486fef0 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486fef8 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff00 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff08 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff10 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff18 (     0x8) _swift_FORCE_LOAD_$_swiftVideoToolbox_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff20 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff28 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff30 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff38 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff40 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff48 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff50 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff58 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff60 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff68 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff70 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff78 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff80 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff88 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff90 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ff98 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023486ffa0 (     0x8) _swift_FORCE_LOAD_$_swiftAccelerate_$_IDSBlastDoorSupport [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023486ffa8 (    0x10) __DATA_CONST __objc_classlist
+            0x000000023486ffb8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023486ffc0 (    0xf8) __DATA_CONST __objc_const
+                0x000000023486ffc0 (    0x48) _OBJC_METACLASS_RO_$_IDSBlastDoorInterface [NameNList, MangledNameNList, NList] 
+                0x0000000234870008 (    0x28) _OBJC_$_INSTANCE_VARIABLES_IDSBlastDoorInterface [NameNList, MangledNameNList, NList] 
+                0x0000000234870030 (    0x18) _OBJC_$_PROP_LIST_IDSBlastDoorInterface [NameNList, MangledNameNList, NList] 
+                0x0000000234870048 (    0x48) _METACLASS_DATA_IDSBlastDoorInterfaceInternal [NameNList, MangledNameNList, NList] 
+                0x0000000234870090 (    0x28) _IVARS_IDSBlastDoorInterfaceInternal [NameNList, MangledNameNList, NList] 
+            0x00000002348700b8 (    0x40) __DATA_CONST __objc_selrefs
+        0x00000002348700f8 (   0x490) __AUTH_CONST SEGMENT
+            0x00000002348700f8 (    0x48) __AUTH_CONST __objc_const
+                0x00000002348700f8 (    0x48) _OBJC_CLASS_RO_$_IDSBlastDoorInterface [NameNList, MangledNameNList, NList] 
+            0x0000000234870140 (   0x238) __AUTH_CONST __const
+            0x0000000234870378 (     0x8) __AUTH_CONST __auth_ptr
+            0x0000000234870380 (   0x208) __AUTH_CONST __auth_got
+        0x0000000232793fc8 (   0x148) __AUTH SEGMENT
+            0x0000000232793fc8 (   0x120) __AUTH __objc_data
+                0x0000000232793fc8 (    0x28) OBJC_CLASS_$_IDSBlastDoorInterface [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232793ff0 (    0x28) OBJC_METACLASS_$_IDSBlastDoorInterface [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232794018 (    0x60) _DATA_IDSBlastDoorInterfaceInternal [NameNList, MangledNameNList, NList] 
+                0x0000000232794078 (    0x70) OBJC_CLASS_$_IDSBlastDoorInterfaceInternal [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002327940e8 (    0x28) __AUTH __data
+                0x00000002327940e8 (    0x28) OBJC_METACLASS_$_IDSBlastDoorInterfaceInternal [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231112230 (    0xd0) __DATA SEGMENT
+            0x0000000231112230 (    0x20) __DATA __objc_classrefs
+            0x0000000231112250 (     0x8) __DATA __objc_superrefs
+            0x0000000231112258 (     0x4) __DATA __objc_ivar
+                0x0000000231112258 (     0x4) OBJC_IVAR_$_IDSBlastDoorInterface._interface [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231112260 (    0xa0) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

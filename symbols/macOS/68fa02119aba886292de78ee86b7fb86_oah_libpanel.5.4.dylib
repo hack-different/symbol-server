@@ -1,0 +1,39 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libpanel.5.4.dylib [arm64e, 0.026099 seconds]:
+    21164761-AC65-399C-B82D-808935733B35 /usr/lib/libpanel.5.4.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000194274000 (  0x2000) __TEXT SEGMENT
+            0x0000000194274000 (   0xd48) MACH_HEADER
+            0x0000000194274d48 (  0x1198) __TEXT __text
+                0x0000000194274d48 (    0x4c) panel_above [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194274d94 (    0x6c) panel_below [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194274e00 (   0x2c4) bottom_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001942750c4 (   0x260) del_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275324 (    0x54) panel_hidden [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275378 (   0x24c) hide_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001942755c4 (   0x1f8) move_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001942757bc (    0xc4) new_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275880 (   0x1dc) replace_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275a5c (   0x29c) show_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275cf8 (     0x4) top_panel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275cfc (   0x1b0) update_panels [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275eac (    0x1c) set_panel_userptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275ec8 (     0xc) panel_userptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000194275ed4 (     0xc) panel_window [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000194275ee0 (    0x70) __TEXT __auth_stubs
+                0x0000000194275ee0 (    0x10) DYLD-STUB$$_nc_panelhook [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275ef0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275f00 (    0x10) DYLD-STUB$$is_linetouched [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275f10 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275f20 (    0x10) DYLD-STUB$$mvwin [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275f30 (    0x10) DYLD-STUB$$wnoutrefresh [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000194275f40 (    0x10) DYLD-STUB$$wtouchln [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000194275f50 (    0x38) __TEXT __const
+            0x0000000194275f88 (    0x78) __TEXT __unwind_info
+        0x00000001d3ae3190 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3ae3190 (     0x8) __DATA_CONST __got
+        0x00000001dc2a2a68 (    0x38) __AUTH_CONST SEGMENT
+            0x00000001dc2a2a68 (    0x38) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

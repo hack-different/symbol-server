@@ -1,0 +1,123 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/MarkupUI.axbundle/Contents/MacOS/MarkupUI [arm64e, 0.037243 seconds]:
+    34D25780-71AB-350B-BC81-780F814BFAC7 /System/iOSSupport/System/Library/AccessibilityBundles/MarkupUI.axbundle/Contents/MacOS/MarkupUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223264000 (  0x3000) __TEXT SEGMENT
+            0x0000000223264000 (  0x1ac0) MACH_HEADER
+            0x0000000223265ac0 (   0x840) __TEXT __text
+                0x0000000223265ac0 (    0x28) +[AXMarkupUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265ae8 (    0x64) __47+[AXMarkupUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265b4c (    0x60) __47+[AXMarkupUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265bac (    0x14) __47+[AXMarkupUIGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265bc0 (     0xc) +[MUPDFContentViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265bcc (     0xc) +[MUPDFContentViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265bd8 (   0x244) +[MUPDFContentViewControllerAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265e1c (   0x10c) -[MUPDFContentViewControllerAccessibility _axAKOverlayView] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265f28 (    0x4c) -[MUPDFContentViewControllerAccessibility loadContentWithCompletionBlock:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223265f74 (    0xc4) -[MUPDFContentViewControllerAccessibility _accessibilityLoadAccessibilityInformation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223266038 (   0x264) -[MUPDFContentViewControllerAccessibility _axHighlightPopoverPresentedForAnnotation:withHighlightController:pullFocus:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022326629c (    0x5c) -[MUPDFContentViewControllerAccessibility _axHighlightPopoverDismissed] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232662f8 (     0x8) __47+[AXMarkupUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000223266300 (   0x180) __TEXT __auth_stubs
+                0x0000000223266300 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266310 (    0x10) DYLD-STUB$$AXSafeClassFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266320 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266330 (    0x10) DYLD-STUB$$__UIAccessibilityCastAsClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266340 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266350 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266360 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266370 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266380 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266390 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663a0 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663b0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663c0 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663d0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663e0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232663f0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266400 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266410 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266420 (    0x10) DYLD-STUB$$objc_release_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266430 (    0x10) DYLD-STUB$$objc_release_x25 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266440 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266450 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266460 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223266470 (    0x10) DYLD-STUB$$objc_retain_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223266480 (    0x8c) __TEXT __objc_methlist
+                0x0000000223266480 (    0x30) _OBJC_$_CLASS_METHODS_MUPDFContentViewControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002232664b0 (    0x48) _OBJC_$_INSTANCE_METHODS_MUPDFContentViewControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002232664f8 (    0x14) _OBJC_$_CLASS_METHODS_AXMarkupUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000022326650c (   0x26c) __TEXT __cstring
+            0x0000000223266778 (    0x84) __TEXT __unwind_info
+            0x00000002232667fc (    0x74) __TEXT __objc_classname
+            0x0000000223266870 (   0x3ed) __TEXT __objc_methname
+            0x0000000223266c5d (    0x40) __TEXT __objc_methtype
+            0x0000000223266ca0 (   0x360) __TEXT __objc_stubs
+                0x0000000223266ca0 (    0x20) objc_msgSend$_accessibilityLoadAccessibilityInformation [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266cc0 (    0x20) objc_msgSend$_accessibilitySetAssignedValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266ce0 (    0x20) objc_msgSend$_accessibilitySetRetainedValue:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266d00 (    0x20) objc_msgSend$_axAKOverlayView [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266d20 (    0x20) objc_msgSend$_axHighlightPopoverPresentedForAnnotation:withHighlightController:pullFocus: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266d40 (    0x20) objc_msgSend$accessibilityElements [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266d60 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266d80 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266da0 (    0x20) objc_msgSend$indexOfObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266dc0 (    0x20) objc_msgSend$insertObject:atIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266de0 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266e00 (    0x20) objc_msgSend$isEqual: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266e20 (    0x20) objc_msgSend$mutableCopy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266e40 (    0x20) objc_msgSend$objectAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266e60 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266e80 (    0x20) objc_msgSend$safeUnsignedIntegerForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266ea0 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266ec0 (    0x20) objc_msgSend$safeValueForKeyPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266ee0 (    0x20) objc_msgSend$setAccessibilityElements: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266f00 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266f20 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266f40 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266f60 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266f80 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266fa0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266fc0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223266fe0 (    0x20) objc_msgSend$validateClass:isKindOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238443900 (   0x270) __DATA_CONST SEGMENT
+            0x0000000238443900 (    0x10) __DATA_CONST __got
+            0x0000000238443910 (    0x60) __DATA_CONST __const
+                0x0000000238443910 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238443930 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238443950 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238443970 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238443988 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238443990 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238443990 (    0x48) _OBJC_METACLASS_RO_$___MUPDFContentViewControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384439d8 (    0x48) _OBJC_CLASS_RO_$___MUPDFContentViewControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238443a20 (    0x48) _OBJC_CLASS_RO_$_AXMarkupUIGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238443a68 (   0x108) __DATA_CONST __objc_selrefs
+        0x0000000238443b70 (   0x560) __AUTH_CONST SEGMENT
+            0x0000000238443b70 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000238443b70 (    0x48) _OBJC_METACLASS_RO_$_MUPDFContentViewControllerAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238443bb8 (    0x48) _OBJC_CLASS_RO_$_MUPDFContentViewControllerAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238443c00 (    0x48) _OBJC_METACLASS_RO_$_AXMarkupUIGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238443c48 (   0x340) __AUTH_CONST __cfstring
+            0x0000000238443f88 (    0x80) __AUTH_CONST __const
+                0x0000000238443f88 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238443fa8 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x0000000238443fc8 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x0000000238443fe8 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x0000000238444008 (    0xc8) __AUTH_CONST __auth_got
+        0x0000000233638c70 (    0xf0) __AUTH SEGMENT
+            0x0000000233638c70 (    0xf0) __AUTH __objc_data
+                0x0000000233638c70 (    0x28) OBJC_METACLASS_$___MUPDFContentViewControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233638c98 (    0x28) OBJC_CLASS_$___MUPDFContentViewControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233638cc0 (    0x28) OBJC_CLASS_$_MUPDFContentViewControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233638ce8 (    0x28) OBJC_METACLASS_$_MUPDFContentViewControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233638d10 (    0x28) OBJC_METACLASS_$_AXMarkupUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233638d38 (    0x28) OBJC_CLASS_$_AXMarkupUIGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bab068 (    0x28) __DATA SEGMENT
+            0x0000000231bab068 (    0x18) __DATA __objc_classrefs
+            0x0000000231bab080 (     0x8) __DATA __objc_superrefs
+            0x0000000231bab088 (     0x8) __DATA __bss
+                0x0000000231bab088 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,47 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib [arm64e, 0.153463 seconds]:
+    B5E91BF0-688E-3736-8D8E-BD19CDDC751A /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018cf6c000 (  0x4ffc) __TEXT SEGMENT
+            0x000000018cf6c000 (  0x11a0) MACH_HEADER
+            0x000000018cf6d1a0 (  0x3030) __TEXT __text
+                0x000000018cf6d1a0 (  0x1450) quadrature_integrate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6e5f0 (    0xa4) evalNode [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6e694 (   0x34c) integrate_qk15 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6e9e0 (    0xf0) integrate_qk21 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6ead0 (   0x3a4) integrate_qk21e [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6ee74 (   0x454) integrate_qk31 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6f2c8 (   0x360) integrate_qk41 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6f628 (   0x3d0) integrate_qk51 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6f9f8 (   0x3ec) integrate_qk61 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cf6fde4 (   0x3ec) integrate_qk15_inf [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018cf701d0 (    0x50) __TEXT __auth_stubs
+                0x000000018cf701d0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018cf701e0 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018cf701f0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018cf70200 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018cf70210 (    0x10) DYLD-STUB$$pow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018cf70220 (   0xd60) __TEXT __const
+                0x000000018cf70510 (    0xa8) kWK43 [NameNList, MangledNameNList, NList] 
+                0x000000018cf705b8 (   0x158) kWK87 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70710 (   0x158) kXGKP21_43_87 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70868 (    0x50) kWK21 [NameNList, MangledNameNList, NList] 
+                0x000000018cf708b8 (    0x78) kXGKP31 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70930 (    0x78) kWK31 [NameNList, MangledNameNList, NList] 
+                0x000000018cf709a8 (    0xa0) kXGKP41 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70a48 (    0x50) kWG20 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70a98 (    0xa0) kWK41 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70b38 (    0xc8) kXGKP51 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70c00 (    0x60) kWG25 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70c60 (    0xc8) kWK51 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70d28 (    0xf0) kXGKP61 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70e18 (    0x78) kWG30 [NameNList, MangledNameNList, NList] 
+                0x000000018cf70e90 (    0xf0) kWK61 [NameNList, MangledNameNList, NList] 
+            0x000000018cf70f80 (    0x7c) __TEXT __unwind_info
+        0x00000001d3abcc00 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3abcc00 (     0x8) __DATA_CONST __got
+        0x00000001dbb068f0 (    0x28) __AUTH_CONST SEGMENT
+            0x00000001dbb068f0 (    0x28) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

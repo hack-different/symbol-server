@@ -1,0 +1,25 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/FontServices.framework/libXTFontStaticRegistryData.dylib [arm64e, 0.307377 seconds]:
+    93260CBC-14B8-3D61-A13D-128E680A22AE /System/Library/PrivateFrameworks/FontServices.framework/libXTFontStaticRegistryData.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fbcd6000 ( 0xac000) __TEXT SEGMENT
+            0x00000001fbcd6000 (  0x1207) MACH_HEADER
+            0x00000001fbcd7207 ( 0x7376d) __TEXT __cstring
+            0x00000001fbd4a974 ( 0x12e5c) __TEXT __ustring
+            0x00000001fbd5d7d0 ( 0x24830) __TEXT __objc_databytes
+        0x000000022e131728 (0x361030) __DATA_CONST SEGMENT
+            0x000000022e131728 (     0x8) __DATA_CONST __const
+                0x000000022e131728 (     0x8) XTFontStaticRegistryData [EXT, NameNList, MangledNameNList, NList] 
+            0x000000022e131730 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e131738 (0x361020) __DATA_CONST __objc_arraydata
+        0x0000000237071a40 (0x1b94b0) __AUTH_CONST SEGMENT
+            0x0000000237071a40 ( 0x85da0) __AUTH_CONST __cfstring
+            0x00000002370f77e0 ( 0x34548) __AUTH_CONST __objc_arrayobj
+            0x000000023712bd28 (    0x10) __AUTH_CONST __objc_dateobj
+            0x000000023712bd38 ( 0x12378) __AUTH_CONST __objc_intobj
+            0x000000023713e0b0 ( 0xe93e0) __AUTH_CONST __objc_dictobj
+            0x0000000237227490 (  0x2e50) __AUTH_CONST __objc_dataobj
+            0x000000023722a2e0 (   0xc10) __AUTH_CONST __objc_doubleobj
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

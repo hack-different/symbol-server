@@ -1,8 +1,0 @@
-/System/iOSSupport/usr/lib/swift/libswiftUIKit.dylib [arm64e, 0.029314 seconds]:
-    F89E0D4F-0AD4-3727-8F47-0CE910DDCC89 /System/iOSSupport/usr/lib/swift/libswiftUIKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001c8aa7000 (  0x1000) __TEXT SEGMENT
-            0x00000001c8aa7000 (   0xfd0) MACH_HEADER
-            0x00000001c8aa7fd0 (    0x30) __TEXT __const
-                0x00000001c8aa7fd0 (    0x28) UIKitVersionString [PEXT, NameNList, MangledNameNList, NList] 
-                0x00000001c8aa7ff8 (     0x8) UIKitVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

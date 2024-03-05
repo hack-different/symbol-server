@@ -1,0 +1,37 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags [arm64e, 0.344927 seconds]:
+    F5EB1F1E-4AA3-37D9-BD86-96435D60F0EA /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001cabb0000 (   0xffc) __TEXT SEGMENT
+            0x00000001cabb0000 (   0xabc) MACH_HEADER
+            0x00000001cabb0abc (   0x3fc) __TEXT __text
+                0x00000001cabb0abc (    0xf8) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0bb4 (    0x44) __swift_project_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001cabb0bf8 (   0x110) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0d08 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0d1c (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0d30 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0d34 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0e28 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0e58 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0e5c (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000001cabb0eb4 (     0x4) _swift_os_feature_enabled_impl [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001cabb0eb8 (    0x10) __TEXT __auth_stubs
+                0x00000001cabb0eb8 (    0x10) DYLD-STUB$$_os_feature_enabled_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001cabb0ec8 (    0x60) __TEXT __const
+                0x00000001cabb0ec8 (    0x38) __FeatureFlagsVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cabb0f00 (    0x26) __FeatureFlagsVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001cabb0f26 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001cabb0f28 (    0x19) __TEXT __swift5_typeref
+                0x00000001cabb0f28 (    0x19) symbolic $s12FeatureFlags0aB3KeyP [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001cabb0f44 (    0x10) __TEXT __swift5_fieldmd
+            0x00000001cabb0f54 (    0x34) __TEXT __constg_swiftt
+            0x00000001cabb0f88 (     0x4) __TEXT __swift5_protos
+            0x00000001cabb0f8c (    0x70) __TEXT __unwind_info
+        0x00000001d3b762b0 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3b762b0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000001dfafc6d8 (     0x8) __AUTH_CONST SEGMENT
+            0x00000001dfafc6d8 (     0x8) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,44 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/snatmap.framework/Versions/A/snatmap [arm64e, 0.222570 seconds]:
+    A123B744-C5CB-3CC1-ABD0-422BE3469EDE /System/Library/PrivateFrameworks/AVConference.framework/Frameworks/snatmap.framework/Versions/A/snatmap [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c29a3000 (  0x1000) __TEXT SEGMENT
+            0x00000001c29a3000 (   0x92c) MACH_HEADER
+            0x00000001c29a392c (   0x44c) __TEXT __text
+                0x00000001c29a392c (    0xa0) SNATMAP_MakeRequest [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a39cc (    0xf0) ProcessSNATMAPResponse [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3abc (   0x118) GetSNATMAPServer [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3bd4 (    0x34) SNATMAP_IsEqualNonce [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3c08 (    0x28) SNATMAP_GetNonceValue [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3c30 (    0x14) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3c44 (    0xa4) ProcessSNATMAPResponse.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c29a3ce8 (    0x90) GetSNATMAPServer.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001c29a3d78 (    0xa0) __TEXT __auth_stubs
+                0x00000001c29a3d78 (    0x10) DYLD-STUB$$VRTraceErrorLogLevelToCSTR [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3d88 (    0x10) DYLD-STUB$$VRTraceGetErrorLogLevelForModule [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3d98 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3da8 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3db8 (    0x10) DYLD-STUB$$arc4random [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3dc8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3dd8 (    0x10) DYLD-STUB$$objc_getClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3de8 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3df8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3e08 (    0x10) DYLD-STUB$$sel_getUid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c29a3e18 (    0x30) __TEXT __const
+                0x00000001c29a3e18 (    0x28) snatmapVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001c29a3e40 (     0x8) snatmapVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001c29a3e48 (    0x51) __TEXT __cstring
+            0x00000001c29a3e99 (    0xfc) __TEXT __oslogstring
+            0x00000001c29a3f98 (    0x68) __TEXT __unwind_info
+        0x00000001d3b724f0 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3b724f0 (    0x10) __DATA_CONST __got
+        0x00000001df54a1b8 (    0x50) __AUTH_CONST SEGMENT
+            0x00000001df54a1b8 (    0x50) __AUTH_CONST __auth_got
+        0x00000001d683d32c (     0x7) __DATA SEGMENT
+            0x00000001d683d32c (     0x7) __DATA __bss
+                0x00000001d683d32c (     0x4) _gConfiguredSMIP [NameNList, MangledNameNList, NList] 
+                0x00000001d683d330 (     0x2) _gConfiguredSMPort [NameNList, MangledNameNList, NList] 
+                0x00000001d683d332 (     0x1) _gSMIPWasConfigured [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

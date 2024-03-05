@@ -1,0 +1,10 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftPhotos.dylib [arm64e, 0.831609 seconds]:
+    78BB0F8E-66C1-3F7E-9B4F-64E297B60FB1 /usr/lib/swift/libswiftPhotos.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221572000 (  0x1000) __TEXT SEGMENT
+            0x0000000221572000 (   0xffa) MACH_HEADER
+            0x0000000221572ffa (     0x6) __TEXT __const
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

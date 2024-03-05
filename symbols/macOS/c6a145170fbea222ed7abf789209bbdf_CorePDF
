@@ -1,9 +1,0 @@
-/System/iOSSupport/System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF [arm64e, 0.194368 seconds]:
-    FCF643AB-A16D-3683-A0C5-21BC105E1267 /System/iOSSupport/System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001c4f38000 (  0x1000) __TEXT SEGMENT
-            0x00000001c4f38000 (  0x1000) MACH_HEADER
-        0x00000001d3b73048 (     0x8) __DATA_CONST SEGMENT
-            0x00000001d3b73048 (     0x8) __DATA_CONST __objc_imageinfo
-        0x00000001d68be3d0 (     0x8) __DATA SEGMENT
-            0x00000001d68be3d0 (     0x8) __DATA __objc_classrefs
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

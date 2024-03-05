@@ -1,0 +1,69 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/SignpostMetrics.framework/Versions/A/SignpostMetrics [arm64e, 0.026691 seconds]:
+    93BE6CDC-1339-3068-8F7B-8D90B7DCEA13 /System/Library/PrivateFrameworks/SignpostMetrics.framework/Versions/A/SignpostMetrics [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020d792000 (  0x1000) __TEXT SEGMENT
+            0x000000020d792000 (   0xc74) MACH_HEADER
+            0x000000020d792c74 (   0x18c) __TEXT __text
+                0x000000020d792c74 (    0xb4) -[SignpostMetricsSnapshotter encodeWithOSLogCoder:options:maxLength:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d792d28 (    0x54) __69-[SignpostMetricsSnapshotter encodeWithOSLogCoder:options:maxLength:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d792d7c (    0x44) _MXSignpostMetricsSnapshot [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d792dc0 (    0x40) ___MXSignpostMetricsSnapshot_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020d792e00 (    0x90) __TEXT __auth_stubs
+                0x000000020d792e00 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e10 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e20 (    0x10) DYLD-STUB$$getpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e30 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e40 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e50 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e60 (    0x10) DYLD-STUB$$pc_session_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e70 (    0x10) DYLD-STUB$$pc_session_create_snapshot_buf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d792e80 (    0x10) DYLD-STUB$$pc_session_set_procpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020d792e90 (    0x14) __TEXT __objc_methlist
+                0x000000020d792e90 (    0x14) _OBJC_$_INSTANCE_METHODS_SignpostMetricsSnapshotter [NameNList, MangledNameNList, NList] 
+            0x000000020d792ea8 (    0x48) __TEXT __const
+                0x000000020d792ea8 (    0x40) SignpostMetricsVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d792ee8 (     0x8) SignpostMetricsVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020d792ef0 (     0x6) __TEXT __cstring
+            0x000000020d792ef8 (    0x50) __TEXT __unwind_info
+            0x000000020d792f48 (    0x27) __TEXT __objc_classname
+            0x000000020d792f70 (    0x3c) __TEXT __objc_methname
+            0x000000020d792fac (    0x30) __TEXT __objc_methtype
+            0x000000020d792fe0 (    0x20) __TEXT __objc_stubs
+                0x000000020d792fe0 (    0x20) objc_msgSend$appendBytes:length: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237c41e00 (    0xd0) __DATA_CONST SEGMENT
+            0x0000000237c41e00 (    0x20) __DATA_CONST __const
+                0x0000000237c41e00 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237c41e20 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237c41e28 (     0x8) __DATA_CONST __objc_protolist
+                0x0000000237c41e28 (     0x8) _OBJC_LABEL_PROTOCOL_$_OSLogCoding [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237c41e30 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237c41e38 (    0x88) __DATA_CONST __objc_const
+                0x0000000237c41e38 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OSLogCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237c41e58 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_OSLogCoding [NameNList, MangledNameNList, NList] 
+                0x0000000237c41e60 (    0x18) _OBJC_CLASS_PROTOCOLS_$_SignpostMetricsSnapshotter [NameNList, MangledNameNList, NList] 
+                0x0000000237c41e78 (    0x48) _OBJC_METACLASS_RO_$_SignpostMetricsSnapshotter [NameNList, MangledNameNList, NList] 
+            0x0000000237c41ec0 (    0x10) __DATA_CONST __objc_selrefs
+        0x0000000237c41ed0 (    0xd8) __AUTH_CONST SEGMENT
+            0x0000000237c41ed0 (    0x40) __AUTH_CONST __const
+                0x0000000237c41ed0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000237c41ef0 (    0x20) __block_literal_global.5 [NameNList, MangledNameNList, NList] 
+            0x0000000237c41f10 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237c41f10 (    0x48) _OBJC_CLASS_RO_$_SignpostMetricsSnapshotter [NameNList, MangledNameNList, NList] 
+            0x0000000237c41f58 (    0x50) __AUTH_CONST __auth_got
+        0x0000000232b401e0 (    0x50) __AUTH SEGMENT
+            0x0000000232b401e0 (    0x50) __AUTH __objc_data
+                0x0000000232b401e0 (    0x28) OBJC_METACLASS_$_SignpostMetricsSnapshotter [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232b40208 (    0x28) OBJC_CLASS_$_SignpostMetricsSnapshotter [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023154b940 (    0x88) __DATA SEGMENT
+            0x000000023154b940 (     0x8) __DATA __objc_classrefs
+            0x000000023154b948 (    0x60) __DATA __data
+                0x000000023154b948 (    0x60) _OBJC_PROTOCOL_$_OSLogCoding [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023154b9a8 (    0x20) __DATA __bss
+                0x000000023154b9a8 (     0x8) encodeWithOSLogCoder:options:maxLength:.session [NameNList, MangledNameNList, NList] 
+                0x000000023154b9b0 (     0x8) encodeWithOSLogCoder:options:maxLength:.onceToken [NameNList, MangledNameNList, NList] 
+                0x000000023154b9b8 (     0x8) _MXSignpostMetricsSnapshot.snapshotter [NameNList, MangledNameNList, NList] 
+                0x000000023154b9c0 (     0x8) _MXSignpostMetricsSnapshot.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,9 +1,0 @@
-/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/A/Libraries/libmetal_timestamp.dylib [arm64e, 0.024444 seconds]:
-    1873F8D0-A656-3FEA-B013-675C6FAD1BF9 /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/A/Libraries/libmetal_timestamp.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001e8bfe000 (  0x4000) __TEXT SEGMENT
-            0x00000001e8bfe000 (  0x3f94) MACH_HEADER
-            0x00000001e8c01f94 (     0xc) __TEXT __text
-                0x00000001e8c01f94 (     0xc) getMetalTimeStamp [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
-            0x00000001e8c01fa0 (    0x15) __TEXT __cstring
-            0x00000001e8c01fb8 (    0x48) __TEXT __unwind_info
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,87 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/NetworkQualityServices.framework/Versions/A/NetworkQualityServices [arm64e, 0.031763 seconds]:
+    1D5406CE-64BD-3216-9BA0-2FFC5DF28CAD /System/Library/PrivateFrameworks/NetworkQualityServices.framework/Versions/A/NetworkQualityServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000208f8a000 (  0x4000) __TEXT SEGMENT
+            0x0000000208f8a000 (  0x35a4) MACH_HEADER
+            0x0000000208f8d5a4 (   0x49c) __TEXT __text
+                0x0000000208f8d5a4 (    0x28) netqual_log_init [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d5cc (    0x48) __netqual_log_init_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d614 (    0x88) +[NetworkQualityClient getXpcConn] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d69c (    0xa8) +[NetworkQualityClient performMeasurementWithConfiguration:reply:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d744 (   0x138) __66+[NetworkQualityClient performMeasurementWithConfiguration:reply:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d87c (    0x8c) +[NetworkQualityClient findLocalMeasurementEndpoints:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000208f8d908 (   0x138) __54+[NetworkQualityClient findLocalMeasurementEndpoints:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000208f8da40 (    0xa0) __TEXT __auth_stubs
+                0x0000000208f8da40 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8da50 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8da60 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8da70 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8da80 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8da90 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8daa0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dab0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dac0 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dad0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000208f8dae0 (    0x2c) __TEXT __objc_methlist
+                0x0000000208f8dae0 (    0x2c) _OBJC_$_CLASS_METHODS_NetworkQualityClient [NameNList, MangledNameNList, NList] 
+            0x0000000208f8db10 (    0x50) __TEXT __const
+                0x0000000208f8db10 (    0x48) NetworkQualityServicesVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8db58 (     0x8) NetworkQualityServicesVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000208f8db60 (    0xf9) __TEXT __cstring
+            0x0000000208f8dc59 (    0x2d) __TEXT __oslogstring
+            0x0000000208f8dc88 (    0x60) __TEXT __unwind_info
+            0x0000000208f8dce8 (    0x2f) __TEXT __objc_classname
+            0x0000000208f8dd18 (    0xf6) __TEXT __objc_methname
+            0x0000000208f8de0e (    0xae) __TEXT __objc_methtype
+            0x0000000208f8dec0 (   0x140) __TEXT __objc_stubs
+                0x0000000208f8dec0 (    0x20) objc_msgSend$findLocalMeasurementEndpoints: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dee0 (    0x20) objc_msgSend$getXpcConn [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8df00 (    0x20) objc_msgSend$initWithServiceName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8df20 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8df40 (    0x20) objc_msgSend$localizedDescription [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8df60 (    0x20) objc_msgSend$localizedFailureReason [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8df80 (    0x20) objc_msgSend$performMeasurementWithConfiguration:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dfa0 (    0x20) objc_msgSend$remoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dfc0 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000208f8dfe0 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237818940 (   0x140) __DATA_CONST SEGMENT
+            0x0000000237818940 (     0x8) __DATA_CONST __got
+            0x0000000237818948 (    0x40) __DATA_CONST __const
+                0x0000000237818948 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237818968 (    0x20) __block_descriptor_32_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237818988 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237818990 (     0x8) __DATA_CONST __objc_protolist
+                0x0000000237818990 (     0x8) _OBJC_LABEL_PROTOCOL_$_NetworkQualityXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237818998 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002378189a0 (    0x90) __DATA_CONST __objc_const
+                0x00000002378189a0 (    0x38) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NetworkQualityXPCProtocol [NameNList, MangledNameNList, NList] 
+                0x00000002378189d8 (    0x10) _OBJC_$_PROTOCOL_METHOD_TYPES_NetworkQualityXPCProtocol [NameNList, MangledNameNList, NList] 
+                0x00000002378189e8 (    0x48) _OBJC_CLASS_RO_$_NetworkQualityClient [NameNList, MangledNameNList, NList] 
+            0x0000000237818a30 (    0x50) __DATA_CONST __objc_selrefs
+        0x0000000237818a80 (   0x120) __AUTH_CONST SEGMENT
+            0x0000000237818a80 (    0x60) __AUTH_CONST __const
+                0x0000000237818a80 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000237818aa0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000237818ac0 (    0x20) __block_literal_global.8 [NameNList, MangledNameNList, NList] 
+            0x0000000237818ae0 (    0x20) __AUTH_CONST __cfstring
+            0x0000000237818b00 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237818b00 (    0x48) _OBJC_METACLASS_RO_$_NetworkQualityClient [NameNList, MangledNameNList, NList] 
+            0x0000000237818b48 (    0x58) __AUTH_CONST __auth_got
+        0x000000023299d568 (    0x50) __AUTH SEGMENT
+            0x000000023299d568 (    0x50) __AUTH __objc_data
+                0x000000023299d568 (    0x28) OBJC_METACLASS_$_NetworkQualityClient [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023299d590 (    0x28) OBJC_CLASS_$_NetworkQualityClient [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002313137c8 (    0x88) __DATA SEGMENT
+            0x00000002313137c8 (     0x8) __DATA __objc_protorefs
+                0x00000002313137c8 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_NetworkQualityXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002313137d0 (    0x10) __DATA __objc_classrefs
+            0x00000002313137e0 (    0x60) __DATA __data
+                0x00000002313137e0 (    0x60) _OBJC_PROTOCOL_$_NetworkQualityXPCProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231313840 (     0x8) __DATA __bss
+                0x0000000231313840 (     0x8) netqual_log_init.onceToken [NameNList, MangledNameNList, NList] 
+            0x0000000231313848 (     0x8) __DATA __common
+                0x0000000231313848 (     0x8) os_log_netqual [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,180 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/AudioTransportCommon.framework/Versions/A/AudioTransportCommon [arm64e, 0.025884 seconds]:
+    45DFD087-FF8D-3879-8AC5-D44FCB41D912 /System/Library/PrivateFrameworks/AudioTransportCommon.framework/Versions/A/AudioTransportCommon [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000195d1c000 (  0x4000) __TEXT SEGMENT
+            0x0000000195d1c000 (  0x24c4) MACH_HEADER
+            0x0000000195d1e4c4 (   0x9d4) __TEXT __text
+                0x0000000195d1e4c4 (    0x14) +[ATCIOA2Device iokitMatchingDictionary] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e4d8 (    0x38) -[ATCIOA2Device initWithService:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e510 (     0x8) -[ATCIOA2Device changeToSampleRate:error:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e518 (     0x8) -[ATCIOA2Device startIOError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e520 (     0x8) -[ATCIOA2Device stopIOError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e528 (     0x8) -[ATCIOA2Device name] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e530 (     0x8) -[ATCIOA2Device uid] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e538 (     0x8) -[ATCIOA2Device sampleRate] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e540 (     0x8) -[ATCIOA2Device availableSampleRates] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e548 (     0x8) -[ATCIOA2Device setAvailableSampleRates:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e550 (     0x8) -[ATCIOA2Device clockDomain] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e558 (     0x8) -[ATCIOA2Device inputSafetyOffset] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e560 (     0x8) -[ATCIOA2Device inputLatency] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e568 (     0x8) -[ATCIOA2Device outputSafetyOffset] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e570 (     0x8) -[ATCIOA2Device outputLatency] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e578 (     0x8) -[ATCIOA2Device ioBufferSize] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e580 (     0x8) -[ATCIOA2Device inputStreams] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e588 (     0x8) -[ATCIOA2Device setInputStreams:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e590 (     0x8) -[ATCIOA2Device outputStreams] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e598 (     0x8) -[ATCIOA2Device setOutputStreams:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e5a0 (    0x68) -[ATCIOA2Device .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e608 (    0xc0) -[ATCIOA2Stream initWithService:connection:index:input:description:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e6c8 (     0x8) -[ATCIOA2Stream isInput] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e6d0 (     0x8) -[ATCIOA2Stream currentFormat] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e6d8 (     0x8) -[ATCIOA2Stream availableFormats] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e6e0 (     0x8) -[ATCIOA2Stream startingChannel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e6e8 (    0x5c) -[ATCIOA2Stream .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e744 (    0x60) +[ATCIOA2StreamFormat aeaStreamFormatWithDictionary:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e7a4 (     0xc) +[ATCIOA2StreamFormat aeaStreamFormatsWithRangedDictionary:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e7b0 (    0xe0) -[ATCIOA2StreamFormat initWithSampleRate:numChannels:commonPCMFormat:isInterleaved:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e890 (    0x90) -[ATCIOA2StreamFormat initWithAudioStreamBasicDescription:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e920 (    0x38) -[ATCIOA2StreamFormat initWithIOAudio2Dictionary:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e958 (    0x8c) -[ATCIOA2StreamFormat audioStreamBasicDescription] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1e9e4 (    0xcc) -[ATCIOA2StreamFormat copyWithZone:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1eab0 (    0x78) -[ATCIOA2StreamFormat hash] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1eb28 (   0x180) -[ATCIOA2StreamFormat isEqual:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1eca8 (   0x148) -[ATCIOA2StreamFormat description] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1edf0 (    0x28) -[ATCIOA2StreamFormat framesToBytes:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee18 (     0x8) -[ATCIOA2StreamFormat sampleRate] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee20 (     0x8) -[ATCIOA2StreamFormat setSampleRate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee28 (     0x8) -[ATCIOA2StreamFormat formatID] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee30 (     0x8) -[ATCIOA2StreamFormat setFormatID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee38 (     0x8) -[ATCIOA2StreamFormat formatFlags] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee40 (     0x8) -[ATCIOA2StreamFormat setFormatFlags:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee48 (     0x8) -[ATCIOA2StreamFormat bytesPerPacket] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee50 (     0x8) -[ATCIOA2StreamFormat setBytesPerPacket:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee58 (     0x8) -[ATCIOA2StreamFormat framesPerPacket] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee60 (     0x8) -[ATCIOA2StreamFormat setFramesPerPacket:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee68 (     0x8) -[ATCIOA2StreamFormat bytesPerFrame] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee70 (     0x8) -[ATCIOA2StreamFormat setBytesPerFrame:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee78 (     0x8) -[ATCIOA2StreamFormat channelsPerFrame] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee80 (     0x8) -[ATCIOA2StreamFormat setChannelsPerFrame:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee88 (     0x8) -[ATCIOA2StreamFormat bitsPerChannel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000195d1ee90 (     0x8) -[ATCIOA2StreamFormat setBitsPerChannel:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000195d1ee98 (    0xc0) __TEXT __auth_stubs
+                0x0000000195d1ee98 (    0x10) DYLD-STUB$$NSStringFromClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eea8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eeb8 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eec8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eed8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eee8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1eef8 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef08 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef18 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef28 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef38 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef48 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000195d1ef58 (   0x2b4) __TEXT __objc_methlist
+                0x0000000195d1ef58 (    0x18) _OBJC_$_CLASS_METHODS_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x0000000195d1ef70 (    0xf8) _OBJC_$_INSTANCE_METHODS_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x0000000195d1f068 (    0x20) _OBJC_$_CLASS_METHODS_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+                0x0000000195d1f088 (    0x50) _OBJC_$_INSTANCE_METHODS_ATCIOA2Stream [NameNList, MangledNameNList, NList] 
+                0x0000000195d1f0d8 (   0x134) _OBJC_$_INSTANCE_METHODS_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+            0x0000000195d1f210 (    0xa0) __TEXT __const
+                0x0000000195d1f210 (    0x50) AudioTransportCommonVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1f260 (    0x50) AudioTransportCommonVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000195d1f2b0 (    0xa3) __TEXT __cstring
+            0x0000000195d1f354 (    0x98) __TEXT __unwind_info
+            0x0000000195d1f3ec (    0x40) __TEXT __objc_classname
+            0x0000000195d1f42c (   0x7c4) __TEXT __objc_methname
+            0x0000000195d1fbf0 (   0x182) __TEXT __objc_methtype
+            0x0000000195d1fd80 (   0x280) __TEXT __objc_stubs
+                0x0000000195d1fd80 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fda0 (    0x20) objc_msgSend$bitsPerChannel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fdc0 (    0x20) objc_msgSend$bytesPerFrame [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fde0 (    0x20) objc_msgSend$bytesPerPacket [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fe00 (    0x20) objc_msgSend$channelsPerFrame [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fe20 (    0x20) objc_msgSend$formatFlags [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fe40 (    0x20) objc_msgSend$formatID [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fe60 (    0x20) objc_msgSend$framesPerPacket [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fe80 (    0x20) objc_msgSend$initWithIOAudio2Dictionary: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fea0 (    0x20) objc_msgSend$sampleRate [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fec0 (    0x20) objc_msgSend$serviceMatching: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1fee0 (    0x20) objc_msgSend$setBitsPerChannel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ff00 (    0x20) objc_msgSend$setBytesPerFrame: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ff20 (    0x20) objc_msgSend$setBytesPerPacket: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ff40 (    0x20) objc_msgSend$setChannelsPerFrame: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ff60 (    0x20) objc_msgSend$setFormatFlags: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ff80 (    0x20) objc_msgSend$setFormatID: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ffa0 (    0x20) objc_msgSend$setFramesPerPacket: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ffc0 (    0x20) objc_msgSend$setSampleRate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000195d1ffe0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001dc57ed10 (   0x7a0) __DATA_CONST SEGMENT
+            0x00000001dc57ed10 (    0x18) __DATA_CONST __objc_classlist
+            0x00000001dc57ed28 (     0x8) __DATA_CONST __objc_protolist
+                0x00000001dc57ed28 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001dc57ed30 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001dc57ed38 (   0x5b8) __DATA_CONST __objc_const
+                0x00000001dc57ed38 (   0x188) _OBJC_$_INSTANCE_VARIABLES_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x00000001dc57eec0 (    0xc8) _OBJC_$_PROP_LIST_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x00000001dc57ef88 (    0x48) _OBJC_METACLASS_RO_$_ATCIOA2Stream [NameNList, MangledNameNList, NList] 
+                0x00000001dc57efd0 (   0x108) _OBJC_$_INSTANCE_VARIABLES_ATCIOA2Stream [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f0d8 (    0x48) _OBJC_$_PROP_LIST_ATCIOA2Stream [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f120 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f140 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f148 (    0x18) _OBJC_CLASS_PROTOCOLS_$_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f160 (   0x108) _OBJC_$_INSTANCE_VARIABLES_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f268 (    0x88) _OBJC_$_PROP_LIST_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+            0x00000001dc57f2f0 (   0x1c0) __DATA_CONST __objc_selrefs
+        0x00000001dc57f4b0 (   0x210) __AUTH_CONST SEGMENT
+            0x00000001dc57f4b0 (    0x40) __AUTH_CONST __cfstring
+            0x00000001dc57f4f0 (   0x168) __AUTH_CONST __objc_const
+                0x00000001dc57f4f0 (    0x48) _OBJC_METACLASS_RO_$_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f538 (    0x48) _OBJC_CLASS_RO_$_ATCIOA2Device [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f580 (    0x48) _OBJC_CLASS_RO_$_ATCIOA2Stream [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f5c8 (    0x48) _OBJC_METACLASS_RO_$_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+                0x00000001dc57f610 (    0x48) _OBJC_CLASS_RO_$_ATCIOA2StreamFormat [NameNList, MangledNameNList, NList] 
+            0x00000001dc57f658 (    0x68) __AUTH_CONST __auth_got
+        0x00000001d742d068 (    0xf0) __AUTH SEGMENT
+            0x00000001d742d068 (    0xf0) __AUTH __objc_data
+                0x00000001d742d068 (    0x28) OBJC_CLASS_$_ATCIOA2Device [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d742d090 (    0x28) OBJC_METACLASS_$_ATCIOA2Device [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d742d0b8 (    0x28) OBJC_CLASS_$_ATCIOA2Stream [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d742d0e0 (    0x28) OBJC_METACLASS_$_ATCIOA2Stream [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d742d108 (    0x28) OBJC_CLASS_$_ATCIOA2StreamFormat [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d742d130 (    0x28) OBJC_METACLASS_$_ATCIOA2StreamFormat [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d5e623c8 (   0x108) __DATA SEGMENT
+            0x00000001d5e623c8 (    0x20) __DATA __objc_classrefs
+            0x00000001d5e623e8 (    0x18) __DATA __objc_superrefs
+            0x00000001d5e62400 (    0x70) __DATA __objc_ivar
+                0x00000001d5e62400 (     0x4) OBJC_IVAR_$_ATCIOA2Device._clockDomain [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62404 (     0x4) OBJC_IVAR_$_ATCIOA2Device._inputSafetyOffset [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62408 (     0x4) OBJC_IVAR_$_ATCIOA2Device._inputLatency [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6240c (     0x4) OBJC_IVAR_$_ATCIOA2Device._outputSafetyOffset [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62410 (     0x4) OBJC_IVAR_$_ATCIOA2Device._outputLatency [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62414 (     0x4) OBJC_IVAR_$_ATCIOA2Device._ioBufferSize [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62418 (     0x4) OBJC_IVAR_$_ATCIOA2Device._name [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6241c (     0x4) OBJC_IVAR_$_ATCIOA2Device._uid [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62420 (     0x4) OBJC_IVAR_$_ATCIOA2Device._sampleRate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62424 (     0x4) OBJC_IVAR_$_ATCIOA2Device._availableSampleRates [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62428 (     0x4) OBJC_IVAR_$_ATCIOA2Device._inputStreams [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6242c (     0x4) OBJC_IVAR_$_ATCIOA2Device._outputStreams [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62430 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._service [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62434 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._connection [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62438 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._index [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6243c (     0x4) OBJC_IVAR_$_ATCIOA2Stream._physicalID [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62440 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._input [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62444 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._startingChannel [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62448 (     0x4) OBJC_IVAR_$_ATCIOA2Stream._currentFormat [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6244c (     0x4) OBJC_IVAR_$_ATCIOA2Stream._availableFormats [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62450 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._formatID [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62454 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._formatFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62458 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._bytesPerPacket [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6245c (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._framesPerPacket [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62460 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._bytesPerFrame [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62464 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._channelsPerFrame [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e62468 (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._bitsPerChannel [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5e6246c (     0x4) OBJC_IVAR_$_ATCIOA2StreamFormat._sampleRate [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d5e62470 (    0x60) __DATA __data
+                0x00000001d5e62470 (    0x60) _OBJC_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

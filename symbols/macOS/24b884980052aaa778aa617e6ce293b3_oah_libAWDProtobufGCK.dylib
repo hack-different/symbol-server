@@ -1,0 +1,106 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Versions/A/Libraries/libAWDProtobufGCK.dylib [arm64e, 0.297849 seconds]:
+    D59A1D10-371D-3AAD-B356-A1C960E65E59 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Versions/A/Libraries/libAWDProtobufGCK.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000219429000 (  0x2000) __TEXT SEGMENT
+            0x0000000219429000 (   0xc48) MACH_HEADER
+            0x0000000219429c48 (   0xf2c) __TEXT __text
+                0x0000000219429c48 (    0x34) awd::metrics::protobuf_ShutdownFile_GCK_2eproto() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429c7c (    0xa8) awd::metrics::protobuf_AddDesc_GCK_2eproto() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429d24 (    0x30) awd::metrics::GCKLinkStatusReport::GCKLinkStatusReport() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429d54 (     0x4) awd::metrics::GCKLinkStatusReport::InitAsDefaultInstance() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429d58 (    0x30) awd::metrics::GCKLinkStatusReport::GCKLinkStatusReport() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429d88 (     0xc) awd::metrics::GCKLinkStatusReport::SharedCtor() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429d94 (    0x74) awd::metrics::GCKLinkStatusReport::GCKLinkStatusReport(awd::metrics::GCKLinkStatusReport const&) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429e08 (   0x130) awd::metrics::GCKLinkStatusReport::MergeFrom(awd::metrics::GCKLinkStatusReport const&) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429f38 (     0x4) awd::metrics::GCKLinkStatusReport::GCKLinkStatusReport(awd::metrics::GCKLinkStatusReport const&) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429f3c (    0x5c) awd::metrics::GCKLinkStatusReport::~GCKLinkStatusReport() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429f98 (     0x4) awd::metrics::GCKLinkStatusReport::SharedDtor() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429f9c (     0x4) awd::metrics::GCKLinkStatusReport::~GCKLinkStatusReport() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429fa0 (    0x28) awd::metrics::GCKLinkStatusReport::~GCKLinkStatusReport() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429fc8 (     0x8) awd::metrics::GCKLinkStatusReport::SetCachedSize(int) const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000219429fd0 (    0x30) awd::metrics::GCKLinkStatusReport::default_instance() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a000 (    0x48) awd::metrics::GCKLinkStatusReport::New() const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a048 (    0x18) awd::metrics::GCKLinkStatusReport::Clear() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a060 (   0x384) awd::metrics::GCKLinkStatusReport::MergePartialFromCodedStream(wireless_diagnostics::google::protobuf::io::CodedInputStream*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a3e4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000021942a3f4 (   0x1f8) bool wireless_diagnostics::google::protobuf::internal::WireFormatLite::ReadRepeatedPrimitiveNoInline<unsigned int, (wireless_diagnostics::google::protobuf::internal::WireFormatLite::FieldType)13>(int, unsigned int, wireless_diagnostics::google::protobuf::io::CodedInputStream*, wireless_diagnostics::google::protobuf::RepeatedField<unsigned int>*) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a5ec (    0xd4) awd::metrics::GCKLinkStatusReport::SerializeWithCachedSizes(wireless_diagnostics::google::protobuf::io::CodedOutputStream*) const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a6c0 (   0x120) awd::metrics::GCKLinkStatusReport::ByteSize() const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a7e0 (    0x88) awd::metrics::GCKLinkStatusReport::CheckTypeAndMergeFrom(wireless_diagnostics::google::protobuf::MessageLite const&) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a868 (    0x6c) awd::metrics::GCKLinkStatusReport::CopyFrom(awd::metrics::GCKLinkStatusReport const&) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a8d4 (     0x8) awd::metrics::GCKLinkStatusReport::IsInitialized() const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a8dc (    0x7c) awd::metrics::GCKLinkStatusReport::Swap(awd::metrics::GCKLinkStatusReport*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a958 (    0x10) awd::metrics::GCKLinkStatusReport::GetTypeName() const [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a968 (     0x8) awd::metrics::GCKLinkStatusReport::GetCachedSize() const [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a970 (    0x8c) wireless_diagnostics::google::protobuf::RepeatedField<unsigned int>::Reserve(int) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942a9fc (    0xa0) std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:v160006]<std::nullptr_t>(char const*) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942aa9c (    0x18) std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__throw_length_error[abi:v160006]() const [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942aab4 (    0x5c) std::__1::__throw_length_error[abi:v160006](char const*) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942ab10 (    0x34) std::length_error::length_error[abi:v160006](char const*) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942ab44 (     0x4) _GLOBAL__sub_I_GCK.pb.cc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021942ab48 (    0x2c) awd::metrics::GCKLinkStatusReport::CheckTypeAndMergeFrom(wireless_diagnostics::google::protobuf::MessageLite const&) (.cold.1) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021942ab74 (   0x210) __TEXT __auth_stubs
+                0x000000021942ab74 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ab84 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::MessageLite::~MessageLite() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ab94 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::ReadTagFallback() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942aba4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::ReadVarint32Fallback(unsigned int*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942abb4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::ReadVarint64Fallback(unsigned long long*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942abc4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::PopLimit(int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942abd4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::PushLimit(int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942abe4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedOutputStream::VarintSize64(unsigned long long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942abf4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedOutputStream::WriteVarint32(unsigned int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac04 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedOutputStream::VarintSize32Fallback(unsigned int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac14 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::LogMessage::LogMessage(wireless_diagnostics::google::protobuf::LogLevel, char const*, int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac24 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::LogMessage::~LogMessage() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac34 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::LogMessage::operator<<(char const*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac44 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::OnShutdown(void (*)()) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac54 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::LogFinisher::operator=(wireless_diagnostics::google::protobuf::internal::LogMessage&) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac64 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::VerifyVersion(int, int, char const*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac74 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::WireFormatLite::WriteUInt32(int, unsigned int, wireless_diagnostics::google::protobuf::io::CodedOutputStream*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac84 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::WireFormatLite::WriteUInt64(int, unsigned long long, wireless_diagnostics::google::protobuf::io::CodedOutputStream*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ac94 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::internal::WireFormatLite::SkipField(wireless_diagnostics::google::protobuf::io::CodedInputStream*, unsigned int) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942aca4 (    0x10) DYLD-STUB$$wireless_diagnostics::google::protobuf::io::CodedInputStream::BytesUntilLimit() const [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942acb4 (    0x10) DYLD-STUB$$std::logic_error::logic_error(char const*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942acc4 (    0x10) DYLD-STUB$$operator delete[](void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942acd4 (    0x10) DYLD-STUB$$operator delete(void*) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ace4 (    0x10) DYLD-STUB$$operator new[](unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942acf4 (    0x10) DYLD-STUB$$operator new(unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad04 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad14 (    0x10) DYLD-STUB$$__cxa_allocate_exception [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad24 (    0x10) DYLD-STUB$$__cxa_free_exception [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad34 (    0x10) DYLD-STUB$$__cxa_throw [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad44 (    0x10) DYLD-STUB$$__dynamic_cast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad54 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad64 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021942ad74 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021942ad84 (     0x4) __TEXT __init_offsets
+            0x000000021942ad88 (    0x50) __TEXT __gcc_except_tab
+                0x000000021942ad88 (     0xc) GCC_except_table6 [NameNList, MangledNameNList, NList] 
+                0x000000021942ad94 (    0x18) GCC_except_table7 [NameNList, MangledNameNList, NList] 
+                0x000000021942adac (    0x1c) GCC_except_table18 [NameNList, MangledNameNList, NList] 
+                0x000000021942adc8 (    0x10) GCC_except_table30 [NameNList, MangledNameNList, NList] 
+            0x000000021942add8 (   0x102) __TEXT __cstring
+            0x000000021942aedc (    0x34) __TEXT __const
+                0x000000021942aedc (     0x4) awd::metrics::GCKLinkStatusReport::kTimestampFieldNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000021942aee0 (     0x4) awd::metrics::GCKLinkStatusReport::kConnectionTypeFieldNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000021942aee4 (     0x4) awd::metrics::GCKLinkStatusReport::kPERFieldNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000021942aee8 (     0x4) awd::metrics::GCKLinkStatusReport::kRTTHistogramFieldNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x000000021942aeec (    0x24) typeinfo name for awd::metrics::GCKLinkStatusReport [EXT, NameNList, MangledNameNList, NList] 
+            0x000000021942af10 (    0xf0) __TEXT __unwind_info
+        0x000000022e7e9118 (    0x20) __DATA_CONST SEGMENT
+            0x000000022e7e9118 (    0x20) __DATA_CONST __got
+        0x000000023812ffc0 (   0x1a0) __AUTH_CONST SEGMENT
+            0x000000023812ffc0 (    0x90) __AUTH_CONST __const
+                0x000000023812ffc0 (    0x78) vtable for awd::metrics::GCKLinkStatusReport [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238130038 (    0x18) typeinfo for awd::metrics::GCKLinkStatusReport [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000238130050 (   0x110) __AUTH_CONST __auth_got
+        0x000000023191f6f0 (     0xa) __DATA SEGMENT
+            0x000000023191f6f0 (     0x9) __DATA __common
+                0x000000023191f6f0 (     0x8) awd::metrics::GCKLinkStatusReport::default_instance_ [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023191f6f8 (     0x1) awd::metrics::static_descriptor_initializer_GCK_2eproto_ [EXT, NameNList, MangledNameNList, NList] 
+            0x000000023191f6f9 (     0x1) __DATA __bss
+                0x000000023191f6f9 (     0x1) awd::metrics::protobuf_AddDesc_GCK_2eproto()::already_here [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

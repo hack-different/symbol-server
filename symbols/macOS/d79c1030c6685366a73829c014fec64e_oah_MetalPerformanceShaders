@@ -1,0 +1,42 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders [arm64e, 0.025747 seconds]:
+    AE6267B9-B6D3-3322-AE79-D1A5729AB67D /System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018ce96000 (  0x2000) __TEXT SEGMENT
+            0x000000018ce96000 (  0x18d8) MACH_HEADER
+            0x000000018ce978d8 (   0x3a0) __TEXT __text
+                0x000000018ce978d8 (    0x28) MPSSupportsMTLDevice [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ce97900 (     0x4) MPSHintTemporaryMemoryHighWaterMark [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ce97904 (     0x4) MPSSetHeapCacheDuration [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ce97908 (    0xb4) MPSGetPreferredDevice [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ce979bc (   0x2bc) (null) [FUNC, FunctionStarts] 
+            0x000000018ce97c78 (    0xb0) __TEXT __auth_stubs
+                0x000000018ce97c78 (    0x10) DYLD-STUB$$MTLCopyAllDevices [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97c88 (    0x10) DYLD-STUB$$MPSAutoCache::PrefetchHeapSize(id<MTLCommandBuffer>, unsigned long) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97c98 (    0x10) DYLD-STUB$$MPSAutoCache::SetHeapCacheDuration(id<MTLCommandBuffer>, double) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97ca8 (    0x10) DYLD-STUB$$MPSDevice::GetMPSDevice(id<MTLDevice>) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97cb8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97cc8 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97cd8 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97ce8 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97cf8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97d08 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ce97d18 (    0x10) DYLD-STUB$$strtol [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018ce97d28 (    0x48) __TEXT __const
+            0x000000018ce97d70 (    0xe9) __TEXT __cstring
+            0x000000018ce97e5c (    0x60) __TEXT __unwind_info
+            0x000000018ce97ebc (     0x1) __TEXT __objc_classname
+            0x000000018ce97ebe (    0x60) __TEXT __objc_methname
+            0x000000018ce97f20 (    0xe0) __TEXT __objc_stubs
+        0x00000001d3abc740 (    0x70) __DATA_CONST SEGMENT
+            0x00000001d3abc740 (    0x10) __DATA_CONST __got
+            0x00000001d3abc750 (    0x20) __DATA_CONST __const
+            0x00000001d3abc770 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3abc778 (    0x38) __DATA_CONST __objc_selrefs
+        0x00000001dbb05478 (    0x60) __AUTH_CONST SEGMENT
+            0x00000001dbb05478 (    0x60) __AUTH_CONST __auth_got
+        0x00000001d5d47f50 (    0x40) __DATA SEGMENT
+            0x00000001d5d47f50 (    0x40) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

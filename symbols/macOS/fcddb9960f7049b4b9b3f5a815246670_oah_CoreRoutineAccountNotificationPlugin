@@ -1,0 +1,60 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/Accounts/Notification/CoreRoutineAccountNotificationPlugin.bundle/Contents/MacOS/CoreRoutineAccountNotificationPlugin [arm64e, 0.044735 seconds]:
+    503FD52D-3A60-3FAF-B87F-AAD4F14C30B0 /System/Library/Accounts/Notification/CoreRoutineAccountNotificationPlugin.bundle/Contents/MacOS/CoreRoutineAccountNotificationPlugin [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e63ee000 (  0x4000) __TEXT SEGMENT
+            0x00000001e63ee000 (  0x34d4) MACH_HEADER
+            0x00000001e63f14d4 (   0x32c) __TEXT __text
+                0x00000001e63f14d4 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f1544 (   0x104) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f1648 (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f1714 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f1720 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f176c (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000001e63f17cc (    0x34) (null) [FUNC, FunctionStarts] 
+            0x00000001e63f1800 (    0xc0) __TEXT __auth_stubs
+                0x00000001e63f1800 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1810 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1820 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1830 (    0x10) DYLD-STUB$$dispatch_once_f [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1840 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1850 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1860 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1870 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1880 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f1890 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f18a0 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63f18b0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e63f18c0 (    0x44) __TEXT __objc_methlist
+            0x00000001e63f1904 (    0x6a) __TEXT __oslogstring
+            0x00000001e63f196e (    0x31) __TEXT __cstring
+            0x00000001e63f19a0 (    0x60) __TEXT __unwind_info
+            0x00000001e63f1a00 (    0x5c) __TEXT __objc_classname
+            0x00000001e63f1a5c (   0x2f1) __TEXT __objc_methname
+            0x00000001e63f1d4d (   0x20f) __TEXT __objc_methtype
+            0x00000001e63f1f60 (    0xa0) __TEXT __objc_stubs
+        0x00000002363db748 (   0x560) __DATA_CONST SEGMENT
+            0x00000002363db748 (    0x10) __DATA_CONST __got
+            0x00000002363db758 (    0x20) __DATA_CONST __const
+            0x00000002363db778 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002363db780 (     0x8) __DATA_CONST __objc_catlist
+            0x00000002363db788 (    0x10) __DATA_CONST __objc_protolist
+            0x00000002363db798 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002363db7a0 (   0x4c8) __DATA_CONST __objc_const
+            0x00000002363dbc68 (    0x40) __DATA_CONST __objc_selrefs
+        0x00000002363dbca8 (   0x110) __AUTH_CONST SEGMENT
+            0x00000002363dbca8 (    0x20) __AUTH_CONST __const
+            0x00000002363dbcc8 (    0x88) __AUTH_CONST __objc_const
+            0x00000002363dbd50 (    0x68) __AUTH_CONST __auth_got
+        0x000000023219c428 (    0x50) __AUTH SEGMENT
+            0x000000023219c428 (    0x50) __AUTH __objc_data
+                0x000000023219c428 (    0x28) OBJC_CLASS_$_RTCoreRoutineAccountNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219c450 (    0x28) OBJC_METACLASS_$_RTCoreRoutineAccountNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230887c70 (    0xf0) __DATA SEGMENT
+            0x0000000230887c70 (     0x8) __DATA __objc_classrefs
+            0x0000000230887c78 (     0x8) __DATA __objc_superrefs
+            0x0000000230887c80 (     0x4) __DATA __objc_ivar
+            0x0000000230887c88 (    0xd8) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

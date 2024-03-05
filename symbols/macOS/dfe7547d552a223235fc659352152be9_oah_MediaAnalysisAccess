@@ -1,0 +1,173 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/MediaAnalysisAccess.framework/Versions/A/MediaAnalysisAccess [arm64e, 0.028496 seconds]:
+    35FD8F7E-4F0B-3D8D-82B3-D67FB89AC6E1 /System/Library/PrivateFrameworks/MediaAnalysisAccess.framework/Versions/A/MediaAnalysisAccess [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002075d1000 (  0x4000) __TEXT SEGMENT
+            0x00000002075d1000 (  0x23b4) MACH_HEADER
+            0x00000002075d33b4 (   0xf24) __TEXT __text
+                0x00000002075d33b4 (    0x70) -[MADAccessServiceProxy initWithService:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3424 (     0x8) -[MADAccessServiceProxy .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d342c (    0x6c) -[MADAccessService init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3498 (    0x2c) +[MADAccessService service] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d34c4 (    0xf8) -[MADAccessService configureServerInterface:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d35bc (    0xf0) -[MADAccessService connection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d36ac (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d36bc (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d36c4 (   0x1f4) __30-[MADAccessService connection]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d38b8 (    0x30) __30-[MADAccessService connection]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d38e8 (    0xd4) __30-[MADAccessService connection]_block_invoke.22 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39bc (    0x10) __30-[MADAccessService connection]_block_invoke.23 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39cc (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39d4 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39dc (     0xc) __copy_helper_block_e8_32w [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39e8 (     0x8) __destroy_helper_block_e8_32w [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d39f0 (    0x48) __copy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3a38 (    0x40) __destroy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3a78 (   0x180) -[MADAccessService fetchSpotlightAssetsWithTypes:analysisVersions:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3bf8 (    0x40) __67-[MADAccessService fetchSpotlightAssetsWithTypes:analysisVersions:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3c38 (    0x94) __67-[MADAccessService fetchSpotlightAssetsWithTypes:analysisVersions:]_block_invoke.27 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3ccc (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3cdc (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3ce8 (    0x44) -[MADAccessService .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3d2c (   0x25c) -[MADSpotlightFetchResult initWithSearchableItems:sandboxTokens:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d3f88 (   0x1b4) -[MADSpotlightFetchResult dealloc] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d413c (     0x8) -[MADSpotlightFetchResult searchableItems] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d4144 (    0x44) -[MADSpotlightFetchResult .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d4188 (    0x48) __30-[MADAccessService connection]_block_invoke_2.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d41d0 (    0x80) __67-[MADAccessService fetchSpotlightAssetsWithTypes:analysisVersions:]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d4250 (    0x44) -[MADSpotlightFetchResult initWithSearchableItems:sandboxTokens:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002075d4294 (    0x44) -[MADSpotlightFetchResult dealloc].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002075d42d8 (   0x1d0) __TEXT __auth_stubs
+                0x00000002075d42d8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d42e8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d42f8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4308 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4318 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4328 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4338 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4348 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4358 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4368 (    0x10) DYLD-STUB$$dispatch_sync [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4378 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4388 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4398 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43a8 (    0x10) DYLD-STUB$$objc_copyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43b8 (    0x10) DYLD-STUB$$objc_destroyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43c8 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43d8 (    0x10) DYLD-STUB$$objc_initWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43e8 (    0x10) DYLD-STUB$$objc_loadWeakRetained [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d43f8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4408 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4418 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4428 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4438 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4448 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4458 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4468 (    0x10) DYLD-STUB$$objc_storeWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4478 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4488 (    0x10) DYLD-STUB$$sandbox_extension_consume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002075d4498 (    0x10) DYLD-STUB$$sandbox_extension_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002075d44a8 (    0xb8) __TEXT __objc_methlist
+                0x00000002075d44a8 (    0x18) _OBJC_$_CLASS_METHODS_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x00000002075d44c0 (    0x48) _OBJC_$_INSTANCE_METHODS_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x00000002075d4508 (    0x20) _OBJC_$_INSTANCE_METHODS_MADAccessServiceProxy [NameNList, MangledNameNList, NList] 
+                0x00000002075d4528 (    0x38) _OBJC_$_INSTANCE_METHODS_MADSpotlightFetchResult [NameNList, MangledNameNList, NList] 
+            0x00000002075d4560 (    0x58) __TEXT __const
+                0x00000002075d4560 (    0x40) MediaAnalysisAccessVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d45a0 (    0x18) MediaAnalysisAccessVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002075d45b8 (    0x30) __TEXT __gcc_except_tab
+                0x00000002075d45b8 (    0x1c) GCC_except_table8 [NameNList, MangledNameNList, NList] 
+                0x00000002075d45d4 (    0x14) GCC_except_table18 [NameNList, MangledNameNList, NList] 
+            0x00000002075d45e8 (    0x77) __TEXT __cstring
+            0x00000002075d465f (   0x1a3) __TEXT __oslogstring
+            0x00000002075d4804 (    0xc0) __TEXT __unwind_info
+            0x00000002075d48c4 (    0x73) __TEXT __objc_classname
+            0x00000002075d4938 (   0x2f6) __TEXT __objc_methname
+            0x00000002075d4c2e (    0xeb) __TEXT __objc_methtype
+            0x00000002075d4d20 (   0x2e0) __TEXT __objc_stubs
+                0x00000002075d4d20 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4d40 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4d60 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4d80 (    0x20) objc_msgSend$arrayWithObjects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4da0 (    0x20) objc_msgSend$configureServerInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4dc0 (    0x20) objc_msgSend$connection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4de0 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4e00 (    0x20) objc_msgSend$fetchSpotlightAssetsWithTypes:analysisVersions:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4e20 (    0x20) objc_msgSend$initWithSearchableItems:sandboxTokens: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4e40 (    0x20) objc_msgSend$initWithService: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4e60 (    0x20) objc_msgSend$initWithServiceName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4e80 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4ea0 (    0x20) objc_msgSend$longLongValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4ec0 (    0x20) objc_msgSend$numberWithLongLong: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4ee0 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4f00 (    0x20) objc_msgSend$setClasses:forSelector:argumentIndex:ofReply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4f20 (    0x20) objc_msgSend$setExportedInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4f40 (    0x20) objc_msgSend$setExportedObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4f60 (    0x20) objc_msgSend$setInterruptionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4f80 (    0x20) objc_msgSend$setInvalidationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4fa0 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4fc0 (    0x20) objc_msgSend$setWithArray: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002075d4fe0 (    0x20) objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002377680d0 (   0x328) __DATA_CONST SEGMENT
+            0x00000002377680d0 (    0x18) __DATA_CONST __got
+            0x00000002377680e8 (    0x40) __DATA_CONST __const
+                0x00000002377680e8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237768108 (    0x20) __block_descriptor_32_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237768128 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000237768140 (    0x10) __DATA_CONST __objc_protolist
+                0x0000000237768140 (     0x8) _OBJC_LABEL_PROTOCOL_$_MADAccessClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237768148 (     0x8) _OBJC_LABEL_PROTOCOL_$_MADAccessServerProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237768150 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237768158 (   0x1b8) __DATA_CONST __objc_const
+                0x0000000237768158 (    0x18) _OBJC_CLASS_PROTOCOLS_$_MADAccessServiceProxy [NameNList, MangledNameNList, NList] 
+                0x0000000237768170 (    0x48) _OBJC_METACLASS_RO_$_MADAccessServiceProxy [NameNList, MangledNameNList, NList] 
+                0x00000002377681b8 (    0x28) _OBJC_$_INSTANCE_VARIABLES_MADAccessServiceProxy [NameNList, MangledNameNList, NList] 
+                0x00000002377681e0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_MADAccessServerProtocol [NameNList, MangledNameNList, NList] 
+                0x0000000237768200 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_MADAccessServerProtocol [NameNList, MangledNameNList, NList] 
+                0x0000000237768208 (    0x18) _OBJC_CLASS_PROTOCOLS_$_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x0000000237768220 (    0x48) _OBJC_$_INSTANCE_VARIABLES_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x0000000237768268 (    0x48) _OBJC_METACLASS_RO_$_MADSpotlightFetchResult [NameNList, MangledNameNList, NList] 
+                0x00000002377682b0 (    0x48) _OBJC_$_INSTANCE_VARIABLES_MADSpotlightFetchResult [NameNList, MangledNameNList, NList] 
+                0x00000002377682f8 (    0x18) _OBJC_$_PROP_LIST_MADSpotlightFetchResult [NameNList, MangledNameNList, NList] 
+            0x0000000237768310 (    0xe8) __DATA_CONST __objc_selrefs
+        0x00000002377683f8 (   0x338) __AUTH_CONST SEGMENT
+            0x00000002377683f8 (   0x120) __AUTH_CONST __objc_const
+                0x00000002377683f8 (    0x48) _OBJC_CLASS_RO_$_MADAccessServiceProxy [NameNList, MangledNameNList, NList] 
+                0x0000000237768440 (    0x48) _OBJC_METACLASS_RO_$_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x0000000237768488 (    0x48) _OBJC_CLASS_RO_$_MADAccessService [NameNList, MangledNameNList, NList] 
+                0x00000002377684d0 (    0x48) _OBJC_CLASS_RO_$_MADSpotlightFetchResult [NameNList, MangledNameNList, NList] 
+            0x0000000237768518 (    0x20) __AUTH_CONST __cfstring
+            0x0000000237768538 (   0x100) __AUTH_CONST __const
+                0x0000000237768538 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000237768558 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237768588 (    0x30) __block_descriptor_40_e8_32w_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377685b8 (    0x30) __block_descriptor_48_e8_32s40r_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002377685e8 (    0x20) __block_literal_global.26 [NameNList, MangledNameNList, NList] 
+                0x0000000237768608 (    0x30) __block_descriptor_40_e8_32r_e29_v24?0"NSArray"8"NSArray"16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237768638 (    0xf8) __AUTH_CONST __auth_got
+        0x00000002328f42e8 (    0xf0) __AUTH SEGMENT
+            0x00000002328f42e8 (    0xf0) __AUTH __objc_data
+                0x00000002328f42e8 (    0x28) OBJC_CLASS_$_MADAccessServiceProxy [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328f4310 (    0x28) OBJC_METACLASS_$_MADAccessServiceProxy [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328f4338 (    0x28) OBJC_CLASS_$_MADAccessService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328f4360 (    0x28) OBJC_METACLASS_$_MADAccessService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328f4388 (    0x28) OBJC_CLASS_$_MADSpotlightFetchResult [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328f43b0 (    0x28) OBJC_METACLASS_$_MADSpotlightFetchResult [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023126ad20 (   0x148) __DATA SEGMENT
+            0x000000023126ad20 (    0x10) __DATA __objc_protorefs
+                0x000000023126ad20 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_MADAccessClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ad28 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_MADAccessServerProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023126ad30 (    0x48) __DATA __objc_classrefs
+            0x000000023126ad78 (    0x18) __DATA __objc_superrefs
+            0x000000023126ad90 (    0x14) __DATA __objc_ivar
+                0x000000023126ad90 (     0x4) OBJC_IVAR_$_MADAccessServiceProxy._service [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ad94 (     0x4) OBJC_IVAR_$_MADAccessService._connectionQueue [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ad98 (     0x4) OBJC_IVAR_$_MADAccessService._connection [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ad9c (     0x4) OBJC_IVAR_$_MADSpotlightFetchResult._sandboxHandles [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ada0 (     0x4) OBJC_IVAR_$_MADSpotlightFetchResult._searchableItems [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023126ada8 (    0xc0) __DATA __data
+                0x000000023126ada8 (    0x60) _OBJC_PROTOCOL_$_MADAccessClientProtocol [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023126ae08 (    0x60) _OBJC_PROTOCOL_$_MADAccessServerProtocol [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

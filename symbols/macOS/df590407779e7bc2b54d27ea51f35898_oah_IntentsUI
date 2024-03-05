@@ -1,0 +1,88 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/IntentsUI.axbundle/Contents/MacOS/IntentsUI [arm64e, 0.087725 seconds]:
+    6463F1C0-C3BB-3525-8C91-BC263592D615 /System/iOSSupport/System/Library/AccessibilityBundles/IntentsUI.axbundle/Contents/MacOS/IntentsUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223220000 (  0x2000) __TEXT SEGMENT
+            0x0000000223220000 (  0x173c) MACH_HEADER
+            0x000000022322173c (   0x264) __TEXT __text
+                0x000000022322173c (    0x94) +[AXIntentsUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232217d0 (     0x8) __48+[AXIntentsUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232217d8 (    0x60) __48+[AXIntentsUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223221838 (    0x14) __48+[AXIntentsUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022322184c (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232218fc (     0xc) +[INUIAddVoiceShortcutButtonAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223221908 (     0xc) +[INUIAddVoiceShortcutButtonAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223221914 (    0x80) +[INUIAddVoiceShortcutButtonAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223221994 (     0xc) -[INUIAddVoiceShortcutButtonAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002232219a0 (    0xc0) __TEXT __auth_stubs
+                0x00000002232219a0 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232219b0 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232219c0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232219d0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232219e0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232219f0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a00 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a10 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a20 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a30 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a40 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223221a50 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223221a60 (    0x5c) __TEXT __objc_methlist
+                0x0000000223221a60 (    0x18) _OBJC_$_CLASS_METHODS_AXIntentsUIGlue [NameNList, MangledNameNList, NList] 
+                0x0000000223221a78 (    0x30) _OBJC_$_CLASS_METHODS_INUIAddVoiceShortcutButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223221aa8 (    0x14) _OBJC_$_INSTANCE_METHODS_INUIAddVoiceShortcutButtonAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x0000000223221abc (    0xde) __TEXT __cstring
+            0x0000000223221b9c (    0x6c) __TEXT __unwind_info
+            0x0000000223221c08 (    0x75) __TEXT __objc_classname
+            0x0000000223221c7e (   0x1ff) __TEXT __objc_methname
+            0x0000000223221e7d (    0x23) __TEXT __objc_methtype
+            0x0000000223221ea0 (   0x160) __TEXT __objc_stubs
+                0x0000000223221ea0 (    0x20) objc_msgSend$_accessibilityStringForLabelKeyValues: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221ec0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221ee0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221f00 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221f20 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221f40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221f60 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221f80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221fa0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221fc0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223221fe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238428a18 (   0x1b8) __DATA_CONST SEGMENT
+            0x0000000238428a18 (    0x40) __DATA_CONST __const
+                0x0000000238428a18 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238428a38 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238428a58 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238428a70 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238428a78 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238428a78 (    0x48) _OBJC_CLASS_RO_$_AXIntentsUIGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238428ac0 (    0x48) _OBJC_METACLASS_RO_$___INUIAddVoiceShortcutButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238428b08 (    0x48) _OBJC_CLASS_RO_$___INUIAddVoiceShortcutButtonAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x0000000238428b50 (    0x80) __DATA_CONST __objc_selrefs
+        0x0000000238428bd0 (   0x2c0) __AUTH_CONST SEGMENT
+            0x0000000238428bd0 (    0x60) __AUTH_CONST __const
+                0x0000000238428bd0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238428bf0 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x0000000238428c10 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x0000000238428c30 (   0x120) __AUTH_CONST __cfstring
+            0x0000000238428d50 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000238428d50 (    0x48) _OBJC_METACLASS_RO_$_AXIntentsUIGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238428d98 (    0x48) _OBJC_METACLASS_RO_$_INUIAddVoiceShortcutButtonAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238428de0 (    0x48) _OBJC_CLASS_RO_$_INUIAddVoiceShortcutButtonAccessibility [NameNList, MangledNameNList, NList] 
+            0x0000000238428e28 (    0x68) __AUTH_CONST __auth_got
+        0x00000002336314c0 (    0xf0) __AUTH SEGMENT
+            0x00000002336314c0 (    0xf0) __AUTH __objc_data
+                0x00000002336314c0 (    0x28) OBJC_CLASS_$_AXIntentsUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336314e8 (    0x28) OBJC_METACLASS_$_AXIntentsUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631510 (    0x28) OBJC_METACLASS_$___INUIAddVoiceShortcutButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631538 (    0x28) OBJC_CLASS_$___INUIAddVoiceShortcutButtonAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631560 (    0x28) OBJC_CLASS_$_INUIAddVoiceShortcutButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631588 (    0x28) OBJC_METACLASS_$_INUIAddVoiceShortcutButtonAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231baa838 (    0x30) __DATA SEGMENT
+            0x0000000231baa838 (    0x20) __DATA __objc_classrefs
+            0x0000000231baa858 (    0x10) __DATA __bss
+                0x0000000231baa858 (     0x8) _Failover [NameNList, MangledNameNList, NList] 
+                0x0000000231baa860 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

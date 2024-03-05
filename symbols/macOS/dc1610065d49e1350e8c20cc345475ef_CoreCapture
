@@ -1,8 +1,0 @@
-/System/Library/PrivateFrameworks/CoreCapture.framework/Versions/A/CoreCapture [arm64e, 0.029110 seconds]:
-    EAB73D56-15F5-3534-8227-4C4A29410D4A /System/Library/PrivateFrameworks/CoreCapture.framework/Versions/A/CoreCapture [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
-        0x00000001f7920000 (  0x1000) __TEXT SEGMENT
-            0x00000001f7920000 (   0xfc8) MACH_HEADER
-            0x00000001f7920fc8 (    0x38) __TEXT __const
-                0x00000001f7920fc8 (    0x30) CoreCaptureVersionString [PEXT, NameNList, MangledNameNList, NList] 
-                0x00000001f7920ff8 (     0x8) CoreCaptureVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
-        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

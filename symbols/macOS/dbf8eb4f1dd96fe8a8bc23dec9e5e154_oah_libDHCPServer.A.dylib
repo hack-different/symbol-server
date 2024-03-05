@@ -1,0 +1,90 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libDHCPServer.A.dylib [arm64e, 0.025897 seconds]:
+    D654FCD2-95F2-3699-AF4C-A469689D4544 /usr/lib/libDHCPServer.A.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000220102000 (  0x2000) __TEXT SEGMENT
+            0x0000000220102000 (   0xc80) MACH_HEADER
+            0x0000000220102c80 (   0xef0) __TEXT __text
+                0x0000000220102c80 (   0x134) DHCPSDHCPLeaseListCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220102db4 (   0x1a4) (null) [FUNC, FunctionStarts] 
+                0x0000000220102f58 (   0x20c) DHCPSNetBootClientListCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000220103164 (    0x64) DHCPSCopyDisabledInterfaces [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002201031c8 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x0000000220103224 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x000000022010328c (    0xe8) (null) [FUNC, FunctionStarts] 
+                0x0000000220103374 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002201033b8 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000220103424 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000002201034ac (    0x68) (null) [FUNC, FunctionStarts] 
+                0x0000000220103514 (    0x6c) (null) [FUNC, FunctionStarts] 
+                0x0000000220103580 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x000000022010363c (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000220103690 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000002201036d4 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002201036e8 (    0x8c) (null) [FUNC, FunctionStarts] 
+                0x0000000220103774 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000002201037b4 (   0x3bc) (null) [FUNC, FunctionStarts] 
+            0x0000000220103b70 (   0x230) __TEXT __auth_stubs
+                0x0000000220103b70 (    0x10) DYLD-STUB$$CFAbsoluteTimeGetCurrent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103b80 (    0x10) DYLD-STUB$$CFArrayAppendValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103b90 (    0x10) DYLD-STUB$$CFArrayCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103ba0 (    0x10) DYLD-STUB$$CFArrayGetCount [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103bb0 (    0x10) DYLD-STUB$$CFArrayGetValueAtIndex [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103bc0 (    0x10) DYLD-STUB$$CFDateCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103bd0 (    0x10) DYLD-STUB$$CFDictionaryCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103be0 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103bf0 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c00 (    0x10) DYLD-STUB$$CFNumberCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c10 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c20 (    0x10) DYLD-STUB$$CFRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c30 (    0x10) DYLD-STUB$$CFStringCreateWithCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c40 (    0x10) DYLD-STUB$$CFStringGetBytes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c50 (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c60 (    0x10) DYLD-STUB$$SCDynamicStoreCopyValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c70 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c80 (    0x10) DYLD-STUB$$__strncpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103c90 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103ca0 (    0x10) DYLD-STUB$$fclose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103cb0 (    0x10) DYLD-STUB$$fgetc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103cc0 (    0x10) DYLD-STUB$$fopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103cd0 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103ce0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103cf0 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d00 (    0x10) DYLD-STUB$$gettimeofday [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d10 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d20 (    0x10) DYLD-STUB$$perror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d30 (    0x10) DYLD-STUB$$realloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d40 (    0x10) DYLD-STUB$$strchr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d50 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d60 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d70 (    0x10) DYLD-STUB$$strspn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d80 (    0x10) DYLD-STUB$$strtol [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000220103d90 (    0x10) DYLD-STUB$$strtoul [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000220103da0 (   0x1c3) __TEXT __cstring
+            0x0000000220103f64 (    0x9c) __TEXT __unwind_info
+        0x000000022e7f1a10 (    0xa0) __DATA_CONST SEGMENT
+            0x000000022e7f1a10 (    0x38) __DATA_CONST __got
+            0x000000022e7f1a48 (    0x68) __DATA_CONST __const
+                0x000000022e7f1a48 (     0x8) kDHCPSPropName [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a50 (     0x8) kDHCPSPropIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a58 (     0x8) kDHCPSPropDHCPHWAddress [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a60 (     0x8) kDHCPSPropDHCPIPAddress [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a68 (     0x8) kDHCPSPropDHCPLease [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a70 (     0x8) kDHCPSPropNetBootArch [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a78 (     0x8) kDHCPSPropNetBootSysid [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a80 (     0x8) kDHCPSPropNetBootLastBootTime [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a88 (     0x8) kDHCPSPropNetBootIPAddress [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a90 (     0x8) kDHCPSPropNetBootImageID [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1a98 (     0x8) kDHCPSPropNetBootImageIndex [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1aa0 (     0x8) kDHCPSPropNetBootImageKind [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7f1aa8 (     0x8) kDHCPSPropNetBootImageIsInstall [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023824f528 (   0x2d8) __AUTH_CONST SEGMENT
+            0x000000023824f528 (   0x1c0) __AUTH_CONST __cfstring
+            0x000000023824f6e8 (   0x118) __AUTH_CONST __auth_got
+        0x0000000231a03110 (    0x10) __DATA SEGMENT
+            0x0000000231a03110 (    0x10) __DATA __data
+                0x0000000231a03110 (     0x8) DHCPSDHCPLeaseListNotificationKey [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000231a03118 (     0x8) DHCPSDisabledInterfacesNotificationKey [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

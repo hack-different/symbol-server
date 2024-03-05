@@ -1,0 +1,81 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/Gif-QuickLook.axbundle/Contents/MacOS/Gif-QuickLook [arm64e, 0.094182 seconds]:
+    56D8E615-3C88-3D52-B66E-D8106EEDE017 /System/iOSSupport/System/Library/AccessibilityBundles/Gif-QuickLook.axbundle/Contents/MacOS/Gif-QuickLook [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002231ea000 (  0x2000) __TEXT SEGMENT
+            0x00000002231ea000 (  0x1830) MACH_HEADER
+            0x00000002231eb830 (   0x220) __TEXT __text
+                0x00000002231eb830 (     0xc) +[QLGIFDisplayBundleAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eb83c (     0xc) +[QLGIFDisplayBundleAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eb848 (    0x84) +[QLGIFDisplayBundleAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eb8cc (    0xe0) -[QLGIFDisplayBundleAccessibility viewDidAppear:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eb9ac (    0x60) +[AXGIFQuickLookGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eba0c (     0x8) __51+[AXGIFQuickLookGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eba14 (    0x28) __51+[AXGIFQuickLookGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231eba3c (    0x14) __51+[AXGIFQuickLookGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231eba50 (    0xa0) __TEXT __auth_stubs
+                0x00000002231eba50 (    0x10) DYLD-STUB$$UIAccessibilityEmojiDescription [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231eba60 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231eba70 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231eba80 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231eba90 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231ebaa0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231ebab0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231ebac0 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231ebad0 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231ebae0 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231ebaf0 (    0x5c) __TEXT __objc_methlist
+                0x00000002231ebaf0 (    0x30) _OBJC_$_CLASS_METHODS_QLGIFDisplayBundleAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231ebb20 (    0x18) _OBJC_$_INSTANCE_METHODS_QLGIFDisplayBundleAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231ebb38 (    0x14) _OBJC_$_CLASS_METHODS_AXGIFQuickLookGlue [NameNList, MangledNameNList, NList] 
+            0x00000002231ebb4c (    0xd8) __TEXT __cstring
+            0x00000002231ebc24 (    0x68) __TEXT __unwind_info
+            0x00000002231ebc8c (    0x68) __TEXT __objc_classname
+            0x00000002231ebcf4 (   0x1bb) __TEXT __objc_methname
+            0x00000002231ebeaf (    0x2e) __TEXT __objc_methtype
+            0x00000002231ebee0 (   0x120) __TEXT __objc_stubs
+                0x00000002231ebee0 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebf00 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebf20 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebf40 (    0x20) objc_msgSend$setAccessibilityLabel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebf60 (    0x20) objc_msgSend$setIsAccessibilityElement: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebf80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebfa0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebfc0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231ebfe0 (    0x20) objc_msgSend$validateProtocol:hasRequiredInstanceMethod: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002384168b8 (   0x1a8) __DATA_CONST SEGMENT
+            0x00000002384168b8 (    0x40) __DATA_CONST __const
+                0x00000002384168b8 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002384168d8 (    0x20) __block_descriptor_32_e32_v24?0"AXValidationManager"8Q16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002384168f8 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238416910 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238416918 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238416918 (    0x48) _OBJC_METACLASS_RO_$___QLGIFDisplayBundleAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238416960 (    0x48) _OBJC_CLASS_RO_$___QLGIFDisplayBundleAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384169a8 (    0x48) _OBJC_CLASS_RO_$_AXGIFQuickLookGlue [NameNList, MangledNameNList, NList] 
+            0x00000002384169f0 (    0x70) __DATA_CONST __objc_selrefs
+        0x0000000238416a60 (   0x290) __AUTH_CONST SEGMENT
+            0x0000000238416a60 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000238416a60 (    0x48) _OBJC_METACLASS_RO_$_QLGIFDisplayBundleAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238416aa8 (    0x48) _OBJC_CLASS_RO_$_QLGIFDisplayBundleAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238416af0 (    0x48) _OBJC_METACLASS_RO_$_AXGIFQuickLookGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238416b38 (   0x100) __AUTH_CONST __cfstring
+            0x0000000238416c38 (    0x60) __AUTH_CONST __const
+                0x0000000238416c38 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238416c58 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x0000000238416c78 (    0x20) __block_literal_global.219 [NameNList, MangledNameNList, NList] 
+            0x0000000238416c98 (    0x58) __AUTH_CONST __auth_got
+        0x000000023362c790 (    0xf0) __AUTH SEGMENT
+            0x000000023362c790 (    0xf0) __AUTH __objc_data
+                0x000000023362c790 (    0x28) OBJC_METACLASS_$___QLGIFDisplayBundleAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c7b8 (    0x28) OBJC_CLASS_$___QLGIFDisplayBundleAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c7e0 (    0x28) OBJC_CLASS_$_QLGIFDisplayBundleAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c808 (    0x28) OBJC_METACLASS_$_QLGIFDisplayBundleAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c830 (    0x28) OBJC_METACLASS_$_AXGIFQuickLookGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023362c858 (    0x28) OBJC_CLASS_$_AXGIFQuickLookGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231baa280 (    0x18) __DATA SEGMENT
+            0x0000000231baa280 (    0x10) __DATA __objc_classrefs
+            0x0000000231baa290 (     0x8) __DATA __objc_superrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,186 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/OAuth.framework/Versions/A/OAuth [arm64e, 0.064607 seconds]:
+    E0A56B8E-61FC-3D4C-B1B7-FD943963C131 /System/Library/PrivateFrameworks/OAuth.framework/Versions/A/OAuth [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000019e72a000 (  0x4000) __TEXT SEGMENT
+            0x000000019e72a000 (  0x1bdc) MACH_HEADER
+            0x000000019e72bbdc (  0x10bc) __TEXT __text
+                0x000000019e72bbdc (     0x8) -[OACredential setConsumerKey:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72bbe4 (     0x8) -[OACredential setConsumerSecret:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72bbec (    0x60) -[OAURLRequestSigner initWithCredential:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72bc4c (     0xc) -[OAURLRequestSigner signedURLRequestWithRequest:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72bc58 (   0x690) -[OAURLRequestSigner signedURLRequestWithRequest:applicationID:timestamp:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c2e8 (    0x60) -[OAURLRequestSigner oauthNonce] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c348 (    0x5c) -[OAURLRequestSigner timestamp:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c3a4 (   0x154) -[OAURLRequestSigner oauthParametersWithNonce:timeStamp:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c4f8 (     0x8) -[OACredential consumerKey] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c500 (    0x68) -[OAURLRequestSigner signatureMethodString] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c568 (     0x8) -[OAURLRequestSigner signatureMethod] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c570 (     0x8) -[OACredential oauthToken] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c578 (    0x4c) -[NSString(OAURLEncode) oauth_urlEncodedString] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c5c4 (    0x80) -[OAURLRequestSigner signer] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c644 (    0xa0) -[OACredential signingKey] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c6e4 (     0x8) -[OACredential consumerSecret] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c6ec (     0x8) -[OACredential oauthTokenSecret] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c6f4 (    0xe0) +[OAHMAC_SHA1Signer signatureForText:withKey:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c7d4 (   0x1e0) -[OAURLRequestSigner oauthAuthorizationHeaderWithSignature:nonce:timestamp:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72c9b4 (    0x4c) -[OAURLRequestSigner dealloc] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72ca00 (    0x64) -[OACredential dealloc] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72ca64 (     0x8) -[OACredential setOauthToken:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72ca6c (     0x8) -[OACredential setOauthTokenSecret:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72ca74 (   0x214) -[OAURLRequestSigner applyApplicationID:toRequest:containsMultiPartData:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72cc88 (     0x8) -[OAURLRequestSigner setSignatureMethod:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000019e72cc90 (     0x8) +[OAPlainTextSigner signatureForText:withKey:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000019e72cc98 (    0xf0) __TEXT __auth_stubs
+                0x000000019e72cc98 (    0x10) DYLD-STUB$$CCHmac [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cca8 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72ccb8 (    0x10) DYLD-STUB$$CFURLCreateStringByAddingPercentEscapes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72ccc8 (    0x10) DYLD-STUB$$CFUUIDCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72ccd8 (    0x10) DYLD-STUB$$CFUUIDCreateString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cce8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72ccf8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd08 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd18 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd28 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd38 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd48 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd58 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd68 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000019e72cd78 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000019e72cd88 (   0x16c) __TEXT __objc_methlist
+                0x000000019e72cd88 (    0x80) _OBJC_$_INSTANCE_METHODS_OACredential [NameNList, MangledNameNList, NList] 
+                0x000000019e72ce08 (    0xa8) _OBJC_$_INSTANCE_METHODS_OAURLRequestSigner [NameNList, MangledNameNList, NList] 
+                0x000000019e72ceb0 (    0x18) _OBJC_$_CLASS_METHODS_OAHMAC_SHA1Signer [NameNList, MangledNameNList, NList] 
+                0x000000019e72cec8 (    0x18) _OBJC_$_CLASS_METHODS_OAPlainTextSigner [NameNList, MangledNameNList, NList] 
+                0x000000019e72cee0 (    0x14) _OBJC_$_INSTANCE_METHODS_NSString(OAURLEncode) [NameNList, MangledNameNList, NList] 
+            0x000000019e72cef4 (   0x186) __TEXT __cstring
+            0x000000019e72d07a (    0x28) __TEXT __ustring
+            0x000000019e72d0a4 (    0xa4) __TEXT __unwind_info
+            0x000000019e72d148 (    0x5c) __TEXT __objc_classname
+            0x000000019e72d1a4 (   0x63d) __TEXT __objc_methname
+            0x000000019e72d7e1 (    0xbb) __TEXT __objc_methtype
+            0x000000019e72d8a0 (   0x760) __TEXT __objc_stubs
+                0x000000019e72d8a0 (    0x20) objc_msgSend$HTTPBody [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d8c0 (    0x20) objc_msgSend$HTTPMethod [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d8e0 (    0x20) objc_msgSend$URL [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d900 (    0x20) objc_msgSend$URLWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d920 (    0x20) objc_msgSend$absoluteString [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d940 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d960 (    0x20) objc_msgSend$allHTTPHeaderFields [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d980 (    0x20) objc_msgSend$applyApplicationID:toRequest:containsMultiPartData: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d9a0 (    0x20) objc_msgSend$arrayByAddingObjectsFromArray: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d9c0 (    0x20) objc_msgSend$arrayWithArray: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72d9e0 (    0x20) objc_msgSend$arrayWithObjects: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72da00 (    0x20) objc_msgSend$base64EncodedStringWithOptions: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72da20 (    0x20) objc_msgSend$bytes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72da40 (    0x20) objc_msgSend$componentsJoinedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72da60 (    0x20) objc_msgSend$componentsSeparatedByString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72da80 (    0x20) objc_msgSend$consumerKey [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72daa0 (    0x20) objc_msgSend$consumerSecret [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dac0 (    0x20) objc_msgSend$containsObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dae0 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72db00 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72db20 (    0x20) objc_msgSend$dataUsingEncoding: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72db40 (    0x20) objc_msgSend$dataWithBytes:length: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72db60 (    0x20) objc_msgSend$date [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72db80 (    0x20) objc_msgSend$initWithBytes:length:encoding: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dba0 (    0x20) objc_msgSend$initWithURL:resolvingAgainstBaseURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dbc0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dbe0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dc00 (    0x20) objc_msgSend$mutableCopy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dc20 (    0x20) objc_msgSend$oauthAuthorizationHeaderWithSignature:nonce:timestamp: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dc40 (    0x20) objc_msgSend$oauthNonce [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dc60 (    0x20) objc_msgSend$oauthParametersWithNonce:timeStamp: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dc80 (    0x20) objc_msgSend$oauthToken [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dca0 (    0x20) objc_msgSend$oauthTokenSecret [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dcc0 (    0x20) objc_msgSend$oauth_urlEncodedString [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dce0 (    0x20) objc_msgSend$password [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dd00 (    0x20) objc_msgSend$query [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dd20 (    0x20) objc_msgSend$rangeOfString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dd40 (    0x20) objc_msgSend$rangeOfString:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dd60 (    0x20) objc_msgSend$setHTTPBody: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dd80 (    0x20) objc_msgSend$setPassword: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dda0 (    0x20) objc_msgSend$setURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72ddc0 (    0x20) objc_msgSend$setUser: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dde0 (    0x20) objc_msgSend$setValue:forHTTPHeaderField: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72de00 (    0x20) objc_msgSend$signatureForText:withKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72de20 (    0x20) objc_msgSend$signatureMethod [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72de40 (    0x20) objc_msgSend$signatureMethodString [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72de60 (    0x20) objc_msgSend$signedURLRequestWithRequest:applicationID:timestamp: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72de80 (    0x20) objc_msgSend$signer [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dea0 (    0x20) objc_msgSend$signingKey [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dec0 (    0x20) objc_msgSend$sortedArrayUsingSelector: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dee0 (    0x20) objc_msgSend$stringByAddingPercentEscapesUsingEncoding: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72df00 (    0x20) objc_msgSend$stringByAppendingFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72df20 (    0x20) objc_msgSend$stringByAppendingString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72df40 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72df60 (    0x20) objc_msgSend$substringToIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72df80 (    0x20) objc_msgSend$timeIntervalSince1970 [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dfa0 (    0x20) objc_msgSend$timestamp: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dfc0 (    0x20) objc_msgSend$user [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000019e72dfe0 (    0x20) objc_msgSend$valueForHTTPHeaderField: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001dd072df0 (   0x540) __DATA_CONST SEGMENT
+            0x00000001dd072df0 (    0x10) __DATA_CONST __got
+            0x00000001dd072e00 (    0x20) __DATA_CONST __objc_classlist
+            0x00000001dd072e20 (     0x8) __DATA_CONST __objc_catlist
+            0x00000001dd072e28 (     0x8) __DATA_CONST __objc_protolist
+                0x00000001dd072e28 (     0x8) _OBJC_LABEL_PROTOCOL_$_OAuthSigner [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001dd072e30 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001dd072e38 (   0x2d0) __DATA_CONST __objc_const
+                0x00000001dd072e38 (    0x48) _OBJC_METACLASS_RO_$_OACredential [NameNList, MangledNameNList, NList] 
+                0x00000001dd072e80 (    0x88) _OBJC_$_INSTANCE_VARIABLES_OACredential [NameNList, MangledNameNList, NList] 
+                0x00000001dd072f08 (    0x48) _OBJC_$_PROP_LIST_OACredential [NameNList, MangledNameNList, NList] 
+                0x00000001dd072f50 (    0x48) _OBJC_METACLASS_RO_$_OAURLRequestSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd072f98 (    0x48) _OBJC_$_INSTANCE_VARIABLES_OAURLRequestSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd072fe0 (    0x18) _OBJC_$_PROP_LIST_OAURLRequestSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd072ff8 (    0x20) _OBJC_$_PROTOCOL_CLASS_METHODS_OAuthSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd073018 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_OAuthSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd073020 (    0x18) _OBJC_CLASS_PROTOCOLS_$_OAHMAC_SHA1Signer [NameNList, MangledNameNList, NList] 
+                0x00000001dd073038 (    0x48) _OBJC_CLASS_RO_$_OAHMAC_SHA1Signer [NameNList, MangledNameNList, NList] 
+                0x00000001dd073080 (    0x20) _OBJC_$_PROTOCOL_CLASS_METHODS_OAuthSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd0730a0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_OAuthSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd0730a8 (    0x18) _OBJC_CLASS_PROTOCOLS_$_OAPlainTextSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd0730c0 (    0x48) _OBJC_CLASS_RO_$_OAPlainTextSigner [NameNList, MangledNameNList, NList] 
+            0x00000001dd073108 (   0x228) __DATA_CONST __objc_selrefs
+        0x00000001dd073330 (   0x720) __AUTH_CONST SEGMENT
+            0x00000001dd073330 (   0x540) __AUTH_CONST __cfstring
+            0x00000001dd073870 (   0x160) __AUTH_CONST __objc_const
+                0x00000001dd073870 (    0x48) _OBJC_CLASS_RO_$_OACredential [NameNList, MangledNameNList, NList] 
+                0x00000001dd0738b8 (    0x48) _OBJC_CLASS_RO_$_OAURLRequestSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd073900 (    0x48) _OBJC_METACLASS_RO_$_OAHMAC_SHA1Signer [NameNList, MangledNameNList, NList] 
+                0x00000001dd073948 (    0x48) _OBJC_METACLASS_RO_$_OAPlainTextSigner [NameNList, MangledNameNList, NList] 
+                0x00000001dd073990 (    0x40) _OBJC_$_CATEGORY_NSString_$_OAURLEncode [NameNList, MangledNameNList, NList] 
+            0x00000001dd0739d0 (    0x80) __AUTH_CONST __auth_got
+        0x00000001d5f922a8 (   0x110) __DATA SEGMENT
+            0x00000001d5f922a8 (    0x48) __DATA __objc_classrefs
+            0x00000001d5f922f0 (    0x10) __DATA __objc_superrefs
+            0x00000001d5f92300 (    0x18) __DATA __objc_ivar
+                0x00000001d5f92300 (     0x4) OBJC_IVAR_$_OACredential._consumerKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92304 (     0x4) OBJC_IVAR_$_OACredential._consumerSecret [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92308 (     0x4) OBJC_IVAR_$_OACredential._oauthToken [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f9230c (     0x4) OBJC_IVAR_$_OACredential._oauthTokenSecret [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92310 (     0x4) OBJC_IVAR_$_OAURLRequestSigner._credential [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92314 (     0x4) OBJC_IVAR_$_OAURLRequestSigner._signatureMethod [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001d5f92318 (    0xa0) __DATA __data
+                0x00000001d5f92318 (     0x8) oauth_version [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92320 (     0x8) OAConsumerKeyKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92328 (     0x8) OASignatureMethodKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92330 (     0x8) OATimestampKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92338 (     0x8) OANonceKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92340 (     0x8) OAVersionKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92348 (     0x8) OAAuthTokenKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92350 (     0x8) OASignatureKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d5f92358 (    0x60) _OBJC_PROTOCOL_$_OAuthSigner [PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001d6efdd28 (   0x140) __DATA_DIRTY SEGMENT
+            0x00000001d6efdd28 (   0x140) __DATA_DIRTY __objc_data
+                0x00000001d6efdd28 (    0x28) OBJC_CLASS_$_OACredential [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efdd50 (    0x28) OBJC_CLASS_$_OAHMAC_SHA1Signer [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efdd78 (    0x28) OBJC_CLASS_$_OAPlainTextSigner [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efdda0 (    0x28) OBJC_CLASS_$_OAURLRequestSigner [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efddc8 (    0x28) OBJC_METACLASS_$_OACredential [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efddf0 (    0x28) OBJC_METACLASS_$_OAHMAC_SHA1Signer [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efde18 (    0x28) OBJC_METACLASS_$_OAPlainTextSigner [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6efde40 (    0x28) OBJC_METACLASS_$_OAURLRequestSigner [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

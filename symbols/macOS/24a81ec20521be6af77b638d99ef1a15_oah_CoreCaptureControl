@@ -1,0 +1,82 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/Library/PrivateFrameworks/CoreCaptureControl.framework/Versions/A/CoreCaptureControl [arm64e, 0.129166 seconds]:
+    674F7F6E-CF40-3090-88C2-A85E1956E816 /System/Library/PrivateFrameworks/CoreCaptureControl.framework/Versions/A/CoreCaptureControl [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c91b8000 (  0x2ffc) __TEXT SEGMENT
+            0x00000001c91b8000 (  0x12e0) MACH_HEADER
+            0x00000001c91b92e0 (  0x1690) __TEXT __text
+                0x00000001c91b92e0 (    0x28) __CoreCaptureControlRegister [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9308 (     0xc) __CoreCaptureControlRelease [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9314 (    0x68) CoreCaptureControlCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b937c (   0x13c) CoreCaptureControlStart [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b94b8 (    0xf4) connect [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b95ac (   0x200) sendXPCRequest [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b97ac (    0xe0) __sendXPCRequest_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b988c (   0x1e0) __connect_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9a6c (   0x13c) CoreCaptureControlStop [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9ba8 (   0x220) CoreCaptureControlCapture [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9dc8 (   0x1c8) CoreCaptureControlCaptureWithComponentDirectory [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91b9f90 (    0x7c) CoreCaptureControlConfigureProfile [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91ba00c (   0x588) CoreCaptureControlConfigureStream [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91ba594 (    0xc0) isValidNumber [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c91ba654 (   0x31c) CoreCaptureControlConfigurePipe [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001c91ba970 (   0x210) __TEXT __auth_stubs
+                0x00000001c91ba970 (    0x10) DYLD-STUB$$CFDataCreateWithBytesNoCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba980 (    0x10) DYLD-STUB$$CFDataGetBytePtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba990 (    0x10) DYLD-STUB$$CFDataGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9a0 (    0x10) DYLD-STUB$$CFDictionaryAddValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9b0 (    0x10) DYLD-STUB$$CFDictionaryCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9c0 (    0x10) DYLD-STUB$$CFNumberCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9d0 (    0x10) DYLD-STUB$$CFPropertyListCreateData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9e0 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91ba9f0 (    0x10) DYLD-STUB$$CFStringCreateArrayBySeparatingStrings [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa00 (    0x10) DYLD-STUB$$CFStringCreateWithBytes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa10 (    0x10) DYLD-STUB$$CFStringCreateWithCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa20 (    0x10) DYLD-STUB$$CFStringGetCStringPtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa30 (    0x10) DYLD-STUB$$_CFRuntimeCreateInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa40 (    0x10) DYLD-STUB$$_CFRuntimeRegisterClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa50 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa60 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa70 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa80 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baa90 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baaa0 (    0x10) DYLD-STUB$$pthread_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baab0 (    0x10) DYLD-STUB$$sleep [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baac0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baad0 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baae0 (    0x10) DYLD-STUB$$strtouq [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91baaf0 (    0x10) DYLD-STUB$$xpc_connection_create_mach_service [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab00 (    0x10) DYLD-STUB$$xpc_connection_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab10 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab20 (    0x10) DYLD-STUB$$xpc_connection_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab30 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab40 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab50 (    0x10) DYLD-STUB$$xpc_dictionary_set_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab60 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c91bab70 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c91bab80 (    0x40) __TEXT __const
+                0x00000001c91bab80 (    0x38) CoreCaptureControlVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001c91babb8 (     0x8) CoreCaptureControlVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001c91babc0 (   0x3ae) __TEXT __cstring
+            0x00000001c91baf70 (    0x8c) __TEXT __unwind_info
+        0x00000001d3b735a8 (    0xf0) __DATA_CONST SEGMENT
+            0x00000001d3b735a8 (    0xb0) __DATA_CONST __got
+            0x00000001d3b73658 (    0x40) __DATA_CONST __const
+                0x00000001d3b73658 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+                0x00000001d3b73678 (    0x20) __block_descriptor_tmp.41 [NameNList, MangledNameNList, NList] 
+        0x00000001df9759f0 (   0x3e8) __AUTH_CONST SEGMENT
+            0x00000001df9759f0 (    0xa0) __AUTH_CONST __const
+                0x00000001df9759f0 (    0x60) __CoreCaptureControlClass [NameNList, MangledNameNList, NList] 
+                0x00000001df975a50 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001df975a70 (    0x20) __block_literal_global.43 [NameNList, MangledNameNList, NList] 
+            0x00000001df975a90 (   0x240) __AUTH_CONST __cfstring
+            0x00000001df975cd0 (   0x108) __AUTH_CONST __auth_got
+        0x00000001d6990110 (    0x19) __DATA SEGMENT
+            0x00000001d6990110 (    0x10) __DATA __data
+                0x00000001d6990110 (    0x10) __gCoreCaptureControlTypeInit [NameNList, MangledNameNList, NList] 
+            0x00000001d6990120 (     0x9) __DATA __bss
+                0x00000001d6990120 (     0x8) __kCoreCaptureControlTypeID [NameNList, MangledNameNList, NList] 
+                0x00000001d6990128 (     0x1) replyResult [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

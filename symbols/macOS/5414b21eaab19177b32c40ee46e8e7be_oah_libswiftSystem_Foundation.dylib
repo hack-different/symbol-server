@@ -1,0 +1,39 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/swift/libswiftSystem_Foundation.dylib [arm64e, 0.196374 seconds]:
+    202EBB50-5543-3F0A-99FD-F5C979C06B53 /usr/lib/swift/libswiftSystem_Foundation.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022160c000 (  0x1000) __TEXT SEGMENT
+            0x000000022160c000 (   0xacc) MACH_HEADER
+            0x000000022160cacc (   0x450) __TEXT __text
+                0x000000022160cacc (   0x190) URL.init(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160cc5c (   0x198) URL.init(_:isDirectory:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160cdf4 (   0x128) FilePath.init(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022160cf1c (    0x90) __TEXT __auth_stubs
+                0x000000022160cf1c (    0x10) DYLD-STUB$$URL.isFileURL.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf2c (    0x10) DYLD-STUB$$URL.init(fileURLWithPath:isDirectory:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf3c (    0x10) DYLD-STUB$$URL.init(fileURLWithPath:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf4c (    0x10) DYLD-STUB$$URL.path.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf5c (    0x10) DYLD-STUB$$type metadata accessor for URL [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf6c (    0x10) DYLD-STUB$$type metadata accessor for FilePath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf7c (    0x10) DYLD-STUB$$FilePath.init(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf8c (    0x10) DYLD-STUB$$String.init(validating:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160cf9c (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022160cfac (     0x2) __TEXT __const
+                0x000000022160cfac (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160cfb0 (    0x50) __TEXT __unwind_info
+        0x000000022e8454b8 (    0x40) __DATA_CONST SEGMENT
+            0x000000022e8454b8 (    0x38) __DATA_CONST __const
+                0x000000022e8454b8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454c0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454c8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454d0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454d8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454e0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8454e8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$__System_Foundation [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e8454f0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000002383203f8 (    0x50) __AUTH_CONST SEGMENT
+            0x00000002383203f8 (     0x8) __AUTH_CONST __auth_ptr
+            0x0000000238320400 (    0x48) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

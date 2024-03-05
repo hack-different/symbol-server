@@ -1,0 +1,182 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/System/iOSSupport/System/Library/AccessibilityBundles/DocumentManagerExecutables.axbundle/Contents/MacOS/DocumentManagerExecutables [arm64e, 0.728603 seconds]:
+    3A966677-1ADF-3618-A2B2-580ED65DFCFB /System/iOSSupport/System/Library/AccessibilityBundles/DocumentManagerExecutables.axbundle/Contents/MacOS/DocumentManagerExecutables [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002231a0000 (  0x3000) __TEXT SEGMENT
+            0x00000002231a0000 (  0x1568) MACH_HEADER
+            0x00000002231a1568 (   0xa50) __TEXT __text
+                0x00000002231a1568 (     0xc) +[DOCChainedTagsViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1574 (     0xc) +[DOCChainedTagsViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1580 (    0x40) +[DOCChainedTagsViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a15c0 (   0x158) -[DOCChainedTagsViewAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1718 (     0xc) +[DOCTagEditorTagCellAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1724 (     0xc) +[DOCTagEditorTagCellAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1730 (    0xb4) +[DOCTagEditorTagCellAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a17e4 (     0x8) -[DOCTagEditorTagCellAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a17ec (    0x74) -[DOCTagEditorTagCellAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1860 (    0x4c) -[DOCTagEditorTagCellAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a18ac (    0x4c) -[DOCTagEditorTagCellAccessibility accessibilityValue] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a18f8 (    0x28) +[AXDocumentManagerExecutablesGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1920 (    0x64) __65+[AXDocumentManagerExecutablesGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1984 (     0x8) __65+[AXDocumentManagerExecutablesGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a198c (    0x54) __65+[AXDocumentManagerExecutablesGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a19e0 (    0x98) __65+[AXDocumentManagerExecutablesGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1a78 (    0xa0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1b18 (     0xc) +[DOCTagEditorTextFieldCellAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1b24 (     0xc) +[DOCTagEditorTextFieldCellAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1b30 (    0x74) +[DOCTagEditorTextFieldCellAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1ba4 (    0x60) -[DOCTagEditorTextFieldCellAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1c04 (    0x74) -[DOCTagEditorTextFieldCellAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1c78 (    0x10) -[DOCTagEditorTextFieldCellAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1c88 (     0xc) +[DOCTagCheckableDotViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1c94 (     0xc) +[DOCTagCheckableDotViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1ca0 (     0x4) +[DOCTagCheckableDotViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1ca4 (     0x8) -[DOCTagCheckableDotViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1cac (     0x4) -[DOCTagCheckableDotViewAccessibility accessibilityPath] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1cb0 (   0x128) -[DOCTagCheckableDotViewAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1dd8 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000002231a1df4 (    0x4c) -[DOCTagCheckableDotViewAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1e40 (     0xc) +[DOCAddTagViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1e4c (     0xc) +[DOCAddTagViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1e58 (    0x88) +[DOCAddTagViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1ee0 (    0x54) -[DOCAddTagViewAccessibility initWithFrame:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a1f34 (    0x84) -[DOCAddTagViewAccessibility _accessibilityLoadAccessibilityInformation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231a1fb8 (   0x120) __TEXT __auth_stubs
+                0x00000002231a1fb8 (    0x10) DYLD-STUB$$AXColorStringForColor [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a1fc8 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a1fd8 (    0x10) DYLD-STUB$$__UIAXStringForVariables [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a1fe8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a1ff8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2008 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2018 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2028 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2038 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2048 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2058 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2068 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2078 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2088 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a2098 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a20a8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a20b8 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a20c8 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231a20d8 (   0x1e0) __TEXT __objc_methlist
+                0x00000002231a20d8 (    0x30) _OBJC_$_CLASS_METHODS_DOCChainedTagsViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2108 (    0x18) _OBJC_$_INSTANCE_METHODS_DOCChainedTagsViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2120 (    0x30) _OBJC_$_CLASS_METHODS_DOCTagEditorTagCellAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2150 (    0x38) _OBJC_$_INSTANCE_METHODS_DOCTagEditorTagCellAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2188 (    0x18) _OBJC_$_CLASS_METHODS_AXDocumentManagerExecutablesGlue [NameNList, MangledNameNList, NList] 
+                0x00000002231a21a0 (    0x30) _OBJC_$_CLASS_METHODS_DOCTagEditorTextFieldCellAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a21d0 (    0x30) _OBJC_$_INSTANCE_METHODS_DOCTagEditorTextFieldCellAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2200 (    0x30) _OBJC_$_CLASS_METHODS_DOCTagCheckableDotViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2230 (    0x38) _OBJC_$_INSTANCE_METHODS_DOCTagCheckableDotViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2268 (    0x30) _OBJC_$_CLASS_METHODS_DOCAddTagViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a2298 (    0x20) _OBJC_$_INSTANCE_METHODS_DOCAddTagViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x00000002231a22b8 (   0x2ec) __TEXT __cstring
+            0x00000002231a25a4 (    0xb8) __TEXT __unwind_info
+            0x00000002231a265c (   0x1a4) __TEXT __objc_classname
+            0x00000002231a2800 (   0x403) __TEXT __objc_methname
+            0x00000002231a2c03 (    0x5d) __TEXT __objc_methtype
+            0x00000002231a2c60 (   0x3a0) __TEXT __objc_stubs
+                0x00000002231a2c60 (    0x20) objc_msgSend$_accessibilityCirclePathBasedOnBoundsWidth [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2c80 (    0x20) objc_msgSend$_accessibilityLoadAccessibilityInformation [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2ca0 (    0x20) objc_msgSend$_accessibilityViewIsVisible [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2cc0 (    0x20) objc_msgSend$accessibilityLabel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2ce0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2d00 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2d20 (    0x20) objc_msgSend$displayName [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2d40 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2d60 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2d80 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2da0 (    0x20) objc_msgSend$safeArrayForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2dc0 (    0x20) objc_msgSend$safeBoolForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2de0 (    0x20) objc_msgSend$safeIntegerForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2e00 (    0x20) objc_msgSend$safeUIViewForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2e20 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2e40 (    0x20) objc_msgSend$setAccessibilityLabel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2e60 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2e80 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2ea0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2ec0 (    0x20) objc_msgSend$systemBlueColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2ee0 (    0x20) objc_msgSend$systemGrayColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2f00 (    0x20) objc_msgSend$systemGreenColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2f20 (    0x20) objc_msgSend$systemOrangeColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2f40 (    0x20) objc_msgSend$systemPurpleColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2f60 (    0x20) objc_msgSend$systemRedColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2f80 (    0x20) objc_msgSend$systemYellowColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2fa0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2fc0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a2fe0 (    0x20) objc_msgSend$validateClass:isKindOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383ffe38 (   0x520) __DATA_CONST SEGMENT
+            0x00000002383ffe38 (    0x18) __DATA_CONST __got
+            0x00000002383ffe50 (    0x60) __DATA_CONST __const
+                0x00000002383ffe50 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383ffe70 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383ffe90 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383ffeb0 (    0x58) __DATA_CONST __objc_classlist
+            0x00000002383fff08 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383fff10 (   0x318) __DATA_CONST __objc_const
+                0x00000002383fff10 (    0x48) _OBJC_METACLASS_RO_$___DOCChainedTagsViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383fff58 (    0x48) _OBJC_CLASS_RO_$___DOCChainedTagsViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383fffa0 (    0x48) _OBJC_METACLASS_RO_$___DOCTagEditorTagCellAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383fffe8 (    0x48) _OBJC_CLASS_RO_$___DOCTagEditorTagCellAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400030 (    0x48) _OBJC_CLASS_RO_$_AXDocumentManagerExecutablesGlue [NameNList, MangledNameNList, NList] 
+                0x0000000238400078 (    0x48) _OBJC_METACLASS_RO_$___DOCTagEditorTextFieldCellAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384000c0 (    0x48) _OBJC_CLASS_RO_$___DOCTagEditorTextFieldCellAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400108 (    0x48) _OBJC_METACLASS_RO_$___DOCTagCheckableDotViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400150 (    0x48) _OBJC_CLASS_RO_$___DOCTagCheckableDotViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400198 (    0x48) _OBJC_METACLASS_RO_$___DOCAddTagViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384001e0 (    0x48) _OBJC_CLASS_RO_$___DOCAddTagViewAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x0000000238400228 (   0x130) __DATA_CONST __objc_selrefs
+        0x0000000238400358 (   0x810) __AUTH_CONST SEGMENT
+            0x0000000238400358 (   0x318) __AUTH_CONST __objc_const
+                0x0000000238400358 (    0x48) _OBJC_METACLASS_RO_$_DOCChainedTagsViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384003a0 (    0x48) _OBJC_CLASS_RO_$_DOCChainedTagsViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384003e8 (    0x48) _OBJC_METACLASS_RO_$_DOCTagEditorTagCellAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400430 (    0x48) _OBJC_CLASS_RO_$_DOCTagEditorTagCellAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400478 (    0x48) _OBJC_METACLASS_RO_$_AXDocumentManagerExecutablesGlue [NameNList, MangledNameNList, NList] 
+                0x00000002384004c0 (    0x48) _OBJC_METACLASS_RO_$_DOCTagEditorTextFieldCellAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400508 (    0x48) _OBJC_CLASS_RO_$_DOCTagEditorTextFieldCellAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400550 (    0x48) _OBJC_METACLASS_RO_$_DOCTagCheckableDotViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400598 (    0x48) _OBJC_CLASS_RO_$_DOCTagCheckableDotViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384005e0 (    0x48) _OBJC_METACLASS_RO_$_DOCAddTagViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238400628 (    0x48) _OBJC_CLASS_RO_$_DOCAddTagViewAccessibility [NameNList, MangledNameNList, NList] 
+            0x0000000238400670 (   0x3e0) __AUTH_CONST __cfstring
+            0x0000000238400a50 (    0x80) __AUTH_CONST __const
+                0x0000000238400a50 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238400a70 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x0000000238400a90 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x0000000238400ab0 (    0x20) __block_literal_global.225 [NameNList, MangledNameNList, NList] 
+            0x0000000238400ad0 (    0x98) __AUTH_CONST __auth_got
+        0x0000000233626e30 (   0x370) __AUTH SEGMENT
+            0x0000000233626e30 (   0x370) __AUTH __objc_data
+                0x0000000233626e30 (    0x28) OBJC_METACLASS_$___DOCChainedTagsViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626e58 (    0x28) OBJC_CLASS_$___DOCChainedTagsViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626e80 (    0x28) OBJC_CLASS_$_DOCChainedTagsViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626ea8 (    0x28) OBJC_METACLASS_$_DOCChainedTagsViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626ed0 (    0x28) OBJC_METACLASS_$___DOCTagEditorTagCellAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626ef8 (    0x28) OBJC_CLASS_$___DOCTagEditorTagCellAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626f20 (    0x28) OBJC_CLASS_$_DOCTagEditorTagCellAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626f48 (    0x28) OBJC_METACLASS_$_DOCTagEditorTagCellAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626f70 (    0x28) OBJC_CLASS_$_AXDocumentManagerExecutablesGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626f98 (    0x28) OBJC_METACLASS_$_AXDocumentManagerExecutablesGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626fc0 (    0x28) OBJC_METACLASS_$___DOCTagEditorTextFieldCellAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626fe8 (    0x28) OBJC_CLASS_$___DOCTagEditorTextFieldCellAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627010 (    0x28) OBJC_CLASS_$_DOCTagEditorTextFieldCellAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627038 (    0x28) OBJC_METACLASS_$_DOCTagEditorTextFieldCellAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627060 (    0x28) OBJC_METACLASS_$___DOCTagCheckableDotViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627088 (    0x28) OBJC_CLASS_$___DOCTagCheckableDotViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336270b0 (    0x28) OBJC_CLASS_$_DOCTagCheckableDotViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336270d8 (    0x28) OBJC_METACLASS_$_DOCTagCheckableDotViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627100 (    0x28) OBJC_METACLASS_$___DOCAddTagViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627128 (    0x28) OBJC_CLASS_$___DOCAddTagViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627150 (    0x28) OBJC_CLASS_$_DOCAddTagViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627178 (    0x28) OBJC_METACLASS_$_DOCAddTagViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba9990 (    0x38) __DATA SEGMENT
+            0x0000000231ba9990 (    0x28) __DATA __objc_classrefs
+            0x0000000231ba99b8 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba99c0 (     0x8) __DATA __bss
+                0x0000000231ba99c0 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,71 @@
+Unable to find file, pid, task or signature matching: -arch=x86_64
+WARNING: You currently do not have task_read_for_pid() privileges.
+Unable to find file, pid, task or signature matching: -wide
+WARNING: You currently do not have task_read_for_pid() privileges.
+/usr/lib/libodfde.dylib [arm64e, 0.697961 seconds]:
+    3E3FEBD6-0093-3581-B597-16CA92544738 /usr/lib/libodfde.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018ea19000 (  0x4000) __TEXT SEGMENT
+            0x000000018ea19000 (  0x3558) MACH_HEADER
+            0x000000018ea1c558 (   0x6e8) __TEXT __text
+                0x000000018ea1c558 (    0xe0) ODFDEAddUser [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1c638 (    0x90) fde_is_enabled [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1c6c8 (    0xb8) _xpc_dictionary_set_cfstring [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1c780 (   0x130) send_request [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1c8b0 (   0x148) ODFDEResetPassword [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1c9f8 (    0x90) ODFDESynchronizeUsersOnVolume [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1ca88 (     0x8) ODFDESynchronizeUsers [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1ca90 (    0x54) __fde_is_enabled_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1cae4 (    0x7c) __send_request_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1cb60 (    0xc4) __send_request_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1cc24 (    0x10) __copy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ea1cc34 (     0xc) __destroy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018ea1cc40 (   0x1d0) __TEXT __auth_stubs
+                0x000000018ea1cc40 (    0x10) DYLD-STUB$$AuthorizationMakeExternalForm [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cc50 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cc60 (    0x10) DYLD-STUB$$CFStringGetCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cc70 (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cc80 (    0x10) DYLD-STUB$$CFStringGetMaximumSizeForEncoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cc90 (    0x10) DYLD-STUB$$CoreStorageCopyFamilyUUIDForMount [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cca0 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ccb0 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ccc0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ccd0 (    0x10) DYLD-STUB$$asl_log [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cce0 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ccf0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd00 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd10 (    0x10) DYLD-STUB$$dispatch_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd20 (    0x10) DYLD-STUB$$dispatch_semaphore_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd30 (    0x10) DYLD-STUB$$dispatch_semaphore_signal [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd40 (    0x10) DYLD-STUB$$dispatch_semaphore_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd50 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd60 (    0x10) DYLD-STUB$$xpc_connection_create_mach_service [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd70 (    0x10) DYLD-STUB$$xpc_connection_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd80 (    0x10) DYLD-STUB$$xpc_connection_send_message_with_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cd90 (    0x10) DYLD-STUB$$xpc_connection_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cda0 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cdb0 (    0x10) DYLD-STUB$$xpc_dictionary_get_bool [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cdc0 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cdd0 (    0x10) DYLD-STUB$$xpc_dictionary_set_data [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cde0 (    0x10) DYLD-STUB$$xpc_dictionary_set_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1cdf0 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ce00 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018ea1ce10 (    0x50) __TEXT __const
+                0x000000018ea1ce10 (    0x30) __odfdeVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000018ea1ce40 (    0x20) __odfdeVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000018ea1ce60 (   0x12f) __TEXT __cstring
+            0x000000018ea1cf90 (    0x70) __TEXT __unwind_info
+        0x00000001d3ac6538 (    0x68) __DATA_CONST SEGMENT
+            0x00000001d3ac6538 (    0x28) __DATA_CONST __got
+            0x00000001d3ac6560 (    0x40) __DATA_CONST __const
+                0x00000001d3ac6560 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+                0x00000001d3ac6580 (    0x20) __block_descriptor_tmp.18 [NameNList, MangledNameNList, NList] 
+        0x00000001dbbb4210 (   0x138) __AUTH_CONST SEGMENT
+            0x00000001dbbb4210 (    0x50) __AUTH_CONST __const
+                0x00000001dbbb4210 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001dbbb4230 (    0x30) __block_descriptor_tmp.24 [NameNList, MangledNameNList, NList] 
+            0x00000001dbbb4260 (    0xe8) __AUTH_CONST __auth_got
+        0x00000001d5da6450 (     0x9) __DATA SEGMENT
+            0x00000001d5da6450 (     0x9) __DATA __bss
+                0x00000001d5da6450 (     0x8) fde_is_enabled.once [NameNList, MangledNameNList, NList] 
+                0x00000001d5da6458 (     0x1) fde_is_enabled.enabled [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT
