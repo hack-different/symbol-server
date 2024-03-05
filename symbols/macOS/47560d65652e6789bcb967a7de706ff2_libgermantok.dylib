@@ -1,0 +1,54 @@
+/usr/lib/libgermantok.dylib [arm64e, 0.036514 seconds]:
+    4B5851BB-467B-3210-BBF1-E070A481BBFF /usr/lib/libgermantok.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018c2a2000 (  0x2ffc) __TEXT SEGMENT
+            0x000000018c2a2000 (  0x129c) MACH_HEADER
+            0x000000018c2a329c (  0x1aa4) __TEXT __text
+                0x000000018c2a329c (   0xda8) germantok_tokenize [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c2a4044 (   0x1f8) __gt_getWordData [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c2a423c (   0x208) __gt_findSubstrings [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c2a4444 (   0x278) __btrie_find_common_prefix [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c2a46bc (   0x668) __gt_tokenizeHelper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c2a4d24 (    0x1c) __gt_compareParseScoresDescending [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018c2a4d40 (   0x190) __TEXT __auth_stubs
+                0x000000018c2a4d40 (    0x10) DYLD-STUB$$CFStringAppendCharacters [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4d50 (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4d60 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4d70 (    0x10) DYLD-STUB$$__strlcat_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4d80 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4d90 (    0x10) DYLD-STUB$$__strncpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4da0 (    0x10) DYLD-STUB$$close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4db0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4dc0 (    0x10) DYLD-STUB$$fstat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4dd0 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4de0 (    0x10) DYLD-STUB$$log [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4df0 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e00 (    0x10) DYLD-STUB$$memcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e10 (    0x10) DYLD-STUB$$mmap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e20 (    0x10) DYLD-STUB$$open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e30 (    0x10) DYLD-STUB$$pow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e40 (    0x10) DYLD-STUB$$pthread_mutex_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e50 (    0x10) DYLD-STUB$$pthread_mutex_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e60 (    0x10) DYLD-STUB$$qsort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e70 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e80 (    0x10) DYLD-STUB$$u_memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4e90 (    0x10) DYLD-STUB$$u_strFromUTF8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4ea0 (    0x10) DYLD-STUB$$u_strToLower [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4eb0 (    0x10) DYLD-STUB$$u_strToUTF8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4ec0 (    0x10) DYLD-STUB$$u_strToUpper [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018c2a4ed0 (    0x7b) __TEXT __const
+                0x000000018c2a4ed0 (    0x38) germantokVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4f08 (    0x33) germantokVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000018c2a4f3b (    0x10) __gt_utf8ByteLength.utf8_len_table [NameNList, MangledNameNList, NList] 
+            0x000000018c2a4f4b (    0x4f) __TEXT __cstring
+            0x000000018c2a4f9c (    0x60) __TEXT __unwind_info
+        0x00000001d3ab1ce0 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3ab1ce0 (     0x8) __DATA_CONST __got
+        0x00000001db980290 (    0xd0) __AUTH_CONST SEGMENT
+            0x00000001db980290 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000001db980298 (    0xc8) __AUTH_CONST __auth_got
+        0x00000001d5d32070 (    0x48) __DATA SEGMENT
+            0x00000001d5d32070 (    0x40) __DATA __data
+                0x00000001d5d32070 (    0x40) __gt_mutex [NameNList, MangledNameNList, NList] 
+            0x00000001d5d320b0 (     0x8) __DATA __bss
+                0x00000001d5d320b0 (     0x8) __gt_germanTokenizerInitializeTrie._gt_refContext [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

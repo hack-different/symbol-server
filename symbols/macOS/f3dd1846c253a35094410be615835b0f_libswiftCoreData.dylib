@@ -1,0 +1,7 @@
+/usr/lib/swift/libswiftCoreData.dylib [arm64e, 0.143164 seconds]:
+    784F8C07-3A45-340D-AFD4-CDA8DA89C4E6 /usr/lib/swift/libswiftCoreData.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001aaf53000 (  0x1000) __TEXT SEGMENT
+            0x00000001aaf53000 (  0x1000) MACH_HEADER
+        0x00000001d3b4da48 (     0x8) __DATA_CONST SEGMENT
+            0x00000001d3b4da48 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,54 @@
+/usr/lib/libsbuf.dylib [arm64e, 0.661036 seconds]:
+    C6CD6D26-9EFD-3C78-B267-C0B1EB66F9C4 /usr/lib/libsbuf.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221260000 (  0x4000) __TEXT SEGMENT
+            0x0000000221260000 (  0x31b8) MACH_HEADER
+            0x00000002212631b8 (   0xcec) __TEXT __text
+                0x00000002212631b8 (   0x1c4) usbuf_hexdump [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022126337c (    0x30) usbuf_putbuf [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212633ac (    0x5c) usbuf_printf_drain [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263408 (    0xf8) usbuf_new [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263500 (     0x8) usbuf_get_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263508 (    0x18) usbuf_clear_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263520 (    0x14) usbuf_set_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263534 (    0x1c) usbuf_clear [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263550 (    0x28) usbuf_setpos [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263578 (    0x14) usbuf_count_drain [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022126358c (     0x8) usbuf_set_drain [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263594 (    0xf0) usbuf_drain [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263684 (    0x30) usbuf_bcat [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212636b4 (    0xf4) sbuf_put_bytes [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212637a8 (    0x48) usbuf_bcpy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212637f0 (    0x48) usbuf_cat [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263838 (    0x60) usbuf_cpy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263898 (   0x118) usbuf_vprintf [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212639b0 (    0xb4) sbuf_extend [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263a64 (    0x2c) usbuf_printf [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263a90 (    0x34) usbuf_putc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263ac4 (    0xa8) sbuf_put_byte [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263b6c (    0x60) usbuf_nl_terminate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263bcc (    0xa4) usbuf_trim [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263c70 (     0x8) usbuf_error [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263c78 (    0x9c) usbuf_finish [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263d14 (     0x8) usbuf_data [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263d1c (    0x28) usbuf_len [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263d44 (    0x68) usbuf_delete [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263dac (     0xc) usbuf_done [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263db8 (    0x38) usbuf_start_section [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221263df0 (    0xb4) usbuf_end_section [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000221263ea4 (    0x90) __TEXT __auth_stubs
+                0x0000000221263ea4 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263eb4 (    0x10) DYLD-STUB$$__maskrune [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263ec4 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263ed4 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263ee4 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263ef4 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263f04 (    0x10) DYLD-STUB$$printf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263f14 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221263f24 (    0x10) DYLD-STUB$$vsnprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000221263f34 (    0x29) __TEXT __cstring
+            0x0000000221263f60 (    0xa0) __TEXT __unwind_info
+        0x000000022e825d30 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e825d30 (     0x8) __DATA_CONST __got
+        0x00000002382f4000 (    0x48) __AUTH_CONST SEGMENT
+            0x00000002382f4000 (    0x48) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

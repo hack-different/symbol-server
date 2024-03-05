@@ -1,0 +1,35 @@
+/System/Library/Frameworks/CoreMedia.framework/Versions/A/Resources/BridgeSupport/CoreMedia.dylib [arm64e, 0.307199 seconds]:
+    09CDAAD1-24EC-3342-A930-48427F17CE75 /System/Library/Frameworks/CoreMedia.framework/Versions/A/Resources/BridgeSupport/CoreMedia.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001ed415000 (  0x4000) __TEXT SEGMENT
+            0x00000001ed415000 (  0x3e60) MACH_HEADER
+            0x00000001ed418e60 (    0xbc) __TEXT __text
+                0x00000001ed418e60 (     0xc) CMTagIsValid [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418e6c (     0x4) CMTagGetCategory [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418e70 (     0xc) CMTagCategoryEqualToTagCategory [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418e7c (     0x8) CMTagGetValue [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418e84 (     0xc) CMTagHasCategory [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418e90 (    0x6c) CMTagCategoryValueEqualToValue [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418efc (     0x4) CMTimebaseCreateWithMasterClock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f00 (     0x4) CMTimebaseCreateWithMasterTimebase [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f04 (     0x4) CMTimebaseCopyMasterTimebase [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f08 (     0x4) CMTimebaseCopyMasterClock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f0c (     0x4) CMTimebaseCopyMaster [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f10 (     0x4) CMTimebaseCopyUltimateMasterClock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f14 (     0x4) CMTimebaseSetMasterClock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ed418f18 (     0x4) CMTimebaseSetMasterTimebase [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001ed418f1c (    0x90) __TEXT __auth_stubs
+                0x00000001ed418f1c (    0x10) DYLD-STUB$$CMTagGetValueDataType [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f2c (    0x10) DYLD-STUB$$CMTimebaseCopySource [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f3c (    0x10) DYLD-STUB$$CMTimebaseCopySourceClock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f4c (    0x10) DYLD-STUB$$CMTimebaseCopySourceTimebase [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f5c (    0x10) DYLD-STUB$$CMTimebaseCopyUltimateSourceClock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f6c (    0x10) DYLD-STUB$$CMTimebaseCreateWithSourceClock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f7c (    0x10) DYLD-STUB$$CMTimebaseCreateWithSourceTimebase [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f8c (    0x10) DYLD-STUB$$CMTimebaseSetSourceClock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001ed418f9c (    0x10) DYLD-STUB$$CMTimebaseSetSourceTimebase [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001ed418fac (    0x54) __TEXT __unwind_info
+        0x000000022e0ed750 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e0ed750 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000002366b85d8 (    0x48) __AUTH_CONST SEGMENT
+            0x00000002366b85d8 (    0x48) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,8 @@
+/usr/lib/system/libunc.dylib [arm64e, 0.033579 seconds]:
+    7314CC46-B18F-3AB2-AA66-94A12CDC8844 /usr/lib/system/libunc.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221991000 (  0x4000) __TEXT SEGMENT
+            0x0000000221991000 (  0x3fc8) MACH_HEADER
+            0x0000000221994fc8 (    0x38) __TEXT __const
+                0x0000000221994fc8 (    0x30) uncVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000221994ff8 (     0x8) uncVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

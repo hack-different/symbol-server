@@ -1,0 +1,8 @@
+/usr/lib/libSpatial.dylib [arm64e, 0.077759 seconds]:
+    EFE430D7-29E1-3205-8EEA-608D69E1EFF9 /usr/lib/libSpatial.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002202de000 (  0x1000) __TEXT SEGMENT
+            0x00000002202de000 (   0xfd0) MACH_HEADER
+            0x00000002202defd0 (    0x30) __TEXT __const
+                0x00000002202defd0 (    0x28) SpatialVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002202deff8 (     0x8) SpatialVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

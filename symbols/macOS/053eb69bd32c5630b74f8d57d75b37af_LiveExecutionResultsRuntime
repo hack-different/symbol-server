@@ -1,0 +1,18 @@
+/System/Library/PrivateFrameworks/LiveExecutionResultsRuntime.framework/Versions/A/LiveExecutionResultsRuntime [arm64e, 0.031248 seconds]:
+    6E1431AF-20F1-3BD4-8AD2-2F1CD6E6A8BE /System/Library/PrivateFrameworks/LiveExecutionResultsRuntime.framework/Versions/A/LiveExecutionResultsRuntime [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002061e7000 (   0xffc) __TEXT SEGMENT
+            0x00000002061e7000 (   0xf40) MACH_HEADER
+            0x00000002061e7f40 (    0x18) __TEXT __text
+                0x00000002061e7f40 (    0x18) (null) [FUNC, FunctionStarts] 
+            0x00000002061e7f58 (    0x5a) __TEXT __const
+                0x00000002061e7f58 (    0x50) LiveExecutionResultsRuntimeVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002061e7fa8 (     0x8) LiveExecutionResultsRuntimeVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002061e7fb0 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002061e7fb4 (    0x48) __TEXT __unwind_info
+        0x000000022e7c1550 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7c1550 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000002311ed6e0 (    0x10) __DATA SEGMENT
+            0x00000002311ed6e0 (    0x10) __DATA __common
+                0x00000002311ed6e0 (     0x8) _ler_send_log_data [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002311ed6e8 (     0x8) _playground_logger_should_capture [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,16 @@
+/System/Library/PrivateFrameworks/CoreUtilsExtras.framework/Versions/A/CoreUtilsExtras [arm64e, 0.024346 seconds]:
+    45F04876-98F2-3AE4-B97A-1F76AC96273D /System/Library/PrivateFrameworks/CoreUtilsExtras.framework/Versions/A/CoreUtilsExtras [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fa146000 ( 0x1e000) __TEXT SEGMENT
+            0x00000001fa146000 (   0xe38) MACH_HEADER
+            0x00000001fa146e38 (    0x18) __TEXT __text
+                0x00000001fa146e38 (     0xc) CUErrorDomainTableGet [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa146e44 (     0xc) CUErrorCodesTableGet [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fa146e50 (    0x10) __TEXT __const
+                0x00000001fa146e50 (    0x10) CUErrorDomainTable [NameNList, MangledNameNList, NList] 
+            0x00000001fa146e60 ( 0x1d158) __TEXT __cstring
+            0x00000001fa163fb8 (    0x48) __TEXT __unwind_info
+        0x000000022e11ea20 (  0xfec8) __DATA_CONST SEGMENT
+            0x000000022e11ea20 (  0xfec0) __DATA_CONST __const
+                0x000000022e11ea20 (  0xfec0) CUErrorCodeTable [NameNList, MangledNameNList, NList] 
+            0x000000022e12e8e0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

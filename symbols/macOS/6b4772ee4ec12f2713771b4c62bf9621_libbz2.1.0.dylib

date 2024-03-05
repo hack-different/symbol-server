@@ -1,0 +1,82 @@
+/usr/lib/libbz2.1.0.dylib [arm64e, 0.253700 seconds]:
+    8C88A545-D78B-3D34-99A1-A1435DDA624C /usr/lib/libbz2.1.0.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018c906000 (  0xcffc) __TEXT SEGMENT
+            0x000000018c906000 (  0x140c) MACH_HEADER
+            0x000000018c90740c (  0xaba4) __TEXT __text
+                0x000000018c90740c (   0x110) BZ2_bzBuffToBuffDecompress [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90751c (    0xd8) BZ2_bzDecompressInit [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c9075f4 (   0xe2c) BZ2_bzDecompress [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c908420 (    0x84) BZ2_bzDecompressEnd [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c9084a4 (   0x108) BZ2_bzBuffToBuffCompress [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c9085ac (   0x1e4) BZ2_bzCompressInit [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c908790 (   0x18c) BZ2_bzCompress [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90891c (    0x84) BZ2_bzCompressEnd [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c9089a0 (   0x538) (null) [FUNC, FunctionStarts] 
+                0x000000018c908ed8 (   0xee4) (null) [FUNC, FunctionStarts] 
+                0x000000018c909dbc (   0x400) (null) [FUNC, FunctionStarts] 
+                0x000000018c90a1bc (    0x60) (null) [FUNC, FunctionStarts] 
+                0x000000018c90a21c (   0x8e8) (null) [FUNC, FunctionStarts] 
+                0x000000018c90ab04 (   0x2ac) (null) [FUNC, FunctionStarts] 
+                0x000000018c90adb0 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x000000018c90ae14 (     0xc) BZ2_bzlibVersion [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90ae20 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x000000018c90ae2c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000018c90ae3c (   0x410) (null) [FUNC, FunctionStarts] 
+                0x000000018c90b24c (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000018c90b280 (   0x140) BZ2_bzWriteOpen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b3c0 (   0x148) BZ2_bzWrite [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b508 (    0x10) BZ2_bzWriteClose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b518 (   0x20c) BZ2_bzWriteClose64 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b724 (   0x184) BZ2_bzReadOpen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b8a8 (    0x98) BZ2_bzReadClose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90b940 (   0x1c8) BZ2_bzRead [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90bb08 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000018c90bb48 (    0x74) BZ2_bzReadGetUnused [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90bbbc (    0x10) BZ2_bzopen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90bbcc (   0x230) (null) [FUNC, FunctionStarts] 
+                0x000000018c90bdfc (    0x14) BZ2_bzdopen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90be10 (    0x50) BZ2_bzread [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90be60 (    0x4c) BZ2_bzwrite [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90beac (     0x8) BZ2_bzflush [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90beb4 (    0xc4) BZ2_bzclose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90bf78 (    0x24) BZ2_bzerror [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c90bf9c (   0x14c) (null) [FUNC, FunctionStarts] 
+                0x000000018c90c0e8 (    0x70) (null) [FUNC, FunctionStarts] 
+                0x000000018c90c158 (   0x194) (null) [FUNC, FunctionStarts] 
+                0x000000018c90c2ec (  0x2d64) (null) [FUNC, FunctionStarts] 
+                0x000000018c90f050 (  0x2c14) (null) [FUNC, FunctionStarts] 
+                0x000000018c911c64 (    0xa4) (null) [FUNC, FunctionStarts] 
+                0x000000018c911d08 (   0x168) (null) [FUNC, FunctionStarts] 
+                0x000000018c911e70 (   0x140) (null) [FUNC, FunctionStarts] 
+            0x000000018c911fb0 (   0x130) __TEXT __auth_stubs
+                0x000000018c911fb0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c911fc0 (    0x10) DYLD-STUB$$__strlcat_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c911fd0 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c911fe0 (    0x10) DYLD-STUB$$exit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c911ff0 (    0x10) DYLD-STUB$$fclose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912000 (    0x10) DYLD-STUB$$fdopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912010 (    0x10) DYLD-STUB$$ferror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912020 (    0x10) DYLD-STUB$$fflush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912030 (    0x10) DYLD-STUB$$fgetc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912040 (    0x10) DYLD-STUB$$fopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912050 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912060 (    0x10) DYLD-STUB$$fputc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912070 (    0x10) DYLD-STUB$$fread [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912080 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c912090 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c9120a0 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c9120b0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c9120c0 (    0x10) DYLD-STUB$$memset [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c9120d0 (    0x10) DYLD-STUB$$ungetc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018c9120e0 (   0x4e0) __TEXT __const
+            0x000000018c9125c0 (   0x94b) __TEXT __cstring
+            0x000000018c912f0c (    0xf0) __TEXT __unwind_info
+        0x00000001d3ab22e0 (    0xa0) __DATA_CONST SEGMENT
+            0x00000001d3ab22e0 (    0x20) __DATA_CONST __got
+            0x00000001d3ab2300 (    0x80) __DATA_CONST __const
+        0x00000001dbaa50a0 (    0xb0) __AUTH_CONST SEGMENT
+            0x00000001dbaa50a0 (    0x18) __AUTH_CONST __auth_ptr
+            0x00000001dbaa50b8 (    0x98) __AUTH_CONST __auth_got
+        0x00000001d5d39bc8 (   0x800) __DATA SEGMENT
+            0x00000001d5d39bc8 (   0x800) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

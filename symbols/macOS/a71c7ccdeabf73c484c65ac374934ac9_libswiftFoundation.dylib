@@ -1,0 +1,8 @@
+/usr/lib/swift/libswiftFoundation.dylib [arm64e, 0.488686 seconds]:
+    46FE889A-E4AC-3960-9E71-09CBC68BFFF8 /usr/lib/swift/libswiftFoundation.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000194a0c000 (  0x1000) __TEXT SEGMENT
+            0x0000000194a0c000 (   0xfb0) MACH_HEADER
+            0x0000000194a0cfb0 (    0x50) __TEXT __const
+                0x0000000194a0cfb0 (    0x48) FoundationVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000194a0cff8 (     0x8) FoundationVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

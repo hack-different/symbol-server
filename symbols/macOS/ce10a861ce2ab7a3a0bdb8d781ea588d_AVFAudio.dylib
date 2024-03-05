@@ -1,0 +1,14 @@
+/System/Library/Frameworks/AVFAudio.framework/Versions/A/Resources/BridgeSupport/AVFAudio.dylib [arm64e, 0.025341 seconds]:
+    92A88681-3FEA-3659-B26C-A80999423880 /System/Library/Frameworks/AVFAudio.framework/Versions/A/Resources/BridgeSupport/AVFAudio.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001ec948000 (  0x4000) __TEXT SEGMENT
+            0x00000001ec948000 (  0x3f8c) MACH_HEADER
+            0x00000001ec94bf8c (    0x2c) __TEXT __text
+                0x00000001ec94bf8c (     0x4) AVAudioMake3DPoint [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ec94bf90 (     0x4) AVAudioMake3DVector [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ec94bf94 (    0x1c) AVAudioMake3DVectorOrientation [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ec94bfb0 (     0x4) AVAudioMake3DAngularOrientation [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001ec94bfb4 (     0x4) AVMakeBeatRange [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001ec94bfb8 (    0x48) __TEXT __unwind_info
+        0x000000022e0ed5b8 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e0ed5b8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

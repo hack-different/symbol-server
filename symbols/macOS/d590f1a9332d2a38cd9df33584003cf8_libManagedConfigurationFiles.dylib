@@ -1,0 +1,19 @@
+/usr/lib/libManagedConfigurationFiles.dylib [arm64e, 0.024493 seconds]:
+    B6E14F46-E5EF-3F37-9537-538C454AE0A6 /usr/lib/libManagedConfigurationFiles.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000220198000 (  0x4000) __TEXT SEGMENT
+            0x0000000220198000 (  0x3e28) MACH_HEADER
+            0x000000022019be28 (    0xc8) __TEXT __text
+                0x000000022019be28 (    0xc8) mcf_service_path_for_service_type [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022019bef0 (    0x40) __TEXT __auth_stubs
+                0x000000022019bef0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022019bf00 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022019bf10 (    0x10) DYLD-STUB$$stat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022019bf20 (    0x10) DYLD-STUB$$strchr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022019bf30 (    0x58) __TEXT __const
+                0x000000022019bf30 (    0x50) libManagedConfigurationFilesVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022019bf80 (     0x8) libManagedConfigurationFilesVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022019bf88 (    0x30) __TEXT __cstring
+            0x000000022019bfb8 (    0x48) __TEXT __unwind_info
+        0x0000000238256410 (    0x20) __AUTH_CONST SEGMENT
+            0x0000000238256410 (    0x20) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

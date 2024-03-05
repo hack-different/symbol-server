@@ -1,0 +1,113 @@
+/usr/lib/swift/libswiftSpriteKit.dylib [arm64e, 0.128716 seconds]:
+    C0D01549-C384-3DB7-89D8-6529F605B399 /usr/lib/swift/libswiftSpriteKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002215ed000 (  0x4000) __TEXT SEGMENT
+            0x00000002215ed000 (  0x375c) MACH_HEADER
+            0x00000002215f075c (   0x4a4) __TEXT __text
+                0x00000002215f075c (   0x118) copyImageData(_:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0874 (     0x8) SKShapeNode.customPlaygroundQuickLook.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f087c (     0x8) protocol witness for _CustomPlaygroundQuickLookable.customPlaygroundQuickLook.getter in conformance SKShapeNode [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0884 (    0x40) type metadata accessor for NSImage [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f08c4 (    0x14) outlined consume of Data? [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f08d8 (    0x58) outlined consume of Data._Representation [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0930 (    0x64) outlined copy of Data._Representation [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0994 (     0x4) protocol witness for _CustomPlaygroundQuickLookable.customPlaygroundQuickLook.getter in conformance SKSpriteNode [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0998 (     0x4) protocol witness for _CustomPlaygroundQuickLookable.customPlaygroundQuickLook.getter in conformance SKTextureAtlas [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f099c (     0x4) protocol witness for _CustomPlaygroundQuickLookable.customPlaygroundQuickLook.getter in conformance SKTexture [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09a0 (     0x4) SKSpriteNode.customPlaygroundQuickLook.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09a4 (     0x4) SKTextureAtlas.customPlaygroundQuickLook.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09a8 (     0x4) SKTexture.customPlaygroundQuickLook.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09ac (     0x4) @objc __SpriteKitMethodProvider.init() [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09b0 (     0x8) @objc __SpriteKitMethodProvider._copyImageData() [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09b8 (    0x34) __SpriteKitMethodProvider.__deallocating_deinit [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f09ec (   0x1a0) SKWarpGeometryGrid.init(columns:rows:sourcePositions:destinationPositions:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0b8c (     0xc) SKWarpGeometryGrid.replacingBySourcePositions(positions:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0b98 (     0xc) SKWarpGeometryGrid.replacingByDestinationPositions(positions:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0ba4 (    0x38) SKWarpGeometryGrid.replacingBySourcePositions(positions:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215f0bdc (    0x24) type metadata accessor for __SpriteKitMethodProvider [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002215f0c00 (    0xe0) __TEXT __auth_stubs
+                0x00000002215f0c00 (    0x10) DYLD-STUB$$Data._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c10 (    0x10) DYLD-STUB$$static Data._unconditionallyBridgeFromObjectiveC(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c20 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c30 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c40 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c50 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c60 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c70 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c80 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0c90 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0ca0 (    0x10) DYLD-STUB$$swift_getObjCClassFromMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0cb0 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0cc0 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002215f0cd0 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002215f0ce0 (    0x20) __TEXT __objc_methlist
+                0x00000002215f0ce0 (    0x20) _OBJC_$_INSTANCE_METHODS__TtC9SpriteKit25__SpriteKitMethodProvider [NameNList, MangledNameNList, NList] 
+            0x00000002215f0d00 (   0x11a) __TEXT __const
+                0x00000002215f0d14 (    0x38) protocol conformance descriptor for SKShapeNode [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0d4c (    0x38) protocol conformance descriptor for SKSpriteNode [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0d84 (    0x34) protocol conformance descriptor for SKTextureAtlas [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0db8 (    0x28) protocol conformance descriptor for SKTexture [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0de0 (     0x4) property descriptor for SKShapeNode.customPlaygroundQuickLook [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0de0 (     0x4) property descriptor for SKSpriteNode.customPlaygroundQuickLook [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x00000002215f0de0 (     0x4) property descriptor for SKTextureAtlas.customPlaygroundQuickLook [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x00000002215f0de0 (     0x4) property descriptor for SKTexture.customPlaygroundQuickLook [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x00000002215f0de4 (    0x36) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002215f0e1c (    0x10) __TEXT __swift5_proto
+            0x00000002215f0e30 (    0x32) __TEXT __cstring
+            0x00000002215f0e64 (    0x48) __TEXT __constg_swiftt
+                0x00000002215f0e64 (     0xc) module descriptor  [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0e70 (    0x34) nominal type descriptor for __SpriteKitMethodProvider [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0ea4 (     0x8) method descriptor for __SpriteKitMethodProvider._copyImageData() [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002215f0eac (    0x14) __TEXT __swift5_typeref
+                0x00000002215f0eac (     0xe) symbolic So8NSObjectC [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002215f0eba (     0x6) symbolic _____ 9SpriteKit02__aB14MethodProviderC [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002215f0ec0 (    0x10) __TEXT __swift5_fieldmd
+                0x00000002215f0ec0 (    0x10) reflection metadata field descriptor __SpriteKitMethodProvider [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002215f0ed0 (     0x4) __TEXT __swift5_types
+            0x00000002215f0ed4 (    0x7c) __TEXT __unwind_info
+            0x00000002215f0f50 (    0xb0) __TEXT __objc_methname
+        0x000000023582b9c0 (   0x120) __DATA_CONST SEGMENT
+            0x000000023582b9c0 (    0x88) __DATA_CONST __const
+                0x000000023582b9c0 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9c8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9d0 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9d8 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9e0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9e8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9f0 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582b9f8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba00 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba08 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba10 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba18 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba20 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba28 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba30 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba38 (     0x8) _swift_FORCE_LOAD_$_swiftGLKit_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023582ba40 (     0x8) _swift_FORCE_LOAD_$_swiftModelIO_$_SpriteKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023582ba48 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023582ba50 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023582ba58 (    0x48) __DATA_CONST __objc_const
+                0x000000023582ba58 (    0x48) _METACLASS_DATA__TtC9SpriteKit25__SpriteKitMethodProvider [NameNList, MangledNameNList, NList] 
+            0x000000023582baa0 (    0x40) __DATA_CONST __objc_selrefs
+        0x000000023831e990 (    0x80) __AUTH_CONST SEGMENT
+            0x000000023831e990 (    0x10) __AUTH_CONST __const
+            0x000000023831e9a0 (    0x70) __AUTH_CONST __auth_got
+        0x0000000233310270 (    0xe0) __AUTH SEGMENT
+            0x0000000233310270 (    0x28) __AUTH __data
+                0x0000000233310270 (    0x28) OBJC_METACLASS_$__TtC9SpriteKit25__SpriteKitMethodProvider [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000233310298 (    0xb8) __AUTH __objc_data
+                0x0000000233310298 (    0x48) _DATA__TtC9SpriteKit25__SpriteKitMethodProvider [NameNList, MangledNameNList, NList] 
+                0x00000002333102e0 (    0x18) full type metadata for __SpriteKitMethodProvider [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002333102f8 (    0x58) OBJC_CLASS_$__TtC9SpriteKit25__SpriteKitMethodProvider [PEXT, NameNList, MangledNameNList, Merged, NList] 
+        0x0000000231b6eca0 (   0x211) __DATA SEGMENT
+            0x0000000231b6eca0 (     0x8) __DATA __objc_classrefs
+            0x0000000231b6eca8 (     0x8) __DATA __data
+                0x0000000231b6eca8 (     0x8) lazy cache variable for type metadata for NSImage [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231b6ecb0 (   0x200) __DATA __bss
+                0x0000000231b6ecb0 (    0x80) metadata instantiation cache for protocol conformance descriptor for SKShapeNode [NameNList, MangledNameNList, NList] 
+                0x0000000231b6ed30 (    0x80) metadata instantiation cache for protocol conformance descriptor for SKSpriteNode [NameNList, MangledNameNList, NList] 
+                0x0000000231b6edb0 (    0x80) metadata instantiation cache for protocol conformance descriptor for SKTextureAtlas [NameNList, MangledNameNList, NList] 
+                0x0000000231b6ee30 (    0x80) metadata instantiation cache for protocol conformance descriptor for SKTexture [NameNList, MangledNameNList, NList] 
+            0x0000000231b6eeb0 (     0x1) __DATA __common
+                0x0000000231b6eeb0 (     0x1) _swift_FORCE_LOAD_$_swiftSpriteKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

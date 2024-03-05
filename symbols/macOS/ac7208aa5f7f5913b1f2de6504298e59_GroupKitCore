@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/GroupKitCore.framework/Versions/A/GroupKitCore [arm64e, 0.029848 seconds]:
+    83A3B83C-437C-3169-90A7-070C15C3884B /System/Library/PrivateFrameworks/GroupKitCore.framework/Versions/A/GroupKitCore [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002014d2000 (  0x4000) __TEXT SEGMENT
+            0x00000002014d2000 (  0x3fc8) MACH_HEADER
+            0x00000002014d5fc8 (    0x38) __TEXT __const
+                0x00000002014d5fc8 (    0x30) GroupKitCoreVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002014d5ff8 (     0x8) GroupKitCoreVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

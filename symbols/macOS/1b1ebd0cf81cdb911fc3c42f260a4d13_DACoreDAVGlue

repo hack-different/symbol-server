@@ -1,0 +1,147 @@
+/System/Library/PrivateFrameworks/CDDataAccess.framework/Frameworks/DACoreDAVGlue.framework/Versions/A/DACoreDAVGlue [arm64e, 0.771371 seconds]:
+    EC5E2B64-D3EB-366B-AE94-7B15637B06E9 /System/Library/PrivateFrameworks/CDDataAccess.framework/Frameworks/DACoreDAVGlue.framework/Versions/A/DACoreDAVGlue [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e6480000 (  0x4000) __TEXT SEGMENT
+            0x00000001e6480000 (  0x2b30) MACH_HEADER
+            0x00000001e6482b30 (   0x770) __TEXT __text
+                0x00000001e6482b30 (   0x27c) coreDAVValidationErrorFromRawError [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482dac (     0x4) -[CoreDAVTask(DACoreDAVGlueExtensions) performTask] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482db0 (     0x4) -[CoreDAVTask(DACoreDAVGlueExtensions) finishWithError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482db4 (   0x114) -[CoreDAVTask(DACoreDAVGlueExtensions) cancelTaskWithReason:underlyingError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482ec8 (    0x70) -[DACoreDAVTaskManager initWithAccount:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482f38 (     0x4) -[DACoreDAVTaskManager _updateSpinner:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482f3c (    0x9c) -[DACoreDAVTaskManager taskManagerDidAddTask:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6482fd8 (    0x9c) -[DACoreDAVTaskManager taskManagerWillRemoveTask:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483074 (     0x4) -[DACoreDAVTaskManager submitQueuedCoreDAVTask:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483078 (     0x4) -[DACoreDAVTaskManager submitIndependentCoreDAVTask:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e648307c (     0x4) -[DACoreDAVTaskManager coreDAVTaskRequestModal:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483080 (     0x4) -[DACoreDAVTaskManager coreDAVTaskEndModal:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483084 (     0x4) -[DACoreDAVTaskManager coreDAVTaskDidFinish:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483088 (     0xc) -[DACoreDAVTaskManager workRunLoop] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483094 (     0x4) -[DACoreDAVTaskManager setWorkRunLoop:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483098 (    0x14) -[DACoreDAVTaskManager .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e64830ac (    0x54) +[DACoreDAVLogger registerDefaultLoggerWithCoreDAV] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483100 (    0x7c) __51+[DACoreDAVLogger registerDefaultLoggerWithCoreDAV]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e648317c (    0x34) -[DACoreDAVLogger coreDAVLogLevel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e64831b0 (     0x8) -[DACoreDAVLogger coreDAVOutputLevel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e64831b8 (    0xd8) -[DACoreDAVLogger coreDAVLogDiagnosticMessage:atLevel:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483290 (     0x8) -[DACoreDAVLogger shouldLogTransmittedData] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6483298 (     0x4) -[DACoreDAVLogger coreDAVLogTransmittedDataPartial:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e648329c (     0x4) -[DACoreDAVLogger coreDAVTransmittedDataFinished] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001e64832a0 (   0x130) __TEXT __auth_stubs
+                0x00000001e64832a0 (    0x10) DYLD-STUB$$DALoggingwithCategory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64832b0 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64832c0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64832d0 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64832e0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64832f0 (    0x10) DYLD-STUB$$getDALogLevel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483300 (    0x10) DYLD-STUB$$getDAOutputLevel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483310 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483320 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483330 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483340 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483350 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483360 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483370 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483380 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6483390 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64833a0 (    0x10) DYLD-STUB$$objc_sync_enter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64833b0 (    0x10) DYLD-STUB$$objc_sync_exit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e64833c0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e64833d0 (   0x130) __TEXT __objc_methlist
+                0x00000001e64833d0 (    0x30) _OBJC_$_INSTANCE_METHODS_CoreDAVTask(DACoreDAVGlueExtensions) [NameNList, MangledNameNList, NList] 
+                0x00000001e6483400 (    0x98) _OBJC_$_INSTANCE_METHODS_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000001e6483498 (    0x18) _OBJC_$_CLASS_METHODS_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+                0x00000001e64834b0 (    0x50) _OBJC_$_INSTANCE_METHODS_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+            0x00000001e6483500 (    0x6e) __TEXT __oslogstring
+            0x00000001e6483570 (    0x28) __TEXT __gcc_except_tab
+                0x00000001e6483570 (    0x14) GCC_except_table2 [NameNList, MangledNameNList, NList] 
+                0x00000001e6483584 (    0x14) GCC_except_table3 [NameNList, MangledNameNList, NList] 
+            0x00000001e6483598 (     0x6) __TEXT __cstring
+            0x00000001e64835a0 (    0x9c) __TEXT __unwind_info
+            0x00000001e648363c (    0x75) __TEXT __objc_classname
+            0x00000001e64836b2 (   0x549) __TEXT __objc_methname
+            0x00000001e6483bfb (   0x1e3) __TEXT __objc_methtype
+            0x00000001e6483de0 (   0x220) __TEXT __objc_stubs
+                0x00000001e6483de0 (    0x20) objc_msgSend$_updateSpinner: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483e00 (    0x20) objc_msgSend$addLogDelegate:forAccountInfoProvider: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483e20 (    0x20) objc_msgSend$code [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483e40 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483e60 (    0x20) objc_msgSend$domain [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483e80 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483ea0 (    0x20) objc_msgSend$finishCoreDAVTaskWithError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483ec0 (    0x20) objc_msgSend$initWithFilename: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483ee0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483f00 (    0x20) objc_msgSend$performCoreDAVTask [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483f20 (    0x20) objc_msgSend$sharedLogging [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483f40 (    0x20) objc_msgSend$sharedRunLoop [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483f60 (    0x20) objc_msgSend$submitIndependentTask: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483f80 (    0x20) objc_msgSend$submitQueuedTask: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483fa0 (    0x20) objc_msgSend$taskDidFinish: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483fc0 (    0x20) objc_msgSend$taskEndModal: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6483fe0 (    0x20) objc_msgSend$taskRequestModal: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002363e1868 (   0x9e8) __DATA_CONST SEGMENT
+            0x00000002363e1868 (    0x40) __DATA_CONST __got
+            0x00000002363e18a8 (    0x20) __DATA_CONST __const
+                0x00000002363e18a8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002363e18c8 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002363e18d8 (     0x8) __DATA_CONST __objc_catlist
+            0x00000002363e18e0 (    0x20) __DATA_CONST __objc_protolist
+                0x00000002363e18e0 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002363e18e8 (     0x8) _OBJC_LABEL_PROTOCOL_$_DATask [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002363e18f0 (     0x8) _OBJC_LABEL_PROTOCOL_$_CoreDAVTaskManager [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002363e18f8 (     0x8) _OBJC_LABEL_PROTOCOL_$_CoreDAVLogDelegate [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002363e1900 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002363e1908 (   0x818) __DATA_CONST __objc_const
+                0x00000002363e1908 (    0x58) _OBJC_CLASS_PROTOCOLS_$_CoreDAVTask(DACoreDAVGlueExtensions) [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002363e1960 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002363e1b30 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002363e1b50 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002363e1b98 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000002363e1c38 (    0x18) _OBJC_$_PROTOCOL_REFS_DATask [NameNList, MangledNameNList, NList] 
+                0x00000002363e1c50 (    0x50) _OBJC_$_PROTOCOL_INSTANCE_METHODS_DATask [NameNList, MangledNameNList, NList] 
+                0x00000002363e1ca0 (    0x80) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DATask [NameNList, MangledNameNList, NList] 
+                0x00000002363e1d20 (    0x40) _OBJC_$_PROTOCOL_METHOD_TYPES_DATask [NameNList, MangledNameNList, NList] 
+                0x00000002363e1d60 (    0x18) _OBJC_$_PROTOCOL_REFS_CoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1d78 (    0xc8) _OBJC_$_PROTOCOL_INSTANCE_METHODS_CoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1e40 (    0x18) _OBJC_$_PROP_LIST_CoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1e58 (    0x40) _OBJC_$_PROTOCOL_METHOD_TYPES_CoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1e98 (    0x18) _OBJC_CLASS_PROTOCOLS_$_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1eb0 (    0x48) _OBJC_METACLASS_RO_$_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1ef8 (    0x28) _OBJC_$_INSTANCE_VARIABLES_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1f20 (    0x58) _OBJC_$_PROP_LIST_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e1f78 (    0x18) _OBJC_$_PROTOCOL_REFS_CoreDAVLogDelegate [NameNList, MangledNameNList, NList] 
+                0x00000002363e1f90 (    0x50) _OBJC_$_PROTOCOL_INSTANCE_METHODS_CoreDAVLogDelegate [NameNList, MangledNameNList, NList] 
+                0x00000002363e1fe0 (    0x98) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CoreDAVLogDelegate [NameNList, MangledNameNList, NList] 
+                0x00000002363e2078 (    0x48) _OBJC_$_PROTOCOL_METHOD_TYPES_CoreDAVLogDelegate [NameNList, MangledNameNList, NList] 
+                0x00000002363e20c0 (    0x18) _OBJC_CLASS_PROTOCOLS_$_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+                0x00000002363e20d8 (    0x48) _OBJC_$_PROP_LIST_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+            0x00000002363e2120 (   0x130) __DATA_CONST __objc_selrefs
+        0x00000002363e2250 (   0x1e0) __AUTH_CONST SEGMENT
+            0x00000002363e2250 (   0x118) __AUTH_CONST __objc_const
+                0x00000002363e2250 (    0x40) _OBJC_$_CATEGORY_CoreDAVTask_$_DACoreDAVGlueExtensions [NameNList, MangledNameNList, NList] 
+                0x00000002363e2290 (    0x48) _OBJC_CLASS_RO_$_DACoreDAVTaskManager [NameNList, MangledNameNList, NList] 
+                0x00000002363e22d8 (    0x48) _OBJC_METACLASS_RO_$_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+                0x00000002363e2320 (    0x48) _OBJC_CLASS_RO_$_DACoreDAVLogger [NameNList, MangledNameNList, NList] 
+            0x00000002363e2368 (    0x20) __AUTH_CONST __const
+                0x00000002363e2368 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000002363e2388 (    0xa8) __AUTH_CONST __auth_got
+        0x000000023219de08 (    0xa0) __AUTH SEGMENT
+            0x000000023219de08 (    0xa0) __AUTH __objc_data
+                0x000000023219de08 (    0x28) OBJC_CLASS_$_DACoreDAVTaskManager [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219de30 (    0x28) OBJC_METACLASS_$_DACoreDAVTaskManager [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219de58 (    0x28) OBJC_CLASS_$_DACoreDAVLogger [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219de80 (    0x28) OBJC_METACLASS_$_DACoreDAVLogger [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023088b158 (   0x1d0) __DATA SEGMENT
+            0x000000023088b158 (    0x30) __DATA __objc_classrefs
+            0x000000023088b188 (     0x8) __DATA __objc_superrefs
+            0x000000023088b190 (     0x4) __DATA __objc_ivar
+                0x000000023088b190 (     0x4) OBJC_IVAR_$_DACoreDAVTaskManager._applicationsShowingActivity [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023088b198 (   0x180) __DATA __data
+                0x000000023088b198 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023088b1f8 (    0x60) _OBJC_PROTOCOL_$_DATask [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023088b258 (    0x60) _OBJC_PROTOCOL_$_CoreDAVTaskManager [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023088b2b8 (    0x60) _OBJC_PROTOCOL_$_CoreDAVLogDelegate [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023088b318 (    0x10) __DATA __bss
+                0x000000023088b318 (     0x8) registerDefaultLoggerWithCoreDAV._genericLogger [NameNList, MangledNameNList, NList] 
+                0x000000023088b320 (     0x8) registerDefaultLoggerWithCoreDAV.pred [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

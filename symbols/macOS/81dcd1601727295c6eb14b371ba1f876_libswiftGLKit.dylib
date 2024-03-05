@@ -1,0 +1,53 @@
+/usr/lib/swift/libswiftGLKit.dylib [arm64e, 0.071947 seconds]:
+    3CBCCF68-9334-3558-86AA-F5236713D3AE /usr/lib/swift/libswiftGLKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221541000 (  0x4000) __TEXT SEGMENT
+            0x0000000221541000 (  0x3c34) MACH_HEADER
+            0x0000000221544c34 (   0x34c) __TEXT __text
+                0x0000000221544c34 (    0x38) _indexHomogeneousValue<A, B>(_:_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544c6c (    0x64) _GLKMatrix2.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544cd0 (    0x60) _GLKVector2.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544d30 (    0x6c) _GLKMatrix3.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544d9c (    0x64) _GLKVector3.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544e00 (    0x6c) _GLKMatrix4.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544e6c (    0x58) _GLKVector4.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544ec4 (    0x58) _GLKQuaternion.subscript.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221544f1c (    0x64) _GLKVector4.subscript.getter [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000221544f80 (    0x20) __TEXT __auth_stubs
+                0x0000000221544f80 (    0x10) DYLD-STUB$$UnsafeRawPointer.load<A>(fromByteOffset:as:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221544f90 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000221544fa0 (     0xe) __TEXT __const
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKMatrix2.subscript(_:) [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKMatrix3.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKMatrix4.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKVector2.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKVector3.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKVector4.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fa8 (     0x4) property descriptor for _GLKQuaternion.subscript(_:) [EXT, ALIAS, NameNList, MangledNameNList, NList] 
+                0x0000000221544fac (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000221544fb0 (    0x50) __TEXT __unwind_info
+        0x000000022e8448d8 (    0x90) __DATA_CONST SEGMENT
+            0x000000022e8448d8 (     0x8) __DATA_CONST __got
+            0x000000022e8448e0 (    0x80) __DATA_CONST __const
+                0x000000022e8448e0 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8448e8 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8448f0 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8448f8 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844900 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844908 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844910 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844918 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844920 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844928 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844930 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844938 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844940 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844948 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844950 (     0x8) _swift_FORCE_LOAD_$_swiftModelIO_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844958 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_GLKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e844960 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000238319dd8 (    0x10) __AUTH_CONST SEGMENT
+            0x0000000238319dd8 (    0x10) __AUTH_CONST __auth_got
+        0x0000000231b65e81 (     0x1) __DATA SEGMENT
+            0x0000000231b65e81 (     0x1) __DATA __common
+                0x0000000231b65e81 (     0x1) _swift_FORCE_LOAD_$_swiftGLKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

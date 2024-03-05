@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/SharingXPCServices.framework/Versions/A/SharingXPCServices [arm64e, 0.092300 seconds]:
+    59751CB7-EA4F-34B1-AA15-7B84EDFEB37D /System/Library/PrivateFrameworks/SharingXPCServices.framework/Versions/A/SharingXPCServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000019984f000 (  0x4000) __TEXT SEGMENT
+            0x000000019984f000 (  0x3fb8) MACH_HEADER
+            0x0000000199852fb8 (    0x48) __TEXT __const
+                0x0000000199852fb8 (    0x40) SharingXPCServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000199852ff8 (     0x8) SharingXPCServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

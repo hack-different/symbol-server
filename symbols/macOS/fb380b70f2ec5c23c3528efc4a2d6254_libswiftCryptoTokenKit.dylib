@@ -1,0 +1,87 @@
+/usr/lib/swift/libswiftCryptoTokenKit.dylib [arm64e, 0.645722 seconds]:
+    732A2E99-A128-369C-94F7-73C395C17086 /usr/lib/swift/libswiftCryptoTokenKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001bc19e000 (  0x1ff7) __TEXT SEGMENT
+            0x00000001bc19e000 (  0x1268) MACH_HEADER
+            0x00000001bc19f268 (   0x9e0) __TEXT __text
+                0x00000001bc19f268 (   0x15c) TKSmartCard.send(ins:p1:p2:data:le:reply:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f3c4 (    0xd0) thunk for @escaping @callee_guaranteed (@guaranteed Data?, @unowned UInt16, @guaranteed Error?) -> () [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f494 (    0x10) block_copy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f4a4 (     0x8) block_destroy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f4ac (   0x174) TKSmartCard.send(ins:p1:p2:data:le:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f620 (   0x2d8) TKSmartCard.withSession<A>(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19f8f8 (   0x1bc) closure #1 in TKSmartCard.withSession<A>(_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fab4 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001bc19faf4 (     0xc) partial apply for closure #1 in TKSmartCard.withSession<A>(_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fb00 (    0x50) thunk for @escaping @callee_guaranteed (@unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@unowned Bool) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fb50 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fb94 (    0x40) type metadata accessor for NSError [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fbd4 (    0x14) outlined consume of Data? [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fbe8 (    0x58) outlined consume of Data._Representation [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fc40 (     0x4) block_copy_helper.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001bc19fc44 (     0x4) block_destroy_helper.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001bc19fc48 (   0x1a0) __TEXT __auth_stubs
+                0x00000001bc19fc48 (    0x10) DYLD-STUB$$_convertNSErrorToError(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fc58 (    0x10) DYLD-STUB$$Data._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fc68 (    0x10) DYLD-STUB$$static Data._unconditionallyBridgeFromObjectiveC(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fc78 (    0x10) DYLD-STUB$$type metadata accessor for Optional [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fc88 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fc98 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fca8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fcb8 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fcc8 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fcd8 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fce8 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fcf8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd08 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd18 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd28 (    0x10) DYLD-STUB$$swift_allocBox [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd38 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd48 (    0x10) DYLD-STUB$$swift_beginAccess [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd58 (    0x10) DYLD-STUB$$swift_deallocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd68 (    0x10) DYLD-STUB$$swift_dynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd78 (    0x10) DYLD-STUB$$swift_errorRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd88 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fd98 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fda8 (    0x10) DYLD-STUB$$swift_projectBox [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fdb8 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fdc8 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fdd8 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001bc19fde8 (    0x12) __TEXT __const
+                0x00000001bc19fdf8 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001bc19fe00 (    0x2a) __TEXT __cstring
+            0x00000001bc19fe2a (    0x2a) __TEXT __swift5_typeref
+                0x00000001bc19fe2a (     0xc) symbolic xSgz_x_lXX [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fe36 (    0x10) symbolic x______pIegrzo_ s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fe46 (     0x2) symbolic x [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fe48 (     0x4) symbolic B0 [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001bc19fe4c (     0x8) symbolic ______p s5ErrorP [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001bc19fe54 (    0x1c) __TEXT __swift5_capture
+            0x00000001bc19fe70 (    0x98) __TEXT __unwind_info
+            0x00000001bc19ff08 (    0x80) __TEXT __eh_frame
+            0x00000001bc19ff88 (    0x6f) __TEXT __objc_methname
+        0x00000001d3b6bd58 (    0x70) __DATA_CONST SEGMENT
+            0x00000001d3b6bd58 (    0x10) __DATA_CONST __got
+            0x00000001d3b6bd68 (    0x38) __DATA_CONST __const
+                0x00000001d3b6bd68 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd70 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd78 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd80 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd88 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd90 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b6bd98 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_CryptoTokenKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3b6bda0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3b6bda8 (    0x20) __DATA_CONST __objc_selrefs
+        0x00000001df0fc068 (   0x158) __AUTH_CONST SEGMENT
+            0x00000001df0fc068 (    0x80) __AUTH_CONST __const
+                0x00000001df0fc068 (    0x58) block_descriptor [NameNList, MangledNameNList, NList] 
+                0x00000001df0fc0c0 (    0x28) block_descriptor.3 [NameNList, MangledNameNList, NList] 
+            0x00000001df0fc0e8 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000001df0fc0f0 (    0xd0) __AUTH_CONST __auth_got
+        0x00000001d67633f8 (    0x21) __DATA SEGMENT
+            0x00000001d67633f8 (    0x10) __DATA __objc_classrefs
+            0x00000001d6763408 (    0x10) __DATA __data
+                0x00000001d6763408 (     0x8) demangling cache variable for type metadata for Error [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d6763410 (     0x8) lazy cache variable for type metadata for NSError [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d6763418 (     0x1) __DATA __common
+                0x00000001d6763418 (     0x1) _swift_FORCE_LOAD_$_swiftCryptoTokenKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

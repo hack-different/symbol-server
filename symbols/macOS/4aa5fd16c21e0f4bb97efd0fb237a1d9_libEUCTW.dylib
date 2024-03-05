@@ -1,0 +1,28 @@
+/usr/lib/i18n/libEUCTW.dylib [arm64e, 0.029368 seconds]:
+    ADC16D98-67F6-3167-B13A-D360A70851E7 /usr/lib/i18n/libEUCTW.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff5f000 (  0x3ff8) __TEXT SEGMENT
+            0x000000021ff5f000 (  0x3a90) MACH_HEADER
+            0x000000021ff62a90 (   0x4c0) __TEXT __text
+                0x000000021ff62a90 (    0x64) _citrus_EUCTW_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62af4 (    0x10) _citrus_EUCTW_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62b04 (    0xa8) _citrus_EUCTW_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62bac (    0x58) _citrus_EUCTW_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62c04 (    0x68) _citrus_EUCTW_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62c6c (    0x14) _citrus_EUCTW_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62c80 (     0xc) _citrus_EUCTW_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62c8c (    0x28) _citrus_EUCTW_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62cb4 (    0x30) _citrus_EUCTW_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62ce4 (   0x15c) _citrus_EUCTW_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff62e40 (   0x110) _citrus_EUCTW_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff62f50 (    0x30) __TEXT __auth_stubs
+                0x000000021ff62f50 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff62f60 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff62f70 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff62f80 (    0x10) __TEXT __const
+            0x000000021ff62f90 (    0x68) __TEXT __unwind_info
+        0x0000000238249ac0 (    0x18) __AUTH_CONST SEGMENT
+            0x0000000238249ac0 (    0x18) __AUTH_CONST __auth_got
+        0x00000002332f3b18 (    0x58) __AUTH SEGMENT
+            0x00000002332f3b18 (    0x58) __AUTH __data
+                0x00000002332f3b18 (    0x58) _citrus_EUCTW_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

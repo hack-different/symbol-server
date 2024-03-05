@@ -1,0 +1,186 @@
+/System/Library/PrivateFrameworks/ScreenTimeServiceUI.framework/Versions/A/ScreenTimeServiceUI [arm64e, 0.048198 seconds]:
+    5D6A5C53-B514-3802-B676-E70E0C25C7C0 /System/Library/PrivateFrameworks/ScreenTimeServiceUI.framework/Versions/A/ScreenTimeServiceUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b642a000 (  0x4000) __TEXT SEGMENT
+            0x00000001b642a000 (  0x251c) MACH_HEADER
+            0x00000001b642c51c (   0xd3c) __TEXT __text
+                0x00000001b642c51c (    0xfc) +[STBlockingRemoteViewController requestTranslucentBlockingViewControllerWithBundleIdentifier:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c618 (   0x15c) __113+[STBlockingRemoteViewController requestTranslucentBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c774 (    0x18) __113+[STBlockingRemoteViewController requestTranslucentBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c78c (    0x10) __copy_helper_block_e8_32b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c79c (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c7a4 (    0x18) __113+[STBlockingRemoteViewController requestTranslucentBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c7bc (    0x48) __copy_helper_block_e8_32s40b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c804 (    0x3c) __destroy_helper_block_e8_32s40s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c840 (    0xfc) +[STBlockingRemoteViewController requestOpaqueBlockingViewControllerWithBundleIdentifier:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642c93c (   0x15c) __108+[STBlockingRemoteViewController requestOpaqueBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642ca98 (    0x18) __108+[STBlockingRemoteViewController requestOpaqueBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cab0 (    0x18) __108+[STBlockingRemoteViewController requestOpaqueBlockingViewControllerWithBundleIdentifier:completionHandler:]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cac8 (     0x4) +[STBlockingRemoteViewController requestBlockingViewControllerWithBundleIdentifier:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cacc (    0x30) +[STBlockingRemoteViewController serviceViewControllerInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cafc (    0x30) +[STBlockingRemoteViewController exportedInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cb2c (     0x4) -[STBlockingRemoteViewController setPreferredContentSize:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cb30 (    0x8c) -[STBlockingRemoteViewController blockingViewControllerDidFinishDismissalAnimationWithReplyHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cbbc (    0x30) +[STBlockingViewService newServiceInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cbec (    0x30) +[STBlockingViewService newDelegateInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cc1c (    0x30) +[STPINViewService newRemoteViewInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cc4c (    0x30) +[STPINViewService newServiceViewInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cc7c (   0x128) +[STPINRemoteViewController requestPINViewControllerWithUserURI:mode:completionHandler:pinServiceCompletionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cda4 (   0x198) __116+[STPINRemoteViewController requestPINViewControllerWithUserURI:mode:completionHandler:pinServiceCompletionHandler:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cf3c (    0x18) __116+[STPINRemoteViewController requestPINViewControllerWithUserURI:mode:completionHandler:pinServiceCompletionHandler:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cf54 (    0x68) __116+[STPINRemoteViewController requestPINViewControllerWithUserURI:mode:completionHandler:pinServiceCompletionHandler:]_block_invoke.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642cfbc (    0x58) __copy_helper_block_e8_32s40b48b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d014 (    0x44) __destroy_helper_block_e8_32s40s48s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d058 (    0x30) +[STPINRemoteViewController serviceViewControllerInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d088 (    0x30) +[STPINRemoteViewController exportedInterface] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d0b8 (    0xc0) -[STPINRemoteViewController viewWillAppear] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d178 (    0xb0) -[STPINRemoteViewController pinServiceDidCompleteWithError:reply:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d228 (    0x10) -[STPINRemoteViewController pinServiceDidComplete] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d238 (     0xc) -[STPINRemoteViewController setPinServiceDidComplete:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b642d244 (    0x14) -[STPINRemoteViewController .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001b642d258 (    0xa0) __TEXT __auth_stubs
+                0x00000001b642d258 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d268 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d278 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d288 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d298 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d2a8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d2b8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d2c8 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d2d8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b642d2e8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001b642d2f8 (   0x11c) __TEXT __objc_methlist
+                0x00000001b642d2f8 (    0x48) _OBJC_$_CLASS_METHODS_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001b642d340 (    0x20) _OBJC_$_INSTANCE_METHODS_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001b642d360 (    0x20) _OBJC_$_CLASS_METHODS_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001b642d380 (    0x20) _OBJC_$_CLASS_METHODS_STPINViewService [NameNList, MangledNameNList, NList] 
+                0x00000001b642d3a0 (    0x30) _OBJC_$_CLASS_METHODS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001b642d3d0 (    0x44) _OBJC_$_INSTANCE_METHODS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+            0x00000001b642d418 (    0x50) __TEXT __const
+                0x00000001b642d418 (    0x40) STScreenTimeServiceUIVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642d458 (    0x10) STScreenTimeServiceUIVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001b642d468 (    0xd8) __TEXT __cstring
+            0x00000001b642d540 (    0x30) __TEXT __oslogstring
+            0x00000001b642d570 (    0xa8) __TEXT __unwind_info
+            0x00000001b642d618 (    0xa4) __TEXT __objc_classname
+            0x00000001b642d6bc (   0x574) __TEXT __objc_methname
+            0x00000001b642dc30 (   0x18d) __TEXT __objc_methtype
+            0x00000001b642ddc0 (   0x240) __TEXT __objc_stubs
+                0x00000001b642ddc0 (    0x20) objc_msgSend$addOpaqueBlockingViewControllerWithBundleIdentifier:replyHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dde0 (    0x20) objc_msgSend$addTranslucentBlockingViewControllerWithBundleIdentifier:replyHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642de00 (    0x20) objc_msgSend$defaultCenter [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642de20 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642de40 (    0x20) objc_msgSend$makeFirstResponder: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642de60 (    0x20) objc_msgSend$newDelegateInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642de80 (    0x20) objc_msgSend$newRemoteViewInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dea0 (    0x20) objc_msgSend$newServiceInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dec0 (    0x20) objc_msgSend$newServiceViewInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dee0 (    0x20) objc_msgSend$pinServiceDidComplete [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642df00 (    0x20) objc_msgSend$postNotificationName:object: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642df20 (    0x20) objc_msgSend$requestTranslucentBlockingViewControllerWithBundleIdentifier:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642df40 (    0x20) objc_msgSend$requestViewController:fromServiceWithBundleIdentifier:connectionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642df60 (    0x20) objc_msgSend$serviceViewControllerProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642df80 (    0x20) objc_msgSend$setPinServiceDidComplete: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dfa0 (    0x20) objc_msgSend$setUpWithUserURI:mode:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dfc0 (    0x20) objc_msgSend$view [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b642dfe0 (    0x20) objc_msgSend$window [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001deb73990 (   0xfe0) __DATA_CONST SEGMENT
+            0x00000001deb73990 (    0x10) __DATA_CONST __got
+            0x00000001deb739a0 (    0x18) __DATA_CONST __const
+                0x00000001deb739a0 (     0x8) STClassNameSTBlockingServiceViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739a8 (     0x8) STClassNameSTPINServiceViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739b0 (     0x8) STServiceNameScreenTimeViewService [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001deb739b8 (    0x20) __DATA_CONST __objc_classlist
+            0x00000001deb739d8 (    0x28) __DATA_CONST __objc_protolist
+                0x00000001deb739d8 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739e0 (     0x8) _OBJC_LABEL_PROTOCOL_$_STBlockingViewServiceDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739e8 (     0x8) _OBJC_LABEL_PROTOCOL_$_STBlockingViewService [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739f0 (     0x8) _OBJC_LABEL_PROTOCOL_$_STPINRemoteViewController [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb739f8 (     0x8) _OBJC_LABEL_PROTOCOL_$_STPINServiceViewController [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001deb73a00 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001deb73a08 (   0xe88) __DATA_CONST __objc_const
+                0x00000001deb73a08 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73bd8 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73bf8 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73c40 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73ce0 (    0x18) _OBJC_$_PROTOCOL_REFS_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb73cf8 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb73d18 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb73d20 (    0x18) _OBJC_CLASS_PROTOCOLS_$_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb73d38 (    0x48) _OBJC_$_PROP_LIST_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb73d80 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73f50 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73f70 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb73fb8 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74058 (    0x18) _OBJC_$_PROTOCOL_REFS_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb74070 (    0x38) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb740a8 (    0x10) _OBJC_$_PROTOCOL_METHOD_TYPES_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb740b8 (    0x18) _OBJC_$_PROTOCOL_REFS_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb740d0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb740f0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_STBlockingViewServiceDelegate [NameNList, MangledNameNList, NList] 
+                0x00000001deb740f8 (    0x48) _OBJC_CLASS_RO_$_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb74140 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74310 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74330 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74378 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74418 (    0x18) _OBJC_$_PROTOCOL_REFS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74430 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74450 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74458 (    0x18) _OBJC_$_PROTOCOL_REFS_STPINServiceViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74470 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STPINServiceViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74490 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_STPINServiceViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74498 (    0x48) _OBJC_CLASS_RO_$_STPINViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb744e0 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb746b0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb746d0 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb74718 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x00000001deb747b8 (    0x18) _OBJC_$_PROTOCOL_REFS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb747d0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb747f0 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb747f8 (    0x18) _OBJC_CLASS_PROTOCOLS_$_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74810 (    0x28) _OBJC_$_INSTANCE_VARIABLES_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74838 (    0x58) _OBJC_$_PROP_LIST_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+            0x00000001deb74890 (    0xe0) __DATA_CONST __objc_selrefs
+        0x00000001deb74970 (   0x378) __AUTH_CONST SEGMENT
+            0x00000001deb74970 (    0x80) __AUTH_CONST __cfstring
+            0x00000001deb749f0 (    0xf0) __AUTH_CONST __const
+                0x00000001deb749f0 (    0x30) __block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb74a20 (    0x30) __block_descriptor_48_e8_32s40bs_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb74a50 (    0x30) __block_descriptor_48_e8_32s40bs_e44_v24?0"NSRemoteViewController"8"NSError"16l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb74a80 (    0x30) __block_descriptor_56_e8_32s40bs48bs_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001deb74ab0 (    0x30) __block_descriptor_64_e8_32s40bs48bs_e44_v24?0"NSRemoteViewController"8"NSError"16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001deb74ae0 (   0x1b0) __AUTH_CONST __objc_const
+                0x00000001deb74ae0 (    0x48) _OBJC_METACLASS_RO_$_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74b28 (    0x48) _OBJC_CLASS_RO_$_STBlockingRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74b70 (    0x48) _OBJC_METACLASS_RO_$_STBlockingViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb74bb8 (    0x48) _OBJC_METACLASS_RO_$_STPINViewService [NameNList, MangledNameNList, NList] 
+                0x00000001deb74c00 (    0x48) _OBJC_METACLASS_RO_$_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+                0x00000001deb74c48 (    0x48) _OBJC_CLASS_RO_$_STPINRemoteViewController [NameNList, MangledNameNList, NList] 
+            0x00000001deb74c90 (    0x58) __AUTH_CONST __auth_got
+        0x00000001d798cdf8 (   0x140) __AUTH SEGMENT
+            0x00000001d798cdf8 (   0x140) __AUTH __objc_data
+                0x00000001d798cdf8 (    0x28) OBJC_METACLASS_$_STBlockingRemoteViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798ce20 (    0x28) OBJC_CLASS_$_STBlockingRemoteViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798ce48 (    0x28) OBJC_METACLASS_$_STBlockingViewService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798ce70 (    0x28) OBJC_CLASS_$_STBlockingViewService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798ce98 (    0x28) OBJC_METACLASS_$_STPINViewService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798cec0 (    0x28) OBJC_CLASS_$_STPINViewService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798cee8 (    0x28) OBJC_CLASS_$_STPINRemoteViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d798cf10 (    0x28) OBJC_METACLASS_$_STPINRemoteViewController [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d661d438 (   0x238) __DATA SEGMENT
+            0x00000001d661d438 (    0x20) __DATA __objc_protorefs
+                0x00000001d661d438 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_STBlockingViewService [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d440 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_STBlockingViewServiceDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d448 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_STPINRemoteViewController [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d450 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_STPINServiceViewController [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d661d458 (    0x20) __DATA __objc_classrefs
+            0x00000001d661d478 (     0x8) __DATA __objc_superrefs
+            0x00000001d661d480 (     0x4) __DATA __objc_ivar
+                0x00000001d661d480 (     0x4) OBJC_IVAR_$_STPINRemoteViewController._pinServiceDidComplete [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d661d488 (   0x1e8) __DATA __data
+                0x00000001d661d488 (     0x8) STBlockingRemoteViewControllerDidFinishDismissalAnimationNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d490 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d4f0 (    0x60) _OBJC_PROTOCOL_$_STBlockingViewServiceDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d550 (    0x60) _OBJC_PROTOCOL_$_STBlockingViewService [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d5b0 (    0x60) _OBJC_PROTOCOL_$_STPINRemoteViewController [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d661d610 (    0x60) _OBJC_PROTOCOL_$_STPINServiceViewController [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

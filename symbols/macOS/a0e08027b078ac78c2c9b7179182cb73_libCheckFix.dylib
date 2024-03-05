@@ -1,0 +1,42 @@
+/usr/lib/libCheckFix.dylib [arm64e, 0.410378 seconds]:
+    D7D811CA-A37E-3FED-9CA3-2AE9CB213533 /usr/lib/libCheckFix.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018c210000 (  0xc000) __TEXT SEGMENT
+            0x000000018c210000 (   0x8c8) MACH_HEADER
+            0x000000018c2108c8 (  0x943c) __TEXT __text
+                0x000000018c2108c8 (    0x68) uint64Value [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c210930 (   0x168) matchVersionEqualOrLowerStr [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c210a98 (    0xb4) matchVersionLessThanComponents [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c210b4c (    0xd4) matchVersionExpr [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c210c20 (   0x26c) _CSCheckFixBugForBundleAndVersion [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c210e8c (  0x8dbc) _CSCheckFixImplARM64 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018c219c48 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000018c219c58 (    0xac) matchVersionLessThanOne [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018c219d04 (    0xd0) __TEXT __auth_stubs
+                0x000000018c219d04 (    0x10) DYLD-STUB$$CC_SHA256_Final [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d14 (    0x10) DYLD-STUB$$CC_SHA256_Init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d24 (    0x10) DYLD-STUB$$CC_SHA256_Update [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d34 (    0x10) DYLD-STUB$$__maskrune [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d44 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d54 (    0x10) DYLD-STUB$$__strlcat_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d64 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d74 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d84 (    0x10) DYLD-STUB$$os_unfair_lock_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219d94 (    0x10) DYLD-STUB$$os_unfair_lock_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219da4 (    0x10) DYLD-STUB$$strchr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219db4 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018c219dc4 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018c219dd4 (  0x1d4f) __TEXT __cstring
+            0x000000018c21bb23 (   0x462) __TEXT __const
+            0x000000018c21bf88 (    0x78) __TEXT __unwind_info
+        0x00000001d3aafbe0 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3aafbe0 (    0x10) __DATA_CONST __got
+        0x00000001db97e768 (    0x68) __AUTH_CONST SEGMENT
+            0x00000001db97e768 (    0x68) __AUTH_CONST __auth_got
+        0x00000001d5d31298 (     0x8) __DATA SEGMENT
+            0x00000001d5d31298 (     0x8) __DATA __data
+        0x00000001d6d9d078 (   0x428) __DATA_DIRTY SEGMENT
+            0x00000001d6d9d078 (   0x428) __DATA_DIRTY __bss
+                0x00000001d6d9d078 (     0x8) _CSCheckFixBugForBundleAndVersion.sLock [NameNList, MangledNameNList, NList] 
+                0x00000001d6d9d080 (   0x400) _CSCheckFixBugForBundleAndVersion.sLastBundleIDStr [NameNList, MangledNameNList, NList] 
+                0x00000001d6d9d480 (    0x20) _CSCheckFixBugForBundleAndVersion.sLastSHA256BundleIDHash [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

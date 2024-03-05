@@ -1,0 +1,61 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/DefaultMediaPlayer-QuickLook.axbundle/Contents/MacOS/DefaultMediaPlayer-QuickLook [arm64e, 0.035949 seconds]:
+    A7924EBF-92C7-3950-9D1E-E8865F309188 /System/iOSSupport/System/Library/AccessibilityBundles/DefaultMediaPlayer-QuickLook.axbundle/Contents/MacOS/DefaultMediaPlayer-QuickLook [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022319c000 (  0x2000) __TEXT SEGMENT
+            0x000000022319c000 (  0x1b14) MACH_HEADER
+            0x000000022319db14 (   0x174) __TEXT __text
+                0x000000022319db14 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319dbc4 (    0x64) +[AXDefaultMediaPlayerGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319dc28 (     0x8) __57+[AXDefaultMediaPlayerGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319dc30 (    0x54) __57+[AXDefaultMediaPlayerGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319dc84 (     0x4) __57+[AXDefaultMediaPlayerGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022319dc88 (    0x90) __TEXT __auth_stubs
+                0x000000022319dc88 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dc98 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dca8 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dcb8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dcc8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dcd8 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dce8 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dcf8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319dd08 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022319dd18 (    0x14) __TEXT __objc_methlist
+                0x000000022319dd18 (    0x14) _OBJC_$_CLASS_METHODS_AXDefaultMediaPlayerGlue [NameNList, MangledNameNList, NList] 
+            0x000000022319dd2c (    0x93) __TEXT __cstring
+            0x000000022319ddc0 (    0x64) __TEXT __unwind_info
+            0x000000022319de24 (    0x19) __TEXT __objc_classname
+            0x000000022319de3e (    0xf7) __TEXT __objc_methname
+            0x000000022319df35 (     0x8) __TEXT __objc_methtype
+            0x000000022319df40 (    0xc0) __TEXT __objc_stubs
+                0x000000022319df40 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319df60 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319df80 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319dfa0 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319dfc0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319dfe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383ff5d8 (    0xd0) __DATA_CONST SEGMENT
+            0x00000002383ff5d8 (    0x40) __DATA_CONST __const
+                0x00000002383ff5d8 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383ff5f8 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383ff618 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002383ff620 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383ff628 (    0x48) __DATA_CONST __objc_const
+                0x00000002383ff628 (    0x48) _OBJC_CLASS_RO_$_AXDefaultMediaPlayerGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ff670 (    0x38) __DATA_CONST __objc_selrefs
+        0x00000002383ff6a8 (   0x178) __AUTH_CONST SEGMENT
+            0x00000002383ff6a8 (    0x80) __AUTH_CONST __cfstring
+            0x00000002383ff728 (    0x60) __AUTH_CONST __const
+                0x00000002383ff728 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383ff748 (    0x20) __block_literal_global.221 [NameNList, MangledNameNList, NList] 
+                0x00000002383ff768 (    0x20) __block_literal_global.230 [NameNList, MangledNameNList, NList] 
+            0x00000002383ff788 (    0x48) __AUTH_CONST __objc_const
+                0x00000002383ff788 (    0x48) _OBJC_METACLASS_RO_$_AXDefaultMediaPlayerGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ff7d0 (    0x50) __AUTH_CONST __auth_got
+        0x0000000233626d40 (    0x50) __AUTH SEGMENT
+            0x0000000233626d40 (    0x50) __AUTH __objc_data
+                0x0000000233626d40 (    0x28) OBJC_CLASS_$_AXDefaultMediaPlayerGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626d68 (    0x28) OBJC_METACLASS_$_AXDefaultMediaPlayerGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba9948 (    0x20) __DATA SEGMENT
+            0x0000000231ba9948 (    0x18) __DATA __objc_classrefs
+            0x0000000231ba9960 (     0x8) __DATA __bss
+                0x0000000231ba9960 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

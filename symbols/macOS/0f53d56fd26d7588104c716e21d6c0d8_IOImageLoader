@@ -1,0 +1,38 @@
+/System/Library/PrivateFrameworks/IOImageLoader.framework/Versions/A/IOImageLoader [arm64e, 0.034007 seconds]:
+    9883016C-D6A4-3E48-9EA1-A738D0A42E62 /System/Library/PrivateFrameworks/IOImageLoader.framework/Versions/A/IOImageLoader [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000204460000 (  0x3ffc) __TEXT SEGMENT
+            0x0000000204460000 (  0x3750) MACH_HEADER
+            0x0000000204463750 (   0x730) __TEXT __text
+                0x0000000204463750 (    0x8c) IOImageLoaderImageDictionary::getAttributes(__CFDictionary*, char const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002044637dc (    0x6c) IOImageLoaderImageDictionary::getAttributes(__CFDictionary*, __CFString const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463848 (    0x8c) IOImageLoaderImageDictionary::getAttribute(__CFDictionary*, char const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002044638d4 (    0x6c) IOImageLoaderImageDictionary::getAttribute(__CFDictionary*, __CFString const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463940 (    0x78) IOImageLoaderImageDictionary::setAttributeWithObject(__CFDictionary*, char const*, void*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002044639b8 (    0x6c) IOImageLoaderImageDictionary::setAttributeWithObject(__CFDictionary*, __CFString const*, void*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463a24 (    0xb4) IOImageLoaderImageDictionary::setAttributeWithString(__CFDictionary*, char const*, char const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463ad8 (    0x8c) IOImageLoaderImageDictionary::setAttributeWithString(__CFDictionary*, __CFString const*, __CFString const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463b64 (    0xf8) IOImageLoaderImageDictionary::setAttributeWithNumber(__CFDictionary*, char const*, unsigned long long) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463c5c (    0xc8) IOImageLoaderImageDictionary::setAttributeWithNumber(__CFDictionary*, __CFString const*, __CFNumber const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463d24 (    0xcc) IOImageLoaderImageDictionary::setAttributeWithNumber(__CFDictionary*, __CFString const*, unsigned long long) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000204463df0 (    0x90) IOImageLoaderImageDictionary::setAttributeWithNumber(__CFDictionary*, char const*, __CFNumber const*) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000204463e80 (    0xa0) __TEXT __auth_stubs
+                0x0000000204463e80 (    0x10) DYLD-STUB$$CFDictionaryGetCount [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463e90 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463ea0 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463eb0 (    0x10) DYLD-STUB$$CFNumberCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463ec0 (    0x10) DYLD-STUB$$CFNumberGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463ed0 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463ee0 (    0x10) DYLD-STUB$$CFStringCreateWithCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463ef0 (    0x10) DYLD-STUB$$CFStringGetCStringPtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463f00 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204463f10 (    0x10) DYLD-STUB$$printf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000204463f20 (    0x40) __TEXT __const
+                0x0000000204463f20 (    0x38) IOImageLoaderVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000204463f58 (     0x8) IOImageLoaderVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000204463f60 (    0x25) __TEXT __cstring
+            0x0000000204463f88 (    0x74) __TEXT __unwind_info
+        0x000000022e7c0208 (    0x10) __DATA_CONST SEGMENT
+            0x000000022e7c0208 (    0x10) __DATA_CONST __got
+        0x00000002375e6f98 (    0x50) __AUTH_CONST SEGMENT
+            0x00000002375e6f98 (    0x50) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,96 @@
+/System/Library/Accounts/Notification/DAAccountNotifier.bundle/Contents/MacOS/DAAccountNotifier [arm64e, 0.247737 seconds]:
+    A6CBD8B7-00CB-3715-9560-992E0A06975D /System/Library/Accounts/Notification/DAAccountNotifier.bundle/Contents/MacOS/DAAccountNotifier [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e9042000 (  0x8000) __TEXT SEGMENT
+            0x00000001e9042000 (  0x23bc) MACH_HEADER
+            0x00000001e90443bc (  0x2e3c) __TEXT __text
+                0x00000001e90443bc (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044444 (   0x308) (null) [FUNC, FunctionStarts] 
+                0x00000001e904474c (   0x200) (null) [FUNC, FunctionStarts] 
+                0x00000001e904494c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044990 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001e90449d4 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044a28 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044a80 (   0x170) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044bf0 (   0x24c) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044e3c (   0x114) (null) [FUNC, FunctionStarts] 
+                0x00000001e9044f50 (   0x240) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045190 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045198 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x00000001e90451b4 (   0x5f0) (null) [FUNC, FunctionStarts] 
+                0x00000001e90457a4 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001e90457a8 (   0x188) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045930 (   0x4d0) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045e00 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045e0c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045e18 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045e24 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045e30 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x00000001e9045ec0 (   0x8c8) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046788 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046798 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e90467ec (    0xd0) (null) [FUNC, FunctionStarts] 
+                0x00000001e90468bc (    0x54) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046910 (   0x580) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046e90 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046e98 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046ea0 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046ee4 (    0xa8) (null) [FUNC, FunctionStarts] 
+                0x00000001e9046f8c (    0x8c) (null) [FUNC, FunctionStarts] 
+                0x00000001e9047018 (   0x110) (null) [FUNC, FunctionStarts] 
+                0x00000001e9047128 (    0x8c) (null) [FUNC, FunctionStarts] 
+                0x00000001e90471b4 (    0x44) (null) [FUNC, FunctionStarts] 
+            0x00000001e90471f8 (   0x130) __TEXT __auth_stubs
+                0x00000001e90471f8 (    0x10) DYLD-STUB$$DALoggingwithCategory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047208 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047218 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047228 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047238 (    0x10) DYLD-STUB$$notify_post [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047248 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047258 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047268 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047278 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047288 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047298 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472a8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472b8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472c8 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472d8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472e8 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e90472f8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047308 (    0x10) DYLD-STUB$$os_unfair_lock_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e9047318 (    0x10) DYLD-STUB$$os_unfair_lock_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e9047328 (   0x17c) __TEXT __objc_methlist
+            0x00000001e90474a8 (     0x8) __TEXT __const
+            0x00000001e90474b0 (   0x8e6) __TEXT __cstring
+            0x00000001e9047d96 (   0x79e) __TEXT __oslogstring
+            0x00000001e9048534 (    0xd4) __TEXT __unwind_info
+            0x00000001e9048608 (    0x93) __TEXT __objc_classname
+            0x00000001e904869c (   0xc5c) __TEXT __objc_methname
+            0x00000001e90492f8 (   0x2e1) __TEXT __objc_methtype
+            0x00000001e90495e0 (   0xa20) __TEXT __objc_stubs
+        0x00000002364f0040 (   0x9e8) __DATA_CONST SEGMENT
+            0x00000002364f0040 (    0x68) __DATA_CONST __got
+            0x00000002364f00a8 (    0x20) __DATA_CONST __const
+            0x00000002364f00c8 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002364f00d8 (    0x18) __DATA_CONST __objc_protolist
+            0x00000002364f00f0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002364f00f8 (   0x660) __DATA_CONST __objc_const
+            0x00000002364f0758 (   0x2d0) __DATA_CONST __objc_selrefs
+        0x00000002364f0a28 (   0xd68) __AUTH_CONST SEGMENT
+            0x00000002364f0a28 (    0x90) __AUTH_CONST __const
+            0x00000002364f0ab8 (   0xb60) __AUTH_CONST __cfstring
+            0x00000002364f1618 (    0xd8) __AUTH_CONST __objc_const
+            0x00000002364f16f0 (    0xa0) __AUTH_CONST __auth_got
+        0x00000002321b43d0 (    0xa0) __AUTH SEGMENT
+            0x00000002321b43d0 (    0xa0) __AUTH __objc_data
+                0x00000002321b43d0 (    0x28) OBJC_CLASS_$_DAAccountNotifier [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321b43f8 (    0x28) OBJC_CLASS_$_DAAccountChangeUpdaterACDAccountStoreWrapper [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321b4420 (    0x28) OBJC_METACLASS_$_DAAccountNotifier [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002321b4448 (    0x28) OBJC_METACLASS_$_DAAccountChangeUpdaterACDAccountStoreWrapper [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002308c18a0 (   0x1e8) __DATA SEGMENT
+            0x00000002308c18a0 (    0x70) __DATA __objc_classrefs
+            0x00000002308c1910 (    0x10) __DATA __objc_superrefs
+            0x00000002308c1920 (    0x14) __DATA __objc_ivar
+            0x00000002308c1938 (   0x120) __DATA __data
+            0x00000002308c1a58 (    0x30) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

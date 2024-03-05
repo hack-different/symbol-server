@@ -1,0 +1,110 @@
+/System/iOSSupport/System/Library/Frameworks/_HomeKit_SwiftUI.framework/Versions/A/_HomeKit_SwiftUI [arm64e, 0.023806 seconds]:
+    F6B89441-5F0F-3D31-AFD5-B70CBAA76946 /System/iOSSupport/System/Library/Frameworks/_HomeKit_SwiftUI.framework/Versions/A/_HomeKit_SwiftUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000224ee4000 (  0x1ff6) __TEXT SEGMENT
+            0x0000000224ee4000 (  0x17d0) MACH_HEADER
+            0x0000000224ee57d0 (   0x2fc) __TEXT __text
+                0x0000000224ee57d0 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee57d8 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee57e4 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5800 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5804 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5808 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5824 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5830 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5840 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5844 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5898 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee58a8 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee58ac (    0x50) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee58fc (    0x10) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee590c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5910 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5914 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5918 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee591c (    0x34) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5950 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5954 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5958 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee595c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5960 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee596c (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee59d0 (    0x64) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5a34 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5a50 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x0000000224ee5a78 (    0x54) (null) [FUNC, FunctionStarts] 
+            0x0000000224ee5acc (   0x140) __TEXT __auth_stubs
+                0x0000000224ee5acc (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5adc (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5aec (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5afc (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b0c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b1c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b2c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b3c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b4c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b5c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b6c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b7c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b8c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5b9c (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bac (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bbc (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bcc (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bdc (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bec (    0x10) DYLD-STUB$$swift_getOpaqueTypeConformance2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5bfc (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000224ee5c0c (    0x92) __TEXT __swift5_typeref
+                0x0000000224ee5c0c (     0x8) associated conformance 16_HomeKit_SwiftUI10CameraViewV0cD00F0AA4BodyAdEP_AdE [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c14 (     0x6) symbolic _____ 16_HomeKit_SwiftUI30CameraViewUIViewRepresentationV [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c1a (     0x6) symbolic _____ 16_HomeKit_SwiftUI10CameraViewV [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c20 (    0x12) symbolic $s7SwiftUI4ViewP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c32 (    0x14) symbolic So14HMCameraSourceC [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c46 (     0x2) symbolic x [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c48 (     0x8) get_witness_table 16_HomeKit_SwiftUI30CameraViewUIViewRepresentationV0cD00F0HPyHC.1 [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c50 (     0x8) associated conformance 16_HomeKit_SwiftUI30CameraViewUIViewRepresentationV0cD00G13RepresentableAaD0F0 [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c58 (    0x12) symbolic So12HMCameraViewC [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c6a (     0x4) symbolic yt [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c6e (    0x22) symbolic $s7SwiftUI19UIViewRepresentableP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c90 (     0x8) associated conformance 16_HomeKit_SwiftUI30CameraViewUIViewRepresentationV0cD00F0AA4BodyAdEP_AdE [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000224ee5c98 (     0x6) symbolic _____ s5NeverO [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000224ee5c9e (    0x2f) __TEXT __swift5_reflstr
+            0x0000000224ee5cd0 (    0x50) __TEXT __swift5_assocty
+            0x0000000224ee5d20 (   0x182) __TEXT __const
+                0x0000000224ee5ea0 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000224ee5ea4 (    0x6c) __TEXT __constg_swiftt
+            0x0000000224ee5f10 (    0x38) __TEXT __swift5_fieldmd
+            0x0000000224ee5f48 (     0xc) __TEXT __swift5_proto
+            0x0000000224ee5f54 (     0x8) __TEXT __swift5_types
+            0x0000000224ee5f5c (    0x84) __TEXT __unwind_info
+            0x0000000224ee5fe0 (    0x16) __TEXT __objc_methname
+        0x000000022e854db0 (    0xb0) __DATA_CONST SEGMENT
+            0x000000022e854db0 (     0x8) __DATA_CONST __got
+            0x000000022e854db8 (    0x90) __DATA_CONST __const
+                0x000000022e854db8 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854dc0 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854dc8 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854dd0 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854dd8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854de0 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854de8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854df0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854df8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e00 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e08 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e10 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e18 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e20 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e28 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e30 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e38 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e854e40 (     0x8) _swift_FORCE_LOAD_$_swiftHomeKit_$__HomeKit_SwiftUI [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e854e48 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e854e50 (    0x10) __DATA_CONST __objc_selrefs
+        0x0000000238687b50 (   0x1e8) __AUTH_CONST SEGMENT
+            0x0000000238687b50 (   0x148) __AUTH_CONST __const
+            0x0000000238687c98 (    0xa0) __AUTH_CONST __auth_got
+        0x0000000231c92170 (   0x1a0) __DATA SEGMENT
+            0x0000000231c92170 (     0x8) __DATA __objc_classrefs
+            0x0000000231c92178 (    0x10) __DATA __data
+            0x0000000231c92190 (   0x180) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

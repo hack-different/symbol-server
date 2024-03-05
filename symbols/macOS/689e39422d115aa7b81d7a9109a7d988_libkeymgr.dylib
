@@ -1,0 +1,44 @@
+/usr/lib/system/libkeymgr.dylib [arm64e, 0.047823 seconds]:
+    4A948E99-EE03-3A40-A3F7-3AD957431D4D /usr/lib/system/libkeymgr.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018ccda000 (   0xffc) __TEXT SEGMENT
+            0x000000018ccda000 (   0x760) MACH_HEADER
+            0x000000018ccda760 (   0x6e8) __TEXT __text
+                0x000000018ccda760 (    0x48) __keymgr_initializer [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccda7a8 (    0x5c) _keymgr_get_and_lock_processwide_ptr_2 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccda804 (   0x1d8) get_or_create_key_element [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccda9dc (    0x64) _keymgr_set_and_unlock_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdaa40 (    0x84) dwarf2_unwind_dyld_add_image_hook [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdaac4 (    0x2c) _keymgr_get_and_lock_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdaaf0 (    0x54) _keymgr_unlock_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdab44 (    0x7c) get_key_element [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdabc0 (    0xf4) _keymgr_set_lockmode_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdacb4 (    0x20) _keymgr_get_lockmode_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdacd4 (    0x20) _keymgr_get_lock_count_processwide_ptr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdacf4 (     0x4) __keymgr_dwarf2_register_sections [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccdacf8 (   0x150) dwarf2_unwind_dyld_remove_image_hook [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018ccdae48 (   0x100) __TEXT __auth_stubs
+                0x000000018ccdae48 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdae58 (    0x10) DYLD-STUB$$_dyld_register_func_for_add_image [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdae68 (    0x10) DYLD-STUB$$_dyld_register_func_for_remove_image [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdae78 (    0x10) DYLD-STUB$$_os_alloc_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdae88 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdae98 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaea8 (    0x10) DYLD-STUB$$dladdr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaeb8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaec8 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaed8 (    0x10) DYLD-STUB$$pthread_mutex_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaee8 (    0x10) DYLD-STUB$$pthread_mutex_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaef8 (    0x10) DYLD-STUB$$pthread_mutex_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaf08 (    0x10) DYLD-STUB$$pthread_mutex_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaf18 (    0x10) DYLD-STUB$$pthread_mutexattr_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaf28 (    0x10) DYLD-STUB$$pthread_mutexattr_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaf38 (    0x10) DYLD-STUB$$pthread_mutexattr_settype [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018ccdaf48 (    0x30) __TEXT __const
+                0x000000018ccdaf48 (    0x28) keymgrVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000018ccdaf70 (     0x8) keymgrVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000018ccdaf78 (    0x84) __TEXT __unwind_info
+        0x00000001d3ab5ad0 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3ab5ad0 (    0x10) __DATA_CONST __got
+        0x00000001dbaf92d8 (    0x80) __AUTH_CONST SEGMENT
+            0x00000001dbaf92d8 (    0x80) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

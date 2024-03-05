@@ -1,0 +1,10 @@
+/System/Library/PrivateFrameworks/SiriHomeAccessoryFramework.framework/Versions/A/SiriHomeAccessoryFramework [arm64e, 0.123838 seconds]:
+    11E1DEA2-FF3C-3161-A6CA-84A9CF90843B /System/Library/PrivateFrameworks/SiriHomeAccessoryFramework.framework/Versions/A/SiriHomeAccessoryFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020e273000 (  0x1000) __TEXT SEGMENT
+            0x000000020e273000 (   0xfb8) MACH_HEADER
+            0x000000020e273fb8 (    0x48) __TEXT __const
+                0x000000020e273fb8 (    0x40) SiriHomeAccessoryFrameworkVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020e273ff8 (     0x8) SiriHomeAccessoryFrameworkVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7c4e60 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7c4e60 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

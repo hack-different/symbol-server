@@ -1,0 +1,48 @@
+/System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration [arm64e, 0.023994 seconds]:
+    FC26EDE9-897D-31AB-B2EA-0DB19A0A89FB /System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f1c52000 (  0x4000) __TEXT SEGMENT
+            0x00000001f1c52000 (  0x37f8) MACH_HEADER
+            0x00000001f1c557f8 (   0x610) __TEXT __text
+                0x00000001f1c557f8 (    0x6c) myVTOutputCallback [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f1c55864 (   0x290) VDADecoderCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f1c55af4 (    0xd8) updateAttributesDictForIOSurface [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f1c55bcc (    0x7c) VDADecoderDestroy [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f1c55c48 (   0x168) VDADecoderDecode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f1c55db0 (    0x58) VDADecoderFlush [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001f1c55e08 (   0x140) __TEXT __auth_stubs
+                0x00000001f1c55e08 (    0x10) DYLD-STUB$$CFDataGetBytePtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e18 (    0x10) DYLD-STUB$$CFDataGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e28 (    0x10) DYLD-STUB$$CFDictionaryAddValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e38 (    0x10) DYLD-STUB$$CFDictionaryCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e48 (    0x10) DYLD-STUB$$CFDictionaryCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e58 (    0x10) DYLD-STUB$$CFDictionaryCreateMutableCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e68 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e78 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e88 (    0x10) DYLD-STUB$$CFNumberGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55e98 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55ea8 (    0x10) DYLD-STUB$$CFRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55eb8 (    0x10) DYLD-STUB$$CMBlockBufferCreateWithMemoryBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55ec8 (    0x10) DYLD-STUB$$CMSampleBufferCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55ed8 (    0x10) DYLD-STUB$$FigVideoFormatDescriptionCreateWithSampleDescriptionExtensionAtom [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55ee8 (    0x10) DYLD-STUB$$VTDecompressionSessionCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55ef8 (    0x10) DYLD-STUB$$VTDecompressionSessionDecodeFrame [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55f08 (    0x10) DYLD-STUB$$VTDecompressionSessionInvalidate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55f18 (    0x10) DYLD-STUB$$VTDecompressionSessionWaitForAsynchronousFrames [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55f28 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f1c55f38 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001f1c55f48 (     0x8) __TEXT __const
+            0x00000001f1c55f50 (    0x48) __TEXT __cstring
+            0x00000001f1c55f98 (    0x68) __TEXT __unwind_info
+        0x000000022e0f43f0 (    0x60) __DATA_CONST SEGMENT
+            0x000000022e0f43f0 (    0x30) __DATA_CONST __got
+            0x000000022e0f4420 (    0x30) __DATA_CONST __const
+                0x000000022e0f4420 (     0x8) kVDADecoderConfiguration_Height [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4428 (     0x8) kVDADecoderConfiguration_Width [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4430 (     0x8) kVDADecoderConfiguration_SourceFormat [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4438 (     0x8) kVDADecoderConfiguration_avcCData [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4440 (     0x8) kVDADecoderConfiguration_forceSW [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4448 (     0x8) mykVTVideoDecoderSpecification_RequireHardwareAcceleratedVideoDecoder [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002369175a8 (   0x160) __AUTH_CONST SEGMENT
+            0x00000002369175a8 (    0xc0) __AUTH_CONST __cfstring
+            0x0000000236917668 (    0xa0) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

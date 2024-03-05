@@ -1,0 +1,39 @@
+/System/Library/Accounts/Notification/com.apple.askpermission.AccountNotificationPlugin.bundle/Contents/MacOS/com.apple.askpermission.AccountNotificationPlugin [arm64e, 0.029607 seconds]:
+    99A37FFD-9FED-3966-AACA-77BAD882E516 /System/Library/Accounts/Notification/com.apple.askpermission.AccountNotificationPlugin.bundle/Contents/MacOS/com.apple.askpermission.AccountNotificationPlugin [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e6366000 (  0x4000) __TEXT SEGMENT
+            0x00000001e6366000 (  0x33e4) MACH_HEADER
+            0x00000001e63693e4 (   0x3fc) __TEXT __text
+                0x00000001e63693e4 (   0x3fc) (null) [FUNC, FunctionStarts] 
+            0x00000001e63697e0 (    0x70) __TEXT __auth_stubs
+                0x00000001e63697e0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e63697f0 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6369800 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6369810 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6369820 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6369830 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6369840 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e6369850 (    0x14) __TEXT __objc_methlist
+            0x00000001e6369864 (   0x103) __TEXT __oslogstring
+            0x00000001e6369968 (    0x48) __TEXT __unwind_info
+            0x00000001e63699b0 (    0x40) __TEXT __objc_classname
+            0x00000001e63699f0 (   0x2f7) __TEXT __objc_methname
+            0x00000001e6369ce7 (   0x1f3) __TEXT __objc_methtype
+            0x00000001e6369ee0 (   0x120) __TEXT __objc_stubs
+        0x00000002363d1118 (   0x518) __DATA_CONST SEGMENT
+            0x00000002363d1118 (     0x8) __DATA_CONST __got
+            0x00000002363d1120 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002363d1128 (    0x10) __DATA_CONST __objc_protolist
+            0x00000002363d1138 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002363d1140 (   0x4a0) __DATA_CONST __objc_const
+            0x00000002363d15e0 (    0x50) __DATA_CONST __objc_selrefs
+        0x00000002363d1630 (    0x88) __AUTH_CONST SEGMENT
+            0x00000002363d1630 (    0x48) __AUTH_CONST __objc_const
+            0x00000002363d1678 (    0x40) __AUTH_CONST __auth_got
+        0x000000023219b5a0 (    0x50) __AUTH SEGMENT
+            0x000000023219b5a0 (    0x50) __AUTH __objc_data
+                0x000000023219b5a0 (    0x28) OBJC_METACLASS_$_AccountNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023219b5c8 (    0x28) OBJC_CLASS_$_AccountNotificationPlugin [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002308861d8 (    0xd8) __DATA SEGMENT
+            0x00000002308861d8 (    0x18) __DATA __objc_classrefs
+            0x00000002308861f0 (    0xc0) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

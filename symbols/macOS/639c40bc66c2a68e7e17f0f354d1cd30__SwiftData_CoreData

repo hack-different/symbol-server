@@ -1,0 +1,48 @@
+/System/Library/Frameworks/_SwiftData_CoreData.framework/Versions/A/_SwiftData_CoreData [arm64e, 0.039506 seconds]:
+    313353FF-186E-3340-ADDC-8986C0379744 /System/Library/Frameworks/_SwiftData_CoreData.framework/Versions/A/_SwiftData_CoreData [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f2903000 (  0x1000) __TEXT SEGMENT
+            0x00000001f2903000 (   0xb54) MACH_HEADER
+            0x00000001f2903b54 (   0x34c) __TEXT __text
+                0x00000001f2903b54 (    0xf0) (null) [FUNC, FunctionStarts] 
+                0x00000001f2903c44 (    0x60) (null) [FUNC, FunctionStarts] 
+                0x00000001f2903ca4 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2903ce8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001f2903cf8 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001f2903d38 (    0x50) __swift_destroy_boxed_opaque_existential_0 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2903d88 (   0x118) (null) [FUNC, FunctionStarts] 
+            0x00000001f2903ea0 (    0xb0) __TEXT __auth_stubs
+                0x00000001f2903ea0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903eb0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903ec0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903ed0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903ee0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903ef0 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f00 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f10 (    0x10) DYLD-STUB$$swift_dynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f20 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f30 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f40 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001f2903f50 (    0x42) __TEXT __const
+                0x00000001f2903f50 (    0x38) _SwiftData_CoreDataVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f88 (     0x8) _SwiftData_CoreDataVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2903f90 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001f2903f92 (     0x5) __TEXT __swift5_typeref
+                0x00000001f2903f92 (     0x5) symbolic ypSg [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001f2903f98 (    0x68) __TEXT __unwind_info
+        0x000000022e0f46f0 (    0x48) __DATA_CONST SEGMENT
+            0x000000022e0f46f0 (     0x8) __DATA_CONST __got
+            0x000000022e0f46f8 (    0x38) __DATA_CONST __const
+                0x000000022e0f46f8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4700 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4708 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4710 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4718 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4720 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4728 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$__SwiftData_CoreData [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e0f4730 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023695d110 (    0x58) __AUTH_CONST SEGMENT
+            0x000000023695d110 (    0x58) __AUTH_CONST __auth_got
+        0x0000000230b5d250 (    0x18) __DATA SEGMENT
+            0x0000000230b5d250 (     0x8) __DATA __objc_classrefs
+            0x0000000230b5d258 (    0x10) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

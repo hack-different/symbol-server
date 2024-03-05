@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport [arm64e, 0.030078 seconds]:
+    6C7F6222-A57B-3AFC-A71C-52F0B2A59004 /System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b4d06000 (  0x4000) __TEXT SEGMENT
+            0x00000001b4d06000 (  0x3fb0) MACH_HEADER
+            0x00000001b4d09fb0 (    0x50) __TEXT __const
+                0x00000001b4d09fb0 (    0x48) AccessibilitySupportVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001b4d09ff8 (     0x8) AccessibilitySupportVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

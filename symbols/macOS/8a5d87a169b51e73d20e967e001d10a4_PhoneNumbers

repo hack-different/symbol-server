@@ -1,0 +1,31 @@
+/System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/PlugIns/PhoneNumbers.plugin/Versions/A/PhoneNumbers [arm64e, 0.034205 seconds]:
+    98D924CD-E289-3E95-A20E-41267D6A3307 /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/PlugIns/PhoneNumbers.plugin/Versions/A/PhoneNumbers [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e5ba7000 (  0x3ffc) __TEXT SEGMENT
+            0x00000001e5ba7000 (  0x39d0) MACH_HEADER
+            0x00000001e5baa9d0 (   0x510) __TEXT __text
+                0x00000001e5baa9d0 (     0x8) GetVersion [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baa9d8 (    0x14) GetPrefixInitialState [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baa9ec (    0x14) GetSuffixInitialState [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baaa00 (    0x14) GetResultPostprocessor [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baaa14 (   0x13c) state_167895 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baab50 (   0x170) state_167897 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baacc0 (    0xc0) state_167899 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baad80 (    0xd4) state_167900 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e5baae54 (    0x8c) DDPhonePostprocessResult [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001e5baaee0 (    0x70) __TEXT __auth_stubs
+                0x00000001e5baaee0 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaef0 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf00 (    0x10) DYLD-STUB$$DDDFAScannerSimulateState [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf10 (    0x10) DYLD-STUB$$DDResultAddSubresult [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf20 (    0x10) DYLD-STUB$$DDResultCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf30 (    0x10) DYLD-STUB$$DDResultGetQueryRange [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf40 (    0x10) DYLD-STUB$$DDResultGetType [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e5baaf50 (    0x48) __TEXT __const
+                0x00000001e5baaf50 (    0x40) PhoneNumbersVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e5baaf90 (     0x8) PhoneNumbersVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001e5baaf98 (    0x12) __TEXT __cstring
+            0x00000001e5baafac (    0x50) __TEXT __unwind_info
+        0x000000023636ba00 (    0x78) __AUTH_CONST SEGMENT
+            0x000000023636ba00 (    0x40) __AUTH_CONST __cfstring
+            0x000000023636ba40 (    0x38) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

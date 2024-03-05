@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/StorageManagementService.framework/Versions/A/StorageManagementService [arm64e, 0.035811 seconds]:
+    D216DE14-9AAC-31B0-8217-DFBBF590CB98 /System/Library/PrivateFrameworks/StorageManagementService.framework/Versions/A/StorageManagementService [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021324c000 (  0x4000) __TEXT SEGMENT
+            0x000000021324c000 (  0x3fb0) MACH_HEADER
+            0x000000021324ffb0 (    0x50) __TEXT __const
+                0x000000021324ffb0 (    0x48) StorageManagementServiceVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021324fff8 (     0x8) StorageManagementServiceVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,63 @@
+/System/Library/PrivateFrameworks/AggregateDictionary.framework/Versions/A/AggregateDictionary [arm64e, 0.242140 seconds]:
+    A76D421B-E99D-3A5D-92DF-FABA807BFF24 /System/Library/PrivateFrameworks/AggregateDictionary.framework/Versions/A/AggregateDictionary [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018b4f4000 (  0x2000) __TEXT SEGMENT
+            0x000000018b4f4000 (  0x19c8) MACH_HEADER
+            0x000000018b4f59c8 (   0x418) __TEXT __text
+                0x000000018b4f59c8 (    0x28) ADClientPushValueForDistributionKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f59f0 (    0x28) ADClientAddValueForScalarKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5a18 (    0x28) ADClientClearScalarKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5a40 (    0x28) ADClientSetValueForScalarKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5a68 (    0x3c) +[NSDate(AggregateDictionaryAdditions) daysSince1970] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5aa4 (    0x3c) ADDaysSince1970 [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5ae0 (    0x1c) +[NSDate(AggregateDictionaryAdditions) dateForDaysSince1970:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5afc (    0x28) -[NSDate(AggregateDictionaryAdditions) daysSince1970] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5b24 (    0x40) ADClientIsEnabled [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5b64 (    0x40) ADClientCommit [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5ba4 (    0x40) ADClientCheckpoint [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5be4 (    0x28) ADClientSignificantTimeChanged [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5c0c (    0x28) ADClientClearDistributionKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5c34 (    0x28) ADClientSetValueForDistributionKey [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5c5c (    0x28) ADClientBatchKeys [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5c84 (     0x4) ADMonotonicTimeGetCurrent [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5c88 (    0xb0) ADPushTimeIntervalForDistributionKeySinceStartTime [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5d38 (    0x4c) ADPushTimeIntervalForDistributionKeyTimingBlock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4f5d84 (    0x5c) __ADClientReportRemoval_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018b4f5de0 (    0x60) __TEXT __auth_stubs
+                0x000000018b4f5de0 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5df0 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5e00 (    0x10) DYLD-STUB$$mach_absolute_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5e10 (    0x10) DYLD-STUB$$mach_timebase_info [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5e20 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5e30 (    0x10) DYLD-STUB$$time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018b4f5e40 (    0x34) __TEXT __objc_methlist
+                0x000000018b4f5e40 (    0x20) _OBJC_$_CLASS_METHODS_NSDate(AggregateDictionaryAdditions) [NameNList, MangledNameNList, NList] 
+                0x000000018b4f5e60 (    0x14) _OBJC_$_INSTANCE_METHODS_NSDate(AggregateDictionaryAdditions) [NameNList, MangledNameNList, NList] 
+            0x000000018b4f5e78 (    0x10) __TEXT __const
+            0x000000018b4f5e88 (     0x6) __TEXT __cstring
+            0x000000018b4f5e8e (    0x36) __TEXT __oslogstring
+            0x000000018b4f5ec4 (    0x70) __TEXT __unwind_info
+            0x000000018b4f5f34 (    0x1d) __TEXT __objc_classname
+            0x000000018b4f5f52 (    0x5a) __TEXT __objc_methname
+            0x000000018b4f5fac (    0x13) __TEXT __objc_methtype
+            0x000000018b4f5fc0 (    0x40) __TEXT __objc_stubs
+                0x000000018b4f5fc0 (    0x20) objc_msgSend$dateWithTimeIntervalSince1970: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000018b4f5fe0 (    0x20) objc_msgSend$timeIntervalSince1970 [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001d3aac6d8 (    0x58) __DATA_CONST SEGMENT
+            0x00000001d3aac6d8 (     0x8) __DATA_CONST __got
+            0x00000001d3aac6e0 (    0x20) __DATA_CONST __const
+                0x00000001d3aac6e0 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3aac700 (     0x8) __DATA_CONST __objc_catlist
+            0x00000001d3aac708 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3aac710 (    0x20) __DATA_CONST __objc_selrefs
+        0x00000001db904d68 (    0x98) __AUTH_CONST SEGMENT
+            0x00000001db904d68 (    0x40) __AUTH_CONST __objc_const
+                0x00000001db904d68 (    0x40) _OBJC_$_CATEGORY_NSDate_$_AggregateDictionaryAdditions [NameNList, MangledNameNList, NList] 
+            0x00000001db904da8 (    0x20) __AUTH_CONST __const
+                0x00000001db904da8 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000001db904dc8 (    0x38) __AUTH_CONST __auth_got
+        0x00000001d5d1bfb0 (    0x18) __DATA SEGMENT
+            0x00000001d5d1bfb0 (     0x8) __DATA __objc_classrefs
+            0x00000001d5d1bfb8 (    0x10) __DATA __bss
+                0x00000001d5d1bfb8 (     0x8) ADClientReportRemoval.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000001d5d1bfc0 (     0x8) __timeIntervalBetweenMonotonicTimes.__timebaseFactor [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

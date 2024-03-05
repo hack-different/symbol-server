@@ -1,0 +1,107 @@
+/usr/lib/swift/libswiftVideoToolbox.dylib [arm64e, 0.309555 seconds]:
+    F5A39EFE-C203-3E6F-A93B-2CEDB9BEDEA4 /usr/lib/swift/libswiftVideoToolbox.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022160d000 (  0x2000) __TEXT SEGMENT
+            0x000000022160d000 (  0x1578) MACH_HEADER
+            0x000000022160e578 (   0x628) __TEXT __text
+                0x000000022160e578 (     0xc) VTDecompressionSessionCreate(allocator:formatDescription:decoderSpecification:imageBufferAttributes:decompressionSessionOut:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e584 (   0x10c) VTDecompressionSessionDecodeFrame(_:sampleBuffer:flags:infoFlagsOut:completionHandler:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e690 (    0xcc) intermediateOutputHandler2 #1 @Sendable (_:_:_:_:_:_:) in VTDecompressionSessionDecodeFrame(_:sampleBuffer:flags:infoFlagsOut:completionHandler:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e75c (    0x38) (null) [FUNC, FunctionStarts] 
+                0x000000022160e794 (    0x30) partial apply for intermediateOutputHandler2 #1 @Sendable (_:_:_:_:_:_:) in VTDecompressionSessionDecodeFrame(_:sampleBuffer:flags:infoFlagsOut:completionHandler:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e7c4 (    0xe0) thunk for @escaping @callee_guaranteed @Sendable (@unowned Int32, @unowned VTDecodeInfoFlags, @guaranteed CVBufferRef?, @guaranteed CMTaggedBufferGroupRef?, @unowned CMTime, @unowned CMTime) -> () [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8a4 (    0x10) block_copy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8b4 (     0x8) block_destroy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8bc (    0x14) __swift_memcpy24_4 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8d0 (     0x4) __swift_noop_void_return [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8d4 (    0x20) getEnumTagSinglePayload for CMTime [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e8f4 (    0x2c) storeEnumTagSinglePayload for CMTime [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e920 (    0x14) type metadata accessor for CMTime [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e934 (    0x14) type metadata accessor for CVBufferRef [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e948 (    0x14) type metadata accessor for VTDecodeInfoFlags [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e95c (    0x14) type metadata accessor for CMTimeFlags [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e970 (    0x48) type metadata accessor for CMTime [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160e9b8 (   0x14c) VTCompressionSessionEncodeMultiImageFrame(_:taggedBuffers:presentationTimeStamp:duration:frameProperties:infoFlagsOut:outputHandler:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160eb04 (    0x84) thunk for @escaping @callee_guaranteed @Sendable (@unowned Int32, @unowned VTEncodeInfoFlags, @guaranteed CMSampleBufferRef?) -> () [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160eb88 (    0x10) block_copy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022160eb98 (     0x8) block_destroy_helper [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022160eba0 (   0x110) __TEXT __auth_stubs
+                0x000000022160eba0 (    0x10) DYLD-STUB$$noErr.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ebb0 (    0x10) DYLD-STUB$$Array<A>.init(taggedBufferGroup:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ebc0 (    0x10) DYLD-STUB$$Array<A>.taggedBufferGroup.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ebd0 (    0x10) DYLD-STUB$$VTCompressionSessionEncodeMultiImageFrameWithOutputHandler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ebe0 (    0x10) DYLD-STUB$$VTDecompressionSessionCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ebf0 (    0x10) DYLD-STUB$$VTDecompressionSessionDecodeFrameWithMultiImageCapableOutputHandler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec00 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec10 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec20 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec30 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec40 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec50 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease_n [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec60 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec70 (    0x10) DYLD-STUB$$swift_deallocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec80 (    0x10) DYLD-STUB$$swift_getForeignTypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160ec90 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022160eca0 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022160ecb0 (    0x60) __TEXT __const
+                0x000000022160ed0e (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160ed10 (    0x54) __TEXT __swift5_typeref
+                0x000000022160ed10 (    0x30) symbolic _______________SgSay_____GSg_____AHIeghyyggyy_ s5Int32V So17VTDecodeInfoFlagsV So11CVBufferRefa 9CoreMedia14CMTaggedBufferV So6CMTimea [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed40 (     0x6) symbolic _____ So6CMTimea [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed46 (     0x6) symbolic _____ s5Int64V [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed4c (     0x6) symbolic _____ s5Int32V [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed52 (     0x6) symbolic _____ So11CMTimeFlagsV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed58 (     0x6) symbolic _____ So17VTDecodeInfoFlagsV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ed5e (     0x6) symbolic _____ s6UInt32V [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160ed64 (    0x10) __TEXT __swift5_capture
+            0x000000022160ed80 (    0x76) __TEXT __cstring
+            0x000000022160edf8 (    0x9c) __TEXT __constg_swiftt
+                0x000000022160edf8 (     0xc) module descriptor  [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ee04 (    0x20) nominal type descriptor for CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ee24 (    0x30) nominal type descriptor for CVBufferRef [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ee54 (    0x20) nominal type descriptor for VTDecodeInfoFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ee74 (    0x20) nominal type descriptor for CMTimeFlags [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160ee94 (    0x3c) __TEXT __swift5_builtin
+                0x000000022160ee94 (    0x14) reflection metadata builtin descriptor CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160eea8 (    0x14) reflection metadata builtin descriptor VTDecodeInfoFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160eebc (    0x14) reflection metadata builtin descriptor CMTimeFlags [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160eed0 (    0x25) __TEXT __swift5_reflstr
+            0x000000022160eef8 (    0x78) __TEXT __swift5_fieldmd
+                0x000000022160eef8 (    0x40) reflection metadata field descriptor CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ef38 (    0x1c) reflection metadata field descriptor VTDecodeInfoFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022160ef54 (    0x1c) reflection metadata field descriptor CMTimeFlags [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022160ef70 (    0x10) __TEXT __swift5_types
+            0x000000022160ef80 (    0x80) __TEXT __unwind_info
+        0x000000022e8454f8 (    0x68) __DATA_CONST SEGMENT
+            0x000000022e8454f8 (     0x8) __DATA_CONST __got
+            0x000000022e845500 (    0x58) __DATA_CONST __const
+                0x000000022e845500 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845508 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845510 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845518 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845520 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845528 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845530 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845538 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845540 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845548 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e845550 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$_VideoToolbox [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e845558 (     0x8) __DATA_CONST __objc_imageinfo
+        0x0000000238320448 (   0x228) __AUTH_CONST SEGMENT
+            0x0000000238320448 (   0x1a0) __AUTH_CONST __const
+                0x0000000238320480 (    0x28) block_descriptor [NameNList, MangledNameNList, NList] 
+                0x00000002383204a8 (    0x58) value witness table for CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238320500 (    0x30) full type metadata for CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238320530 (    0x30) full type metadata for CVBufferRef [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238320560 (    0x38) full type metadata for VTDecodeInfoFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238320598 (    0x28) full type metadata for CMTimeFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383205c0 (    0x28) block_descriptor [NameNList, MangledNameNList, NList] 
+            0x00000002383205e8 (    0x88) __AUTH_CONST __auth_got
+        0x0000000231b74270 (    0x21) __DATA SEGMENT
+            0x0000000231b74270 (    0x20) __DATA __data
+                0x0000000231b74270 (     0x8) lazy cache variable for type metadata for CMTime [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b74278 (     0x8) lazy cache variable for type metadata for CVBufferRef [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b74280 (     0x8) lazy cache variable for type metadata for VTDecodeInfoFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b74288 (     0x8) lazy cache variable for type metadata for CMTimeFlags [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231b74290 (     0x1) __DATA __common
+                0x0000000231b74290 (     0x1) _swift_FORCE_LOAD_$_swiftVideoToolbox [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,93 @@
+/usr/lib/system/libsystem_featureflags.dylib [arm64e, 0.024340 seconds]:
+    E52FAB77-7424-3679-864F-350DE6B07098 /usr/lib/system/libsystem_featureflags.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001802d0000 (  0x3000) __TEXT SEGMENT
+            0x00000001802d0000 (   0xc80) MACH_HEADER
+            0x00000001802d0c80 (  0x1da8) __TEXT __text
+                0x00000001802d0c80 (   0x510) _os_feature_enabled_impl [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1190 (    0x54) _os_feature_table [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d11e4 (    0xd8) _os_feature_table_once [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d12bc (     0xc) _os_feature_search_paths [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d12c8 (     0xc) _os_feature_internal_search_path [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d12d4 (   0x8b4) _os_feature_enabled_SLOWPATH [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1b88 (   0x1a0) _os_feature_enabled_load [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1d28 (   0x154) _os_feature_enabled_extract [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1e7c (    0x84) _os_feature_enabled_extract_domain [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1f00 (    0x7c) ___os_featureenabled_slow_load_disclosures_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1f7c (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1f84 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d1f8c (    0x9c) ___os_featureenabled_slow_load_disclosures_block_invoke.7 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d2028 (   0x158) _os_feature_enabled_write_nested_value_into_plist [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d2180 (    0x40) _os_feature_enabled_is_safe_mode [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d21c0 (   0x4a4) _os_feature_enabled_simple_impl [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d2664 (    0x48) _os_feature_enabled_envvar_check_once [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d26ac (   0x360) simple_hash_final [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001802d2a0c (    0x1c) _os_feature_enabled_write_nested_value_into_plist.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001802d2a28 (   0x2a0) __TEXT __auth_stubs
+                0x00000001802d2a28 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a38 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a48 (    0x10) DYLD-STUB$$__strlcat_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a58 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a68 (    0x10) DYLD-STUB$$_os_crash [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a78 (    0x10) DYLD-STUB$$_os_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a88 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2a98 (    0x10) DYLD-STUB$$close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2aa8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ab8 (    0x10) DYLD-STUB$$fstat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ac8 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ad8 (    0x10) DYLD-STUB$$lseek [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ae8 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2af8 (    0x10) DYLD-STUB$$mmap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b08 (    0x10) DYLD-STUB$$munmap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b18 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b28 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b38 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b48 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b58 (    0x10) DYLD-STUB$$objc_retainBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b68 (    0x10) DYLD-STUB$$open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b78 (    0x10) DYLD-STUB$$os_parse_boot_arg_int [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b88 (    0x10) DYLD-STUB$$os_unfair_lock_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2b98 (    0x10) DYLD-STUB$$os_unfair_lock_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ba8 (    0x10) DYLD-STUB$$pread [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2bb8 (    0x10) DYLD-STUB$$shm_open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2bc8 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2bd8 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2be8 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2bf8 (    0x10) DYLD-STUB$$strsep [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c08 (    0x10) DYLD-STUB$$xpc_bool_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c18 (    0x10) DYLD-STUB$$xpc_create_from_plist [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c28 (    0x10) DYLD-STUB$$xpc_dictionary_apply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c38 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c48 (    0x10) DYLD-STUB$$xpc_dictionary_create_empty [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c58 (    0x10) DYLD-STUB$$xpc_dictionary_get_bool [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c68 (    0x10) DYLD-STUB$$xpc_dictionary_get_dictionary [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c78 (    0x10) DYLD-STUB$$xpc_dictionary_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c88 (    0x10) DYLD-STUB$$xpc_dictionary_set_bool [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2c98 (    0x10) DYLD-STUB$$xpc_dictionary_set_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2ca8 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001802d2cb8 (    0x10) DYLD-STUB$$xpc_string_get_string_ptr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001802d2cc8 (    0x50) __TEXT __const
+                0x00000001802d2cc8 (    0x40) __system_featureflagsVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001802d2d08 (    0x10) __system_featureflagsVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001802d2d18 (   0x254) __TEXT __cstring
+            0x00000001802d2f6c (    0x94) __TEXT __unwind_info
+        0x00000001d3a05100 (    0x40) __DATA_CONST SEGMENT
+            0x00000001d3a05100 (    0x38) __DATA_CONST __got
+            0x00000001d3a05138 (     0x8) __DATA_CONST __objc_imageinfo
+        0x00000001dabd1eb0 (   0x180) __AUTH_CONST SEGMENT
+            0x00000001dabd1eb0 (    0x30) __AUTH_CONST __const
+                0x00000001dabd1eb0 (    0x30) __block_descriptor_40_e8_32s_e37_B24?0r*8"NSObject<OS_xpc_object>"16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001dabd1ee0 (   0x150) __AUTH_CONST __auth_got
+        0x00000001d5b8abe8 (    0x39) __DATA SEGMENT
+            0x00000001d5b8abe8 (    0x19) __DATA __data
+                0x00000001d5b8abe8 (    0x18) _os_feature_search_paths.paths [NameNList, MangledNameNList, NList] 
+                0x00000001d5b8ac00 (     0x1) sep [NameNList, MangledNameNList, NList] 
+            0x00000001d5b8ac08 (    0x19) __DATA __bss
+                0x00000001d5b8ac08 (     0x8) _slow_cache_lock [NameNList, MangledNameNList, NList] 
+                0x00000001d5b8ac10 (     0x8) _slow_cache [NameNList, MangledNameNList, NList] 
+                0x00000001d5b8ac18 (     0x8) _os_feature_enabled_impl.envvar_once [NameNList, MangledNameNList, NList] 
+                0x00000001d5b8ac20 (     0x1) _os_feature_enabled_impl._os_feature_enabled_envvar_present [NameNList, MangledNameNList, NList] 
+        0x00000001d6d18428 (    0x10) __DATA_DIRTY SEGMENT
+            0x00000001d6d18428 (    0x10) __DATA_DIRTY __bss
+                0x00000001d6d18428 (     0x8) _os_feature_table.table_once [NameNList, MangledNameNList, NList] 
+                0x00000001d6d18430 (     0x8) _os_feature_table_table [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/EventMetaDataExtractor.framework/Versions/A/EventMetaDataExtractor [arm64e, 0.422665 seconds]:
+    9CC09616-3587-39F2-8271-78B2E2920D69 /System/Library/PrivateFrameworks/EventMetaDataExtractor.framework/Versions/A/EventMetaDataExtractor [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fadc8000 (  0x4000) __TEXT SEGMENT
+            0x00000001fadc8000 (  0x3fb0) MACH_HEADER
+            0x00000001fadcbfb0 (    0x50) __TEXT __const
+                0x00000001fadcbfb0 (    0x48) EventMetaDataExtractorVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fadcbff8 (     0x8) EventMetaDataExtractorVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

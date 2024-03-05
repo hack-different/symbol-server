@@ -1,0 +1,113 @@
+/usr/lib/libffi.dylib [arm64e, 0.028221 seconds]:
+    46A47037-973B-3665-A579-071DDAC69DD6 /usr/lib/libffi.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000190fcb000 ( 0x11650) __TEXT SEGMENT
+            0x0000000190fcb000 (  0x4000) MACH_HEADER
+            0x0000000190fcf000 (  0xd1b8) __TEXT __text
+                0x0000000190fcf000 (    0x8c) ffi_java_raw_size [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf08c (    0x68) ffi_java_raw_to_ptrarray [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf0f4 (    0xcc) ffi_java_ptrarray_to_raw [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf1c0 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x0000000190fcf1f4 (    0xc8) ffi_java_raw_call [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf2bc (    0x50) ffi_prep_java_raw_closure_loc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf30c (    0xc8) ffi_java_translate_args [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf3d4 (    0x54) ffi_prep_java_raw_closure [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf428 (    0x5c) ffi_raw_size [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf484 (    0x60) ffi_raw_to_ptrarray [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf4e4 (   0x114) ffi_ptrarray_to_raw [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf5f8 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x0000000190fcf624 (    0xc8) ffi_raw_call [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf6ec (    0x50) ffi_prep_raw_closure_loc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf73c (    0xc8) ffi_translate_args [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf804 (    0x54) ffi_prep_raw_closure [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf858 (   0x160) ffi_prep_cif_core [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcf9b8 (    0xe0) initialize_aggregate [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcfa98 (    0x18) ffi_prep_cif [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcfab0 (    0xb0) ffi_prep_cif_var [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fcfb60 (  0x34a0) ffi_get_struct_offsets [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fd3000 (   0x190) ffi_call_SYSV [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fd3190 (    0x20) ffi_closure_SYSV_V [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fd31b0 (  0x3e50) ffi_closure_SYSV [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fd7000 (  0x4000) ffi_closure_trampoline_table_page [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb000 (   0x220) ffi_closure_alloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb220 (    0xdc) ffi_closure_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb2fc (    0x48) __ffi_trampoline_table_alloc_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb344 (   0x130) ffi_prep_cif_machdep [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb474 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000190fdb4b4 (   0x13c) is_vfp_type [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb5f0 (    0x30) ffi_prep_cif_machdep_var [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb620 (     0x4) ffi_call [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdb624 (   0x508) ffi_call_int [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdbb2c (    0x40) (null) [FUNC, FunctionStarts] 
+                0x0000000190fdbb6c (    0x80) ffi_prep_closure_loc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdbbec (     0xc) ffi_find_closure_for_code_np [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdbbf8 (   0x374) ffi_closure_SYSV_inner [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdbf6c (    0xec) compress_hfa_type [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc058 (    0x20) (null) [FUNC, FunctionStarts] 
+                0x0000000190fdc078 (    0x58) is_hfa0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc0d0 (    0x70) is_hfa1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc140 (     0x8) ffi_tramp_is_supported [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc148 (     0x8) ffi_tramp_alloc [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc150 (     0x4) ffi_tramp_set_parms [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc154 (     0x8) ffi_tramp_get_addr [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc15c (     0x4) ffi_tramp_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc160 (    0x2c) __ffi_trampoline_table_alloc_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000190fdc18c (    0x2c) __ffi_trampoline_table_alloc_block_invoke.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000190fdc1b8 (   0x100) __TEXT __auth_stubs
+                0x0000000190fdc1b8 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc1c8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc1d8 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc1e8 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc1f8 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc208 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc218 (    0x10) DYLD-STUB$$dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc228 (    0x10) DYLD-STUB$$dlsym [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc238 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc248 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc258 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc268 (    0x10) DYLD-STUB$$pthread_mutex_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc278 (    0x10) DYLD-STUB$$pthread_mutex_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc288 (    0x10) DYLD-STUB$$vm_allocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc298 (    0x10) DYLD-STUB$$vm_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc2a8 (    0x10) DYLD-STUB$$vm_remap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000190fdc2b8 (   0x150) __TEXT __const
+                0x0000000190fdc2b8 (    0x28) libffiVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc2e0 (     0x8) libffiVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc2e8 (    0x18) ffi_type_void [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc300 (    0x18) ffi_type_uint8 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc318 (    0x18) ffi_type_sint8 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc330 (    0x18) ffi_type_uint16 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc348 (    0x18) ffi_type_sint16 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc360 (    0x18) ffi_type_uint32 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc378 (    0x18) ffi_type_sint32 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc390 (    0x18) ffi_type_uint64 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc3a8 (    0x18) ffi_type_sint64 [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc3c0 (    0x18) ffi_type_pointer [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc3d8 (    0x18) ffi_type_float [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fdc3f0 (    0x18) ffi_type_double [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000190fdc408 (    0xa5) __TEXT __cstring
+            0x0000000190fdc4b0 (   0x10c) __TEXT __unwind_info
+            0x0000000190fdc5c0 (    0x90) __TEXT __eh_frame
+        0x00000001d3ade9e0 (    0x60) __DATA_CONST SEGMENT
+            0x00000001d3ade9e0 (    0x10) __DATA_CONST __got
+            0x00000001d3ade9f0 (    0x50) __DATA_CONST __const
+                0x00000001d3ade9f0 (    0x18) ffi_type_complex_float [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3adea08 (    0x18) ffi_type_complex_double [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3adea20 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+        0x00000001dbe24520 (    0xb8) __AUTH_CONST SEGMENT
+            0x00000001dbe24520 (    0x18) __AUTH_CONST __auth_ptr
+            0x00000001dbe24538 (    0x20) __AUTH_CONST __const
+                0x00000001dbe24538 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000001dbe24558 (    0x80) __AUTH_CONST __auth_got
+        0x00000001d5dde570 (    0x28) __DATA SEGMENT
+            0x00000001d5dde570 (    0x20) __DATA __data
+                0x00000001d5dde570 (    0x10) ffi_elements_complex_float [NameNList, MangledNameNList, NList] 
+                0x00000001d5dde580 (    0x10) ffi_elements_complex_double [NameNList, MangledNameNList, NList] 
+            0x00000001d5dde590 (     0x8) __DATA __bss
+                0x00000001d5dde590 (     0x8) ffi_trampoline_table_alloc.trampoline_table_page [NameNList, MangledNameNList, NList] 
+        0x00000001d6dd0218 (    0x50) __DATA_DIRTY SEGMENT
+            0x00000001d6dd0218 (    0x40) __DATA_DIRTY __data
+                0x00000001d6dd0218 (    0x40) ffi_trampoline_lock [NameNList, MangledNameNList, NList] 
+            0x00000001d6dd0258 (    0x10) __DATA_DIRTY __bss
+                0x00000001d6dd0258 (     0x8) ffi_trampoline_tables [NameNList, MangledNameNList, NList] 
+                0x00000001d6dd0260 (     0x8) ffi_trampoline_table_alloc.trampoline_template_init_once [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

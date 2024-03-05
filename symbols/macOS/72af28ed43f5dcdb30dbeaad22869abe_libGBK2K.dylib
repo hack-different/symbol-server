@@ -1,0 +1,33 @@
+/usr/lib/i18n/libGBK2K.dylib [arm64e, 0.023782 seconds]:
+    E154FDEA-DBD5-3CAB-97B3-89111E846E5B /usr/lib/i18n/libGBK2K.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff63000 (  0x4000) __TEXT SEGMENT
+            0x000000021ff63000 (  0x382c) MACH_HEADER
+            0x000000021ff6682c (   0x704) __TEXT __text
+                0x000000021ff6682c (    0xec) _citrus_GBK2K_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66918 (    0x10) _citrus_GBK2K_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66928 (    0xf4) _citrus_GBK2K_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66a1c (    0x74) _citrus_GBK2K_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66a90 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000021ff66aa4 (    0x58) _citrus_GBK2K_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66afc (     0x8) _citrus_GBK2K_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66b04 (     0xc) _citrus_GBK2K_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66b10 (    0x28) _citrus_GBK2K_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66b38 (    0x30) _citrus_GBK2K_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66b68 (   0x1f0) _citrus_GBK2K_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff66d58 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000021ff66d68 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000021ff66d78 (   0x1b8) _citrus_GBK2K_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff66f30 (    0x50) __TEXT __auth_stubs
+                0x000000021ff66f30 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff66f40 (    0x10) DYLD-STUB$$_citrus_bcs_strncasecmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff66f50 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff66f60 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff66f70 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff66f80 (     0x8) __TEXT __cstring
+            0x000000021ff66f88 (    0x78) __TEXT __unwind_info
+        0x0000000238249ad8 (    0x28) __AUTH_CONST SEGMENT
+            0x0000000238249ad8 (    0x28) __AUTH_CONST __auth_got
+        0x00000002332f3b70 (    0x58) __AUTH SEGMENT
+            0x00000002332f3b70 (    0x58) __AUTH __data
+                0x00000002332f3b70 (    0x58) _citrus_GBK2K_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,8 @@
+/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz [arm64e, 0.027872 seconds]:
+    7EF9C0C8-F060-3C81-93F5-1F56155B0D5A /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001a9767000 (  0x4000) __TEXT SEGMENT
+            0x00000001a9767000 (  0x3fd0) MACH_HEADER
+            0x00000001a976afd0 (    0x30) __TEXT __const
+                0x00000001a976afd0 (    0x28) QuartzVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001a976aff8 (     0x8) QuartzVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

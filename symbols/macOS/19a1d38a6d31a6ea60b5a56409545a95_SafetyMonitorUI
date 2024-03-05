@@ -1,0 +1,130 @@
+/System/Library/PrivateFrameworks/SafetyMonitorUI.framework/Versions/A/SafetyMonitorUI [arm64e, 0.062440 seconds]:
+    C5DE8117-26AA-3F10-A78B-D9EBD557FA2F /System/Library/PrivateFrameworks/SafetyMonitorUI.framework/Versions/A/SafetyMonitorUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020cfbd000 (  0x3ffc) __TEXT SEGMENT
+            0x000000020cfbd000 (  0x2fcc) MACH_HEADER
+            0x000000020cfbffcc (   0xa94) __TEXT __text
+                0x000000020cfbffcc (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020cfbffd4 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020cfbffdc (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020cfbffe0 (    0xf4) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc00d4 (    0x68) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc013c (    0x60) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc019c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc01a8 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0204 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0220 (   0x174) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0394 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0398 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc03ec (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0420 (    0x44) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0464 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc04b4 (    0x80) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0534 (     0xc) __swift_memcpy32_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020cfc0540 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0598 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc05e0 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0620 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0630 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0670 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0684 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0694 (    0x28) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc06bc (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0704 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0718 (    0x48) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0760 (    0x2c) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc078c (    0x44) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc07d0 (    0x4c) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc081c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0820 (    0x54) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0874 (     0xc) __swift_memcpy1_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020cfc0880 (     0x4) __swift_noop_void_return [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020cfc0884 (    0x90) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0914 (    0xcc) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc09e0 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc09f4 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a08 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a10 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a14 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a1c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a2c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000020cfc0a3c (    0x24) (null) [FUNC, FunctionStarts] 
+            0x000000020cfc0a60 (   0x130) __TEXT __auth_stubs
+                0x000000020cfc0a60 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0a70 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0a80 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0a90 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0aa0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0ab0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0ac0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0ad0 (    0x10) DYLD-STUB$$$$$indirect-absolute-symbol$$$ [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0ae0 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0af0 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b00 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b10 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b20 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b30 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b40 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b50 (    0x10) DYLD-STUB$$swift_deallocClassInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b60 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b70 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0b80 (    0x10) DYLD-STUB$$swift_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020cfc0b90 (   0x198) __TEXT __const
+                0x000000020cfc0c30 (    0xb8) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0ce8 (    0x38) SafetyMonitorUIVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d20 (     0x8) SafetyMonitorUIVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000020cfc0d28 (    0x56) __TEXT __swift5_typeref
+                0x000000020cfc0d28 (     0x8) associated conformance 15SafetyMonitorUI31LocationSearchRowCompletionItemVSHAASQ [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d30 (     0x6) symbolic _____ 15SafetyMonitorUI31LocationSearchRowCompletionItemV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d36 (    0x20) symbolic So23MKLocalSearchCompletionCSg [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d56 (    0x10) symbolic So9MKMapItemCSg [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d66 (     0x4) symbolic SS [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d6a (     0x8) associated conformance 15SafetyMonitorUI12GeofenceSizeOSHAASQ [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d72 (     0x6) symbolic _____ 15SafetyMonitorUI12GeofenceSizeO [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020cfc0d78 (     0x6) symbolic _____ 15SafetyMonitorUI19ResourceBundleClass33_29A240E06FBF64979335498FE79CEF73LLC [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020cfc0d80 (    0x88) __TEXT __constg_swiftt
+            0x000000020cfc0e10 (    0x31) __TEXT __swift5_reflstr
+            0x000000020cfc0e44 (    0x78) __TEXT __swift5_fieldmd
+            0x000000020cfc0ebc (    0x10) __TEXT __swift5_proto
+            0x000000020cfc0ecc (     0xc) __TEXT __swift5_types
+            0x000000020cfc0ee0 (    0x4f) __TEXT __cstring
+            0x000000020cfc0f30 (    0xc4) __TEXT __unwind_info
+            0x000000020cfc0ff4 (     0x8) __TEXT __objc_methname
+        0x0000000234d876a8 (   0x150) __DATA_CONST SEGMENT
+            0x0000000234d876a8 (    0xa8) __DATA_CONST __const
+                0x0000000234d876a8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876b0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876b8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876c0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876c8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876d0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876d8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876e0 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876e8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876f0 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d876f8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87700 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87708 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87710 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87718 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87720 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87728 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87730 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87738 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87740 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000234d87748 (     0x8) _swift_FORCE_LOAD_$_swiftMapKit_$_SafetyMonitorUI [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000234d87750 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000234d87758 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000234d87760 (    0x90) __DATA_CONST __objc_const
+                0x0000000234d87760 (    0x48) _METACLASS_DATA__TtC15SafetyMonitorUIP33_29A240E06FBF64979335498FE79CEF7319ResourceBundleClass [NameNList, MangledNameNList, NList] 
+                0x0000000234d877a8 (    0x48) _DATA__TtC15SafetyMonitorUIP33_29A240E06FBF64979335498FE79CEF7319ResourceBundleClass [NameNList, MangledNameNList, NList] 
+            0x0000000234d877f0 (     0x8) __DATA_CONST __objc_selrefs
+        0x0000000237b86610 (   0x220) __AUTH_CONST SEGMENT
+            0x0000000237b86610 (   0x188) __AUTH_CONST __const
+            0x0000000237b86798 (    0x98) __AUTH_CONST __auth_got
+        0x0000000232b15e78 (    0x98) __AUTH SEGMENT
+            0x0000000232b15e78 (    0x98) __AUTH __data
+        0x0000000231537800 (   0x220) __DATA SEGMENT
+            0x0000000231537800 (     0x8) __DATA __objc_classrefs
+            0x0000000231537808 (    0x18) __DATA __data
+            0x0000000231537820 (   0x200) __DATA __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

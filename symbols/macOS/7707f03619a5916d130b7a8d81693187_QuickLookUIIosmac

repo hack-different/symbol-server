@@ -1,0 +1,38 @@
+/System/Library/PrivateFrameworks/QuickLookUIIosmac.framework/Versions/A/QuickLookUIIosmac [arm64e, 0.027217 seconds]:
+    2D8D24BB-92CF-39F5-835A-A1CA22487790 /System/Library/PrivateFrameworks/QuickLookUIIosmac.framework/Versions/A/QuickLookUIIosmac [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c4004000 (  0x1000) __TEXT SEGMENT
+            0x00000001c4004000 (   0xe84) MACH_HEADER
+            0x00000001c4004e84 (    0x34) __TEXT __text
+                0x00000001c4004e84 (     0xc) +[QLIosmacPreviewViewHelper previewMode:supportsBehavior:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c4004e90 (    0x28) sharedQLIosMacPanelHelper [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001c4004eb8 (    0x20) __TEXT __auth_stubs
+                0x00000001c4004eb8 (    0x10) DYLD-STUB$$QLPreviewTestBehavior [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c4004ec8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c4004ed8 (    0x14) __TEXT __objc_methlist
+                0x00000001c4004ed8 (    0x14) _OBJC_$_CLASS_METHODS_QLIosmacPreviewViewHelper [NameNList, MangledNameNList, NList] 
+            0x00000001c4004ef0 (    0x40) __TEXT __const
+                0x00000001c4004ef0 (    0x38) QuickLookUIIosmacVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001c4004f28 (     0x8) QuickLookUIIosmacVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001c4004f30 (    0x50) __TEXT __unwind_info
+            0x00000001c4004f80 (    0x1a) __TEXT __objc_classname
+            0x00000001c4004f9a (    0x31) __TEXT __objc_methname
+            0x00000001c4004fcb (     0xe) __TEXT __objc_methtype
+            0x00000001c4004fe0 (    0x20) __TEXT __objc_stubs
+                0x00000001c4004fe0 (    0x20) objc_msgSend$sharedPreviewPanel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001df683b98 (    0x68) __DATA_CONST SEGMENT
+            0x00000001df683b98 (     0x8) __DATA_CONST __objc_classlist
+            0x00000001df683ba0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001df683ba8 (    0x48) __DATA_CONST __objc_const
+                0x00000001df683ba8 (    0x48) _OBJC_CLASS_RO_$_QLIosmacPreviewViewHelper [NameNList, MangledNameNList, NList] 
+            0x00000001df683bf0 (    0x10) __DATA_CONST __objc_selrefs
+        0x00000001df683c00 (    0x60) __AUTH_CONST SEGMENT
+            0x00000001df683c00 (    0x48) __AUTH_CONST __objc_const
+                0x00000001df683c00 (    0x48) _OBJC_METACLASS_RO_$_QLIosmacPreviewViewHelper [NameNList, MangledNameNList, NList] 
+            0x00000001df683c48 (    0x18) __AUTH_CONST __auth_got
+        0x00000001d7c25980 (    0x50) __AUTH SEGMENT
+            0x00000001d7c25980 (    0x50) __AUTH __objc_data
+                0x00000001d7c25980 (    0x28) OBJC_METACLASS_$_QLIosmacPreviewViewHelper [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d7c259a8 (    0x28) OBJC_CLASS_$_QLIosmacPreviewViewHelper [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d687ad40 (     0x8) __DATA SEGMENT
+            0x00000001d687ad40 (     0x8) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

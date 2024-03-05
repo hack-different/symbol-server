@@ -1,0 +1,87 @@
+/usr/lib/libBASupport.dylib [arm64e, 0.030048 seconds]:
+    C5709333-CCA0-37C4-9577-13C3A98430F8 /usr/lib/libBASupport.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002200de000 (  0x4000) __TEXT SEGMENT
+            0x00000002200de000 (  0x30c8) MACH_HEADER
+            0x00000002200e10c8 (   0x888) __TEXT __text
+                0x00000002200e10c8 (    0x5c) ba_is_current_process_extension [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1124 (   0x270) ba_is_process_extension_ls [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1394 (   0x268) ba_is_process_extension [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e15fc (    0x58) __getLSBundleRecordClass_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1654 (    0xfc) CoreServicesLibrary [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1750 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1760 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e176c (    0x74) __CoreServicesLibraryCore_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e17e0 (    0x58) __getLSApplicationExtensionRecordClass_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1838 (    0x28) ba_is_process_extension_ls.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1860 (    0x78) ba_is_process_extension_ls.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e18d8 (    0x28) ba_is_process_extension.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1900 (    0x28) __getLSBundleRecordClass_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002200e1928 (    0x28) __getLSApplicationExtensionRecordClass_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002200e1950 (   0x1d0) __TEXT __auth_stubs
+                0x00000002200e1950 (    0x10) DYLD-STUB$$CFBundleCopyInfoDictionaryForURL [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1960 (    0x10) DYLD-STUB$$CFDictionaryGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1970 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1980 (    0x10) DYLD-STUB$$CFGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1990 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19a0 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19b0 (    0x10) DYLD-STUB$$CFStringCreateWithFileSystemRepresentation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19c0 (    0x10) DYLD-STUB$$CFStringGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19d0 (    0x10) DYLD-STUB$$CFURLCreateWithFileSystemPath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19e0 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e19f0 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a00 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a10 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a20 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a30 (    0x10) DYLD-STUB$$_sl_dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a40 (    0x10) DYLD-STUB$$abort_report_np [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a50 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a60 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a70 (    0x10) DYLD-STUB$$objc_getClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a80 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1a90 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1aa0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1ab0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1ac0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1ad0 (    0x10) DYLD-STUB$$objc_terminate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1ae0 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1af0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1b00 (    0x10) DYLD-STUB$$proc_pidpath_audittoken [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002200e1b10 (    0x10) DYLD-STUB$$task_info [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002200e1b20 (    0x58) __TEXT __const
+                0x00000002200e1b20 (    0x38) BASupportVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002200e1b58 (    0x20) BASupportVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002200e1b78 (    0x6c) __TEXT __gcc_except_tab
+                0x00000002200e1b78 (    0x1c) GCC_except_table1 [NameNList, MangledNameNList, NList] 
+                0x00000002200e1b94 (    0x50) GCC_except_table2 [NameNList, MangledNameNList, NList] 
+            0x00000002200e1be4 (   0x21a) __TEXT __cstring
+            0x00000002200e1dfe (    0x46) __TEXT __oslogstring
+            0x00000002200e1e44 (    0x4f) __TEXT __dlopen_cstrs
+                0x00000002200e1e44 (    0x4f) audit_stringCoreServices [NameNList, MangledNameNList, NList] 
+            0x00000002200e1e94 (    0x94) __TEXT __unwind_info
+            0x00000002200e1f28 (     0x1) __TEXT __objc_classname
+            0x00000002200e1f2a (    0x55) __TEXT __objc_methname
+            0x00000002200e1f80 (    0x80) __TEXT __objc_stubs
+                0x00000002200e1f80 (    0x20) objc_msgSend$bundleRecordForAuditToken:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002200e1fa0 (    0x20) objc_msgSend$extensionPointRecord [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002200e1fc0 (    0x20) objc_msgSend$identifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002200e1fe0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7f1738 (    0x80) __DATA_CONST SEGMENT
+            0x000000022e7f1738 (    0x20) __DATA_CONST __got
+            0x000000022e7f1758 (    0x38) __DATA_CONST __const
+                0x000000022e7f1770 (    0x20) __block_descriptor_40_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e7f1790 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7f1798 (    0x20) __DATA_CONST __objc_selrefs
+        0x000000023824dc88 (   0x1d0) __AUTH_CONST SEGMENT
+            0x000000023824dc88 (    0xa0) __AUTH_CONST __cfstring
+            0x000000023824dd28 (    0x30) __AUTH_CONST __const
+                0x000000023824dd28 (    0x30) __block_descriptor_40_e8_32r_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023824dd58 (     0x8) __AUTH_CONST __auth_ptr
+            0x000000023824dd60 (    0xf8) __AUTH_CONST __auth_got
+        0x0000000231a02c30 (    0x58) __DATA SEGMENT
+            0x0000000231a02c30 (    0x40) __DATA __crash_info
+                0x0000000231a02c30 (    0x40) gCRAnnotations [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231a02c70 (    0x18) __DATA __bss
+                0x0000000231a02c70 (     0x8) getLSBundleRecordClass.softClass [NameNList, MangledNameNList, NList] 
+                0x0000000231a02c78 (     0x8) CoreServicesLibraryCore.frameworkLibrary [NameNList, MangledNameNList, NList] 
+                0x0000000231a02c80 (     0x8) getLSApplicationExtensionRecordClass.softClass [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,90 @@
+/usr/lib/swift/libswiftGameplayKit.dylib [arm64e, 0.037489 seconds]:
+    A1D4E2D5-445C-379A-90F6-DD8DE82FB21D /usr/lib/swift/libswiftGameplayKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221545000 (  0x3ff3) __TEXT SEGMENT
+            0x0000000221545000 (  0x3734) MACH_HEADER
+            0x0000000221548734 (   0x594) __TEXT __text
+                0x0000000221548734 (    0x34) GKPath.init(points:radius:cyclical:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548768 (    0x34) GKPath.init(points:radius:cyclical:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022154879c (    0xe4) GKPath.init(points:radius:cyclical:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548880 (    0xb4) GKPolygonObstacle.init(points:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548934 (    0x60) GKEntity.component<A>(ofType:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548994 (    0x38) GKEntity.removeComponent<A>(ofType:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215489cc (    0xb4) GKStateMachine.state<A>(forClass:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548a80 (   0x100) specialized _ArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548b80 (   0x100) specialized _ArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548c80 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221548cc4 (     0x4) _swift_stdlib_malloc_size [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000221548cc8 (   0x150) __TEXT __auth_stubs
+                0x0000000221548cc8 (    0x10) DYLD-STUB$$_bridgeAnythingToObjectiveC<A>(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548cd8 (    0x10) DYLD-STUB$$malloc_size [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548ce8 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548cf8 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d08 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d18 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d28 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d38 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d48 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d58 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d68 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d78 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease_n [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d88 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548d98 (    0x10) DYLD-STUB$$swift_dynamicCastUnknownClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548da8 (    0x10) DYLD-STUB$$swift_dynamicCastUnknownClassUnconditional [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548db8 (    0x10) DYLD-STUB$$swift_getMetatypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548dc8 (    0x10) DYLD-STUB$$swift_getObjCClassFromMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548dd8 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548de8 (    0x10) DYLD-STUB$$swift_isUniquelyReferenced_nonNull_native [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548df8 (    0x10) DYLD-STUB$$swift_unknownObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221548e08 (    0x10) DYLD-STUB$$swift_unknownObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000221548e18 (     0x8) __TEXT __const
+                0x0000000221548e1e (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000221548e20 (    0x4f) __TEXT __swift5_typeref
+                0x0000000221548e20 (    0x2c) symbolic $s11GameplayKit24_SwiftGKStateMachineLikeP [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000221548e4c (    0x12) symbolic _____y_____ySfGG s23_ContiguousArrayStorageC s5SIMD3V [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000221548e5e (    0x11) symbolic _____y_____ySfGG s23_ContiguousArrayStorageC s5SIMD2V [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000221548e70 (    0x10) __TEXT __swift5_fieldmd
+                0x0000000221548e70 (    0x10) reflection metadata field descriptor _SwiftGKStateMachineLike [NameNList, MangledNameNList, NList] 
+            0x0000000221548e80 (    0x38) __TEXT __cstring
+            0x0000000221548eb8 (    0x7c) __TEXT __unwind_info
+            0x0000000221548f34 (    0xbf) __TEXT __objc_methname
+        0x0000000235829160 (   0x158) __DATA_CONST SEGMENT
+            0x0000000235829160 (    0x10) __DATA_CONST __got
+            0x0000000235829170 (    0x98) __DATA_CONST __const
+                0x0000000235829170 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829178 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829180 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829188 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829190 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829198 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291a0 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291a8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291b0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291b8 (     0x8) _swift_FORCE_LOAD_$_swiftSceneKit_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291c0 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291c8 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291d0 (     0x8) _swift_FORCE_LOAD_$_swiftGLKit_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291d8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291e0 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291e8 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291f0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002358291f8 (     0x8) _swift_FORCE_LOAD_$_swiftModelIO_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829200 (     0x8) _swift_FORCE_LOAD_$_swiftSpriteKit_$_GameplayKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000235829208 (     0x8) __DATA_CONST __objc_protolist
+            0x0000000235829210 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000235829218 (    0x68) __DATA_CONST __objc_const
+                0x0000000235829218 (    0x60) _PROTOCOL__TtP11GameplayKit24_SwiftGKStateMachineLike_ [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000235829278 (     0x8) _PROTOCOL_METHOD_TYPES__TtP11GameplayKit24_SwiftGKStateMachineLike_ [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000235829280 (    0x38) __DATA_CONST __objc_selrefs
+        0x0000000238319de8 (    0xc0) __AUTH_CONST SEGMENT
+            0x0000000238319de8 (    0x18) __AUTH_CONST __const
+            0x0000000238319e00 (    0xa8) __AUTH_CONST __auth_got
+        0x000000023330f740 (    0x39) __DATA SEGMENT
+            0x000000023330f740 (     0x8) __DATA __objc_protorefs
+            0x000000023330f748 (    0x20) __DATA __objc_data
+                0x000000023330f748 (    0x20) _PROTOCOL_INSTANCE_METHODS__TtP11GameplayKit24_SwiftGKStateMachineLike_ [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023330f768 (    0x10) __DATA __data
+                0x000000023330f768 (     0x8) demangling cache variable for type metadata for _ContiguousArrayStorage<SIMD3<Float>> [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023330f770 (     0x8) demangling cache variable for type metadata for _ContiguousArrayStorage<SIMD2<Float>> [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023330f778 (     0x1) __DATA __common
+                0x000000023330f778 (     0x1) _swift_FORCE_LOAD_$_swiftGameplayKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,137 @@
+/System/Library/PrivateFrameworks/UserFS.framework/Versions/A/UserFS [arm64e, 0.158272 seconds]:
+    02C98E0F-5945-3F97-AC65-7C0050A4CF88 /System/Library/PrivateFrameworks/UserFS.framework/Versions/A/UserFS [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000216b6a000 (  0x4000) __TEXT SEGMENT
+            0x0000000216b6a000 (  0x194c) MACH_HEADER
+            0x0000000216b6b94c (  0x19dc) __TEXT __text
+                0x0000000216b6b94c (     0xc) +[LiveFSUSBLocalStorageClient newManager] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6b958 (   0x190) -[LiveFSUSBLocalStorageClient addDisk:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bae8 (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6baf8 (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bb00 (    0x10) __39-[LiveFSUSBLocalStorageClient addDisk:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bb10 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bb20 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bb2c (    0x10) __39-[LiveFSUSBLocalStorageClient addDisk:]_block_invoke.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bb3c (   0x188) -[LiveFSUSBLocalStorageClient getConnectionForVolume:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6bcc4 (   0x4d4) -[LiveFSUSBLocalStorageClient getVolumeName:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c198 (    0x60) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c1f8 (   0x10c) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c304 (    0x58) __copy_helper_block_e8_32s40r48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c35c (    0x4c) __destroy_helper_block_e8_32s40r48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c3a8 (   0x128) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.14 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c4d0 (   0x348) -[LiveFSUSBLocalStorageClient loadVolumes:ofType:withError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c818 (    0x10) __60-[LiveFSUSBLocalStorageClient loadVolumes:ofType:withError:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c828 (    0x90) __60-[LiveFSUSBLocalStorageClient loadVolumes:ofType:withError:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c8b8 (    0x50) __copy_helper_block_e8_32r40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c908 (    0x44) __destroy_helper_block_e8_32r40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6c94c (   0x108) -[LiveFSUSBLocalStorageClient loadVolume:ofType:withReply:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ca54 (    0x14) __59-[LiveFSUSBLocalStorageClient loadVolume:ofType:withReply:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ca68 (    0x10) __copy_helper_block_e8_32b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ca78 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ca80 (   0x244) -[LiveFSUSBLocalStorageClient removeAllVirtualDisks] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ccc4 (    0x10) __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6ccd4 (    0x10) __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cce4 (    0xe4) __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke.23 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cdc8 (   0x104) __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke_2.27 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cecc (    0x48) __copy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cf14 (    0x40) __destroy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cf54 (    0x14) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cf68 (     0xc) OUTLINED_FUNCTION_1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cf74 (    0x1c) OUTLINED_FUNCTION_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6cf90 (    0x84) -[LiveFSUSBLocalStorageClient getConnectionForVolume:withError:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d014 (    0x7c) -[LiveFSUSBLocalStorageClient getVolumeName:withError:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d090 (    0x7c) -[LiveFSUSBLocalStorageClient getVolumeName:withError:].cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d10c (    0x90) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d19c (    0x7c) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.5.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d218 (    0x90) __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.14.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000216b6d2a8 (    0x80) -[LiveFSUSBLocalStorageClient loadVolumes:ofType:withError:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000216b6d328 (   0x180) __TEXT __auth_stubs
+                0x0000000216b6d328 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d338 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d348 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d358 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d368 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d378 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d388 (    0x10) DYLD-STUB$$_os_log_fault_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d398 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3a8 (    0x10) DYLD-STUB$$dispatch_semaphore_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3b8 (    0x10) DYLD-STUB$$dispatch_semaphore_signal [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3c8 (    0x10) DYLD-STUB$$dispatch_semaphore_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3d8 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3e8 (    0x10) DYLD-STUB$$livefs_std_log [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d3f8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d408 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d418 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d428 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d438 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d448 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d458 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d468 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d478 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d488 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000216b6d498 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000216b6d4a8 (    0x68) __TEXT __objc_methlist
+                0x0000000216b6d4a8 (    0x18) _OBJC_$_CLASS_METHODS_LiveFSUSBLocalStorageClient [NameNList, MangledNameNList, NList] 
+                0x0000000216b6d4c0 (    0x50) _OBJC_$_INSTANCE_METHODS_LiveFSUSBLocalStorageClient [NameNList, MangledNameNList, NList] 
+            0x0000000216b6d510 (    0x10) __TEXT __const
+            0x0000000216b6d520 (    0x90) __TEXT __gcc_except_tab
+                0x0000000216b6d520 (    0x14) GCC_except_table1 [NameNList, MangledNameNList, NList] 
+                0x0000000216b6d534 (    0x2c) GCC_except_table9 [NameNList, MangledNameNList, NList] 
+                0x0000000216b6d560 (    0x34) GCC_except_table15 [NameNList, MangledNameNList, NList] 
+                0x0000000216b6d594 (    0x1c) GCC_except_table24 [NameNList, MangledNameNList, NList] 
+            0x0000000216b6d5b0 (   0x21a) __TEXT __cstring
+            0x0000000216b6d7ca (   0x14d) __TEXT __oslogstring
+            0x0000000216b6d918 (    0xd8) __TEXT __unwind_info
+            0x0000000216b6d9f0 (    0x1c) __TEXT __objc_classname
+            0x0000000216b6da0c (   0x2ca) __TEXT __objc_methname
+            0x0000000216b6dcd6 (    0x46) __TEXT __objc_methtype
+            0x0000000216b6dd20 (   0x2e0) __TEXT __objc_stubs
+                0x0000000216b6dd20 (    0x20) objc_msgSend$addDisk:fileSystemType:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dd40 (    0x20) objc_msgSend$addDisk:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dd60 (    0x20) objc_msgSend$bytes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dd80 (    0x20) objc_msgSend$containsString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dda0 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6ddc0 (    0x20) objc_msgSend$ejectDisk:usingFlags:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dde0 (    0x20) objc_msgSend$enumerateKeysAndObjectsUsingBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6de00 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6de20 (    0x20) objc_msgSend$exportedClientInterface [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6de40 (    0x20) objc_msgSend$getRootFileHandleWithError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6de60 (    0x20) objc_msgSend$initWithListenerEndpoint: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6de80 (    0x20) objc_msgSend$initWithUTF8String: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dea0 (    0x20) objc_msgSend$interfaceForListeners [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dec0 (    0x20) objc_msgSend$listVolumes: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dee0 (    0x20) objc_msgSend$listenerForVolume:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6df00 (    0x20) objc_msgSend$newConnectionForService: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6df20 (    0x20) objc_msgSend$otherAttributeOf:named:requestID:reply: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6df40 (    0x20) objc_msgSend$remoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6df60 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6df80 (    0x20) objc_msgSend$setExportedInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dfa0 (    0x20) objc_msgSend$setExportedObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dfc0 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000216b6dfe0 (    0x20) objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7e72f0 (   0x128) __DATA_CONST SEGMENT
+            0x000000022e7e72f0 (    0x28) __DATA_CONST __got
+            0x000000022e7e7318 (     0x8) __DATA_CONST __objc_classlist
+            0x000000022e7e7320 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7e7328 (    0xf0) __DATA_CONST __objc_selrefs
+        0x000000023804aa80 (   0x360) __AUTH_CONST SEGMENT
+            0x000000023804aa80 (    0x80) __AUTH_CONST __cfstring
+            0x000000023804ab00 (   0x180) __AUTH_CONST __const
+                0x000000023804ab00 (    0x30) __block_descriptor_40_e8_32r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804ab30 (    0x30) __block_descriptor_56_e8_32s40r48r_e30_v24?0"NSString"8"NSError"16l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804ab60 (    0x30) __block_descriptor_56_e8_32s40r48r_e19_v20?0i8"NSData"12l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804ab90 (    0x30) __block_descriptor_48_e8_32r40r_e29_v24?0"NSError"8"NSArray"16l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804abc0 (    0x30) __block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804abf0 (    0x30) __block_descriptor_40_e8_32r_e22_v16?0"NSDictionary"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804ac20 (    0x30) __block_descriptor_48_e8_32r_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023804ac50 (    0x30) __block_descriptor_48_e8_32s40r_e15_v32?0816^B24l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023804ac80 (    0x90) __AUTH_CONST __objc_const
+                0x000000023804ac80 (    0x48) _OBJC_METACLASS_RO_$_LiveFSUSBLocalStorageClient [NameNList, MangledNameNList, NList] 
+                0x000000023804acc8 (    0x48) _OBJC_CLASS_RO_$_LiveFSUSBLocalStorageClient [NameNList, MangledNameNList, NList] 
+            0x000000023804ad10 (    0xd0) __AUTH_CONST __auth_got
+        0x0000000232fee5c8 (    0x50) __AUTH SEGMENT
+            0x0000000232fee5c8 (    0x50) __AUTH __objc_data
+                0x0000000232fee5c8 (    0x28) OBJC_METACLASS_$_LiveFSUSBLocalStorageClient [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232fee5f0 (    0x28) OBJC_CLASS_$_LiveFSUSBLocalStorageClient [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002318bb700 (    0x28) __DATA SEGMENT
+            0x00000002318bb700 (    0x28) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,39 @@
+/usr/lib/i18n/libBIG5.dylib [arm64e, 0.230405 seconds]:
+    FC9A8BED-4C2F-30BF-A816-13BE6FC8D1CF /usr/lib/i18n/libBIG5.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff4f000 (  0x3ff8) __TEXT SEGMENT
+            0x000000021ff4f000 (  0x3890) MACH_HEADER
+            0x000000021ff52890 (   0x650) __TEXT __text
+                0x000000021ff52890 (   0x144) _citrus_BIG5_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff529d4 (    0x44) _citrus_BIG5_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52a18 (    0xa8) _citrus_BIG5_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52ac0 (    0x2c) _citrus_BIG5_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52aec (    0x58) _citrus_BIG5_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52b44 (     0xc) _citrus_BIG5_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52b50 (     0xc) _citrus_BIG5_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52b5c (    0x28) _citrus_BIG5_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52b84 (    0x30) _citrus_BIG5_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52bb4 (    0x50) _citrus_BIG5_encoding_module_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52c04 (    0x88) _citrus_BIG5_fill_rowcol [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52c8c (    0x8c) _citrus_BIG5_fill_excludes [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52d18 (   0x120) _citrus_BIG5_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff52e38 (    0xa8) _citrus_BIG5_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff52ee0 (    0x80) __TEXT __auth_stubs
+                0x000000021ff52ee0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52ef0 (    0x10) DYLD-STUB$$_citrus_bcs_skip_ws_len [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f00 (    0x10) DYLD-STUB$$_citrus_prop_parse_variable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f10 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f20 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f30 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f40 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff52f50 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff52f60 (    0x10) __TEXT __const
+            0x000000021ff52f70 (    0x11) __TEXT __cstring
+            0x000000021ff52f84 (    0x74) __TEXT __unwind_info
+        0x00000002382499c0 (    0xa0) __AUTH_CONST SEGMENT
+            0x00000002382499c0 (    0x60) __AUTH_CONST __const
+                0x00000002382499c0 (    0x60) root_hints [NameNList, MangledNameNList, NList] 
+            0x0000000238249a20 (    0x40) __AUTH_CONST __auth_got
+        0x00000002332f39b8 (    0x58) __AUTH SEGMENT
+            0x00000002332f39b8 (    0x58) __AUTH __data
+                0x00000002332f39b8 (    0x58) _citrus_BIG5_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

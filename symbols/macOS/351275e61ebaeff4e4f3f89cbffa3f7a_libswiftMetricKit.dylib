@@ -1,0 +1,70 @@
+/usr/lib/swift/libswiftMetricKit.dylib [arm64e, 0.026051 seconds]:
+    C68853ED-0B48-3B7F-BC7E-04976AFB1576 /usr/lib/swift/libswiftMetricKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221555000 (  0x2000) __TEXT SEGMENT
+            0x0000000221555000 (  0x11b4) MACH_HEADER
+            0x00000002215561b4 (   0xc84) __TEXT __text
+                0x00000002215561b4 (   0x2b8) mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022155646c (    0x58) lazy protocol witness table accessor for type OSSignpostID and conformance OSSignpostID [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215564c4 (    0x2c) partial apply for closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215564f0 (   0x1e4) specialized withVaList<A>(_:_:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002215566d4 (   0x2b8) mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022155698c (    0xe0) closure #1 in closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556a6c (    0x64) closure #1 in closure #1 in closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556ad0 (    0xec) specialized Unicode.Scalar.withUTF8CodeUnits<A>(_:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556bbc (    0x2c) partial apply for closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556be8 (    0x5c) partial apply for closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556c44 (    0x18) partial apply for closure #1 in closure #1 in closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556c5c (     0x4) partial apply for closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556c60 (    0x64) outlined init with copy of CVarArg [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556cc4 (    0x44) __swift_project_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556d08 (    0x50) __swift_destroy_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556d58 (     0x4) closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:)partial apply [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556d5c (    0x18) partial apply for closure #1 in closure #1 in closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556d74 (    0x38) partial apply for closure #1 in closure #1 in closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556dac (     0x4) partial apply for closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556db0 (     0x4) closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in mxSignpost(_:dso:log:name:signpostID:_:_:)partial apply [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221556db4 (    0x84) partial apply for closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in mxSignpostAnimationIntervalBegin(dso:log:name:signpostID:_:_:) [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000221556e38 (   0x130) __TEXT __auth_stubs
+                0x0000000221556e38 (    0x10) DYLD-STUB$$static OSSignpostID.null.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e48 (    0x10) DYLD-STUB$$static OSSignpostID.invalid.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e58 (    0x10) DYLD-STUB$$OSSignpostID.rawValue.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e68 (    0x10) DYLD-STUB$$type metadata accessor for OSSignpostID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e78 (    0x10) DYLD-STUB$$dispatch thunk of static Equatable.== infix(_:_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e88 (    0x10) DYLD-STUB$$static os_signpost_type_t.begin.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556e98 (    0x10) DYLD-STUB$$OS_os_log.signpostsEnabled.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556ea8 (    0x10) DYLD-STUB$$__VaListBuilder.deallocStorage(wordCount:storage:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556eb8 (    0x10) DYLD-STUB$$__VaListBuilder.va_list() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556ec8 (    0x10) DYLD-STUB$$type metadata accessor for __VaListBuilder [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556ed8 (    0x10) DYLD-STUB$$dispatch thunk of CVarArg._cVarArgEncoding.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556ee8 (    0x10) DYLD-STUB$$_swift_os_log_return_address [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556ef8 (    0x10) DYLD-STUB$$_swift_os_signpost_with_format [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f08 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f18 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f28 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f38 (    0x10) DYLD-STUB$$swift_getWitnessTable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f48 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221556f58 (    0x10) DYLD-STUB$$swift_slowAlloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000221556f68 (     0x2) __TEXT __const
+                0x0000000221556f68 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000221556f6c (    0x94) __TEXT __unwind_info
+        0x000000022e844c60 (    0x50) __DATA_CONST SEGMENT
+            0x000000022e844c60 (     0x8) __DATA_CONST __got
+            0x000000022e844c68 (    0x40) __DATA_CONST __const
+                0x000000022e844c68 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c70 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c78 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c80 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c88 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c90 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844c98 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844ca0 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_MetricKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e844ca8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023831a330 (    0xa0) __AUTH_CONST SEGMENT
+            0x000000023831a330 (     0x8) __AUTH_CONST __auth_ptr
+            0x000000023831a338 (    0x98) __AUTH_CONST __auth_got
+        0x0000000231b65f20 (     0x9) __DATA SEGMENT
+            0x0000000231b65f20 (     0x8) __DATA __data
+                0x0000000231b65f20 (     0x8) lazy protocol witness table cache variable for type OSSignpostID and conformance OSSignpostID [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231b65f28 (     0x1) __DATA __common
+                0x0000000231b65f28 (     0x1) _swift_FORCE_LOAD_$_swiftMetricKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

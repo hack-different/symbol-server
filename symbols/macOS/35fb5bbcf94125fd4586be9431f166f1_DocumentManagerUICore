@@ -1,0 +1,58 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/DocumentManagerUICore.axbundle/Contents/MacOS/DocumentManagerUICore [arm64e, 0.044627 seconds]:
+    BD742BD1-6D19-3A70-B00E-3E8C8CF09BF6 /System/iOSSupport/System/Library/AccessibilityBundles/DocumentManagerUICore.axbundle/Contents/MacOS/DocumentManagerUICore [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002231a3000 (  0x2000) __TEXT SEGMENT
+            0x00000002231a3000 (  0x1c64) MACH_HEADER
+            0x00000002231a4c64 (    0xec) __TEXT __text
+                0x00000002231a4c64 (    0x28) +[AXDocumentManagerUICoreGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a4c8c (    0x64) __60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a4cf0 (     0x8) __60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a4cf8 (    0x54) __60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a4d4c (     0x4) __60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231a4d50 (    0x60) __TEXT __auth_stubs
+                0x00000002231a4d50 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a4d60 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a4d70 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a4d80 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a4d90 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a4da0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231a4db0 (    0x14) __TEXT __objc_methlist
+                0x00000002231a4db0 (    0x14) _OBJC_$_CLASS_METHODS_AXDocumentManagerUICoreGlue [NameNList, MangledNameNList, NList] 
+            0x00000002231a4dc4 (    0x71) __TEXT __cstring
+            0x00000002231a4e38 (    0x60) __TEXT __unwind_info
+            0x00000002231a4e98 (    0x1c) __TEXT __objc_classname
+            0x00000002231a4eb4 (    0xc3) __TEXT __objc_methname
+            0x00000002231a4f77 (     0x8) __TEXT __objc_methtype
+            0x00000002231a4f80 (    0x80) __TEXT __objc_stubs
+                0x00000002231a4f80 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a4fa0 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a4fc0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a4fe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238400b68 (    0xe0) __DATA_CONST SEGMENT
+            0x0000000238400b68 (    0x60) __DATA_CONST __const
+                0x0000000238400b68 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238400b88 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238400ba8 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238400bc8 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000238400bd0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238400bd8 (    0x48) __DATA_CONST __objc_const
+                0x0000000238400bd8 (    0x48) _OBJC_CLASS_RO_$_AXDocumentManagerUICoreGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238400c20 (    0x28) __DATA_CONST __objc_selrefs
+        0x0000000238400c48 (   0x140) __AUTH_CONST SEGMENT
+            0x0000000238400c48 (    0x80) __AUTH_CONST __const
+                0x0000000238400c48 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238400c68 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x0000000238400c88 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x0000000238400ca8 (    0x20) __block_literal_global.225 [NameNList, MangledNameNList, NList] 
+            0x0000000238400cc8 (    0x40) __AUTH_CONST __cfstring
+            0x0000000238400d08 (    0x48) __AUTH_CONST __objc_const
+                0x0000000238400d08 (    0x48) _OBJC_METACLASS_RO_$_AXDocumentManagerUICoreGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238400d50 (    0x38) __AUTH_CONST __auth_got
+        0x00000002336271a0 (    0x50) __AUTH SEGMENT
+            0x00000002336271a0 (    0x50) __AUTH __objc_data
+                0x00000002336271a0 (    0x28) OBJC_METACLASS_$_AXDocumentManagerUICoreGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336271c8 (    0x28) OBJC_CLASS_$_AXDocumentManagerUICoreGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba99c8 (    0x10) __DATA SEGMENT
+            0x0000000231ba99c8 (     0x8) __DATA __objc_classrefs
+            0x0000000231ba99d0 (     0x8) __DATA __bss
+                0x0000000231ba99d0 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

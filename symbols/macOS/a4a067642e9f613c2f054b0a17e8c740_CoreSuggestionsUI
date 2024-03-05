@@ -1,0 +1,65 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/CoreSuggestionsUI.axbundle/Contents/MacOS/CoreSuggestionsUI [arm64e, 0.099467 seconds]:
+    C9CA37A5-8CB9-3F25-B349-9581AEE2766E /System/iOSSupport/System/Library/AccessibilityBundles/CoreSuggestionsUI.axbundle/Contents/MacOS/CoreSuggestionsUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022319a000 (  0x2000) __TEXT SEGMENT
+            0x000000022319a000 (  0x1a68) MACH_HEADER
+            0x000000022319ba68 (   0x1a8) __TEXT __text
+                0x000000022319ba68 (     0x8) +[AXCoreSuggestionsUIGlue accessibilityBundles] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319ba70 (    0x94) +[AXCoreSuggestionsUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319bb04 (     0x8) __56+[AXCoreSuggestionsUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319bb0c (    0x60) __56+[AXCoreSuggestionsUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319bb6c (     0x4) __56+[AXCoreSuggestionsUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022319bb70 (    0xa0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022319bc10 (    0xa0) __TEXT __auth_stubs
+                0x000000022319bc10 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc20 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc30 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc40 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc50 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc60 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc70 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc80 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bc90 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022319bca0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022319bcb0 (    0x20) __TEXT __objc_methlist
+                0x000000022319bcb0 (    0x20) _OBJC_$_CLASS_METHODS_AXCoreSuggestionsUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000022319bcd0 (    0x79) __TEXT __cstring
+            0x000000022319bd4c (    0x64) __TEXT __unwind_info
+            0x000000022319bdb0 (    0x18) __TEXT __objc_classname
+            0x000000022319bdc8 (   0x123) __TEXT __objc_methname
+            0x000000022319beeb (    0x10) __TEXT __objc_methtype
+            0x000000022319bf00 (   0x100) __TEXT __objc_stubs
+                0x000000022319bf00 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bf20 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bf40 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bf60 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bf80 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bfa0 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bfc0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022319bfe0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383ff370 (    0xe8) __DATA_CONST SEGMENT
+            0x00000002383ff370 (    0x40) __DATA_CONST __const
+                0x00000002383ff370 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383ff390 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383ff3b0 (     0x8) __DATA_CONST __objc_classlist
+            0x00000002383ff3b8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383ff3c0 (    0x48) __DATA_CONST __objc_const
+                0x00000002383ff3c0 (    0x48) _OBJC_CLASS_RO_$_AXCoreSuggestionsUIGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ff408 (    0x50) __DATA_CONST __objc_selrefs
+        0x00000002383ff458 (   0x180) __AUTH_CONST SEGMENT
+            0x00000002383ff458 (    0x60) __AUTH_CONST __const
+                0x00000002383ff458 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383ff478 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x00000002383ff498 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002383ff4b8 (    0x80) __AUTH_CONST __cfstring
+            0x00000002383ff538 (    0x48) __AUTH_CONST __objc_const
+                0x00000002383ff538 (    0x48) _OBJC_METACLASS_RO_$_AXCoreSuggestionsUIGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ff580 (    0x58) __AUTH_CONST __auth_got
+        0x0000000233626cf0 (    0x50) __AUTH SEGMENT
+            0x0000000233626cf0 (    0x50) __AUTH __objc_data
+                0x0000000233626cf0 (    0x28) OBJC_CLASS_$_AXCoreSuggestionsUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233626d18 (    0x28) OBJC_METACLASS_$_AXCoreSuggestionsUIGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba9928 (    0x20) __DATA SEGMENT
+            0x0000000231ba9928 (    0x18) __DATA __objc_classrefs
+            0x0000000231ba9940 (     0x8) __DATA __common
+                0x0000000231ba9940 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/AppleAppSupport.framework/Versions/A/AppleAppSupport [arm64e, 0.327560 seconds]:
+    9314AE0B-0668-33D7-8F0C-DC047356ADDD /System/Library/PrivateFrameworks/AppleAppSupport.framework/Versions/A/AppleAppSupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f473a000 (  0x4000) __TEXT SEGMENT
+            0x00000001f473a000 (  0x4000) MACH_HEADER
+        0x0000000230f165c0 (     0x4) __DATA SEGMENT
+            0x0000000230f165c0 (     0x4) __DATA __data
+                0x0000000230f165c0 (     0x4) AppleAppSupportLivesOn [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

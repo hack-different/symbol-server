@@ -1,0 +1,31 @@
+/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking [arm64e, 0.107947 seconds]:
+    D5098454-83AC-3B7C-BA47-76C9F60664E9 /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018ccf0000 (   0xffc) __TEXT SEGMENT
+            0x000000018ccf0000 (   0xbbc) MACH_HEADER
+            0x000000018ccf0bbc (   0x294) __TEXT __text
+                0x000000018ccf0bbc (     0x8) _sl_dlopen_audited [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccf0bc4 (   0x260) _sl_dlopen [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018ccf0e24 (    0x2c) _sl_dlopen.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018ccf0e50 (    0xb0) __TEXT __auth_stubs
+                0x000000018ccf0e50 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0e60 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0e70 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0e80 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0e90 (    0x10) DYLD-STUB$$dlerror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0ea0 (    0x10) DYLD-STUB$$dlopen_from [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0eb0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0ec0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0ed0 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0ee0 (    0x10) DYLD-STUB$$strlcat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0ef0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018ccf0f00 (    0x40) __TEXT __const
+                0x000000018ccf0f00 (    0x38) SoftLinkingVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000018ccf0f38 (     0x8) SoftLinkingVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000018ccf0f40 (    0x39) __TEXT __oslogstring
+            0x000000018ccf0f79 (    0x28) __TEXT __cstring
+            0x000000018ccf0fa4 (    0x58) __TEXT __unwind_info
+        0x00000001d3ab5c38 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3ab5c38 (    0x10) __DATA_CONST __got
+        0x00000001dbaf99d8 (    0x58) __AUTH_CONST SEGMENT
+            0x00000001dbaf99d8 (    0x58) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,136 @@
+/System/Library/PrivateFrameworks/ShortcutDropletServices.framework/Versions/A/ShortcutDropletServices [arm64e, 0.034774 seconds]:
+    DA905CBB-10C2-3E36-B740-38400241771D /System/Library/PrivateFrameworks/ShortcutDropletServices.framework/Versions/A/ShortcutDropletServices [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020d77e000 (  0x4000) __TEXT SEGMENT
+            0x000000020d77e000 (  0x19a8) MACH_HEADER
+            0x000000020d77f9a8 (   0xba8) __TEXT __text
+                0x000000020d77f9a8 (    0x44) -[WFShortcutDropletAppDelegate .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77f9ec (     0xc) -[WFShortcutDropletAppDelegate setRunnerClient:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77f9f8 (     0x8) -[WFShortcutDropletAppDelegate runnerClient] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fa00 (     0xc) -[WFShortcutDropletAppDelegate setFileURLs:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fa0c (     0x8) -[WFShortcutDropletAppDelegate fileURLs] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fa14 (    0x9c) -[WFShortcutDropletAppDelegate showErrorAndExit:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fab0 (    0x74) __49-[WFShortcutDropletAppDelegate showErrorAndExit:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fb24 (     0x8) __destroy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fb2c (     0x8) __copy_helper_block_e8_32s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fb34 (   0x148) -[WFShortcutDropletAppDelegate workflowRunnerClient:didFinishRunningWorkflowWithOutput:error:cancelled:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fc7c (    0x5c) -[WFShortcutDropletAppDelegate application:openFiles:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fcd8 (    0x10) __54-[WFShortcutDropletAppDelegate application:openFiles:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fce8 (    0x70) -[WFShortcutDropletAppDelegate applicationWillTerminate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77fd58 (   0x218) -[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d77ff70 (   0x188) __73-[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:]_block_invoke.157 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d7800f8 (    0x3c) __destroy_helper_block_e8_32s40s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d780134 (    0x3c) __copy_helper_block_e8_32s40s [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d780170 (   0x118) __73-[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d780288 (   0x114) -[WFShortcutDropletAppDelegate runWorkflowWithWorkflowDropletMetadata:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d78039c (   0x134) -[WFShortcutDropletAppDelegate applicationDidFinishLaunching:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020d7804d0 (    0x80) WFShortcutDropletServicesMain [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020d780550 (    0xe0) __TEXT __auth_stubs
+                0x000000020d780550 (    0x10) DYLD-STUB$$NSApplicationMain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780560 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780570 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780580 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780590 (    0x10) DYLD-STUB$$exit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805a0 (    0x10) DYLD-STUB$$getWFDropletLogObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805b0 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805c0 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805d0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805e0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d7805f0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780600 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780610 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020d780620 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020d780630 (    0x98) __TEXT __objc_methlist
+                0x000000020d780630 (    0x98) _OBJC_$_INSTANCE_METHODS_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+            0x000000020d7806c8 (    0x50) __TEXT __const
+                0x000000020d7806d0 (    0x40) ShortcutDropletServicesVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020d780710 (     0x8) ShortcutDropletServicesVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000020d780718 (   0x1d3) __TEXT __cstring
+            0x000000020d7808eb (   0x13a) __TEXT __oslogstring
+            0x000000020d780a28 (    0x84) __TEXT __unwind_info
+            0x000000020d780aac (    0x5d) __TEXT __objc_classname
+            0x000000020d780b0a (   0xba4) __TEXT __objc_methname
+            0x000000020d7816ae (   0x56d) __TEXT __objc_methtype
+            0x000000020d781c20 (   0x3e0) __TEXT __objc_stubs
+                0x000000020d781c20 (    0x20) objc_msgSend$activateIgnoringOtherApps: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781c40 (    0x20) objc_msgSend$alertWithError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781c60 (    0x20) objc_msgSend$fileURLWithPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781c80 (    0x20) objc_msgSend$fileURLs [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781ca0 (    0x20) objc_msgSend$if_map: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781cc0 (    0x20) objc_msgSend$initWithDescriptor:runRequest: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781ce0 (    0x20) objc_msgSend$initWithFileURLs: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781d00 (    0x20) objc_msgSend$initWithIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781d20 (    0x20) objc_msgSend$initWithLinkAction:bundleIdentifier:runSource: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781d40 (    0x20) objc_msgSend$linkActionIdentifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781d60 (    0x20) objc_msgSend$linkBundleIdentifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781d80 (    0x20) objc_msgSend$makeKeyAndOrderFront: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781da0 (    0x20) objc_msgSend$metadataOfMainBundle [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781dc0 (    0x20) objc_msgSend$prepareLNActionForDropletExecutionWithSerializedLNAction:bundleIdentifier:actionIdentifier:fileURLs:completion: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781de0 (    0x20) objc_msgSend$runModal [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781e00 (    0x20) objc_msgSend$runSerializedLNActionWithDropletMetadata: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781e20 (    0x20) objc_msgSend$runWorkflowWithWorkflowDropletMetadata: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781e40 (    0x20) objc_msgSend$runnerClient [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781e60 (    0x20) objc_msgSend$serializedLNAction [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781e80 (    0x20) objc_msgSend$setDelegate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781ea0 (    0x20) objc_msgSend$setFileURLs: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781ec0 (    0x20) objc_msgSend$setRunnerClient: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781ee0 (    0x20) objc_msgSend$sharedApplication [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781f00 (    0x20) objc_msgSend$shortcutIdentifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781f20 (    0x20) objc_msgSend$showErrorAndExit: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781f40 (    0x20) objc_msgSend$standardClient [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781f60 (    0x20) objc_msgSend$start [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781f80 (    0x20) objc_msgSend$stop [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781fa0 (    0x20) objc_msgSend$wf_isUserCancelledError [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781fc0 (    0x20) objc_msgSend$window [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020d781fe0 (    0x20) objc_msgSend$wrapperWithURL:readonly:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237c41078 (   0xc08) __DATA_CONST SEGMENT
+            0x0000000237c41078 (    0x28) __DATA_CONST __got
+            0x0000000237c410a0 (    0x48) __DATA_CONST __const
+                0x0000000237c410a0 (     0x8) WFShortcutDropletErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000237c410a8 (    0x20) __block_descriptor_32_e42_"FPSandboxingURLWrapper"24?0"NSURL"8Q16l [NameNList, MangledNameNList, NList] 
+                0x0000000237c410c8 (    0x20) __block_descriptor_32_e28_"NSURL"24?0"NSString"8Q16l [NameNList, MangledNameNList, NList] 
+            0x0000000237c410e8 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237c410f0 (    0x18) __DATA_CONST __objc_protolist
+                0x0000000237c410f0 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237c410f8 (     0x8) _OBJC_LABEL_PROTOCOL_$_WFWorkflowRunnerClientDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237c41100 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSApplicationDelegate [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237c41108 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237c41110 (   0xa50) __DATA_CONST __objc_const
+                0x0000000237c41110 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237c412e0 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237c41300 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237c41348 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237c413e8 (    0x18) _OBJC_$_PROTOCOL_REFS_WFWorkflowRunnerClientDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41400 (    0x68) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WFWorkflowRunnerClientDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41468 (    0x20) _OBJC_$_PROTOCOL_METHOD_TYPES_WFWorkflowRunnerClientDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41488 (    0x18) _OBJC_$_PROTOCOL_REFS_NSApplicationDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c414a0 (   0x440) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSApplicationDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c418e0 (   0x168) _OBJC_$_PROTOCOL_METHOD_TYPES_NSApplicationDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41a48 (    0x20) _OBJC_CLASS_PROTOCOLS_$_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41a68 (    0x48) _OBJC_METACLASS_RO_$_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41ab0 (    0x48) _OBJC_$_INSTANCE_VARIABLES_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+                0x0000000237c41af8 (    0x68) _OBJC_$_PROP_LIST_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+            0x0000000237c41b60 (   0x120) __DATA_CONST __objc_selrefs
+        0x0000000237c41c80 (   0x180) __AUTH_CONST SEGMENT
+            0x0000000237c41c80 (    0x20) __AUTH_CONST __cfstring
+            0x0000000237c41ca0 (    0xa0) __AUTH_CONST __const
+                0x0000000237c41ca0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000237c41cc0 (    0x30) __block_descriptor_48_e8_32s40s_e30_v24?0"LNAction"8"NSError"16l [NameNList, MangledNameNList, NList] 
+                0x0000000237c41cf0 (    0x20) __block_literal_global.162 [NameNList, MangledNameNList, NList] 
+                0x0000000237c41d10 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [NameNList, MangledNameNList, NList] 
+            0x0000000237c41d40 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237c41d40 (    0x48) _OBJC_CLASS_RO_$_WFShortcutDropletAppDelegate [NameNList, MangledNameNList, NList] 
+            0x0000000237c41d88 (    0x78) __AUTH_CONST __auth_got
+        0x0000000232b3fe50 (    0x50) __AUTH SEGMENT
+            0x0000000232b3fe50 (    0x50) __AUTH __objc_data
+                0x0000000232b3fe50 (    0x28) OBJC_METACLASS_$_WFShortcutDropletAppDelegate [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232b3fe78 (    0x28) OBJC_CLASS_$_WFShortcutDropletAppDelegate [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023154a868 (   0x180) __DATA SEGMENT
+            0x000000023154a868 (    0x58) __DATA __objc_classrefs
+            0x000000023154a8c0 (     0x8) __DATA __objc_ivar
+                0x000000023154a8c0 (     0x4) OBJC_IVAR_$_WFShortcutDropletAppDelegate._fileURLs [NameNList, MangledNameNList, NList] 
+                0x000000023154a8c4 (     0x4) OBJC_IVAR_$_WFShortcutDropletAppDelegate._runnerClient [NameNList, MangledNameNList, NList] 
+            0x000000023154a8c8 (   0x120) __DATA __data
+                0x000000023154a8c8 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023154a928 (    0x60) _OBJC_PROTOCOL_$_WFWorkflowRunnerClientDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023154a988 (    0x60) _OBJC_PROTOCOL_$_NSApplicationDelegate [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

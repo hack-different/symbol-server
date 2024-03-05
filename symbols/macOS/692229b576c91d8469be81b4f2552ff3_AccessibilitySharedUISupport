@@ -1,0 +1,8 @@
+/System/iOSSupport/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/Versions/A/AccessibilitySharedUISupport [arm64e, 0.030001 seconds]:
+    5EAFFBE6-39F9-3001-A513-494384A88457 /System/iOSSupport/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/Versions/A/AccessibilitySharedUISupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002252d4000 (  0x1000) __TEXT SEGMENT
+            0x00000002252d4000 (   0xfa8) MACH_HEADER
+            0x00000002252d4fa8 (    0x58) __TEXT __const
+                0x00000002252d4fa8 (    0x50) AccessibilitySharedUISupportVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002252d4ff8 (     0x8) AccessibilitySharedUISupportVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,51 @@
+/System/iOSSupport/usr/lib/swift/libswiftHomeKit.dylib [arm64e, 0.124314 seconds]:
+    75F03DED-06CB-3DF1-99F9-A05C2C977730 /System/iOSSupport/usr/lib/swift/libswiftHomeKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8d9000 (   0xfff) __TEXT SEGMENT
+            0x000000022d8d9000 (   0xe1c) MACH_HEADER
+            0x000000022d8d9e1c (   0x108) __TEXT __text
+                0x000000022d8d9e1c (    0x34) one-time initialization function for HMCharacteristicPropertySupportsEventNotification [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8d9e50 (    0x6c) HMCharacteristicPropertySupportsEventNotification.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8d9ebc (    0x68) HMAccessory.matterNodeID.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022d8d9f24 (    0x60) __TEXT __auth_stubs
+                0x000000022d8d9f24 (    0x10) DYLD-STUB$$static String._unconditionallyBridgeFromObjectiveC(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f34 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f44 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f54 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f64 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f74 (    0x10) DYLD-STUB$$swift_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022d8d9f84 (     0x6) __TEXT __const
+                0x000000022d8d9f84 (     0x4) property descriptor for HMAccessory.matterNodeID [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8d9f88 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8d9f8c (    0x50) __TEXT __unwind_info
+            0x000000022d8d9fdc (    0x23) __TEXT __objc_methname
+        0x000000022e857298 (    0xa0) __DATA_CONST SEGMENT
+            0x000000022e857298 (     0x8) __DATA_CONST __got
+            0x000000022e8572a0 (    0x80) __DATA_CONST __const
+                0x000000022e8572a0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572a8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572b0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572b8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572c0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572c8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572d0 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572d8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572e0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572e8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572f0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8572f8 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857300 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857308 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857310 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857318 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_HomeKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e857320 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e857328 (    0x10) __DATA_CONST __objc_selrefs
+        0x00000002388c6e08 (    0x30) __AUTH_CONST SEGMENT
+            0x00000002388c6e08 (    0x30) __AUTH_CONST __auth_got
+        0x0000000231e86f38 (    0x19) __DATA SEGMENT
+            0x0000000231e86f38 (    0x18) __DATA __bss
+                0x0000000231e86f38 (     0x8) one-time initialization token for HMCharacteristicPropertySupportsEventNotification [NameNList, MangledNameNList, NList] 
+                0x0000000231e86f40 (     0x8) HMCharacteristicPropertySupportsEventNotification [NameNList, MangledNameNList, NList] 
+                0x0000000231e86f48 (     0x8) HMCharacteristicPropertySupportsEventNotification [NameNList, MangledNameNList, NList] 
+            0x0000000231e86f50 (     0x1) __DATA __common
+                0x0000000231e86f50 (     0x1) _swift_FORCE_LOAD_$_swiftHomeKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

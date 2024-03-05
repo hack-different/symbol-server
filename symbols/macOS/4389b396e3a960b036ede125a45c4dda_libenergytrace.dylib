@@ -1,0 +1,42 @@
+/usr/lib/libenergytrace.dylib [arm64e, 0.065702 seconds]:
+    6615CE04-4E7B-3427-857C-C3B19A06FA61 /usr/lib/libenergytrace.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000185aab000 (  0x2000) __TEXT SEGMENT
+            0x0000000185aab000 (  0x16a4) MACH_HEADER
+            0x0000000185aac6a4 (   0x684) __TEXT __text
+                0x0000000185aac6a4 (    0x78) entr_shouldtrace [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aac71c (   0x124) entr_act_begin [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aac840 (    0xb0) _get_signpost_params [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aac8f0 (    0x7c) ___get_signpost_params_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aac96c (   0x124) entr_act_end [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aaca90 (   0x120) entr_act_modify [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aacbb0 (     0x8) entr_act_set [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aacbb8 (    0x28) entr_event [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aacbe0 (   0x13c) entr_act_associate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000185aacd1c (     0xc) entr_act_setd [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000185aacd28 (    0x70) __TEXT __auth_stubs
+                0x0000000185aacd28 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd38 (    0x10) DYLD-STUB$$_os_signpost_emit_with_name_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd48 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd58 (    0x10) DYLD-STUB$$kdebug_trace [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd68 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd78 (    0x10) DYLD-STUB$$os_signpost_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000185aacd88 (    0x10) DYLD-STUB$$os_signpost_id_make_with_pointer [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000185aacd98 (   0x19f) __TEXT __oslogstring
+            0x0000000185aacf37 (    0x57) __TEXT __cstring
+            0x0000000185aacf90 (    0x70) __TEXT __unwind_info
+        0x00000001d3a2d8f0 (    0x28) __DATA_CONST SEGMENT
+            0x00000001d3a2d8f0 (     0x8) __DATA_CONST __got
+            0x00000001d3a2d8f8 (    0x20) __DATA_CONST __const
+                0x00000001d3a2d8f8 (    0x20) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+        0x00000001db25c4f0 (    0x58) __AUTH_CONST SEGMENT
+            0x00000001db25c4f0 (    0x20) __AUTH_CONST __const
+                0x00000001db25c4f0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000001db25c510 (    0x38) __AUTH_CONST __auth_got
+        0x00000001d5c70cc0 (     0x8) __DATA SEGMENT
+            0x00000001d5c70cc0 (     0x8) __DATA __data
+        0x00000001d6d727d8 (    0x48) __DATA_DIRTY SEGMENT
+            0x00000001d6d727d8 (    0x48) __DATA_DIRTY __bss
+                0x00000001d6d727d8 (     0x8) _get_signpost_params.handle [NameNList, MangledNameNList, NList] 
+                0x00000001d6d727e0 (    0x38) _get_signpost_params.handles [NameNList, MangledNameNList, NList] 
+                0x00000001d6d72818 (     0x8) _get_signpost_params.initGate [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,35 @@
+/System/Library/PrivateFrameworks/CoreLocationReplay.framework/Versions/A/CoreLocationReplay [arm64e, 0.026716 seconds]:
+    5E8D63C8-997B-34DE-AAF0-2D17A0257002 /System/Library/PrivateFrameworks/CoreLocationReplay.framework/Versions/A/CoreLocationReplay [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f7c1c000 (   0xffd) __TEXT SEGMENT
+            0x00000001f7c1c000 (   0xd04) MACH_HEADER
+            0x00000001f7c1cd04 (    0x3c) __TEXT __text
+                0x00000001f7c1cd04 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd08 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd0c (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd10 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd14 (     0x4) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd18 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd20 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd28 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd30 (     0x8) (null) [FUNC, FunctionStarts] 
+                0x00000001f7c1cd38 (     0x8) (null) [FUNC, FunctionStarts] 
+            0x00000001f7c1cd40 (    0x80) __TEXT __objc_methlist
+            0x00000001f7c1cdc0 (    0x48) __TEXT __const
+            0x00000001f7c1ce08 (    0x48) __TEXT __unwind_info
+            0x00000001f7c1ce50 (    0x12) __TEXT __objc_classname
+            0x00000001f7c1ce62 (   0x15a) __TEXT __objc_methname
+            0x00000001f7c1cfbc (    0x41) __TEXT __objc_methtype
+        0x0000000236e0bcc8 (   0x118) __DATA_CONST SEGMENT
+            0x0000000236e0bcc8 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000236e0bcd0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236e0bcd8 (    0xb8) __DATA_CONST __objc_const
+            0x0000000236e0bd90 (    0x50) __DATA_CONST __objc_selrefs
+        0x0000000236e0bde0 (    0x48) __AUTH_CONST SEGMENT
+            0x0000000236e0bde0 (    0x48) __AUTH_CONST __objc_const
+        0x0000000232531b80 (    0x50) __AUTH SEGMENT
+            0x0000000232531b80 (    0x50) __AUTH __objc_data
+                0x0000000232531b80 (    0x28) OBJC_METACLASS_$__CLLocationPlayer [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232531ba8 (    0x28) OBJC_CLASS_$__CLLocationPlayer [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230fb8850 (     0x8) __DATA SEGMENT
+            0x0000000230fb8850 (     0x8) __DATA __objc_ivar
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

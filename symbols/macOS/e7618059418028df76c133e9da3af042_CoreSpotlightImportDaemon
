@@ -1,0 +1,127 @@
+/System/Library/PrivateFrameworks/CoreSpotlightImportDaemon.framework/Versions/A/CoreSpotlightImportDaemon [arm64e, 0.082315 seconds]:
+    70A728EB-2D1A-39FA-A54B-0EA92115CC30 /System/Library/PrivateFrameworks/CoreSpotlightImportDaemon.framework/Versions/A/CoreSpotlightImportDaemon [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fa142000 (  0x4000) __TEXT SEGMENT
+            0x00000001fa142000 (  0x2a00) MACH_HEADER
+            0x00000001fa144a00 (   0xaf8) __TEXT __text
+                0x00000001fa144a00 (    0x38) -[CSImportAgentConnection allowClientConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa144a38 (   0x1ac) -[CSImportAgentConnection handleImport:forConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa144be4 (    0xf4) __54-[CSImportAgentConnection handleImport:forConnection:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa144cd8 (    0x3c) __copy_helper_block_e8_32s40s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa144d14 (    0x3c) __destroy_helper_block_e8_32s40s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa144d50 (   0x3bc) -[CSImportAgentConnection handleAllExtensions:forConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa14510c (     0x8) __61-[CSImportAgentConnection handleAllExtensions:forConnection:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145114 (    0xb4) -[CSImportAgentConnection handleCommand:info:connection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa1451c8 (    0x74) -[CSImportAgent init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa14523c (     0x4) -[CSImportAgent extensionsLoaded] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145240 (    0x88) -[CSImportAgent start] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa1452c8 (    0xa8) __22-[CSImportAgent start]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145370 (    0xbc) __22-[CSImportAgent start]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa14542c (    0x3c) __22-[CSImportAgent start]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145468 (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145470 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa145478 (    0x2c) -[CSImportAgent extensionDelegate] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa1454a4 (     0xc) -[CSImportAgent setExtensionDelegate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa1454b0 (     0x8) -[CSImportAgent agentConnection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa1454b8 (    0x40) -[CSImportAgent .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fa1454f8 (   0x190) __TEXT __auth_stubs
+                0x00000001fa1454f8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145508 (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145518 (    0x10) DYLD-STUB$$dispatch_get_global_queue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145528 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145538 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145548 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145558 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145568 (    0x10) DYLD-STUB$$objc_destroyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145578 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145588 (    0x10) DYLD-STUB$$objc_loadWeakRetained [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145598 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455a8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455b8 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455c8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455d8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455e8 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa1455f8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145608 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145618 (    0x10) DYLD-STUB$$objc_storeWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145628 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145638 (    0x10) DYLD-STUB$$xpc_connection_send_message [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145648 (    0x10) DYLD-STUB$$xpc_dictionary_create_reply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145658 (    0x10) DYLD-STUB$$xpc_dictionary_get_remote_connection [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145668 (    0x10) DYLD-STUB$$xpc_dictionary_set_data [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa145678 (    0x10) DYLD-STUB$$xpc_dictionary_set_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fa145688 (    0x98) __TEXT __objc_methlist
+                0x00000001fa145688 (    0x60) _OBJC_$_INSTANCE_METHODS_CSImportAgent [NameNList, MangledNameNList, NList] 
+                0x00000001fa1456e8 (    0x38) _OBJC_$_INSTANCE_METHODS_CSImportAgentConnection [NameNList, MangledNameNList, NList] 
+            0x00000001fa145720 (    0x58) __TEXT __const
+                0x00000001fa145720 (    0x48) CoreSpotlightImportDaemonVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145768 (    0x10) CoreSpotlightImportDaemonVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001fa145778 (    0xc7) __TEXT __cstring
+            0x00000001fa145840 (    0x98) __TEXT __unwind_info
+            0x00000001fa1458d8 (    0x2a) __TEXT __objc_classname
+            0x00000001fa145902 (   0x35e) __TEXT __objc_methname
+            0x00000001fa145c60 (    0x7f) __TEXT __objc_methtype
+            0x00000001fa145ce0 (   0x320) __TEXT __objc_stubs
+                0x00000001fa145ce0 (    0x20) objc_msgSend$allExtensionsWithBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145d00 (    0x20) objc_msgSend$bytes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145d20 (    0x20) objc_msgSend$containerID [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145d40 (    0x20) objc_msgSend$copyNSDataForKey:fromXPCDictionary: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145d60 (    0x20) objc_msgSend$copyNSStringForKey:fromXPCDictionary: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145d80 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145da0 (    0x20) objc_msgSend$data [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145dc0 (    0x20) objc_msgSend$dictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145de0 (    0x20) objc_msgSend$encodeObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145e00 (    0x20) objc_msgSend$extensionsLoaded [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145e20 (    0x20) objc_msgSend$handleAllExtensions:forConnection: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145e40 (    0x20) objc_msgSend$handleImport:forConnection: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145e60 (    0x20) objc_msgSend$indexRequestsPerformDataJob:forBundle:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145e80 (    0x20) objc_msgSend$infoDictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145ea0 (    0x20) objc_msgSend$initMachServiceListenerWithName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145ec0 (    0x20) objc_msgSend$initWithJobType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145ee0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145f00 (    0x20) objc_msgSend$loadExtensions [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145f20 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145f40 (    0x20) objc_msgSend$setExtensionBundleID: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145f60 (    0x20) objc_msgSend$setExtensionDelegate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145f80 (    0x20) objc_msgSend$setImportData: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145fa0 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145fc0 (    0x20) objc_msgSend$sharedManager [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa145fe0 (    0x20) objc_msgSend$startListener [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000236f0b780 (   0x260) __DATA_CONST SEGMENT
+            0x0000000236f0b780 (    0x18) __DATA_CONST __got
+            0x0000000236f0b798 (    0x28) __DATA_CONST __const
+                0x0000000236f0b798 (    0x20) __block_descriptor_32_e27_B16?0"_MDIndexExtension"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236f0b7b8 (     0x8) CSImportAgentMachServiceName [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000236f0b7c0 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000236f0b7d0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236f0b7d8 (   0x100) __DATA_CONST __objc_const
+                0x0000000236f0b7d8 (    0x48) _OBJC_METACLASS_RO_$_CSImportAgentConnection [NameNList, MangledNameNList, NList] 
+                0x0000000236f0b820 (    0x48) _OBJC_METACLASS_RO_$_CSImportAgent [NameNList, MangledNameNList, NList] 
+                0x0000000236f0b868 (    0x48) _OBJC_$_INSTANCE_VARIABLES_CSImportAgent [NameNList, MangledNameNList, NList] 
+                0x0000000236f0b8b0 (    0x28) _OBJC_$_PROP_LIST_CSImportAgent [NameNList, MangledNameNList, NList] 
+            0x0000000236f0b8d8 (   0x108) __DATA_CONST __objc_selrefs
+        0x0000000236f0b9e0 (   0x250) __AUTH_CONST SEGMENT
+            0x0000000236f0b9e0 (    0xb0) __AUTH_CONST __const
+                0x0000000236f0b9e0 (    0x30) __block_descriptor_48_e8_32s40s_e28_v24?0"NSData"8"NSError"16l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236f0ba10 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000236f0ba30 (    0x30) __block_descriptor_48_e8_32s40s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236f0ba60 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236f0ba90 (    0x40) __AUTH_CONST __cfstring
+            0x0000000236f0bad0 (    0x90) __AUTH_CONST __objc_const
+                0x0000000236f0bad0 (    0x48) _OBJC_CLASS_RO_$_CSImportAgentConnection [NameNList, MangledNameNList, NList] 
+                0x0000000236f0bb18 (    0x48) _OBJC_CLASS_RO_$_CSImportAgent [NameNList, MangledNameNList, NList] 
+            0x0000000236f0bb60 (    0xd0) __AUTH_CONST __auth_got
+        0x0000000232577390 (    0xa0) __AUTH SEGMENT
+            0x0000000232577390 (    0xa0) __AUTH __objc_data
+                0x0000000232577390 (    0x28) OBJC_CLASS_$_CSImportAgentConnection [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002325773b8 (    0x28) OBJC_METACLASS_$_CSImportAgentConnection [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002325773e0 (    0x28) OBJC_CLASS_$_CSImportAgent [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232577408 (    0x28) OBJC_METACLASS_$_CSImportAgent [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230fbf930 (    0x60) __DATA SEGMENT
+            0x0000000230fbf930 (    0x40) __DATA __objc_classrefs
+            0x0000000230fbf970 (    0x10) __DATA __objc_superrefs
+            0x0000000230fbf980 (     0x8) __DATA __objc_ivar
+                0x0000000230fbf980 (     0x4) OBJC_IVAR_$_CSImportAgent._extensionDelegate [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fbf984 (     0x4) OBJC_IVAR_$_CSImportAgent._agentConnection [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230fbf988 (     0x8) __DATA __bss
+                0x0000000230fbf988 (     0x8) start.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

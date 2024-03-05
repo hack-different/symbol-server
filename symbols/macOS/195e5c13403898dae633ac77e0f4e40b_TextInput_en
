@@ -1,0 +1,58 @@
+/System/Library/TextInput/TextInput_en.bundle/Versions/A/TextInput_en [arm64e, 0.069920 seconds]:
+    C4117247-8016-39D4-8833-6648F34C1810 /System/Library/TextInput/TextInput_en.bundle/Versions/A/TextInput_en [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001e6053000 (  0x4000) __TEXT SEGMENT
+            0x00000001e6053000 (  0x3ccc) MACH_HEADER
+            0x00000001e6056ccc (   0x12c) __TEXT __text
+                0x00000001e6056ccc (    0x94) -[TIKeyboardFeatureSpecialization_en terminatorsDeletingAutospace] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6056d60 (    0x80) __66-[TIKeyboardFeatureSpecialization_en terminatorsDeletingAutospace]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6056de0 (     0x8) __copy_helper_block_8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6056de8 (     0x8) __destroy_helper_block_8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001e6056df0 (     0x8) -[TIKeyboardFeatureSpecialization_en_JP shouldConvertAutocorrectionCandidatesToFullWidth] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001e6056df8 (    0x60) __TEXT __auth_stubs
+                0x00000001e6056df8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6056e08 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6056e18 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6056e28 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6056e38 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001e6056e48 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001e6056e58 (    0x2c) __TEXT __objc_methlist
+                0x00000001e6056e58 (    0x18) _OBJC_$_INSTANCE_METHODS_TIKeyboardFeatureSpecialization_en [NameNList, MangledNameNList, NList] 
+                0x00000001e6056e70 (    0x14) _OBJC_$_INSTANCE_METHODS_TIKeyboardFeatureSpecialization_en_JP [NameNList, MangledNameNList, NList] 
+            0x00000001e6056e88 (     0x8) __TEXT __const
+            0x00000001e6056e90 (     0x6) __TEXT __ustring
+            0x00000001e6056e96 (     0x6) __TEXT __cstring
+            0x00000001e6056e9c (    0x58) __TEXT __unwind_info
+            0x00000001e6056ef4 (    0x49) __TEXT __objc_classname
+            0x00000001e6056f3e (    0x72) __TEXT __objc_methname
+            0x00000001e6056fb0 (    0x10) __TEXT __objc_methtype
+            0x00000001e6056fc0 (    0x40) __TEXT __objc_stubs
+                0x00000001e6056fc0 (    0x20) objc_msgSend$addCharactersInString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001e6056fe0 (    0x20) objc_msgSend$mutableCopy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000236380440 (    0xd0) __DATA_CONST SEGMENT
+            0x0000000236380440 (     0x8) __DATA_CONST __got
+            0x0000000236380448 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000236380458 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236380460 (    0x90) __DATA_CONST __objc_const
+                0x0000000236380460 (    0x48) _OBJC_METACLASS_RO_$_TIKeyboardFeatureSpecialization_en [NameNList, MangledNameNList, NList] 
+                0x00000002363804a8 (    0x48) _OBJC_METACLASS_RO_$_TIKeyboardFeatureSpecialization_en_JP [NameNList, MangledNameNList, NList] 
+            0x00000002363804f0 (    0x20) __DATA_CONST __objc_selrefs
+        0x0000000236380510 (   0x118) __AUTH_CONST SEGMENT
+            0x0000000236380510 (    0x20) __AUTH_CONST __cfstring
+            0x0000000236380530 (    0x30) __AUTH_CONST __const
+                0x0000000236380530 (    0x30) __block_descriptor_40_8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236380560 (    0x90) __AUTH_CONST __objc_const
+                0x0000000236380560 (    0x48) _OBJC_CLASS_RO_$_TIKeyboardFeatureSpecialization_en [NameNList, MangledNameNList, NList] 
+                0x00000002363805a8 (    0x48) _OBJC_CLASS_RO_$_TIKeyboardFeatureSpecialization_en_JP [NameNList, MangledNameNList, NList] 
+            0x00000002363805f0 (    0x38) __AUTH_CONST __auth_got
+        0x000000023218fbe0 (    0xa0) __AUTH SEGMENT
+            0x000000023218fbe0 (    0xa0) __AUTH __objc_data
+                0x000000023218fbe0 (    0x28) OBJC_CLASS_$_TIKeyboardFeatureSpecialization_en [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023218fc08 (    0x28) OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_en [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023218fc30 (    0x28) OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_en_JP [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023218fc58 (    0x28) OBJC_CLASS_$_TIKeyboardFeatureSpecialization_en_JP [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230876720 (    0x18) __DATA SEGMENT
+            0x0000000230876720 (     0x8) __DATA __objc_superrefs
+            0x0000000230876728 (    0x10) __DATA __bss
+                0x0000000230876728 (     0x8) terminatorsDeletingAutospace.result [NameNList, MangledNameNList, NList] 
+                0x0000000230876730 (     0x8) terminatorsDeletingAutospace.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

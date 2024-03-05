@@ -1,0 +1,95 @@
+/usr/lib/libDiagnosticMessagesClient.dylib [arm64e, 0.031378 seconds]:
+    B866C753-9F7E-32AC-9AA3-104D331F64CD /usr/lib/libDiagnosticMessagesClient.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018811e000 (  0x2000) __TEXT SEGMENT
+            0x000000018811e000 (   0xe80) MACH_HEADER
+            0x000000018811ee80 (   0xc58) __TEXT __text
+                0x000000018811ee80 (   0x118) msgtracer_domain_new [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811ef98 (    0x78) msgtracer_msg_new [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f010 (    0x10) msgtracer_set [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f020 (    0x2c) msgtracer_log [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f04c (    0xd8) msgtracer_vlog [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f124 (    0x7c) call_analytics_send_event_lazy [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f1a0 (    0x8c) __call_analytics_send_event_lazy_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f22c (    0x4c) __get_core_analytics_framework_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f278 (   0x2fc) __msgtracer_vlog_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f574 (     0xc) msgtracer_msg_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f580 (    0x44) msgtracer_domain_free [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f5c4 (    0x30) msgtracer_log_with_keys [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f5f4 (    0xac) msgtracer_vlog_with_keys_skip_nulls [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f6a0 (   0x120) __msgtracer_vlog_with_keys_skip_nulls_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f7c0 (    0x6c) __dictionary_with_value_fields_as_numbers_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f82c (     0x8) msgtracer_vlog_with_keys [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f834 (    0x10) __copy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f844 (     0xc) __destroy_helper_block_8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f850 (    0x30) msgtracer_log_with_keys_skip_nulls [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f880 (    0x7c) msgtracer_uuid_create [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f8fc (    0x8c) __call_analytics_is_event_used_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f988 (    0x1c) OUTLINED_FUNCTION_0 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811f9a4 (    0x80) __msgtracer_vlog_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811fa24 (    0x3c) __call_analytics_is_event_used_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811fa60 (    0x3c) __get_core_analytics_framework_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018811fa9c (    0x3c) __call_analytics_send_event_lazy_block_invoke.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018811fad8 (   0x220) __TEXT __auth_stubs
+                0x000000018811fad8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fae8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811faf8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb08 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb18 (    0x10) DYLD-STUB$$_os_log_error_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb28 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb38 (    0x10) DYLD-STUB$$asl_count [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb48 (    0x10) DYLD-STUB$$asl_fetch_key_val_op [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb58 (    0x10) DYLD-STUB$$asl_free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb68 (    0x10) DYLD-STUB$$asl_get [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb78 (    0x10) DYLD-STUB$$asl_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb88 (    0x10) DYLD-STUB$$asl_set [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fb98 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fba8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fbb8 (    0x10) DYLD-STUB$$dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fbc8 (    0x10) DYLD-STUB$$dlsym [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fbd8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fbe8 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fbf8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc08 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc18 (    0x10) DYLD-STUB$$strdup [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc28 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc38 (    0x10) DYLD-STUB$$strtod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc48 (    0x10) DYLD-STUB$$uuid_generate_random [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc58 (    0x10) DYLD-STUB$$uuid_unparse_upper [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc68 (    0x10) DYLD-STUB$$vsnprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc78 (    0x10) DYLD-STUB$$xpc_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc88 (    0x10) DYLD-STUB$$xpc_dictionary_apply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fc98 (    0x10) DYLD-STUB$$xpc_dictionary_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fca8 (    0x10) DYLD-STUB$$xpc_dictionary_get_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fcb8 (    0x10) DYLD-STUB$$xpc_dictionary_set_double [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fcc8 (    0x10) DYLD-STUB$$xpc_dictionary_set_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fcd8 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018811fce8 (    0x10) DYLD-STUB$$xpc_string_get_string_ptr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018811fcf8 (    0x2b) __TEXT __const
+                0x000000018811fd10 (    0x13) kMessageKeyPrefix [NameNList, MangledNameNList, NList] 
+            0x000000018811fd23 (    0xfb) __TEXT __oslogstring
+            0x000000018811fe1e (   0x141) __TEXT __cstring
+            0x000000018811ff60 (    0xa0) __TEXT __unwind_info
+        0x00000001d3a34298 (    0x98) __DATA_CONST SEGMENT
+            0x00000001d3a34298 (    0x18) __DATA_CONST __got
+            0x00000001d3a342b0 (    0x80) __DATA_CONST __const
+                0x00000001d3a342b0 (    0x20) __block_descriptor_tmp.8 [NameNList, MangledNameNList, NList] 
+                0x00000001d3a342d0 (    0x20) __block_descriptor_tmp.10 [NameNList, MangledNameNList, NList] 
+                0x00000001d3a342f0 (    0x20) __block_descriptor_tmp.14 [NameNList, MangledNameNList, NList] 
+                0x00000001d3a34310 (    0x20) __block_descriptor_tmp.29 [NameNList, MangledNameNList, NList] 
+        0x00000001db3a6d70 (   0x1d0) __AUTH_CONST SEGMENT
+            0x00000001db3a6d70 (    0xc0) __AUTH_CONST __const
+                0x00000001db3a6d70 (    0x30) __block_descriptor_tmp [NameNList, MangledNameNList, NList] 
+                0x00000001db3a6da0 (    0x30) __block_descriptor_tmp.6 [NameNList, MangledNameNList, NList] 
+                0x00000001db3a6dd0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001db3a6df0 (    0x20) __block_literal_global.12 [NameNList, MangledNameNList, NList] 
+                0x00000001db3a6e10 (    0x20) __block_literal_global.16 [NameNList, MangledNameNList, NList] 
+            0x00000001db3a6e30 (   0x110) __AUTH_CONST __auth_got
+        0x00000001d5cb4eb0 (    0x30) __DATA SEGMENT
+            0x00000001d5cb4eb0 (    0x30) __DATA __bss
+                0x00000001d5cb4eb0 (     0x8) call_analytics_is_event_used.f_analytics_is_event_used [NameNList, MangledNameNList, NList] 
+                0x00000001d5cb4eb8 (     0x8) call_analytics_is_event_used.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000001d5cb4ec0 (     0x8) get_core_analytics_framework.core_analytics_framework [NameNList, MangledNameNList, NList] 
+                0x00000001d5cb4ec8 (     0x8) get_core_analytics_framework.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000001d5cb4ed0 (     0x8) call_analytics_send_event_lazy.f_analytics_send_event_lazy [NameNList, MangledNameNList, NList] 
+                0x00000001d5cb4ed8 (     0x8) call_analytics_send_event_lazy.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

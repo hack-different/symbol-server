@@ -1,0 +1,114 @@
+/System/Library/PrivateFrameworks/ACSEFoundation.framework/Versions/A/ACSEFoundation [arm64e, 0.040276 seconds]:
+    E7536CE6-3070-3FCD-8D4D-A02F5CEF9716 /System/Library/PrivateFrameworks/ACSEFoundation.framework/Versions/A/ACSEFoundation [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f2cfc000 (  0x4000) __TEXT SEGMENT
+            0x00000001f2cfc000 (  0x2f58) MACH_HEADER
+            0x00000001f2cfef58 (   0x940) __TEXT __text
+                0x00000001f2cfef58 (    0xa8) -[ACSERetryController initWithMaxNumberOfRetries:block:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff000 (     0x8) -[ACSERetryController executeBlock] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff008 (   0x11c) -[ACSERetryController retryAfterSeconds:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff124 (    0x2c) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff150 (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff158 (    0x18) __41-[ACSERetryController retryAfterSeconds:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff170 (    0x10) __copy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff180 (     0xc) __destroy_helper_block_e8_32r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff18c (     0x8) -[ACSERetryController numberOfAttempts] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff194 (    0x44) -[ACSERetryController .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff1d8 (     0xc) -[ACSENetworkRequestController initWithSession:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff1e4 (    0xa0) -[ACSENetworkRequestController initWithSession:numberOfSecondsBetweenRetries:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff284 (   0x22c) -[ACSENetworkRequestController executeRequest:acceptedStatusCodes:completion:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff4b0 (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff4c0 (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff4c8 (    0xfc) __78-[ACSENetworkRequestController executeRequest:acceptedStatusCodes:completion:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff5c4 (   0x13c) __78-[ACSENetworkRequestController executeRequest:acceptedStatusCodes:completion:]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff700 (    0x50) __copy_helper_block_e8_32s40s48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff750 (    0x48) __destroy_helper_block_e8_32s40s48r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff798 (    0x64) __copy_helper_block_e8_32s40s48s56r64w [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff7fc (    0x58) __destroy_helper_block_e8_32s40s48s56r64w [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001f2cff854 (    0x44) -[ACSENetworkRequestController .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001f2cff898 (   0x110) __TEXT __auth_stubs
+                0x00000001f2cff898 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8a8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8b8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8c8 (    0x10) DYLD-STUB$$dispatch_after [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8d8 (    0x10) DYLD-STUB$$dispatch_queue_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8e8 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff8f8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff908 (    0x10) DYLD-STUB$$objc_copyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff918 (    0x10) DYLD-STUB$$objc_destroyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff928 (    0x10) DYLD-STUB$$objc_initWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff938 (    0x10) DYLD-STUB$$objc_loadWeakRetained [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff948 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff958 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff968 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff978 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff988 (    0x10) DYLD-STUB$$objc_retainBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f2cff998 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001f2cff9a8 (    0x80) __TEXT __objc_methlist
+                0x00000001f2cff9a8 (    0x48) _OBJC_$_INSTANCE_METHODS_ACSERetryController [NameNList, MangledNameNList, NList] 
+                0x00000001f2cff9f0 (    0x38) _OBJC_$_INSTANCE_METHODS_ACSENetworkRequestController [NameNList, MangledNameNList, NList] 
+            0x00000001f2cffa28 (    0x50) __TEXT __const
+                0x00000001f2cffa28 (    0x38) ACSEFoundationVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffa60 (    0x18) ACSEFoundationVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001f2cffa78 (    0x55) __TEXT __cstring
+            0x00000001f2cffad0 (    0x2c) __TEXT __gcc_except_tab
+                0x00000001f2cffad0 (    0x2c) GCC_except_table2 [NameNList, MangledNameNList, NList] 
+            0x00000001f2cffafc (    0x90) __TEXT __unwind_info
+            0x00000001f2cffb8c (    0x35) __TEXT __objc_classname
+            0x00000001f2cffbc2 (   0x1dd) __TEXT __objc_methname
+            0x00000001f2cffd9f (    0x9c) __TEXT __objc_methtype
+            0x00000001f2cffe40 (   0x1c0) __TEXT __objc_stubs
+                0x00000001f2cffe40 (    0x20) objc_msgSend$containsObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffe60 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffe80 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffea0 (    0x20) objc_msgSend$dataTaskWithRequest:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffec0 (    0x20) objc_msgSend$executeBlock [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cffee0 (    0x20) objc_msgSend$initWithMaxNumberOfRetries:block: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfff00 (    0x20) objc_msgSend$initWithSession:numberOfSecondsBetweenRetries: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfff20 (    0x20) objc_msgSend$numberOfAttempts [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfff40 (    0x20) objc_msgSend$numberWithInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfff60 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfff80 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfffa0 (    0x20) objc_msgSend$retryAfterSeconds: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfffc0 (    0x20) objc_msgSend$statusCode [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f2cfffe0 (    0x20) objc_msgSend$unsignedIntegerValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000236992050 (   0x258) __DATA_CONST SEGMENT
+            0x0000000236992050 (     0x8) __DATA_CONST __got
+            0x0000000236992058 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000236992068 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236992070 (   0x178) __DATA_CONST __objc_const
+                0x0000000236992070 (    0x48) _OBJC_METACLASS_RO_$_ACSERetryController [NameNList, MangledNameNList, NList] 
+                0x00000002369920b8 (    0x88) _OBJC_$_INSTANCE_VARIABLES_ACSERetryController [NameNList, MangledNameNList, NList] 
+                0x0000000236992140 (    0x18) _OBJC_$_PROP_LIST_ACSERetryController [NameNList, MangledNameNList, NList] 
+                0x0000000236992158 (    0x48) _OBJC_METACLASS_RO_$_ACSENetworkRequestController [NameNList, MangledNameNList, NList] 
+                0x00000002369921a0 (    0x48) _OBJC_$_INSTANCE_VARIABLES_ACSENetworkRequestController [NameNList, MangledNameNList, NList] 
+            0x00000002369921e8 (    0x90) __DATA_CONST __objc_selrefs
+            0x0000000236992278 (    0x30) __DATA_CONST __objc_arraydata
+                0x0000000236992278 (    0x30) _unnamed_array_storage.16 [NameNList, MangledNameNList, NList] 
+        0x00000002369922a8 (   0x260) __AUTH_CONST SEGMENT
+            0x00000002369922a8 (    0x90) __AUTH_CONST __const
+                0x00000002369922a8 (    0x30) __block_descriptor_40_e8_32r_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002369922d8 (    0x30) __block_descriptor_56_e8_32s40s48r_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236992308 (    0x30) __block_descriptor_72_e8_32s40s48s56r64w_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236992338 (    0x90) __AUTH_CONST __objc_const
+                0x0000000236992338 (    0x48) _OBJC_CLASS_RO_$_ACSERetryController [NameNList, MangledNameNList, NList] 
+                0x0000000236992380 (    0x48) _OBJC_CLASS_RO_$_ACSENetworkRequestController [NameNList, MangledNameNList, NList] 
+            0x00000002369923c8 (    0x90) __AUTH_CONST __objc_intobj
+            0x0000000236992458 (    0x18) __AUTH_CONST __objc_arrayobj
+            0x0000000236992470 (    0x98) __AUTH_CONST __auth_got
+        0x0000000232330288 (    0xa0) __AUTH SEGMENT
+            0x0000000232330288 (    0xa0) __AUTH __objc_data
+                0x0000000232330288 (    0x28) OBJC_CLASS_$_ACSERetryController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002323302b0 (    0x28) OBJC_METACLASS_$_ACSERetryController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002323302d8 (    0x28) OBJC_CLASS_$_ACSENetworkRequestController [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232330300 (    0x28) OBJC_METACLASS_$_ACSENetworkRequestController [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230ebd700 (    0x38) __DATA SEGMENT
+            0x0000000230ebd700 (    0x10) __DATA __objc_classrefs
+            0x0000000230ebd710 (    0x10) __DATA __objc_superrefs
+            0x0000000230ebd720 (    0x18) __DATA __objc_ivar
+                0x0000000230ebd720 (     0x4) OBJC_IVAR_$_ACSERetryController._numberOfAttempts [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230ebd724 (     0x4) OBJC_IVAR_$_ACSERetryController._maxNumberOfRetries [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230ebd728 (     0x4) OBJC_IVAR_$_ACSERetryController._queue [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230ebd72c (     0x4) OBJC_IVAR_$_ACSERetryController._executionBlock [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230ebd730 (     0x4) OBJC_IVAR_$_ACSENetworkRequestController._session [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230ebd734 (     0x4) OBJC_IVAR_$_ACSENetworkRequestController._numberOfSecondsBetweenRetries [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

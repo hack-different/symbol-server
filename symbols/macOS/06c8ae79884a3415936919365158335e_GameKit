@@ -1,0 +1,50 @@
+/System/iOSSupport/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit [arm64e, 0.074041 seconds]:
+    E21CC69C-2E51-3071-9248-861C2C3B05D3 /System/iOSSupport/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223d43000 (  0x1ffa) __TEXT SEGMENT
+            0x0000000223d43000 (  0x1eb8) MACH_HEADER
+            0x0000000223d44eb8 (    0x68) __TEXT __text
+                0x0000000223d44eb8 (    0x68) (null) [FUNC, FunctionStarts] 
+            0x0000000223d44f20 (    0x30) __TEXT __auth_stubs
+                0x0000000223d44f20 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223d44f30 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223d44f40 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223d44f50 (    0x46) __TEXT __const
+                0x0000000223d44f50 (    0x38) kGameKitGameKitVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000223d44f88 (     0xc) kGameKitGameKitVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000223d44f94 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000223d44f98 (    0x48) __TEXT __unwind_info
+            0x0000000223d44fe0 (    0x1a) __TEXT __objc_methname
+        0x000000022e84e500 (    0xf0) __DATA_CONST SEGMENT
+            0x000000022e84e500 (    0xd8) __DATA_CONST __const
+                0x000000022e84e500 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e508 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e510 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e518 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e520 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e528 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e530 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e538 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e540 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e548 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e550 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e558 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e560 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e568 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e570 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e578 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e580 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e588 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e590 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e598 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5a0 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5a8 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5b0 (     0x8) _swift_FORCE_LOAD_$_swiftModelIO_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5b8 (     0x8) _swift_FORCE_LOAD_$_swiftGameplayKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5c0 (     0x8) _swift_FORCE_LOAD_$_swiftSceneKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5c8 (     0x8) _swift_FORCE_LOAD_$_swiftSpriteKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e84e5d0 (     0x8) _swift_FORCE_LOAD_$_swiftMetalKit_$_GameKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e84e5d8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e84e5e0 (    0x10) __DATA_CONST __objc_selrefs
+        0x000000023858afa0 (    0x18) __AUTH_CONST SEGMENT
+            0x000000023858afa0 (    0x18) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

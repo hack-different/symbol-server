@@ -1,0 +1,139 @@
+/System/iOSSupport/System/Library/Frameworks/MediaSetup.framework/Versions/A/MediaSetup [arm64e, 0.024183 seconds]:
+    7574CCDC-0D73-3144-A7D7-E1C0775F6DD9 /System/iOSSupport/System/Library/Frameworks/MediaSetup.framework/Versions/A/MediaSetup [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022411d000 (  0x2000) __TEXT SEGMENT
+            0x000000022411d000 (  0x10a0) MACH_HEADER
+            0x000000022411e0a0 (   0x300) __TEXT __text
+                0x000000022411e0a0 (    0x8c) -[MSSetupSession initWithServiceAccount:test:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e12c (     0x8) -[MSSetupSession initWithServiceAccount:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e134 (    0x58) -[MSSetupSession startWithError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e18c (    0x2c) -[MSSetupSession presentationContext] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e1b8 (     0xc) -[MSSetupSession setPresentationContext:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e1c4 (     0x8) -[MSSetupSession account] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e1cc (     0x8) -[MSSetupSession testFlags] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e1d4 (     0x8) -[MSSetupSession viewController] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e1dc (    0x4c) -[MSSetupSession .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e228 (    0x98) -[MSServiceAccount initWithServiceName:accountName:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2c0 (     0x8) -[MSServiceAccount serviceName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2c8 (     0x8) -[MSServiceAccount accountName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2d0 (     0x8) -[MSServiceAccount clientID] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2d8 (     0x8) -[MSServiceAccount setClientID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2e0 (     0x8) -[MSServiceAccount clientSecret] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2e8 (     0x8) -[MSServiceAccount setClientSecret:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2f0 (     0x8) -[MSServiceAccount configurationURL] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e2f8 (     0x8) -[MSServiceAccount setConfigurationURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e300 (     0x8) -[MSServiceAccount authorizationTokenURL] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e308 (     0x8) -[MSServiceAccount setAuthorizationTokenURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e310 (     0x8) -[MSServiceAccount authorizationScope] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e318 (     0x8) -[MSServiceAccount setAuthorizationScope:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022411e320 (    0x80) -[MSServiceAccount .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022411e3a0 (    0xf0) __TEXT __auth_stubs
+                0x000000022411e3a0 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e3b0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e3c0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e3d0 (    0x10) DYLD-STUB$$objc_destroyWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e3e0 (    0x10) DYLD-STUB$$objc_loadWeakRetained [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e3f0 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e400 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e410 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e420 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e430 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e440 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e450 (    0x10) DYLD-STUB$$objc_retain_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e460 (    0x10) DYLD-STUB$$objc_setProperty_nonatomic_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e470 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022411e480 (    0x10) DYLD-STUB$$objc_storeWeak [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022411e490 (   0x128) __TEXT __objc_methlist
+                0x000000022411e490 (    0x78) _OBJC_$_INSTANCE_METHODS_MSSetupSession [NameNList, MangledNameNList, NList] 
+                0x000000022411e508 (    0xb0) _OBJC_$_INSTANCE_METHODS_MSServiceAccount [NameNList, MangledNameNList, NList] 
+            0x000000022411e5b8 (    0x38) __TEXT __const
+                0x000000022411e5b8 (    0x30) MediaSetupVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022411e5e8 (     0x8) MediaSetupVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000022411e5f0 (   0x47e) __TEXT __cstring
+            0x000000022411ea70 (    0x74) __TEXT __unwind_info
+            0x000000022411eae4 (    0x27) __TEXT __objc_classname
+            0x000000022411eb0c (   0x3f0) __TEXT __objc_methname
+            0x000000022411eefc (    0xbe) __TEXT __objc_methtype
+            0x000000022411efc0 (    0x40) __TEXT __objc_stubs
+                0x000000022411efc0 (    0x20) objc_msgSend$errorWithDomain:code:userInfo: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022411efe0 (    0x20) objc_msgSend$initWithServiceAccount:test: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238616470 (   0x4e0) __DATA_CONST SEGMENT
+            0x0000000238616470 (   0x120) __DATA_CONST __const
+                0x0000000238616470 (     0x8) MSErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616478 (     0x8) MSServiceSetupErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616480 (     0x8) MSCloudKitErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616488 (     0x8) MSUserInfoErrorStringKey [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616490 (     0x8) kMediaSetupExtensionIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616498 (     0x8) kMediaSetupKeyHostBundleID [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164a0 (     0x8) kMediaSetupKeyMediaService [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164a8 (     0x8) kMediaSetupKeyTestUIFlags [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164b0 (     0x8) kMediaSetupMachServiceName [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164b8 (     0x8) kMediaSetupServiceEntitlement [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164c0 (     0x8) kAppleMusicApplicationIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164c8 (     0x8) kAppleMusicBundleIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164d0 (     0x8) kAppleMusicServiceIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164d8 (     0x8) kAppleMusicServiceType [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164e0 (     0x8) kMediaSetupUserDefaultsDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164e8 (     0x8) kMediaSetupDeveloperUserDefaultsDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164f0 (     0x8) kMediaSetupSettingsDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002386164f8 (     0x8) kHomeMultiUserStatusChangedNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616500 (     0x8) kHomeUserCloudShareChangedNotification [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616508 (     0x8) kAPSDelegatePort [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616510 (     0x8) kAPSTopic [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616518 (     0x8) kMediaSetupCloudKitContainerIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616520 (     0x8) kMediaSetupPublicCloudKitContainerIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616528 (     0x8) kMediaSetupServicesChanged [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616530 (     0x8) kCKDatabaseAccessUserInfoHomeIDKey [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616538 (     0x8) kCKDatabaseAccessUserInfoHomeUserIDKey [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616540 (     0x8) kMediaSetupInterfaceEntitlementKey [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616548 (     0x8) kMediaSetupTestingProfileDefaultsIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616550 (     0x8) kBackgroundActivityDataRefreshTaskIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616558 (     0x8) kBackgroundActivityUserShareRetryTaskIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616560 (     0x8) kPodcastsBundleIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616568 (     0x8) kCloudMediaServicesBundleIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616570 (     0x8) kAddServiceTransactionIdentifier [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616578 (     0x8) kOverrideAppleMusicSubscriptionStatus [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616580 (     0x8) kOverrideAppleMusicSubscriptionStatusAllUsers [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000238616588 (     0x8) kExcludedBundleIDs [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000238616590 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002386165a0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002386165a8 (   0x2c0) __DATA_CONST __objc_const
+                0x00000002386165a8 (    0x48) _OBJC_METACLASS_RO_$_MSSetupSession [NameNList, MangledNameNList, NList] 
+                0x00000002386165f0 (    0x88) _OBJC_$_INSTANCE_VARIABLES_MSSetupSession [NameNList, MangledNameNList, NList] 
+                0x0000000238616678 (    0x48) _OBJC_$_PROP_LIST_MSSetupSession [NameNList, MangledNameNList, NList] 
+                0x00000002386166c0 (    0x48) _OBJC_METACLASS_RO_$_MSServiceAccount [NameNList, MangledNameNList, NList] 
+                0x0000000238616708 (    0xe8) _OBJC_$_INSTANCE_VARIABLES_MSServiceAccount [NameNList, MangledNameNList, NList] 
+                0x00000002386167f0 (    0x78) _OBJC_$_PROP_LIST_MSServiceAccount [NameNList, MangledNameNList, NList] 
+            0x0000000238616868 (    0xc8) __DATA_CONST __objc_selrefs
+            0x0000000238616930 (    0x20) __DATA_CONST __objc_arraydata
+                0x0000000238616930 (    0x20) _unnamed_array_storage [NameNList, MangledNameNList, NList] 
+        0x0000000238616950 (   0x5e8) __AUTH_CONST SEGMENT
+            0x0000000238616950 (   0x4c0) __AUTH_CONST __cfstring
+            0x0000000238616e10 (    0x18) __AUTH_CONST __objc_arrayobj
+            0x0000000238616e28 (    0x90) __AUTH_CONST __objc_const
+                0x0000000238616e28 (    0x48) _OBJC_CLASS_RO_$_MSSetupSession [NameNList, MangledNameNList, NList] 
+                0x0000000238616e70 (    0x48) _OBJC_CLASS_RO_$_MSServiceAccount [NameNList, MangledNameNList, NList] 
+            0x0000000238616eb8 (    0x80) __AUTH_CONST __auth_got
+        0x000000023369c500 (    0xa0) __AUTH SEGMENT
+            0x000000023369c500 (    0xa0) __AUTH __objc_data
+                0x000000023369c500 (    0x28) OBJC_CLASS_$_MSSetupSession [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023369c528 (    0x28) OBJC_METACLASS_$_MSSetupSession [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023369c550 (    0x28) OBJC_CLASS_$_MSServiceAccount [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023369c578 (    0x28) OBJC_METACLASS_$_MSServiceAccount [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231be3758 (    0x50) __DATA SEGMENT
+            0x0000000231be3758 (     0x8) __DATA __objc_classrefs
+            0x0000000231be3760 (    0x10) __DATA __objc_superrefs
+            0x0000000231be3770 (    0x2c) __DATA __objc_ivar
+                0x0000000231be3770 (     0x4) OBJC_IVAR_$_MSSetupSession._presentationContext [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3774 (     0x4) OBJC_IVAR_$_MSSetupSession._account [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3778 (     0x4) OBJC_IVAR_$_MSSetupSession._testFlags [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be377c (     0x4) OBJC_IVAR_$_MSSetupSession._viewController [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3780 (     0x4) OBJC_IVAR_$_MSServiceAccount._serviceName [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3784 (     0x4) OBJC_IVAR_$_MSServiceAccount._accountName [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3788 (     0x4) OBJC_IVAR_$_MSServiceAccount._clientID [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be378c (     0x4) OBJC_IVAR_$_MSServiceAccount._clientSecret [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3790 (     0x4) OBJC_IVAR_$_MSServiceAccount._configurationURL [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3794 (     0x4) OBJC_IVAR_$_MSServiceAccount._authorizationTokenURL [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231be3798 (     0x4) OBJC_IVAR_$_MSServiceAccount._authorizationScope [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231be37a0 (     0x8) __DATA __data
+                0x0000000231be37a0 (     0x8) kBackgroundActivityPublicDatabaseRefreshTaskIdentifier [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

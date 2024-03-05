@@ -1,0 +1,95 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/MailAttachmentPlugin.axbundle/Contents/MacOS/MailAttachmentPlugin [arm64e, 0.026558 seconds]:
+    49F72D9A-6FB6-3E66-A366-EB370AD5FA4B /System/iOSSupport/System/Library/AccessibilityBundles/MailAttachmentPlugin.axbundle/Contents/MacOS/MailAttachmentPlugin [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000223228000 (  0x2000) __TEXT SEGMENT
+            0x0000000223228000 (  0x14b8) MACH_HEADER
+            0x00000002232294b8 (   0x388) __TEXT __text
+                0x00000002232294b8 (     0xc) +[MFAttachmentViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232294c4 (     0xc) +[MFAttachmentViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232294d0 (    0x98) +[MFAttachmentViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223229568 (     0x8) -[MFAttachmentViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223229570 (     0x8) -[MFAttachmentViewAccessibility accessibilityElementsHidden] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223229578 (    0x54) -[MFAttachmentViewAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232295cc (    0xb8) -[MFAttachmentViewAccessibility accessibilityValue] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223229684 (     0xc) -[MFAttachmentViewAccessibility accessibilityHint] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000223229690 (    0x10) -[MFAttachmentViewAccessibility accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232296a0 (    0x9c) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022322973c (    0x94) +[AXMailAttachmentGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232297d0 (     0x8) __53+[AXMailAttachmentGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002232297d8 (    0x54) __53+[AXMailAttachmentGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022322982c (    0x14) __53+[AXMailAttachmentGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000223229840 (    0xf0) __TEXT __auth_stubs
+                0x0000000223229840 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229850 (    0x10) DYLD-STUB$$__UIAXStringForVariables [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229860 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229870 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229880 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229890 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298a0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298b0 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298c0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298d0 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298e0 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002232298f0 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229900 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229910 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000223229920 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000223229930 (    0x94) __TEXT __objc_methlist
+                0x0000000223229930 (    0x30) _OBJC_$_CLASS_METHODS_MFAttachmentViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x0000000223229960 (    0x50) _OBJC_$_INSTANCE_METHODS_MFAttachmentViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002232299b0 (    0x14) _OBJC_$_CLASS_METHODS_AXMailAttachmentGlue [NameNList, MangledNameNList, NList] 
+            0x00000002232299c4 (   0x14c) __TEXT __cstring
+            0x0000000223229b10 (    0x74) __TEXT __unwind_info
+            0x0000000223229b84 (    0x66) __TEXT __objc_classname
+            0x0000000223229bea (   0x262) __TEXT __objc_methname
+            0x0000000223229e4c (    0x33) __TEXT __objc_methtype
+            0x0000000223229e80 (   0x180) __TEXT __objc_stubs
+                0x0000000223229e80 (    0x20) objc_msgSend$_accessibilityViewIsVisible [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229ea0 (    0x20) objc_msgSend$accessibilityLabel [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229ec0 (    0x20) objc_msgSend$bundleWithIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229ee0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229f00 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229f20 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229f40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229f60 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229f80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229fa0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229fc0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000223229fe0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023842a540 (   0x1e8) __DATA_CONST SEGMENT
+            0x000000023842a540 (     0x8) __DATA_CONST __got
+            0x000000023842a548 (    0x40) __DATA_CONST __const
+                0x000000023842a548 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023842a568 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023842a588 (    0x18) __DATA_CONST __objc_classlist
+            0x000000023842a5a0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023842a5a8 (    0xd8) __DATA_CONST __objc_const
+                0x000000023842a5a8 (    0x48) _OBJC_METACLASS_RO_$___MFAttachmentViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x000000023842a5f0 (    0x48) _OBJC_CLASS_RO_$___MFAttachmentViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x000000023842a638 (    0x48) _OBJC_CLASS_RO_$_AXMailAttachmentGlue [NameNList, MangledNameNList, NList] 
+            0x000000023842a680 (    0xa8) __DATA_CONST __objc_selrefs
+        0x000000023842a728 (   0x338) __AUTH_CONST SEGMENT
+            0x000000023842a728 (    0xd8) __AUTH_CONST __objc_const
+                0x000000023842a728 (    0x48) _OBJC_METACLASS_RO_$_MFAttachmentViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x000000023842a770 (    0x48) _OBJC_CLASS_RO_$_MFAttachmentViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x000000023842a7b8 (    0x48) _OBJC_METACLASS_RO_$_AXMailAttachmentGlue [NameNList, MangledNameNList, NList] 
+            0x000000023842a800 (   0x180) __AUTH_CONST __cfstring
+            0x000000023842a980 (    0x60) __AUTH_CONST __const
+                0x000000023842a980 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023842a9a0 (    0x20) __block_literal_global.223 [NameNList, MangledNameNList, NList] 
+                0x000000023842a9c0 (    0x20) __block_literal_global.232 [NameNList, MangledNameNList, NList] 
+            0x000000023842a9e0 (    0x80) __AUTH_CONST __auth_got
+        0x0000000233631920 (    0xf0) __AUTH SEGMENT
+            0x0000000233631920 (    0xf0) __AUTH __objc_data
+                0x0000000233631920 (    0x28) OBJC_METACLASS_$___MFAttachmentViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631948 (    0x28) OBJC_CLASS_$___MFAttachmentViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631970 (    0x28) OBJC_CLASS_$_MFAttachmentViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233631998 (    0x28) OBJC_METACLASS_$_MFAttachmentViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336319c0 (    0x28) OBJC_CLASS_$_AXMailAttachmentGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336319e8 (    0x28) OBJC_METACLASS_$_AXMailAttachmentGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231baa8f0 (    0x30) __DATA SEGMENT
+            0x0000000231baa8f0 (    0x20) __DATA __objc_classrefs
+            0x0000000231baa910 (     0x8) __DATA __common
+                0x0000000231baa910 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000231baa918 (     0x8) __DATA __bss
+                0x0000000231baa918 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

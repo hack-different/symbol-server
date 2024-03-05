@@ -1,0 +1,115 @@
+/usr/lib/log/liblog_AppStoreDaemon.dylib [arm64e, 0.230045 seconds]:
+    179EB0E3-3E12-34C0-9244-86329D73579C /usr/lib/log/liblog_AppStoreDaemon.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002214b1000 (  0x4000) __TEXT SEGMENT
+            0x00000002214b1000 (  0x23f8) MACH_HEADER
+            0x00000002214b33f8 (  0x13d8) __TEXT __text
+                0x00000002214b33f8 (   0x180) -[LogTransactions(Extensions) formattedText] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3578 (    0x8c) -[LogTransactions addTransactionID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3604 (    0xb8) -[LogTransactions description] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b36bc (    0x6c) -[LogTransactions dictionaryRepresentation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3728 (   0x18c) LogTransactionsReadFrom [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b38b4 (     0x8) -[LogTransactions readFrom:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b38bc (   0x118) -[LogTransactions writeTo:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b39d4 (   0x13c) -[LogTransactions copyWithZone:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3b10 (    0x8c) -[LogTransactions isEqual:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3b9c (    0x10) -[LogTransactions hash] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3bac (    0x14) -[LogTransactions .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3bc0 (    0x8c) -[LogPushConnection addMessages:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3c4c (    0xb8) -[LogPushConnection description] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3d04 (    0xac) -[LogPushConnection dictionaryRepresentation] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3db0 (   0x1e4) LogPushConnectionReadFrom [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3f94 (     0x8) -[LogPushConnection readFrom:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b3f9c (   0x150) -[LogPushConnection writeTo:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b40ec (   0x184) -[LogPushConnection copyWithZone:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b4270 (    0xcc) -[LogPushConnection isEqual:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b433c (    0x5c) -[LogPushConnection hash] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b4398 (    0x68) -[LogPushConnection .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b4400 (    0x74) -[PBCodable initWithOSStateData:length:] [FUNC, OBJC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b4474 (   0x220) -[LogPushConnection(Extensions) formattedText] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b4694 (    0x78) OSLogCopyFormattedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214b470c (    0xc4) OSStateCreateStringWithData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002214b47d0 (   0x100) __TEXT __auth_stubs
+                0x00000002214b47d0 (    0x10) DYLD-STUB$$PBDataWriterWriteStringField [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b47e0 (    0x10) DYLD-STUB$$PBReaderReadString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b47f0 (    0x10) DYLD-STUB$$PBReaderSkipValueWithTag [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4800 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4810 (    0x10) DYLD-STUB$$class_getSuperclass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4820 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4830 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4840 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4850 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4860 (    0x10) DYLD-STUB$$objc_getClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4870 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4880 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b4890 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b48a0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b48b0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214b48c0 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002214b48d0 (    0xec) __TEXT __objc_methlist
+                0x00000002214b48d0 (    0x78) _OBJC_$_INSTANCE_METHODS_LogTransactions(Extensions) [NameNList, MangledNameNList, NList] 
+                0x00000002214b4948 (    0x74) _OBJC_$_INSTANCE_METHODS_LogPushConnection(Extensions) [NameNList, MangledNameNList, NList] 
+            0x00000002214b49bc (    0xdd) __TEXT __cstring
+            0x00000002214b4a9c (    0xa8) __TEXT __unwind_info
+            0x00000002214b4b44 (    0x3b) __TEXT __objc_classname
+            0x00000002214b4b80 (   0x19b) __TEXT __objc_methname
+            0x00000002214b4d1b (    0x61) __TEXT __objc_methtype
+            0x00000002214b4d80 (   0x280) __TEXT __objc_stubs
+                0x00000002214b4d80 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4da0 (    0x20) objc_msgSend$allocWithZone: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4dc0 (    0x20) objc_msgSend$appendFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4de0 (    0x20) objc_msgSend$copy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4e00 (    0x20) objc_msgSend$copyWithZone: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4e20 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4e40 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4e60 (    0x20) objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4e80 (    0x20) objc_msgSend$dictionary [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4ea0 (    0x20) objc_msgSend$dictionaryRepresentation [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4ec0 (    0x20) objc_msgSend$formattedText [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4ee0 (    0x20) objc_msgSend$hash [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4f00 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4f20 (    0x20) objc_msgSend$initWithData: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4f40 (    0x20) objc_msgSend$initWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4f60 (    0x20) objc_msgSend$isEqual: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4f80 (    0x20) objc_msgSend$isMemberOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4fa0 (    0x20) objc_msgSend$setObject:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4fc0 (    0x20) objc_msgSend$string [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214b4fe0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238304760 (   0x280) __DATA_CONST SEGMENT
+            0x0000000238304760 (    0x28) __DATA_CONST __got
+            0x0000000238304788 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000238304798 (     0x8) __DATA_CONST __objc_protolist
+                0x0000000238304798 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383047a0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383047a8 (   0x178) __DATA_CONST __objc_const
+                0x00000002383047a8 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000002383047c8 (     0x8) _OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying [NameNList, MangledNameNList, NList] 
+                0x00000002383047d0 (    0x18) _OBJC_CLASS_PROTOCOLS_$_LogTransactions [NameNList, MangledNameNList, NList] 
+                0x00000002383047e8 (    0x48) _OBJC_METACLASS_RO_$_LogTransactions [NameNList, MangledNameNList, NList] 
+                0x0000000238304830 (    0x28) _OBJC_$_INSTANCE_VARIABLES_LogTransactions [NameNList, MangledNameNList, NList] 
+                0x0000000238304858 (    0x18) _OBJC_CLASS_PROTOCOLS_$_LogPushConnection [NameNList, MangledNameNList, NList] 
+                0x0000000238304870 (    0x48) _OBJC_METACLASS_RO_$_LogPushConnection [NameNList, MangledNameNList, NList] 
+                0x00000002383048b8 (    0x68) _OBJC_$_INSTANCE_VARIABLES_LogPushConnection [NameNList, MangledNameNList, NList] 
+            0x0000000238304920 (    0xc0) __DATA_CONST __objc_selrefs
+        0x00000002383049e0 (   0x2d8) __AUTH_CONST SEGMENT
+            0x00000002383049e0 (   0x1c0) __AUTH_CONST __cfstring
+            0x0000000238304ba0 (    0x90) __AUTH_CONST __objc_const
+                0x0000000238304ba0 (    0x48) _OBJC_CLASS_RO_$_LogTransactions [NameNList, MangledNameNList, NList] 
+                0x0000000238304be8 (    0x48) _OBJC_CLASS_RO_$_LogPushConnection [NameNList, MangledNameNList, NList] 
+            0x0000000238304c30 (    0x88) __AUTH_CONST __auth_got
+        0x000000023330e6d0 (    0xa0) __AUTH SEGMENT
+            0x000000023330e6d0 (    0xa0) __AUTH __objc_data
+                0x000000023330e6d0 (    0x28) OBJC_CLASS_$_LogTransactions [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023330e6f8 (    0x28) OBJC_METACLASS_$_LogTransactions [NameNList, MangledNameNList, NList] 
+                0x000000023330e720 (    0x28) OBJC_CLASS_$_LogPushConnection [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023330e748 (    0x28) OBJC_METACLASS_$_LogPushConnection [NameNList, MangledNameNList, NList] 
+        0x0000000231b619a0 (    0xc8) __DATA SEGMENT
+            0x0000000231b619a0 (    0x48) __DATA __objc_classrefs
+            0x0000000231b619e8 (    0x10) __DATA __objc_superrefs
+            0x0000000231b619f8 (    0x10) __DATA __objc_ivar
+                0x0000000231b619f8 (     0x4) OBJC_IVAR_$_LogTransactions._transactionIDs [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b619fc (     0x4) OBJC_IVAR_$_LogPushConnection._environment [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b61a00 (     0x4) OBJC_IVAR_$_LogPushConnection._token [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231b61a04 (     0x4) OBJC_IVAR_$_LogPushConnection._messages [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231b61a08 (    0x60) __DATA __data
+                0x0000000231b61a08 (    0x60) _OBJC_PROTOCOL_$_NSCopying [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

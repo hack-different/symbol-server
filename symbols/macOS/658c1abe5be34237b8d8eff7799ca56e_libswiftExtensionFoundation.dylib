@@ -1,0 +1,17 @@
+/usr/lib/swift/libswiftExtensionFoundation.dylib [arm64e, 0.290956 seconds]:
+    3B75EF8A-A2C9-3339-8F8F-579F8099E390 /usr/lib/swift/libswiftExtensionFoundation.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221533000 (  0x1000) __TEXT SEGMENT
+            0x0000000221533000 (   0xffe) MACH_HEADER
+            0x0000000221533ffe (     0x2) __TEXT __const
+                0x0000000221533ffe (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e844858 (    0x40) __DATA_CONST SEGMENT
+            0x000000022e844858 (    0x38) __DATA_CONST __const
+                0x000000022e844858 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844860 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844868 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844870 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844878 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844880 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844888 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_libswiftExtensionFoundation [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e844890 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

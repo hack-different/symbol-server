@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/iCloudDriveService.framework/Versions/A/iCloudDriveService [arm64e, 0.288331 seconds]:
+    EAFFC0EB-7DE7-3A59-B348-9110AEE92779 /System/Library/PrivateFrameworks/iCloudDriveService.framework/Versions/A/iCloudDriveService [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021b762000 (  0x4000) __TEXT SEGMENT
+            0x000000021b762000 (  0x3fb8) MACH_HEADER
+            0x000000021b765fb8 (    0x48) __TEXT __const
+                0x000000021b765fb8 (    0x40) iCloudDriveServiceVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021b765ff8 (     0x8) iCloudDriveServiceVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

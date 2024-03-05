@@ -1,0 +1,53 @@
+/usr/lib/i18n/libiconv_std.dylib [arm64e, 0.057653 seconds]:
+    3BBFFF2C-51CD-30D7-9E7E-6C3D197AE8D2 /usr/lib/i18n/libiconv_std.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff9b000 (  0x4000) __TEXT SEGMENT
+            0x000000021ff9b000 (  0x25c4) MACH_HEADER
+            0x000000021ff9d5c4 (  0x1798) __TEXT __text
+                0x000000021ff9d5c4 (   0x19c) _citrus_iconv_std_iconv_init_shared [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9d760 (    0x5c) _citrus_iconv_std_iconv_uninit_shared [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9d7bc (    0xd0) _citrus_iconv_std_iconv_init_context [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9d88c (     0x8) _citrus_iconv_std_iconv_uninit_context [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9d894 (   0xe20) _citrus_iconv_std_iconv_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9e6b4 (    0x1c) (null) [FUNC, FunctionStarts] 
+                0x000000021ff9e6d0 (    0x20) _citrus_iconv_std_iconv_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9e6f0 (   0x2cc) open_srcs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9e9bc (    0x5c) close_srcs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ea18 (    0x5c) close_dsts [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ea74 (    0xb4) init_encoding [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9eb28 (    0x24) save_encoding_state [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9eb4c (    0x2c) _citrus_iconv_std_iconv_convert.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9eb78 (    0x2c) _citrus_iconv_std_iconv_convert.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9eba4 (    0x2c) _citrus_iconv_std_iconv_convert.cold.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ebd0 (    0x2c) _citrus_iconv_std_iconv_convert.cold.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ebfc (    0x2c) _citrus_iconv_std_iconv_convert.cold.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ec28 (    0x2c) _citrus_iconv_std_iconv_convert.cold.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ec54 (    0x2c) _citrus_iconv_std_iconv_convert.cold.7 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ec80 (    0x2c) _citrus_iconv_std_iconv_convert.cold.8 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ecac (    0x2c) _citrus_iconv_std_iconv_convert.cold.9 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ecd8 (    0x2c) _citrus_iconv_std_iconv_convert.cold.10 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ed04 (    0x2c) _citrus_iconv_std_iconv_convert.cold.11 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff9ed30 (    0x2c) init_encoding.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff9ed5c (    0xd0) __TEXT __auth_stubs
+                0x000000021ff9ed5c (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ed6c (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ed7c (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ed8c (    0x10) DYLD-STUB$$_citrus_csmapper_open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ed9c (    0x10) DYLD-STUB$$_citrus_esdb_close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9edac (    0x10) DYLD-STUB$$_citrus_esdb_open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9edbc (    0x10) DYLD-STUB$$_citrus_mapper_close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9edcc (    0x10) DYLD-STUB$$_citrus_stdenc_close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9eddc (    0x10) DYLD-STUB$$_citrus_stdenc_open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9edec (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9edfc (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ee0c (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff9ee1c (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff9ee2c (   0x141) __TEXT __cstring
+            0x000000021ff9ef70 (    0x90) __TEXT __unwind_info
+        0x000000022e7f15a0 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7f15a0 (     0x8) __DATA_CONST __got
+        0x0000000238249db0 (    0x68) __AUTH_CONST SEGMENT
+            0x0000000238249db0 (    0x68) __AUTH_CONST __auth_got
+        0x00000002332f3fb8 (    0x28) __AUTH SEGMENT
+            0x00000002332f3fb8 (    0x28) __AUTH __data
+                0x00000002332f3fb8 (    0x28) _citrus_iconv_std_iconv_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

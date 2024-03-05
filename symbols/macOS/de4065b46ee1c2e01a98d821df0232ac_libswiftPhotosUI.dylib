@@ -1,0 +1,6 @@
+/System/iOSSupport/usr/lib/swift/libswiftPhotosUI.dylib [arm64e, 0.034064 seconds]:
+    D5C83E5C-EEF6-3339-B58E-0693565BA986 /System/iOSSupport/usr/lib/swift/libswiftPhotosUI.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8e4000 (  0x1000) __TEXT SEGMENT
+            0x000000022d8e4000 (   0xffa) MACH_HEADER
+            0x000000022d8e4ffa (     0x6) __TEXT __const
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

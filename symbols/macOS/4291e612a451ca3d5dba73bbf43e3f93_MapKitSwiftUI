@@ -1,0 +1,81 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/MapKitSwiftUI.axbundle/Contents/MacOS/MapKitSwiftUI [arm64e, 0.035636 seconds]:
+    E4095461-9AD9-3022-96DF-9C0ABC0B2A59 /System/iOSSupport/System/Library/AccessibilityBundles/MapKitSwiftUI.axbundle/Contents/MacOS/MapKitSwiftUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022323c000 (  0x2000) __TEXT SEGMENT
+            0x000000022323c000 (  0x1840) MACH_HEADER
+            0x000000022323d840 (   0x1f8) __TEXT __text
+                0x000000022323d840 (     0xc) +[SwiftUIAnnotationViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d84c (     0xc) +[SwiftUIAnnotationViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d858 (    0x18) +[SwiftUIAnnotationViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d870 (     0x8) -[SwiftUIAnnotationViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d878 (    0x94) +[AXMapKitSwiftUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d90c (     0x8) __52+[AXMapKitSwiftUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d914 (    0x60) __52+[AXMapKitSwiftUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d974 (    0x14) __52+[AXMapKitSwiftUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022323d988 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022323da38 (    0xa0) __TEXT __auth_stubs
+                0x000000022323da38 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da48 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da58 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da68 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da78 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da88 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323da98 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323daa8 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323dab8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022323dac8 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022323dad8 (    0x5c) __TEXT __objc_methlist
+                0x000000022323dad8 (    0x30) _OBJC_$_CLASS_METHODS_SwiftUIAnnotationViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x000000022323db08 (    0x18) _OBJC_$_INSTANCE_METHODS_SwiftUIAnnotationViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x000000022323db20 (    0x14) _OBJC_$_CLASS_METHODS_AXMapKitSwiftUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000022323db34 (    0xc4) __TEXT __cstring
+            0x000000022323dbf8 (    0x64) __TEXT __unwind_info
+            0x000000022323dc5c (    0x6f) __TEXT __objc_classname
+            0x000000022323dccc (   0x1c7) __TEXT __objc_methname
+            0x000000022323de93 (    0x2b) __TEXT __objc_methtype
+            0x000000022323dec0 (   0x140) __TEXT __objc_stubs
+                0x000000022323dec0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323dee0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323df00 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323df20 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323df40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323df60 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323df80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323dfa0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323dfc0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022323dfe0 (    0x20) objc_msgSend$validateClass:isKindOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238431e38 (   0x1b0) __DATA_CONST SEGMENT
+            0x0000000238431e38 (    0x40) __DATA_CONST __const
+                0x0000000238431e38 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238431e58 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238431e78 (    0x18) __DATA_CONST __objc_classlist
+            0x0000000238431e90 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238431e98 (    0xd8) __DATA_CONST __objc_const
+                0x0000000238431e98 (    0x48) _OBJC_METACLASS_RO_$___SwiftUIAnnotationViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238431ee0 (    0x48) _OBJC_CLASS_RO_$___SwiftUIAnnotationViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238431f28 (    0x48) _OBJC_CLASS_RO_$_AXMapKitSwiftUIGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238431f70 (    0x78) __DATA_CONST __objc_selrefs
+        0x0000000238431fe8 (   0x270) __AUTH_CONST SEGMENT
+            0x0000000238431fe8 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000238431fe8 (    0x48) _OBJC_METACLASS_RO_$_SwiftUIAnnotationViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238432030 (    0x48) _OBJC_CLASS_RO_$_SwiftUIAnnotationViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238432078 (    0x48) _OBJC_METACLASS_RO_$_AXMapKitSwiftUIGlue [NameNList, MangledNameNList, NList] 
+            0x00000002384320c0 (    0xe0) __AUTH_CONST __cfstring
+            0x00000002384321a0 (    0x60) __AUTH_CONST __const
+                0x00000002384321a0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002384321c0 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x00000002384321e0 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x0000000238432200 (    0x58) __AUTH_CONST __auth_got
+        0x0000000233633a40 (    0xf0) __AUTH SEGMENT
+            0x0000000233633a40 (    0xf0) __AUTH __objc_data
+                0x0000000233633a40 (    0x28) OBJC_METACLASS_$___SwiftUIAnnotationViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233633a68 (    0x28) OBJC_CLASS_$___SwiftUIAnnotationViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233633a90 (    0x28) OBJC_CLASS_$_SwiftUIAnnotationViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233633ab8 (    0x28) OBJC_METACLASS_$_SwiftUIAnnotationViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233633ae0 (    0x28) OBJC_CLASS_$_AXMapKitSwiftUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233633b08 (    0x28) OBJC_METACLASS_$_AXMapKitSwiftUIGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231baab50 (    0x30) __DATA SEGMENT
+            0x0000000231baab50 (    0x20) __DATA __objc_classrefs
+            0x0000000231baab70 (    0x10) __DATA __bss
+                0x0000000231baab70 (     0x8) _Failover [NameNList, MangledNameNList, NList] 
+                0x0000000231baab78 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

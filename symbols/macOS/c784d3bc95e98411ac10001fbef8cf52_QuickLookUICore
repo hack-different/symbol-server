@@ -1,0 +1,47 @@
+/System/iOSSupport/System/Library/PrivateFrameworks/QuickLookUICore.framework/Versions/A/QuickLookUICore [arm64e, 0.385348 seconds]:
+    846E190B-69B7-384F-91DC-546C7E712FB7 /System/iOSSupport/System/Library/PrivateFrameworks/QuickLookUICore.framework/Versions/A/QuickLookUICore [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000229a13000 (  0x1000) __TEXT SEGMENT
+            0x0000000229a13000 (   0xabc) MACH_HEADER
+            0x0000000229a13abc (   0x310) __TEXT __text
+                0x0000000229a13abc (     0xc) QLLocalizedDictionaryString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13ac8 (     0xc) QLLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13ad4 (    0x80) QLLocalizedStringFromTable [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13b54 (    0x80) QLLocalizedStringWithDefaultValue [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13bd4 (    0x74) QLRunInMainThread [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13c48 (    0x74) QLRunInMainThreadSync [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13cbc (    0x8c) QLRunInBackgroundThread [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13d48 (    0x2c) QLRunInMainThread.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13d74 (    0x2c) QLRunInMainThreadSync.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000229a13da0 (    0x2c) QLRunInBackgroundThread.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000229a13dcc (    0xf0) __TEXT __auth_stubs
+                0x0000000229a13dcc (    0x10) DYLD-STUB$$QLFrameworkBundle [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13ddc (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13dec (    0x10) DYLD-STUB$$dispatch_async [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13dfc (    0x10) DYLD-STUB$$dispatch_get_global_queue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e0c (    0x10) DYLD-STUB$$dispatch_sync [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e1c (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e2c (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e3c (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e4c (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e5c (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e6c (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e7c (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e8c (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13e9c (    0x10) DYLD-STUB$$objc_retain_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000229a13eac (    0x10) DYLD-STUB$$objc_retain_x3 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000229a13ebc (    0x6b) __TEXT __cstring
+            0x0000000229a13f28 (    0x64) __TEXT __unwind_info
+            0x0000000229a13f8c (    0x31) __TEXT __objc_methname
+            0x0000000229a13fc0 (    0x40) __TEXT __objc_stubs
+                0x0000000229a13fc0 (    0x20) objc_msgSend$isMainThread [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000229a13fe0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e855060 (    0x20) __DATA_CONST SEGMENT
+            0x000000022e855060 (     0x8) __DATA_CONST __got
+            0x000000022e855068 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e855070 (    0x10) __DATA_CONST __objc_selrefs
+        0x0000000238786858 (    0xc0) __AUTH_CONST SEGMENT
+            0x0000000238786858 (    0x40) __AUTH_CONST __cfstring
+            0x0000000238786898 (    0x80) __AUTH_CONST __auth_got
+        0x0000000231db4068 (     0x8) __DATA SEGMENT
+            0x0000000231db4068 (     0x8) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

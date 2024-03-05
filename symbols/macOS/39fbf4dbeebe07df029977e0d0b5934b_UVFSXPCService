@@ -1,0 +1,8 @@
+/System/Library/PrivateFrameworks/UVFSXPCService.framework/Versions/A/UVFSXPCService [arm64e, 0.143071 seconds]:
+    1085CF82-B05F-3DB6-A0A6-FC9AFE10393C /System/Library/PrivateFrameworks/UVFSXPCService.framework/Versions/A/UVFSXPCService [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021689e000 (  0x4000) __TEXT SEGMENT
+            0x000000021689e000 (  0x3fc8) MACH_HEADER
+            0x00000002168a1fc8 (    0x38) __TEXT __const
+                0x00000002168a1fc8 (    0x30) UVFSXPCServiceVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002168a1ff8 (     0x8) UVFSXPCServiceVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

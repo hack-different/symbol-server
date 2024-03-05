@@ -1,0 +1,98 @@
+/usr/lib/libpmenergy.dylib [arm64e, 0.076467 seconds]:
+    466CDBA3-8EE0-3727-B953-6E38934F416C /usr/lib/libpmenergy.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b0d10000 (  0x4000) __TEXT SEGMENT
+            0x00000001b0d10000 (  0x108c) MACH_HEADER
+            0x00000001b0d1108c (  0x245c) __TEXT __text
+                0x00000001b0d1108c (    0x64) pm_energy_impact [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d110f0 (   0x150) pm_energy_impact_internal [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11240 (    0x10) pm_task_subtract_version [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11250 (   0xc68) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d11eb8 (    0x10) pm_task_subtract [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11ec8 (    0x10) pm_task_add_version [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11ed8 (    0x10) pm_task_add [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11ee8 (    0x58) pm_mach_time_to_ns [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b0d11f40 (    0x40) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d11f80 (   0x2a0) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12220 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d122a8 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d122c0 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d122d8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12360 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d123e8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12470 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d124f8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12580 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12608 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12690 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12718 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d127a0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12828 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d128b0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12938 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d129c0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12a48 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12ad0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12b58 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12be0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12c68 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12cf0 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12d78 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12e00 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12e88 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12f10 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d12f98 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d13020 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d130a8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d13130 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d131b8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d13240 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d132c8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d13350 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d133d8 (    0x88) (null) [FUNC, FunctionStarts] 
+                0x00000001b0d13460 (    0x88) (null) [FUNC, FunctionStarts] 
+            0x00000001b0d134e8 (   0x1e0) __TEXT __auth_stubs
+                0x00000001b0d134e8 (    0x10) DYLD-STUB$$CFDataGetBytePtr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d134f8 (    0x10) DYLD-STUB$$CFDataGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13508 (    0x10) DYLD-STUB$$CFDataGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13518 (    0x10) DYLD-STUB$$CFGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13528 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13538 (    0x10) DYLD-STUB$$IOObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13548 (    0x10) DYLD-STUB$$IORegistryEntryCreateCFProperty [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13558 (    0x10) DYLD-STUB$$IORegistryEntryFromPath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13568 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13578 (    0x10) DYLD-STUB$$__memcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13588 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13598 (    0x10) DYLD-STUB$$close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135a8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135b8 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135c8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135d8 (    0x10) DYLD-STUB$$fwrite [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135e8 (    0x10) DYLD-STUB$$getpagesize [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d135f8 (    0x10) DYLD-STUB$$lseek [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13608 (    0x10) DYLD-STUB$$mach_timebase_info [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13618 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13628 (    0x10) DYLD-STUB$$open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13638 (    0x10) DYLD-STUB$$read [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13648 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13658 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13668 (    0x10) DYLD-STUB$$xpc_create_from_plist [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13678 (    0x10) DYLD-STUB$$xpc_dictionary_apply [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13688 (    0x10) DYLD-STUB$$xpc_dictionary_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d13698 (    0x10) DYLD-STUB$$xpc_double_get_value [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d136a8 (    0x10) DYLD-STUB$$xpc_get_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b0d136b8 (    0x10) DYLD-STUB$$xpc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001b0d136c8 (    0x88) __TEXT __const
+            0x00000001b0d13750 (   0x82b) __TEXT __cstring
+            0x00000001b0d13f7c (    0x84) __TEXT __unwind_info
+        0x00000001d3b4f870 (   0x108) __DATA_CONST SEGMENT
+            0x00000001d3b4f870 (    0x28) __DATA_CONST __got
+            0x00000001d3b4f898 (    0xe0) __DATA_CONST __const
+        0x00000001de5a3e10 (   0x170) __AUTH_CONST SEGMENT
+            0x00000001de5a3e10 (    0x60) __AUTH_CONST __const
+            0x00000001de5a3e70 (    0x20) __AUTH_CONST __cfstring
+            0x00000001de5a3e90 (    0xf0) __AUTH_CONST __auth_got
+        0x00000001d6501220 (    0x80) __DATA SEGMENT
+            0x00000001d6501220 (    0x80) __DATA __bss
+        0x00000001d700d038 (    0x99) __DATA_DIRTY SEGMENT
+            0x00000001d700d038 (    0x99) __DATA_DIRTY __bss
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

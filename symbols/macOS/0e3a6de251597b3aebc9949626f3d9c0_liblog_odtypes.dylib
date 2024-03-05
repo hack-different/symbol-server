@@ -1,0 +1,68 @@
+/usr/lib/log/liblog_odtypes.dylib [arm64e, 0.160008 seconds]:
+    10A63641-F7C2-3EF7-8227-3210D387D1A9 /usr/lib/log/liblog_odtypes.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002214e5000 (  0x4000) __TEXT SEGMENT
+            0x00000002214e5000 (  0x217c) MACH_HEADER
+            0x00000002214e717c (  0x11a4) __TEXT __text
+                0x00000002214e717c (    0x84) OSLogCopyFormattedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7200 (   0x17c) ODCopyFormatted_nt_sid_t [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e737c (   0x644) ODCopyFormatted_ODError [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e79c0 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000002214e79d0 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000002214e79e0 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000002214e79f4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a04 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a14 (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a2c (    0x18) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a44 (    0x24) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a68 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7a78 (    0xe0) ODCopyFormatted_CSSMStatus [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7b58 (    0x9c) ODCopyFormatted_mach_error_t [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7bf4 (    0x84) ODCopyFormatted_ODCallbackResult [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7c78 (   0x1f8) ODCopyFormatted_mbridtype [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7e70 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7ea4 (   0x138) ODCopyFormatted_mbridfoundby [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e7fdc (    0x20) (null) [FUNC, FunctionStarts] 
+                0x00000002214e7ffc (   0x308) ODCopyFormatted_mbr_details [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002214e8304 (    0x1c) (null) [FUNC, FunctionStarts] 
+            0x00000002214e8320 (    0xe0) __TEXT __auth_stubs
+                0x00000002214e8320 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8330 (    0x10) DYLD-STUB$$__strlcpy_chk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8340 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8350 (    0x10) DYLD-STUB$$cssmErrorString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8360 (    0x10) DYLD-STUB$$mach_error_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8370 (    0x10) DYLD-STUB$$mbr_sid_to_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8380 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e8390 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83a0 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83b0 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83c0 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83d0 (    0x10) DYLD-STUB$$strlcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83e0 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002214e83f0 (    0x10) DYLD-STUB$$uuid_unparse_upper [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002214e8400 (    0x40) __TEXT __const
+                0x00000002214e8400 (    0x38) __odtypesVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8438 (     0x8) __odtypesVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002214e8440 (   0x9fb) __TEXT __cstring
+            0x00000002214e8e3c (    0x80) __TEXT __unwind_info
+            0x00000002214e8ebc (    0x62) __TEXT __objc_methname
+            0x00000002214e8f20 (    0xe0) __TEXT __objc_stubs
+                0x00000002214e8f20 (    0x20) objc_msgSend$bytes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8f40 (    0x20) objc_msgSend$getBytes:length: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8f60 (    0x20) objc_msgSend$initWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8f80 (    0x20) objc_msgSend$intValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8fa0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8fc0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002214e8fe0 (    0x20) objc_msgSend$stringWithUTF8String: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e843c08 (    0x68) __DATA_CONST SEGMENT
+            0x000000022e843c08 (     0x8) __DATA_CONST __got
+            0x000000022e843c10 (    0x20) __DATA_CONST __const
+            0x000000022e843c30 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e843c38 (    0x38) __DATA_CONST __objc_selrefs
+        0x0000000238315c18 (   0xc98) __AUTH_CONST SEGMENT
+            0x0000000238315c18 (    0x80) __AUTH_CONST __const
+                0x0000000238315c18 (    0x80) OSLogCopyFormattedString.formatters [NameNList, MangledNameNList, NList] 
+            0x0000000238315c98 (   0xba0) __AUTH_CONST __cfstring
+            0x0000000238316838 (    0x78) __AUTH_CONST __auth_got
+        0x0000000231b61f00 (    0x20) __DATA SEGMENT
+            0x0000000231b61f00 (    0x20) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

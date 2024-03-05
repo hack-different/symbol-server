@@ -1,0 +1,142 @@
+/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Frameworks/UAEHCommon.framework/Versions/A/UAEHCommon [arm64e, 0.029420 seconds]:
+    D07D56F5-3F1A-3A8C-9D7E-5A0E28963F9A /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Frameworks/UAEHCommon.framework/Versions/A/UAEHCommon [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021691a000 (  0x4000) __TEXT SEGMENT
+            0x000000021691a000 (  0x2628) MACH_HEADER
+            0x000000021691c628 (   0xa88) __TEXT __text
+                0x000000021691c628 (    0x14) -[UAEHCommonOverlayWindow initWithFrame:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c63c (   0x234) -[UAEHCommonOverlayWindow initWithContentRect:styleMask:backing:defer:screen:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c870 (    0x64) -[UAEHCommonOverlayWindow show] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c8d4 (    0x64) -[UAEHCommonOverlayWindow hide] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c938 (    0x1c) -[UAEHCommonDriver init] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c954 (    0x50) -[UAEHCommonDriver initWithEnableCaptureFunction:safeToQuitFunction:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c9a4 (    0x48) -[UAEHCommonDriver startDriver] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c9ec (     0x8) -[UAEHCommonDriver handleEvent:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c9f4 (     0x4) -[UAEHCommonDriver applySettingsFromPreferences] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c9f8 (     0x4) -[UAEHCommonDriver setupInitialState] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691c9fc (     0x4) -[UAEHCommonDriver userSessionDidChange] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691ca00 (   0x1bc) -[UAEHCommonDriver _settingsDidChangeNotification:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cbbc (    0x64) __51-[UAEHCommonDriver _settingsDidChangeNotification:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cc20 (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cc28 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cc30 (     0x8) -[UAEHCommonDriver pauseListeningForSettingsNotifications] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cc38 (    0x60) -[UAEHCommonDriver resumeListeningForSettingsNotifications] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cc98 (   0x170) -[UAEHCommonDriver startListeningForSettingsNotifications] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691ce08 (   0x158) -[UAEHCommonDriver stopListeningForSettingsNotifications] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cf60 (     0x8) -[UAEHCommonDriver _settingsChangedNotificationsToObserve] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cf68 (    0x10) -[UAEHCommonDriver _informDaemonOfSafeToQuit] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cf78 (    0x64) -[UAEHCommonDriver _showTransientHUDForCurrentStateOfFeature:enabled:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cfdc (     0x8) -[UAEHCommonDriver isSafeToQuit] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cfe4 (     0x8) -[UAEHCommonDriver _hudXPCConnection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cfec (     0xc) -[UAEHCommonDriver set_hudXPCConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691cff8 (     0x8) -[UAEHCommonDriver _didRegisterForNotifications] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691d000 (     0x8) -[UAEHCommonDriver set_didRegisterForNotifications:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691d008 (     0x8) -[UAEHCommonDriver _notificationsPaused] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691d010 (     0x8) -[UAEHCommonDriver set_notificationsPaused:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691d018 (     0xc) -[UAEHCommonDriver .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021691d024 (    0x8c) -[UAEHCommonDriver _showTransientHUDForCurrentStateOfFeature:enabled:].cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021691d0b0 (   0x160) __TEXT __auth_stubs
+                0x000000021691d0b0 (    0x10) DYLD-STUB$$CGSAddWindowsToSpaces [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d0c0 (    0x10) DYLD-STUB$$CGSMainConnectionID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d0d0 (    0x10) DYLD-STUB$$CGSShowSpaces [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d0e0 (    0x10) DYLD-STUB$$CGSSpaceCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d0f0 (    0x10) DYLD-STUB$$CGSSpaceSetAbsoluteLevel [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d100 (    0x10) DYLD-STUB$$UAPreferencesSynchronize [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d110 (    0x10) DYLD-STUB$$UAShowStatusOverlayForFeature [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d120 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d130 (    0x10) DYLD-STUB$$_os_log_debug_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d140 (    0x10) DYLD-STUB$$dispatch_after [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d150 (    0x10) DYLD-STUB$$dispatch_time [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d160 (    0x10) DYLD-STUB$$getpid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d170 (    0x10) DYLD-STUB$$getuid [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d180 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d190 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1a0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1b0 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1c0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1d0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1e0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d1f0 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021691d200 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021691d210 (   0x154) __TEXT __objc_methlist
+                0x000000021691d210 (    0x38) _OBJC_$_INSTANCE_METHODS_UAEHCommonOverlayWindow [NameNList, MangledNameNList, NList] 
+                0x000000021691d248 (   0x11c) _OBJC_$_INSTANCE_METHODS_UAEHCommonDriver [NameNList, MangledNameNList, NList] 
+            0x000000021691d364 (    0x47) __TEXT __cstring
+            0x000000021691d3b0 (     0x8) __TEXT __const
+            0x000000021691d3b8 (    0x24) __TEXT __oslogstring
+            0x000000021691d3dc (    0x9c) __TEXT __unwind_info
+            0x000000021691d478 (    0x2b) __TEXT __objc_classname
+            0x000000021691d4a4 (   0x5db) __TEXT __objc_methname
+            0x000000021691da7f (    0xfc) __TEXT __objc_methtype
+            0x000000021691db80 (   0x480) __TEXT __objc_stubs
+                0x000000021691db80 (    0x20) objc_msgSend$_didRegisterForNotifications [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dba0 (    0x20) objc_msgSend$_notificationsPaused [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dbc0 (    0x20) objc_msgSend$_settingsChangedNotificationsToObserve [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dbe0 (    0x20) objc_msgSend$addObserver:selector:name:object:suspensionBehavior: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dc00 (    0x20) objc_msgSend$applySettingsFromPreferences [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dc20 (    0x20) objc_msgSend$arrayWithObjects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dc40 (    0x20) objc_msgSend$clearColor [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dc60 (    0x20) objc_msgSend$contentView [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dc80 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dca0 (    0x20) objc_msgSend$defaultCenter [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dcc0 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dce0 (    0x20) objc_msgSend$initWithContentRect:styleMask:backing:defer:screen: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dd00 (    0x20) objc_msgSend$makeKeyAndOrderFront: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dd20 (    0x20) objc_msgSend$numberWithInteger: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dd40 (    0x20) objc_msgSend$numberWithUnsignedLongLong: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dd60 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dd80 (    0x20) objc_msgSend$orderOut: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dda0 (    0x20) objc_msgSend$removeObserver:name:object: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691ddc0 (    0x20) objc_msgSend$setBackgroundColor: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dde0 (    0x20) objc_msgSend$setCanBecomeVisibleWithoutLogin: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691de00 (    0x20) objc_msgSend$setCollectionBehavior: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691de20 (    0x20) objc_msgSend$setHasShadow: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691de40 (    0x20) objc_msgSend$setHidden: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691de60 (    0x20) objc_msgSend$setIgnoresMouseEvents: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691de80 (    0x20) objc_msgSend$setLevel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dea0 (    0x20) objc_msgSend$setOpaque: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dec0 (    0x20) objc_msgSend$setReleasedWhenClosed: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dee0 (    0x20) objc_msgSend$setRestorable: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691df00 (    0x20) objc_msgSend$set_didRegisterForNotifications: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691df20 (    0x20) objc_msgSend$set_notificationsPaused: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691df40 (    0x20) objc_msgSend$setupInitialState [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691df60 (    0x20) objc_msgSend$shortValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691df80 (    0x20) objc_msgSend$startListeningForSettingsNotifications [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dfa0 (    0x20) objc_msgSend$stopListeningForSettingsNotifications [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dfc0 (    0x20) objc_msgSend$userInfo [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021691dfe0 (    0x20) objc_msgSend$windowNumber [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002380350a0 (   0x378) __DATA_CONST SEGMENT
+            0x00000002380350a0 (    0x28) __DATA_CONST __got
+            0x00000002380350c8 (    0x10) __DATA_CONST __objc_classlist
+            0x00000002380350d8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002380350e0 (   0x190) __DATA_CONST __objc_const
+                0x00000002380350e0 (    0x48) _OBJC_METACLASS_RO_$_UAEHCommonOverlayWindow [NameNList, MangledNameNList, NList] 
+                0x0000000238035128 (    0x48) _OBJC_METACLASS_RO_$_UAEHCommonDriver [NameNList, MangledNameNList, NList] 
+                0x0000000238035170 (    0xc8) _OBJC_$_INSTANCE_VARIABLES_UAEHCommonDriver [NameNList, MangledNameNList, NList] 
+                0x0000000238035238 (    0x38) _OBJC_$_PROP_LIST_UAEHCommonDriver [NameNList, MangledNameNList, NList] 
+            0x0000000238035270 (   0x1a8) __DATA_CONST __objc_selrefs
+        0x0000000238035418 (   0x230) __AUTH_CONST SEGMENT
+            0x0000000238035418 (    0xa0) __AUTH_CONST __cfstring
+            0x00000002380354b8 (    0x18) __AUTH_CONST __objc_intobj
+            0x00000002380354d0 (    0x90) __AUTH_CONST __objc_const
+                0x00000002380354d0 (    0x48) _OBJC_CLASS_RO_$_UAEHCommonOverlayWindow [NameNList, MangledNameNList, NList] 
+                0x0000000238035518 (    0x48) _OBJC_CLASS_RO_$_UAEHCommonDriver [NameNList, MangledNameNList, NList] 
+            0x0000000238035560 (    0x30) __AUTH_CONST __const
+                0x0000000238035560 (    0x30) __block_descriptor_44_e8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238035590 (    0xb8) __AUTH_CONST __auth_got
+        0x0000000232fcdc20 (    0xa0) __AUTH SEGMENT
+            0x0000000232fcdc20 (    0xa0) __AUTH __objc_data
+                0x0000000232fcdc20 (    0x28) OBJC_CLASS_$_UAEHCommonOverlayWindow [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232fcdc48 (    0x28) OBJC_METACLASS_$_UAEHCommonOverlayWindow [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232fcdc70 (    0x28) OBJC_CLASS_$_UAEHCommonDriver [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232fcdc98 (    0x28) OBJC_METACLASS_$_UAEHCommonDriver [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002318bacc0 (    0x50) __DATA SEGMENT
+            0x00000002318bacc0 (    0x28) __DATA __objc_classrefs
+            0x00000002318bace8 (    0x10) __DATA __objc_superrefs
+            0x00000002318bacf8 (    0x18) __DATA __objc_ivar
+                0x00000002318bacf8 (     0x4) OBJC_IVAR_$_UAEHCommonDriver._enableCaptureFunction [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002318bacfc (     0x4) OBJC_IVAR_$_UAEHCommonDriver._safeToQuitFunction [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002318bad00 (     0x4) OBJC_IVAR_$_UAEHCommonDriver._settingsBlockGen [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002318bad04 (     0x4) OBJC_IVAR_$_UAEHCommonDriver.__didRegisterForNotifications [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002318bad08 (     0x4) OBJC_IVAR_$_UAEHCommonDriver.__notificationsPaused [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002318bad0c (     0x4) OBJC_IVAR_$_UAEHCommonDriver.__hudXPCConnection [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

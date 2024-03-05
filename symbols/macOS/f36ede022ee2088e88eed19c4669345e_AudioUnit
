@@ -1,0 +1,6 @@
+/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit [arm64e, 0.062096 seconds]:
+    4F8D7F5D-802B-36BB-B9B6-F346F7742762 /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001980b0000 (  0x1000) __TEXT SEGMENT
+            0x00000001980b0000 (   0xee5) MACH_HEADER
+            0x00000001980b0ee5 (   0x11b) __TEXT __const
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

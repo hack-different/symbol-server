@@ -1,0 +1,20 @@
+/usr/lib/i18n/libmapper_none.dylib [arm64e, 0.031110 seconds]:
+    F2C45EA9-35A0-3324-A18F-CA0F13976802 /usr/lib/i18n/libmapper_none.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ffa3000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ffa3000 (  0x3ef8) MACH_HEADER
+            0x000000021ffa6ef8 (    0x88) __TEXT __text
+                0x000000021ffa6ef8 (    0x30) _citrus_mapper_none_mapper_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffa6f28 (     0x4) _citrus_mapper_none_mapper_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffa6f2c (    0x38) _citrus_mapper_none_mapper_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffa6f64 (     0x4) _citrus_mapper_none_mapper_init_state [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffa6f68 (    0x18) _citrus_mapper_none_mapper_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ffa6f80 (    0x10) __TEXT __auth_stubs
+                0x000000021ffa6f80 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ffa6f90 (    0x10) __TEXT __const
+            0x000000021ffa6fa0 (    0x54) __TEXT __unwind_info
+        0x0000000238249e80 (     0x8) __AUTH_CONST SEGMENT
+            0x0000000238249e80 (     0x8) __AUTH_CONST __auth_got
+        0x00000002332f4000 (    0x20) __AUTH SEGMENT
+            0x00000002332f4000 (    0x20) __AUTH __data
+                0x00000002332f4000 (    0x20) _citrus_mapper_none_mapper_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

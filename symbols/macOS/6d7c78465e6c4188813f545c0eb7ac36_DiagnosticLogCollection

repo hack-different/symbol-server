@@ -1,0 +1,99 @@
+/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection [arm64e, 0.024679 seconds]:
+    D7CA6DED-409C-327D-A52F-1D1D46A03F55 /System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c1154000 (  0x2000) __TEXT SEGMENT
+            0x00000001c1154000 (   0xfa8) MACH_HEADER
+            0x00000001c1154fa8 (   0xb10) __TEXT __text
+                0x00000001c1154fa8 (    0x1c) DLCLogEventWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1154fc4 (    0x24) DLCWarnV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1154fe8 (    0x1c) DLCLogWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155004 (     0x8) DLCSessionConnect [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c115500c (     0x8) DLCSessionDiconnect [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155014 (     0x4) DLCSessionSyncLoggingsPreferences [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155018 (    0x10) DLCSessionShouldLogLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155028 (     0x8) DLCSessionShouldLogCheckpoints [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155030 (    0x78) DLCSessionBeginSession [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11550a8 (    0x54) DLCSessionEndSession [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11550fc (    0x88) DLCSessionLogCallInfo [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155184 (    0x60) DLCSessionNoteCheckpoint [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11551e4 (    0x6c) DLCSessionLogWithLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155250 (    0x88) DLCSessionLogWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11552d8 (    0x54) DLCSessionPulse [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c115532c (    0x68) DLCSessionEvent [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155394 (     0x4) DLCSessionAction [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155398 (    0x94) DLCSessionPerformSnapshot [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c115542c (    0x68) DLCSessionSetFailureReason [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155494 (    0x68) DLCSessionSetInitiator [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11554fc (    0x68) DLCSessionSetRecipient [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155564 (     0x4) DLCSessionAddLogFile [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155568 (    0x48) _DLCLogWithLevelFileAndLine [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11555b0 (    0x44) DLCLogWithLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11555f4 (    0x44) DLCLogEventWithLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155638 (    0x3c) DLCLogBacktraceWithLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155674 (    0x14) DLCLogBacktraceWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155688 (    0x14) _DLCLogWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c115569c (    0x14) _DLCLogEventWithLevelV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11556b0 (    0x48) DLCWarn [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11556f8 (    0x20) _DLCWarnV [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155718 (    0x10) DLCShouldLogLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155728 (   0x190) DLCCollectLogsWithCompletionHandler [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c11558b8 (    0xc4) (null) [FUNC, FunctionStarts] 
+                0x00000001c115597c (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001c115598c (     0xc) (null) [FUNC, FunctionStarts] 
+                0x00000001c1155998 (    0xd0) DLCCollectLogs [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155a68 (    0x4c) DLCShouldLogMessageBodies [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c1155ab4 (     0x4) DLCLoggingStringForMessageData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001c1155ab8 (   0x1f0) __TEXT __auth_stubs
+                0x00000001c1155ab8 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155ac8 (    0x10) DYLD-STUB$$IMLogCurrentBacktrace_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155ad8 (    0x10) DYLD-STUB$$IMLoggingStringForMessageData [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155ae8 (    0x10) DYLD-STUB$$IMShouldLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155af8 (    0x10) DYLD-STUB$$IMShouldLogCategory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b08 (    0x10) DYLD-STUB$$IMShouldLogMessageBodies [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b18 (    0x10) DYLD-STUB$$IMSyncLoggingsPreferences [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b28 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b38 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b48 (    0x10) DYLD-STUB$$_IMLogEventString_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b58 (    0x10) DYLD-STUB$$_IMLogStringWithFileAndLine_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b68 (    0x10) DYLD-STUB$$_IMLogString_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b78 (    0x10) DYLD-STUB$$_IMLoggingAction [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b88 (    0x10) DYLD-STUB$$_IMLoggingActionWithUserInfo [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155b98 (    0x10) DYLD-STUB$$_IMLoggingAddLogFile [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155ba8 (    0x10) DYLD-STUB$$_IMLoggingBeginSession [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155bb8 (    0x10) DYLD-STUB$$_IMLoggingEndSession [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155bc8 (    0x10) DYLD-STUB$$_IMLoggingEvent [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155bd8 (    0x10) DYLD-STUB$$_IMLoggingLogCallInfo [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155be8 (    0x10) DYLD-STUB$$_IMLoggingLog_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155bf8 (    0x10) DYLD-STUB$$_IMLoggingNoteCheckpoint_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c08 (    0x10) DYLD-STUB$$_IMLoggingPulse [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c18 (    0x10) DYLD-STUB$$_IMLoggingSetFailureReason [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c28 (    0x10) DYLD-STUB$$_IMLoggingSetInitiator [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c38 (    0x10) DYLD-STUB$$_IMLoggingSetRecipient [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c48 (    0x10) DYLD-STUB$$_IMWarnString_V [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c58 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c68 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c78 (    0x10) DYLD-STUB$$objc_autoreleasePoolPop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c88 (    0x10) DYLD-STUB$$objc_autoreleasePoolPush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c1155c98 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c1155ca8 (    0x58) __TEXT __const
+            0x00000001c1155d00 (   0x12a) __TEXT __cstring
+            0x00000001c1155e2c (    0xa8) __TEXT __unwind_info
+            0x00000001c1155ed4 (    0x6c) __TEXT __objc_methname
+            0x00000001c1155f40 (    0xc0) __TEXT __objc_stubs
+        0x00000001d3b72168 (    0x70) __DATA_CONST SEGMENT
+            0x00000001d3b72168 (     0x8) __DATA_CONST __got
+            0x00000001d3b72170 (    0x30) __DATA_CONST __const
+                0x00000001d3b72170 (     0x8) DLCLogGatheringFlagsKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b72178 (     0x8) DLCGatheringDisplayFlagsKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b72180 (     0x8) DLCAlertTitleKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b72188 (     0x8) DLCDefaultRadarComponentKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b72190 (     0x8) DLCDefaultRadarComponentVersionKey [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3b72198 (     0x8) DLCLogPathKey [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3b721a0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3b721a8 (    0x30) __DATA_CONST __objc_selrefs
+        0x00000001df4f8f28 (   0x310) __AUTH_CONST SEGMENT
+            0x00000001df4f8f28 (   0x1e0) __AUTH_CONST __cfstring
+            0x00000001df4f9108 (    0x30) __AUTH_CONST __const
+            0x00000001df4f9138 (   0x100) __AUTH_CONST __auth_got
+        0x00000001d680d4c0 (    0x18) __DATA SEGMENT
+            0x00000001d680d4c0 (    0x18) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,70 @@
+/System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent [arm64e, 0.273160 seconds]:
+    417BEEFA-81A3-3581-BB75-F9568A6981B1 /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001976ed000 (  0x1ffc) __TEXT SEGMENT
+            0x00000001976ed000 (   0xf24) MACH_HEADER
+            0x00000001976edf24 (   0xd30) __TEXT __text
+                0x00000001976edf24 (    0xa8) getServicePort [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976edfcc (   0x16c) TEAVerifyCertChainTrust [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee138 (     0x8) TEAVerifyCert [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee140 (     0xc) TEACertificateGetData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee14c (     0xc) TEACertificateGetSize [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee158 (     0xc) TEACertificateChainCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee164 (    0xec) TEACertificateChainCreateWithData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee250 (    0xb0) TEACertificateChainAddCert [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee300 (    0xbc) TEACertificateChainRelease [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee3bc (    0x14) TEACertificateChainGetCount [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee3d0 (    0x30) TEACertificateChainGetCertAtIndex [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee400 (    0x90) TEACertificateChainEnumerateWithBlock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee490 (   0x130) TEACertificateChainGetData [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee5c0 (    0x44) TEACertificateChainSetEncodingHandler [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee604 (    0x44) TEACertificateChainSetDecodingHandler [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee648 (    0x94) TEACertificateChainGetCerts [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee6dc (    0x80) TEALog [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee75c (     0xc) TEAErrorCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee768 (    0x48) TEAErrorRelease [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee7b0 (    0x64) TEAErrorCreateWithDescription [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee814 (     0xc) TEAErrorGetDescription [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee820 (     0xc) TEAOptionsCreate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee82c (     0xc) TEAOptionsRelease [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee838 (     0xc) TEAOptionsSetTime [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee844 (     0xc) TEAOptionsSetPurpose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976ee850 (   0x1bc) agent_TEAVerifyCert [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976eea0c (    0x20) TEAService_server_routine [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976eea2c (    0xe8) _XTEAVerifyCert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001976eeb14 (   0x140) TEAService_server [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001976eec54 (   0x180) __TEXT __auth_stubs
+                0x00000001976eec54 (    0x10) DYLD-STUB$$_Block_copy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eec64 (    0x10) DYLD-STUB$$_Block_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eec74 (    0x10) DYLD-STUB$$asl_free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eec84 (    0x10) DYLD-STUB$$asl_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eec94 (    0x10) DYLD-STUB$$asl_set [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eeca4 (    0x10) DYLD-STUB$$asl_vlog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eecb4 (    0x10) DYLD-STUB$$bootstrap_look_up [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eecc4 (    0x10) DYLD-STUB$$bootstrap_look_up2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eecd4 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eece4 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eecf4 (    0x10) DYLD-STUB$$mach_error_string [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed04 (    0x10) DYLD-STUB$$mach_msg [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed14 (    0x10) DYLD-STUB$$mach_msg_destroy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed24 (    0x10) DYLD-STUB$$mach_port_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed34 (    0x10) DYLD-STUB$$mach_vm_allocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed44 (    0x10) DYLD-STUB$$mach_vm_deallocate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed54 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed64 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed74 (    0x10) DYLD-STUB$$mig_dealloc_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed84 (    0x10) DYLD-STUB$$mig_get_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eed94 (    0x10) DYLD-STUB$$mig_put_reply_port [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eeda4 (    0x10) DYLD-STUB$$realloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eedb4 (    0x10) DYLD-STUB$$vasprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001976eedc4 (    0x10) DYLD-STUB$$voucher_mach_msg_set [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001976eedd4 (   0x17b) __TEXT __cstring
+            0x00000001976eef50 (    0x10) __TEXT __const
+            0x00000001976eef60 (    0x9c) __TEXT __unwind_info
+        0x00000001d3aebb70 (    0x18) __DATA_CONST SEGMENT
+            0x00000001d3aebb70 (    0x18) __DATA_CONST __got
+        0x00000001dc89e4a8 (   0x110) __AUTH_CONST SEGMENT
+            0x00000001dc89e4a8 (     0x8) __AUTH_CONST __auth_ptr
+            0x00000001dc89e4b0 (    0x48) __AUTH_CONST __const
+                0x00000001dc89e4b0 (    0x48) TEAService_subsystem [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001dc89e4f8 (    0xc0) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

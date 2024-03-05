@@ -1,0 +1,8 @@
+/usr/lib/system/liblaunch.dylib [arm64e, 0.026057 seconds]:
+    5429D60A-3E4A-37FC-8AD2-7C0711476180 /usr/lib/system/liblaunch.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000190fca000 (  0x1000) __TEXT SEGMENT
+            0x0000000190fca000 (   0xfc0) MACH_HEADER
+            0x0000000190fcafc0 (    0x40) __TEXT __const
+                0x0000000190fcafc0 (    0x38) __launchVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000190fcaff8 (     0x8) __launchVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

@@ -1,0 +1,66 @@
+/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib [arm64e, 0.379586 seconds]:
+    671324CC-0C70-3492-A001-922B0712F200 /System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8de000 (  0x1ffe) __TEXT SEGMENT
+            0x000000022d8de000 (  0x1b40) MACH_HEADER
+            0x000000022d8dfb40 (   0x2d4) __TEXT __text
+                0x000000022d8dfb40 (   0x168) static MTKMesh.newMeshes(asset:device:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dfca8 (    0x3c) type metadata accessor for MTKMesh [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dfce4 (    0x98) MTKModelIOVertexDescriptorFromMetalWithError(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dfd7c (    0x98) MTKMetalVertexDescriptorFromModelIOWithError(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022d8dfe14 (   0x120) __TEXT __auth_stubs
+                0x000000022d8dfe14 (    0x10) DYLD-STUB$$_convertNSErrorToError(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe24 (    0x10) DYLD-STUB$$static Array._forceBridgeFromObjectiveC(_:result:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe34 (    0x10) DYLD-STUB$$static Array._unconditionallyBridgeFromObjectiveC(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe44 (    0x10) DYLD-STUB$$MTKMetalVertexDescriptorFromModelIOWithError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe54 (    0x10) DYLD-STUB$$MTKModelIOVertexDescriptorFromMetalWithError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe64 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe74 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe84 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfe94 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfea4 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfeb4 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfec4 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfed4 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfee4 (    0x10) DYLD-STUB$$objc_retain_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dfef4 (    0x10) DYLD-STUB$$objc_retain_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dff04 (    0x10) DYLD-STUB$$objc_retain_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dff14 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dff24 (    0x10) DYLD-STUB$$swift_willThrow [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022d8dff34 (     0x2) __TEXT __const
+                0x000000022d8dff34 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dff38 (    0x50) __TEXT __unwind_info
+            0x000000022d8dff88 (    0x48) __TEXT __eh_frame
+            0x000000022d8dffd0 (    0x2e) __TEXT __objc_methname
+        0x000000022e857410 (    0xa8) __DATA_CONST SEGMENT
+            0x000000022e857410 (     0x8) __DATA_CONST __got
+            0x000000022e857418 (    0x90) __DATA_CONST __const
+                0x000000022e857418 (     0x8) _swift_FORCE_LOAD_$_swiftsimd_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857420 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857428 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857430 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857438 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857440 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857448 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857450 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857458 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857460 (     0x8) _swift_FORCE_LOAD_$_swiftModelIO_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857468 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857470 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857478 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857480 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857488 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857490 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857498 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8574a0 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_MetalKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e8574a8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e8574b0 (     0x8) __DATA_CONST __objc_selrefs
+        0x00000002388c7008 (    0x90) __AUTH_CONST SEGMENT
+            0x00000002388c7008 (    0x90) __AUTH_CONST __auth_got
+        0x0000000231e87038 (    0x21) __DATA SEGMENT
+            0x0000000231e87038 (    0x10) __DATA __objc_classrefs
+            0x0000000231e87048 (    0x10) __DATA __data
+                0x0000000231e87048 (     0x8) lazy cache variable for type metadata for MTKMesh [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e87050 (     0x8) lazy cache variable for type metadata for MDLMesh [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231e87058 (     0x1) __DATA __common
+                0x0000000231e87058 (     0x1) _swift_FORCE_LOAD_$_swiftMetalKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

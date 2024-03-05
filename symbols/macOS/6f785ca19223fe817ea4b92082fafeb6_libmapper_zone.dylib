@@ -1,0 +1,30 @@
+/usr/lib/i18n/libmapper_zone.dylib [arm64e, 0.196182 seconds]:
+    001477CA-7962-34AA-8DAB-CDAE8C98F311 /usr/lib/i18n/libmapper_zone.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ffb3000 (  0x4000) __TEXT SEGMENT
+            0x000000021ffb3000 (  0x38a4) MACH_HEADER
+            0x000000021ffb68a4 (   0x69c) __TEXT __text
+                0x000000021ffb68a4 (   0x214) _citrus_mapper_zone_mapper_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6ab8 (     0x4) _citrus_mapper_zone_mapper_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6abc (    0xd4) _citrus_mapper_zone_mapper_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6b90 (     0x4) _citrus_mapper_zone_mapper_init_state [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6b94 (    0x18) _citrus_mapper_zone_mapper_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6bac (    0x88) parse_zone [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6c34 (   0x10c) get_tok [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6d40 (    0x68) check_rowcol [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffb6da8 (   0x198) get_imm [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ffb6f40 (    0x50) __TEXT __auth_stubs
+                0x000000021ffb6f40 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffb6f50 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffb6f60 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffb6f70 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffb6f80 (    0x10) DYLD-STUB$$strtoul [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ffb6f90 (    0x10) __TEXT __const
+            0x000000021ffb6fa0 (    0x60) __TEXT __unwind_info
+        0x000000022e7f15d0 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7f15d0 (     0x8) __DATA_CONST __got
+        0x0000000238249fa8 (    0x28) __AUTH_CONST SEGMENT
+            0x0000000238249fa8 (    0x28) __AUTH_CONST __auth_got
+        0x00000002332f40c0 (    0x20) __AUTH SEGMENT
+            0x00000002332f40c0 (    0x20) __AUTH __data
+                0x00000002332f40c0 (    0x20) _citrus_mapper_zone_mapper_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

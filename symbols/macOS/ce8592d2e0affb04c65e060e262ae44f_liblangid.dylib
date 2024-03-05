@@ -1,0 +1,61 @@
+/usr/lib/liblangid.dylib [arm64e, 0.036698 seconds]:
+    597C440F-1610-3A58-9D11-F58A02155670 /usr/lib/liblangid.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018b4fa000 (  0x2000) __TEXT SEGMENT
+            0x000000018b4fa000 (  0x11c4) MACH_HEADER
+            0x000000018b4fb1c4 (   0xb0c) __TEXT __text
+                0x000000018b4fb1c4 (     0xc) langid_create [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb1d0 (   0x1f8) _langid_create_with_datapath_internal [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb3c8 (   0x20c) _langid_env_create [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb5d4 (     0x8) langid_identify_bufsize [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb5dc (    0xb4) langid_identify_withbuf [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb690 (   0x168) langid_consume_string [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb7f8 (    0x94) _langid_dispose_internal [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb88c (    0x4c) langid_languagecode [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb8d8 (     0x8) langid_dispose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb8e0 (    0x1c) langid_numlanguages [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb8fc (     0x8) textcat_Init [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb904 (    0x60) textcat_Classify [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fb964 (    0xb0) langid_identify [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fba14 (    0x54) langid_highest_score [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fba68 (    0x2c) langid_reset [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fba94 (     0x8) langid_create_with_datapath [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fba9c (    0x58) langid_global_dispose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbaf4 (    0x78) _langid_env_dispose [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbb6c (    0x2c) _langid_dispose_internal.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbb98 (    0x2c) _langid_env_dispose.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbbc4 (    0x2c) _langid_env_create.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbbf0 (    0x2c) _langid_env_create.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbc1c (    0x2c) _langid_env_create.cold.3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbc48 (    0x30) _langid_env_create.cold.4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbc78 (    0x2c) _langid_env_create.cold.5 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018b4fbca4 (    0x2c) _langid_env_create.cold.6 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018b4fbcd0 (   0x110) __TEXT __auth_stubs
+                0x000000018b4fbcd0 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbce0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbcf0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd00 (    0x10) DYLD-STUB$$asprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd10 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd20 (    0x10) DYLD-STUB$$close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd30 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd40 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd50 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd60 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd70 (    0x10) DYLD-STUB$$mmap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd80 (    0x10) DYLD-STUB$$munmap [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbd90 (    0x10) DYLD-STUB$$open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbda0 (    0x10) DYLD-STUB$$pthread_mutex_lock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbdb0 (    0x10) DYLD-STUB$$pthread_mutex_unlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbdc0 (    0x10) DYLD-STUB$$stat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000018b4fbdd0 (    0x10) DYLD-STUB$$strerror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000018b4fbde0 (   0x195) __TEXT __cstring
+            0x000000018b4fbf78 (    0x88) __TEXT __unwind_info
+        0x00000001d3aac7a8 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3aac7a8 (    0x10) __DATA_CONST __got
+        0x00000001db9058d8 (    0x88) __AUTH_CONST SEGMENT
+            0x00000001db9058d8 (    0x88) __AUTH_CONST __auth_got
+        0x00000001d5d1c108 (    0x48) __DATA SEGMENT
+            0x00000001d5d1c108 (    0x40) __DATA __data
+                0x00000001d5d1c108 (    0x40) _env_mutex [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001d5d1c148 (     0x8) __DATA __common
+                0x00000001d5d1c148 (     0x8) _env [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

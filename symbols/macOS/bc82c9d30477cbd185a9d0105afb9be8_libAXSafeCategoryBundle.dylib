@@ -1,0 +1,136 @@
+/usr/lib/libAXSafeCategoryBundle.dylib [arm64e, 0.029312 seconds]:
+    9C02F6DC-AD74-33CA-A103-C69F25282D78 /usr/lib/libAXSafeCategoryBundle.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ffbb000 (  0x3000) __TEXT SEGMENT
+            0x000000021ffbb000 (  0x1014) MACH_HEADER
+            0x000000021ffbc014 (  0x1334) __TEXT __text
+                0x000000021ffbc014 (     0x8) +[UIAccessibilitySafeCategory safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc01c (    0x58) +[UIAccessibilitySafeCategory safeCategoryTargetClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc074 (     0xc) +[UIAccessibilitySafeCategory safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc080 (     0x4) +[UIAccessibilitySafeCategory safeCategoryAddDependenciesToCollection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc084 (    0x68) +[UIAccessibilitySafeCategory _initializeSafeCategoryFromValidationManager] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc0ec (    0x64) +[UIAccessibilitySafeCategory _installSafeCategoryValidationMethod] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc150 (   0x184) +[UIAccessibilitySafeCategory _installLocalValidationMethodOnClassNamed:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc2d4 (    0x24) +[UIAccessibilitySafeCategory _installSafeCategoryOnClassNamed:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc2f8 (    0x48) +[UIAccessibilitySafeCategory _installSafeCategoryOnClassNamed:isManaged:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc340 (   0x2a8) +[UIAccessibilitySafeCategory _installSafeCategoryOnClass:isManaged:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc5e8 (    0x6c) __69+[UIAccessibilitySafeCategory _installSafeCategoryOnClass:isManaged:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc654 (   0x38c) +[UIAccessibilitySafeCategory _addCategoryMethods:count:excluding:toClass:isClass:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbc9e0 (    0xac) _AXSafeCategoryLog [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbca8c (    0xc8) UIAccessibilityInstallSafeCategory [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbcb54 (   0x2fc) UIAccessibilityInstallSafeCategories [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbce50 (    0xc4) _UIAccessibilityCopyClassPath [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbcf14 (    0xac) __UIAccessibilityInstallSafeCategories_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbcfc0 (   0x124) _UIAccessibilitySafeCategoryDependsOnSafeCategory [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd0e4 (    0x44) __copy_helper_block_e8_32s40s48s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd128 (    0x44) __destroy_helper_block_e8_32s40s48s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd16c (     0xc) AXSetUIAXReportSenderErrorLoggerFunction [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd178 (     0xc) AXSetValidationErrorLoggingFunction [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd184 (    0x48) ___AXSafeCategoryLog_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffbd1cc (   0x17c) _UIAccessibilitySafeCategoryAddDependenciesToArray [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ffbd348 (   0x230) __TEXT __auth_stubs
+                0x000000021ffbd348 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd358 (    0x10) DYLD-STUB$$CFRunLoopGetMain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd368 (    0x10) DYLD-STUB$$CFRunLoopPerformBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd378 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd388 (    0x10) DYLD-STUB$$NSClassFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd398 (    0x10) DYLD-STUB$$NSSelectorFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3a8 (    0x10) DYLD-STUB$$NSStringFromClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3b8 (    0x10) DYLD-STUB$$NSStringFromSelector [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3c8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3d8 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3e8 (    0x10) DYLD-STUB$$class_addMethodsBulk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd3f8 (    0x10) DYLD-STUB$$class_copyMethodList [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd408 (    0x10) DYLD-STUB$$class_getInstanceMethod [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd418 (    0x10) DYLD-STUB$$class_getSuperclass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd428 (    0x10) DYLD-STUB$$class_replaceMethodsBulk [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd438 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd448 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd458 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd468 (    0x10) DYLD-STUB$$method_getImplementation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd478 (    0x10) DYLD-STUB$$method_getName [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd488 (    0x10) DYLD-STUB$$method_getTypeEncoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd498 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4a8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4b8 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4c8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4d8 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4e8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd4f8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd508 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd518 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd528 (    0x10) DYLD-STUB$$objc_unsafeClaimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd538 (    0x10) DYLD-STUB$$object_getClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd548 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd558 (    0x10) DYLD-STUB$$os_log_with_args [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffbd568 (    0x10) DYLD-STUB$$qsort_b [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ffbd578 (    0x8c) __TEXT __objc_methlist
+                0x000000021ffbd578 (    0x8c) _OBJC_$_CLASS_METHODS_UIAccessibilitySafeCategory [NameNList, MangledNameNList, NList] 
+            0x000000021ffbd608 (     0x8) __TEXT __const
+            0x000000021ffbd610 (   0x259) __TEXT __cstring
+            0x000000021ffbd86c (    0xa8) __TEXT __unwind_info
+            0x000000021ffbd914 (    0x1c) __TEXT __objc_classname
+            0x000000021ffbd930 (   0x347) __TEXT __objc_methname
+            0x000000021ffbdc77 (    0x67) __TEXT __objc_methtype
+            0x000000021ffbdce0 (   0x320) __TEXT __objc_stubs
+                0x000000021ffbdce0 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdd00 (    0x20) objc_msgSend$_addCategoryMethods:count:excluding:toClass:isClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdd20 (    0x20) objc_msgSend$_installLocalValidationMethodOnClassNamed: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdd40 (    0x20) objc_msgSend$_installSafeCategoryOnClass:isManaged: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdd60 (    0x20) objc_msgSend$_installSafeCategoryOnClassNamed: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdd80 (    0x20) objc_msgSend$_installSafeCategoryOnClassNamed:isManaged: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdda0 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbddc0 (    0x20) objc_msgSend$arrayByAddingObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdde0 (    0x20) objc_msgSend$containsObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbde00 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbde20 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbde40 (    0x20) objc_msgSend$defaultCenter [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbde60 (    0x20) objc_msgSend$initWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbde80 (    0x20) objc_msgSend$insertString:atIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdea0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdec0 (    0x20) objc_msgSend$objectAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdee0 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdf00 (    0x20) objc_msgSend$postNotificationName:object: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdf20 (    0x20) objc_msgSend$removeAllObjects [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdf40 (    0x20) objc_msgSend$removeObjectAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdf60 (    0x20) objc_msgSend$safeCategoryAddDependenciesToCollection: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdf80 (    0x20) objc_msgSend$safeCategoryBaseClass [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdfa0 (    0x20) objc_msgSend$safeCategoryTargetClassName [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdfc0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000021ffbdfe0 (    0x20) objc_msgSend$superclass [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023824a810 (   0x1d8) __DATA_CONST SEGMENT
+            0x000000023824a810 (    0x20) __DATA_CONST __got
+            0x000000023824a830 (    0x20) __DATA_CONST __const
+                0x000000023824a830 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023824a850 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023824a858 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023824a860 (    0x60) __DATA_CONST __objc_const
+                0x000000023824a860 (    0x18) _OBJC_$_PROP_LIST_UIAccessibilitySafeCategory [NameNList, MangledNameNList, NList] 
+                0x000000023824a878 (    0x48) _OBJC_CLASS_RO_$_UIAccessibilitySafeCategory [NameNList, MangledNameNList, NList] 
+            0x000000023824a8c0 (    0xf0) __DATA_CONST __objc_selrefs
+            0x000000023824a9b0 (    0x38) __DATA_CONST __objc_arraydata
+                0x000000023824a9b0 (    0x10) _unnamed_array_storage [NameNList, MangledNameNList, NList] 
+                0x000000023824a9c0 (    0x28) _unnamed_array_storage.29 [NameNList, MangledNameNList, NList] 
+        0x000000023824a9e8 (   0x408) __AUTH_CONST SEGMENT
+            0x000000023824a9e8 (   0x200) __AUTH_CONST __cfstring
+            0x000000023824abe8 (    0x30) __AUTH_CONST __objc_arrayobj
+            0x000000023824ac18 (    0x70) __AUTH_CONST __const
+                0x000000023824ac18 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023824ac38 (    0x30) __block_descriptor_56_e8_32s40s48s_e15_i24?0r^v8r^v16l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023824ac68 (    0x20) __block_literal_global.74 [NameNList, MangledNameNList, NList] 
+            0x000000023824ac88 (    0x48) __AUTH_CONST __objc_const
+                0x000000023824ac88 (    0x48) _OBJC_METACLASS_RO_$_UIAccessibilitySafeCategory [NameNList, MangledNameNList, NList] 
+            0x000000023824acd0 (   0x120) __AUTH_CONST __auth_got
+        0x00000002332f4130 (    0x50) __AUTH SEGMENT
+            0x00000002332f4130 (    0x50) __AUTH __objc_data
+                0x00000002332f4130 (    0x28) OBJC_CLASS_$_UIAccessibilitySafeCategory [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f4158 (    0x28) OBJC_METACLASS_$_UIAccessibilitySafeCategory [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231a027d8 (    0x58) __DATA SEGMENT
+            0x0000000231a027d8 (    0x30) __DATA __objc_classrefs
+            0x0000000231a02808 (     0x1) __DATA __data
+                0x0000000231a02808 (     0x1) _installSafeCategoryOnClass:isManaged:.needsPost [NameNList, MangledNameNList, NList] 
+            0x0000000231a02810 (    0x20) __DATA __bss
+                0x0000000231a02810 (     0x8) _UIAXReportSenderErrorLogger [NameNList, MangledNameNList, NList] 
+                0x0000000231a02818 (     0x8) _UIAXValidationLogger [NameNList, MangledNameNList, NList] 
+                0x0000000231a02820 (     0x8) _AXSafeCategoryLog._LogObject [NameNList, MangledNameNList, NList] 
+                0x0000000231a02828 (     0x8) _AXSafeCategoryLog.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

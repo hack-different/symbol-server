@@ -1,0 +1,74 @@
+/System/iOSSupport/usr/lib/swift/libswiftWatchKit.dylib [arm64e, 0.862832 seconds]:
+    517376D3-D55C-3365-8C76-1F085A5B4789 /System/iOSSupport/usr/lib/swift/libswiftWatchKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8ec000 (  0x1ffe) __TEXT SEGMENT
+            0x000000022d8ec000 (  0x17c4) MACH_HEADER
+            0x000000022d8ed7c4 (   0x670) __TEXT __text
+                0x000000022d8ed7c4 (     0x4) static WKInterfaceController.reloadRootControllers(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed7c8 (     0x4) static WKInterfaceController.reloadRootControllers(withNamesAndContexts:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed7cc (     0x4) WKInterfaceController.presentController(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed7d0 (   0x1d8) WKInterfaceController.presentController(withNamesAndContexts:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed9a8 (    0x20) specialized ContiguousArray._createNewBuffer(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed9c8 (    0x20) specialized ContiguousArray._createNewBuffer(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ed9e8 (   0x10c) specialized _ContiguousArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8edaf4 (   0x108) specialized _ContiguousArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8edbfc (   0x1e0) specialized static WKInterfaceController.reloadRootControllers(withNamesAndContexts:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8edddc (    0x10) outlined init with take of Any [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8eddec (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8ede30 (     0x4) _swift_stdlib_malloc_size [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022d8ede34 (    0xf0) __TEXT __auth_stubs
+                0x000000022d8ede34 (    0x10) DYLD-STUB$$Array._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede44 (    0x10) DYLD-STUB$$malloc_size [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede54 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede64 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede74 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede84 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8ede94 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edea4 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edeb4 (    0x10) DYLD-STUB$$swift_arrayInitWithCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edec4 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8eded4 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edee4 (    0x10) DYLD-STUB$$swift_getObjectType [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edef4 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edf04 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8edf14 (    0x10) DYLD-STUB$$swift_unknownObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022d8edf24 (    0x14) __TEXT __swift5_typeref
+                0x000000022d8edf24 (     0xa) symbolic _____yypG s23_ContiguousArrayStorageC [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8edf2e (     0xa) symbolic _____ySSG s23_ContiguousArrayStorageC [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8edf38 (     0x2) __TEXT __const
+                0x000000022d8edf38 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8edf3c (    0x74) __TEXT __unwind_info
+            0x000000022d8edfb0 (    0x4e) __TEXT __objc_methname
+        0x000000022e857690 (    0xc0) __DATA_CONST SEGMENT
+            0x000000022e857690 (    0x18) __DATA_CONST __got
+            0x000000022e8576a8 (    0x90) __DATA_CONST __const
+                0x000000022e8576a8 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576b0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576b8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576c0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576c8 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576d0 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576d8 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576e0 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576e8 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576f0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8576f8 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857700 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857708 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857710 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857718 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857720 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857728 (     0x8) _swift_FORCE_LOAD_$_swiftMapKit_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857730 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_WatchKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e857738 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e857740 (    0x10) __DATA_CONST __objc_selrefs
+        0x00000002388c7460 (    0x80) __AUTH_CONST SEGMENT
+            0x00000002388c7460 (     0x8) __AUTH_CONST __const
+            0x00000002388c7468 (    0x78) __AUTH_CONST __auth_got
+        0x0000000231e878d8 (    0x19) __DATA SEGMENT
+            0x0000000231e878d8 (     0x8) __DATA __objc_classrefs
+            0x0000000231e878e0 (    0x10) __DATA __data
+                0x0000000231e878e0 (     0x8) demangling cache variable for type metadata for _ContiguousArrayStorage<Any> [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e878e8 (     0x8) demangling cache variable for type metadata for _ContiguousArrayStorage<String> [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231e878f0 (     0x1) __DATA __common
+                0x0000000231e878f0 (     0x1) _swift_FORCE_LOAD_$_swiftWatchKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

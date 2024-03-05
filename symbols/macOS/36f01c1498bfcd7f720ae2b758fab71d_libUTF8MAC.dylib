@@ -1,0 +1,45 @@
+/usr/lib/i18n/libUTF8MAC.dylib [arm64e, 0.086225 seconds]:
+    E006339D-F10A-3C6F-BE2C-1D03AC922849 /usr/lib/i18n/libUTF8MAC.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ff87000 (  0x7ff4) __TEXT SEGMENT
+            0x000000021ff87000 (  0x3c4c) MACH_HEADER
+            0x000000021ff8ac4c (   0xd94) __TEXT __text
+                0x000000021ff8ac4c (    0x60) _citrus_UTF8MAC_stdenc_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8acac (    0x10) _citrus_UTF8MAC_stdenc_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8acbc (    0x9c) _citrus_UTF8MAC_stdenc_mbtocs [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8ad58 (    0x2c) _citrus_UTF8MAC_stdenc_cstomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8ad84 (    0x68) _citrus_UTF8MAC_stdenc_mbtowc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8adec (    0x14) _citrus_UTF8MAC_stdenc_wctomb [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8ae00 (     0xc) _citrus_UTF8MAC_stdenc_put_state_reset [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8ae0c (    0x28) _citrus_UTF8MAC_stdenc_get_state_desc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8ae34 (   0x154) _citrus_UTF8MAC_stdenc_mbtocsn [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8af88 (   0x104) _citrus_UTF8MAC_stdenc_cstombn [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b08c (    0x30) _citrus_UTF8MAC_stdenc_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b0bc (   0x4ac) _citrus_UTF8MAC_mbrtowc_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b568 (   0x328) _citrus_UTF8MAC_wcrtomb_priv [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b890 (    0xf8) unicode_recursive_decompose [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b988 (    0x2c) _citrus_UTF8MAC_stdenc_mbtocsn.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ff8b9b4 (    0x2c) _citrus_UTF8MAC_stdenc_cstombn.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ff8b9e0 (    0x50) __TEXT __auth_stubs
+                0x000000021ff8b9e0 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff8b9f0 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff8ba00 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff8ba10 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ff8ba20 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ff8ba30 (  0x34d4) __TEXT __const
+                0x000000021ff8ba40 (    0x20) utf_extrabytes [NameNList, MangledNameNList, NList] 
+                0x000000021ff8ba60 (   0x380) __CFUniCharCombiningBitmap [NameNList, MangledNameNList, NList] 
+                0x000000021ff8bde0 (   0x1a8) __CFUniCharPrecompSourceTable [NameNList, MangledNameNList, NList] 
+                0x000000021ff8bf88 (   0xe54) __CFUniCharBMPPrecompDestinationTable [NameNList, MangledNameNList, NList] 
+                0x000000021ff8cddc (   0x340) __CFUniCharDecomposableBitmap [NameNList, MangledNameNList, NList] 
+                0x000000021ff8d11c (   0xf28) __CFUniCharDecompositionTable [NameNList, MangledNameNList, NList] 
+                0x000000021ff8e044 (   0xec0) __CFUniCharMultipleDecompositionTable [NameNList, MangledNameNList, NList] 
+            0x000000021ff8ef04 (    0x6b) __TEXT __cstring
+            0x000000021ff8ef70 (    0x84) __TEXT __unwind_info
+        0x000000022e7f0d98 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7f0d98 (     0x8) __DATA_CONST __got
+        0x0000000238249d28 (    0x28) __AUTH_CONST SEGMENT
+            0x0000000238249d28 (    0x28) __AUTH_CONST __auth_got
+        0x00000002332f3e88 (    0x58) __AUTH SEGMENT
+            0x00000002332f3e88 (    0x58) __AUTH __data
+                0x00000002332f3e88 (    0x58) _citrus_UTF8MAC_stdenc_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

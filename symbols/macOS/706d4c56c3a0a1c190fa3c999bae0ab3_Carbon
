@@ -1,0 +1,8 @@
+/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon [arm64e, 0.026949 seconds]:
+    FC4EAF1B-BB36-3912-97A4-1A565D89B70C /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001a3fde000 (  0x4000) __TEXT SEGMENT
+            0x00000001a3fde000 (  0x3fd0) MACH_HEADER
+            0x00000001a3fe1fd0 (    0x30) __TEXT __const
+                0x00000001a3fe1fd0 (    0x28) CarbonVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001a3fe1ff8 (     0x8) CarbonVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

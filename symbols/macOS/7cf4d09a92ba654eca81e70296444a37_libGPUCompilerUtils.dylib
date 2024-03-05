@@ -1,0 +1,17 @@
+/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerUtils.dylib [arm64e, 0.029591 seconds]:
+    55C82010-48FD-3FC5-84F9-39B81FAF2ECF /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerUtils.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fd91b000 (  0x4000) __TEXT SEGMENT
+            0x00000001fd91b000 (  0x3f54) MACH_HEADER
+            0x00000001fd91ef54 (    0x3c) __TEXT __text
+                0x00000001fd91ef54 (     0xc) MTLGPUCompilerTimeStamp [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fd91ef60 (     0xc) MTLGPUCompilerHashFunctionScript [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fd91ef6c (     0xc) MTLGPUCompilerHashComputePipelineScript [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fd91ef78 (     0xc) MTLGPUCompilerHashVertexPipelineScript [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fd91ef84 (     0xc) MTLGPUCompilerHashFragmentPipelineScript [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fd91ef90 (    0x10) __TEXT __auth_stubs
+                0x00000001fd91ef90 (    0x10) DYLD-STUB$$calloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fd91efa0 (    0x15) __TEXT __cstring
+            0x00000001fd91efb8 (    0x48) __TEXT __unwind_info
+        0x000000023734d888 (     0x8) __AUTH_CONST SEGMENT
+            0x000000023734d888 (     0x8) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

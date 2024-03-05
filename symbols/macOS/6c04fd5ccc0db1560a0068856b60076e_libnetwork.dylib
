@@ -1,0 +1,8 @@
+/usr/lib/libnetwork.dylib [arm64e, 0.049972 seconds]:
+    C31574AA-B09A-3566-9EF7-269A0F233FD8 /usr/lib/libnetwork.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001856bc000 (  0x1000) __TEXT SEGMENT
+            0x00000001856bc000 (   0xfc0) MACH_HEADER
+            0x00000001856bcfc0 (    0x40) __TEXT __const
+                0x00000001856bcfc0 (    0x38) networkVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001856bcff8 (     0x8) networkVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

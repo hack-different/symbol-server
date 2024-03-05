@@ -1,0 +1,101 @@
+/System/Library/PrivateFrameworks/OSD.framework/Versions/A/OSD [arm64e, 0.030240 seconds]:
+    00114A4F-DFA2-3418-A244-5776EE92E979 /System/Library/PrivateFrameworks/OSD.framework/Versions/A/OSD [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b6c9e000 (  0x4000) __TEXT SEGMENT
+            0x00000001b6c9e000 (  0x31c4) MACH_HEADER
+            0x00000001b6ca11c4 (   0x65c) __TEXT __text
+                0x00000001b6ca11c4 (    0x54) +[OSDManager sharedManager] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1218 (    0x40) __27+[OSDManager sharedManager]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1258 (   0x1b0) -[OSDManager remoteObjectProxy] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1408 (    0x48) __31-[OSDManager remoteObjectProxy]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1450 (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1458 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1460 (    0x5c) __31-[OSDManager remoteObjectProxy]_block_invoke.15 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca14bc (    0x74) -[OSDManager showImage:onDisplayID:priority:msecUntilFade:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1530 (    0x94) -[OSDManager showImage:onDisplayID:priority:msecUntilFade:withText:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca15c4 (    0x9c) -[OSDManager showImage:onDisplayID:priority:msecUntilFade:filledChiclets:totalChiclets:locked:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1660 (    0xa8) -[OSDManager showImageAtPath:onDisplayID:priority:msecUntilFade:withText:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1708 (    0x4c) -[OSDManager fadeClassicImageOnDisplay:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca1754 (    0x74) -[OSDManager showFullScreenImage:onDisplayID:priority:msecToAnimate:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca17c8 (     0xc) -[OSDManager connection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca17d4 (     0x8) -[OSDManager setConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6ca17dc (    0x44) -[OSDManager .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001b6ca1820 (    0xb0) __TEXT __auth_stubs
+                0x00000001b6ca1820 (    0x10) DYLD-STUB$$NSLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1830 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1840 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1850 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1860 (    0x10) DYLD-STUB$$objc_getProperty [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1870 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1880 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1890 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca18a0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca18b0 (    0x10) DYLD-STUB$$objc_setProperty_atomic [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca18c0 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001b6ca18d0 (    0x98) __TEXT __objc_methlist
+                0x00000001b6ca18d0 (    0x18) _OBJC_$_CLASS_METHODS_OSDManager [NameNList, MangledNameNList, NList] 
+                0x00000001b6ca18e8 (    0x80) _OBJC_$_INSTANCE_METHODS_OSDManager [NameNList, MangledNameNList, NList] 
+            0x00000001b6ca1968 (     0x8) __TEXT __const
+            0x00000001b6ca1970 (    0x5a) __TEXT __cstring
+            0x00000001b6ca19cc (    0x88) __TEXT __unwind_info
+            0x00000001b6ca1a54 (    0x21) __TEXT __objc_classname
+            0x00000001b6ca1a76 (   0x28a) __TEXT __objc_methname
+            0x00000001b6ca1d00 (    0xfd) __TEXT __objc_methtype
+            0x00000001b6ca1e00 (   0x200) __TEXT __objc_stubs
+                0x00000001b6ca1e00 (    0x20) objc_msgSend$connection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1e20 (    0x20) objc_msgSend$fadeClassicImageOnDisplay: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1e40 (    0x20) objc_msgSend$initWithMachServiceName:options: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1e60 (    0x20) objc_msgSend$interfaceWithProtocol: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1e80 (    0x20) objc_msgSend$localizedDescription [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1ea0 (    0x20) objc_msgSend$remoteObjectProxy [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1ec0 (    0x20) objc_msgSend$remoteObjectProxyWithErrorHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1ee0 (    0x20) objc_msgSend$resume [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1f00 (    0x20) objc_msgSend$setConnection: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1f20 (    0x20) objc_msgSend$setInvalidationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1f40 (    0x20) objc_msgSend$setRemoteObjectInterface: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1f60 (    0x20) objc_msgSend$showFullScreenImage:onDisplayID:priority:msecToAnimate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1f80 (    0x20) objc_msgSend$showImage:onDisplayID:priority:msecUntilFade: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1fa0 (    0x20) objc_msgSend$showImage:onDisplayID:priority:msecUntilFade:filledChiclets:totalChiclets:locked: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1fc0 (    0x20) objc_msgSend$showImage:onDisplayID:priority:msecUntilFade:withText: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6ca1fe0 (    0x20) objc_msgSend$showImageAtPath:onDisplayID:priority:msecUntilFade:withText: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001ded37958 (   0x240) __DATA_CONST SEGMENT
+            0x00000001ded37958 (     0x8) __DATA_CONST __got
+            0x00000001ded37960 (    0x40) __DATA_CONST __const
+                0x00000001ded37960 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ded37980 (    0x20) __block_descriptor_32_e17_v16?0"NSError"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001ded379a0 (     0x8) __DATA_CONST __objc_classlist
+            0x00000001ded379a8 (     0x8) __DATA_CONST __objc_protolist
+                0x00000001ded379a8 (     0x8) _OBJC_LABEL_PROTOCOL_$_OSDUIHelperProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001ded379b0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001ded379b8 (   0x150) __DATA_CONST __objc_const
+                0x00000001ded379b8 (    0x98) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OSDUIHelperProtocol [NameNList, MangledNameNList, NList] 
+                0x00000001ded37a50 (    0x30) _OBJC_$_PROTOCOL_METHOD_TYPES_OSDUIHelperProtocol [NameNList, MangledNameNList, NList] 
+                0x00000001ded37a80 (    0x18) _OBJC_CLASS_PROTOCOLS_$_OSDManager [NameNList, MangledNameNList, NList] 
+                0x00000001ded37a98 (    0x48) _OBJC_$_INSTANCE_VARIABLES_OSDManager [NameNList, MangledNameNList, NList] 
+                0x00000001ded37ae0 (    0x28) _OBJC_$_PROP_LIST_OSDManager [NameNList, MangledNameNList, NList] 
+            0x00000001ded37b08 (    0x90) __DATA_CONST __objc_selrefs
+        0x00000001ded37b98 (   0x1a0) __AUTH_CONST SEGMENT
+            0x00000001ded37b98 (    0x70) __AUTH_CONST __const
+                0x00000001ded37b98 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001ded37bb8 (    0x30) __block_descriptor_40_e8_32s_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001ded37be8 (    0x20) __block_literal_global.18 [NameNList, MangledNameNList, NList] 
+            0x00000001ded37c08 (    0x40) __AUTH_CONST __cfstring
+            0x00000001ded37c48 (    0x90) __AUTH_CONST __objc_const
+                0x00000001ded37c48 (    0x48) _OBJC_METACLASS_RO_$_OSDManager [NameNList, MangledNameNList, NList] 
+                0x00000001ded37c90 (    0x48) _OBJC_CLASS_RO_$_OSDManager [NameNList, MangledNameNList, NList] 
+            0x00000001ded37cd8 (    0x60) __AUTH_CONST __auth_got
+        0x00000001d663d1e8 (    0x98) __DATA SEGMENT
+            0x00000001d663d1e8 (     0x8) __DATA __objc_protorefs
+                0x00000001d663d1e8 (     0x8) _OBJC_PROTOCOL_REFERENCE_$_OSDUIHelperProtocol [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d663d1f0 (    0x18) __DATA __objc_classrefs
+            0x00000001d663d208 (     0x8) __DATA __objc_ivar
+                0x00000001d663d208 (     0x4) OBJC_IVAR_$_OSDManager._proxyObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001d663d20c (     0x4) OBJC_IVAR_$_OSDManager.connection [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d663d210 (    0x70) __DATA __data
+                0x00000001d663d210 (     0x8) sharedManager.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000001d663d218 (     0x8) sharedManager.sharedManager [NameNList, MangledNameNList, NList] 
+                0x00000001d663d220 (    0x60) _OBJC_PROTOCOL_$_OSDUIHelperProtocol [PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001d7099c40 (    0x50) __DATA_DIRTY SEGMENT
+            0x00000001d7099c40 (    0x50) __DATA_DIRTY __objc_data
+                0x00000001d7099c40 (    0x28) OBJC_CLASS_$_OSDManager [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d7099c68 (    0x28) OBJC_METACLASS_$_OSDManager [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

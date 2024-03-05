@@ -1,0 +1,95 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/ChatKitAssistantUI-Assistant.axbundle/Contents/MacOS/ChatKitAssistantUI-Assistant [arm64e, 0.024014 seconds]:
+    D3D3C64B-BB9D-305D-90FE-85CE4C316D8D /System/iOSSupport/System/Library/AccessibilityBundles/ChatKitAssistantUI-Assistant.axbundle/Contents/MacOS/ChatKitAssistantUI-Assistant [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022310c000 (  0x2000) __TEXT SEGMENT
+            0x000000022310c000 (  0x1364) MACH_HEADER
+            0x000000022310d364 (   0x44c) __TEXT __text
+                0x000000022310d364 (     0xc) +[CKMessageSnippetContentViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d370 (     0xc) +[CKMessageSnippetContentViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d37c (   0x13c) -[CKMessageSnippetContentViewAccessibility accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d4b8 (    0x7c) -[CKMessageSnippetContentViewAccessibility setBalloonType:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d534 (     0x8) -[CKMessageSnippetContentViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d53c (    0x94) +[ChatAssistantUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d5d0 (    0xc8) __52+[ChatAssistantUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d698 (    0x54) __52+[ChatAssistantUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d6ec (    0x14) __52+[ChatAssistantUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310d700 (    0xb0) accessibilityAssistantLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022310d7b0 (   0x100) __TEXT __auth_stubs
+                0x000000022310d7b0 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d7c0 (    0x10) DYLD-STUB$$__UIAXStringForVariables [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d7d0 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d7e0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d7f0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d800 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d810 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d820 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d830 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d840 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d850 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d860 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d870 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d880 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d890 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310d8a0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022310d8b0 (    0x64) __TEXT __objc_methlist
+                0x000000022310d8b0 (    0x20) _OBJC_$_CLASS_METHODS_CKMessageSnippetContentViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x000000022310d8d0 (    0x30) _OBJC_$_INSTANCE_METHODS_CKMessageSnippetContentViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x000000022310d900 (    0x14) _OBJC_$_CLASS_METHODS_ChatAssistantUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000022310d914 (   0x196) __TEXT __cstring
+            0x000000022310daac (    0x6c) __TEXT __unwind_info
+            0x000000022310db18 (    0x7b) __TEXT __objc_classname
+            0x000000022310db94 (   0x25a) __TEXT __objc_methname
+            0x000000022310ddee (    0x2b) __TEXT __objc_methtype
+            0x000000022310de20 (   0x1e0) __TEXT __objc_stubs
+                0x000000022310de20 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310de40 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310de60 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310de80 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dea0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dec0 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dee0 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310df00 (    0x20) objc_msgSend$setAccessibilityValue: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310df20 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310df40 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310df60 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310df80 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dfa0 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dfc0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310dfe0 (    0x20) objc_msgSend$validateClass:hasInstanceVariable:withType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383ccca0 (   0x1e0) __DATA_CONST SEGMENT
+            0x00000002383ccca0 (    0x40) __DATA_CONST __const
+                0x00000002383ccca0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383cccc0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383ccce0 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002383cccf8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383ccd00 (    0xd8) __DATA_CONST __objc_const
+                0x00000002383ccd00 (    0x48) _OBJC_METACLASS_RO_$___CKMessageSnippetContentViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383ccd48 (    0x48) _OBJC_CLASS_RO_$___CKMessageSnippetContentViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383ccd90 (    0x48) _OBJC_CLASS_RO_$_ChatAssistantUIGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ccdd8 (    0xa8) __DATA_CONST __objc_selrefs
+        0x00000002383cce80 (   0x400) __AUTH_CONST SEGMENT
+            0x00000002383cce80 (    0xd8) __AUTH_CONST __objc_const
+                0x00000002383cce80 (    0x48) _OBJC_METACLASS_RO_$_CKMessageSnippetContentViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383ccec8 (    0x48) _OBJC_CLASS_RO_$_CKMessageSnippetContentViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383ccf10 (    0x48) _OBJC_METACLASS_RO_$_ChatAssistantUIGlue [NameNList, MangledNameNList, NList] 
+            0x00000002383ccf58 (   0x240) __AUTH_CONST __cfstring
+            0x00000002383cd198 (    0x60) __AUTH_CONST __const
+                0x00000002383cd198 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383cd1b8 (    0x20) __block_literal_global.236 [NameNList, MangledNameNList, NList] 
+                0x00000002383cd1d8 (    0x20) __block_literal_global.245 [NameNList, MangledNameNList, NList] 
+            0x00000002383cd1f8 (    0x88) __AUTH_CONST __auth_got
+        0x0000000233619c80 (    0xf0) __AUTH SEGMENT
+            0x0000000233619c80 (    0xf0) __AUTH __objc_data
+                0x0000000233619c80 (    0x28) OBJC_METACLASS_$___CKMessageSnippetContentViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619ca8 (    0x28) OBJC_CLASS_$___CKMessageSnippetContentViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619cd0 (    0x28) OBJC_CLASS_$_CKMessageSnippetContentViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619cf8 (    0x28) OBJC_METACLASS_$_CKMessageSnippetContentViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619d20 (    0x28) OBJC_CLASS_$_ChatAssistantUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619d48 (    0x28) OBJC_METACLASS_$_ChatAssistantUIGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba8900 (    0x40) __DATA SEGMENT
+            0x0000000231ba8900 (    0x28) __DATA __objc_classrefs
+            0x0000000231ba8928 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba8930 (     0x8) __DATA __common
+                0x0000000231ba8930 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000231ba8938 (     0x8) __DATA __bss
+                0x0000000231ba8938 (     0x8) accessibilityAssistantLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

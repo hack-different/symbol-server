@@ -1,0 +1,40 @@
+/usr/lib/i18n/libmapper_parallel.dylib [arm64e, 0.028089 seconds]:
+    66265221-CA08-3180-B7E6-F97AF23848ED /usr/lib/i18n/libmapper_parallel.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021ffa7000 (  0x3ff4) __TEXT SEGMENT
+            0x000000021ffa7000 (  0x3968) MACH_HEADER
+            0x000000021ffaa968 (   0x4e8) __TEXT __text
+                0x000000021ffaa968 (   0x1c4) _citrus_mapper_serial_mapper_init [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaab2c (    0x50) _citrus_mapper_serial_mapper_uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaab7c (    0xd0) _citrus_mapper_serial_mapper_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaac4c (     0x4) _citrus_mapper_serial_mapper_init_state [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaac50 (   0x128) _citrus_mapper_parallel_mapper_convert [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaad78 (    0x18) _citrus_mapper_serial_mapper_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaad90 (    0x18) _citrus_mapper_parallel_mapper_getops [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaada8 (    0x50) uninit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaadf8 (    0x2c) _citrus_mapper_serial_mapper_convert.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000021ffaae24 (    0x2c) _citrus_mapper_serial_mapper_convert.cold.2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000021ffaae50 (    0xc0) __TEXT __auth_stubs
+                0x000000021ffaae50 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaae60 (    0x10) DYLD-STUB$$__error [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaae70 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaae80 (    0x10) DYLD-STUB$$_citrus_bcs_skip_nonws [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaae90 (    0x10) DYLD-STUB$$_citrus_mapper_close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaea0 (    0x10) DYLD-STUB$$_citrus_mapper_open [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaeb0 (    0x10) DYLD-STUB$$_citrus_memory_stream_chr [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaec0 (    0x10) DYLD-STUB$$_citrus_memory_stream_skip_ws [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaed0 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaee0 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaef0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021ffaaf00 (    0x10) DYLD-STUB$$snprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021ffaaf10 (    0x10) __TEXT __const
+            0x000000021ffaaf20 (    0x5c) __TEXT __cstring
+            0x000000021ffaaf7c (    0x78) __TEXT __unwind_info
+        0x000000022e7f15b0 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e7f15b0 (     0x8) __DATA_CONST __got
+        0x0000000238249e88 (    0x60) __AUTH_CONST SEGMENT
+            0x0000000238249e88 (    0x60) __AUTH_CONST __auth_got
+        0x00000002332f4020 (    0x40) __AUTH SEGMENT
+            0x00000002332f4020 (    0x40) __AUTH __data
+                0x00000002332f4020 (    0x20) _citrus_mapper_serial_mapper_ops [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002332f4040 (    0x20) _citrus_mapper_parallel_mapper_ops [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

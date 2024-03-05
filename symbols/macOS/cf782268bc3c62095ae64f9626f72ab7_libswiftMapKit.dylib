@@ -1,0 +1,128 @@
+/System/iOSSupport/usr/lib/swift/libswiftMapKit.dylib [arm64e, 0.031122 seconds]:
+    7155FBA9-2262-3902-A4BB-B55DD14391DA /System/iOSSupport/usr/lib/swift/libswiftMapKit.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022d8da000 (  0x2ff8) __TEXT SEGMENT
+            0x000000022d8da000 (  0x1f64) MACH_HEADER
+            0x000000022d8dbf64 (   0xbdc) __TEXT __text
+                0x000000022d8dbf64 (   0x1ac) MKGradientPolylineRenderer.locations.getter [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc110 (   0x168) MKGradientPolylineRenderer.setColors(_:locations:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc278 (    0x20) specialized ContiguousArray._createNewBuffer(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc298 (    0x3c) type metadata accessor for NSNumber [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc2d4 (     0xc) __swift_memcpy16_8 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc2e0 (     0x4) __swift_noop_void_return [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc2e4 (    0x20) getEnumTagSinglePayload for MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc304 (    0x28) storeEnumTagSinglePayload for MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc32c (    0x58) type metadata accessor for MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc384 (   0x100) specialized _ContiguousArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc484 (    0x44) __swift_instantiateConcreteTypeFromMangledName [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc4c8 (     0x4) _swift_stdlib_malloc_size [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc4cc (    0x68) one-time initialization function for MKCoordinateSpanInNSValueObjCType [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc534 (    0x58) MKCoordinateSpan._bridgeToObjectiveC() [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc58c (    0xa8) static MKCoordinateSpan._forceBridgeFromObjectiveC(_:result:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc634 (     0x4) static MKCoordinateSpan._conditionallyBridgeFromObjectiveC(_:result:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc638 (    0xa8) static MKCoordinateSpan._unconditionallyBridgeFromObjectiveC(_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc6e0 (    0x54) protocol witness for _ObjectiveCBridgeable._bridgeToObjectiveC() in conformance MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc734 (    0xa8) protocol witness for static _ObjectiveCBridgeable._forceBridgeFromObjectiveC(_:result:) in conformance MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc7dc (     0x4) protocol witness for static _ObjectiveCBridgeable._conditionallyBridgeFromObjectiveC(_:result:) in conformance MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc7e0 (    0xac) protocol witness for static _ObjectiveCBridgeable._unconditionallyBridgeFromObjectiveC(_:) in conformance MKCoordinateSpan [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc88c (    0xc0) specialized static MKCoordinateSpan._conditionallyBridgeFromObjectiveC(_:result:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dc94c (   0x1b4) MKMultiPoint.locations(at:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022d8dcb00 (    0x40) type metadata accessor for NSNumber [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022d8dcb40 (   0x210) __TEXT __auth_stubs
+                0x000000022d8dcb40 (    0x10) DYLD-STUB$$IndexSet._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcb50 (    0x10) DYLD-STUB$$Array._bridgeToObjectiveC() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcb60 (    0x10) DYLD-STUB$$static Array._unconditionallyBridgeFromObjectiveC(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcb70 (    0x10) DYLD-STUB$$specialized _ArrayBuffer._getElementSlowPath(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcb80 (    0x10) DYLD-STUB$$specialized ContiguousArray._makeUniqueAndReserveCapacityIfNotUnique() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcb90 (    0x10) DYLD-STUB$$specialized ContiguousArray._endMutation() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcba0 (    0x10) DYLD-STUB$$specialized ContiguousArray.reserveCapacity(_:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcbb0 (    0x10) DYLD-STUB$$specialized ContiguousArray._reserveCapacityAssumingUniqueBuffer(oldCount:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcbc0 (    0x10) DYLD-STUB$$specialized ContiguousArray._appendElementAssumeUniqueAndCapacity(_:newElement:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcbd0 (    0x10) DYLD-STUB$$_CocoaArrayWrapper.endIndex.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcbe0 (    0x10) DYLD-STUB$$malloc_size [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcbf0 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc00 (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc10 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc20 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc30 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc40 (    0x10) DYLD-STUB$$objc_opt_self [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc50 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc60 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc70 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc80 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcc90 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcca0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dccb0 (    0x10) DYLD-STUB$$objc_retain_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dccc0 (    0x10) DYLD-STUB$$strcmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dccd0 (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcce0 (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dccf0 (    0x10) DYLD-STUB$$swift_bridgeObjectRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd00 (    0x10) DYLD-STUB$$swift_getForeignTypeMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd10 (    0x10) DYLD-STUB$$swift_getObjCClassMetadata [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd20 (    0x10) DYLD-STUB$$swift_getTypeByMangledNameInContext2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd30 (    0x10) DYLD-STUB$$swift_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd40 (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022d8dcd50 (    0x72) __TEXT __const
+                0x000000022d8dcd50 (    0x28) property descriptor for MKGradientPolylineRenderer.locations [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcd78 (    0x48) protocol conformance descriptor for MKCoordinateSpan [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcdc0 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dcdc4 (    0x2c) __TEXT __constg_swiftt
+                0x000000022d8dcdc4 (     0xc) module descriptor  [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcdd0 (    0x20) nominal type descriptor for MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dcdf0 (    0x40) __TEXT __swift5_typeref
+                0x000000022d8dcdf0 (     0x6) symbolic _____ So16MKCoordinateSpana [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcdf6 (     0x4) symbolic Sd [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dcdfa (     0xe) symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dce08 (     0xc) symbolic So7NSValueC [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022d8dce14 (    0x1c) symbolic $ss21_ObjectiveCBridgeableP [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dce30 (    0x14) __TEXT __swift5_builtin
+                0x000000022d8dce30 (    0x14) reflection metadata builtin descriptor MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dce44 (    0x2d) __TEXT __swift5_reflstr
+            0x000000022d8dce74 (    0x28) __TEXT __swift5_fieldmd
+                0x000000022d8dce74 (    0x28) reflection metadata field descriptor MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dce9c (     0x4) __TEXT __swift5_types
+            0x000000022d8dcea0 (    0x18) __TEXT __swift5_assocty
+                0x000000022d8dcea0 (    0x18) reflection metadata associated type descriptor MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022d8dceb8 (     0x4) __TEXT __swift5_proto
+            0x000000022d8dcebc (    0xac) __TEXT __unwind_info
+            0x000000022d8dcf68 (    0x90) __TEXT __objc_methname
+        0x000000022e857338 (    0xd8) __DATA_CONST SEGMENT
+            0x000000022e857338 (     0x8) __DATA_CONST __got
+            0x000000022e857340 (    0x88) __DATA_CONST __const
+                0x000000022e857340 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857348 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857350 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857358 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857360 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857368 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857370 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857378 (     0x8) _swift_FORCE_LOAD_$_swiftUIKit_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857380 (     0x8) _swift_FORCE_LOAD_$_swiftos_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857388 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857390 (     0x8) _swift_FORCE_LOAD_$_swiftCoreImage_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e857398 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8573a0 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8573a8 (     0x8) _swift_FORCE_LOAD_$_swiftOSLog_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8573b0 (     0x8) _swift_FORCE_LOAD_$_swiftFileProvider_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8573b8 (     0x8) _swift_FORCE_LOAD_$_swiftDataDetection_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e8573c0 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$_MapKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e8573c8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e8573d0 (    0x40) __DATA_CONST __objc_selrefs
+        0x00000002388c6e38 (   0x1d0) __AUTH_CONST SEGMENT
+            0x00000002388c6e38 (    0xc8) __AUTH_CONST __const
+                0x00000002388c6e38 (    0x58) value witness table for MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002388c6e90 (    0x70) full type metadata for MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002388c6f00 (   0x108) __AUTH_CONST __auth_got
+        0x0000000231e86f60 (    0xd1) __DATA SEGMENT
+            0x0000000231e86f60 (    0x18) __DATA __objc_classrefs
+            0x0000000231e86f78 (    0x30) __DATA __data
+                0x0000000231e86f78 (     0x8) one-time initialization token for MKCoordinateSpanInNSValueObjCType [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e86f80 (     0x8) lazy cache variable for type metadata for NSNumber [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e86f88 (     0x8) lazy cache variable for type metadata for UIColor [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e86f90 (     0x8) lazy cache variable for type metadata for MKCoordinateSpan [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e86f98 (     0x8) demangling cache variable for type metadata for _ContiguousArrayStorage<CGFloat> [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000231e86fa0 (     0x8) MKCoordinateSpanInNSValueObjCType [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231e86fb0 (    0x80) __DATA __bss
+                0x0000000231e86fb0 (    0x80) metadata instantiation cache for protocol conformance descriptor for MKCoordinateSpan [NameNList, MangledNameNList, NList] 
+            0x0000000231e87030 (     0x1) __DATA __common
+                0x0000000231e87030 (     0x1) _swift_FORCE_LOAD_$_swiftMapKit [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

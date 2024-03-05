@@ -1,0 +1,71 @@
+/System/Library/Frameworks/ForceFeedback.framework/Versions/A/ForceFeedback [arm64e, 0.149130 seconds]:
+    086FF5C6-0E86-32BB-B85A-B5C7B7CC245D /System/Library/Frameworks/ForceFeedback.framework/Versions/A/ForceFeedback [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001c5ee6000 (  0x4000) __TEXT SEGMENT
+            0x00000001c5ee6000 (  0x1e8c) MACH_HEADER
+            0x00000001c5ee7e8c (  0x1eb0) __TEXT __text
+                0x00000001c5ee7e8c (    0x30) AutoTermination [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee7ebc (    0xf8) FFReleaseDevice [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee7fb4 (   0x244) FFCreateDevice [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee81f8 (   0x248) DoesServiceHaveUUID [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8440 (   0x1b4) FFIsForceFeedback [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee85f4 (   0x168) FFDeviceCreateEffect [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee875c (   0x1bc) CopyEntireEffect [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8918 (   0x110) FFDeviceReleaseEffect [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8a28 (    0x40) FFEffectStop [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8a68 (    0x30) FFDeviceEscape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8a98 (    0x68) FFDeviceGetForceFeedbackState [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8b00 (    0x1c) FFDeviceSendForceFeedbackCommand [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8b1c (    0xc8) FFDeviceSetForceFeedbackProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8be4 (    0x58) FFDeviceGetForceFeedbackProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8c3c (    0x3c) FFDeviceSetCooperativeLevel [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8c78 (    0x38) FFDeviceGetForceFeedbackCapabilities [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8cb0 (    0x50) FFEffectDownload [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8d00 (    0x44) FFEffectEscape [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee8d44 (   0x468) FFEffectGetEffectStatus [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee91ac (   0x194) FFEffectGetParameters [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee9340 (   0x34c) FFEffectSetParameters [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee968c (   0x4f0) ValidateTypeSpecificParams [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee9b7c (    0xc8) FFEffectStart [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee9c44 (    0x64) FFEffectUnload [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee9ca8 (    0x74) _IOGetWithUUIDKey [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001c5ee9d1c (    0x20) __GLOBAL_init_65535 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001c5ee9d3c (   0x1a0) __TEXT __auth_stubs
+                0x00000001c5ee9d3c (    0x10) DYLD-STUB$$CFBundleCopyInfoDictionaryInDirectory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d4c (    0x10) DYLD-STUB$$CFDictionaryApplyFunction [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d5c (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d6c (    0x10) DYLD-STUB$$CFEqual [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d7c (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d8c (    0x10) DYLD-STUB$$CFStringAppend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9d9c (    0x10) DYLD-STUB$$CFStringAppendCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9dac (    0x10) DYLD-STUB$$CFStringCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9dbc (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9dcc (    0x10) DYLD-STUB$$CFStringInsert [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9ddc (    0x10) DYLD-STUB$$CFURLCreateWithFileSystemPath [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9dec (    0x10) DYLD-STUB$$CFURLGetFileSystemRepresentation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9dfc (    0x10) DYLD-STUB$$CFUUIDCreateFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e0c (    0x10) DYLD-STUB$$CFUUIDGetConstantUUIDWithBytes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e1c (    0x10) DYLD-STUB$$CFUUIDGetUUIDBytes [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e2c (    0x10) DYLD-STUB$$IOCreatePlugInInterfaceForService [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e3c (    0x10) DYLD-STUB$$IODestroyPlugInInterface [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e4c (    0x10) DYLD-STUB$$IORegistryEntryCreateCFProperties [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e5c (    0x10) DYLD-STUB$$__cxa_atexit [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e6c (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e7c (    0x10) DYLD-STUB$$dlclose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e8c (    0x10) DYLD-STUB$$dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9e9c (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9eac (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9ebc (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001c5ee9ecc (    0x10) DYLD-STUB$$stat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001c5ee9edc (     0x4) __TEXT __init_offsets
+            0x00000001c5ee9ee0 (    0x30) __TEXT __const
+            0x00000001c5ee9f10 (    0x50) __TEXT __cstring
+            0x00000001c5ee9f60 (    0xa0) __TEXT __unwind_info
+        0x00000001d3b73390 (    0x10) __DATA_CONST SEGMENT
+            0x00000001d3b73390 (    0x10) __DATA_CONST __got
+        0x00000001df8b8118 (   0x130) __AUTH_CONST SEGMENT
+            0x00000001df8b8118 (    0x60) __AUTH_CONST __cfstring
+            0x00000001df8b8178 (    0xd0) __AUTH_CONST __auth_got
+        0x00000001d6977f20 (     0x8) __DATA SEGMENT
+            0x00000001d6977f20 (     0x8) __DATA __bss
+                0x00000001d6977f20 (     0x8) g_pDevices [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

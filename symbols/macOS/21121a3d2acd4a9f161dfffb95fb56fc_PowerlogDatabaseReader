@@ -1,0 +1,95 @@
+/System/Library/PrivateFrameworks/PowerlogDatabaseReader.framework/Versions/A/PowerlogDatabaseReader [arm64e, 0.787155 seconds]:
+    8DE9D51B-3B1F-3324-93C1-33DCA919601B /System/Library/PrivateFrameworks/PowerlogDatabaseReader.framework/Versions/A/PowerlogDatabaseReader [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020bb58000 (  0x4000) __TEXT SEGMENT
+            0x000000020bb58000 (  0x2b14) MACH_HEADER
+            0x000000020bb5ab14 (   0xb0c) __TEXT __text
+                0x000000020bb5ab14 (    0xac) -[PLDatabaseReader openDatabaseFile:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5abc0 (    0xdc) -[PLDatabaseReader initWithDatabaseFile:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5ac9c (    0x50) -[PLDatabaseReader dealloc] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5acec (    0xe4) -[PLDatabaseReader prepareStatementAndPerformWithString:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5add0 (   0x324) -[PLDatabaseReader performStatement:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5b0f4 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x000000020bb5b108 (   0x11c) -[PLDatabaseReader tableNamesFromDatabase] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5b224 (   0x3ec) -[PLDatabaseReader stringValueOfTable:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5b610 (     0x8) -[PLDatabaseReader dbConnection] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020bb5b618 (     0x8) -[PLDatabaseReader setDbConnection:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020bb5b620 (   0x190) __TEXT __auth_stubs
+                0x000000020bb5b620 (    0x10) DYLD-STUB$$NSLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b630 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b640 (    0x10) DYLD-STUB$$fprintf [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b650 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b660 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b670 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b680 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b690 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6a0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6b0 (    0x10) DYLD-STUB$$objc_retainAutorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6c0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6d0 (    0x10) DYLD-STUB$$sqlite3_close [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6e0 (    0x10) DYLD-STUB$$sqlite3_column_count [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b6f0 (    0x10) DYLD-STUB$$sqlite3_column_double [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b700 (    0x10) DYLD-STUB$$sqlite3_column_int64 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b710 (    0x10) DYLD-STUB$$sqlite3_column_name [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b720 (    0x10) DYLD-STUB$$sqlite3_column_text [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b730 (    0x10) DYLD-STUB$$sqlite3_column_type [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b740 (    0x10) DYLD-STUB$$sqlite3_errmsg [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b750 (    0x10) DYLD-STUB$$sqlite3_exec [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b760 (    0x10) DYLD-STUB$$sqlite3_initialize [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b770 (    0x10) DYLD-STUB$$sqlite3_open_v2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b780 (    0x10) DYLD-STUB$$sqlite3_prepare_v2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b790 (    0x10) DYLD-STUB$$sqlite3_sleep [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b7a0 (    0x10) DYLD-STUB$$sqlite3_step [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020bb5b7b0 (    0x74) __TEXT __objc_methlist
+                0x000000020bb5b7b0 (    0x74) _OBJC_$_INSTANCE_METHODS_PLDatabaseReader [NameNList, MangledNameNList, NList] 
+            0x000000020bb5b828 (    0x40) __TEXT __const
+                0x000000020bb5b828 (    0x38) __PowerlogDatabaseReaderVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5b860 (     0x8) __PowerlogDatabaseReaderVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000020bb5b868 (   0x251) __TEXT __cstring
+            0x000000020bb5babc (    0x80) __TEXT __unwind_info
+            0x000000020bb5bb3c (    0x11) __TEXT __objc_classname
+            0x000000020bb5bb4e (   0x1d3) __TEXT __objc_methname
+            0x000000020bb5bd21 (    0x7d) __TEXT __objc_methtype
+            0x000000020bb5bda0 (   0x260) __TEXT __objc_stubs
+                0x000000020bb5bda0 (    0x20) objc_msgSend$UTF8String [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bdc0 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bde0 (    0x20) objc_msgSend$appendFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5be00 (    0x20) objc_msgSend$appendString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5be20 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5be40 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5be60 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5be80 (    0x20) objc_msgSend$dbConnection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bea0 (    0x20) objc_msgSend$null [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bec0 (    0x20) objc_msgSend$numberWithDouble: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bee0 (    0x20) objc_msgSend$numberWithLongLong: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bf00 (    0x20) objc_msgSend$objectAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bf20 (    0x20) objc_msgSend$objectAtIndexedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bf40 (    0x20) objc_msgSend$openDatabaseFile: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bf60 (    0x20) objc_msgSend$performStatement: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bf80 (    0x20) objc_msgSend$prepareStatementAndPerformWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bfa0 (    0x20) objc_msgSend$string [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bfc0 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020bb5bfe0 (    0x20) objc_msgSend$stringWithUTF8String: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237a3bd60 (   0x170) __DATA_CONST SEGMENT
+            0x0000000237a3bd60 (    0x10) __DATA_CONST __got
+            0x0000000237a3bd70 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000237a3bd78 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237a3bd80 (    0x88) __DATA_CONST __objc_const
+                0x0000000237a3bd80 (    0x48) _OBJC_METACLASS_RO_$_PLDatabaseReader [NameNList, MangledNameNList, NList] 
+                0x0000000237a3bdc8 (    0x28) _OBJC_$_INSTANCE_VARIABLES_PLDatabaseReader [NameNList, MangledNameNList, NList] 
+                0x0000000237a3bdf0 (    0x18) _OBJC_$_PROP_LIST_PLDatabaseReader [NameNList, MangledNameNList, NList] 
+            0x0000000237a3be08 (    0xc8) __DATA_CONST __objc_selrefs
+        0x0000000237a3bed0 (   0x378) __AUTH_CONST SEGMENT
+            0x0000000237a3bed0 (   0x260) __AUTH_CONST __cfstring
+            0x0000000237a3c130 (    0x48) __AUTH_CONST __objc_const
+                0x0000000237a3c130 (    0x48) _OBJC_CLASS_RO_$_PLDatabaseReader [NameNList, MangledNameNList, NList] 
+            0x0000000237a3c178 (    0xd0) __AUTH_CONST __auth_got
+        0x0000000232aadb80 (    0x50) __AUTH SEGMENT
+            0x0000000232aadb80 (    0x50) __AUTH __objc_data
+                0x0000000232aadb80 (    0x28) OBJC_CLASS_$_PLDatabaseReader [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232aadba8 (    0x28) OBJC_METACLASS_$_PLDatabaseReader [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023148efc8 (    0x34) __DATA SEGMENT
+            0x000000023148efc8 (    0x28) __DATA __objc_classrefs
+            0x000000023148eff0 (     0x8) __DATA __objc_superrefs
+            0x000000023148eff8 (     0x4) __DATA __objc_ivar
+                0x000000023148eff8 (     0x4) OBJC_IVAR_$_PLDatabaseReader._dbConnection [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

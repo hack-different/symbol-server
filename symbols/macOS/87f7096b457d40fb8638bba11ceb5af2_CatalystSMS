@@ -1,0 +1,103 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/CatalystSMS.axbundle/Contents/MacOS/CatalystSMS [arm64e, 0.025585 seconds]:
+    415B47CF-68D6-3260-B338-C40012BA1FDF /System/iOSSupport/System/Library/AccessibilityBundles/CatalystSMS.axbundle/Contents/MacOS/CatalystSMS [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022310a000 (  0x2000) __TEXT SEGMENT
+            0x000000022310a000 (  0x11e4) MACH_HEADER
+            0x000000022310b1e4 (   0x51c) __TEXT __text
+                0x000000022310b1e4 (    0x94) +[AXMobileSMSGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b278 (     0x8) __48+[AXMobileSMSGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b280 (    0x60) __48+[AXMobileSMSGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b2e0 (    0x88) __48+[AXMobileSMSGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b368 (    0x9c) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b404 (     0xc) -[UIApplication(MobileSMSAccessibility) accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b410 (     0xc) +[SMSApplicationAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b41c (     0xc) +[SMSApplicationAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b428 (   0x160) +[SMSApplicationAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b588 (    0xc8) -[SMSApplicationAccessibility _accessibilitySoftwareKeyboardActive] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022310b650 (    0xb0) -[SMSApplicationAccessibility _accessibilityMainWindow] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022310b700 (   0x140) __TEXT __auth_stubs
+                0x000000022310b700 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b710 (    0x10) DYLD-STUB$$AXSafeClassFromString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b720 (    0x10) DYLD-STUB$$_AXLogWithFacility [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b730 (    0x10) DYLD-STUB$$__UIAccessibilityCastAsClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b740 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b750 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b760 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b770 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b780 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b790 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7a0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7b0 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7c0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7d0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7e0 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b7f0 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b800 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b810 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b820 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022310b830 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022310b840 (    0x80) __TEXT __objc_methlist
+                0x000000022310b840 (    0x18) _OBJC_$_CLASS_METHODS_AXMobileSMSGlue [NameNList, MangledNameNList, NList] 
+                0x000000022310b858 (    0x18) _OBJC_$_INSTANCE_METHODS_UIApplication(MobileSMSAccessibility) [NameNList, MangledNameNList, NList] 
+                0x000000022310b870 (    0x30) _OBJC_$_CLASS_METHODS_SMSApplicationAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x000000022310b8a0 (    0x20) _OBJC_$_INSTANCE_METHODS_SMSApplicationAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x000000022310b8c0 (   0x1c4) __TEXT __cstring
+            0x000000022310ba84 (    0x6c) __TEXT __unwind_info
+            0x000000022310baf0 (    0x74) __TEXT __objc_classname
+            0x000000022310bb64 (   0x28b) __TEXT __objc_methname
+            0x000000022310bdef (    0x2b) __TEXT __objc_methtype
+            0x000000022310be20 (   0x1e0) __TEXT __objc_stubs
+                0x000000022310be20 (    0x20) objc_msgSend$accessibilityViewIsModal [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310be40 (    0x20) objc_msgSend$bundleWithIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310be60 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310be80 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bea0 (    0x20) objc_msgSend$isHidden [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bec0 (    0x20) objc_msgSend$keyWindow [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bee0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bf00 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bf20 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bf40 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bf60 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bf80 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bfa0 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bfc0 (    0x20) objc_msgSend$validateClass:hasClassMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022310bfe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002383cc5b0 (   0x1f0) __DATA_CONST SEGMENT
+            0x00000002383cc5b0 (    0x40) __DATA_CONST __const
+                0x00000002383cc5b0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002383cc5d0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002383cc5f0 (    0x18) __DATA_CONST __objc_classlist
+            0x00000002383cc608 (     0x8) __DATA_CONST __objc_catlist
+            0x00000002383cc610 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002383cc618 (    0xd8) __DATA_CONST __objc_const
+                0x00000002383cc618 (    0x48) _OBJC_CLASS_RO_$_AXMobileSMSGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383cc660 (    0x48) _OBJC_METACLASS_RO_$___SMSApplicationAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002383cc6a8 (    0x48) _OBJC_CLASS_RO_$___SMSApplicationAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002383cc6f0 (    0xb0) __DATA_CONST __objc_selrefs
+        0x00000002383cc7a0 (   0x500) __AUTH_CONST SEGMENT
+            0x00000002383cc7a0 (    0x60) __AUTH_CONST __const
+                0x00000002383cc7a0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002383cc7c0 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x00000002383cc7e0 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x00000002383cc800 (   0x2e0) __AUTH_CONST __cfstring
+            0x00000002383ccae0 (   0x118) __AUTH_CONST __objc_const
+                0x00000002383ccae0 (    0x48) _OBJC_METACLASS_RO_$_AXMobileSMSGlue [NameNList, MangledNameNList, NList] 
+                0x00000002383ccb28 (    0x40) _OBJC_$_CATEGORY_UIApplication_$_MobileSMSAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383ccb68 (    0x48) _OBJC_METACLASS_RO_$_SMSApplicationAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002383ccbb0 (    0x48) _OBJC_CLASS_RO_$_SMSApplicationAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002383ccbf8 (    0xa8) __AUTH_CONST __auth_got
+        0x0000000233619b90 (    0xf0) __AUTH SEGMENT
+            0x0000000233619b90 (    0xf0) __AUTH __objc_data
+                0x0000000233619b90 (    0x28) OBJC_CLASS_$_AXMobileSMSGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619bb8 (    0x28) OBJC_METACLASS_$_AXMobileSMSGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619be0 (    0x28) OBJC_METACLASS_$___SMSApplicationAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619c08 (    0x28) OBJC_CLASS_$___SMSApplicationAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619c30 (    0x28) OBJC_CLASS_$_SMSApplicationAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233619c58 (    0x28) OBJC_METACLASS_$_SMSApplicationAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba88c0 (    0x40) __DATA SEGMENT
+            0x0000000231ba88c0 (    0x28) __DATA __objc_classrefs
+            0x0000000231ba88e8 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba88f0 (     0x8) __DATA __common
+                0x0000000231ba88f0 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000231ba88f8 (     0x8) __DATA __bss
+                0x0000000231ba88f8 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

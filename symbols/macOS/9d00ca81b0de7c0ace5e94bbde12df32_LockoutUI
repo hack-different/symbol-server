@@ -1,0 +1,76 @@
+/System/Library/PrivateFrameworks/LockoutUI.framework/Versions/A/LockoutUI [arm64e, 0.084159 seconds]:
+    B3F748C3-6A40-30CE-A0D7-FFCC248E0A97 /System/Library/PrivateFrameworks/LockoutUI.framework/Versions/A/LockoutUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002062fe000 (  0x4000) __TEXT SEGMENT
+            0x00000002062fe000 (  0x3708) MACH_HEADER
+            0x0000000206301708 (   0x3b0) __TEXT __text
+                0x0000000206301708 (   0x214) -[LOViewController initWithBundleIdentifier:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020630191c (    0x10) __Block_byref_object_copy_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020630192c (     0x8) __Block_byref_object_dispose_ [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000206301934 (    0xb0) __45-[LOViewController initWithBundleIdentifier:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002063019e4 (    0x48) __copy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000206301a2c (    0x40) __destroy_helper_block_e8_32s40r [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000206301a6c (    0x20) +[LOViewController messageForApplicationName:style:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000206301a8c (    0x20) +[LOViewController messageForBundleIdentifier:style:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000206301aac (     0xc) +[LOViewController messageForWebsiteURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000206301ab8 (    0xa0) __TEXT __auth_stubs
+                0x0000000206301ab8 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301ac8 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301ad8 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301ae8 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301af8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301b08 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301b18 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301b28 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301b38 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000206301b48 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000206301b58 (    0x44) __TEXT __objc_methlist
+                0x0000000206301b58 (    0x30) _OBJC_$_CLASS_METHODS_LOViewController [NameNList, MangledNameNList, NList] 
+                0x0000000206301b88 (    0x14) _OBJC_$_INSTANCE_METHODS_LOViewController [NameNList, MangledNameNList, NList] 
+            0x0000000206301ba0 (    0x48) __TEXT __const
+                0x0000000206301ba0 (    0x30) LOLockoutUIVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301bd0 (    0x18) LOLockoutUIVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000206301be8 (    0x77) __TEXT __cstring
+            0x0000000206301c60 (    0x28) __TEXT __gcc_except_tab
+                0x0000000206301c60 (    0x28) GCC_except_table0 [NameNList, MangledNameNList, NList] 
+            0x0000000206301c88 (    0x70) __TEXT __unwind_info
+            0x0000000206301cf8 (    0x11) __TEXT __objc_classname
+            0x0000000206301d0a (   0x15c) __TEXT __objc_methname
+            0x0000000206301e66 (    0x19) __TEXT __objc_methtype
+            0x0000000206301e80 (   0x180) __TEXT __objc_stubs
+                0x0000000206301e80 (    0x20) objc_msgSend$addPort:forMode: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301ea0 (    0x20) objc_msgSend$currentRunLoop [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301ec0 (    0x20) objc_msgSend$distantFuture [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301ee0 (    0x20) objc_msgSend$distantPast [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301f00 (    0x20) objc_msgSend$initWithSendPort:receivePort:components: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301f20 (    0x20) objc_msgSend$messageForApplicationName:style: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301f40 (    0x20) objc_msgSend$messageForBundleIdentifier:style: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301f60 (    0x20) objc_msgSend$messageForWebsiteURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301f80 (    0x20) objc_msgSend$removePort:forMode: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301fa0 (    0x20) objc_msgSend$requestBlockingViewControllerWithBundleIdentifier:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301fc0 (    0x20) objc_msgSend$runMode:beforeDate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000206301fe0 (    0x20) objc_msgSend$sendBeforeDate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e7c1558 (    0xa8) __DATA_CONST SEGMENT
+            0x000000022e7c1558 (    0x10) __DATA_CONST __got
+            0x000000022e7c1568 (    0x18) __DATA_CONST __const
+                0x000000022e7c1568 (     0x8) LOErrorDomain [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c1570 (     0x8) LOErrorResponseUserInfoKey [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022e7c1578 (     0x8) LOErrorResponsePinErrorKey [EXT, NameNList, MangledNameNList, NList] 
+            0x000000022e7c1580 (     0x8) __DATA_CONST __objc_classlist
+            0x000000022e7c1588 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7c1590 (    0x70) __DATA_CONST __objc_selrefs
+        0x00000002376bfb10 (   0x180) __AUTH_CONST SEGMENT
+            0x00000002376bfb10 (    0x60) __AUTH_CONST __cfstring
+            0x00000002376bfb70 (    0x30) __AUTH_CONST __const
+                0x00000002376bfb70 (    0x30) __block_descriptor_48_e8_32s40r_e52_v24?0"STBlockingRemoteViewController"8"NSError"16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002376bfba0 (    0x90) __AUTH_CONST __objc_const
+                0x00000002376bfba0 (    0x48) _OBJC_METACLASS_RO_$_LOViewController [NameNList, MangledNameNList, NList] 
+                0x00000002376bfbe8 (    0x48) _OBJC_CLASS_RO_$_LOViewController [NameNList, MangledNameNList, NList] 
+            0x00000002376bfc30 (    0x60) __AUTH_CONST __auth_got
+        0x00000002328c2790 (    0x50) __AUTH SEGMENT
+            0x00000002328c2790 (    0x50) __AUTH __objc_data
+                0x00000002328c2790 (    0x28) OBJC_CLASS_$_LOViewController [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002328c27b8 (    0x28) OBJC_METACLASS_$_LOViewController [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002311f1580 (    0x38) __DATA SEGMENT
+            0x00000002311f1580 (    0x30) __DATA __objc_classrefs
+            0x00000002311f15b0 (     0x8) __DATA __objc_superrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

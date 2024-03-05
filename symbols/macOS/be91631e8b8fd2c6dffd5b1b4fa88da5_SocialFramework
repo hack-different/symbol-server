@@ -1,0 +1,161 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/SocialFramework.axbundle/Versions/A/SocialFramework [arm64e, 0.023787 seconds]:
+    E3D3748C-6E31-3324-AC97-0EF9E02E6EDF /System/iOSSupport/System/Library/AccessibilityBundles/SocialFramework.axbundle/Versions/A/SocialFramework [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002233ae000 (  0x3000) __TEXT SEGMENT
+            0x00000002233ae000 (  0x1700) MACH_HEADER
+            0x00000002233af700 (   0xa60) __TEXT __text
+                0x00000002233af700 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af7b0 (    0x90) +[AXSocialFrameworkGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af840 (    0xd4) __54+[AXSocialFrameworkGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af914 (    0x48) __54+[AXSocialFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af95c (    0x84) __54+[AXSocialFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af9e0 (     0xc) +[SLMicroBlogComposeViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af9ec (     0xc) +[SLMicroBlogComposeViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233af9f8 (    0x94) +[SLMicroBlogComposeViewControllerAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afa8c (    0x4c) -[SLMicroBlogComposeViewControllerAccessibility noteLocationInfoChanged:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afad8 (    0xe4) -[SLMicroBlogComposeViewControllerAccessibility _presentMentionsViewControllerWithSearchString:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afbbc (     0xc) +[UIButtonAccessibility__Social__UIKit(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afbc8 (     0xc) +[UIButtonAccessibility__Social__UIKit(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afbd4 (    0x98) -[UIButtonAccessibility__Social__UIKit accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afc6c (    0x98) -[UIButtonAccessibility__Social__UIKit accessibilityHint] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afd04 (    0xa0) -[UIButtonAccessibility__Social__UIKit accessibilityValue] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afda4 (     0xc) +[UITableViewAccessibility__Social__UIKit(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afdb0 (     0xc) +[UITableViewAccessibility__Social__UIKit(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afdbc (   0x12c) -[UITableViewAccessibility__Social__UIKit _accessibilitySupplementaryFooterViews] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233afee8 (    0xa8) __81-[UITableViewAccessibility__Social__UIKit _accessibilitySupplementaryFooterViews]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233aff90 (     0xc) +[UITextViewAccessibility__Social__UIKit(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233aff9c (     0xc) +[UITextViewAccessibility__Social__UIKit(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233affa8 (    0x94) -[UITextViewAccessibility__Social__UIKit accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233b003c (    0x98) -[UITextViewAccessibility__Social__UIKit accessibilityLabel] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233b00d4 (     0xc) +[SLSheetTextComposeViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233b00e0 (     0xc) +[SLSheetTextComposeViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002233b00ec (    0x74) -[SLSheetTextComposeViewAccessibility initWithFrame:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002233b0160 (   0x120) __TEXT __auth_stubs
+                0x00000002233b0160 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0170 (    0x10) DYLD-STUB$$_AXTraitsRemoveTrait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0180 (    0x10) DYLD-STUB$$__UIAXStringForVariables [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0190 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01a0 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01b0 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01c0 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01d0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01e0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b01f0 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0200 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0210 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0220 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0230 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0240 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0250 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0260 (    0x10) DYLD-STUB$$objc_retain_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002233b0270 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002233b0280 (   0x164) __TEXT __objc_methlist
+                0x00000002233b0280 (    0x18) _OBJC_$_CLASS_METHODS_AXSocialFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x00000002233b0298 (    0x30) _OBJC_$_CLASS_METHODS_SLMicroBlogComposeViewControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b02c8 (    0x20) _OBJC_$_INSTANCE_METHODS_SLMicroBlogComposeViewControllerAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b02e8 (    0x20) _OBJC_$_CLASS_METHODS_UIButtonAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b0308 (    0x30) _OBJC_$_INSTANCE_METHODS_UIButtonAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b0338 (    0x20) _OBJC_$_CLASS_METHODS_UITableViewAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b0358 (    0x18) _OBJC_$_INSTANCE_METHODS_UITableViewAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b0370 (    0x20) _OBJC_$_CLASS_METHODS_UITextViewAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b0390 (    0x20) _OBJC_$_INSTANCE_METHODS_UITextViewAccessibility__Social__UIKit(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b03b0 (    0x20) _OBJC_$_CLASS_METHODS_SLSheetTextComposeViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002233b03d0 (    0x14) _OBJC_$_INSTANCE_METHODS_SLSheetTextComposeViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+            0x00000002233b03e4 (   0x33b) __TEXT __cstring
+            0x00000002233b0720 (     0x8) __TEXT __const
+            0x00000002233b0728 (    0x94) __TEXT __unwind_info
+            0x00000002233b07bc (   0x1d7) __TEXT __objc_classname
+            0x00000002233b0994 (   0x393) __TEXT __objc_methname
+            0x00000002233b0d27 (    0x55) __TEXT __objc_methtype
+            0x00000002233b0d80 (   0x280) __TEXT __objc_stubs
+                0x00000002233b0d80 (    0x20) objc_msgSend$accessibilityIdentification [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0da0 (    0x20) objc_msgSend$accessibilityIdentifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0dc0 (    0x20) objc_msgSend$addObjectsFromArray: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0de0 (    0x20) objc_msgSend$arrayWithArray: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0e00 (    0x20) objc_msgSend$axAttributedStringWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0e20 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0e40 (    0x20) objc_msgSend$enumerateObjectsUsingBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0e60 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0e80 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0ea0 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0ec0 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0ee0 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0f00 (    0x20) objc_msgSend$setAccessibilityIdentifier: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0f20 (    0x20) objc_msgSend$setAttribute:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0f40 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0f60 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0f80 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0fa0 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0fc0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002233b0fe0 (    0x20) objc_msgSend$validateClass:isKindOfClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000002384acc50 (   0x510) __DATA_CONST SEGMENT
+            0x00000002384acc50 (    0x30) __DATA_CONST __got
+            0x00000002384acc80 (    0x68) __DATA_CONST __const
+                0x00000002384acc80 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002384acca0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002384accc0 (    0x28) __block_descriptor_40_e8_32s_e15_v32?08Q16^B24ls32l8 [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000002384acce8 (    0x58) __DATA_CONST __objc_classlist
+            0x00000002384acd40 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000002384acd48 (   0x318) __DATA_CONST __objc_const
+                0x00000002384acd48 (    0x48) _OBJC_CLASS_RO_$_AXSocialFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x00000002384acd90 (    0x48) _OBJC_METACLASS_RO_$___SLMicroBlogComposeViewControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384acdd8 (    0x48) _OBJC_CLASS_RO_$___SLMicroBlogComposeViewControllerAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384ace20 (    0x48) _OBJC_METACLASS_RO_$___UIButtonAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384ace68 (    0x48) _OBJC_CLASS_RO_$___UIButtonAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384aceb0 (    0x48) _OBJC_METACLASS_RO_$___UITableViewAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384acef8 (    0x48) _OBJC_CLASS_RO_$___UITableViewAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384acf40 (    0x48) _OBJC_METACLASS_RO_$___UITextViewAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384acf88 (    0x48) _OBJC_CLASS_RO_$___UITextViewAccessibility__Social__UIKit_super [NameNList, MangledNameNList, NList] 
+                0x00000002384acfd0 (    0x48) _OBJC_METACLASS_RO_$___SLSheetTextComposeViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x00000002384ad018 (    0x48) _OBJC_CLASS_RO_$___SLSheetTextComposeViewAccessibility_super [NameNList, MangledNameNList, NList] 
+            0x00000002384ad060 (   0x100) __DATA_CONST __objc_selrefs
+        0x00000002384ad160 (   0x7f0) __AUTH_CONST SEGMENT
+            0x00000002384ad160 (   0x3e0) __AUTH_CONST __cfstring
+            0x00000002384ad540 (    0x60) __AUTH_CONST __const
+                0x00000002384ad540 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000002384ad560 (    0x20) __block_literal_global.241 [NameNList, MangledNameNList, NList] 
+                0x00000002384ad580 (    0x20) __block_literal_global.250 [NameNList, MangledNameNList, NList] 
+            0x00000002384ad5a0 (   0x318) __AUTH_CONST __objc_const
+                0x00000002384ad5a0 (    0x48) _OBJC_METACLASS_RO_$_AXSocialFrameworkGlue [NameNList, MangledNameNList, NList] 
+                0x00000002384ad5e8 (    0x48) _OBJC_METACLASS_RO_$_SLMicroBlogComposeViewControllerAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384ad630 (    0x48) _OBJC_CLASS_RO_$_SLMicroBlogComposeViewControllerAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384ad678 (    0x48) _OBJC_METACLASS_RO_$_UIButtonAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad6c0 (    0x48) _OBJC_CLASS_RO_$_UIButtonAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad708 (    0x48) _OBJC_METACLASS_RO_$_UITableViewAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad750 (    0x48) _OBJC_CLASS_RO_$_UITableViewAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad798 (    0x48) _OBJC_METACLASS_RO_$_UITextViewAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad7e0 (    0x48) _OBJC_CLASS_RO_$_UITextViewAccessibility__Social__UIKit [NameNList, MangledNameNList, NList] 
+                0x00000002384ad828 (    0x48) _OBJC_METACLASS_RO_$_SLSheetTextComposeViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384ad870 (    0x48) _OBJC_CLASS_RO_$_SLSheetTextComposeViewAccessibility [NameNList, MangledNameNList, NList] 
+            0x00000002384ad8b8 (    0x98) __AUTH_CONST __auth_got
+        0x0000000233652030 (   0x370) __AUTH SEGMENT
+            0x0000000233652030 (   0x370) __AUTH __objc_data
+                0x0000000233652030 (    0x28) OBJC_CLASS_$_AXSocialFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652058 (    0x28) OBJC_METACLASS_$_AXSocialFrameworkGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652080 (    0x28) OBJC_METACLASS_$___SLMicroBlogComposeViewControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336520a8 (    0x28) OBJC_CLASS_$___SLMicroBlogComposeViewControllerAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336520d0 (    0x28) OBJC_CLASS_$_SLMicroBlogComposeViewControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336520f8 (    0x28) OBJC_METACLASS_$_SLMicroBlogComposeViewControllerAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652120 (    0x28) OBJC_METACLASS_$___UIButtonAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652148 (    0x28) OBJC_CLASS_$___UIButtonAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652170 (    0x28) OBJC_CLASS_$_UIButtonAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652198 (    0x28) OBJC_METACLASS_$_UIButtonAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336521c0 (    0x28) OBJC_METACLASS_$___UITableViewAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336521e8 (    0x28) OBJC_CLASS_$___UITableViewAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652210 (    0x28) OBJC_CLASS_$_UITableViewAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652238 (    0x28) OBJC_METACLASS_$_UITableViewAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652260 (    0x28) OBJC_METACLASS_$___UITextViewAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652288 (    0x28) OBJC_CLASS_$___UITextViewAccessibility__Social__UIKit_super [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336522b0 (    0x28) OBJC_CLASS_$_UITextViewAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336522d8 (    0x28) OBJC_METACLASS_$_UITextViewAccessibility__Social__UIKit [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652300 (    0x28) OBJC_METACLASS_$___SLSheetTextComposeViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652328 (    0x28) OBJC_CLASS_$___SLSheetTextComposeViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652350 (    0x28) OBJC_CLASS_$_SLSheetTextComposeViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233652378 (    0x28) OBJC_METACLASS_$_SLSheetTextComposeViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bad6a0 (    0x68) __DATA SEGMENT
+            0x0000000231bad6a0 (    0x30) __DATA __objc_classrefs
+            0x0000000231bad6d0 (    0x28) __DATA __objc_superrefs
+            0x0000000231bad6f8 (     0x8) __DATA __bss
+                0x0000000231bad6f8 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+            0x0000000231bad700 (     0x8) __DATA __common
+                0x0000000231bad700 (     0x8) _Failover [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

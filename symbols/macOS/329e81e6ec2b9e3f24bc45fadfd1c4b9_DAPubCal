@@ -1,0 +1,143 @@
+/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAPubCal.framework/Versions/A/DAPubCal [arm64e, 0.030249 seconds]:
+    9DFC0669-E6E6-3AA9-B4EA-D1B6F3599452 /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAPubCal.framework/Versions/A/DAPubCal [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001fa37a000 (  0x4000) __TEXT SEGMENT
+            0x00000001fa37a000 (  0x1ff0) MACH_HEADER
+            0x00000001fa37bff0 (   0xdd8) __TEXT __text
+                0x00000001fa37bff0 (    0x64) -[PubCalAccount publishedCalendarUUID] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c054 (    0x70) -[PubCalAccount setPublishedCalendarUUID:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c0c4 (    0x64) -[PubCalAccount publishedCalendarName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c128 (    0xd8) -[PubCalAccount setPublishedCalendarName:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c200 (    0x10) -[PubCalAccount automaticallyPublishChanges] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c210 (    0x10) -[PubCalAccount setAutomaticallyPublishChanges:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c220 (    0x10) -[PubCalAccount filterTitleAndNotes] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c230 (    0x10) -[PubCalAccount setFilterTitleAndNotes:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c240 (    0x10) -[PubCalAccount filterAttachments] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c250 (    0x10) -[PubCalAccount setFilterAttachments:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c260 (    0x10) -[PubCalAccount filterAlarms] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c270 (    0x10) -[PubCalAccount setFilterAlarms:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c280 (    0x10) -[PubCalAccount filterAttendees] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c290 (    0x10) -[PubCalAccount setFilterAttendees:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c2a0 (    0x88) -[PubCalAccount publishURL] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c328 (    0x90) -[PubCalAccount fileName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c3b8 (   0x148) -[PubCalAccount principalURL] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c500 (   0x150) -[PubCalAccount setPrincipalURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c650 (   0x124) -[PubCalAccount isEqualToAccount:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c774 (    0x6c) -[PubCalAccount localizedIdenticalAccountFailureMessage] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c7e0 (    0xc8) -[PubCalAccount localizedInvalidPasswordMessage] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c8a8 (    0x10) -[PubCalAccount onBehalfOfBundleIdentifier] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c8b8 (     0x8) -[PubCalAccount shouldRemoveDBSyncDataOnAccountChange] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c8c0 (     0x8) -[PubCalAccount isDisabled] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c8c8 (    0xd8) -[PubCalAccount description] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37c9a0 (    0xb8) -[PubCalAccount redactedDescription] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37ca58 (   0x1ac) -[PubCalAccount discoverInitialPropertiesWithConsumer:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37cc04 (     0xc) -[PubCalAccount calendarPublishedToURL:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37cc10 (     0x8) -[PubCalAccount calendarPublishToURL:failedWithError:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37cc18 (   0x154) -[PubCalAccount _validityCheckFinishedWithSuccess:error:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37cd6c (    0x14) -[PubCalAccount .cxx_destruct] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001fa37cd80 (    0x48) PubCalStringBundle [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001fa37cdc8 (    0xd0) __TEXT __auth_stubs
+                0x00000001fa37cdc8 (    0x10) DYLD-STUB$$DALoggingwithCategory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37cdd8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37cde8 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37cdf8 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce08 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce18 (    0x10) DYLD-STUB$$objc_opt_isKindOfClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce28 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce38 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce48 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce58 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce68 (    0x10) DYLD-STUB$$objc_storeStrong [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce78 (    0x10) DYLD-STUB$$objc_unsafeClaimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ce88 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001fa37ce98 (   0x17c) __TEXT __objc_methlist
+                0x00000001fa37ce98 (   0x17c) _OBJC_$_INSTANCE_METHODS_PubCalAccount [NameNList, MangledNameNList, NList] 
+            0x00000001fa37d014 (    0x9c) __TEXT __cstring
+            0x00000001fa37d0b0 (    0x66) __TEXT __ustring
+            0x00000001fa37d116 (    0x3c) __TEXT __oslogstring
+            0x00000001fa37d154 (    0x90) __TEXT __unwind_info
+            0x00000001fa37d1e4 (    0x29) __TEXT __objc_classname
+            0x00000001fa37d20e (   0x738) __TEXT __objc_methname
+            0x00000001fa37d946 (   0x13a) __TEXT __objc_methtype
+            0x00000001fa37da80 (   0x580) __TEXT __objc_stubs
+                0x00000001fa37da80 (    0x20) objc_msgSend$URLByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37daa0 (    0x20) objc_msgSend$URLWithString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dac0 (    0x20) objc_msgSend$_validityCheckFinishedWithSuccess:error: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dae0 (    0x20) objc_msgSend$absoluteString [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37db00 (    0x20) objc_msgSend$account:isValid:validationError: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37db20 (    0x20) objc_msgSend$accountBoolPropertyForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37db40 (    0x20) objc_msgSend$accountDescription [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37db60 (    0x20) objc_msgSend$accountID [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37db80 (    0x20) objc_msgSend$automaticallyPublishChanges [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dba0 (    0x20) objc_msgSend$backingAccountInfo [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dbc0 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dbe0 (    0x20) objc_msgSend$fileName [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dc00 (    0x20) objc_msgSend$filterAlarms [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dc20 (    0x20) objc_msgSend$filterAttachments [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dc40 (    0x20) objc_msgSend$filterAttendees [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dc60 (    0x20) objc_msgSend$filterTitleAndNotes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dc80 (    0x20) objc_msgSend$hasSuffix: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dca0 (    0x20) objc_msgSend$host [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dcc0 (    0x20) objc_msgSend$isEqualToString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dce0 (    0x20) objc_msgSend$length [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dd00 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dd20 (    0x20) objc_msgSend$localizedStringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dd40 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dd60 (    0x20) objc_msgSend$password [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dd80 (    0x20) objc_msgSend$principalURL [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dda0 (    0x20) objc_msgSend$publishCalendarWithUUID:baseURL:calendarName:username:password:options:delegate: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37ddc0 (    0x20) objc_msgSend$publishedCalendarName [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dde0 (    0x20) objc_msgSend$publishedCalendarUUID [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37de00 (    0x20) objc_msgSend$requestDaemonStartMonitoringAgentsWithToken: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37de20 (    0x20) objc_msgSend$requestDaemonStopMonitoringAgents [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37de40 (    0x20) objc_msgSend$scheme [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37de60 (    0x20) objc_msgSend$setAccountBoolProperty:forKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37de80 (    0x20) objc_msgSend$setHost: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dea0 (    0x20) objc_msgSend$setObject:forKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dec0 (    0x20) objc_msgSend$setPrincipalURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dee0 (    0x20) objc_msgSend$setUseSSL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37df00 (    0x20) objc_msgSend$sharedConnection [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37df20 (    0x20) objc_msgSend$stringByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37df40 (    0x20) objc_msgSend$stringByAppendingPathExtension: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37df60 (    0x20) objc_msgSend$stringByReplacingOccurrencesOfString:withString: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37df80 (    0x20) objc_msgSend$stringWithFormat: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dfa0 (    0x20) objc_msgSend$substringFromIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dfc0 (    0x20) objc_msgSend$substringToIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001fa37dfe0 (    0x20) objc_msgSend$username [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000236f3e008 (   0x980) __DATA_CONST SEGMENT
+            0x0000000236f3e008 (    0x50) __DATA_CONST __got
+            0x0000000236f3e058 (     0x8) __DATA_CONST __objc_classlist
+            0x0000000236f3e060 (    0x10) __DATA_CONST __objc_protolist
+                0x0000000236f3e060 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000236f3e068 (     0x8) _OBJC_LABEL_PROTOCOL_$_DAPubCalAccount [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000236f3e070 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000236f3e078 (   0x710) __DATA_CONST __objc_const
+                0x0000000236f3e078 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e248 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e268 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e2b0 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e350 (    0x18) _OBJC_$_PROTOCOL_REFS_DAPubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e368 (   0x1a0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_DAPubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e508 (    0x98) _OBJC_$_PROP_LIST_DAPubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e5a0 (    0x88) _OBJC_$_PROTOCOL_METHOD_TYPES_DAPubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e628 (    0x18) _OBJC_CLASS_PROTOCOLS_$_PubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e640 (    0x48) _OBJC_METACLASS_RO_$_PubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e688 (    0x28) _OBJC_$_INSTANCE_VARIABLES_PubCalAccount [NameNList, MangledNameNList, NList] 
+                0x0000000236f3e6b0 (    0xd8) _OBJC_$_PROP_LIST_PubCalAccount [NameNList, MangledNameNList, NList] 
+            0x0000000236f3e788 (   0x200) __DATA_CONST __objc_selrefs
+        0x0000000236f3e988 (   0x1f8) __AUTH_CONST SEGMENT
+            0x0000000236f3e988 (   0x140) __AUTH_CONST __cfstring
+            0x0000000236f3eac8 (    0x48) __AUTH_CONST __objc_const
+                0x0000000236f3eac8 (    0x48) _OBJC_CLASS_RO_$_PubCalAccount [NameNList, MangledNameNList, NList] 
+            0x0000000236f3eb10 (    0x70) __AUTH_CONST __auth_got
+        0x000000023257c638 (    0x50) __AUTH SEGMENT
+            0x000000023257c638 (    0x50) __AUTH __objc_data
+                0x000000023257c638 (    0x28) OBJC_CLASS_$_PubCalAccount [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023257c660 (    0x28) OBJC_METACLASS_$_PubCalAccount [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000230fcbba8 (    0xf0) __DATA SEGMENT
+            0x0000000230fcbba8 (    0x28) __DATA __objc_classrefs
+            0x0000000230fcbbd0 (     0x4) __DATA __objc_ivar
+                0x0000000230fcbbd0 (     0x4) OBJC_IVAR_$_PubCalAccount._validationConsumer [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000230fcbbd8 (    0xc0) __DATA __data
+                0x0000000230fcbbd8 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000230fcbc38 (    0x60) _OBJC_PROTOCOL_$_DAPubCalAccount [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

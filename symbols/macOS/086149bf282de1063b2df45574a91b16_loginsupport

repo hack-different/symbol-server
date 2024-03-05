@@ -1,0 +1,133 @@
+/System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport [arm64e, 0.028916 seconds]:
+    CA87182F-A196-3D1B-B006-042907DD8E51 /System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000188e76000 (  0x3000) __TEXT SEGMENT
+            0x0000000188e76000 (   0xbbc) MACH_HEADER
+            0x0000000188e76bbc (  0x1a2c) __TEXT __text
+                0x0000000188e76bbc (    0x64) LFBootedToFVUnlock [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e76c20 (    0x28) LFBootedToInstaller [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e76c48 (   0x3d0) DBLoggingStartWithController [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77018 (    0xe0) _DBLoggerForController [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e770f8 (   0x11c) DBLoggerCreate [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77214 (    0x54) _DBLoggersLock [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77268 (   0x510) DBLoggingLogWithFormat [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77778 (   0x338) DBLoggerUpdateMask [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77ab0 (   0x104) DBLoggingStopController [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77bb4 (    0x60) DBLoggingStop [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77c14 (    0x98) DBLoggingSetLogFileForController [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77cac (   0x128) DBLoggingSetSignalEnabled [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77dd4 (    0x30) DBLoggingGetMaskForController [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77e04 (    0xac) DBLoggingSetMaskForController [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77eb0 (    0xa0) _DBLoggerAddLabelForFlag [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77f50 (    0x84) _DBLoggerInit [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e77fd4 (    0x70) _DBLoggerFinalize [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78044 (    0x5c) _DBLoggerEqual [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e780a0 (     0x8) _DBLoggerHash [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e780a8 (    0x3c) _DBLoggerCopyFormattingDesc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e780e4 (    0x40) _DBLoggerCopyDebugDesc [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78124 (    0x28) ___DBLoggersLock_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e7814c (    0xb4) ___GetDBLoggers_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78200 (    0x34) _DefaultLoggerGetIdentifier [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78234 (     0x8) _DefaultLoggerGeFlagForFlagName [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e7823c (   0x1e0) DBLoggerAddFlagToMask [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e7841c (    0x18) _DBLoggerClearFlag [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78434 (    0xb8) _DBLoggerCFStringCopyUTF8String [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e784ec (    0x2c) ___RegisterForSignal_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e78518 (    0xcc) ___RegisterForSignal_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000188e785e4 (     0x4) ___UnregisterForSignal_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000188e785e8 (   0x350) __TEXT __auth_stubs
+                0x0000000188e785e8 (    0x10) DYLD-STUB$$CFArrayAppendValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e785f8 (    0x10) DYLD-STUB$$CFArrayCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78608 (    0x10) DYLD-STUB$$CFArrayGetCount [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78618 (    0x10) DYLD-STUB$$CFArrayGetFirstIndexOfValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78628 (    0x10) DYLD-STUB$$CFArrayGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78638 (    0x10) DYLD-STUB$$CFArrayGetValueAtIndex [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78648 (    0x10) DYLD-STUB$$CFArrayInsertValueAtIndex [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78658 (    0x10) DYLD-STUB$$CFArraySetValueAtIndex [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78668 (    0x10) DYLD-STUB$$CFBundleGetIdentifier [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78678 (    0x10) DYLD-STUB$$CFBundleGetMainBundle [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78688 (    0x10) DYLD-STUB$$CFDictionaryApplyFunction [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78698 (    0x10) DYLD-STUB$$CFDictionaryCreateMutable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786a8 (    0x10) DYLD-STUB$$CFDictionaryGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786b8 (    0x10) DYLD-STUB$$CFDictionarySetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786c8 (    0x10) DYLD-STUB$$CFGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786d8 (    0x10) DYLD-STUB$$CFNumberCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786e8 (    0x10) DYLD-STUB$$CFPreferencesAppSynchronize [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e786f8 (    0x10) DYLD-STUB$$CFPreferencesCopyAppValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78708 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78718 (    0x10) DYLD-STUB$$CFStringAppend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78728 (    0x10) DYLD-STUB$$CFStringCreateMutableCopy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78738 (    0x10) DYLD-STUB$$CFStringCreateWithFormat [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78748 (    0x10) DYLD-STUB$$CFStringCreateWithFormatAndArguments [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78758 (    0x10) DYLD-STUB$$CFStringGetCString [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78768 (    0x10) DYLD-STUB$$CFStringGetLength [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78778 (    0x10) DYLD-STUB$$CFStringGetTypeID [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78788 (    0x10) DYLD-STUB$$_CFRuntimeCreateInstance [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78798 (    0x10) DYLD-STUB$$_CFRuntimeRegisterClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787a8 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787b8 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787c8 (    0x10) DYLD-STUB$$bzero [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787d8 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787e8 (    0x10) DYLD-STUB$$dispatch_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e787f8 (    0x10) DYLD-STUB$$dispatch_resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78808 (    0x10) DYLD-STUB$$dispatch_semaphore_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78818 (    0x10) DYLD-STUB$$dispatch_semaphore_signal [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78828 (    0x10) DYLD-STUB$$dispatch_semaphore_wait [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78838 (    0x10) DYLD-STUB$$dispatch_source_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78848 (    0x10) DYLD-STUB$$dispatch_source_set_cancel_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78858 (    0x10) DYLD-STUB$$dispatch_source_set_event_handler [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78868 (    0x10) DYLD-STUB$$dispatch_suspend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78878 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78888 (    0x10) DYLD-STUB$$getenv [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78898 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788a8 (    0x10) DYLD-STUB$$memcpy [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788b8 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788c8 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788d8 (    0x10) DYLD-STUB$$os_boot_mode_query [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788e8 (    0x10) DYLD-STUB$$os_log_create [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e788f8 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78908 (    0x10) DYLD-STUB$$sigprocmask [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78918 (    0x10) DYLD-STUB$$strlen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000188e78928 (    0x10) DYLD-STUB$$strncmp [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000188e78938 (    0x58) __TEXT __const
+                0x0000000188e78938 (    0x40) loginsupportVersionString [NameNList, MangledNameNList, NList] 
+                0x0000000188e78978 (     0x8) loginsupportVersionNumber [NameNList, MangledNameNList, NList] 
+                0x0000000188e78980 (     0x8) DBLoggerMaxFlag [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000188e78988 (     0x8) DBLoggerStartFlag [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000188e78990 (   0x4b9) __TEXT __cstring
+            0x0000000188e78e49 (    0xaf) __TEXT __oslogstring
+            0x0000000188e78ef8 (    0xb8) __TEXT __unwind_info
+            0x0000000188e78fb0 (     0xd) __TEXT __objc_methname
+            0x0000000188e78fc0 (    0x40) __TEXT __objc_stubs
+                0x0000000188e78fc0 (    0x20) objc_msgSend$lock [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000188e78fe0 (    0x20) objc_msgSend$unlock [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001d3a85478 (    0x98) __DATA_CONST SEGMENT
+            0x00000001d3a85478 (    0x50) __DATA_CONST __got
+            0x00000001d3a854c8 (    0x30) __DATA_CONST __const
+                0x00000001d3a854c8 (     0x8) kUnknownProcess [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3a854d0 (     0x8) kUnknownFacility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d3a854d8 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001d3a854f8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001d3a85500 (    0x10) __DATA_CONST __objc_selrefs
+        0x00000001db67c270 (   0x578) __AUTH_CONST SEGMENT
+            0x00000001db67c270 (    0xc8) __AUTH_CONST __const
+                0x00000001db67c270 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x00000001db67c290 (    0x48) __block_literal_global.39 [NameNList, MangledNameNList, NList] 
+                0x00000001db67c2d8 (    0x20) __block_literal_global.74 [NameNList, MangledNameNList, NList] 
+                0x00000001db67c2f8 (    0x20) __block_literal_global.79 [NameNList, MangledNameNList, NList] 
+                0x00000001db67c318 (    0x20) __block_literal_global.81 [NameNList, MangledNameNList, NList] 
+            0x00000001db67c338 (   0x300) __AUTH_CONST __cfstring
+            0x00000001db67c638 (   0x1b0) __AUTH_CONST __auth_got
+        0x00000001d5cd69e8 (   0x120) __DATA SEGMENT
+            0x00000001d5cd69e8 (     0x8) __DATA __objc_classrefs
+            0x00000001d5cd69f0 (    0x98) __DATA __bss
+                0x00000001d5cd69f0 (     0x8) gDBLoggers [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd69f8 (     0x8) gDBLoggingSource [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a00 (     0x8) _kDBLoggerID [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a08 (     0x8) _DBLoggerInitialize.initialized [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a10 (    0x60) _kDBLogger [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a70 (     0x8) _DBLoggersLock.onceToken [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a78 (     0x8) gDBLoggersRecursiveLock [NameNList, MangledNameNList, NList] 
+                0x00000001d5cd6a80 (     0x8) _GetDBLoggers.onceToken [NameNList, MangledNameNList, NList] 
+            0x00000001d5cd6a88 (    0x80) __DATA __common
+                0x00000001d5cd6a88 (    0x80) gDBLoggingMasks [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

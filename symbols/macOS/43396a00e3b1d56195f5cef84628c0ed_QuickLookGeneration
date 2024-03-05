@@ -1,0 +1,94 @@
+/System/Library/PrivateFrameworks/QuickLookGeneration.framework/Versions/A/QuickLookGeneration [arm64e, 0.430504 seconds]:
+    A20DF6DC-8076-3001-8BAA-76FF40189A60 /System/Library/PrivateFrameworks/QuickLookGeneration.framework/Versions/A/QuickLookGeneration [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000020c512000 (  0x4000) __TEXT SEGMENT
+            0x000000020c512000 (  0x333c) MACH_HEADER
+            0x000000020c51533c (   0x474) __TEXT __text
+                0x000000020c51533c (   0x140) +[QLPreviewGenerationProvider providerForType:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c51547c (    0xec) -[QLPreviewGenerationProvider providePreviewForFileRequest:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c515568 (   0x230) -[QLTextGenerationPreviewProvider providePreviewForFileRequest:completionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c515798 (     0x8) __82-[QLTextGenerationPreviewProvider providePreviewForFileRequest:completionHandler:]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c5157a0 (     0x8) __copy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000020c5157a8 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000020c5157b0 (   0x100) __TEXT __auth_stubs
+                0x000000020c5157b0 (    0x10) DYLD-STUB$$CFStringConvertEncodingToNSStringEncoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c5157c0 (    0x10) DYLD-STUB$$QLPlistDataForFile [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c5157d0 (    0x10) DYLD-STUB$$QLXMLGetStringEncoding [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c5157e0 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c5157f0 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515800 (    0x10) DYLD-STUB$$objc_autoreleasePoolPop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515810 (    0x10) DYLD-STUB$$objc_autoreleasePoolPush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515820 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515830 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515840 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515850 (    0x10) DYLD-STUB$$objc_opt_new [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515860 (    0x10) DYLD-STUB$$objc_opt_respondsToSelector [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515870 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515880 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c515890 (    0x10) DYLD-STUB$$objc_retainAutoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000020c5158a0 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000020c5158b0 (    0x44) __TEXT __objc_methlist
+                0x000000020c5158b0 (    0x18) _OBJC_$_CLASS_METHODS_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x000000020c5158c8 (    0x18) _OBJC_$_INSTANCE_METHODS_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x000000020c5158e0 (    0x14) _OBJC_$_INSTANCE_METHODS_QLTextGenerationPreviewProvider [NameNList, MangledNameNList, NList] 
+            0x000000020c5158f8 (    0x48) __TEXT __const
+                0x000000020c5158f8 (    0x38) QuickLookGenerationVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515930 (    0x10) QuickLookGenerationVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x000000020c515940 (    0x25) __TEXT __cstring
+            0x000000020c515968 (    0x60) __TEXT __unwind_info
+            0x000000020c5159c8 (    0x5c) __TEXT __objc_classname
+            0x000000020c515a24 (   0x2e1) __TEXT __objc_methname
+            0x000000020c515d05 (   0x178) __TEXT __objc_methtype
+            0x000000020c515e80 (   0x180) __TEXT __objc_stubs
+                0x000000020c515e80 (    0x20) objc_msgSend$conformsToType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515ea0 (    0x20) objc_msgSend$contentType [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515ec0 (    0x20) objc_msgSend$countByEnumeratingWithState:objects:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515ee0 (    0x20) objc_msgSend$fileURL [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515f00 (    0x20) objc_msgSend$identifier [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515f20 (    0x20) objc_msgSend$initWithDataOfContentType:contentSize:dataCreationBlock: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515f40 (    0x20) objc_msgSend$initWithFileURL: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515f60 (    0x20) objc_msgSend$initWithFileURL:forcedContentType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515f80 (    0x20) objc_msgSend$providePreviewForFileRequest:completionHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515fa0 (    0x20) objc_msgSend$providerForType: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515fc0 (    0x20) objc_msgSend$setStringEncoding: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000020c515fe0 (    0x20) objc_msgSend$textGeneratorSupportedTypes [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000237afb5e8 (   0x510) __DATA_CONST SEGMENT
+            0x0000000237afb5e8 (    0x28) __DATA_CONST __got
+            0x0000000237afb610 (    0x10) __DATA_CONST __objc_classlist
+            0x0000000237afb620 (    0x10) __DATA_CONST __objc_protolist
+                0x0000000237afb620 (     0x8) _OBJC_LABEL_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000237afb628 (     0x8) _OBJC_LABEL_PROTOCOL_$_QLPreviewingController [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237afb630 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000237afb638 (   0x460) __DATA_CONST __objc_const
+                0x0000000237afb638 (   0x1d0) _OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237afb808 (    0x20) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237afb828 (    0x48) _OBJC_$_PROP_LIST_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237afb870 (    0xa0) _OBJC_$_PROTOCOL_METHOD_TYPES_NSObject [NameNList, MangledNameNList, NList] 
+                0x0000000237afb910 (    0x18) _OBJC_$_PROTOCOL_REFS_QLPreviewingController [NameNList, MangledNameNList, NList] 
+                0x0000000237afb928 (    0x50) _OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_QLPreviewingController [NameNList, MangledNameNList, NList] 
+                0x0000000237afb978 (    0x18) _OBJC_$_PROTOCOL_METHOD_TYPES_QLPreviewingController [NameNList, MangledNameNList, NList] 
+                0x0000000237afb990 (    0x18) _OBJC_CLASS_PROTOCOLS_$_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afb9a8 (    0x48) _OBJC_$_PROP_LIST_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afb9f0 (    0x18) _OBJC_CLASS_PROTOCOLS_$_QLTextGenerationPreviewProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afba08 (    0x48) _OBJC_METACLASS_RO_$_QLTextGenerationPreviewProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afba50 (    0x48) _OBJC_$_PROP_LIST_QLTextGenerationPreviewProvider [NameNList, MangledNameNList, NList] 
+            0x0000000237afba98 (    0x60) __DATA_CONST __objc_selrefs
+        0x0000000237afbaf8 (   0x190) __AUTH_CONST SEGMENT
+            0x0000000237afbaf8 (    0xd8) __AUTH_CONST __objc_const
+                0x0000000237afbaf8 (    0x48) _OBJC_METACLASS_RO_$_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afbb40 (    0x48) _OBJC_CLASS_RO_$_QLPreviewGenerationProvider [NameNList, MangledNameNList, NList] 
+                0x0000000237afbb88 (    0x48) _OBJC_CLASS_RO_$_QLTextGenerationPreviewProvider [NameNList, MangledNameNList, NList] 
+            0x0000000237afbbd0 (    0x30) __AUTH_CONST __const
+                0x0000000237afbbd0 (    0x30) __block_descriptor_40_e8_32s_e36_"NSData"24?0"QLPreviewReply"8^16l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000237afbc00 (    0x88) __AUTH_CONST __auth_got
+        0x0000000232ae26c8 (    0xa0) __AUTH SEGMENT
+            0x0000000232ae26c8 (    0xa0) __AUTH __objc_data
+                0x0000000232ae26c8 (    0x28) OBJC_METACLASS_$_QLPreviewGenerationProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232ae26f0 (    0x28) OBJC_CLASS_$_QLPreviewGenerationProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232ae2718 (    0x28) OBJC_METACLASS_$_QLTextGenerationPreviewProvider [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000232ae2740 (    0x28) OBJC_CLASS_$_QLTextGenerationPreviewProvider [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002314e4460 (    0xd8) __DATA SEGMENT
+            0x00000002314e4460 (    0x18) __DATA __objc_classrefs
+            0x00000002314e4478 (    0xc0) __DATA __data
+                0x00000002314e4478 (    0x60) _OBJC_PROTOCOL_$_NSObject [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002314e44d8 (    0x60) _OBJC_PROTOCOL_$_QLPreviewingController [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

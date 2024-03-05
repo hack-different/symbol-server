@@ -1,0 +1,144 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/EmojiKit.axbundle/Contents/MacOS/EmojiKit [arm64e, 0.031385 seconds]:
+    8B04F93B-43F9-3649-B57E-D2A0334705D0 /System/iOSSupport/System/Library/AccessibilityBundles/EmojiKit.axbundle/Contents/MacOS/EmojiKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000002231a5000 (  0x3000) __TEXT SEGMENT
+            0x00000002231a5000 (  0x1b3c) MACH_HEADER
+            0x00000002231a6b3c (   0x7c4) __TEXT __text
+                0x00000002231a6b3c (     0x4) -[EMKEmojiOverlayElement accessibilityRowRange] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b40 (    0x10) -[EMKEmojiOverlayElement accessibilityTraits] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b50 (    0x14) -[EMKEmojiOverlayElement rowRange] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b64 (    0x14) -[EMKEmojiOverlayElement setRowRange:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b78 (     0xc) +[EMKOverlayViewAccessibility(SafeCategory) safeCategoryTargetClassName] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b84 (     0xc) +[EMKOverlayViewAccessibility(SafeCategory) safeCategoryBaseClass] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6b90 (    0xcc) +[EMKOverlayViewAccessibility _accessibilityPerformValidations:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6c5c (     0x8) -[EMKOverlayViewAccessibility isAccessibilityElement] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6c64 (     0x8) -[EMKOverlayViewAccessibility accessibilityContainerType] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6c6c (     0x8) -[EMKOverlayViewAccessibility accessibilityViewIsModal] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6c74 (    0x70) -[EMKOverlayViewAccessibility accessibilityPerformEscape] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6ce4 (     0x8) __57-[EMKOverlayViewAccessibility accessibilityPerformEscape]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6cec (   0x2fc) -[EMKOverlayViewAccessibility initWithView:anchorRect:emojiTokenList:selectionHandler:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a6fe8 (   0x158) -[EMKOverlayViewAccessibility setView:anchorRect:] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a7140 (    0x94) +[AXEmojiKitGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a71d4 (     0x8) __47+[AXEmojiKitGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a71dc (    0x60) __47+[AXEmojiKitGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a723c (    0x14) __47+[AXEmojiKitGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002231a7250 (    0xb0) accessibilityLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000002231a7300 (   0x1e0) __TEXT __auth_stubs
+                0x00000002231a7300 (    0x10) DYLD-STUB$$AXPerformSafeBlock [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7310 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7320 (    0x10) DYLD-STUB$$UIAccessibilityPostNotification [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7330 (    0x10) DYLD-STUB$$__UIAccessibilityCastAsClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7340 (    0x10) DYLD-STUB$$__UIAccessibilitySafeClass [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7350 (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7360 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7370 (    0x10) DYLD-STUB$$objc_allocWithZone [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7380 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7390 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73a0 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73b0 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73c0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73d0 (    0x10) DYLD-STUB$$objc_release_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73e0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a73f0 (    0x10) DYLD-STUB$$objc_release_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7400 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7410 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7420 (    0x10) DYLD-STUB$$objc_release_x23 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7430 (    0x10) DYLD-STUB$$objc_release_x24 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7440 (    0x10) DYLD-STUB$$objc_release_x25 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7450 (    0x10) DYLD-STUB$$objc_release_x26 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7460 (    0x10) DYLD-STUB$$objc_release_x27 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7470 (    0x10) DYLD-STUB$$objc_release_x28 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7480 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a7490 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a74a0 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a74b0 (    0x10) DYLD-STUB$$objc_retain_x2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a74c0 (    0x10) DYLD-STUB$$objc_retain_x20 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000002231a74d0 (    0x10) DYLD-STUB$$objc_retain_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000002231a74e0 (    0xcc) __TEXT __objc_methlist
+                0x00000002231a74e0 (    0x30) _OBJC_$_CLASS_METHODS_EMKOverlayViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a7510 (    0x38) _OBJC_$_INSTANCE_METHODS_EMKEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x00000002231a7548 (    0x50) _OBJC_$_INSTANCE_METHODS_EMKOverlayViewAccessibility(SafeCategory) [NameNList, MangledNameNList, NList] 
+                0x00000002231a7598 (    0x14) _OBJC_$_CLASS_METHODS_AXEmojiKitGlue [NameNList, MangledNameNList, NList] 
+            0x00000002231a75b0 (    0x10) __TEXT __const
+            0x00000002231a75c0 (   0x137) __TEXT __cstring
+            0x00000002231a76f8 (    0x88) __TEXT __unwind_info
+            0x00000002231a7780 (    0x89) __TEXT __objc_classname
+            0x00000002231a780a (   0x3c9) __TEXT __objc_methname
+            0x00000002231a7bd3 (    0xe7) __TEXT __objc_methtype
+            0x00000002231a7cc0 (   0x340) __TEXT __objc_stubs
+                0x00000002231a7cc0 (    0x20) objc_msgSend$accessibilityElements [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7ce0 (    0x20) objc_msgSend$addObject: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7d00 (    0x20) objc_msgSend$array [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7d20 (    0x20) objc_msgSend$bundleForClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7d40 (    0x20) objc_msgSend$count [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7d60 (    0x20) objc_msgSend$dismiss [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7d80 (    0x20) objc_msgSend$firstObject [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7da0 (    0x20) objc_msgSend$init [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7dc0 (    0x20) objc_msgSend$initWithAccessibilityContainer: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7de0 (    0x20) objc_msgSend$installSafeCategory:canInteractWithTargetClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7e00 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7e20 (    0x20) objc_msgSend$objectAtIndex: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7e40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7e60 (    0x20) objc_msgSend$rectValue [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7e80 (    0x20) objc_msgSend$rowRange [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7ea0 (    0x20) objc_msgSend$safeValueForKey: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7ec0 (    0x20) objc_msgSend$setAccessibilityElements: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7ee0 (    0x20) objc_msgSend$setAccessibilityFrame: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7f00 (    0x20) objc_msgSend$setAccessibilityLabel: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7f20 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7f40 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7f60 (    0x20) objc_msgSend$setRowRange: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7f80 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7fa0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7fc0 (    0x20) objc_msgSend$validateClass: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000002231a7fe0 (    0x20) objc_msgSend$validateClass:hasInstanceMethod:withFullSignature: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x0000000238400d88 (   0x3d8) __DATA_CONST SEGMENT
+            0x0000000238400d88 (    0x20) __DATA_CONST __got
+            0x0000000238400da8 (    0x68) __DATA_CONST __const
+                0x0000000238400da8 (    0x28) __block_descriptor_40_e8_32s_e5_v8?0ls32l8 [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238400dd0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x0000000238400df0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000238400e10 (    0x28) __DATA_CONST __objc_classlist
+            0x0000000238400e38 (     0x8) __DATA_CONST __objc_imageinfo
+            0x0000000238400e40 (   0x1f0) __DATA_CONST __objc_const
+                0x0000000238400e40 (    0x48) _OBJC_METACLASS_RO_$_EMKEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x0000000238400e88 (    0x28) _OBJC_$_INSTANCE_VARIABLES_EMKEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x0000000238400eb0 (    0x18) _OBJC_$_PROP_LIST_EMKEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x0000000238400ec8 (    0x48) _OBJC_METACLASS_RO_$___EMKOverlayViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400f10 (    0x48) _OBJC_CLASS_RO_$___EMKOverlayViewAccessibility_super [NameNList, MangledNameNList, NList] 
+                0x0000000238400f58 (    0x48) _OBJC_METACLASS_RO_$_AXEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x0000000238400fa0 (    0x48) _OBJC_CLASS_RO_$_AXEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x0000000238400fe8 (    0x48) _OBJC_CLASS_RO_$_AXEmojiKitGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238401030 (   0x130) __DATA_CONST __objc_selrefs
+        0x0000000238401160 (   0x3f8) __AUTH_CONST SEGMENT
+            0x0000000238401160 (   0x120) __AUTH_CONST __objc_const
+                0x0000000238401160 (    0x48) _OBJC_CLASS_RO_$_EMKEmojiOverlayElement [NameNList, MangledNameNList, NList] 
+                0x00000002384011a8 (    0x48) _OBJC_METACLASS_RO_$_EMKOverlayViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x00000002384011f0 (    0x48) _OBJC_CLASS_RO_$_EMKOverlayViewAccessibility [NameNList, MangledNameNList, NList] 
+                0x0000000238401238 (    0x48) _OBJC_METACLASS_RO_$_AXEmojiKitGlue [NameNList, MangledNameNList, NList] 
+            0x0000000238401280 (   0x180) __AUTH_CONST __cfstring
+            0x0000000238401400 (    0x60) __AUTH_CONST __const
+                0x0000000238401400 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x0000000238401420 (    0x20) __block_literal_global.213 [NameNList, MangledNameNList, NList] 
+                0x0000000238401440 (    0x20) __block_literal_global.222 [NameNList, MangledNameNList, NList] 
+            0x0000000238401460 (    0xf8) __AUTH_CONST __auth_got
+        0x00000002336271f0 (   0x190) __AUTH SEGMENT
+            0x00000002336271f0 (   0x190) __AUTH __objc_data
+                0x00000002336271f0 (    0x28) OBJC_METACLASS_$_EMKEmojiOverlayElement [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627218 (    0x28) OBJC_CLASS_$_EMKEmojiOverlayElement [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627240 (    0x28) OBJC_METACLASS_$___EMKOverlayViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627268 (    0x28) OBJC_CLASS_$___EMKOverlayViewAccessibility_super [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627290 (    0x28) OBJC_CLASS_$_EMKOverlayViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336272b8 (    0x28) OBJC_METACLASS_$_EMKOverlayViewAccessibility [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002336272e0 (    0x28) OBJC_METACLASS_$_AXEmojiOverlayElement [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627308 (    0x28) OBJC_CLASS_$_AXEmojiOverlayElement [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627330 (    0x28) OBJC_CLASS_$_AXEmojiKitGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233627358 (    0x28) OBJC_METACLASS_$_AXEmojiKitGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231ba99d8 (    0x58) __DATA SEGMENT
+            0x0000000231ba99d8 (    0x38) __DATA __objc_classrefs
+            0x0000000231ba9a10 (     0x8) __DATA __objc_superrefs
+            0x0000000231ba9a18 (     0x4) __DATA __objc_ivar
+                0x0000000231ba9a18 (     0x4) OBJC_IVAR_$_EMKEmojiOverlayElement._rowRange [PEXT, NameNList, MangledNameNList, NList] 
+            0x0000000231ba9a20 (    0x10) __DATA __bss
+                0x0000000231ba9a20 (     0x8) _Failover [NameNList, MangledNameNList, NList] 
+                0x0000000231ba9a28 (     0x8) accessibilityLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

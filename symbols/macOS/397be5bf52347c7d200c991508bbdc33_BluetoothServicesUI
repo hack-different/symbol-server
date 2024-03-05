@@ -1,0 +1,7 @@
+/System/Library/PrivateFrameworks/BluetoothServicesUI.framework/Versions/A/BluetoothServicesUI [arm64e, 0.047389 seconds]:
+    88EF0154-E8E6-3837-89DB-7A5A200DD032 /System/Library/PrivateFrameworks/BluetoothServicesUI.framework/Versions/A/BluetoothServicesUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f5756000 (  0x4000) __TEXT SEGMENT
+            0x00000001f5756000 (  0x4000) MACH_HEADER
+        0x000000022e11c0f8 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e11c0f8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

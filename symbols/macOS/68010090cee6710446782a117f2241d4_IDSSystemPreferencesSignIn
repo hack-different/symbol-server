@@ -1,0 +1,22 @@
+/System/Library/PrivateFrameworks/IDSSystemPreferencesSignIn.framework/Versions/A/IDSSystemPreferencesSignIn [arm64e, 0.313122 seconds]:
+    7494F913-FB39-366E-BA1C-BB2F4F090516 /System/Library/PrivateFrameworks/IDSSystemPreferencesSignIn.framework/Versions/A/IDSSystemPreferencesSignIn [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000204394000 (  0x4000) __TEXT SEGMENT
+            0x0000000204394000 (  0x3e78) MACH_HEADER
+            0x0000000204397e78 (    0x68) __TEXT __text
+                0x0000000204397e78 (    0x68) IDSSignInAccountsWithSystemPreferencesCredentials [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000204397ee0 (    0x20) __TEXT __auth_stubs
+                0x0000000204397ee0 (    0x10) DYLD-STUB$$_os_log_impl [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000204397ef0 (    0x10) DYLD-STUB$$os_log_type_enabled [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000204397f00 (    0x58) __TEXT __const
+            0x0000000204397f58 (    0x2c) __TEXT __oslogstring
+            0x0000000204397f84 (    0x48) __TEXT __unwind_info
+            0x0000000204397fcc (     0xd) __TEXT __objc_methname
+            0x0000000204397fe0 (    0x20) __TEXT __objc_stubs
+        0x000000022e7bd2d8 (    0x10) __DATA_CONST SEGMENT
+            0x000000022e7bd2d8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e7bd2e0 (     0x8) __DATA_CONST __objc_selrefs
+        0x00000002375ce5d0 (    0x18) __AUTH_CONST SEGMENT
+            0x00000002375ce5d0 (    0x18) __AUTH_CONST __auth_got
+        0x0000000231112300 (     0x8) __DATA SEGMENT
+            0x0000000231112300 (     0x8) __DATA __objc_classrefs
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

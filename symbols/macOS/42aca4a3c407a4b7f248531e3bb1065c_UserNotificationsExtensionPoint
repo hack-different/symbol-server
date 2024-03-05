@@ -1,0 +1,8 @@
+/System/iOSSupport/System/Library/PrivateFrameworks/UserNotificationsExtensionPoint.framework/Versions/A/UserNotificationsExtensionPoint [arm64e, 0.027973 seconds]:
+    C8FE6AE0-D36E-38F4-BDC6-D535F87F454B /System/iOSSupport/System/Library/PrivateFrameworks/UserNotificationsExtensionPoint.framework/Versions/A/UserNotificationsExtensionPoint [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022ac5d000 (  0x1000) __TEXT SEGMENT
+            0x000000022ac5d000 (   0xfa8) MACH_HEADER
+            0x000000022ac5dfa8 (    0x58) __TEXT __const
+                0x000000022ac5dfa8 (    0x50) UserNotificationsExtensionPointVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022ac5dff8 (     0x8) UserNotificationsExtensionPointVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

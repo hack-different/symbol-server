@@ -1,0 +1,5 @@
+/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib [arm64e, 0.456186 seconds]:
+    411E46F0-DAF6-3800-869E-E7D9C43FF509 /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001942b2000 (  0x1000) __TEXT SEGMENT
+            0x00000001942b2000 (  0x1000) MACH_HEADER
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

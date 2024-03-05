@@ -1,0 +1,36 @@
+/usr/lib/swift/libswiftOpenCL.dylib [arm64e, 0.334285 seconds]:
+    D39EEF9F-D04B-3673-9F79-15FA4AE9E368 /usr/lib/swift/libswiftOpenCL.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022156d000 (  0x1000) __TEXT SEGMENT
+            0x000000022156d000 (   0xc04) MACH_HEADER
+            0x000000022156dc04 (   0x2f8) __TEXT __text
+                0x000000022156dc04 (    0x14) clSetKernelArgsListAPPLE(_:_:_:) [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022156dc18 (   0x1ec) specialized withVaList<A>(_:_:) [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022156de04 (    0x64) outlined init with copy of CVarArg [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022156de68 (    0x44) __swift_project_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022156deac (    0x50) __swift_destroy_boxed_opaque_existential_1 [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022156defc (    0xa0) __TEXT __auth_stubs
+                0x000000022156defc (    0x10) DYLD-STUB$$__VaListBuilder.deallocStorage(wordCount:storage:) [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df0c (    0x10) DYLD-STUB$$__VaListBuilder.va_list() [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df1c (    0x10) DYLD-STUB$$type metadata accessor for __VaListBuilder [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df2c (    0x10) DYLD-STUB$$dispatch thunk of CVarArg._cVarArgEncoding.getter [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df3c (    0x10) DYLD-STUB$$clSetKernelArgsVaListAPPLE [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df4c (    0x10) DYLD-STUB$$memmove [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df5c (    0x10) DYLD-STUB$$swift_allocObject [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df6c (    0x10) DYLD-STUB$$swift_bridgeObjectRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df7c (    0x10) DYLD-STUB$$swift_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022156df8c (    0x10) DYLD-STUB$$swift_slowAlloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022156df9c (     0x8) __TEXT __const
+                0x000000022156dfa2 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022156dfa4 (    0x5c) __TEXT __unwind_info
+        0x000000022e844fa0 (    0x20) __DATA_CONST SEGMENT
+            0x000000022e844fa0 (    0x18) __DATA_CONST __const
+                0x000000022e844fa0 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$_OpenCL [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844fa8 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$_OpenCL [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e844fb0 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$_OpenCL [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e844fb8 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023831b440 (    0x50) __AUTH_CONST SEGMENT
+            0x000000023831b440 (    0x50) __AUTH_CONST __auth_got
+        0x0000000231b66a00 (     0x1) __DATA SEGMENT
+            0x0000000231b66a00 (     0x1) __DATA __common
+                0x0000000231b66a00 (     0x1) _swift_FORCE_LOAD_$_swiftOpenCL [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

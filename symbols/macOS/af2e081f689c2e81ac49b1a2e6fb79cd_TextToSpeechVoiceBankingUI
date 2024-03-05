@@ -1,0 +1,8 @@
+/System/iOSSupport/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingUI.framework/Versions/A/TextToSpeechVoiceBankingUI [arm64e, 0.028104 seconds]:
+    55CC4D61-FC4E-32F4-9EEB-0D75F28AAB9B /System/iOSSupport/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingUI.framework/Versions/A/TextToSpeechVoiceBankingUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022aa85000 (  0x1000) __TEXT SEGMENT
+            0x000000022aa85000 (   0xfb8) MACH_HEADER
+            0x000000022aa85fb8 (    0x48) __TEXT __const
+                0x000000022aa85fb8 (    0x40) TextToSpeechVoiceBankingUIVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x000000022aa85ff8 (     0x8) TextToSpeechVoiceBankingUIVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

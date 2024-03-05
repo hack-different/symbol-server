@@ -1,0 +1,88 @@
+/System/Library/QuickLook/iWork.qlgenerator/Contents/Frameworks/TQQuicklook.framework/Versions/A/TQQuicklook [arm64e, 0.027393 seconds]:
+    468BEABB-3E31-3284-B8AF-F0C679856BF5 /System/Library/QuickLook/iWork.qlgenerator/Contents/Frameworks/TQQuicklook.framework/Versions/A/TQQuicklook [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000021df3b000 (  0x8000) __TEXT SEGMENT
+            0x000000021df3b000 (  0x4900) MACH_HEADER
+            0x000000021df3f900 (  0x17d8) __TEXT __text
+                0x000000021df3f900 (    0x84) (null) [FUNC, FunctionStarts] 
+                0x000000021df3f984 (    0xb0) (null) [FUNC, FunctionStarts] 
+                0x000000021df3fa34 (   0x5ac) (null) [FUNC, FunctionStarts] 
+                0x000000021df3ffe0 (    0x80) (null) [FUNC, FunctionStarts] 
+                0x000000021df40060 (    0xb0) (null) [FUNC, FunctionStarts] 
+                0x000000021df40110 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x000000021df401cc (   0x1e4) (null) [FUNC, FunctionStarts] 
+                0x000000021df403b0 (    0x5c) (null) [FUNC, FunctionStarts] 
+                0x000000021df4040c (     0x8) (null) [FUNC, FunctionStarts] 
+                0x000000021df40414 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x000000021df40444 (    0x9c) (null) [FUNC, FunctionStarts] 
+                0x000000021df404e0 (    0x94) (null) [FUNC, FunctionStarts] 
+                0x000000021df40574 (    0xbc) (null) [FUNC, FunctionStarts] 
+                0x000000021df40630 (    0xe8) (null) [FUNC, FunctionStarts] 
+                0x000000021df40718 (   0x140) (null) [FUNC, FunctionStarts] 
+                0x000000021df40858 (   0x128) (null) [FUNC, FunctionStarts] 
+                0x000000021df40980 (   0x394) (null) [FUNC, FunctionStarts] 
+                0x000000021df40d14 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x000000021df40d48 (   0x260) (null) [FUNC, FunctionStarts] 
+                0x000000021df40fa8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x000000021df40fb8 (     0xc) (null) [FUNC, FunctionStarts] 
+                0x000000021df40fc4 (    0x80) (null) [FUNC, FunctionStarts] 
+                0x000000021df41044 (    0x50) (null) [FUNC, FunctionStarts] 
+                0x000000021df41094 (    0x44) (null) [FUNC, FunctionStarts] 
+            0x000000021df410d8 (   0x150) __TEXT __auth_stubs
+                0x000000021df410d8 (    0x10) DYLD-STUB$$CFMakeCollectable [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df410e8 (    0x10) DYLD-STUB$$LSCopyApplicationURLsForBundleIdentifier [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df410f8 (    0x10) DYLD-STUB$$NSLog [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41108 (    0x10) DYLD-STUB$$TSUDynamicCast [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41118 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41128 (    0x10) DYLD-STUB$$_Block_object_dispose [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41138 (    0x10) DYLD-STUB$$_Unwind_Resume [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41148 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41158 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41168 (    0x10) DYLD-STUB$$objc_alloc_init [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41178 (    0x10) DYLD-STUB$$objc_autorelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41188 (    0x10) DYLD-STUB$$objc_autoreleasePoolPop [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41198 (    0x10) DYLD-STUB$$objc_autoreleasePoolPush [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411a8 (    0x10) DYLD-STUB$$objc_begin_catch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411b8 (    0x10) DYLD-STUB$$objc_end_catch [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411c8 (    0x10) DYLD-STUB$$objc_enumerationMutation [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411d8 (    0x10) DYLD-STUB$$objc_msgSendSuper2 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411e8 (    0x10) DYLD-STUB$$objc_opt_class [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df411f8 (    0x10) DYLD-STUB$$objc_opt_respondsToSelector [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41208 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000021df41218 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000021df41228 (    0xf8) __TEXT __objc_methlist
+            0x000000021df41320 (    0xc0) __TEXT __gcc_except_tab
+            0x000000021df413e0 (    0x10) __TEXT __const
+            0x000000021df413f0 (   0x3ae) __TEXT __cstring
+            0x000000021df417a0 (    0xd0) __TEXT __unwind_info
+            0x000000021df41870 (    0x38) __TEXT __objc_classname
+            0x000000021df418a8 (   0xa10) __TEXT __objc_methname
+            0x000000021df422b8 (   0x1c5) __TEXT __objc_methtype
+            0x000000021df42480 (   0xb80) __TEXT __objc_stubs
+        0x000000023822dd18 (   0x7f8) __DATA_CONST SEGMENT
+            0x000000023822dd18 (    0x20) __DATA_CONST __got
+            0x000000023822dd38 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023822dd40 (    0x10) __DATA_CONST __objc_protolist
+            0x000000023822dd50 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023822dd58 (   0x478) __DATA_CONST __objc_const
+            0x000000023822e1d0 (   0x340) __DATA_CONST __objc_selrefs
+        0x000000023822e510 (   0x558) __AUTH_CONST SEGMENT
+            0x000000023822e510 (   0x3e0) __AUTH_CONST __cfstring
+            0x000000023822e8f0 (    0x90) __AUTH_CONST __objc_const
+            0x000000023822e980 (    0x30) __AUTH_CONST __const
+            0x000000023822e9b0 (    0xb8) __AUTH_CONST __auth_got
+        0x000000023329a570 (    0x50) __AUTH SEGMENT
+            0x000000023329a570 (    0x50) __AUTH __objc_data
+                0x000000023329a570 (    0x28) OBJC_CLASS_$_TQQuicklook [EXT, NameNList, MangledNameNList, NList] 
+                0x000000023329a598 (    0x28) OBJC_METACLASS_$_TQQuicklook [EXT, NameNList, MangledNameNList, NList] 
+        0x00000002319c8110 (   0x1b8) __DATA SEGMENT
+            0x00000002319c8110 (    0xd0) __DATA __objc_classrefs
+            0x00000002319c81e0 (     0x8) __DATA __objc_superrefs
+            0x00000002319c81e8 (    0x20) __DATA __objc_ivar
+                0x00000002319c81e8 (     0x4) OBJC_IVAR_$_TQQuicklook.mPath [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002319c81ec (     0x4) OBJC_IVAR_$_TQQuicklook.mDocument [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002319c81f0 (     0x4) OBJC_IVAR_$_TQQuicklook.mBaseAppDelegate [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002319c81f4 (     0x4) OBJC_IVAR_$_TQQuicklook.mTemporaryDirectory [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002319c81f8 (     0x4) OBJC_IVAR_$_TQQuicklook.mPassphrase [EXT, NameNList, MangledNameNList, NList] 
+                0x00000002319c81fc (     0xc) OBJC_IVAR_$_TQQuicklook.mExporter [EXT, NameNList, MangledNameNList, NList] 
+            0x00000002319c8208 (    0xc0) __DATA __data
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

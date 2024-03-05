@@ -1,0 +1,8 @@
+/usr/lib/libktrace.dylib [arm64e, 0.031650 seconds]:
+    68720137-3CAE-3B61-A6B6-7269A78E0552 /usr/lib/libktrace.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001caba0000 (  0x4000) __TEXT SEGMENT
+            0x00000001caba0000 (  0x3fc8) MACH_HEADER
+            0x00000001caba3fc8 (    0x38) __TEXT __const
+                0x00000001caba3fc8 (    0x30) __ktraceVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001caba3ff8 (     0x8) __ktraceVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

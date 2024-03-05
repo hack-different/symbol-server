@@ -1,0 +1,10 @@
+/usr/lib/libcharset.1.dylib [arm64e, 0.101468 seconds]:
+    6381D840-E227-3B3F-9506-80CDC1FE7A47 /usr/lib/libcharset.1.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000018cc73000 (  0x4000) __TEXT SEGMENT
+            0x000000018cc73000 (  0x3fa0) MACH_HEADER
+            0x000000018cc76fa0 (    0x10) __TEXT __text
+                0x000000018cc76fa0 (     0xc) locale_charset [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000018cc76fac (     0x4) libcharset_set_relocation_prefix [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000018cc76fb0 (     0x6) __TEXT __cstring
+            0x000000018cc76fb8 (    0x48) __TEXT __unwind_info
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

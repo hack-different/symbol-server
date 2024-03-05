@@ -1,0 +1,75 @@
+/System/iOSSupport/System/Library/AccessibilityBundles/WebUI.axbundle/Contents/MacOS/WebUI [arm64e, 0.028751 seconds]:
+    935A421E-4480-33F7-B623-10170382D292 /System/iOSSupport/System/Library/AccessibilityBundles/WebUI.axbundle/Contents/MacOS/WebUI [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x000000022360c000 (  0x2000) __TEXT SEGMENT
+            0x000000022360c000 (  0x1850) MACH_HEADER
+            0x000000022360d850 (   0x2f0) __TEXT __text
+                0x000000022360d850 (    0x28) +[AXWebUIGlue accessibilityInitializeBundle] [FUNC, OBJC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360d878 (    0x64) __44+[AXWebUIGlue accessibilityInitializeBundle]_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360d8dc (    0x60) __44+[AXWebUIGlue accessibilityInitializeBundle]_block_invoke_3 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360d93c (     0x4) __44+[AXWebUIGlue accessibilityInitializeBundle]_block_invoke_4 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360d940 (    0xd0) accessibilityMobileSafariLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360da10 (    0xd0) accessibilitySafariServicesLocalizedString [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360dae0 (     0x8) __44+[AXWebUIGlue accessibilityInitializeBundle]_block_invoke_2 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360dae8 (    0x2c) accessibilityMobileSafariLocalizedString.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022360db14 (    0x2c) accessibilitySafariServicesLocalizedString.cold.1 [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x000000022360db40 (    0xd0) __TEXT __auth_stubs
+                0x000000022360db40 (    0x10) DYLD-STUB$$AXAccessibilityBundlesDirectory [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360db50 (    0x10) DYLD-STUB$$AXPerformValidationChecks [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360db60 (    0x10) DYLD-STUB$$__assert_rtn [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360db70 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360db80 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360db90 (    0x10) DYLD-STUB$$objc_claimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dba0 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dbb0 (    0x10) DYLD-STUB$$objc_release_x19 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dbc0 (    0x10) DYLD-STUB$$objc_release_x21 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dbd0 (    0x10) DYLD-STUB$$objc_release_x22 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dbe0 (    0x10) DYLD-STUB$$objc_release_x8 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dbf0 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x000000022360dc00 (    0x10) DYLD-STUB$$objc_retain_x1 [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x000000022360dc10 (    0x14) __TEXT __objc_methlist
+                0x000000022360dc10 (    0x14) _OBJC_$_CLASS_METHODS_AXWebUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000022360dc24 (   0x132) __TEXT __cstring
+            0x000000022360dd58 (    0x6c) __TEXT __unwind_info
+            0x000000022360ddc4 (     0xc) __TEXT __objc_classname
+            0x000000022360ddd0 (   0x127) __TEXT __objc_methname
+            0x000000022360def7 (     0x8) __TEXT __objc_methtype
+            0x000000022360df00 (   0x100) __TEXT __objc_stubs
+                0x000000022360df00 (    0x20) objc_msgSend$bundleWithPath: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360df20 (    0x20) objc_msgSend$localizedStringForKey:value:table: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360df40 (    0x20) objc_msgSend$performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360df60 (    0x20) objc_msgSend$setDebugBuild: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360df80 (    0x20) objc_msgSend$setOverrideProcessName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360dfa0 (    0x20) objc_msgSend$setValidationTargetName: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360dfc0 (    0x20) objc_msgSend$sharedInstance [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022360dfe0 (    0x20) objc_msgSend$stringByAppendingPathComponent: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x000000023850f680 (   0x100) __DATA_CONST SEGMENT
+            0x000000023850f680 (    0x60) __DATA_CONST __const
+                0x000000023850f680 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023850f6a0 (    0x20) __block_descriptor_32_e29_B16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000023850f6c0 (    0x20) __block_descriptor_32_e29_v16?0"AXValidationManager"8l [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000023850f6e0 (     0x8) __DATA_CONST __objc_classlist
+            0x000000023850f6e8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000023850f6f0 (    0x48) __DATA_CONST __objc_const
+                0x000000023850f6f0 (    0x48) _OBJC_CLASS_RO_$_AXWebUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000023850f738 (    0x48) __DATA_CONST __objc_selrefs
+        0x000000023850f780 (   0x218) __AUTH_CONST SEGMENT
+            0x000000023850f780 (    0xe0) __AUTH_CONST __cfstring
+            0x000000023850f860 (    0x80) __AUTH_CONST __const
+                0x000000023850f860 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+                0x000000023850f880 (    0x20) __block_literal_global.214 [NameNList, MangledNameNList, NList] 
+                0x000000023850f8a0 (    0x20) __block_literal_global.216 [NameNList, MangledNameNList, NList] 
+                0x000000023850f8c0 (    0x20) __block_literal_global.225 [NameNList, MangledNameNList, NList] 
+            0x000000023850f8e0 (    0x48) __AUTH_CONST __objc_const
+                0x000000023850f8e0 (    0x48) _OBJC_METACLASS_RO_$_AXWebUIGlue [NameNList, MangledNameNList, NList] 
+            0x000000023850f928 (    0x70) __AUTH_CONST __auth_got
+        0x0000000233665dd0 (    0x50) __AUTH SEGMENT
+            0x0000000233665dd0 (    0x50) __AUTH __objc_data
+                0x0000000233665dd0 (    0x28) OBJC_METACLASS_$_AXWebUIGlue [EXT, NameNList, MangledNameNList, NList] 
+                0x0000000233665df8 (    0x28) OBJC_CLASS_$_AXWebUIGlue [EXT, NameNList, MangledNameNList, NList] 
+        0x0000000231bb0398 (    0x28) __DATA SEGMENT
+            0x0000000231bb0398 (    0x10) __DATA __objc_classrefs
+            0x0000000231bb03a8 (    0x18) __DATA __bss
+                0x0000000231bb03a8 (     0x8) accessibilityMobileSafariLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+                0x0000000231bb03b0 (     0x8) accessibilitySafariServicesLocalizedString.axBundle [NameNList, MangledNameNList, NList] 
+                0x0000000231bb03b8 (     0x8) accessibilityInitializeBundle.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

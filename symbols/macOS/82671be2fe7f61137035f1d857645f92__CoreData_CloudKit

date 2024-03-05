@@ -1,0 +1,52 @@
+/System/Library/Frameworks/_CoreData_CloudKit.framework/Versions/A/_CoreData_CloudKit [arm64e, 0.148090 seconds]:
+    A775AED8-307C-3A71-880E-CB6663745516 /System/Library/Frameworks/_CoreData_CloudKit.framework/Versions/A/_CoreData_CloudKit [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f24f9000 (   0xffc) __TEXT SEGMENT
+            0x00000001f24f9000 (   0xce4) MACH_HEADER
+            0x00000001f24f9ce4 (   0x204) __TEXT __text
+                0x00000001f24f9ce4 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9cf4 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9d28 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9d3c (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9d50 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9da8 (    0x30) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9dd8 (    0x10) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9de8 (    0x34) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9e1c (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9e30 (    0x14) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9e44 (    0x58) (null) [FUNC, FunctionStarts] 
+                0x00000001f24f9e9c (    0x4c) (null) [FUNC, FunctionStarts] 
+            0x00000001f24f9ee8 (    0x30) __TEXT __auth_stubs
+                0x00000001f24f9ee8 (    0x10) DYLD-STUB$$free [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f24f9ef8 (    0x10) DYLD-STUB$$malloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001f24f9f08 (    0x10) DYLD-STUB$$objc_msgSend [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001f24f9f18 (    0x52) __TEXT __const
+                0x00000001f24f9f18 (    0x48) _CoreData_CloudKitVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f24f9f60 (     0x8) _CoreData_CloudKitVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001f24f9f68 (     0x2) __swift_reflection_version [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001f24f9f6c (    0x70) __TEXT __unwind_info
+            0x00000001f24f9fdc (    0x20) __TEXT __objc_methname
+        0x000000022e0f4510 (    0xc8) __DATA_CONST SEGMENT
+            0x000000022e0f4510 (    0xb0) __DATA_CONST __const
+                0x000000022e0f4510 (     0x8) _swift_FORCE_LOAD_$_swiftos_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4518 (     0x8) _swift_FORCE_LOAD_$_swiftObjectiveC_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4520 (     0x8) _swift_FORCE_LOAD_$_swiftDarwin_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4528 (     0x8) _swift_FORCE_LOAD_$_swiftXPC_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4530 (     0x8) _swift_FORCE_LOAD_$_swiftDispatch_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4538 (     0x8) _swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4540 (     0x8) _swift_FORCE_LOAD_$_swiftFoundation_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4548 (     0x8) _swift_FORCE_LOAD_$_swiftCoreFoundation_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4550 (     0x8) _swift_FORCE_LOAD_$_swiftIOKit_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4558 (     0x8) _swift_FORCE_LOAD_$_swiftCoreLocation_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4560 (     0x8) _swift_FORCE_LOAD_$_swiftAVFoundation_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4568 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMedia_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4570 (     0x8) _swift_FORCE_LOAD_$_swiftMetal_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4578 (     0x8) _swift_FORCE_LOAD_$_swiftCoreGraphics_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4580 (     0x8) _swift_FORCE_LOAD_$_swiftCoreAudio_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4588 (     0x8) _swift_FORCE_LOAD_$_swiftQuartzCore_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4590 (     0x8) _swift_FORCE_LOAD_$_swiftCoreMIDI_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+                0x000000022e0f4598 (    0x28) _swift_FORCE_LOAD_$_swiftsimd_$__CoreData_CloudKit [PEXT, NameNList, MangledNameNList, NList] 
+            0x000000022e0f45c0 (     0x8) __DATA_CONST __objc_imageinfo
+            0x000000022e0f45c8 (    0x10) __DATA_CONST __objc_selrefs
+        0x000000023694bb70 (    0x18) __AUTH_CONST SEGMENT
+            0x000000023694bb70 (    0x18) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

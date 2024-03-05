@@ -1,0 +1,81 @@
+/System/Library/PrivateFrameworks/AOSAccountsLite.framework/Versions/A/AOSAccountsLite [arm64e, 0.026667 seconds]:
+    67A02E46-DA6A-3711-A92D-3F02BF78B298 /System/Library/PrivateFrameworks/AOSAccountsLite.framework/Versions/A/AOSAccountsLite [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001b6a63000 (  0x4000) __TEXT SEGMENT
+            0x00000001b6a63000 (  0x31c8) MACH_HEADER
+            0x00000001b6a661c8 (   0x9a0) __TEXT __text
+                0x00000001b6a661c8 (   0x184) MMLAccountLogin [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a6634c (   0x12c) __MMLAccountLogin_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66478 (    0x10) __copy_helper_block_e8_32b [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66488 (     0x8) __destroy_helper_block_e8_32s [FUNC, PEXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66490 (    0x94) MMLCopyLoggedInAccount [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66524 (    0x84) _copyBagAccountProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a665a8 (    0xb0) MMLAccountIsVetted [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66658 (   0x10c) MMLAccountCopyProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66764 (    0xb8) MMLServiceCopyProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a6681c (    0xa8) _copyBagServiceProperty [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a668c4 (   0x1a8) MMLCopyMailActivationInfo [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66a6c (    0x3c) _getBag [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66aa8 (    0x4c) _useFullAOSAccounts [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000001b6a66af4 (    0x74) ___useFullAOSAccounts_block_invoke [FUNC, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x00000001b6a66b68 (   0x170) __TEXT __auth_stubs
+                0x00000001b6a66b68 (    0x10) DYLD-STUB$$AOSAccountCreate [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66b78 (    0x10) DYLD-STUB$$AOSKGetEmailAddress [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66b88 (    0x10) DYLD-STUB$$AOSTransactionGetError [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66b98 (    0x10) DYLD-STUB$$AOSTransactionGetResult [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66ba8 (    0x10) DYLD-STUB$$AOSTransactionSuccessful [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66bb8 (    0x10) DYLD-STUB$$CFBooleanGetValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66bc8 (    0x10) DYLD-STUB$$CFPreferencesCopyValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66bd8 (    0x10) DYLD-STUB$$CFRelease [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66be8 (    0x10) DYLD-STUB$$CFRetain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66bf8 (    0x10) DYLD-STUB$$CFStringCompare [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c08 (    0x10) DYLD-STUB$$_AOSAccountPerformDelegateLogin [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c18 (    0x10) DYLD-STUB$$_Block_object_assign [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c28 (    0x10) DYLD-STUB$$__stack_chk_fail [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c38 (    0x10) DYLD-STUB$$dispatch_get_global_queue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c48 (    0x10) DYLD-STUB$$dispatch_once [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c58 (    0x10) DYLD-STUB$$dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c68 (    0x10) DYLD-STUB$$dlsym [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c78 (    0x10) DYLD-STUB$$objc_alloc [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c88 (    0x10) DYLD-STUB$$objc_autoreleaseReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66c98 (    0x10) DYLD-STUB$$objc_release [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66ca8 (    0x10) DYLD-STUB$$objc_retain [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66cb8 (    0x10) DYLD-STUB$$objc_retainAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66cc8 (    0x10) DYLD-STUB$$objc_unsafeClaimAutoreleasedReturnValue [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x00000001b6a66cd8 (    0x48) __TEXT __const
+                0x00000001b6a66cd8 (    0x38) AOSAccountsLiteVersionString [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66d10 (    0x10) AOSAccountsLiteVersionNumber [EXT, NameNList, MangledNameNList, NList] 
+            0x00000001b6a66d20 (   0x16c) __TEXT __cstring
+            0x00000001b6a66e8c (    0x74) __TEXT __unwind_info
+            0x00000001b6a66f00 (     0xf) __TEXT __objc_classname
+            0x00000001b6a66f10 (    0x70) __TEXT __objc_methname
+            0x00000001b6a66f80 (    0x80) __TEXT __objc_stubs
+                0x00000001b6a66f80 (    0x20) objc_msgSend$dictionaryWithObjects:forKeys:count: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66fa0 (    0x20) objc_msgSend$initWithContentsOfFile: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66fc0 (    0x20) objc_msgSend$objectForKeyedSubscript: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001b6a66fe0 (    0x20) objc_msgSend$writeToFile:atomically: [FUNC, PEXT, NameNList, MangledNameNList, NList] 
+        0x00000001decd1120 (   0x150) __DATA_CONST SEGMENT
+            0x00000001decd1120 (    0x70) __DATA_CONST __got
+            0x00000001decd1190 (    0x20) __DATA_CONST __const
+                0x00000001decd1190 (    0x20) __block_descriptor_32_e5_v8?0l [PEXT, NameNList, MangledNameNList, NList] 
+            0x00000001decd11b0 (     0x8) __DATA_CONST __objc_classlist
+            0x00000001decd11b8 (     0x8) __DATA_CONST __objc_imageinfo
+            0x00000001decd11c0 (    0x90) __DATA_CONST __objc_const
+                0x00000001decd11c0 (    0x48) _OBJC_METACLASS_RO_$_AOSAccountLite [NameNList, MangledNameNList, NList] 
+                0x00000001decd1208 (    0x48) _OBJC_CLASS_RO_$_AOSAccountLite [NameNList, MangledNameNList, NList] 
+            0x00000001decd1250 (    0x20) __DATA_CONST __objc_selrefs
+        0x00000001decd1270 (   0x210) __AUTH_CONST SEGMENT
+            0x00000001decd1270 (   0x100) __AUTH_CONST __cfstring
+            0x00000001decd1370 (    0x50) __AUTH_CONST __const
+                0x00000001decd1370 (    0x30) __block_descriptor_40_e8_32bs_e26_v16?0^{AOSTransactionC=}8l [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001decd13a0 (    0x20) __block_literal_global [NameNList, MangledNameNList, NList] 
+            0x00000001decd13c0 (    0xc0) __AUTH_CONST __auth_got
+        0x00000001d799c150 (    0x50) __AUTH SEGMENT
+            0x00000001d799c150 (    0x50) __AUTH __objc_data
+                0x00000001d799c150 (    0x28) OBJC_METACLASS_$_AOSAccountLite [EXT, NameNList, MangledNameNList, NList] 
+                0x00000001d799c178 (    0x28) OBJC_CLASS_$_AOSAccountLite [EXT, NameNList, MangledNameNList, NList] 
+        0x00000001d6636270 (    0x18) __DATA SEGMENT
+            0x00000001d6636270 (     0x8) __DATA __objc_classrefs
+            0x00000001d6636278 (    0x10) __DATA __bss
+                0x00000001d6636278 (     0x8) AOSAccountsLib [NameNList, MangledNameNList, NList] 
+                0x00000001d6636280 (     0x8) _useFullAOSAccounts.onceToken [NameNList, MangledNameNList, NList] 
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

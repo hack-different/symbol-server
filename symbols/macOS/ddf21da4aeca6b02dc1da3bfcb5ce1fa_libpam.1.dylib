@@ -1,0 +1,45 @@
+/usr/lib/libpam.1.dylib [arm64e, 0.045362 seconds]:
+    ADD7C022-AFBD-3940-8DE7-E95C2D77D02C /usr/lib/libpam.1.dylib [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x0000000221200000 (  0x4000) __TEXT SEGMENT
+            0x0000000221200000 (  0x32e0) MACH_HEADER
+            0x00000002212032e0 (   0xa8c) __TEXT __text
+                0x00000002212032e0 (    0x10) xlate_pam_shim_authenticate_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212032f0 (    0x14) xlate_pam_shim_chauthtok_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203304 (     0xc) xlate_pam_shim_session_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203310 (     0x8) xlate_pam_shim_setcred_flags [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203318 (    0x24) xlate_pam_shim_retval [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022120333c (     0x4) xlate_pam_shim_item_type [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203340 (    0x34) dlfailure [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203374 (    0x8c) pam_start [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203400 (    0x74) pam_end [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203474 (    0x7c) pam_authenticate [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212034f0 (    0x7c) pam_setcred [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022120356c (    0x7c) pam_acct_mgmt [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212035e8 (    0x80) pam_chauthtok [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203668 (    0x78) pam_open_session [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212036e0 (    0x78) pam_close_session [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203758 (    0x84) pam_set_item [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212037dc (    0x84) pam_get_item [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203860 (    0x8c) misc_conv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212038ec (    0x70) pam_strerror [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x000000022120395c (    0x74) pam_putenv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x00000002212039d0 (    0x70) pam_getenv [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203a40 (    0x68) pam_getenvlist [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203aa8 (    0x84) pam_get_data [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203b2c (    0x8c) pam_set_data [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203bb8 (    0x84) pam_get_user [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203c3c (    0x9c) pam_prompt [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+                0x0000000221203cd8 (    0x94) pam_get_pass [FUNC, EXT, NameNList, MangledNameNList, Merged, NList, FunctionStarts] 
+            0x0000000221203d6c (    0x50) __TEXT __auth_stubs
+                0x0000000221203d6c (    0x10) DYLD-STUB$$abort [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221203d7c (    0x10) DYLD-STUB$$dlerror [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221203d8c (    0x10) DYLD-STUB$$dlopen [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221203d9c (    0x10) DYLD-STUB$$dlsym [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+                0x0000000221203dac (    0x10) DYLD-STUB$$syslog$DARWIN_EXTSN [DYLD-STUB, LENGTH, NameNList, MangledNameNList, NList] 
+            0x0000000221203dbc (    0x90) __TEXT __const
+                0x0000000221203dbc (    0x90) libopenpam [EXT, NameNList, MangledNameNList, NList] 
+            0x0000000221203e4c (   0x14b) __TEXT __cstring
+            0x0000000221203f98 (    0x68) __TEXT __unwind_info
+        0x00000002382f3d78 (    0x28) __AUTH_CONST SEGMENT
+            0x00000002382f3d78 (    0x28) __AUTH_CONST __auth_got
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT

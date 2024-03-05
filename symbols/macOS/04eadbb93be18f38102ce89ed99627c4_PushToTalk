@@ -1,0 +1,10 @@
+/System/Library/Frameworks/PushToTalk.framework/Versions/A/PushToTalk [arm64e, 0.098025 seconds]:
+    3F5B2C57-DD37-30F6-AF11-AD8B330D5CAF /System/Library/Frameworks/PushToTalk.framework/Versions/A/PushToTalk [DYLIB, DYLDSHAREDCACHE, FaultedFromDiskDyldSharedCache, MMap64]  
+        0x00000001f0cec000 (  0x4000) __TEXT SEGMENT
+            0x00000001f0cec000 (  0x3fc8) MACH_HEADER
+            0x00000001f0ceffc8 (    0x38) __TEXT __const
+                0x00000001f0ceffc8 (    0x30) PushToTalkVersionString [PEXT, NameNList, MangledNameNList, NList] 
+                0x00000001f0cefff8 (     0x8) PushToTalkVersionNumber [PEXT, NameNList, MangledNameNList, NList] 
+        0x000000022e0ee9a0 (     0x8) __DATA_CONST SEGMENT
+            0x000000022e0ee9a0 (     0x8) __DATA_CONST __objc_imageinfo
+        0x000000023a910000 (0x37bf0000) __LINKEDIT SEGMENT
